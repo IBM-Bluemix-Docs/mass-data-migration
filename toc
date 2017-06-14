@@ -1,0 +1,17 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Mass Data Migration" audience="services" href="/docs/infrastructure/mass-data-migration/index.html}
+IBM Bluemix Mass Data Migration
+
+    {: .navgroup id="learn"}
+    index.md
+    {: .navgroup-end}
+    
+    {: .navgroup id="howto"}
+    beta-user-instructions.md
+    shipping_checklist.md
+    {: .navgroup-end}
+
+    
+{: .navgroup-end}
