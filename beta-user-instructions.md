@@ -18,7 +18,7 @@ lastupdated: "2017-06-14"
 3.	Determine the most appropriate place for the device to be placed where it will reach both power and your 10GbE connection that will minimize foot traffic.  The ability to rack the device is high on our list of things to complete before GA.
 
 4.	Open the lid on the device, tip the device on its right side, and remove it from the portable case using the two finger loops (pictured).  The device is pressure fit into the case.  The device is to be removed to maximize airflow and cooling.
-    ![Top of Device](/images/userguide1.png)
+    ![Top of Device](/images/UserGuide1.png)
 
 5.	Position the device to be connected.  Ensure the device is at room temperature and there is no condensation on it, the connect power and power on the device using the provided power cable underneath the case lid.  There are two power switches (shown below). Let the device boot for 5 minutes without network connectivity.
     < Add image >
