@@ -21,23 +21,31 @@ lastupdated: "2017-06-16"
     ![Top of Device](/images/UserGuide1.png)
 
 5.	Position the device to be connected.  Ensure the device is at room temperature and there is no condensation on it. Connect power using the provided power cable underneath the case lid and power on the device. 
+
   **Note**: There are two power switches. 
   ![Power switches](/images/UserGuide2.jpg) 
+  
   Let the device boot for 5 minutes without network connectivity.
  
 6.	Remove the CAT6A cable from the case lid and connect it to the port shown in the picture below.
     ![](/images/UserGuide3.jpg)
+    
 
 7.	Connect the provided CAT6A to SFP+ adapter and connect to your 10Gb switch.
 
 8.	Point your browser (not Chrome) and enter HTTPS://youreth3ip  
 
-Note that Chrome as recently changed support for self-signed certs.  GA product will have dedicated certs. https://productforums.google.com/forum/#!topic/chrome/su0hEzupG1Q;context-place=topicsearchin/chrome/category%243Aim-not-sure
+  **Note**: Chrome has recently changed support for self-signed certs. GA product will have dedicated certs. https://productforums.google.com/forum/#!topic/chrome/su0hEzupG1Q;context-place=topicsearchin/chrome/category%243Aim-not-sure
 
-9.	Login using the provided User and Password
+9.	Log in using the provided Username and Password.
 
-10.	Activate the pre-configured storage pool by expanding Storage Pools, Click on DefaultPool to select it, Click on Start, then enter your storage pool password and click OK. 
-    < Add image >
+10.	Activate the pre-configured storage pool:
+    - Expand Storage Pools.
+    - Click on DefaultPool to select it. 
+    - Click on Start, 
+    - Enter your Storage Pool Password and click OK. 
+    ![Activate Storage Pool](/images/UserGuide4.png)
+    
 
 11.	Once the storage pool is enabled the NFS share should be available for mounting.
 
@@ -46,7 +54,7 @@ Note that Chrome as recently changed support for self-signed certs.  GA product 
 13.	Monitor inbound load on Eth3 from GUI.
 
 14.	When the load is complete, gracefully power down the system.  
-    < Add image >
+    ![Right Click on Storage Systems and select Shutdown Storage System...](/images/UserGuide5.jpg)
  
 15.	Disconnect the device, return the power cable, Ethernet cable, and SFP+ adapter into their respective storage locations under the lid.  
 
