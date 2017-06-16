@@ -19,7 +19,7 @@ lastupdated: "2017-06-16"
 
 4.	Open the lid on the device, tip the device on its right side, and remove it from the portable case using the two finger loops.  
     ![Top of Device](/images/UserGuide1.png)
-    The device is pressure fit into the case.  The device need to be removed to maximize airflow and cooling.
+    The device is pressure fit into the case.  The device needs to be removed to maximize airflow and cooling.
     
 
 5.	Position the device to be connected. Ensure the device is at room temperature and there is no condensation on it. Connect power using the provided power cable underneath the case lid and power on the device. 
