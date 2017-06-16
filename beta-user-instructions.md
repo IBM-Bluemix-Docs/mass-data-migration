@@ -22,8 +22,8 @@ lastupdated: "2017-06-16"
 
 5.	Position the device to be connected.  Ensure the device is at room temperature and there is no condensation on it. Connect power using the provided power cable underneath the case lid and power on the device. 
 
-  **Note**: There are two power switches. 
-  ![Power switches](/images/UserGuide2.jpg) 
+    **Note**: There are two power switches. 
+    ![Power switches](/images/UserGuide2.jpg) 
   
   Let the device boot for 5 minutes without network connectivity.
  
@@ -35,15 +35,16 @@ lastupdated: "2017-06-16"
 
 8.	Point your browser (not Chrome) and enter HTTPS://youreth3ip  
 
-  **Note**: Chrome has recently changed support for self-signed certs. GA product will have dedicated certs. https://productforums.google.com/forum/#!topic/chrome/su0hEzupG1Q;context-place=topicsearchin/chrome/category%243Aim-not-sure
+    **Note**: Chrome has recently changed support for self-signed certs. GA product will have dedicated certs.
+    https://productforums.google.com/forum/#!topic/chrome/su0hEzupG1Q;context-place=topicsearchin/chrome/category%243Aim-not-sure
 
 9.	Log in using the provided Username and Password.
 
 10.	Activate the pre-configured storage pool:
     - Expand Storage Pools.
-    - Click on DefaultPool to select it. 
-    - Click on Start, 
-    - Enter your Storage Pool Password and click OK. 
+    - Click on **DefaultPool** to select it. 
+    - Click on **Start**. 
+    - Enter your Storage Pool Password and click **OK**. 
     ![Activate Storage Pool](/images/UserGuide4.png)
     
 
