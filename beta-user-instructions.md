@@ -25,7 +25,7 @@ lastupdated: "2017-06-16"
     **Note**: There are two power switches. 
     ![Power switches](/images/UserGuide2.jpg) 
   
-  Let the device boot for 5 minutes without network connectivity.
+    Let the device boot for 5 minutes without network connectivity.
  
 6.	Remove the CAT6A cable from the case lid and connect it to the port shown in the picture below.
     ![](/images/UserGuide3.jpg)
