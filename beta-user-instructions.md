@@ -38,7 +38,7 @@ lastupdated: "2017-06-16"
     **Note**: Chrome has recently changed support for self-signed certs. GA product will have dedicated certs.
     https://productforums.google.com/forum/#!topic/chrome/su0hEzupG1Q;context-place=topicsearchin/chrome/category%243Aim-not-sure
 
-9.	Log in using the provided Username and Password.
+9.	Use the provided Username and Password to log in.
 
 10.	Activate the pre-configured storage pool:
     - Expand Storage Pools.
