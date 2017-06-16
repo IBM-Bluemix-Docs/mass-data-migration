@@ -13,22 +13,24 @@ lastupdated: "2017-06-14"
 
 ![MDM Device Inventory](/images/MDMDeviceInventory.png)
 
-o	Power Cable in bottom right pouch
+-	Power Cable in bottom right pouch
 
-o	2 CAT6A cables in bottom left pouch
+-	2 CAT6A cables in bottom left pouch
 
-o	2 10Gb 10BaseT to SFP+ adapters in top left pouch
+-	2 10Gb 10BaseT to SFP+ adapters in top left pouch
 
-o	Device fuses in top right pouch
+-	Device fuses in top right pouch
 
    
    
-  
+   
 
  
    
- 
   
+   
+    
+    
 ________________________________________________________________ 
 Sign/Date of shipper
 
