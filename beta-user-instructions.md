@@ -26,7 +26,7 @@ lastupdated: "2017-06-14"
 6.	Remove the CAT6A cable from the case lid and connect it to the port shown in the picture below.
     < Add image >
 
-7.	Connect the provided CAT6a to SFP+ adapter and connect to your 10Gb switch.
+7.	Connect the provided CAT6A to SFP+ adapter and connect to your 10Gb switch.
 
 8.	Point your browser (not Chrome) and enter HTTPS://<youreth3ip>  
 
