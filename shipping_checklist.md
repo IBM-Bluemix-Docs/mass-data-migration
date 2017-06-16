@@ -11,7 +11,7 @@ lastupdated: "2017-06-14"
 # MDM Device Inventory Checklist
 
 
-![MDM Device Inventory](/images/)
+![MDM Device Inventory](/images/MDMDeviceInventory.png)
 
 o	Power Cable in bottom right pouch
 
