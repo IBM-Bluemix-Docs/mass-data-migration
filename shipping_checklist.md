@@ -32,8 +32,8 @@ lastupdated: "2017-06-14"
     
     
 ________________________________________________________________ 
-Sign/Date of shipper
+Sign/Date of Shipper
 
 
 ________________________________________________________________ 
-Sign/Date of customer
+Sign/Date of Customer
