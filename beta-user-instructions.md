@@ -43,10 +43,10 @@ lastupdated: "2017-06-16"
 9.	Use the provided Username and Password to log in.
 
 10.	Activate the pre-configured storage pool:
-    a. Expand Storage Pools.
-    b. Click on **DefaultPool** to select it. 
-    c. Click on **Start**. 
-    d. Enter your Storage Pool Password and click **OK**. 
+    - a. Expand Storage Pools.
+    - b. Click on **DefaultPool** to select it. 
+    - c. Click on **Start**. 
+    - d. Enter your Storage Pool Password and click **OK**. 
     ![Activate Storage Pool](/images/UserGuide4.png)
     
 
