@@ -27,7 +27,7 @@ lastupdated: "2017-06-20"
 6.	Remove the CAT6A cable from the case lid and connect it to the port shown in the picture below.
     ![](/images/UserGuide3.jpg)
 7.	Connect the provided CAT6A to SFP+ adapter and connect to your 10Gb switch.
-8.	Open your browser (not Chrome) and enter HTTPS://'youreth3ip'  <br />
+8.	Open your browser (not Chrome) and enter HTTPS://'youreth3ip'  <br /><br />
     **Note**: Chrome has recently changed support for self-signed certs. GA product will have dedicated certs.
     https://productforums.google.com/forum/#!topic/chrome/su0hEzupG1Q;context-place=topicsearchin/chrome/category%243Aim-not-sure
 9.	Use the provided Username and Password to log in.
