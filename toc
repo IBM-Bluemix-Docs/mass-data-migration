@@ -12,6 +12,3 @@ IBM Bluemix Mass Data Migration
     beta-user-instructions.md
     shipping_checklist.md
     {: .navgroup-end}
-
-    
-{: .navgroup-end}
