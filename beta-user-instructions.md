@@ -63,4 +63,4 @@ lastupdated: "2017-06-16"
 
 16.	Insert the device into the portable case, and insert the portable case into the large travel case.
 
-17.	Attach the provided shipping label, notify shipper, and return device to DA09 data center for load into Cloud Object Storage.
+17.	Attach the provided shipping label, notify shipper, and return device to DAL09 data center for load into Cloud Object Storage.
