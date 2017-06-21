@@ -34,7 +34,7 @@ If the target bucket does not exist, it is created.   If it does exist, it must 
 
 Symlinks and Hardlinks are skipped during the scan process.
 
-## Onboarding of Data from your Data Center
+## Onboarding of Data from Your Data Center
 
 1. The device will arrive pre-configured for your data load. Basic [powering/connectivity instruction](beta-user-instructions.html) will be included.
   **Note**: User name and storage pool password will be provided separately.
