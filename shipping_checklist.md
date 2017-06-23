@@ -8,10 +8,10 @@ lastupdated: "2017-06-20"
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# MDM Device Inventory Checklist
+# MDMS Device Inventory Checklist
 
 
-![MDM Device Inventory](/images/MDMDeviceInventory.png)
+![MDMS Device Inventory](/images/MDMDeviceInventory.png)
 
 -	Power Cable in bottom right pouch
 
