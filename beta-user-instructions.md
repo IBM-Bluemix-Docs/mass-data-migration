@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-06-20"
+lastupdated: "2017-06-21"
 
 ---
 {:new_window: target="_blank"}
@@ -28,7 +28,7 @@ lastupdated: "2017-06-20"
     **Note**: See IP Configuration Addendum below if you need to alter settings for Eth3 or Eth1.
 8. Open your browser and enter HTTPS://'YourIPAddress'. Enter either Eth3 or Eth1 as appropriate for your network configuration. Accept the certificate exception.
     
-9.	Use the provided Username and Password to log in.
+9.	Use the provided Username and Password to log in.<br/>
     ![](/images/UserGuide6.png)
 10.	Activate the pre-configured storage pool:
     - Expand Storage Pools.
