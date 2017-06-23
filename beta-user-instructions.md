@@ -20,11 +20,11 @@ lastupdated: "2017-06-23"
 4.	Position the device to be connected. Ensure the device is at room temperature and there is no condensation on it. Connect power using the provided power cable underneath the case lid and power on the device.
     **Note**: There are two power switches. 
     ![Power switches](/images/UserGuide2.jpg) 
-    **Note**: The device does not need to be removed from the hard travel case.
+    **Note**: The device does not need to be removed from the portable case.
 5.	Remove the CAT6A cable from the case lid and connect it to the port shown in the picture below.
     ![](/images/UserGuide3.jpg)
 6.	Connect the provided CAT6A to SFP+ adapter and connect to your 10Gb switch.
-7.	If the IP address configured for Eth3 can be reached via browser, continue to the next step, otherwise connect Eth1 to a 1Gb port.
+7.	If the IP address configured for Eth3 can be reached via browser, continue to the next step, otherwise connect Eth1 to a 1Gb port.<br/>
     **Note**: See IP Configuration Addendum below if you need to alter settings for Eth3 or Eth1.
 8. Open your browser and enter HTTPS://'YourIPAddress'. Enter either Eth3 or Eth1 as appropriate for your network configuration. Accept the certificate exception.
     
@@ -43,7 +43,7 @@ lastupdated: "2017-06-23"
 13.	When the load is complete, gracefully power down the system. Click on **Shutdown Appliance...**.  
     ![Right Click on Storage Systems and select Shutdown Storage System...](/images/UserGuide5.jpg)
 14.	Disconnect the device, return the power cable, Ethernet cable, and SFP+ adapter into their respective storage locations under the lid.
-15.	Insert the device into the portable case, and insert the portable case into the large travel case.
+15.	Insert the device into the large travel case.
 16.	Attach the provided shipping label, notify shipper, and return device to the data center for load into Cloud Object Storage.
 
 ## IP Address Configuration Addendum:	
