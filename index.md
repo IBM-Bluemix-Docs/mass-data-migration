@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-06-21"
+lastupdated: "2017-06-23"
 
 ---
 {:new_window: target="_blank"}
@@ -10,17 +10,9 @@ lastupdated: "2017-06-21"
 
 # IBM Bluemix Mass Data Migration
 
-Mass Data Migration accelerates the secure migration of up to 110TB of data per device into / out of Cleversafe Object Storage using physical storage appliances housed in waterproof, tamper-evident, shockproof cases.
+IBM Bluemix Mass Data Migration is a data transfer service that accelerates the secure migration of up to 120TB/144TB (TBD) of data per device into and out of Cloud Object Storage using physical storage devices housed in waterproof, tamper-evident, shockproof cases.
 
-## DataShuttle Tooling
-
-Mass Data Migration uses the DataShuttle tool to:
-
-- Inventory and manifest the files to be moved from the Data Center (this inventory is to be included with your application).  This tells the IBM Bluemix team how much data is to be moved so we can correctly provision an system to move the data.  
-- Copy your data to the NFS share presented by the Device. Optionally you can MD5 each data item to ensure the copy is correct.
-- Move your directory/file based data to Cloud Object Storage (COS) into bucket(s) you specify using your account credentials.
-
-A link to the DataShuttle tool is included in the Order form.
+Mass Data Migration will help overcome the challenges of migrating workloads with large data sets from on-premise to the cloud. Benefits include improved security, shorter transfer times, and lower costs
 
 ## Uniqueness in the Bucket
 
