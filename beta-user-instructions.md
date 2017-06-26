@@ -17,7 +17,7 @@ lastupdated: "2017-06-23"
 
 3.	Determine the most appropriate place for the device to be placed where it will reach both power and your 10GbE connection that will minimize foot traffic.
 
-4.	Position the device to be connected. Ensure the device is at room temperature and there is no condensation on it. Connect power using the provided power cable underneath the case lid and power on the device.<br/>
+4.	Position the device to be connected. Do not remove the device from the portable case. Ensure the device is at room temperature and there is no condensation on it. Connect power using the provided power cable underneath the case lid and power on the device.<br/>
     **Note**: There are two power switches. 
     ![Power switches](/images/UserGuide2.jpg) 
     **Note**: The device does not need to be removed from the portable case.
