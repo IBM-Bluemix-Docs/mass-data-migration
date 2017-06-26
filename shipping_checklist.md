@@ -8,7 +8,7 @@ lastupdated: "2017-06-23"
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# MDMS Device Inventory Checklist
+# Mass Data Migration Device Inventory Checklist
 
 
 ![MDMS Device Inventory](/images/MDMDeviceInventory.png)
