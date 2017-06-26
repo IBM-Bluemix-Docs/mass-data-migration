@@ -21,7 +21,7 @@ lastupdated: "2017-06-23"
     **Note**: There are two power switches. 
     ![Power switches](/images/UserGuide2.jpg) 
     **Note**: The device does not need to be removed from the portable case.
-5.	Remove the CAT6A cable from the case lid and connect it to the port shown in the picture below.
+5.	Remove the CAT6A cable from the case lid and connect it to the Eth3 port shown in the picture below.
     ![](/images/UserGuide3.jpg)
 6.	Connect the provided CAT6A to SFP+ adapter and connect to your 10Gb switch.
 7.	If the IP address configured for Eth3 can be reached via browser, continue to the next step, otherwise connect Eth1 to a 1Gb port.<br/>
