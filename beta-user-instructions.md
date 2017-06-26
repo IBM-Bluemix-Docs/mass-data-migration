@@ -46,7 +46,7 @@ lastupdated: "2017-06-26"
 15.	Insert the device into the large travel case.
 16.	Attach the provided shipping label, notify shipper, and return device to the data center for load into Cloud Object Storage.
 
-## IP Address Configuration Addendum:	
+## IP Address Configuration Addendum
 The LCD panel on top of the device can be used to configure the IP addresses for the Ethernet ports.
 
 You navigate in the LCD panel using the **Up**, **Down**, **Back/Exit**, and **Forward/Enter** buttons. **Enter** takes you into a menu and **Exit** takes you out.
