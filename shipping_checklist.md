@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-06-23"
+lastupdated: "2017-06-26"
 
 ---
 {:new_window: target="_blank"}
@@ -11,7 +11,7 @@ lastupdated: "2017-06-23"
 # Mass Data Migration Device Inventory Checklist
 
 
-![MDMS Device Inventory](/images/MDMDeviceInventory.png)
+![Mass Data Migration Device Inventory](/images/MDMDeviceInventory.png)
 
 -	Power Cable in bottom right pouch
 
