@@ -8,7 +8,7 @@ lastupdated: "2017-06-23"
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# Beta User Instructions
+# User Instructions
 
 
 1.	Device arrives pre-configured with your IP address, Username, Locked Storage Pool and NFS Share.  The User Password and Storage Pool Password will be communicated via separate email.
