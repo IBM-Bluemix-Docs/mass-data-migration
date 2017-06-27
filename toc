@@ -9,6 +9,6 @@ IBM Bluemix Mass Data Migration
     {: .navgroup-end}
     
     {: .navgroup id="howto"}
-    beta-user-instructions.md
+    user-instructions.md
     shipping_checklist.md
     {: .navgroup-end}
