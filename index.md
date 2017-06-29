@@ -28,7 +28,7 @@ Symlinks and Hardlinks are skipped during the scan process.
 
 ## Onboarding of Data from Your Data Center
 
-1. The device will arrive pre-configured for your data load. Basic [powering/connectivity instruction](beta-user-instructions.html) will be included.
+1. The device will arrive pre-configured for your data load. Basic [powering/connectivity instruction](user-instructions.html) will be included.
   **Note**: User name and storage pool password will be provided separately.
 2. Point browser to the static IP address you provided in the order form.
 3. Login, supply password to unlock the empty storage pool.
