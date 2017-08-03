@@ -17,11 +17,13 @@ This document describes:
 - the commands to export the data into the MDMS device.
 
 ## Database Sizing
-1. From [IBM Support: Fix Central - Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools) download the appropriate Netezza Tools version that corresponds to your Netezza instance
+1. From [IBM Support: Fix Central - Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools) download the appropriate Netezza Tools version that corresponds to your Netezza instance.
+
    **NOTE** - By default, support tools are installed on Netezza server at directory /nz/support-IBM_Netezza<version>/bin
+   
 2. the following two commands: nz_db_size and nz_compressedTableRatio
 
-'''
+```
 nz_db_size
 Object | Name | Bytes | KB | MB | GB | TB
 -----------------------------------------------------------------------------------------------------------
@@ -66,6 +68,7 @@ DH71964T9 1.50 9,615,179,776 14,417,923,840 4,802,744,064
 ================================ ===== =================== ===================
 Total For This Database 1.50 183,537,500,160 275,251,242,240 91,713,742,080
 ```
+
 ## Data Extraction and Onboarding Procedure
 
 There are two options that can be used to extract the data from Netezza:
