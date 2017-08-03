@@ -11,4 +11,5 @@ IBM Bluemix Mass Data Migration
     {: .navgroup id="howto"}
     user-instructions.md
     shipping_checklist.md
+    how-to-migrate-netezza-to-dashdb-using-mdms.md
     {: .navgroup-end}
