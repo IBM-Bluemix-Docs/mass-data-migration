@@ -21,7 +21,7 @@ This document describes:
 
    **NOTE** - By default, support tools are installed on Netezza server at directory /nz/support-IBM_Netezza<version>/bin
    
-2. the following two commands: nz_db_size and nz_compressedTableRatio
+2. the following two commands: `nz_db_size` and `nz_compressedTableRatio`
 
 ```
 nz_db_size
@@ -73,7 +73,9 @@ Total For This Database 1.50 183,537,500,160 275,251,242,240 91,713,742,080
 
 There are two options that can be used to extract the data from Netezza:
 1. Use the **nz_backup utility**:
+
    `/nz/support/contrib/bin/nz_backup –db   {db_name} –d  {target_directory}  ascii threads 4`
+   
    **NOTE**: Note that the {target_directory} is the NFS share provided by the MDMS device, mounted to this server.
 2. Use CREATE EXTERNAL TABLE
    - Provide the DashDB team the “USING” clause used for export for reuse during the LOAD process
