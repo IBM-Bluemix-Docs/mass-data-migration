@@ -35,7 +35,7 @@ lastupdated: "2017-06-27"
     ![Activate Storage Pool](/images/UserGuide4.png)
 10.  FIX ME: 	Once the storage pool is enabled the NFS share should be available for mounting. Click on **View Connections** to see the share name and mount information. Mount the share on your source server and load the data.<br/>
     ![](/images/UserGuide8.png)
-11.  FIX ME:	Monitor inbound load on Eth3 from GUI as data is transferred to the device. Activity on Eth3 indicates that data migration is in progress.<br/>
+11.  FIX ME:	Copy your data to the NFS share.  Monitor inbound load on Eth3 from GUI as data is transferred to the device. Activity on Eth3 indicates that data migration is in progress.<br/>
     ![](/images/UserGuide9.png)
 12.	 FIX ME: When the load is complete, gracefully power down the system. Click on **Shutdown Appliance...**.  
     ![Right Click on Storage Systems and select Shutdown Storage System...](/images/UserGuide5.jpg)
