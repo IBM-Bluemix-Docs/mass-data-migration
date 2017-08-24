@@ -15,19 +15,19 @@ lastupdated: "2017-06-27"
 
 2.	Determine the most appropriate place for the device to be placed; where it will reach both power and your ethernet (1GbE and 10GbE) connections and minimize foot traffic.
 
-3.	FIX ME: Position the device to be connected, it can remain the transport case during use. Ensure the device is at room temperature and there is no condensation on it. Connect power using the provided power cable underneath the case lid and power on the device.<br/>
+3.	Position the device to be connected, it can remain the transport case during use. Ensure the device is at room temperature and there is no condensation on it. Connect power using the provided power cable underneath the case lid and power on the device.<br/>
     **Note**: There are two power switches. 
     ![Power switches](/images/UserGuide2.jpg) 
     **Note**: The device does not need to be removed from the portable case.
-4.	FIX ME: Remove the CAT6A cable from the case lid and connect it to the Eth3 port shown in the picture below.
+4.	Remove the CAT6A cable from the case lid and connect it to the Eth3 port shown in the picture below.
     ![](/images/UserGuide3.jpg)
 5.	Connect the provided CAT6A to SFP+ adapter and connect to your 10Gb switch.
 6.	If the IP address configured for Eth3 can be reached via browser HTTPS://'Your-Eth3-IPAddress, continue to the next step, otherwise connect Eth1 to a 1Gb port.<br/>
     **Note**: See IP Configuration Addendum below if you need to alter any IP settings for Eth3 or Eth1.
 7. Open your browser and enter HTTPS://'Your-Eth1-IPAddress'. Enter Eth1 as appropriate for your network configuration. Accept the certificate exception. 
     
-8.	FIX ME (new image?): Use the provided Username and Password to log in.<br/>
-    ![](/images/UserGuide6.png)
+8.	Use the provided Username and Password to log in.<br/>
+    ![](mass-data-migration/Login.png )
 9.	FIX ME: Activate the pre-configured storage pool:
     - Click on **Unlock and Start Storage Pool**. 
     ![](/images/UserGuide7.png)
