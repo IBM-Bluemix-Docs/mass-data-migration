@@ -38,7 +38,7 @@ lastupdated: "2017-06-27"
     
 10.	Activate the pre-configured storage pool:
     - Click on **Unlock and Start Storage Pool**. 
-    - Enter your Storage Pool Password and click **OK**. 
+    - Enter your Storage Pool Passphrase and click **OK**. 
     ![Activate Storage Pool](/images/UnlockPool.png)
     
 11.  Once the storage pool is enabled the NFS share is available to mount.  Click on View Network Shares and you will see the background GUI change to the network shares view.  Close the workflow, right click on the share, and select mount command to  see the share name and mount information. Mount the share on your source server and load the data.
