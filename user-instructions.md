@@ -19,30 +19,42 @@ lastupdated: "2017-06-27"
     **Note**: There are two power switches. 
     ![Power switches](/images/UserGuide2.jpg) 
     **Note**: The device does not need to be removed from the portable case.
+    
 4.	Remove the CAT6A cable from the case lid and connect it to the Eth3 port shown in the picture below.
     ![](/images/UserGuide3.jpg)
+    
 5.	Connect the provided CAT6A to SFP+ adapter and connect to your 10Gb switch.
+
 6.	If the IP address configured for Eth3 can be reached via browser HTTPS://'Your-Eth3-IPAddress, continue to the next step, otherwise connect Eth1 to a 1Gb port.<br/>
     **Note**: See IP Configuration Addendum below if you need to alter any IP settings for Eth3 or Eth1.
-7. Open your browser and enter HTTPS://'Your-Eth1-IPAddress'. Enter Eth1 as appropriate for your network configuration. Accept the certificate exception. 
     
+7. Open your browser and enter HTTPS://'Your-Eth1-IPAddress'. Enter Eth1 as appropriate for your network configuration. Accept the certificate exception.
+
 8.	Use the provided Username and Password to log in.<br/>
     ![](/images/Login.png )
+    
 9.  Workflow: The workflow wizard presents access to the specific items to be accessed in order from left to right.  
     ![](/images/workflow.png )
+    
 10.	Activate the pre-configured storage pool:
     - Click on **Unlock and Start Storage Pool**. 
     - Enter your Storage Pool Password and click **OK**. 
     ![Activate Storage Pool](/images/UnlockPool.png)
+    
 11.  Once the storage pool is enabled the NFS share is available to mount.  Click on View Network Shares and you will see the background GUI change to the network shares view.  Close the workflow, right click on the share, and select mount command to  see the share name and mount information. Mount the share on your source server and load the data.
     ![](/images/MountCommand.png)
-12.  Copy your data to the NFS share.  Use the Monitor inbound load on Eth3 from GUI as data is transferred to the device. Activity on Eth3 indicates that data migration is in progress.<br/>
+    
+12.  Begin to copy your data to the NFS share.  Click on View Network Activity to change the backgroud GUI to show inbound load on Eth3 from GUI as data is transferred to the device.
     ![](/images/Network.png)
-13.  Click on View Storage pool to monitor storage usage on the device. 
+    
+13.  Click on View Storage pool to to change the backgroudn GUI to monitor storage usage on the device. 
     ![](/images/StoragePool.png) 
+    
 14.	 When the load is complete, gracefully power down the system. Click on **Shutdown Appliance...**.  
     ![](/images/Shutdown.png)
+    
 15.	Disconnect the device, return the power cable, Ethernet cable, and SFP+ adapter into their respective storage locations under the lid.
+
 16.	Attach the provided shipping label, notify shipper, and return device to the data center for load into Cloud Object Storage.
 
 ## IP Address Configuration Addendum
