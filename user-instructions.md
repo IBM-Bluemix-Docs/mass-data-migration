@@ -31,7 +31,7 @@ lastupdated: "2017-06-27"
 7. Open your browser and enter HTTPS://'Your-Eth1-IPAddress'. Enter Eth1 as appropriate for your network configuration. Accept the certificate exception.
 
 8.	Use the provided Username and Password to log in.<br/>
-    ![](/images/Login.png )
+    ![](/images/LoginTest.png )
     
 9.  Workflow: The workflow wizard presents access to the specific items generally accessed in order from left to right. The workflow can re-reopened using the Workflow Manager button in the upper left of the GUI. 
     ![](/images/workflow.png )
