@@ -33,7 +33,7 @@ lastupdated: "2017-06-27"
 8.	Use the provided Username and Password to log in.<br/>
     ![](/images/Login.png )
     
-9.  Workflow: The workflow wizard presents access to the specific items to be accessed in order from left to right.  
+9.  Workflow: The workflow wizard presents access to the specific items generally accessed in order from left to right. The workflow can re-reopened using the Workflow Manager button in the upper left of the GUI. 
     ![](/images/workflow.png )
     
 10.	Activate the pre-configured storage pool:
@@ -47,7 +47,7 @@ lastupdated: "2017-06-27"
 12.  Begin to copy your data to the NFS share.  Click on View Network Activity to change the backgroud GUI to show inbound load on Eth3 from GUI as data is transferred to the device.
     ![](/images/Network.png)
     
-13.  Click on View Storage pool to to change the backgroudn GUI to monitor storage usage on the device. 
+13.  Click on View Storage pool to to change the background GUI to monitor storage usage on the device. 
     ![](/images/StoragePool.png) 
     
 14.	 When the load is complete, gracefully power down the system. Click on **Shutdown Appliance...**.  
