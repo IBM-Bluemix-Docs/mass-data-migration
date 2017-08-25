@@ -28,17 +28,20 @@ lastupdated: "2017-06-27"
     
 8.	Use the provided Username and Password to log in.<br/>
     ![](/images/Login.png )
-9.	FIX ME: Activate the pre-configured storage pool:
+9.  Workflow:      
+    ![](/images/workflow.png )
+10.	FIX ME: Activate the pre-configured storage pool:
     - Click on **Unlock and Start Storage Pool**. 
-    ![](/images/UserGuide7.png)
     - Enter your Storage Pool Password and click **OK**. 
-    ![Activate Storage Pool](/images/UserGuide4.png)
-10.  FIX ME: 	Once the storage pool is enabled the NFS share should be available for mounting. Click on **View Connections** to see the share name and mount information. Mount the share on your source server and load the data.<br/>
-    ![](/images/UserGuide8.png)
-11.  FIX ME:	Copy your data to the NFS share.  Monitor inbound load on Eth3 from GUI as data is transferred to the device. Activity on Eth3 indicates that data migration is in progress.<br/>
-    ![](/images/UserGuide9.png)
+    ![Activate Storage Pool](/images/UnlockPool.png)
+11.  FIX ME: 	Once the storage pool is enabled the NFS share should be available for mounting. Click on **View Connections** to see the share name and mount information. Mount the share on your source server and load the data.<br/>
+    ![](/images/MountCommand.png)
+    12.  FIX ME:	Copy your data to the NFS share.  Monitor inbound load on Eth3 from GUI as data is transferred to the device. Activity on Eth3 indicates that data migration is in progress.<br/>
+    ![](/images/Network.png)
+    13.  FIX ME:	Copy your data to the NFS share.  Monitor inbound load on Eth3 from GUI as data is transferred to the device. Activity on Eth3 indicates that data migration is in progress.<br/>
+    ![](/images/StoragePool.png) 
 12.	 FIX ME: When the load is complete, gracefully power down the system. Click on **Shutdown Appliance...**.  
-    ![Right Click on Storage Systems and select Shutdown Storage System...](/images/UserGuide5.jpg)
+    ![Right Click on Storage Systems and select Shutdown Storage System...](/images/Shutdown.jpg)
 13.	Disconnect the device, return the power cable, Ethernet cable, and SFP+ adapter into their respective storage locations under the lid.
 14.	Attach the provided shipping label, notify shipper, and return device to the data center for load into Cloud Object Storage.
 
