@@ -27,7 +27,7 @@ lastupdated: "2017-06-27"
 7. Open your browser and enter HTTPS://'Your-Eth1-IPAddress'. Enter Eth1 as appropriate for your network configuration. Accept the certificate exception. 
     
 8.	Use the provided Username and Password to log in.<br/>
-    ![](/mass-data-migration/Login.png )
+    ![](/images/Login.png )
 9.	FIX ME: Activate the pre-configured storage pool:
     - Click on **Unlock and Start Storage Pool**. 
     ![](/images/UserGuide7.png)
