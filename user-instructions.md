@@ -41,7 +41,7 @@ lastupdated: "2017-06-27"
     13.  FIX ME:	Copy your data to the NFS share.  Monitor inbound load on Eth3 from GUI as data is transferred to the device. Activity on Eth3 indicates that data migration is in progress.<br/>
     ![](/images/StoragePool.png) 
 12.	 FIX ME: When the load is complete, gracefully power down the system. Click on **Shutdown Appliance...**.  
-    ![Right Click on Storage Systems and select Shutdown Storage System...](/images/Shutdown.jpg)
+    ![](/images/Shutdown.png)
 13.	Disconnect the device, return the power cable, Ethernet cable, and SFP+ adapter into their respective storage locations under the lid.
 14.	Attach the provided shipping label, notify shipper, and return device to the data center for load into Cloud Object Storage.
 
