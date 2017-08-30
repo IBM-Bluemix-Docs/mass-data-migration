@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-08-28"
+lastupdated: "2017-08-30"
 
 ---
 {:new_window: target="_blank"}
@@ -33,8 +33,9 @@ lastupdated: "2017-08-28"
 8.	Use the provided Username and Password to log in.<br/>
     ![Login page](/images/Login.png )
     
-9.  The workflow wizard presents access to the specific items generally used in order from left to right. The workflow can be re-reopened using the Workflow Manager button in the upper left of the GUI. 
-    ![Workflow icons](/images/workflow.png )
+9.  The workflow wizard presents access to the specific items generally used in order from left to right.  <br/>
+    ![Workflow icons](/images/workflow.png) <br/>
+    **NOTE**: The workflow can be re-reopened using the Workflow Manager button in the upper left of the GUI. 
     
 10.	Activate the pre-configured storage pool:
     - Click on **Unlock and Start Storage Pool**. 
