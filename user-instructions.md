@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-08-28"
+lastupdated: "2017-08-30"
 
 ---
 {:new_window: target="_blank"}
@@ -33,24 +33,25 @@ lastupdated: "2017-08-28"
 8.	Use the provided Username and Password to log in.<br/>
     ![Login page](/images/Login.png )
     
-9.  The workflow wizard presents access to the specific items generally used in order from left to right. The workflow can be re-reopened using the Workflow Manager button in the upper left of the GUI. 
-    ![Workflow icons](/images/workflow.png )
+9.  The workflow wizard presents access to the specific items generally used in order from left to right.  <br/>
+    ![Workflow icons](/images/workflow.png) <br/>
+    **NOTE**: The workflow can be re-reopened using the Workflow Manager button in the upper left of the GUI. 
     
 10.	Activate the pre-configured storage pool:
     - Click on **Unlock and Start Storage Pool**. 
     - Enter your Storage Pool Passphrase and click **OK**. 
     ![Activate Storage Pool](/images/UnlockPool.png)
     
-11. Once the storage pool is enabled the NFS share is available to mount.  Click **View Network Shares** to see the network shares view.  Close the workflow, right click on the share, and select mount command to  see the share name and mount information. Mount the share on your source server and load the data.
+11. Once the storage pool is enabled the NFS share is available to mount.  In the workflow, click **View Network Shares** to see the network shares view.  Close the workflow, right click on the share, and select mount command to  see the share name and mount information. Mount the share on your source server and load the data.
     ![](/images/MountCommand.png)
     
-12. Begin to copy your data to the NFS share. Click on **View Network Activity** to show inbound load on Eth3 from GUI as data is transferred to the device.
+12. Begin to copy your data to the NFS share. In the workflow, click on **View Network Activity** to show inbound load on Eth3 from GUI as data is transferred to the device.
     ![](/images/Network.png)
     
-13. Click on **View Storage pool** to monitor storage usage on the device. 
+13. In the workflow, click on **View Storage pool** to monitor storage usage on the device. 
     ![](/images/StoragePool.png) 
     
-14.	When the load is complete, gracefully power down the system. Click on **Shutdown Appliance...**.  
+14.	When the load is complete, gracefully power down the system. In the workflow, click on **Shutdown Appliance...**.  
     ![](/images/Shutdown.png)
     
 15.	Disconnect the device, return the power cable, Ethernet cable, and SFP+ adapter into their respective storage locations under the lid.
