@@ -13,7 +13,7 @@ lastupdated: "2017-08-30"
 MDMS device is a portable storage device able to present mountable NFS or CFS shares and is managed via a web brower interface.  The device is shipped to a customer, loaded with data on premise, then returned to an IBM Data Center and loaded into Cloud Object Storage into the customer's account and a bucket.
 
 
-## Power
+### Power
 
 The device ships with a C13-US power cord (https://en.wikipedia.org/wiki/IEC_60320).  If the device is being used outside of the United States, a power adaptor may be required.
 
@@ -21,7 +21,7 @@ The device accepts all standard power ranges.
 ![Power range](/images/PowerRating.png)
 
 
-## Ethernet Connectivity
+### Ethernet Connectivity
 
 There are two ethernet connections to be made.  One for device management via a browser, and one for data movement on the same subnet where the source data resides.
 
@@ -30,6 +30,9 @@ Both ports originate from the device as RJ45, and CAT6A cables are supplied.  Co
 Use Eth1 (a 1Gb port) is used for device management, and as such, should have a gateway specified in the IP Address configuration.  This can be viewed via the LCD after the device is powered on (see IP Address Configuration Addendum below).
 
 Use Eth3 (a 10Gb port) for the data transfer.  This connection should either be on the same subnet as the source data, or can be direclty connected to the server if needed.
+
+If a different form factor of ethernet connection is required, the customer must provide the converter.
+
 
 
 # User Instructions
