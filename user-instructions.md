@@ -2,13 +2,15 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-08-30"
+lastupdated: "2017-09-13"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# Overview
+# User Instructions
+
+## Overview
 
 MDMS device is a portable storage device able to present mountable NFS or CFS shares and is managed via a web brower interface.  The device is shipped to a customer, loaded with data on premise, then returned to an IBM Data Center and loaded into Cloud Object Storage into the customer's account and a bucket.
 
@@ -35,7 +37,7 @@ If a different form factor of ethernet connection is required, the customer must
 
 
 
-# User Instructions
+## Step-by-step User Instructions
 
 1.	Device arrives pre-configured with your IP address, Username, Locked Storage Pool and NFS Share.  The User Password and Storage Pool Password will be communicated via separate email.
 
