@@ -2,21 +2,21 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-06-29"
+lastupdated: "2017-09-18"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# IBM Bluemix Mass Data Migration
+# IBM Cloud Mass Data Migration
 
-IBM Bluemix Mass Data Migration is a data transfer service that accelerates the secure migration of up to 120TB/144TB (TBD) of data per device into and out of Cloud Object Storage using physical storage devices housed in waterproof, tamper-evident, shockproof cases.
+IBM Cloud Mass Data Migration accelerates the secure movement of terabytes to petabytes of data into the IBM Cloud using rugged, 120 TB usable capacity portable storage devices.
 
-Mass Data Migration will help overcome the challenges of migrating workloads with large data sets from on-premise to the cloud. Benefits include improved security, shorter transfer times, and lower costs
+Using superior technology and hardware, Mass Data Migration helps overcome common data transfer challenges including high network costs, long transfer times, and security concerns – all in a single service.
 
 ## Uniqueness in the Bucket
 
-To ensure object names are unique when they are copied into the bucket, the file path is included a prefix in the object name;  /root/user/config.ini   becomes "root/user/config.ini" when copied into the bucket.
+To ensure object names are unique when they are copied into the bucket, the file path is included a prefix in the object name;  `/root/user/config.ini` becomes "root/user/config.ini" when copied into the bucket.
 
 ## Buckets
 
