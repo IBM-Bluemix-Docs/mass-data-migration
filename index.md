@@ -10,9 +10,9 @@ lastupdated: "2017-09-18"
 
 # IBM Cloud Mass Data Migration
 
-IBM Cloud Mass Data Migration is a data transfer service that accelerates the secure migration of up to 120TB/144TB of data per device into and out of Cloud Object Storage using physical storage devices housed in waterproof, tamper-evident, shockproof cases.
+IBM Cloud Mass Data Migration accelerates the secure movement of terabytes to petabytes of data into the IBM Cloud using rugged, 120TB-usable capacity portable storage devices.
 
-Mass Data Migration will help overcome the challenges of migrating workloads with large data sets from on-premise to the cloud. Benefits include improved security, shorter transfer times, and lower costs
+Using superior technology and hardware, Mass Data Migration helps overcome common data transfer challenges including high network costs, long transfer times, and security concerns – all in a single service.
 
 ## Uniqueness in the Bucket
 
