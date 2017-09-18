@@ -8,7 +8,7 @@ lastupdated: "2017-09-18"
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# IBM Bluemix Mass Data Migration
+# IBM Cloud Mass Data Migration
 
 IBM Cloud Mass Data Migration accelerates the secure movement of terabytes to petabytes of data into the IBM Cloud using rugged, 120 TB usable capacity portable storage devices.
 
