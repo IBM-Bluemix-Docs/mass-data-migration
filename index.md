@@ -10,13 +10,13 @@ lastupdated: "2017-09-18"
 
 # IBM Cloud Mass Data Migration
 
-IBM Cloud Mass Data Migration accelerates the secure movement of terabytes to petabytes of data into the IBM Cloud using rugged, 120TB-usable capacity portable storage devices.
+IBM Cloud Mass Data Migration accelerates the secure movement of terabytes to petabytes of data into the IBM Cloud using rugged, 120 TB usable capacity portable storage devices.
 
 Using superior technology and hardware, Mass Data Migration helps overcome common data transfer challenges including high network costs, long transfer times, and security concerns – all in a single service.
 
 ## Uniqueness in the Bucket
 
-To ensure object names are unique when they are copied into the bucket, the file path is included a prefix in the object name;  /root/user/config.ini   becomes "root/user/config.ini" when copied into the bucket.
+To ensure object names are unique when they are copied into the bucket, the file path is included a prefix in the object name;  `/root/user/config.ini` becomes "root/user/config.ini" when copied into the bucket.
 
 ## Buckets
 
