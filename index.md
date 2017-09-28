@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-09-18"
+lastupdated: "2017-09-28"
 
 ---
 {:new_window: target="_blank"}
@@ -10,7 +10,7 @@ lastupdated: "2017-09-18"
 
 # IBM Cloud Mass Data Migration
 
-IBM Cloud Mass Data Migration accelerates the secure movement of terabytes to petabytes of data into the IBM Cloud using rugged, 120 TB usable capacity portable storage devices.
+{{site.data.keyword.BluSoftlayer_full}} Mass Data Migration accelerates the secure movement of terabytes to petabytes of data into the {{site.data.keyword.cloud}} using rugged, 120 TB usable capacity portable storage devices.
 
 Using superior technology and hardware, Mass Data Migration helps overcome common data transfer challenges including high network costs, long transfer times, and security concerns – all in a single service.
 
@@ -37,5 +37,5 @@ Symlinks and Hardlinks are skipped during the scan process.
 6. Run the DataShuttle copy to move the data.
 7. Lock the storage pool.
 8. Gracefully shut down the MDMS device.
-9. Ship box back to IBM Data Center using provided shipping label.
+9. Ship box back to {{site.data.keyword.BluSoftlayer_full}} Data Center using provided shipping label.
 10. Notify mdmsadmin@us.ibm.com the transfer is complete and device is in-flight.
