@@ -12,12 +12,12 @@ lastupdated: "2017-09-13"
 
 ## Overview
 
-MDMS device is a portable storage device able to present mountable NFS or CFS shares and is managed via a web brower interface.  The device is shipped to a customer, loaded with data on premise, then returned to an IBM Data Center and loaded into Cloud Object Storage into the customer's account and a bucket.
+MDMS device is a portable storage device able to present mountable NFS or CFS shares and is managed via a web brower interface.  The device is shipped to a customer, loaded with data on premise, then returned to an {{site.data.keyword.BluSoftlayer_full}} Data Center and loaded into Cloud Object Storage into the customer's account and a bucket.
 
 
 ### Power
 
-The device ships with a C13-US power cord (https://en.wikipedia.org/wiki/IEC_60320).  If the device is being used outside of the United States, a power adaptor may be required.
+The device ships with a C13-US power cord [https://en.wikipedia.org/wiki/IEC_60320](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. If the device is being used outside of the United States, a power adaptor may be required.
 
 The device accepts all standard power ranges.
 ![Power range](/images/PowerRating.png)
@@ -27,7 +27,7 @@ The device accepts all standard power ranges.
 
 There are two ethernet connections to be made.  One for device management via a browser, and one for data movement on the same subnet where the source data resides.
 
-Both ports originate from the device as RJ45, and CAT6A cables are supplied.  Copper SFP+ adapters are provided to convert from RJ45.  The adapters are guaranteed to work with all switch manufacturers.  These adapters are located in a pocket on the underside of the shipping lid.
+Both ports originate from the device as RJ45, and CAT6A cables are supplied.  Copper SFP+ adapters are provided to convert from RJ45.  The adapters are guaranteed to work with all switch manufacturers. These adapters are located in a pocket on the underside of the shipping lid.
 
 Use Eth1 (a 1Gb port) is used for device management, and as such, should have a gateway specified in the IP Address configuration.  This can be viewed via the LCD after the device is powered on (see IP Address Configuration Addendum below).
 
