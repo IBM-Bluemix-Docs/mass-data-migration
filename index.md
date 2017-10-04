@@ -22,7 +22,7 @@ Using superior technology and hardware, Mass Data Migration helps overcome commo
 
 ## Requesting a Mass Data Migration Device
 
-1. Access the **Mass Data Migration** screen in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. <br/><br/> **Note**: This screen is only available to the master user of the account. <br/>You must have at least one COS account and one bucket in a US Cross Region or US South location to complete the form. 
+1. Access the **Mass Data Migration** screen in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. <br/><br/> **Note**: This screen is only available to the master user of the account. <br/>**Important**: You must have at least one {{site.data.keyword.objectstoragefull}} account and one bucket in a US Cross Region or US South location to complete the form. 
 2. Click **Request a device** link to open the order form.
 3. Complete each field in the **Request Mass Data Migration Device** form.
    - **Shipping Address**: this form is not prefilled. Each field is editable. 
@@ -57,7 +57,7 @@ Symlinks and Hardlinks are skipped during the scan process.
 1. The device will arrive pre-configured for your data load. Basic [powering/connectivity instruction](user-instructions.html) will be included.
   **Note**: User name and storage pool password will be provided separately.
 2. Point browser to the static IP address you provided in the order form.
-3. Login, supply password to unlock the empty storage pool.
+3. Log in, supply password to unlock the empty storage pool.
 4. Mount the NFS share on your server.
 5. Re-run your DataShuttle inventory to ensure any new files that may have been created since the application are captured.
 6. Run the DataShuttle copy to move the data.
