@@ -22,7 +22,7 @@ Using superior technology and hardware, Mass Data Migration helps overcome commo
 
 ## Requesting a Mass Data Migration Device
 
-1. Access the **Mass Data Migration** screen in the[{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. . <br/> **Note**: This screen is only available to the master user of the account. You must have at least one COS account and one bucket in a US Cross Region or US South location to complete the form. 
+1. Access the **Mass Data Migration** screen in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. <br/><br/> **Note**: This screen is only available to the master user of the account. <br/>You must have at least one COS account and one bucket in a US Cross Region or US South location to complete the form. 
 2. Click **Request a device** link to open the order form.
 3. Complete each field in the **Request Mass Data Migration Device** form.
    - **Shipping Address**: this form is not prefilled. Each field is editable. 
