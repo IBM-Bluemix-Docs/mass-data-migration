@@ -25,11 +25,11 @@ Using superior technology and hardware, Mass Data Migration helps overcome commo
 1. Access the **Mass Data Migration** screen in the[{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. . <br/> **Note**: This screen is only available to the master user of the account. You must have at least one COS account and one bucket in a US Cross Region or US South location to complete the form. 
 2. Click **Request a device** link to open the order form.
 3. Complete each field in the **Request Mass Data Migration Device** form.
-   - Shipping Address: this form is not prefilled. Each field is editable. 
-   - Key Migration Contacts: this form is not prefilled. Each field is editable.
-   - Data Center Network Configuration: provide network configuration details for the pre-provisioning of the Eth3 port on the MDMS Device prior to shipment.
-   - Data Offload Destination: select your existing target account from the drop down list.
-   - Request Name: enter a name to help you keep track of your order.
+   - **Shipping Address**: this form is not prefilled. Each field is editable. 
+   - **Key Migration Contacts**: this form is not prefilled. Each field is editable.
+   - **Data Center Network Configuration**: provide network configuration details for the pre-provisioning of the Eth3 port on the MDMS Device prior to shipment.
+   - **Data Offload Destination**: select your existing target account from the drop down list.
+   - **Request Name**: enter a name to help you keep track of your order.
 5. Select the **I have read and agree to the entire Mass Service Agreement and Mass Data Migration Agreement** check box after reading each service agreement provided.
 6. Click **Place Order** to submit the request. Click **Cancel** to cancel the action.
 
