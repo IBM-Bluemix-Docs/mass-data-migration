@@ -13,3 +13,8 @@ IBM Cloud Storage - Mass Data Migration
     shipping_checklist.md
     how-to-migrate-netezza-to-dashdb-using-mdms.md
     {: .navgroup-end}
+    
+    {: .navgroup id="help"}
+    [Frequently Asked Questions](https://www.ibm.com/cloud-computing/bluemix/faq-mass-data-migration)
+    {: .navgroup-end}
+
