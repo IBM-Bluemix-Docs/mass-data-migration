@@ -2,13 +2,13 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-08-03"
+lastupdated: "2017-10-04"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# How to Migrate Netezza Databases to DashDB
+# Migrating Netezza Databases to DashDB
 
 The Mass Data Migration Service (MDMS) can be used to migrate large Netezza databases to DashDB.
 
@@ -17,7 +17,7 @@ This document describes:
 - the commands to export the data into the MDMS device.
 
 ## Database Sizing
-1. From [IBM Support: Fix Central - Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools) download the appropriate Netezza Tools version that corresponds to your Netezza instance.
+1. From [IBM Support: Fix Central - Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window} download the appropriate Netezza Tools version that corresponds to your Netezza instance.
 
    **NOTE** - By default, support tools are installed on Netezza server at directory /nz/support-IBM_Netezza<version>/bin
    
@@ -86,4 +86,4 @@ There are two options that can be used to extract the data from Netezza:
 The data can be re-read back on the Netezza using select from external table **myfile** `USING(....) “` to ensure the data is correct.
  
 ## Additional Information
-More informaton on Netezza is available at [IBM Netezza database user documentation](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html).
+More informaton on Netezza is available at [IBM Netezza database user documentation](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.
