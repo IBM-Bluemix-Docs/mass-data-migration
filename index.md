@@ -14,39 +14,45 @@ lastupdated: "2017-10-04"
 
 Using superior technology and hardware, Mass Data Migration helps overcome common data transfer challenges including high network costs, long transfer times, and security concerns – all in a single service.
 
-## Access the Data Transfer Service Screen
+## Accessing the Data Transfer Service Screen
 
 1. Access the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} using your unique credentials.
-2. Select **Storage** > **Data Migration** > **Data Transfer Service** from the Navigation Bar to access the Data Transfer Service screen. <br/>
+2. Select **Storage** > **Data Migration** > **Mass Data Migration** from the Navigation Bar to access the Mass Data Migration screen. <br/>
 ![Data Transfer Service option in Customer Portal Menu](/images/DTSinControlMenu.PNG)
 
-## Submit a Data Transfer Request
+## Requesting a Mass Data Migration Device
 
-1. Access the **Data Transfer Service** screen in the[{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. . <br/> **Note**: This screen is only available to the master user of the account.
-2. Click **Order Data Transfer Request** at the top of the screen.
-3. Complete each field in the **Device Information** section according to the table below.
-<table border="1"><tbody><tr><th>Field Name</th><th>Instructions</th></tr><tr><td>Device Type</td><td>The type of device being sent to the destination. If the device type is not listed, select "Other".</td></tr><tr><td>Serial Number</td><td> The serial number for the device.</td></tr><tr><td>Description</td><td>A brief description of the device. Important details to include may be identifying factors such as color, labels or stickers that are attached, etc.</td></tr><tr><td>Note</td><td>Any additional notes regarding the device or the transfer.</td></tr><tr><td>Destination</td><td>Datacenter that will receive the device.</td></tr><tr><td>Carrier</td><td>Post or express carrier used to ship the device to its destination.</td></tr><tr><td>Tracking Number</td><td>Full tracking number for the shipment.</td></tr></tbody></table>
+1. Access the **Mass Data Migration** screen in the[{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. . <br/> **Note**: This screen is only available to the master user of the account. You must have at least one COS account and one bucket in a US Cross Region or US South location to complete the form. 
+2. Click **Request a device** link to open the order form.
+3. Complete each field in the **Request Mass Data Migration Device** form.
+   - Shipping Address: this form is not prefilled. Each field is editable. 
+   - Key Migration Contacts: this form is not prefilled. Each field is editable.
+   - Data Center Network Configuration: provide network configuration details for the pre-provisioning of the Eth3 port on the MDMS Device prior to shipment.
+   - Data Offload Destination: select your existing target account from the drop down list.
+   - Request Name: enter a name to help you keep track of your order.
+5. Select the **I have read and agree to the entire Mass Service Agreement and Mass Data Migration Agreement** check box after reading each service agreement provided.
+6. Click **Place Order** to submit the request. Click **Cancel** to cancel the action.
 
-4. Complete each field in the **Return Address** section or select the **Company Address** check box to automatically populate the fields with the company address on file.
-5. Select the **Service Agreement Acknowledgement** check box after reading each service agreement provided.
-6. Click **Submit Service Request** to submit the request. Click **Cancel** to cancel the action.
 
 ## What Happens Next
 
-After submitting the request, 
-## Uniqueness in the Bucket
+After submitting the request, the status for the request ticket will appear as *Order Pending*. Once the order is accepted and the device is being prepared the status of the request shows *Shipment Pending*. When the device is sent to your location the status is updated to *Device Shipped*. When the device is returned to {{site.data.keyword.BluSoftlayer}} the ticket status changes *Device Returned*. During the transfer process the request status displays as *Migration Started*. The status changes again when the migration to the COS Bucket is complete (*Migration Complete*) and data is removed from the device (*Data Removed*).
+
+## Additional Notes
+
+### Uniqueness in the Bucket
 
 To ensure object names are unique when they are copied into the bucket, the file path is included a prefix in the object name;  `/root/user/config.ini` becomes "root/user/config.ini" when copied into the bucket.
 
-## Buckets
+### Buckets
 
 If the target bucket does not exist, it is created.   If it does exist, it must be empty, otherwise the copy cannot proceed.  
 
-## File Systems
+### File Systems
 
 Symlinks and Hardlinks are skipped during the scan process.
 
-## Onboarding of Data from Your Data Center
+### Onboarding of Data from Your Data Center
 
 1. The device will arrive pre-configured for your data load. Basic [powering/connectivity instruction](user-instructions.html) will be included.
   **Note**: User name and storage pool password will be provided separately.
