@@ -14,7 +14,7 @@ lastupdated: "2017-10-04"
 
 Using superior technology and hardware, Mass Data Migration helps overcome common data transfer challenges including high network costs, long transfer times, and security concerns – all in a single service.
 
-## Accessing the Data Transfer Service Screen
+## Accessing the Mass Data Migration Screen
 
 1. Access the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} using your unique credentials.
 2. Select **Storage** > **Data Migration** > **Mass Data Migration** from the Navigation Bar to access the Mass Data Migration screen. <br/>
