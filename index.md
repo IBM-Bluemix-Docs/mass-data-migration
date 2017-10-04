@@ -36,7 +36,7 @@ Using superior technology and hardware, Mass Data Migration helps overcome commo
 
 ## What Happens Next
 
-After submitting the request, the status for the request ticket will appear as *Order Pending*. Once the order is accepted and the device is being prepared the status of the request shows *Shipment Pending*. When the device is sent to your location the status is updated to *Device Shipped*. When the device is returned to {{site.data.keyword.BluSoftlayer}} the ticket status changes *Device Returned*. During the transfer process the request status displays as *Migration Started*. The status changes again when the migration to the COS Bucket is complete (*Migration Complete*) and data is removed from the device (*Data Removed*).
+After submitting the request, the status for the request ticket will appear as *Order Pending*. Once the order is accepted and the device is being prepared the status of the request shows *Shipment Pending*. When the device is sent to your location the status is updated to *Device Shipped*. When the device is returned to {{site.data.keyword.BluSoftlayer}} the ticket status changes *Device Returned*. During the transfer process the request status displays as *Migration Started*. The status changes again when the migration to the {{site.data.keyword.objectstorageshort}} Bucket is complete (*Migration Complete*) and data is removed from the device (*Data Removed*).
 
 ## Additional Notes
 
