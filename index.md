@@ -8,7 +8,7 @@ lastupdated: "2017-10-04"
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# Getting Started with IBM Cloud Mass Data Migration
+# Getting Started with {{site.data.keyword.cloud_notm}} Mass Data Migration
 
 {{site.data.keyword.BluSoftlayer_full}} Mass Data Migration accelerates the secure movement of terabytes to petabytes of data into the {{site.data.keyword.cloud}} using rugged, 120 TB usable capacity portable storage devices.
 
