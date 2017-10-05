@@ -56,7 +56,7 @@ When the device is sent to your location the request status is updated to *Devic
 
 ### Onboarding of Data from Your Data Center
 
-1. The device arrives pre-configured for your data load. Basic [powering/connectivity instruction](user-instructions.html) will be included.
+1. The device arrives pre-configured for your data load. Basic [powering/connectivity instruction](user-instructions.html) will be included. <br/>
   **Note**: User name and storage pool password will be provided separately. Please check the Request Details of your [Active Request](https://control.softlayer.com/storage/mdms){:new_window} for the credentials.
 2. Point browser to the static IP address you provided in the order form.
 3. Log in, supply password to unlock the empty storage pool. <br/>
