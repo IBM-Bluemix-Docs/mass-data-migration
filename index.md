@@ -14,6 +14,13 @@ lastupdated: "2017-10-05"
 
 Using superior technology and hardware, Mass Data Migration helps overcome common data transfer challenges including high network costs, long transfer times, and security concerns – all in a single service.
 
+## Overview of Mass Data Migration
+
+1. Request a Device to be sent to your on-prem data center and we ship a device to you overnight once the order has been processed.
+2. Transfer large-scale data from your on-prem location to the device at high speeds.
+3. Ship device back to us overnight with the included label, and we download your data into your {{site.data.keyword.objectstoragefull}}  bucket.
+
+
 ## Information to Collect Before Submitting a Request
 
 1. Network settings for the Storage Device
@@ -24,19 +31,16 @@ Using superior technology and hardware, Mass Data Migration helps overcome commo
    - Netmask 
    - Default Gateway to access the User Interface
 3. Cloud Object Storage download destination <br/>
-   **Important**: You must have at least one {{site.data.keyword.objectstoragefull}} account and one bucket in a US Cross Region or US South location to complete the request form. If you do not have an {{site.data.keyword.objectstorageshort}} account yet, please create one prior to requesting an MDMS Device. Refer to [Getting Started with Cloud {{site.data.keyword.objectstorageshort}}](https://ibm-public-cos.github.io/crs-docs/){:new_window}.
-
-## Accessing the Mass Data Migration Screen
-
-1. Access the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} using your unique credentials.
-2. Select **Storage** > **Data Migration** > **Mass Data Migration** from the Navigation Bar to access the Mass Data Migration screen. <br/>
-![Data Transfer Service option in Customer Portal Menu](/images/DTSinControlMenu.PNG)
+   **Important**: You must have at least one Cloud {{site.data.keyword.objectstorageshort}} account and one bucket in a US Cross Region or US South location to complete the request form. If you do not have a Cloud {{site.data.keyword.objectstorageshort}} account yet, please create one prior to requesting the MDMS Device. Refer to [Getting Started with Cloud {{site.data.keyword.objectstorageshort}}](https://ibm-public-cos.github.io/crs-docs/){:new_window}.
 
 ## Requesting a Mass Data Migration Device
 
-1. Access the **Mass Data Migration** screen in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. <br/><br/> **Note**: This screen is only available to the master user of the account. 
-2. Click **Request a device** link to open the order form.
-3. Complete each field in the **Request Mass Data Migration Device** form.
+1. Access the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} using your unique credentials.
+2. Select **Storage** > **Data Migration** > **Mass Data Migration** from the Navigation Bar to access the Mass Data Migration screen. <br/>
+![Data Transfer Service option in Customer Portal Menu](/images/DTSinControlMenu.PNG) <br/>
+**Note**: This screen is only available to the master user of the account. 
+3. Click **Request a device** link to open the order form.
+4. Complete each field in the **Request Mass Data Migration Device** form.
    - **Shipping Address**: this form is not prefilled and each field is editable. Please provide the name of the person who will accept the device delivery in the Attention field. When picking the delivery location, consider the weight of the device (66lbs with its case) and accessibility. (Note: The device is equipped with wheels and pop-up handle for manuvering.)
    - **Key Migration Contacts**: this form is not prefilled. Each field is editable. More than one person could be added. 
    - **Data Center Network Configuration**: provide network configuration details for the pre-provisioning of the Eth3 port on the MDMS Device prior to shipment.
