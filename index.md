@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-10-04"
+lastupdated: "2017-10-05"
 
 ---
 {:new_window: target="_blank"}
@@ -14,6 +14,18 @@ lastupdated: "2017-10-04"
 
 Using superior technology and hardware, Mass Data Migration helps overcome common data transfer challenges including high network costs, long transfer times, and security concerns – all in a single service.
 
+## Information to Collect Before Submitting a Request
+
+1. Network settings for the Storage Device
+   - Static IP Address
+   - Netmask for enabling the data transfer
+2. Network settings for remote computer
+   - Static IP Address
+   - Netmask 
+   - Default Gateway to access the User Interface
+3. Cloud Object Storage download destination <br/>
+   **Important**: You must have at least one {{site.data.keyword.objectstoragefull}} account and one bucket in a US Cross Region or US South location to complete the request form. If you do not have an {{site.data.keyword.objectstorageshort}} account yet, please create one prior to requesting an MDMS Device. Refer to [Getting Started with Cloud {{site.data.keyword.objectstorageshort}}](https://ibm-public-cos.github.io/crs-docs/){:new_window}.
+
 ## Accessing the Mass Data Migration Screen
 
 1. Access the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} using your unique credentials.
@@ -22,11 +34,11 @@ Using superior technology and hardware, Mass Data Migration helps overcome commo
 
 ## Requesting a Mass Data Migration Device
 
-1. Access the **Mass Data Migration** screen in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. <br/><br/> **Note**: This screen is only available to the master user of the account. <br/>**Important**: You must have at least one {{site.data.keyword.objectstoragefull}} account and one bucket in a US Cross Region or US South location to complete the form. 
+1. Access the **Mass Data Migration** screen in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. <br/><br/> **Note**: This screen is only available to the master user of the account. 
 2. Click **Request a device** link to open the order form.
 3. Complete each field in the **Request Mass Data Migration Device** form.
-   - **Shipping Address**: this form is not prefilled. Each field is editable. 
-   - **Key Migration Contacts**: this form is not prefilled. Each field is editable.
+   - **Shipping Address**: this form is not prefilled and each field is editable. Please provide the name of the person who will accept the device delivery in the Attention field. When picking the delivery location, consider the weight of the device (66lbs with its case) and accessibility. (Note: The device is equipped with wheels and pop-up handle for manuvering.)
+   - **Key Migration Contacts**: this form is not prefilled. Each field is editable. More than one person could be added. 
    - **Data Center Network Configuration**: provide network configuration details for the pre-provisioning of the Eth3 port on the MDMS Device prior to shipment.
    - **Data Offload Destination**: select your existing target account from the drop down list.
    - **Request Name**: enter a name to help you keep track of your order.
@@ -36,7 +48,28 @@ Using superior technology and hardware, Mass Data Migration helps overcome commo
 
 ## What Happens Next
 
-After submitting the request, the status for the request ticket will appear as *Order Pending*. Once the order is accepted and the device is being prepared the status of the request shows *Shipment Pending*. When the device is sent to your location the status is updated to *Device Shipped*. When the device is returned to {{site.data.keyword.BluSoftlayer}} the ticket status changes *Device Returned*. During the transfer process the request status displays as *Migration Started*. The status changes again when the migration to the {{site.data.keyword.objectstorageshort}} Bucket is complete (*Migration Complete*) and data is removed from the device (*Data Removed*).
+After submitting the request, the status for the request ticket will appear as *Processing Request*. Your order is then reviewed for Global Trade Compliance and other considerations. If you wish to cancel your Request you may do so while the request is being processed by sending an email to mdmadmin@bg.vnet.ibm.com. 
+
+Once the order is accepted and the device is being prepared the status of the [Active Request](https://control.softlayer.com/storage/mdms){:new_window} shows *Prepping Device* followed by *Awaiting Shipment*. Once your Request enters *Awaiting Shipment* status, it can no longer be canceled. 
+
+When the device is sent to your location the request status is updated to *Device Shipped*. The tracking number will be shared with you in the [Active Request](https://control.softlayer.com/storage/mdms){:new_window}.
+
+### Onboarding of Data from Your Data Center
+
+1. The device arrives pre-configured for your data load. Basic [powering/connectivity instruction](user-instructions.html) will be included.
+  **Note**: User name and storage pool password will be provided separately. Please check the Request Details of your [Active Request](https://control.softlayer.com/storage/mdms){:new_window} for the credentials.
+2. Point browser to the static IP address you provided in the order form.
+3. Log in, supply password to unlock the empty storage pool. <br/>
+   **Note**: See the Request Details of your [Active Request](https://control.softlayer.com/storage/mdms){:new_window} for the password.
+4. Mount the NFS share on your server.
+5. Re-run your DataShuttle inventory to ensure any new files that may have been created since the application are captured.
+6. Run the DataShuttle copy to move the data.
+7. Lock the storage pool.
+8. Gracefully shut down the MDMS device.
+9. Ship box back to {{site.data.keyword.BluSoftlayer_full}} Data Center using provided shipping label.
+10. Notify mdmsadmin@us.ibm.com the transfer is complete and device is in-flight.
+
+When the device is returned to {{site.data.keyword.BluSoftlayer}} the request status changes to *Device Received*. During the transfer process the request status displays as *Offloading Data*. The status changes again when the migration to the {{site.data.keyword.objectstorageshort}} Bucket is complete (*Offload Complete*), and data is removed from the device (*Erase Complete*).
 
 ## Additional Notes
 
@@ -51,17 +84,3 @@ If the target bucket does not exist, it is created.   If it does exist, it must 
 ### File Systems
 
 Symlinks and Hardlinks are skipped during the scan process.
-
-### Onboarding of Data from Your Data Center
-
-1. The device will arrive pre-configured for your data load. Basic [powering/connectivity instruction](user-instructions.html) will be included.
-  **Note**: User name and storage pool password will be provided separately.
-2. Point browser to the static IP address you provided in the order form.
-3. Log in, supply password to unlock the empty storage pool.
-4. Mount the NFS share on your server.
-5. Re-run your DataShuttle inventory to ensure any new files that may have been created since the application are captured.
-6. Run the DataShuttle copy to move the data.
-7. Lock the storage pool.
-8. Gracefully shut down the MDMS device.
-9. Ship box back to {{site.data.keyword.BluSoftlayer_full}} Data Center using provided shipping label.
-10. Notify mdmsadmin@us.ibm.com the transfer is complete and device is in-flight.
