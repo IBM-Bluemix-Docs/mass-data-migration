@@ -16,7 +16,7 @@ Using superior technology and hardware, Mass Data Migration helps overcome commo
 
 ## Overview of Mass Data Migration
 
-1. Request a Device to be sent to your on-prem data center and we ship a device to you overnight once the order has been processed.
+1. Request a device to be sent to your on-prem data center and we ship a device to you overnight once the order has been processed.
 2. Transfer large-scale data from your on-prem location to the device at high speeds.
 3. Ship device back to us overnight with the included label, and we download your data into your {{site.data.keyword.objectstoragefull}}  bucket.
 
