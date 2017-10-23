@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-10-05"
+lastupdated: "2017-10-23"
 
 ---
 {:new_window: target="_blank"}
@@ -38,7 +38,6 @@ Using superior technology and hardware, Mass Data Migration helps overcome commo
 1. Access the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} using your unique credentials.
 2. Select **Storage** > **Data Migration** > **Mass Data Migration** from the Navigation Bar to access the Mass Data Migration screen. <br/>
 ![Data Transfer Service option in Customer Portal Menu](/images/DTSinControlMenu.PNG) <br/>
-**Note**: This screen is only available to the master user of the account. 
 3. Click **Request a device** link to open the order form.
 4. Complete each field in the **Request Mass Data Migration Device** form.
    - **Shipping Address**: this form is not prefilled and each field is editable. Please provide the name of the person who will accept the device delivery in the Attention field. When picking the delivery location, consider the weight of the device (66lbs with its case) and accessibility. (Note: The device is equipped with wheels and pop-up handle for manuvering.)
@@ -52,7 +51,7 @@ Using superior technology and hardware, Mass Data Migration helps overcome commo
 
 ## What Happens Next
 
-After submitting the request, the status for the request ticket will appear as *Processing Request*. Your order is then reviewed for Global Trade Compliance and other considerations. If you wish to cancel your Request you may do so while the request is being processed by sending an email to mdmadmin@bg.vnet.ibm.com. 
+After submitting the request, the status for the request ticket will appear as *Processing Request*. Your order is then reviewed. If you wish to cancel your Request you may do so while the request is being processed by sending an email to mdmadmin@bg.vnet.ibm.com. 
 
 Once the order is accepted and the device is being prepared the status of the [Active Request](https://control.softlayer.com/storage/mdms){:new_window} shows *Prepping Device* followed by *Awaiting Shipment*. Once your Request enters *Awaiting Shipment* status, it can no longer be canceled. 
 
