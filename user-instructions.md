@@ -70,8 +70,7 @@ If a different form factor of ethernet connection is required, the customer must
     - Enter your Storage Pool Passphrase and click **OK**. 
     ![Activate Storage Pool](/images/UnlockPool.png)
   
-11. By default the share has both NFS and SMB protocols enabled with no access restrictions placed on the share. To restrict access to this share (for NFS and/or SMB).  
-    - Right click on the share name and select the approprate menu item.    
+11. By default, the share has both NFS and SMB protocols enabled with no access restrictions placed on the share. To restrict access to this share (for NFS and/or SMB) right click on the share name and select the approprate menu item.<br/>
     ![Restrict Share Access](/images/ShareControls.png)
     
 12. Once the storage pool is enabled the NFS share is available to mount.  In the workflow, click **View Network Shares** to see the network shares view.  Close the workflow, right click on the share, and select mount command to  see the share name and mount information. Mount the share on your source server and load the data.
