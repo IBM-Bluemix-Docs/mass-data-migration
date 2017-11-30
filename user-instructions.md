@@ -53,7 +53,7 @@ If a different form factor of ethernet connection is required, the customer must
     
 5.	Connect the provided CAT6A to SFP+ adapter and connect to your 10Gb switch.
 
-6.	If the IP address configured for Eth3 can be reached via browser HTTPS://'Your-Eth3-IPAddress, continue to the next step, otherwise connect Eth1 (1GbE-B) port.<br/>
+6.	If the IP address configured for Eth3 can be reached via browser HTTPS://'Your-Eth3-IPAddress', continue to the next step, otherwise connect Eth1 (1GbE-B) port.<br/>
     **Note**: See IP Configuration Addendum below if you need to alter any IP settings for Eth3 or Eth1.
     
 7. Open your browser and enter HTTPS://'Your-Eth1-IPAddress'. Enter Eth1 as appropriate for your network configuration. Accept the certificate exception.
