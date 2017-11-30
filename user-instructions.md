@@ -12,12 +12,12 @@ lastupdated: "2017-11-30"
 
 ## Overview
 
-MDMS device is a portable storage device able to present mountable NFS or CFS shares and is managed via a web brower interface.  The device is shipped to a customer, loaded with data on premise, then returned to an IBM Data Center and loaded into Cloud Object Storage into the customer's account and a bucket.
+MDMS device is a portable storage device able to present mountable NFS or CFS shares and is managed via a web brower interface.  The device is shipped to a customer, loaded with data on premise, then returned to an {{site.data.keyword.BluSoftlayer_full}} Data Center and loaded into Cloud Object Storage into the customer's account and a bucket.
 
 
 ### Power
 
-The device ships with a C13-US power cord (https://en.wikipedia.org/wiki/IEC_60320).  If the device is being used outside of the United States, a power adaptor may be required.
+The device ships with a C13-US power cord [https://en.wikipedia.org/wiki/IEC_60320](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. If the device is being used outside of the United States, a power adaptor may be required.
 
 The device accepts all standard power ranges.
 ![Power range](/images/PowerRating.png)
@@ -27,7 +27,7 @@ The device accepts all standard power ranges.
 
 There are two ethernet connections to be made.  One for device management via a browser, and one for data movement on the same subnet where the source data resides.
 
-Both ports originate from the device as RJ45, and CAT6A cables are supplied.  Copper SFP+ adapters are provided to convert from RJ45.  The adapters are guaranteed to work with all switch manufacturers.  These adapters are located in a pocket on the underside of the shipping lid.
+Both ports originate from the device as RJ45, and CAT6A cables are supplied.  Copper SFP+ adapters are provided to convert from RJ45.  The adapters are guaranteed to work with all switch manufacturers. These adapters are located in a pocket on the underside of the shipping lid.
 
 Eth1 (1GbE-B) is used for device management, and as such, should have a gateway specified in the IP Address configuration.  This can be viewed via the LCD after the device is powered on (see IP Address Configuration Addendum below).
 
@@ -69,17 +69,20 @@ If a different form factor of ethernet connection is required, the customer must
     - Click on **Unlock and Start Storage Pool**. 
     - Enter your Storage Pool Passphrase and click **OK**. 
     ![Activate Storage Pool](/images/UnlockPool.png)
+  
+11. By default, the share has both NFS and SMB protocols enabled with no access restrictions placed on the share. To restrict access to this share (for NFS and/or SMB) right click on the share name and select the approprate menu item.<br/>
+    ![Restrict Share Access](/images/ShareControls.png)
     
-11. Once the storage pool is enabled the NFS share is available to mount.  In the workflow, click **View Network Shares** to see the network shares view.  Close the workflow, right click on the share, and select mount command to  see the share name and mount information. Mount the share on your source server and load the data.
+12. Once the storage pool is enabled the NFS share is available to mount.  In the workflow, click **View Network Shares** to see the network shares view.  Close the workflow, right click on the share, and select mount command to  see the share name and mount information. Mount the share on your source server and load the data.
     ![](/images/MountCommand.png)
     
-12. Begin to copy your data to the NFS share. In the workflow, click on **View Network Activity** to show inbound load on Eth3 from GUI as data is transferred to the device.
+13. Begin to copy your data to the NFS share. In the workflow, click on **View Network Activity** to show inbound load on Eth3 from GUI as data is transferred to the device.
     ![](/images/Network.png)
     
-13. In the workflow, click on **View Storage pool** to monitor storage usage on the device. 
+14. In the workflow, click on **View Storage pool** to monitor storage usage on the device. 
     ![](/images/StoragePool.png) 
     
-14.	When the load is complete, gracefully power down the system. In the workflow, click on **Shutdown Appliance...**.  
+15.	When the load is complete, gracefully power down the system. In the workflow, click on **Shutdown Appliance...**.  
     ![](/images/Shutdown.png)
     
 15.	Disconnect the device, return the power cable, Ethernet cable, and SFP+ adapter into their respective storage locations under the lid.
