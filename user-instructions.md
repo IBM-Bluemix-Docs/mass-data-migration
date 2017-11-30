@@ -88,7 +88,7 @@ If a different form factor of ethernet connection is required, the customer must
 
 ## IP Address Configuration Addendum
 The LCD panel on top of the device can be used to configure the IP addresses for the Ethernet ports.
-You navigate in the LCD panel using the Up, Down, Back/Exit, and Forward/Enter buttons. Enter takes you into a menu and Exit takes you out.
+You navigate in the LCD panel using the Up, Down, Back/Esc, and Forward/Enter buttons. Enter takes you into a menu and Exit takes you out.
 
 When editing an IP address or subnet mask, Enter steps you forward one character at a time; Exit steps you back one character at a time. Up and Down toggles through the numbers for the elected location.
 Use Exit back up to the former menu.  
