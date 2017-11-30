@@ -29,9 +29,9 @@ There are two ethernet connections to be made.  One for device management via a 
 
 Both ports originate from the device as RJ45, and CAT6A cables are supplied.  Copper SFP+ adapters are provided to convert from RJ45.  The adapters are guaranteed to work with all switch manufacturers.  These adapters are located in a pocket on the underside of the shipping lid.
 
-Use Eth1 (a 1Gb port) is used for device management, and as such, should have a gateway specified in the IP Address configuration.  This can be viewed via the LCD after the device is powered on (see IP Address Configuration Addendum below).
+Eth1 (1GbE-B) is used for device management, and as such, should have a gateway specified in the IP Address configuration.  This can be viewed via the LCD after the device is powered on (see IP Address Configuration Addendum below).
 
-Use Eth3 (a 10Gb port) for the data transfer.  This connection should either be on the same subnet as the source data, or can be direclty connected to the server if needed.
+Eth3 (10GbE-B) is used for the data transfer.  This connection should either be on the same subnet as the source data, or can be direclty connected to the server if needed.
 
 If a different form factor of ethernet connection is required, the customer must provide the converter.
 
