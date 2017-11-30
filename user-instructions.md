@@ -45,11 +45,11 @@ If a different form factor of ethernet connection is required, the customer must
 
 3.	Position the device to be connected, it can remain the transport case during use. Ensure the device is at room temperature and there is no condensation on it. Connect power using the provided power cable underneath the case lid and power on the device.<br/>
     **Note**: There are two power switches. 
-    ![Power switches](/images/UserGuide2.jpg) 
+    ![Power switches](/images/MDMSPowerSwitch.png) 
     **Note**: The device does not need to be removed from the portable case.
     
 4.	Remove the CAT6A cable from the case lid and connect it to the Eth3 port shown in the picture below.
-    ![](/images/UserGuide3.jpg)
+    ![](/images/MDMSNewEth1and3.png)
     
 5.	Connect the provided CAT6A to SFP+ adapter and connect to your 10Gb switch.
 
@@ -94,4 +94,6 @@ When editing an IP address or subnet mask, Enter steps you forward one character
 Use Exit back up to the former menu.  
 
 Navigate Down to the “Update...” menu item and press Enter to save the setting.
+
+  ![](/images/MDMSLCD.png)
 
