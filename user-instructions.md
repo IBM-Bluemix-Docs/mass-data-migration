@@ -48,12 +48,12 @@ If a different form factor of ethernet connection is required, the customer must
     ![Power switches](/images/MDMSPowerSwitch.png) 
     **Note**: The device does not need to be removed from the portable case.
     
-4.	Remove the CAT6A cable from the case lid and connect it to the Eth3 port shown in the picture below.
+4.	Remove the CAT6A cable from the case lid and connect it to the Eth3 (10GbE-B) port shown in the picture below.
     ![](/images/MDMSNewEth1and3.png)
     
 5.	Connect the provided CAT6A to SFP+ adapter and connect to your 10Gb switch.
 
-6.	If the IP address configured for Eth3 can be reached via browser HTTPS://'Your-Eth3-IPAddress, continue to the next step, otherwise connect Eth1 to a 1Gb port.<br/>
+6.	If the IP address configured for Eth3 can be reached via browser HTTPS://'Your-Eth3-IPAddress, continue to the next step, otherwise connect Eth1 (1GbE-B) port.<br/>
     **Note**: See IP Configuration Addendum below if you need to alter any IP settings for Eth3 or Eth1.
     
 7. Open your browser and enter HTTPS://'Your-Eth1-IPAddress'. Enter Eth1 as appropriate for your network configuration. Accept the certificate exception.
@@ -88,7 +88,7 @@ If a different form factor of ethernet connection is required, the customer must
 
 ## IP Address Configuration Addendum
 The LCD panel on top of the device can be used to configure the IP addresses for the Ethernet ports.
-You navigate in the LCD panel using the Up, Down, Back/Esc, and Forward/Enter buttons. Enter takes you into a menu and Exit takes you out.
+You navigate in the LCD panel using the Up, Down, Back/ESC, and Forward/ENTER buttons. Enter takes you into a menu and Exit takes you out.
 
 When editing an IP address or subnet mask, Enter steps you forward one character at a time; Exit steps you back one character at a time. Up and Down toggles through the numbers for the elected location.
 Use Exit back up to the former menu.  
