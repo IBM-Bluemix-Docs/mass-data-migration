@@ -8,7 +8,7 @@ lastupdated: "2017-12-15"
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# {{site.data.keyword.Bluemix_notm}} Mass Data Migration Specs
+# {{site.data.keyword.cloud_notm}} Mass Data Migration Specs
 
 <table>
         <colgroup>
