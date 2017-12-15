@@ -12,7 +12,7 @@ lastupdated: "2017-12-15"
 
 ## Overview
 
-The {{site.data.keyword.cloud}} Mass Migration Device device is a portable storage device able to present mountable NFS or CFS shares and is managed via a web brower interface.  The device is shipped to a customer, loaded with data on premise, then returned to an {{site.data.keyword.BluSoftlayer_full}} Data Center and loaded into Cloud Object Storage into the customer's account and a bucket.
+The {{site.data.keyword.cloud}} Mass Migration Device device is a portable storage device able to present mountable NFS or CFS shares and is managed via a web brower interface.  The device is shipped to a customer, loaded with data on premise, then returned to an {{site.data.keyword.BluSoftlayer_full}} Data Center and loaded into {{site.data.keyword.cos_full}} into the customer's account and a bucket.
 
 
 ### Power
