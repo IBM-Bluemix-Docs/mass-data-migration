@@ -20,7 +20,7 @@ lastupdated: "2017-12-15"
    - Netmask 
    - Default Gateway to access the User Interface
 3. Cloud Object Storage download destination <br/>
-   **Important**: You must have at least one Cloud {{site.data.keyword.objectstorageshort}} account and one bucket in a US Cross Region or US South location to complete the request form. If you do not have a Cloud {{site.data.keyword.objectstorageshort}} account yet, please create one prior to requesting the Mass Data Migration device. Refer to [Getting Started with Cloud {{site.data.keyword.objectstorageshort}}](https://ibm-public-cos.github.io/crs-docs/){:new_window}.
+   **Important**: You must have at least one {{site.data.keyword.cos_full}} account and one bucket in a US Cross Region or US South location to complete the request form. If you do not have a {{site.data.keyword.cos_full_notm}}} account yet, please create one prior to requesting the Mass Data Migration device. Refer to [About {{site.data.keyword.cos_full}}](https://console.bluemix.net/docs/services/cloud-object-storage/about-cos.html){:new_window}.
 
 ## Step 1: Create a Request
 
