@@ -69,7 +69,7 @@ When the device is returned to {{site.data.keyword.BluSoftlayer}} the request st
 
 During the transfer process the request status displays as *Offloading Data*. The status changes again when the migration to the {{site.data.keyword.objectstorageshort}} Bucket is complete (*Offload Complete*). Your data is immediately accessible once the high-speed offload into your Cloud Object Storage bucket is complete.
 
-## Step 6 
+## Step 6: Erase Device
 
 {{site.data.keyword.IBM}} will implement DOD-Level data wipe requirements to permanently erase your data from the device. When finished, your Request status will display *Erase Complete*.
 
