@@ -53,9 +53,7 @@ Mass Data Migration encrypts all data with AES 256-bit encryption and provides a
 All Mass Data Migration devices are housed in rugged and durable enclosures. These cases are waterproof, shockproof and tamper-evident to ensure roundtrip device and data security. 
 
 ## Q15. How can I track my request throughout the migration process? 
-To track the status of your Request, refer to the active requests section on the Mass Data Migration page in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. You can sign into the portal using the following link.
-
-https://control.softlayer.com/storage/mdms
+To track the status of your Request, refer to the active requests section on the Mass Data Migration page in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. You can sign into the portal using the following link: https://control.softlayer.com/storage/mdms
 
 ## Q16. How do you erase my data from the device after it has been offloaded to {{site.data.keyword.cos_full_notm}}?
 As soon as your data offload to {{site.data.keyword.cos_full}} is complete, {{site.data.keyword.IBM}} immediately initiates a four-pass DOD-level data wipe to permanently erase your data from the device. 
@@ -76,9 +74,7 @@ Mass Data Migration devices use a ZFS file system with LZ4 compression and AES 2
 In the US, a flat rate of USD 395 is charged per device including the USD 295 device fee, USD 100 roundtrip UPS Next Day Air delivery, and 10 business days of use at your site. 
 
 ## Q22. Am I charged for {{site.data.keyword.cos_full_notm}} use? 
-The transfer of data into the {{site.data.keyword.cloud_notm}} is at no cost to you, however, standard rates will apply for data stored in {{site.data.keyword.cos_full}} or any other {{site.data.keyword.cloud_notm}} service. You can find pricing for {{site.data.keyword.cos_full}} for the Standard Cross Region offering at the following link.  
-
-https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage#s3api
+The transfer of data into the {{site.data.keyword.cloud_notm}} is at no cost to you, however, standard rates will apply for data stored in {{site.data.keyword.cos_full}} or any other {{site.data.keyword.cloud_notm}} service. You can find pricing for {{site.data.keyword.cos_full}} for the Standard Cross Region offering at the following link: https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage#s3api
 
 ## Q23. Can I buy an {{site.data.keyword.cloud_notm}} Mass Data Migration device? 
 {{site.data.keyword.cloud_notm}} Mass Data Migration devices are not available for purchase. 
