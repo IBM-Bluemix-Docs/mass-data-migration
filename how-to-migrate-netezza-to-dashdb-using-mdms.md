@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-10-04"
+lastupdated: "2017-12-15"
 
 ---
 {:new_window: target="_blank"}
@@ -13,8 +13,8 @@ lastupdated: "2017-10-04"
 The Mass Data Migration Service (MDMS) can be used to migrate large Netezza databases to DashDB.
 
 This document describes:
-- the Netezza tools to determine the amount of data to be transferred to MDMS
-- the commands to export the data into the MDMS device.
+- the Netezza tools to determine the amount of data to be transferred via the Mass Data Migration Service,
+- the commands to export the data into the Mass Data Migration device.
 
 ## Database Sizing
 1. From [IBM Support: Fix Central - Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window} download the appropriate Netezza Tools version that corresponds to your Netezza instance.
