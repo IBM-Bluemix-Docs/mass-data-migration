@@ -10,7 +10,7 @@ lastupdated: "2017-12-15"
 
 # {{site.data.keyword.Bluemix_notm}} Mass Data Migration Specs
 
-      <table>
+<table>
         <colgroup>
           <col/>
           <col/>
@@ -115,4 +115,4 @@ lastupdated: "2017-12-15"
             </td>
           </tr>
         </tbody>
-      </table>
+</table>
