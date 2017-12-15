@@ -57,7 +57,7 @@ To track the status of your Request, refer to the active requests section on the
 
 https://control.softlayer.com/storage/mdms
 
-## Q16. How do you erase my data from the device after it has been offloaded to {{site.data.keyword.cos_full}}?
+## Q16. How do you erase my data from the device after it has been offloaded to {{site.data.keyword.cos_full_notm}}?
 As soon as your data offload to {{site.data.keyword.cos_full}} is complete, {{site.data.keyword.IBM}} immediately initiates a four-pass DOD-level data wipe to permanently erase your data from the device. 
 
 ## Q17: What is the file interface on Mass Data Migration? 
