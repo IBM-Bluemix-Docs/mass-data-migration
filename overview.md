@@ -20,7 +20,7 @@ Mass Data Migration uses 120 TB-usable capacity storage devices to accelerate mo
 
 ## Mass Data Migration Benefits
 1. Move data fast
-    - Using a single Mass Data Migration device, you can migrate up to 120TB of data (at RAID-6) in just days, as opposed to weeks or months using traditional data transfer methods.
+    - Using a single Mass Data Migration device, you can migrate up to 120 TB of data (at RAID-6) in just days, as opposed to weeks or months using traditional data transfer methods.
 2. Flexible and scalable
     - Whether you need to migrate a few terabytes or many petabytes of data, you have the flexibility to request one or multiple devices to accommodate your workload.
 3. Affordable
