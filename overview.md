@@ -31,6 +31,8 @@ Mass Data Migration uses 120 TB-usable capacity storage devices to accelerate mo
     - Device design maximizes security from the inside-out using AES 256-bit encryption, RAID-6 configuration and rugged, tamper-evident, waterproof, shockproof cases to promote data protection and integrity during device-handling and transport.
 6. Secure erasure
     - {{site.data.keyword.IBM}} uses a four-pass DOD-Level data wipe to ensure complete erasure of all customer data from Mass Data Migration devices.
+    
+    
 <hr>
 
 
