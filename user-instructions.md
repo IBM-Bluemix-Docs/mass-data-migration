@@ -80,7 +80,7 @@ If a different form factor of ethernet connection is required, the customer must
     ![](/images/4.5.1Main.png)
     
 14. In the workflow, click on **View Storage pool** to monitor storage usage on the device. 
-    ![](/images/StoragePool.png) 
+    ![](/images/4.5.1Pool.png) 
     
 15.	When the load is complete, gracefully power down the system. In the workflow, click on **Shutdown Appliance...**.  
     ![](/images/Shutdown.png)
