@@ -77,7 +77,7 @@ If a different form factor of ethernet connection is required, the customer must
     ![](/images/MountCommand.png)
     
 13. Begin to copy your data to the NFS share. In the workflow, click on **View Network Activity** to show inbound load on Eth3 from GUI as data is transferred to the device.
-    ![](/images/4.5.1 Main.png)
+    ![](/images/4.5.1Main.png)
     
 14. In the workflow, click on **View Storage pool** to monitor storage usage on the device. 
     ![](/images/StoragePool.png) 
