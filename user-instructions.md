@@ -77,10 +77,10 @@ If a different form factor of ethernet connection is required, the customer must
     ![Mounting the share](/images/MountCommand.png)
     
 13. Begin to copy your data to the NFS share. In the workflow, click on **View Network Activity** to show inbound Ethernet load in GUI as data is transferred to the device on the 10Gb link.
-    ![View activity](/images/4.5.1Main.png)
+    ![View activity](/images/UserGuide13.png)
     
 14. In the workflow, click on **View Storage pool** to monitor storage usage and IOPS on the device. 
-    ![View Storage Pool](/images/4.5.1Pool.png) 
+    ![View Storage Pool](/images/UserGuide14.png) 
     
 15.	When the load is complete, gracefully power down the system. In the workflow, click on **Shutdown Appliance...**.  
     ![Shutting Appliance Down](/images/Shutdown.png)
