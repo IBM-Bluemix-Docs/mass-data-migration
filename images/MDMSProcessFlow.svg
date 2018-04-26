@@ -16,7 +16,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="MDMSProcessFlow.svg">
+   sodipodi:docname="MDMSProcessFlow.svg"
+   inkscape:export-filename="C:\Users\vmuirhead\Documents\GitHub\mass-data-migration-staging\images\MDMSProcessFlow.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -123,7 +126,9 @@
   <g
      inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="Text" />
+     inkscape:label="Text"
+     style="display:none"
+     sodipodi:insensitive="true" />
   <flowRoot
      xml:space="preserve"
      id="flowRoot4569"
