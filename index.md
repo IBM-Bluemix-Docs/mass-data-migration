@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-15"
+  years: 2017-2018
+lastupdated: "2018-04-26"
 
 ---
 {:new_window: target="_blank"}
@@ -25,8 +25,7 @@ lastupdated: "2017-12-15"
 ## Step 1: Create a Request
 
 1. Access the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} using your unique credentials.
-2. Select **Storage** > **Data Migration** > **Mass Data Migration** from the Navigation Bar to access the Mass Data Migration landing page. <br/>
-![Data Transfer Service option in Customer Portal Menu](/images/DTSinControlMenu.PNG) <br/>
+2. Select **Storage** > **Data Migration** > **Mass Data Migration** from the Navigation Bar to access the Mass Data Migration landing page.
 3. Click the **Request Device** link to open the order form.
 4. Complete each field in the **Mass Data Migration** order form.
    - **Shipping Address**: this form is not prefilled and each field is editable. Please provide the name of the person who will accept the device delivery in the Attention field. When picking the delivery location, consider the weight of the device (66 lbs with its case) and accessibility. <br/> (**Note**: The device is equipped with wheels and pop-up handle for maneuvering.)
