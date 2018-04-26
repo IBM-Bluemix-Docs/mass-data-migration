@@ -16,7 +16,7 @@ A fast, simple, secure way to physically transfer terabytes to petabytes of data
 
 Mass Data Migration uses 120 TB-usable capacity storage devices to accelerate moving data to the cloud and overcome common transfer challenges like high costs, long transfer times and security concerns – all in a single service.
 
-![Mass Data Migration Process Flow](/images/MDMSProcessFlow.svg)
+![Mass Data Migration Process Flow](/images/MDMSWorkflow.svg)
 
 ## Mass Data Migration Benefits
 1. Move data fast
