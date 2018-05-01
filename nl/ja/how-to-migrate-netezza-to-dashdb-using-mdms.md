@@ -19,7 +19,7 @@ lastupdated: "2017-12-15"
 ## データベースのサイズ変更
 1. [IBM Support: Fix Central - Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window} から、ご使用の Netezza インスタンスに対応するバージョンの Netezza ツールをダウンロードしてください。
 
-   **注** - デフォルトの場合、サポート・ツールは、Netezza サーバーの /nz/support-IBM_Netezza<version>/bin ディレクトリーにインストールされます。
+   **注** - デフォルトでは、サポート・ツールは、Netezza サーバーの /nz/support-IBM_Netezza<version>/bin ディレクトリーにインストールされます。
    
 2. 2 つのコマンド (`nz_db_size` と `nz_compressedTableRatio`) を使用します。
 
@@ -44,8 +44,8 @@ nz_db_size
 ```
 nz_compressedTableRatio
 ....................................................................................
-. 圧縮後の表と圧縮解除後の表のサイズの比率の見積もり値を
-. 以下にまとめます。圧縮解除後の表は圧縮後の表の約 <比率> 倍
+. 圧縮後の表と圧縮解除後の表のサイズの比率の見積もり値を .
+. 以下にまとめます。圧縮解除後の表は圧縮後の表の約 <比率> 倍 .
 . のサイズになります。.
 . .
 . 「圧縮後のサイズ」は、表で実際に使用するストレージの量です。.

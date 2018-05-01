@@ -11,7 +11,7 @@ lastupdated: "2017-12-15"
 # {{site.data.keyword.cloud_notm}} 大量データ・マイグレーションに関する FAQ
 
 ## Q1. {{site.data.keyword.cloud_notm}} 大量データ・マイグレーションとは何ですか? 
-{{site.data.keyword.cloud}} 大量データ・マイグレーションは、120 TB の使用可能容量がある堅牢なポータブル・ストレージ・デバイスを使用して、テラバイト単位やペタバイト単位のデータを {{site.data.keyword.cloud_notm}} に安全に移動する処理を高速で実行する物理データ転送サービスです。 
+{{site.data.keyword.cloud}} 大量データ・マイグレーションは、120 TB の使用可能容量がある堅牢なポータブル・ストレージ・デバイスを使用して、テラバイト単位からペタバイト単位までのデータを {{site.data.keyword.cloud_notm}} に安全に移動する処理を高速で実行する物理データ転送サービスです。 
 
 ## Q2. 大量データ・マイグレーションを使い始めるには、どうしたらよいですか? 
 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} を使用して要求を送信してください。要求が承認され、処理が完了すると、ネットワーク情報と配送先情報に基づいて次の利用可能なデバイスの事前構成が行われ、デバイスが配送されます。このリンク (https://control.softlayer.com/storage/mdms) からすぐに開始できます。
