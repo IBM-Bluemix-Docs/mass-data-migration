@@ -6,11 +6,35 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg8"
    version="1.1"
    viewBox="0 0 254 142.875"
    height="142.875mm"
-   width="254mm">
+   width="254mm"
+   sodipodi:docname="MDMSWorkflow.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     id="namedview90"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="480"
+     inkscape:cy="270"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
   <title
      id="title3922">MDMSWorkflow with Layers</title>
   <defs
@@ -98,15 +122,15 @@
          style="stroke-width:0.26458332"
          y="109.71616"
          x="23.070646"
-         id="tspan159">Ingest data onto the device. </tspan><tspan
+         id="tspan159">データを装置に取り込みます。 </tspan><tspan
          id="tspan163"
          style="stroke-width:0.26458332"
          y="114.56686"
-         x="23.070646">Attach the shipping label and </tspan><tspan
+         x="23.070646">配送ラベルを貼付して IBM に </tspan><tspan
          id="tspan165"
          style="stroke-width:0.26458332"
          y="119.41755"
-         x="23.070646">return to IBM. </tspan></text>
+         x="23.070646">返送してください。</tspan></text>
     <text
        id="text169"
        y="110.20619"
@@ -116,15 +140,15 @@
          id="tspan171"
          style="stroke-width:0.26458332"
          y="110.20619"
-         x="99.803215">IBM offloads your data to IBM Cloud</tspan><tspan
+         x="99.803215">IBM はお客様のデータを IBM Cloud オブジェクト・</tspan><tspan
          id="tspan173"
          style="stroke-width:0.26458332"
          y="115.05688"
-         x="99.803215">Object Storage and provides you with </tspan><tspan
+         x="99.803215">ストレージにオフロードし、即座にアクセス</tspan><tspan
          id="tspan181"
          style="stroke-width:0.26458332"
          y="119.90758"
-         x="99.803215">immediate access.</tspan></text>
+         x="99.803215">できるようにします。</tspan></text>
     <text
        id="text199"
        y="49.605549"
@@ -134,7 +158,7 @@
          style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:4.93888903px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#688eb5;fill-opacity:1;stroke-width:0.26458332"
          y="49.605549"
          x="23.684887"
-         id="tspan197">Create a Request</tspan></text>
+         id="tspan197">要求の作成</tspan></text>
     <text
        id="text199-0"
        y="49.231522"
@@ -144,7 +168,7 @@
          style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:4.93888903px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#688eb5;fill-opacity:1;stroke-width:0.26458332"
          y="49.231522"
          x="100.40085"
-         id="tspan197-4">Prep and Ship</tspan></text>
+         id="tspan197-4">準備と配送</tspan></text>
     <text
        id="text199-0-5"
        y="50.300491"
@@ -154,7 +178,7 @@
          style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:4.93888903px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#688eb5;fill-opacity:1;stroke-width:0.26458332"
          y="50.300491"
          x="181.25305"
-         id="tspan197-4-5">Receive and Connect</tspan></text>
+         id="tspan197-4-5">受け取りと接続</tspan></text>
     <text
        id="text199-9"
        y="104.11514"
@@ -164,7 +188,7 @@
          style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:4.93888903px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#688eb5;fill-opacity:1;stroke-width:0.26458332"
          y="104.11514"
          x="22.877073"
-         id="tspan197-48">Ingest and Return</tspan></text>
+         id="tspan197-48">取り込みと返送</tspan></text>
   </g>
   <flowRoot
      transform="scale(0.26458333)"
@@ -290,11 +314,11 @@
        style="stroke-width:0.26458332"
        y="55.695217"
        x="23.84823"
-       id="tspan133">Submit your Mass Data</tspan><tspan
+       id="tspan133">大量データ・マイグレーション</tspan><tspan
        id="tspan137"
        style="stroke-width:0.26458332"
        y="60.54591"
-       x="23.84823">Migration Request.</tspan></text>
+       x="23.84823">要求を送信してください。</tspan></text>
   <text
      id="text141"
      y="55.329395"
@@ -304,11 +328,11 @@
        style="stroke-width:0.26458332"
        y="55.329395"
        x="100.29324"
-       id="tspan139">IBM will ship you a </tspan><tspan
+       id="tspan139">IBM から事前構成済みの</tspan><tspan
        id="tspan143"
        style="stroke-width:0.26458332"
        y="60.180088"
-       x="100.29324">pre-configured device.</tspan></text>
+       x="100.29324">装置が届きます。</tspan></text>
   <text
      id="text147"
      y="55.571007"
@@ -318,11 +342,11 @@
        style="stroke-width:0.26458332"
        y="55.571007"
        x="181.63858"
-       id="tspan145">Connect to your network and</tspan><tspan
+       id="tspan145">ネットワークに接続し、暗号化</tspan><tspan
        id="tspan149"
        style="stroke-width:0.26458332"
        y="60.4217"
-       x="181.63858">unlock encryption pool.</tspan></text>
+       x="181.63858">プールをアンロックしてください。</tspan></text>
   <text
      id="text185"
      y="109.67702"
@@ -332,19 +356,19 @@
        style="stroke-width:0.26458332"
        y="109.67702"
        x="181.23364"
-       id="tspan183">IBM promptly and permanently </tspan><tspan
+       id="tspan183">IBM が DOD レベルのデータ・</tspan><tspan
        id="tspan187"
        style="stroke-width:0.26458332"
        y="114.52771"
-       x="181.23364">erases data from the device </tspan><tspan
+       x="181.23364">ワイプ要件に従って即座に</tspan><tspan
        id="tspan189"
        style="stroke-width:0.26458332"
        y="119.3784"
-       x="181.23364">according to DOD-level data wipe </tspan><tspan
+       x="181.23364">永久的に装置からデータを消去</tspan><tspan
        id="tspan195"
        style="stroke-width:0.26458332"
        y="124.2291"
-       x="181.23364">requirements.</tspan></text>
+       x="181.23364">します。</tspan></text>
   <text
      id="text199-6"
      y="104.27847"
@@ -354,7 +378,7 @@
        style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:4.93888903px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#688eb5;fill-opacity:1;stroke-width:0.26458332"
        y="104.27847"
        x="99.485435"
-       id="tspan197-0">Offload and Access</tspan></text>
+       id="tspan197-0">オフロードとアクセス</tspan></text>
   <text
      id="text199-1"
      y="104.27847"
@@ -364,5 +388,5 @@
        style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:4.93888903px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#688eb5;fill-opacity:1;stroke-width:0.26458332"
        y="104.27847"
        x="180.99411"
-       id="tspan197-6">Erase Device</tspan></text>
+       id="tspan197-6">装置の消去</tspan></text>
 </svg>
