@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-15"
+  years: 2017-2018
+lastupdated: "2018-04-26"
 
 ---
 {:new_window: target="_blank"}
@@ -19,14 +19,13 @@ lastupdated: "2017-12-15"
    - Adresse IP statique
    - Masque du réseau 
    - Passerelle par défaut pour l'accès à l'interface utilisateur
-3. Destination de téléchargement de Cloud Object Storage<br/>
+3. Destination de téléchargement de Cloud Object Storage <br/>
    **Important** : Vous devez disposer d'au moins un compte {{site.data.keyword.cos_full}} et un compartiment dans un emplacement US Cross Region ou US South pour compléter le formulaire de demande. Si vous n'avez pas encore de compte {{site.data.keyword.cos_full_notm}}}, créez-en un avant de demander le périphérique Mass Data Migration. Voir [About {{site.data.keyword.cos_full}}](https://console.bluemix.net/docs/services/cloud-object-storage/about-cos.html){:new_window}.
 
 ## Etape 1: Création d'une demande
 
 1. Accédez au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} à l'aide de vos données d'identification uniques.
-2. Sélectionnez **Storage** > **Data Migration** > **Mass Data Migration** dans la barre de navigation afin d'accéder à la page d'accueil de Mass Data Migration. <br/>
-![Option Service de Transfert de Données dans le menu Portail client](/images/DTSinControlMenu.PNG) <br/>
+2. Sélectionnez **Storage** > **Data Migration** > **Mass Data Migration** dans la barre de navigation afin d'accéder à la page d'accueil de Mass Data Migration.
 3. Cliquez sur le lien de **demande d'un périphérique** afin d'ouvrir le formulaire de commande.
 4. Remplissez chaque zone du formulaire de commande **Mass Data Migration**.
    - **Shipping Address** : ce formulaire n'est pas prérempli et chaque zone est modifiable. Indiquez le nom de la personne qui va accepter la livraison du périphérique dans la zone Attention. Lors de la sélection de l'emplacement de livraison, tenez compte du poids du périphérique (30 kg dans ce cas) et de l'accessibilité. <br/> (**Remarque** : Le périphérique est équipé de roues et de poignées rétractables pour une meilleure maniabilité.)
@@ -81,9 +80,8 @@ Pour garantir le caractère unique des noms d'objet lorsqu'ils sont copiés dans
 
 ### Compartiments
 
-Si le compartiment cible n'existe pas, il est créé. S'il existe, il doit être vide, sinon la copie ne peut pas se poursuivre.  
+Si le compartiment cible n'existe pas, il est créé.   S'il existe, il doit être vide, sinon la copie ne peut pas se poursuivre.  
 
 ### Systèmes de fichiers
-
 
 Les liens symboliques et les liens fixes sont ignorés pendant le processus d'analyse.

@@ -22,7 +22,7 @@ Les périphériques Mass Data Migration sont conçus pour fonctionner dans presq
 ## Q4. Quelle quantité de données puis-je transférer avec Mass Data Migration ?
 Il n'existe virtuellement aucune limite à la quantité de données que vous pouvez transférer, qu'il s'agisse de quelques téraoctets  ou de pétaoctets. Chaque périphérique peut offrir une capacité utilisable de 120 en mode RAID-6, mais vous pouvez utiliser plusieurs périphériques pour gérer de plus grandes charges de travail.
 
-## Q5. Comment puis-je utiliser plusieurs périphériques pour déplacer des charges de travail supérieures à 120 To?  
+## Q5. Comment puis-je utiliser plusieurs périphériques pour déplacer des charges de travail supérieures à 120 To? 
 Utilisez plusieurs périphériques en parallèle ou en série afin de déplacer toutes les données en une seule opération de migration ou bien utilisez un seul périphérique pour des migrations itératives. Vous pouvez, par exemple, transférer  1 Po de données au moyen de 9 périphériques en parallèle, ou utiliser un seul périphérique pour effectuer 9 opérations de migrations distinctes.
 
 ## Q6. Combien de temps faut-il pour transférer mes données ? 

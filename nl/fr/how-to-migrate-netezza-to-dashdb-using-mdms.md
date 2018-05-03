@@ -85,5 +85,5 @@ Deux options permettent d'extraire les données de Netezza :
 ## Validation de données
 Il est possible de relire les données sur Netezza en utilisant Select dans une table externe **myfile** `USING(....) “` pour garantir que les données sont correctes.
  
-## Informations complémentaires 
+## Informations complémentaires
 Des informations complémentaires sur Netezza sont disponibles dans la [documentation utilisateur de base de données IBM Netezza](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.
