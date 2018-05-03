@@ -17,8 +17,7 @@ O {{site.data.keyword.cloud}} Mass Data Migration é um serviço de transferênc
 Use o [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} para enviar sua solicitação. Quando sua solicitação é aprovada e processada, os próximos dispositivos disponíveis serão pré-configurados e enviados para você com base em suas informações de rede e de remessa. Use o link a seguir para começar agora: https://control.softlayer.com/storage/mdms
 
 ## Q3. Quem deve usar o Mass Data Migration? 
-Os dispositivos do Mass Data Migration estão equipados para executar em quase qualquer ambiente: desde data centers e escritórios até locais remotos, armazéns e embarcações.
-O Mass Data Migration também é uma alternativa quando há opções muito caras, lentas ou indisponíveis de
+Os dispositivos do Mass Data Migration estão equipados para executar em quase qualquer ambiente: desde data centers e escritórios até locais remotos, armazéns e embarcações. O Mass Data Migration também é uma alternativa quando há opções muito caras, lentas ou indisponíveis de
 transferência de dados pela rede.  
 
 ## Q4. Qual é a quantia de dados que eu posso transferir usando o Mass Data Migration?
@@ -40,8 +39,7 @@ Os dispositivos do Mass Data Migration têm interfaces de rede de 10 Gbps com po
 O Mass Data Migration usa Entrega aérea em um dia útil UPS para enviar todos os dispositivos. O custo é incluído em uma taxa fixa baixa US$ 395 por dispositivo. Os clientes não conseguem selecionar métodos de remessa alternativos neste momento.
 
 ## Q10. Em quais regiões o Mass Data Migration está disponível? 
-O Mass Data Migration está atualmente está disponível apenas nos Estados Unidos e na União Europeia. Todos os dados são migrados para camadas de serviços do {{site.data.keyword.cos_full}} em Várias regiões dos EUA ou da União Europeia, respectivamente.
-Os dispositivos não podem ser enviados de uma região e devolvidos para outra região.
+O Mass Data Migration está atualmente está disponível apenas nos Estados Unidos e na União Europeia. Todos os dados são migrados para camadas de serviços do {{site.data.keyword.cos_full}} em Várias regiões dos EUA ou da União Europeia, respectivamente. Os dispositivos não podem ser enviados de uma região e devolvidos para outra região.
 
 ## Q11. Qual o valor para importar dados para o {{site.data.keyword.cloud_notm}}? 
 Não há taxas aplicáveis para dados transferidos para o {{site.data.keyword.cloud_notm}}.

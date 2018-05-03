@@ -35,7 +35,7 @@ lastupdated: "2017-12-15"
             <td>
               <p>2 x 10 Gbase-T</p>
               <p>2 x 1 GbE</p>
-              <p>Suporta RJ45 e SFP+ de cobre<br/> (conversor RJ45 para SFP+ incluído)</p>
+              <p>Suporta RJ45 e SFP+ de cobre <br/> (conversor RJ45 para SFP+ incluído)</p>
             </td>
           </tr>
           <tr>

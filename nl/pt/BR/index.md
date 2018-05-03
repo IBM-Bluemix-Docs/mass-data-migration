@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-15"
+  years: 2017-2018
+lastupdated: "2018-04-26"
 
 ---
 {:new_window: target="_blank"}
@@ -25,8 +25,7 @@ lastupdated: "2017-12-15"
 ## Etapa 1: criar uma solicitação
 
 1. Acesse o [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} usando suas credenciais exclusivas.
-2. Selecione **Armazenamento** > **Migração de dados** > **Mass Data Migration** na Barra de navegação para acessar a página de entrada do Mass Data Migration. <br/>
-![Opção de serviço de transferência de dados no menu do Portal do cliente](/images/DTSinControlMenu.PNG) <br/>
+2. Selecione **Armazenamento** > **Migração de dados** > **Mass Data Migration** na Barra de navegação para acessar a página de entrada do Mass Data Migration.
 3. Clique no link **Solicitar dispositivo** para abrir o formulário da solicitação.
 4. Preencha cada campo no formulário do pedido **Mass Data Migration**.
    - **Endereço de entrega**: esse formulário não é preenchido e cada campo é editável. Forneça o nome da pessoa que aceitará a entrega do dispositivo no campo Atenção. Ao selecionar o local de entrega, considere o peso do dispositivo (66 libras incluindo a caixa) e acessibilidade. <br/> (**Nota**: o dispositivo é equipado com rodas e com uma alça suspensa para manobras).
@@ -40,7 +39,7 @@ lastupdated: "2017-12-15"
 
 ## Etapa 2: preparar e enviar
 
-Após enviar a solicitação, o status para o chamado de solicitação aparecerá como *Processando a solicitação*. Quando sua solicitação tiver sido processada, o {{site.data.keyword.IBM}} iniciará a pré-configuração do próximo dispositivo disponível e o status na grade [Solicitações](https://control.softlayer.com/storage/mdms){:new_window} mostrará *Preparando dispositivo* seguido por *Aguardando remessa*.
+Após enviar a solicitação, o status para o chamado de solicitação aparecerá como *Processando a solicitação*.  Quando sua solicitação tiver sido processada, o {{site.data.keyword.IBM}} iniciará a pré-configuração do próximo dispositivo disponível e o status na grade [Solicitações](https://control.softlayer.com/storage/mdms){:new_window} mostrará *Preparando dispositivo* seguido por *Aguardando remessa*.
 
 Quando o pedido é aceito e o dispositivo está sendo preparado, o status na grade [Solicitações](https://control.softlayer.com/storage/mdms){:new_window} mostra *Preparando dispositivo* seguido por *Aguardando remessa*. Quando sua solicitação entra no status *Aguardando remessa*, ela não pode mais ser cancelada. 
 
@@ -49,7 +48,7 @@ Quando o dispositivo é retirado em loja pela transportadora para ser enviado pa
 
 ## Etapa 3: receber e conectar
 
-1. O dispositivo chega pré-configurado para você. Uma [instrução de ligação/conexão](user-instructions.html) básica será incluída.<br/>
+1. O dispositivo chega pré-configurado para você. Uma [instrução de ligação/conexão](user-instructions.html) básica será incluída. <br/>
   **Nota**: o nome de usuário e a senha do conjunto de armazenamentos serão fornecidos separadamente. Verifique os **Detalhes da solicitação** em sua grade [Solicitações](https://control.softlayer.com/storage/mdms){:new_window} para obter as credenciais.
 2. Aponte seu navegador para o endereço IP estático fornecido no formulário do pedido.
 3. Efetue login e forneça a senha para desbloquear o conjunto de armazenamentos vazio. <br/>
@@ -81,7 +80,7 @@ Para assegurar que os nomes de objetos sejam exclusivos quando eles são copiado
 
 ### Depósitos
 
-Se o depósito de destino não existe, ele é criado.  Se ele existe, deve estar vazio, caso contrário, a cópia não pode continuar.  
+Se o depósito de destino não existe, ele é criado.   Se ele existe, deve estar vazio, caso contrário, a cópia não pode continuar.  
 
 ### Sistemas de arquivos
 

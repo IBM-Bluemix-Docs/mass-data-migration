@@ -19,7 +19,7 @@ O Mass Data Migration usa dispositivos de armazenamento de capacidade utilizáve
 para acelerar a movimentação de dados para a nuvem e para superar os desafios de transferência comuns, como
 custos elevados, longos tempos de transferência e preocupações de segurança, tudo em um único serviço.
 
-Fluxo do processo do ![Mass Data Migration](/images/MDMSworkflow.jpg)
+Fluxo do processo do ![Mass Data Migration](/images/MDMSWorkflow.png)
 
 ## Benefícios do Mass Data Migration
 1. Mova dados rapidamente
