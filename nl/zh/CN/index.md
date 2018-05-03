@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-15"
+  years: 2017-2018
+lastupdated: "2018-04-26"
 
 ---
 {:new_window: target="_blank"}
@@ -25,8 +25,7 @@ lastupdated: "2017-12-15"
 ## 步骤 1：创建请求
 
 1. 使用您的唯一凭证访问 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}。
-2. 从导航栏中选择**存储器** > **数据迁移** > **Mass Data Migration**，以访问 Mass Data Migration 登录页面。<br/>
-![客户门户网站菜单中的“数据传输服务”选项](/images/DTSinControlMenu.PNG) <br/>
+2. 从导航栏中选择**存储器** > **数据迁移** > **Mass Data Migration**，以访问 Mass Data Migration 登录页面。
 3. 单击**请求设备**链接以打开订单表单。
 4. 填写 **Mass Data Migration** 订购表单中的每个字段。
    - **送货地址**：此表单未预填充，并且每个字段均可编辑。请在“收件人”字段中提供将接受设备交付的人员的姓名。选择交付地点时，请考虑设备的重量（66 磅，含运输箱）和无障碍搬运情况。<br/> （**注**：设备配备有脚轮和弹出手柄以方便搬运。）
