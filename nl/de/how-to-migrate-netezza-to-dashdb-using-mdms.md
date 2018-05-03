@@ -46,8 +46,8 @@ nz_compressedTableRatio
 ....................................................................................
 . Die Werte zeigen das geschätzte Größenverhältnis einer komprimierten Tabelle .
 . zu der entsprechenden nicht komprimierten Tabelle. Eine nicht komprimierte .
-. Tabelle ist ungefähr <ratio> mal größer als die entsprechende . 
-. nicht komprimierte Tabelle. .
+. Tabelle ist ungefähr <ratio> mal größer als die entsprechende
+. . nicht komprimierte Tabelle. .
 . .
 . Die 'Komprimierte Größe' gibt an, wie viel Speicher die Tabelle belegt. .
 . Die 'Unkomprimierte Größe' ist ein mathematisch berechneter Schätzwert. .
