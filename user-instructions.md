@@ -44,50 +44,50 @@ If a different form factor of ethernet connection is required, the customer must
 2.	Determine the most appropriate place for the device to be placed; where it will reach both power and your ethernet (1GbE and 10GbE) connections and minimize foot traffic.
 
 3.	Position the device to be connected, it can remain the transport case during use. Ensure the device is at room temperature and there is no condensation on it. Connect power using the provided power cable underneath the case lid and power on the device.<br/>
-    **Note**: There are two power switches. 
-    ![Power switches](/images/MDMSPowerSwitch.png) 
+    **Note**: There are two power switches.
+    ![Power switches](/images/MDMSPowerSwitch.png)
     **Note**: The device does not need to be removed from the portable case.
-    
+
 4.	Remove the CAT6A cable from the case lid and connect it to the Eth3 (10GbE-B) port shown in the picture below.
     ![](/images/MDMSNewEth1and3.png)
-    
+
 5.	Connect the provided CAT6A to SFP+ adapter and connect to your 10Gb switch.
 
 6.	If the IP address configured for Eth3 can be reached via browser HTTPS://'Your-Eth3-IPAddress', continue to the next step, otherwise connect Eth1 (1GbE-B) port.<br/>
     **Note**: See IP Configuration Addendum below if you need to alter any IP settings for Eth3 or Eth1.
-    
+
 7. Open your browser and enter HTTPS://'Your-Eth1-IPAddress'. Enter Eth1 as appropriate for your network configuration. Accept the certificate exception.
 
 8.	Use the provided Username and Password to log in.<br/>
     ![Login page](/images/Login.png )
-    
+
 9.  The workflow wizard presents access to the specific items generally used in order from left to right.  <br/>
     ![Workflow icons](/images/workflow.png) <br/>
-    **NOTE**: The workflow can be re-reopened using the Workflow Manager button in the upper left of the GUI. 
-    
+    **NOTE**: The workflow can be re-reopened using the Workflow Manager button in the upper left of the GUI.
+
 10.	Activate the pre-configured storage pool:
-    - Click on **Unlock and Start Storage Pool**. 
-    - Enter your Storage Pool Passphrase and click **OK**. 
+    - Click on **Unlock and Start Storage Pool**.
+    - Enter your Storage Pool Passphrase and click **OK**.
     ![Activate Storage Pool](/images/UnlockPool.png)
-  
+
 11. By default, the share has both NFS and SMB protocols enabled with no access restrictions placed on the share. To restrict access to this share (for NFS and/or SMB) right click on the share name and select the approprate menu item.<br/>
     ![Restrict Share Access](/images/ShareControls.png)
-    
-12. Once the storage pool is enabled the NFS share is available to mount.  In the workflow, click **View Network Shares** to see the network shares view.  Close the workflow, right click on the share, and select mount command to  see the share name and mount information. Mount the share on your source server and load the data. Be sure to specify the 10Gb link IP address when mounting the share.
-    ![](/images/MountCommand.png)
-    
-13. Begin to copy your data to the NFS share. In the workflow, click on **View Network Activity** to show inbound Ethernet load in GUI as data is transferred to the device on the 10Gb link.
-    ![](/images/4.5.1Main.png)
-    
-14. In the workflow, click on **View Storage pool** to monitor storage usage and IOPS on the device. 
-    ![](/images/4.5.1Pool.png) 
-    
-15.	When the load is complete, gracefully power down the system. In the workflow, click on **Shutdown Appliance...**.  
-    ![](/images/Shutdown.png)
-    
-15.	Disconnect the device, return the power cable, Ethernet cable, and SFP+ adapter into their respective storage locations under the lid.
 
-16.	Attach the provided shipping label, notify shipper, and return device to the data center for load into Cloud Object Storage.
+12. Once the storage pool is enabled the NFS share is available to mount.  In the workflow, click **View Network Shares** to see the network shares view.  Close the workflow, right click on the share, and select mount command to  see the share name and mount information. Mount the share on your source server and load the data. Be sure to specify the 10Gb link IP address when mounting the share.
+    ![Mounting the share](/images/MountCommand.png)
+
+13. Begin to copy your data to the NFS share. In the workflow, click on **View Network Activity** to show inbound Ethernet load in GUI as data is transferred to the device on the 10Gb link.
+    ![View activity](/images/UserGuide13.png)
+
+14. In the workflow, click on **View Storage pool** to monitor storage usage and IOPS on the device.
+    ![View Storage Pool](/images/UserGuide14.png)
+
+15.	When the load is complete, gracefully power down the system. In the workflow, click on **Shutdown Appliance...**.  
+    ![Shutting Appliance Down](/images/Shutdown.png)
+
+16.	Disconnect the device, return the power cable, Ethernet cable, and SFP+ adapter into their respective storage locations under the lid.
+
+17.	Attach the provided shipping label, notify shipper, and return device to the data center for load into Cloud Object Storage.
 
 
 ## IP Address Configuration Addendum
@@ -100,4 +100,3 @@ Use Exit back up to the former menu.
 Navigate Down to the “Update...” menu item and press Enter to save the setting.
 
   ![](/images/MDMSLCD.png)
-

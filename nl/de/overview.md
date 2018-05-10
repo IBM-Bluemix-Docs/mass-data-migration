@@ -16,7 +16,7 @@ Eine schnelle, einfache und sichere Methode für die physische Übertragung von 
 
 Bei der Massendatenmigration kommen Speichereinheiten mit einer verwendbaren Kapazität von 120 TB zum Einsatz, um das Verschieben von Daten in die Cloud zu beschleunigen und allgemeine Übertragungsprobleme wie hohe Kosten, lange Übertragungszeiten und Sicherheitsrisiken zu überwinden - und das alles mit einem einzigen Service.
 
-![Prozessablauf der Massendatenmigration](/images/MDMSworkflow.jpg)
+![Prozessablauf der Massendatenmigration](/images/MDMSWorkflow.png)
 
 ## Vorteile der Massendatenmigration
 1. Schnelles Versetzen von Daten

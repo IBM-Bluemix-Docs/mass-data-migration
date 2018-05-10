@@ -29,7 +29,7 @@ Durch die parallele oder serielle Nutzung von mehreren Einheiten können Sie all
 Die Bearbeitungszeit vom Einsenden einer Anforderung für Massendatenmigration durch einen Kunden bis zur Verfügbarkeit der Daten im zugehörigen {{site.data.keyword.cos_full}}-Bucket beträgt mindestens 7 Tage.  
 
 ## F7. Wie lange kann ich eine Einheit für Massendatenmigration nutzen?  
-Eine ausgelieferte Einheit kann vor Ort in den ersten 10 Arbeitstagen kostenfrei genutzt werden. Der Tag, an dem die Einheit transportiert oder an Sie ausgeliefert wird, ist dabei nicht eingerechnet. Wenn das Einpflegen der Einheit länger dauert, können Sie die Nutzungsdauer für 30 US-Dollar pro Tag entsprechend verlängern (gilt nur für Regionen in den USA und in der EU).  
+Eine ausgelieferte Einheit kann vor Ort in den ersten 10 Arbeitstagen kostenfrei genutzt werden. Der Tag, an dem die Einheit transportiert oder an Sie ausgeliefert wird, ist dabei nicht eingerechnet. Wenn das Einpflegen der Einheit länger dauert, können Sie die Nutzungsdauer für 30 US-Dollar pro Tag entsprechend verlängern (gilt nur für Regionen in den USA und in der EU). 
 
 ## F8. Welche Netzschnittstellen werden bei der Massendatenmigration unterstützt?  
 Die Einheiten für Massendatenmigration verfügen über Netzschnittstellen mit 10 Gb/s und RJ45 (CAT6a) & SFP+-Netzanschlüssen mit Kupferleitungen (inklusive Konverter von RJ45 auf SFP+).

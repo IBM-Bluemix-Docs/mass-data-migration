@@ -16,7 +16,7 @@ lastupdated: "2017-12-15"
 
 Mass Data Migration 使用可用容量为 120 TB 的存储设备来加速将数据移动到云，这克服了常见的传输难题，例如高成本、传输时间长和安全问题 - 所有这些难题通过一项服务得到解决。
 
-![Mass Data Migration 过程流](/images/MDMSworkflow.jpg)
+![Mass Data Migration 过程流](/images/MDMSWorkflow.png)
 
 ## Mass Data Migration 优点
 1. 快速移动数据

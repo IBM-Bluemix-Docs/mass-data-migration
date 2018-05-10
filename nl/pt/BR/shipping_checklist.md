@@ -8,7 +8,7 @@ lastupdated: "2017-06-26"
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# Lista de verificação de inventário do Mass Data Migration Device 
+# Lista de verificação de inventário do Mass Data Migration Device
 
 
 ![Inventário do Mass Data Migration](/images/MDMDeviceInventory.png)

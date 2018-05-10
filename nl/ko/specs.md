@@ -80,7 +80,7 @@ lastupdated: "2017-12-15"
             </td>
             <td>
               <p>디바이스: 54.5lbs., Travel SoftCase 포함: 59.5lbs.</p>
-              <p>참고: 간편한 조작을 위해 휠 및 팝업 핸들을 장착했으며, Travel SoftCase에서 케이스에 포장된 상태로 액세스 가능합니다. </p>
+              <p>참고: 간편한 조작을 위해 휠 및 팝업 핸들을 장착했으며, Travel SoftCase에서 케이스에 포장된 상태로 액세스 가능합니다.</p>
             </td>
           </tr>
           <tr>

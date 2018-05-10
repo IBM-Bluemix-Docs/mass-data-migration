@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-15"
+  years: 2017-2018
+lastupdated: "2018-04-26"
 
 ---
 {:new_window: target="_blank"}
@@ -25,8 +25,7 @@ lastupdated: "2017-12-15"
 ## Schritt 1: Eine Anforderung erstellen
 
 1. Rufen Sie das [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} mit Ihren eindeutigen Berechtigungsnachweisen auf.
-2. Wählen Sie in der Navigationsleiste **Storage** > **Datenmigration** > **Massendatenmigration** auf, um die Landing-Page für Massendatenmigration zu öffnen.<br/>
-![Option für Datenübertragungsservice im Menü des Kundenportals](/images/DTSinControlMenu.PNG) <br/>
+2. Wählen Sie in der Navigationsleiste **Storage** > **Datenmigration** > **Massendatenmigration** auf, um die Landing-Page für Massendatenmigration zu öffnen.
 3. Klicken Sie auf den Link **Einheit anfordern**, um das Bestellformular zu öffnen.
 4. Füllen Sie alle Felder im Bestellformular **Massendatenmigration** aus.
    - **Versandadresse**: Das Formular wird nicht vorab ausgefüllt und jedes Feld kann bearbeitet werden. Geben Sie den Namen der Person, die die Zustellung der Einheit annehmen wird, im Feld 'Empfänger' an. Berücksichtigen Sie bei der Auswahl des Anlieferungsorts das Gewicht der Einheit (30 kg mit Transportbehälter) und die Zugangsmöglichkeiten. <br/> (**Hinweis**: Die Einheit ist mit Rädern und mit einem ausklappbaren Griff zum Manövrieren ausgestattet.)
@@ -40,7 +39,7 @@ lastupdated: "2017-12-15"
 
 ## Schritt 2: Vorbereitung und Versand
 
-Nach dem Abschicken der Anforderung wird für das Anforderungsticket der Status *Anforderung wird bearbeitet* angezeigt. Nachdem die Verarbeitung der Anforderung abgeschlossen ist, beginnt {{site.data.keyword.IBM}} mit dem Vorkonfigurieren der nächsten verfügbaren Einheit und in der Rasteransicht [Anforderungen](https://control.softlayer.com/storage/mdms){:new_window} wird der Status *Einheit wird vorbereitet* mit dem Zusatz *Lieferung vorgesehen* angezeigt.
+Nach dem Abschicken der Anforderung wird für das Anforderungsticket der Status *Anforderung wird bearbeitet* angezeigt.  Nachdem die Verarbeitung der Anforderung abgeschlossen ist, beginnt {{site.data.keyword.IBM}} mit dem Vorkonfigurieren der nächsten verfügbaren Einheit und in der Rasteransicht [Anforderungen](https://control.softlayer.com/storage/mdms){:new_window} wird der Status *Einheit wird vorbereitet* mit dem Zusatz *Lieferung vorgesehen* angezeigt.
 
 Sobald die Bestellung angenommen wurde und das Vorbereiten der Einheit beginnt, wird in der Rasteransicht [Anforderungen](https://control.softlayer.com/storage/mdms){:new_window} der Status *Einheit wird vorbereitet* mit dem Zusatz *Lieferung vorgesehen* angezeigt. Wenn Ihre Anforderung in den Status *Lieferung vorgesehen* wechselt, kann sie nicht mehr abgebrochen werden. 
 
@@ -49,10 +48,10 @@ Wenn die Einheit für den Transport zu Ihnen vom Zusteller abgeholt wird, wechse
 
 ## Schritt 3: Empfangen und anschließen
 
-1. Die vorkonfigurierte Einheit trifft bei Ihnen ein. Grundlegende [Anweisungen für Stromanschluss/Netzverbindung](user-instructions.html) werden mitgeliefert.<br/>
+1. Die vorkonfigurierte Einheit trifft bei Ihnen ein. Grundlegende [Anweisungen für Stromanschluss/Netzverbindung](user-instructions.html) werden mitgeliefert. <br/>
   **Hinweis**: Der Benutzername und das Kennwort für den Speicherpool werden separat bereitgestellt. Die Berechtigungsnachweise finden Sie in den **Anforderungsdetails** in Ihrer Rasteransicht [Anforderungen](https://control.softlayer.com/storage/mdms){:new_window}.
 2. Geben die statische IP-Adresse, die Sie im Bestellformular angegeben haben, in Ihren Browser ein.
-3. Melden Sie sich an und geben Sie das zugehörige Kennwort ein, um den leeren Speicherpool freizuschalten.<br/>
+3. Melden Sie sich an und geben Sie das zugehörige Kennwort ein, um den leeren Speicherpool freizuschalten. <br/>
    **Hinweis**: Das Kennwort finden Sie in den Anforderungsdetails Ihrer Rasteransicht [Anforderungen](https://control.softlayer.com/storage/mdms){:new_window}.
 4. Hängen Sie die gemeinsam genutzte NFS-Ressource an Ihren Server an.
 5. Aktualisieren Sie die DataShuttle-Bestandsliste, um sicherzustellen, dass alle neuen Dateien erfasst wurden, die seit der letzten Anwendung erstellt wurden.
@@ -81,7 +80,7 @@ Um sicherzustellen, dass die Objektnamen beim Kopieren in den Bucket eindeutig s
 
 ### Buckets
 
-Wenn der Zielbucket nicht vorhanden ist, wird er erstellt. Falls der Bucket bereits vorhanden ist, muss er leer sein. Andernfalls kann der Kopiervorgang nicht ausgeführt werden.  
+Wenn der Zielbucket nicht vorhanden ist, wird er erstellt.   Falls der Bucket bereits vorhanden ist, muss er leer sein. Andernfalls kann der Kopiervorgang nicht ausgeführt werden.  
 
 ### Dateisysteme
 
