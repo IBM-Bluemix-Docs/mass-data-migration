@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-15"
+  years: 2017-2018
+lastupdated: "2018-04-26"
 
 ---
 {:new_window: target="_blank"}
@@ -19,21 +19,20 @@ lastupdated: "2017-12-15"
    - Indirizzo IP statico
    - Maschera di rete 
    - Gateway predefinito per accedere all'interfaccia utente
-3. Destinazione di download di Cloud Object Storage<br/>
+3. Destinazione di download di Cloud Object Storage <br/>
    **Importante**: per completare il modulo di richiesta, devi disporre di almeno un account {{site.data.keyword.cos_full}} e di un bucket in una sede degli Stati Uniti in più regioni o degli Stati Uniti Sud. Se non hai ancora un account {{site.data.keyword.cos_full_notm}}}, creane uno prima di richiedere il dispositivo Mass Data Migration. Fai riferimento a [Informazioni su {{site.data.keyword.cos_full}}](https://console.bluemix.net/docs/services/cloud-object-storage/about-cos.html){:new_window}.
 
 ## Passo 1: creazione di una richiesta
 
 1. Accedi al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} utilizzando le tue credenziali univoche.
-2. Seleziona **Storage** > **Data Migration** > **Mass Data Migration** dalla barra di navigazione per accedere alla pagina di destinazione di Mass Data Migration. <br/>
-![Opzione del servizio di trasferimento dati nel menu del portale del cliente](/images/DTSinControlMenu.PNG) <br/>
+2. Seleziona **Storage** > **Data Migration** > **Mass Data Migration** dalla barra di navigazione per accedere alla pagina di destinazione di Mass Data Migration.
 3. Fai clic sul link **Request Device** per aprire il modulo d'ordine.
 4. Completa ogni campo nel modulo d'ordine di **Mass Data Migration**.
    - **Shipping Address**: questo modulo non è precompilato e ogni campo è modificabile. Fornisci il nome della persona che accetterà la consegna del dispositivo nel campo Attention. Quando scegli il luogo di consegna, considera il peso del dispositivo (66 libbre con la sua custodia) e l'accessibilità. <br/> (**Nota**: il dispositivo è dotato di ruote e maniglia a scomparsa per la manovra.)
    - **Key Migration Contacts**: questo modulo non è precompilato. Ogni campo è modificabile. È possibile aggiungere più di una persona. 
    - **Data Center Network Configuration**: fornisci i dettagli di configurazione di rete per il pre-provisioning della porta Eth3 sul dispositivo Mass Data Migration prima della spedizione.
    - **Data Offload Destination**: seleziona il tuo account di destinazione esistente dall'elenco a discesa.
-   - **Request Name**: immetti un nome per aiutarti a tenere traccia del tuo ordine. 
+   - **Request Name**: immetti un nome per aiutarti a tenere traccia del tuo ordine.
 5. Seleziona la casella di spunta **I have read and agree to the full terms of the Mass Data Migration Agreement** dopo aver letto ciascun accordo di servizio fornito.
 6. Fai clic su **Place Request** per inviare la richiesta. Fai clic su **Cancel** per abbandonare completamente il modulo e tornare alla pagina di destinazione di Mass Data Migration.
 
@@ -49,7 +48,7 @@ Quando il dispositivo viene prelevato dal corriere per essere inviato alla tua p
 
 ## Passo 3: ricezione e connessione
 
-1. Il dispositivo arriva preconfigurato per te. Verranno incluse [istruzioni di alimentazione/connettività](user-instructions.html) di base.<br/>
+1. Il dispositivo arriva preconfigurato per te. Verranno incluse [istruzioni di alimentazione/connettività](user-instructions.html) di base. <br/>
   **Nota**: il nome utente e la password del pool di archiviazione verranno forniti separatamente. Per le credenziali, consulta i **dettagli della richiesta** nella griglia [Requests](https://control.softlayer.com/storage/mdms){:new_window}.
 2. Punta il browser all'indirizzo IP statico che hai fornito nel modulo d'ordine.
 3. Effettua l'accesso e fornisci la password per sbloccare il pool di archiviazione vuoto. <br/>

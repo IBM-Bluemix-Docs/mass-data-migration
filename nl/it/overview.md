@@ -16,7 +16,7 @@ Un modo veloce, semplice e sicuro per trasferire fisicamente da terabyte a petab
 
 Mass Data Migration utilizza dispositivi di archiviazione con capacità utilizzabile da 120 TB per accelerare lo spostamento dei dati nel cloud e affrontare le sfide di trasferimento più comuni come costi elevati, lunghi tempi di trasferimento e problemi di sicurezza, tutto in un unico servizio.
 
-![Flusso del processo di Mass Data Migration](/images/MDMSworkflow.jpg)
+![Flusso del processo di Mass Data Migration](/images/MDMSWorkflow.png)
 
 ## Vantaggi di Mass Data Migration
 1. Spostamento rapido dei dati
