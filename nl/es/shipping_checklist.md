@@ -17,7 +17,7 @@ lastupdated: "2017-06-26"
 
 -	2 cables CAT6A en el bolsillo inferior izquierdo
 
--	2 adaptadores SFP+ 10BaseT de 10 GB en el bolsillo superior izquierdo
+-	2 adaptadores SFP+ 10BaseT de 10 Gb en el bolsillo superior izquierdo
 
 -	Fusibles del dispositivo en el bolsillo superior derecho
 

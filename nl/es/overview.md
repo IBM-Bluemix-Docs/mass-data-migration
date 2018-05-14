@@ -16,7 +16,7 @@ Una forma rápida, sencilla y segura para transferir físicamente de terabytes a
 
 La migración de datos masiva utiliza dispositivos de almacenamiento de 120 TB de capacidad utilizable para acelerar el traslado de datos a la nube y superar, con un solo servicio, desafíos comunes, como altos costes de transferencia, tiempos de transferencia largos y problemas de seguridad.
 
-![Flujo del proceso de migración de datos masiva](/images/MDMSworkflow.jpg)
+![Flujo del proceso de migración de datos masiva](/images/MDMSWorkflow.png)
 
 ## Ventajas de la migración de datos masiva
 1. Traslado rápido de datos
@@ -30,7 +30,7 @@ La migración de datos masiva utiliza dispositivos de almacenamiento de 120 TB d
 5. Protección completa
     - El diseño del dispositivo maximiza la seguridad desde dentro mediante el cifrado AES de 256 bits, la configuración de RAID-6 y compartimentos robustos, con detección de manipulaciones, impermeables y antigolpes para garantizar la protección y la integridad de los datos durante el manejo y el transporte del dispositivo.
 6. Borrado seguro
-    - {{site.data.keyword.IBM}} utiliza una limpieza de datos de nivel DoD de cuatro pasos para garantizar el borrado completo de todos los datos de clientes de los dispositivos de migración de datos masiva.
+    - {{site.data.keyword.IBM}} utiliza una limpieza de datos de nivel DOD de cuatro pasos para garantizar el borrado completo de todos los datos de clientes de los dispositivos de migración de datos masiva.
     
     
 <hr>

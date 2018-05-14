@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-15"
+  years: 2017-2018
+lastupdated: "2018-04-26"
 
 ---
 {:new_window: target="_blank"}
@@ -25,8 +25,7 @@ lastupdated: "2017-12-15"
 ## Paso 1: Crear una solicitud
 
 1. Acceda al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} utilizando sus credenciales exclusivas.
-2. Seleccione **Almacenamiento** > **Migración de datos** > **Migración de datos masiva** en la barra de navegación para acceder a la página de destino de la migración de datos masiva. <br/>
-![Opción Servicio de transferencia de datos en el menú del portal de clientes](/images/DTSinControlMenu.PNG) <br/>
+2. Seleccione **Almacenamiento** > **Migración de datos** > **Migración de datos masiva** en la barra de navegación para acceder a la página de destino de la migración de datos masiva.
 3. Pulse el enlace **Solicitar dispositivo** para abrir el formulario de pedido.
 4. Rellene todos los campos del formulario de solicitud de **migración de datos masiva**.
    - **Dirección de envío**: este formulario no se rellena previamente y sus campos son editables. Proporcione el nombre de la persona que aceptará la entrega del dispositivo en el campo A la atención de. Al escoger la ubicación de entrega, tenga en cuenta el peso del dispositivo (30 kg con el maletín) y la accesibilidad. <br/> (**Nota**: el dispositivo está equipado con ruedas y un asa para poder moverlo).

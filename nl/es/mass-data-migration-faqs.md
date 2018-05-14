@@ -53,7 +53,7 @@ La migración masiva de datos cifran todos los datos con el cifrado AES de 256 b
 Todos los dispositivos de migración de datos masiva se alojan en compartimentos robustos y duraderos. Los compartimentos son impermeables, a prueba de golpes y con detección de manipulaciones para garantizar el envío y la devolución del dispositivo, así como la seguridad de los datos. 
 
 ## Pregunta 15. ¿Cómo se realiza el seguimiento de una solicitud durante el proceso de migración? 
-Para realizar el seguimiento del estado de una solicitud, consulte el apartado de solicitudes activas en la página de migración de datos masiva de [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. También puede registrarse en el portal mediante el enlace siguiente: https://control.softlayer.com/storage/mdms
+Para realizar el seguimiento del estado de una solicitud, consulte el apartado de solicitudes activas en la página de migración de datos masiva de [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. También puede iniciar la sesión en el portal mediante el enlace siguiente: https://control.softlayer.com/storage/mdms
 
 ## Pregunta 16. ¿Cómo se borran los datos del dispositivo una vez que se descargan en {{site.data.keyword.cos_full_notm}}?
 Una vez que se ha completado el traspaso de datos a {{site.data.keyword.cos_full}}, {{site.data.keyword.IBM}} inicia inmediatamente una limpieza de datos de nivel DOD para borrar los datos del dispositivo de forma permanente. 
@@ -62,7 +62,7 @@ Una vez que se ha completado el traspaso de datos a {{site.data.keyword.cos_full
 La migración de datos masiva utiliza el sistema de archivos de red (NFS).
 
 ## Pregunta 18: ¿Cómo se utiliza la interfaz de archivos de la migración de datos masiva? 
-Después de desbloquear la agrupación de cifrado, debe montarse el sistema para compartir NFS en el servidor que contiene los datos que se vayan a migrar y, a continuación, empezar a copiar los archivos de datos en el recurso compartido NFS.
+Después de desbloquear la agrupación de cifrado, debe montarse el recurso compartido NFS en el servidor que contiene los datos que se vayan a migrar y, a continuación, empezar a copiar los archivos de datos en el recurso compartido NFS.
 
 ## Pregunta 19: ¿Qué ventajas tiene la interfaz de archivos de la migración de datos masiva? 
 La interfaz de archivos se basa en un archivo maduro y software de red que permite copiar y mover un gran número de archivos grandes a {{site.data.keyword.cloud_notm}}.
