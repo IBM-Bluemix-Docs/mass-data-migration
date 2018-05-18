@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-15"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 ---
 {:new_window: target="_blank"}
@@ -38,7 +38,7 @@ Mass Data Migration uses 120 TB-usable capacity storage devices to accelerate mo
 
 ## Mass Data Migration Use Cases
 1. Migrating data to the cloud
-    - Whether you want to free-up on-premises storage space, archive inactive data, or back-up data for redundancy and recovery, Mass Data Migration can quickly and securely move your data to the cloud.
+    - Whether you want to free-up on-premises storage space, archive inactive data, or backup data for redundancy and recovery, Mass Data Migration can quickly and securely move your data to the cloud.
 
 2. Data center decommission
     - Jumpstart your data center transformation and use Mass Data Migration to securely move your sensitive data to the cloud as you downsize, expand or relocate your data center.
