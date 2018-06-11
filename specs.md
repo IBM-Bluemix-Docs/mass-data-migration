@@ -15,7 +15,6 @@ lastupdated: "2018-05-17"
           <col/>
           <col/>
         </colgroup>
-        <tbody>
           <tr>
             <th>Storage Capacity</th>
             <td>
@@ -78,5 +77,4 @@ lastupdated: "2018-05-17"
               <p>165 W (during file copying)</p>
             </td>
           </tr>
-        </tbody>
 </table>
