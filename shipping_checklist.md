@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-06-26"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 ---
 {:new_window: target="_blank"}
@@ -13,13 +13,13 @@ lastupdated: "2017-06-26"
 
 ![Mass Data Migration Device Inventory](/images/MDMDeviceInventory.png)
 
--	Power Cable in bottom right pouch
+-	Power Cable in lower right pouch
 
--	2 CAT6A cables in bottom left pouch
+-	2 CAT6A cables in lower left pouch
 
--	2 10Gb 10BaseT to SFP+ adapters in top left pouch
+-	2 10-GB 10BaseT to SFP+ adapters in upper left pouch
 
--	Device fuses in top right pouch
+-	Device fuses in upper right pouch
 
    
    
