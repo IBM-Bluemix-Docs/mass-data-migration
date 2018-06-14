@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-06-26"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 ---
 {:new_window: target="_blank"}
@@ -15,9 +15,9 @@ lastupdated: "2017-06-26"
 
 -	電源ケーブル (右下の袋)
 
--	2 本の CAT6A ケーブル (左下の袋)
+-	CAT6A ケーブル 2 本 (左下の袋)
 
--	2 個の 10Gb 10BaseT / SFP+ アダプター (左上の袋)
+-	10-GB 10BaseT / SFP+ アダプター 2 個 (左上の袋)
 
 -	デバイスのヒューズ (右上の袋)
 
