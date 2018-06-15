@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-15"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 ---
 {:new_window: target="_blank"}
@@ -23,10 +23,10 @@ I dispositivi Mass Data Migration sono in grado di funzionare in quasi tutti gli
 Non vi è praticamente alcun limite alla quantità di dati che puoi trasferire, che si tratti di pochi terabyte o di petabyte. Ogni dispositivo può contenere fino a 120 TB di capacità utilizzabile con RAID-6, ma puoi utilizzare più dispositivi per gestire carichi di lavoro più grandi.
 
 ## D5. Come posso utilizzare più dispositivi per spostare carichi di lavoro più grandi che superano i 120 TB? 
-Utilizza più dispositivi in parallelo o in serie per spostare tutti i dati in un'unica migrazione o utilizza un singolo dispositivo nelle migrazioni iterative. Ad esempio, trasferisci 1 PB di dati utilizzando 9 dispositivi in parallelo o utilizza un singolo dispositivo in 9 migrazioni separate.
+Utilizza più dispositivi in parallelo o in serie per spostare tutti i dati in un'unica migrazione o utilizza un singolo dispositivo nelle migrazioni iterative. Ad esempio, trasferisci 1 PB di dati utilizzando nove dispositivi in parallelo o utilizza un singolo dispositivo in nove migrazioni separate.
 
 ## D6. Quanto tempo ci vuole per trasferire i miei dati? 
-Dal momento in cui un cliente invia una richiesta per Mass Data Migration a quando i loro dati sono accessibili nel proprio bucket di {{site.data.keyword.cos_full}}, il tempo complessivo può essere di soli 7 giorni.  
+Dal momento in cui un cliente invia una richiesta per Mass Data Migration a quando i suoi dati sono accessibili nel proprio bucket di {{site.data.keyword.cos_full}}, il tempo complessivo può essere di appena sette giorni.
 
 ## D7. Per quanto tempo posso avere un dispositivo Mass Data Migration?  
 Un dispositivo può essere tenuto in loco gratuitamente per i primi 10 giorni lavorativi. Non sono inclusi il giorno in cui il dispositivo viene spedito o il giorno in cui lo ricevi. Se è necessario ulteriore tempo per completare il tuo inserimento, puoi estendere l'utilizzo per 30 dollari americani (USD) al giorno (valido per le regioni degli Stati Uniti e dell'UE). 
@@ -38,13 +38,13 @@ I dispositivi Mass Data Migration dispongono di interfacce di rete a 10 Gbps con
 Mass Data Migration utilizza la spedizione di andata e ritorno UPS Next Day Air per spedire tutti i dispositivi. Il costo è incluso nella conveniente tariffa forfettaria di 395 USD per dispositivo. Attualmente, i clienti non possono scegliere metodi di spedizione alternativi.
 
 ## D10. In quali regioni è disponibile Mass Data Migration? 
-Mass Data Migration è attualmente disponibile solo negli Stati Uniti e nell'Unione Europea. Tutti i dati vengono migrati in {{site.data.keyword.cos_full}} rispettivamente nei livelli del servizio degli Stati Uniti in più regioni standard o dell'UE in più regioni. I dispositivi non possono essere spediti da una regione e restituiti a un'altra regione.
+Mass Data Migration è disponibile solo negli Stati Uniti e nell'Unione europea. Tutti i dati vengono migrati in {{site.data.keyword.cos_full}} rispettivamente nei livelli del servizio degli Stati Uniti in più regioni standard o dell'UE in più regioni. I dispositivi non possono essere spediti da una regione e restituiti a un'altra regione.
 
 ## D11. Quanto costa importare i dati in {{site.data.keyword.cloud_notm}}? 
 Non viene addebitato alcun costo per i dati trasferiti in {{site.data.keyword.cloud_notm}}.
 
 ## D12. Posso utilizzare Mass Data Migration per esportare i miei dati al di fuori di {{site.data.keyword.cloud_notm}}? 
-Mass Data Migration non supporta attualmente l'esportazione dei dati al di fuori di {{site.data.keyword.cloud_notm}}.
+Attualmente, Mass Data Migration non supporta l'esportazione di dati al di fuori di {{site.data.keyword.cloud_notm}}.
 
 ## D13. Mass Data Migration crittografa i miei dati? 
 Mass Data Migration crittografa tutti i dati con crittografia AES a 256 bit e fornisce una password complessa per sbloccare il pool di archiviazione. Tutti i trasferimenti di dati all'interno di {{site.data.keyword.IBM}} avvengono su SSL.
@@ -74,7 +74,7 @@ I dispositivi Mass Data Migration utilizzano un file system ZFS con compressione
 Negli Stati Uniti, viene addebitata una tariffa forfettaria di 395 USD per ogni dispositivo, che include il costo del dispositivo di 295 USD, la spedizione di andata e ritorno con UPS Next Day Air di 100 USD e 10 giorni lavorativi di utilizzo presso la tua sede. 
 
 ## D22. Mi viene addebitato l'uso di {{site.data.keyword.cos_full_notm}}? 
-Il trasferimento dei dati in {{site.data.keyword.cloud_notm}} è gratuito,  tuttavia, verranno applicate tariffe standard per i dati memorizzati in {{site.data.keyword.cos_full}} o in qualsiasi altro servizio {{site.data.keyword.cloud_notm}}. Puoi trovare i prezzi di {{site.data.keyword.cos_full}} per l'offerta in più regioni standard al seguente link: https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage#s3api
+Il trasferimento dei dati in {{site.data.keyword.cloud_notm}} è gratuito, tuttavia, verranno applicate tariffe standard per i dati memorizzati in {{site.data.keyword.cos_full}} o in qualsiasi altro servizio {{site.data.keyword.cloud_notm}}. Puoi trovare i prezzi di {{site.data.keyword.cos_full}} per l'offerta in più regioni standard al seguente link: https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage#s3api
 
 ## D23. Posso comprare un dispositivo {{site.data.keyword.cloud_notm}} Mass Data Migration? 
 I dispositivi {{site.data.keyword.cloud_notm}} Mass Data Migration non sono disponibili per l'acquisto. 
