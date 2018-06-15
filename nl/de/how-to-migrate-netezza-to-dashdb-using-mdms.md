@@ -10,11 +10,11 @@ lastupdated: "2017-12-15"
 
 # Netezza-Datenbanken auf DashDB migrieren
 
-Mit dem Service für Massendatenmigration (Mass Data Migration Service, MDMS) können umfangreiche Netezza-Datenbanken auf DashDB migriert werden.
+Mit dem Mass Data Migration Service (MDMS) können umfangreiche Netezza-Datenbanken auf DashDB migriert werden.
 
 In diesem Dokument wird Folgendes beschrieben:
-- Netezza-Tools zum Ermitteln des Datenvolumens, das mit dem Service für Massendatenmigration übertragen werden soll
-- Befehle zum Exportieren der Daten in die Einheit für Massendatenmigration
+- Netezza-Tools zum Ermitteln des Datenvolumens, das mit dem Mass Data Migration Service übertragen werden soll
+- Befehle zum Exportieren der Daten in die Einheit für Mass Data Migration
 
 ## Datenbankdimensionierung
 1. Laden Sie die geeignete Version der Netezza-Tools für Ihre Netezza-Instanz von [IBM Support: Fix Central - Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window} herunter.
@@ -23,8 +23,8 @@ In diesem Dokument wird Folgendes beschrieben:
    
 2. Die beiden folgenden Befehle können verwendet werden: `nz_db_size` und `nz_compressedTableRatio`
 
-```
-nz_db_size
+  ```
+  nz_db_size
 Objekt | Name | Byte | KB | MB | GB | TB
 -----------------------------------------------------------------------------------------------------------
 Appliance | cdcntze1 | 23.388.712.337.408 | 22.840.539.392 | 22.305.214 | 21.782,4 | 21,3
@@ -40,19 +40,21 @@ Tabelle | DH71964T6 | 9.615.179.776 | 9.389.824 | 9.170 | 9,0 | ,0
 Tabelle | DH71964T7 | 9.615.179.776 | 9.389.824 | 9.170 | 9,0 | ,0
 Tabelle | DH71964T8 | 9.615.179.776 | 9.389.824 | 9.170 | 9,0 | ,0
 Tabelle | DH71964T9 | 9.615.179.776 | 9.389.824 | 9.170 | 9,0 | ,0
-```
-```
-nz_compressedTableRatio
-....................................................................................
-. Die Werte zeigen das geschätzte Größenverhältnis einer komprimierten Tabelle .
-. zu der entsprechenden nicht komprimierten Tabelle. Eine nicht komprimierte .
+  ```
+  
+  
+  ```
+  nz_compressedTableRatio
+  ....................................................................................
+  . Die Werte zeigen das geschätzte Größenverhältnis einer komprimierten Tabelle .
+  . zu der entsprechenden nicht komprimierten Tabelle. Eine nicht komprimierte .
 . Tabelle ist ungefähr <ratio> mal größer als die entsprechende
-. . nicht komprimierte Tabelle. .
-. .
-. Die 'Komprimierte Größe' gibt an, wie viel Speicher die Tabelle belegt. .
-. Die 'Unkomprimierte Größe' ist ein mathematisch berechneter Schätzwert. .
-....................................................................................
-Datenbank: DHDB
+  . . nicht komprimierte Tabelle. .
+  . .
+  . Die 'Komprimierte Größe' gibt an, wie viel Speicher die Tabelle belegt. .
+  . Die 'Unkomprimierte Größe' ist ein mathematisch berechneter Schätzwert. .
+  ....................................................................................
+  Datenbank: DHDB
 Tabelle/MView-Name Ratio Komprimierte Größe Unkomprimierte Größe Größendifferenz
 ================== ===== ================ =============== ===========
 DH71964I1 1,49 880.803.840 1.310.723.840 429.920.000
@@ -66,18 +68,21 @@ DH71964T6 1,50 9.615.179.776 14.417.923.840 4.802.744.064
 DH71964T7 1,50 9.615.179.776 14.417.923.840 4.802.744.064
 DH71964T8 1,50 9.615.179.776 14.417.923.840 4.802.744.064
 DH71964T9 1,50 9.615.179.776 14.417.923.840 4.802.744.064
-================================ ===== =================== ===================
+  ================================ ===== =================== ===================
 Summe für diese Datenbank 1,50 183.537.500.160 275.251.242.240 91.713.742.080
-```
+  ```
 
 ## Prozedur für Datenextraktion und Onboarding
 
 Zum Extrahieren der Daten aus Netezza stehen zwei Optionen zur Verfügung:
 1. Verwendung des **Dienstprogramms 'nz_backup'**:
 
-   `/nz/support/contrib/bin/nz_backup –db   {db-name} –d  {zielverzeichnis}  ascii threads 4`
+  ```
+  /nz/support/contrib/bin/nz_backup –db   {db_name} –d  {target_directory}  ascii threads 4
+  ```
    
    **Hinweis**: Das {zielverzeichnis} ist die vom MDMS-Gerät bereitgestellte, gemeinsam genutzte NFS-Ressource, die an diesen Server angehängt ist.
+   
 2. Erstellen einer externen Tabelle (CREATE EXTERNAL TABLE)
    - Stellen Sie dem DashDB-Team die Klausel “USING” zur Verfügung, die beim LOAD-Prozess zum Exportieren für die Wiederverwendung verwendet wird.
    - Wählen Sie FORMAT = ”Text” aus.

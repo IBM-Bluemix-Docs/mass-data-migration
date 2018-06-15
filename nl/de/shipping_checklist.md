@@ -1,17 +1,17 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-06-26"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# Checkliste für die Ausstattung von Einheiten für Massendatenmigration
+# Checkliste für die Ausstattung von Einheiten für Mass Data Migration
 
 
-![Ausstattung der Einheiten für Massendatenmigration](/images/MDMDeviceInventory.png)
+![Ausstattung der Einheiten für Mass Data Migration](/images/MDMDeviceInventory.png)
 
 -	Netzkabel im rechten unteren Beutel
 
