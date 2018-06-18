@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-15"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 ---
 {:new_window: target="_blank"}
@@ -17,16 +17,16 @@ La migración de datos masiva de {{site.data.keyword.cloud}} es un servicio de t
 Utilice [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} para enviar la solicitud. Una vez que se apruebe y procese dicha solicitud, se preconfigurarán el próximo o próximos dispositivos disponibles y se le enviarán de acuerdo con la información de red y envío que proporcione. Utilice el enlace siguiente para empezar ahora: https://control.softlayer.com/storage/mdms
 
 ## Pregunta 3. ¿Quién debería utilizar la migración de datos masiva? 
-Los dispositivos de migración de datos masiva están equipados para rendir en casi cualquier entorno: desde los centros de datos y oficinas hasta lugares remotos, almacenes y barcos. La migración de datos masiva también es una alternativa si las opciones por la red tienen un coste prohibitivo, son demasiado lentas o no están disponibles.  
+Los dispositivos de migración de datos masiva están equipados para rendir en casi cualquier entorno desde los centros de datos y oficinas hasta lugares remotos, almacenes y barcos. La migración de datos masiva también es una alternativa si las opciones por la red tienen un coste prohibitivo, son demasiado lentas o no están disponibles.  
 
 ## Pregunta 4. ¿Cuántos datos se pueden transferir con la migración de datos masiva?
 No hay prácticamente ningún límite por lo que respecta a la cantidad de datos que se pueden transferir, tanto si son algunos terabytes como si son petabytes. Cada dispositivo tiene hasta 120 TB de capacidad utilizable en RAID-6, pero se pueden utilizar varios dispositivos para acomodar cargas de trabajo más grandes.
 
 ## Pregunta 5. ¿Cómo se pueden utilizar varios dispositivos para mover cargas de trabajo que superen los 120 TB? 
-Se utilizan varios dispositivos en paralelo o en serie para mover todos los datos en una sola migración o bien se utiliza un único dispositivo en migraciones iterativas. Por ejemplo, se pueden transferir de 1 PB de datos utilizando 9 dispositivos en paralelo o bien utilizar un único dispositivo para hacer 9 migraciones distintas.
+Se utilizan varios dispositivos en paralelo o en serie para mover todos los datos en una sola migración o bien se utiliza un único dispositivo en migraciones iterativas. Por ejemplo, se pueden transferir de 1 PB de datos utilizando nueve dispositivos en paralelo o bien utilizar un único dispositivo para hacer nueve migraciones distintas.
 
 ## Pregunta 6. ¿Cuánto tardan en transferirse los datos? 
-Desde el momento en que un cliente envía una solicitud de migración de datos masiva hasta el momento en que sus datos son accesibles en su grupo de {{site.data.keyword.cos_full}}, pueden pasar tan solo 7 días.  
+Desde el momento en que un cliente envía una solicitud de migración de datos masiva hasta el momento en que sus datos son accesibles en su grupo de {{site.data.keyword.cos_full}}, pueden pasar tan solo siete días.
 
 ## Pregunta 7. ¿Durante cuánto tiempo se puede tener un dispositivo de migración de datos masiva?  
 Un dispositivo puede estar en unas instalaciones sin coste alguno durante los primeros 10 días hábiles. Esto no incluye el día se envía el dispositivo ni el día que lo recibe. Si se necesita más tiempo para completar la ingesta, se puede prorrogar su uso por 30 dólares al día a partir del undécimo día (se aplica a EE. UU. y la UE). 

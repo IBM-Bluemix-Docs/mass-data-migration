@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017-2018
-lastupdated: "2018-04-26"
+lastupdated: "2018-05-17"
 
 ---
 {:new_window: target="_blank"}
@@ -10,7 +10,7 @@ lastupdated: "2018-04-26"
 
 # Guía de inicio a la migración de datos masiva de {{site.data.keyword.cloud_notm}}
 
-## Qué es necesario para solicitar un dispositivo
+## Qué necesitará al solicitar un dispositivo
 
 1. Valores de red del dispositivo de almacenamiento
    - Dirección IP estática
@@ -26,12 +26,12 @@ lastupdated: "2018-04-26"
 
 1. Acceda al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} utilizando sus credenciales exclusivas.
 2. Seleccione **Almacenamiento** > **Migración de datos** > **Migración de datos masiva** en la barra de navegación para acceder a la página de destino de la migración de datos masiva.
-3. Pulse el enlace **Solicitar dispositivo** para abrir el formulario de pedido.
+3. Pulse **Solicitar dispositivo** para abrir el formulario de pedido.
 4. Rellene todos los campos del formulario de solicitud de **migración de datos masiva**.
    - **Dirección de envío**: este formulario no se rellena previamente y sus campos son editables. Proporcione el nombre de la persona que aceptará la entrega del dispositivo en el campo A la atención de. Al escoger la ubicación de entrega, tenga en cuenta el peso del dispositivo (30 kg con el maletín) y la accesibilidad. <br/> (**Nota**: el dispositivo está equipado con ruedas y un asa para poder moverlo).
    - **Contactos de migración clave**: este formulario no se rellena previamente. Los campos son editables. Se puede añadir más de una persona. 
    - **Configuración de red del centro de datos**: proporciona detalles sobre la configuración de red para el suministro previo del puerto Eth3 en el dispositivo de migración de datos masiva antes de envío.
-   - **Destino de la descarga de datos**: seleccione la cuenta de destino de la lista desplegable.
+   - **Destino de la descarga de datos**: seleccione la cuenta de destino de la lista.
    - **Nombre de la solicitud**: especifique un nombre para realizar el seguimiento del pedido.
 5. Marque el recuadro de selección **He leído y acepto los términos del Acuerdo de migración de datos masiva** después de leer los acuerdos de servicio proporcionados.
 6. Pulse **Realizar solicitud** para enviar la solicitud. Pulse **Cancelar** para abandonar completamente el formulario y volver a la página de destino de la migración de datos masiva.
@@ -39,9 +39,9 @@ lastupdated: "2018-04-26"
 
 ## Paso 2: Preparación y envío
 
-Después de enviar la solicitud, el estado de la incidencia de solicitud aparecerá como *Procesando solicitud*.  Una vez que se haya procesado la solicitud, {{site.data.keyword.IBM}} empezará a preconfigurar el siguiente dispositivo disponible y el estado en la cuadrícula [Solicitudes](https://control.softlayer.com/storage/mdms){:new_window} aparecerá como *Preparando dispositivo* seguido de *Esperando envío*.
+Después de enviar la solicitud, el estado de la incidencia de solicitud aparecerá como *Procesando solicitud*. Una vez que se haya procesado la solicitud, {{site.data.keyword.IBM}} empezará a preconfigurar el siguiente dispositivo disponible y el estado en la cuadrícula [Solicitudes](https://control.softlayer.com/storage/mdms){:new_window} aparecerá como *Preparando dispositivo* seguido de *Esperando envío*.
 
-Una vez que se acepte el pedido y el dispositivo se esté preparando, el estado de la cuadrícula [Solicitudes](https://control.softlayer.com/storage/mdms){:new_window} aparecerá como *Preparando dispositivo* seguido de *Pendiente de envío*. Cuando pasa al estado *Pendiente de envío*, la solicitud ya no puede cancelarse. 
+Cuando se acepte el pedido y el dispositivo se esté preparando, el estado de la cuadrícula [Solicitudes](https://control.softlayer.com/storage/mdms){:new_window} aparecerá como *Preparando dispositivo* seguido de *Pendiente de envío*. Después de pasar al estado *Pendiente de envío*, la solicitud ya no puede cancelarse. 
 
 Cuando el transportista recoge el dispositivo para enviarlo a su ubicación, el estado de solicitud se actualiza a *Dispositivo enviado*. Se le proporcionará el número de seguimiento en el apartado **Detalles de la solicitud** de la cuadrícula [Solicitudes](https://control.softlayer.com/storage/mdms){:new_window}.
 
@@ -54,7 +54,7 @@ Cuando el transportista recoge el dispositivo para enviarlo a su ubicación, el 
 3. Inicie sesión y proporcione la contraseña para desbloquear la agrupación de almacenamiento vacía. <br/>
    **Nota**: Consulte los detalles de la solicitud de su cuadrícula [Solicitudes](https://control.softlayer.com/storage/mdms){:new_window} para ver la contraseña.
 4. Monte el recurso compartido NFS en el servidor.
-5. Vuelva a ejecutar el inventario DataShuttle para asegurar que se hayan capturado los archivos nuevos que creados desde la aplicación.
+5. Vuelva a ejecutar el inventario DataShuttle para asegurar que se hayan capturado los archivos nuevos.
 
 ## Paso 4: Recibir y conectar
 1. Ejecute la copia de DataShuttle para mover los datos.
@@ -66,7 +66,7 @@ Una vez que se devuelve el dispositivo a {{site.data.keyword.BluSoftlayer}}, el 
 
 ## Paso 5: Descarga y acceso
 
-Durante el proceso de transferencia, el estado de la solicitud se muestra como *Descargando datos*. El estado cambia de nuevo cuando finaliza la migración al depósito de {{site.data.keyword.objectstorageshort}} (*Descarga completada*). Se podrá acceder a los datos inmediatamente una vez que se haya completado la descarga de alta velocidad al grupo Cloud Object Storage.
+Durante el proceso de transferencia, el estado de la solicitud se muestra como *Descargando datos*. El estado cambia de nuevo cuando finaliza la migración al depósito de {{site.data.keyword.objectstorageshort}} (*Descarga completada*). Se podrá acceder a los datos inmediatamente cuando se haya completado la descarga de alta velocidad al grupo Cloud Object Storage.
 
 ## Paso 6: Borrar el dispositivo
 
@@ -80,7 +80,7 @@ Para garantizar que los nombres de objetos son únicos cuando se copian en el gr
 
 ### Grupos
 
-Si el grupo de destino no existe, se crea.   Si existe, debe estar vacío; de lo contrario la copia no puede continuar.  
+Si el grupo de destino no existe, se crea. Si existe, debe estar vacío; de lo contrario la copia no puede continuar.  
 
 ### Sistemas de archivos
 
