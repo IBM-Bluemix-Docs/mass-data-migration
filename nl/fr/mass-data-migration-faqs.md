@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-15"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 ---
 {:new_window: target="_blank"}
@@ -14,19 +14,19 @@ lastupdated: "2017-12-15"
 {{site.data.keyword.cloud}} Mass Data Migration est un service de transfert de données physique qui accélère le flux sécurisé de téraoctets et de pétaoctets de données dans {{site.data.keyword.cloud_notm}} à l'aide de puissants périphériques de stockage portables, d'une capacité utilisable de 120 To. 
 
 ## Q2. Comment démarrer avec Mass Data Migration ? 
-Utilisez le portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} pour soumettre votre demande. Une fois votre demande approuvée et traitée, le ou les périphériques disponibles suivants sont  pré-configurés et vous sont livrés d'après vos informations de réseau et de livraison. Utilisez le lien suivant pour démarrer maintenant : https://control.softlayer.com/storage/mdms
+Utilisez le portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} pour soumettre votre demande. Une fois votre demande approuvée et traitée, le ou les périphériques disponibles suivants sont pré-configurés et vous sont livrés d'après vos informations de réseau et de livraison. Utilisez le lien suivant pour démarrer maintenant : https://control.softlayer.com/storage/mdms
 
 ## Q3. Pourquoi utiliser Mass Data Migration ? 
-Les périphériques Mass Data Migration sont conçus pour fonctionner dans presque tous les environnements : centres de données, bureaux, sites distants, entrepôts et bateaux. Mass Data Migration constitue également une alternative lorsque les options de transfert de données via le réseau sont trop coûteuses, trop lentes ou non disponibles.  
+Les périphériques Mass Data Migration sont conçus pour fonctionner dans presque tous les environnements, allant des centres de données et des bureaux aux sites distants, entrepôts et bateaux. Mass Data Migration constitue également une alternative lorsque les options de transfert de données via le réseau sont trop coûteuses, trop lentes ou non disponibles.  
 
 ## Q4. Quelle quantité de données puis-je transférer avec Mass Data Migration ?
-Il n'existe virtuellement aucune limite à la quantité de données que vous pouvez transférer, qu'il s'agisse de quelques téraoctets  ou de pétaoctets. Chaque périphérique peut offrir une capacité utilisable de 120 en mode RAID-6, mais vous pouvez utiliser plusieurs périphériques pour gérer de plus grandes charges de travail.
+Il n'existe virtuellement aucune limite à la quantité de données que vous pouvez transférer, qu'il s'agisse de quelques téraoctets ou de pétaoctets. Chaque périphérique peut offrir une capacité utilisable de 120 en mode RAID-6, mais vous pouvez utiliser plusieurs périphériques pour gérer de plus grandes charges de travail.
 
 ## Q5. Comment puis-je utiliser plusieurs périphériques pour déplacer des charges de travail supérieures à 120 To? 
-Utilisez plusieurs périphériques en parallèle ou en série afin de déplacer toutes les données en une seule opération de migration ou bien utilisez un seul périphérique pour des migrations itératives. Vous pouvez, par exemple, transférer  1 Po de données au moyen de 9 périphériques en parallèle, ou utiliser un seul périphérique pour effectuer 9 opérations de migrations distinctes.
+Utilisez plusieurs périphériques en parallèle ou en série afin de déplacer toutes les données en une seule opération de migration ou bien utilisez un seul périphérique pour des migrations itératives. Vous pouvez, par exemple, transférer 1 Po de données au moyen de neuf périphériques en parallèle, ou utiliser un seul périphérique pour effectuer neuf opérations de migrationdistinctes.
 
 ## Q6. Combien de temps faut-il pour transférer mes données ? 
-Dès l'instant où un client soumet une demande Mass Data Migration et que ses données sont accessibles dans son compartiment {{site.data.keyword.cos_full}}, le temps de traitement peut être seulement de 7 jours.  
+Entre le moment où un client soumet une demande Mass Data Migration et le moment où ses données sont accessibles dans son compartiment {{site.data.keyword.cos_full}}, il peut s'écouler sept jours seulement. 
 
 ## Q7. Pendant combien de temps puis-je disposer d'un périphérique Mass Data Migration ?  
 Un périphérique peut être conservé sur site sans frais pendant les 10 premiers jours ouvrables. Cette période n'inclut pas le jour d'expédition ou de réception de votre périphérique. Si vous avez besoin de temps supplémentaire pour terminer l'ingestion de vos données, vous pouvez demander une prolongation d'utilisation à hauteur de 30 USD par jour (pour les Etats-Unis et l'Europe). 
@@ -35,16 +35,16 @@ Un périphérique peut être conservé sur site sans frais pendant les 10 premie
 Les périphériques Mass Data Migration sont dotés d'interfaces réseau de 10 Gbits/s avec des ports réseau RJ45 (CAT6a) & convertisseur cuivre SFP+--RJ45 à SFP+ inclus.
 
 ## Q9. Quelle est l'option d'expédition par défaut de Mass Data Migration ? 
-Mass Data Migration utilise l'option d'expédition UPS Next Day Air pour expédier tous les périphériques. Le coût est inclus dans le forfait de 395 USD par périphérique. Pour l'instant, les clients ne peuvent pas choisir d'autres modes d'expédition.
+Mass Data Migration utilise l'option d'expédition UPS Next Day Air pour expédier tous les périphériques. Le coût est inclus dans le forfait de 395 USD par périphérique. Actuellement, les clients ne peuvent pas choisir d'autres modes d'expédition.
 
 ## Q10. Dans quelles régions Mass Data Migration est-il disponible ? 
-Mass Data Migration est actuellement disponible aux Etats-Unis et dans l'Union européenne. Toutes les données sont migrées dans {{site.data.keyword.cos_full}} aux niveaux US Standard Cross Region ou EU Cross Region du service, respectivement. Les périphériques ne peuvent pas être expédiés depuis une région et retournés vers une autre région.
+Mass Data Migration est uniquement disponible aux Etats-Unis et dans l'Union européenne. Toutes les données sont migrées dans {{site.data.keyword.cos_full}} aux niveaux US Standard Cross Region ou EU Cross Region du service, respectivement. Les périphériques ne peuvent pas être expédiés depuis une région et retournés vers une autre région.
 
 ## Q11. Combien coûte l'importation de données dans {{site.data.keyword.cloud_notm}} ? 
 Il n'est pas perçu de frais pour les données transférées dans {{site.data.keyword.cloud_notm}}.
 
-## Q12. Puis-je utiliser Mass Data Migration pour exporter mes données hors de  {{site.data.keyword.cloud_notm}} ? 
-Mass Data Migration ne prend pas actuellement en charge l'exportation de données hors de  {{site.data.keyword.cloud_notm}}.
+## Q12. Puis-je utiliser Mass Data Migration pour exporter mes données hors de {{site.data.keyword.cloud_notm}} ? 
+Actuellement, Mass Data Migration ne prend pas en charge l'exportation de données hors de {{site.data.keyword.cloud_notm}}. 
 
 ## Q13. Comment Mass Data Migration chiffre-t-il mes données ? 
 Mass Data Migration chiffre toutes les données avec AES 256 bits et il fournit un mot de passe fiable pour le déverrouillage du pool de stockage. Tous les transferts de données au sein de {{site.data.keyword.IBM}} sont effectués via SSL.
