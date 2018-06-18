@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-15"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 ---
 {:new_window: target="_blank"}
@@ -20,7 +20,7 @@ In diesem Dokument wird Folgendes beschrieben:
 1. Laden Sie die geeignete Version der Netezza-Tools für Ihre Netezza-Instanz von [IBM Support: Fix Central - Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window} herunter.
 
    **Hinweis**: Unterstützungstools werden auf dem Netezza-Server standardmäßig im Verzeichnis /nz/support-IBM_Netezza<version>/bin installiert.
-   
+
 2. Die beiden folgenden Befehle können verwendet werden: `nz_db_size` und `nz_compressedTableRatio`
 
   ```
@@ -41,8 +41,8 @@ Tabelle | DH71964T7 | 9.615.179.776 | 9.389.824 | 9.170 | 9,0 | ,0
 Tabelle | DH71964T8 | 9.615.179.776 | 9.389.824 | 9.170 | 9,0 | ,0
 Tabelle | DH71964T9 | 9.615.179.776 | 9.389.824 | 9.170 | 9,0 | ,0
   ```
-  
-  
+
+
   ```
   nz_compressedTableRatio
   ....................................................................................
@@ -80,16 +80,16 @@ Zum Extrahieren der Daten aus Netezza stehen zwei Optionen zur Verfügung:
   ```
   /nz/support/contrib/bin/nz_backup –db   {db_name} –d  {target_directory}  ascii threads 4
   ```
-   
+
    **Hinweis**: Das {zielverzeichnis} ist die vom MDMS-Gerät bereitgestellte, gemeinsam genutzte NFS-Ressource, die an diesen Server angehängt ist.
-   
+
 2. Erstellen einer externen Tabelle (CREATE EXTERNAL TABLE)
    - Stellen Sie dem DashDB-Team die Klausel “USING” zur Verfügung, die beim LOAD-Prozess zum Exportieren für die Wiederverwendung verwendet wird.
    - Wählen Sie FORMAT = ”Text” aus.
-   
-   
+
+
 ## Datenvalidierung
 Die Daten können unter Verwendung von 'select from external table **meinedatei** `USING(....) “`' erneut in Netezza gelesen werden, um sicherzustellen, dass die Daten korrekt sind.
- 
+
 ## Zusätzliche Informationen
 Weitere Informationen zu Netezza finden Sie in der [Dokumentation für IBM Netezza-Datenbankbenutzer](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.

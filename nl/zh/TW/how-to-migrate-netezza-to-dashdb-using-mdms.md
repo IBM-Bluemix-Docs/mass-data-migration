@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-15"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 ---
 {:new_window: target="_blank"}
@@ -20,7 +20,7 @@ Mass Data Migration Service (MDMS) 可用來將大型 Netezza 資料庫移轉至
 1. 從[IBM 支援中心：修正程式中心 - Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window}，下載與您的 Netezza 實例相對應的適當 Netezza Tools 版本。
 
    **附註** - 依預設，支援工具會安裝在 Netezza 伺服器的 /nz/support-IBM_Netezza<version>/bin 目錄中
-   
+
 2. 下列兩個指令：`nz_db_size` 及 `nz_compressedTableRatio`
 
   ```
@@ -41,8 +41,8 @@ Mass Data Migration Service (MDMS) 可用來將大型 Netezza 資料庫移轉至
   Table | DH71964T8 | 9,615,179,776 | 9,389,824 | 9,170 | 9.0 | .0
   Table | DH71964T9 | 9,615,179,776 | 9,389,824 | 9,170 | 9.0 | .0
   ```
-  
-  
+
+
   ```
   nz_compressedTableRatio
   ....................................................................................
@@ -79,16 +79,16 @@ Mass Data Migration Service (MDMS) 可用來將大型 Netezza 資料庫移轉至
   ```
   /nz/support/contrib/bin/nz_backup –db   {db_name} –d  {target_directory}  ascii threads 4
   ```
-   
+
    **附註**：請注意，{target_directory} 是 MDMS 裝置所提供的 NFS 共用，已裝載至此伺服器。
-   
+
 2. 使用 CREATE EXTERNAL TABLE
    - 向 DashDB 團隊提供在載入過程中用於匯出以供重複使用的 "USING" 子句
    - 選取 FORMAT = ”Text”
-   
-   
+
+
 ## 資料驗證
 使用從外部表格 **myfile** `USING(....) ` 中的選擇，在 Netezza 上重新讀取資料，以確定資料正確無誤。
- 
+
 ## 其他資訊
 [IBM Netezza 資料庫使用者文件](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}中會提供其他 Netezza 相關資訊。

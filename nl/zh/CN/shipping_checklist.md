@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-06-26"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 ---
 {:new_window: target="_blank"}
@@ -17,7 +17,7 @@ lastupdated: "2017-06-26"
 
 -	2 根 CAT6A 电缆（位于左下方的小袋中）
 
--	2 个 10 Gb 10BaseT 转 SFP+ 适配器（位于左上方的小袋中）
+-	2 个 10-GB 10BaseT 转 SFP+ 适配器（位于左上方的小袋中）
 
 -	设备保险丝（位于右上方的小袋中）
 

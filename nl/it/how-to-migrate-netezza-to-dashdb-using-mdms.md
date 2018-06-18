@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-15"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 ---
 {:new_window: target="_blank"}
@@ -20,7 +20,7 @@ Questo documento descrive:
 1. Da [IBM Support: Fix Central - Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window} scarica la versione appropriata degli strumenti Netezza che corrisponde alla tua istanza Netezza.
 
    **NOTA** - Per impostazione predefinita, gli strumenti di supporto sono installati sul server Netezza nella directory /nz/support-IBM_Netezza<version>/bin
-   
+
 2. i seguenti due comandi: `nz_db_size` e `nz_compressedTableRatio`
 
   ```
@@ -41,8 +41,8 @@ Tabella | DH71964T7 | 9,615,179,776 | 9,389,824 | 9,170 | 9.0 | .0
 Tabella | DH71964T8 | 9,615,179,776 | 9,389,824 | 9,170 | 9.0 | .0
 Tabella | DH71964T9 | 9,615,179,776 | 9,389,824 | 9,170 | 9.0 | .0
   ```
-  
-  
+
+
   ```
   nz_compressedTableRatio
   ....................................................................................
@@ -79,16 +79,16 @@ Per estrarre i dati da Netezza sono disponibili due opzioni:
   ```
   /nz/support/contrib/bin/nz_backup –db   {db_name} –d  {target_directory}  ascii threads 4
   ```
-   
+
    **NOTA**: tieni presente che {target_directory} è la condivisione NFS fornita dal dispositivo MDMS, montata su questo server.
-   
+
 2. Utilizzare CREATE EXTERNAL TABLE
    - Fornisci al team DashDB la clausola “USING” utilizzata per l'esportazione per il riutilizzo durante il processo LOAD
    - Seleziona FORMAT = ”Text”
-   
-   
+
+
 ## Convalida dei dati
 I dati possono essere riletti su Netezza usando la selezione dalla tabella esterna **myfile** `USING(....) “` per garantire che i dati siano corretti.
- 
+
 ## Ulteriori informazioni
 Ulteriori informazioni su Netezza sono disponibili nella [documentazione utente del database IBM Netezza](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-15"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 ---
 {:new_window: target="_blank"}
@@ -20,7 +20,7 @@ lastupdated: "2017-12-15"
 1. [IBM Support: Fix Central - Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window} から、ご使用の Netezza インスタンスに対応するバージョンの Netezza ツールをダウンロードしてください。
 
    **注** - デフォルトでは、サポート・ツールは、Netezza サーバーの /nz/support-IBM_Netezza<version>/bin ディレクトリーにインストールされます。
-   
+
 2. 2 つのコマンド (`nz_db_size` と `nz_compressedTableRatio`) を使用します。
 
   ```
@@ -41,8 +41,8 @@ lastupdated: "2017-12-15"
   表 | DH71964T8 | 9,615,179,776 | 9,389,824 | 9,170 | 9.0 | .0
   表 | DH71964T9 | 9,615,179,776 | 9,389,824 | 9,170 | 9.0 | .0
   ```
-  
-  
+
+
   ```
   nz_compressedTableRatio
   ....................................................................................
@@ -79,16 +79,16 @@ Netezza からデータを抽出する方法として、以下の 2 つのオプ
   ```
   /nz/support/contrib/bin/nz_backup –db   {db_name} –d  {target_directory}  ascii threads 4
   ```
-   
+
    **注**: {target_directory} は、このサーバーにマウントした MDMS デバイスの NFS 共有です。
-   
+
 2. CREATE EXTERNAL TABLE を使用します。
    - LOAD プロセスでエクスポート/再利用のために使用する「USING」節を DashDB チームに伝えてください。
    - FORMAT として Text を選択してください。
-   
-   
+
+
 ## データの検証
 `USING(....)` を指定して外部表 **myfile** からの選択操作を実行することによって Netezza にデータを再び読み込み、データが正しいかどうかを確認できます。
- 
+
 ## 追加情報
 Netezza の詳細については、[IBM Netezza データベース・ユーザー資料](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}を参照してください。
