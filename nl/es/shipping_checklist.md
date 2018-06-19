@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-06-26"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 ---
 {:new_window: target="_blank"}
@@ -17,7 +17,7 @@ lastupdated: "2017-06-26"
 
 -	2 cables CAT6A en el bolsillo inferior izquierdo
 
--	2 adaptadores SFP+ 10BaseT de 10 Gb en el bolsillo superior izquierdo
+-	2 adaptadores SFP+ 10BaseT de 10 GB en el bolsillo superior izquierdo
 
 -	Fusibles del dispositivo en el bolsillo superior derecho
 

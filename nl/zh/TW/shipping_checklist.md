@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-06-26"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 ---
 {:new_window: target="_blank"}
@@ -15,9 +15,9 @@ lastupdated: "2017-06-26"
 
 -	電源線位於右下袋
 
--	2 CAT6A 纜線位於左下袋
+-	2 條 CAT6A 纜線位於左下袋
 
--	2 10Gb 10BaseT 到 SFP+ 配接器位於左上袋
+-	2 個 10 GB 的 10BaseT 到 SFP+ 配接器位於左上袋
 
 -	裝置保險絲位於右上袋
 
