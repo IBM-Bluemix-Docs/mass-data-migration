@@ -15,13 +15,13 @@ lastupdated: "2018-06-27"
           <col/>
         </colgroup>
           <tr>
-            <td>Storage Capacity</td>
+            <td><p>Storage Capacity</p></td>
             <td>
               <p>Total = 144 TB<br/>Usable = 120 TB at RAID-6</p>
             </td>
           </tr>
           <tr>
-            <td>Data and Network Connection</td>
+            <td><p>Data and Network Connection</p></td>
             <td>
               <p>2 x 10 GBASE-T</p>
               <p>2 x 1 GbE</p>
@@ -29,14 +29,14 @@ lastupdated: "2018-06-27"
             </td>
           </tr>
           <tr>
-            <td>Cables</td>
+            <td><p>Cables</p></td>
             <td>
               <p>2x CAT6a (6 ft.)</p>
               <p>Power cord (6 ft.)</p>
             </td>
           </tr>
           <tr>
-            <td>Thermal Requirements</td>
+            <td><p>Thermal Requirements</p></td>
             <td>
               <p>Temperature -  41°–95°F (upright with lid fully open)</p>
               <p>Humidity - 90% with lid open</p>
@@ -44,34 +44,34 @@ lastupdated: "2018-06-27"
             </td>
           </tr>
           <tr>
-            <td>Waterproof</td>
+            <td><p>Waterproof</p></td>
             <td>
               <p>With lid open, up to 1 minute</p>
               <p>With lid closed, up to 30 minutes</p>
             </td>
           </tr>
           <tr>
-            <td>Weight</td>
+            <td><p>Weight</p></td>
             <td>
               <p>Device is 54.5 lbs.<br/>With Travel SoftCase, it weights 59.5 lbs.</p>
               <p>Note: Device is equipped with wheels and handle for easy maneuvering. Device is accessible while it's encased in the Travel SoftCase.</p>
             </td>
           </tr>
           <tr>
-            <td>Dimensions</td>
+            <td><p>Dimensions</p></td>
             <td>
               <p>Device: 21.7” x 13.7” x 19.3”</p>
               <p>With Travel SoftCase: 25.6” x 17.3” x 22.8”</p>
             </td>
           </tr>
           <tr>
-            <td>Power</td>
+            <td><p>Power</p></td>
             <td>
               <p>300 W; 88 V- 265 V AC; 50 - 60 Hz</p>
             </td>
           </tr>
           <tr>
-            <td>Power Consumption</td>
+            <td><p>Power Consumption</p></td>
             <td>
               <p>165 W (during file copying)</p>
             </td>
