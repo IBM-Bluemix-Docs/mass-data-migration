@@ -7,7 +7,7 @@ lastupdated: "2018-06-27"
 ---
 
 
-# {{site.data.keyword.cloud_notm}} Mass Data Migration Specs
+# Device Specs
 
 <table role="presentation">
         <colgroup>
