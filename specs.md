@@ -46,15 +46,15 @@ lastupdated: "2018-06-27"
           <tr>
             <td>Waterproof</td>
             <td>
-              <p>Lid open: Up to 1 minute</p>
-              <p>Lid closed: Up to 30 minutes</p>
+              <p>With lid open, up to 1 minute</p>
+              <p>With lid closed, up to 30 minutes</p>
             </td>
           </tr>
           <tr>
             <td>Weight</td>
             <td>
-              <p>Device: 54.5 lbs.<br/>With Travel SoftCase: 59.5 lbs.</p>
-              <p>Note: Equipped with wheels and handle for easy maneuvering; accessible while encased in Travel SoftCase.</p>
+              <p>Device is 54.5 lbs.<br/>With Travel SoftCase, it weights 59.5 lbs.</p>
+              <p>Note: Device is equipped with wheels and handle for easy maneuvering. Device is accessible while it's encased in the Travel SoftCase.</p>
             </td>
           </tr>
           <tr>
