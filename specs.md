@@ -2,11 +2,10 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-19"
+lastupdated: "2018-06-27"
 
 ---
-{:new_window: target="_blank"}
-{:shortdesc: .shortdesc}
+
 
 # {{site.data.keyword.cloud_notm}} Mass Data Migration Specs
 
@@ -18,30 +17,30 @@ lastupdated: "2018-06-19"
           <tr>
             <td>Storage Capacity</td>
             <td>
-              <p>Total: 144 TB; Usable: 120 TB at RAID-6</p>
+              <p>Total = 144 TB<br/>Usable = 120 TB at RAID-6</p>
             </td>
           </tr>
           <tr>
-            <td>Data &amp; Network Connection</td>
+            <td>Data and Network Connection</td>
             <td>
-              <p>2 x 10 Gbase-T</p>
+              <p>2 x 10 GBASE-T</p>
               <p>2 x 1 GbE</p>
-              <p>Supports RJ45 &amp; SFP+ copper <br/> (RJ45 to SFP+ converter included)</p>
+              <p>Supports RJ45 and SFP+ copper <br/> (RJ45 to SFP+ converter included)</p>
             </td>
           </tr>
           <tr>
             <td>Cables</td>
             <td>
               <p>2x CAT6a (6 ft.)</p>
-              <p>Power Cord (6 ft.)</p>
+              <p>Power cord (6 ft.)</p>
             </td>
           </tr>
           <tr>
             <td>Thermal Requirements</td>
             <td>
-              <p>Temp: 41°F – 95°F (upright with lid fully open)</p>
-              <p>Humidity: 90% with lid open</p>
-              <p>Altitude: 13,000 ft. max</p>
+              <p>Temperature -  41°–95°F (upright with lid fully open)</p>
+              <p>Humidity - 90% with lid open</p>
+              <p>Altitude - 13,000 ft. max</p>
             </td>
           </tr>
           <tr>
@@ -54,8 +53,8 @@ lastupdated: "2018-06-19"
           <tr>
             <td>Weight</td>
             <td>
-              <p>Device: 54.5 lbs.; With Travel SoftCase: 59.5 lbs.</p>
-              <p>Note: Equipped with wheels &amp; pop-up handle for easy maneuvering; accessible while encased in Travel SoftCase.</p>
+              <p>Device: 54.5 lbs.<br/>With Travel SoftCase: 59.5 lbs.</p>
+              <p>Note: Equipped with wheels and handle for easy maneuvering; accessible while encased in Travel SoftCase.</p>
             </td>
           </tr>
           <tr>
@@ -68,7 +67,7 @@ lastupdated: "2018-06-19"
           <tr>
             <td>Power</td>
             <td>
-              <p>300 W; 88 V- 265 V AC; 50-60 Hz</p>
+              <p>300 W; 88 V- 265 V AC; 50 - 60 Hz</p>
             </td>
           </tr>
           <tr>
