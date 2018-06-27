@@ -78,7 +78,7 @@ You can use two options to extract the data from Netezza.
    **NOTE**: The `{target_directory}` is the NFS share that is provided by the MDMS device, and mounted to this server.
    
 2. Use `CREATE EXTERNAL TABLE`
-   - Select FORMAT = ”Text”
+   - Select `FORMAT` = ”Text”
    - Provide the DashDB team the `USING` clause that was used for export for reuse during the `LOAD` process.
    
    
