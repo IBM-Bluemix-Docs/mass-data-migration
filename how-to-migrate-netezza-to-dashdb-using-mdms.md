@@ -19,6 +19,7 @@ The Mass Data Migration Service (MDMS) can be used to migrate large Netezza data
    
 2. Run the following two commands.
    - `nz_db_size` to determine the size of the database
+   
    ```
    nz_db_size
    Object | Name | Bytes | KB | MB | GB | TB
@@ -39,6 +40,7 @@ The Mass Data Migration Service (MDMS) can be used to migrate large Netezza data
    ```
    
    - `nz_compressedTableRatio` to estimate the size of the data when it is decompressed.
+   
    ```
    nz_compressedTableRatio
    ....................................................................................
