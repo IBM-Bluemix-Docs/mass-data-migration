@@ -2,13 +2,13 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-17"
+lastupdated: "2018-06-27"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# Mass Data Migration Device Inventory Checklist
+# Inventory Checklist
 
 
 ![Mass Data Migration Device Inventory](/images/MDMDeviceInventory.png)
@@ -17,7 +17,7 @@ lastupdated: "2018-05-17"
 
 -	2 CAT6A cables in lower left pouch
 
--	2 10-GB 10BaseT to SFP+ adapters in upper left pouch
+-	2 10-GB 10BASET to SFP+ adapters in upper left pouch
 
 -	Device fuses in upper right pouch
 
