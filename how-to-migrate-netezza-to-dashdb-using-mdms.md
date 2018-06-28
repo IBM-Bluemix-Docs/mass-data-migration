@@ -5,8 +5,9 @@ copyright:
 lastupdated: "2018-06-27"
 
 ---
+{:codeblock: .codeblock}
 {:new_window: target="_blank"}
-{:shortdesc: .shortdesc}
+
 
 # Migrating Netezza Databases to DashDB
 
@@ -38,6 +39,7 @@ The Mass Data Migration Service (MDMS) can be used to migrate large Netezza data
    Table | DH71964T8 | 9,615,179,776 | 9,389,824 | 9,170 | 9.0 | .0
    Table | DH71964T9 | 9,615,179,776 | 9,389,824 | 9,170 | 9.0 | .0
    ```
+   {: codeblock}
    
    - `nz_compressedTableRatio` to estimate the size of the data when it is decompressed.
    
@@ -68,6 +70,7 @@ The Mass Data Migration Service (MDMS) can be used to migrate large Netezza data
    ================================ ===== =================== ===================
    Total For This Database 1.50 183,537,500,160 275,251,242,240 91,713,742,080
    ```
+   {: codeblock}
 
 ## Extracting Data and Onboarding
 
