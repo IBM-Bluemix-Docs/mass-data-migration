@@ -40,9 +40,9 @@ If a different form factor of ethernet connection is required, the customer must
 2.	Determine the most appropriate place for the device to be placed. It needs to reach both power and your ethernet (1 GbE and 10 GbE) connections, and minimize foot traffic.
 
 3.	Position the device to be connected. Ensure that the device is at room temperature, and there's no condensation on it. Connect power by using the provided power cable underneath the case lid and power on the device.<br/>
-    **Note**: Take note of the two power switches.
+    **Note** - Take note of the two power switches.
     ![Power switches](/images/MDMSPowerSwitch.png)
-    **Note**: The device does not need to be removed from the portable case. It can remain in the transport case during use.
+    **Note** - The device does not need to be removed from the portable case. It can remain in the transport case during use.
 
 4.	Remove the CAT6A cable from the case lid and connect it to the Eth3 (10 GbE-B) port as shown in the picture.
     ![ETH ports](/images/MDMSNewEth1and3.png)
@@ -50,7 +50,7 @@ If a different form factor of ethernet connection is required, the customer must
 5.	Connect the provided CAT6A to SFP+ adapter and connect to your 10 Gb switch.
 
 6.	If the IP address configured for Eth3 can be reached in the browser through `HTTPS://'Your-Eth3-IPAddress'`, continue to the next step. Otherwise, connect Eth1 (1 GbE-B) port.<br/>
-    **Note**: if you need to alter any IP settings for Eth3 or Eth1, see the Configuring IP addresses section.
+    **Note** - if you need to alter any IP settings for Eth3 or Eth1, see the Configuring IP addresses section.
 
 7. Open your browser, and enter `HTTPS://'Your-Eth1-IPAddress'`. Enter Eth1 for your network configuration. Accept the certificate exception.
 
@@ -59,7 +59,7 @@ If a different form factor of ethernet connection is required, the customer must
 
 9. The workflow wizard presents access to the specific items generally used in order from left to right.<br/>
     ![Workflow icons](/images/workflow.png) <br/>
-    **NOTE**: The workflow can be reopened by using **Workflow Manager** in the upper left of the interface.
+    **NOTE** - The workflow can be reopened by using **Workflow Manager** in the upper left of the interface.
 
 10.	Activate the pre-configured storage pool.
     - Click **Unlock and Start Storage Pool**.
