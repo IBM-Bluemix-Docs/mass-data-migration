@@ -54,14 +54,14 @@ lastupdated: "2018-06-27"
             <td><p>Weight</p></td>
             <td>
               <p>Device is 54.5 lbs.<br/>With Travel SoftCase, it weights 59.5 lbs.</p>
-              <p>Note: Device is equipped with wheels and handle for easy maneuvering. Device is accessible while it's encased in the Travel SoftCase.</p>
+              <p>Note: Device is equipped with wheels and handle for easy maneuvering. Device is accessible while it's in the Travel SoftCase.</p>
             </td>
           </tr>
           <tr>
             <td><p>Dimensions</p></td>
             <td>
-              <p>Device: 21.7” x 13.7” x 19.3”</p>
-              <p>With Travel SoftCase: 25.6” x 17.3” x 22.8”</p>
+              <p>Device - 21.7” x 13.7” x 19.3”</p>
+              <p>With Travel SoftCase - 25.6” x 17.3” x 22.8”</p>
             </td>
           </tr>
           <tr>
