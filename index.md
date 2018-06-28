@@ -42,7 +42,7 @@ These are the pieces of information you need to submit a Mass Data Migration req
 
 After you submitted the request, the status for the request ticket appears as `Processing Request`. When your Request is accepted, {{site.data.keyword.IBM}} begins pre-configuring the next available device.
 
-When the device is being prepared the status on the [Requests](https://control.softlayer.com/storage/mdms){:new_window} page shows *Prepping Device* followed by *Awaiting Shipment*. After your Request enters *Awaiting Shipment* status, it can no longer be canceled. 
+When the device is being prepared, the status on the [Requests](https://control.softlayer.com/storage/mdms){:new_window} page shows `Prepping Device` followed by `Awaiting Shipment`. After your Request enters `Awaiting Shipment` status, it can no longer be canceled. 
 
 When the device is picked up by the carrier to be sent to your location, the Request status is updated to `Device Shipped`. The tracking number is shared with you in the **Order Details** section of the [Requests](https://control.softlayer.com/storage/mdms){:new_window} page.
 
