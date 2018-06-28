@@ -15,9 +15,9 @@ lastupdated: "2018-06-27"
 
 <hr/>
 
-**How do I order a Mass Data Migration?**
+**How is Mass Data Migration initiated?**
 
-Use the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} to submit your request. When your request is approved and processed, the next available device or devices are pre-configured and sent to you based on your network and shipping information. Use the following link to start now: https://control.softlayer.com/storage/mdms
+Use the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} to submit your request. When your request is approved and processed, the next available device or devices are configured and sent to you based on your network and shipping information. Use the following link to start now: https://control.softlayer.com/storage/mdms
 
 <hr/>
 
@@ -131,7 +131,7 @@ Mass Data Migration devices use a ZFS file system with LZ4 compression and AES 2
 
 **How much does it cost to use Mass Data Migration in the US?**
 
-In the US, a flat rate of USD 395 is charged per device, which includes the USD 295 device fee, and USD 100 roundtrip UPS Next Day Air delivery, and 10 business days of use at your site.
+In the US, a flat rate of USD 395 is charged per device. This cost includes the USD 295 device fee, and USD 100 roundtrip UPS Next Day Air delivery, and 10 business days of use at your site.
 
 <hr/>
 
@@ -141,6 +141,6 @@ The transfer of data into the {{site.data.keyword.cloud_notm}} is at no cost to 
 
 <hr/>
 
-**Can a {{site.data.keyword.cloud_notm}} Mass Data Migration device be purchased?**
+**Can an {{site.data.keyword.cloud_notm}} Mass Data Migration device be purchased?**
 
 {{site.data.keyword.cloud_notm}} Mass Data Migration devices are not for sale. 

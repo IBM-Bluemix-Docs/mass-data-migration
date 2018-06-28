@@ -21,11 +21,11 @@ These are the pieces of information you need to submit a Mass Data Migration req
    - Netmask 
    - Default Gateway to access the User Interface
 3. Cloud Object Storage download destination <br/>
-   **Important**: You must have at least one {{site.data.keyword.cos_full}} account, and one bucket in a US Standard Cross Region or the EU Cross Region to complete the request form. If you don't have a {{site.data.keyword.cos_full_notm}}} account yet, create one before you request the Mass Data Migration device. Refer to [About {{site.data.keyword.cos_full}}](https://console.bluemix.net/docs/services/cloud-object-storage/about-cos.html){:new_window}.
+   **Important**: You must have at least one {{site.data.keyword.cos_full}} account, and one bucket in a US Standard Cross Region or the EU Cross Region to complete the request form. If you don't have an {{site.data.keyword.cos_full_notm}}} account yet, create one before you request the Mass Data Migration device. Refer to [About {{site.data.keyword.cos_full}}](https://console.bluemix.net/docs/services/cloud-object-storage/about-cos.html){:new_window}.
 
 ## Creating a request
 
-1. Access the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} using your unique credentials.
+1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} with your unique credentials.
 2. Select **Storage** > **Data Migration** > **Mass Data Migration** from the Navigation Bar to access the Mass Data Migration landing page.
 3. Click **Request Device** to open the order form.
 4. Complete each field in the **Mass Data Migration** order form.
@@ -42,7 +42,7 @@ These are the pieces of information you need to submit a Mass Data Migration req
 
 After you submitted the request, the status for the request ticket appears as `Processing Request`. When your Request is accepted, {{site.data.keyword.IBM}} begins pre-configuring the next available device.
 
-When the device is being prepared the status on the [Requests](https://control.softlayer.com/storage/mdms){:new_window} page shows *Prepping Device* followed by *Awaiting Shipment*. After your Request enters *Awaiting Shipment* status, it can no longer be canceled. 
+When the device is being prepared, the status on the [Requests](https://control.softlayer.com/storage/mdms){:new_window} page shows `Prepping Device` followed by `Awaiting Shipment`. After your Request enters `Awaiting Shipment` status, it can no longer be canceled. 
 
 When the device is picked up by the carrier to be sent to your location, the Request status is updated to `Device Shipped`. The tracking number is shared with you in the **Order Details** section of the [Requests](https://control.softlayer.com/storage/mdms){:new_window} page.
 

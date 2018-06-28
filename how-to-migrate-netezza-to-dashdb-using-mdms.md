@@ -11,10 +11,10 @@ lastupdated: "2018-06-27"
 
 # Migrating Netezza Databases to DashDB
 
-The Mass Data Migration Service (MDMS) can be used to migrate large Netezza databases to DashDB. You can use this document as a reference for the Netezza tools that determine the amount of data to be transferred, and the commands that export the data into the Mass Data Migration device.
+The Mass Data Migration Service (MDMS) can be used to migrate large Netezza databases to DashDB. You can use this document as a reference for the Netezza tools that determine the amount of data to be transferred, and date exporting methods.
 
 ## Determining Database object size
-1. From [IBM Support: Fix Central - Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window} download the appropriate Netezza Tools version that corresponds to your Netezza instance.
+1. From [IBM Support - Fix Central - Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window} download the appropriate Netezza Tools version that corresponds to your Netezza instance.
 
    **NOTE** - By default, support tools are installed on Netezza server at directory `/nz/support-IBM_Netezza<version>/bin`
    
@@ -80,7 +80,7 @@ You can use two options to extract the data from Netezza.
    /nz/support/contrib/bin/nz_backup –db   {db_name} –d  {target_directory}  ascii threads 4
    ```
    
-   **NOTE**: The `{target_directory}` is the NFS share that is provided by the MDMS device, and mounted to this server.
+   **NOTE** - The `{target_directory}` is the NFS share that is provided by the MDMS device, and mounted to this server.
    
 - Use the `CREATE EXTERNAL TABLE` statement.
    - Select `FORMAT` = ”Text”
@@ -91,4 +91,5 @@ You can use two options to extract the data from Netezza.
 The data can be reread back on the Netezza by using the `SELECT FROM` statement with the external table `myfile` and a `USING(....)` clause to ensure that the data is correct.
  
 **Additional information**
-More informaton on Netezza is available at [IBM Netezza database user documentation](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.
+
+More information on Netezza is available at [IBM Netezza database user documentation](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.
