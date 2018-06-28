@@ -21,7 +21,7 @@ These are the pieces of information you need to submit a Mass Data Migration req
    - Netmask 
    - Default Gateway to access the User Interface
 3. Cloud Object Storage download destination <br/>
-   **Important**: You must have at least one {{site.data.keyword.cos_full}} account, and one bucket in a US Standard Cross Region or the EU Cross Region to complete the request form. If you don't have a {{site.data.keyword.cos_full_notm}}} account yet, create one before you request the Mass Data Migration device. Refer to [About {{site.data.keyword.cos_full}}](https://console.bluemix.net/docs/services/cloud-object-storage/about-cos.html){:new_window}.
+   **Important**: You must have at least one {{site.data.keyword.cos_full}} account, and one bucket in a US Standard Cross Region or the EU Cross Region to complete the request form. If you don't have an {{site.data.keyword.cos_full_notm}}} account yet, create one before you request the Mass Data Migration device. Refer to [About {{site.data.keyword.cos_full}}](https://console.bluemix.net/docs/services/cloud-object-storage/about-cos.html){:new_window}.
 
 ## Creating a request
 
