@@ -88,7 +88,7 @@ You can use two options to extract the data from Netezza.
    
    
 ## Validating Data
-The data can be reread back on the Netezza by using the `SELECT FROM` statement with the external table `myfile` and a `USING(....) “` clause to ensure that the data is correct.
+The data can be reread back on the Netezza by using the `SELECT FROM` statement with the external table `myfile` and a `USING(....)` clause to ensure that the data is correct.
  
 **Additional information**
 More informaton on Netezza is available at [IBM Netezza database user documentation](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.
