@@ -75,14 +75,14 @@ The Mass Data Migration Service (MDMS) can be used to migrate large Netezza data
 ## Extracting Data and Onboarding
 
 You can use two options to extract the data from Netezza.
-1. Use the `nz_backup utility`.
+- Use the `nz_backup` utility.
    ```
    /nz/support/contrib/bin/nz_backup –db   {db_name} –d  {target_directory}  ascii threads 4
    ```
    
    **NOTE**: The `{target_directory}` is the NFS share that is provided by the MDMS device, and mounted to this server.
    
-2. Use `CREATE EXTERNAL TABLE`
+- Use the `CREATE EXTERNAL TABLE` statement.
    - Select `FORMAT` = ”Text”
    - Provide the DashDB team the `USING` clause that was used for export for reuse during the `LOAD` process.
    
