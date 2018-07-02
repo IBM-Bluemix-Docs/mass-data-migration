@@ -27,7 +27,7 @@ The device accepts all standard power ranges.
 
 There are two ethernet connections to be made. One for device management through a browser, and one for data movement on the same subnet where the source data resides.
 
-There are two models of the MDMS device, one supports RJ45 connectivity, the other supports RJ45 and Copper SFP+ 
+There are two models of the MDMS device, one supports RJ45 only connectivity, the other supports Copper SFP+ and RJ45. 
 
 #### RJ45 Only Connections
 
@@ -35,16 +35,29 @@ There are two models of the MDMS device, one supports RJ45 connectivity, the oth
 
 Both ports originate from the device as RJ45, and CAT6A cables are supplied. Copper SFP+ adapters are provided to convert from RJ45.  The adapters work with all switch manufacturers. These adapters are located in a pocket on the underside of the shipping lid.
 
-- Eth1 (1 GbE-B) is used for device management, and as such, should have a gateway specified in the IP Address configuration. This can be viewed on the LCD screen after the device is powered on (see the IP address configuration section below).
+- Eth1 (1 GbE-B) used for device management, and as such, should have a gateway specified in the IP Address configuration. This can be viewed on the LCD screen after the device is powered on (see the IP address configuration section below).
 
-- Eth3 (10 GbE-B) is used for the data transfer. This connection should either be on the same subnet as the source data, or can be directly connected to the server if needed.
+- Eth3 (10 GbE-B) used for the data transfer and device management as needed. This connection should either be on the same subnet as the source data, or can be directly connected to the server if needed.
 
 If a different form factor of ethernet connection is required, the customer must provide the converter.
 
 #### Copper SFP+ and RJ45 Connections
 
+![Copper SFP+](/images/sfp-ports-sized-port5.png)
 
- ![Copper SFP+](/images/sfp-ports-sized-port5.png)
+Ports originate from the device as Coppper SFP+ and RJ45.  Both and CAT6A and Copper SFP+ cables are supplied.
+
+- Eth2 10GbE (2) used for device management and/or data transfer. This port can run at either 1GbE or 10GbE speed. 
+
+- Eth5 10GbE (5) used for device management and/or data transfer. This port only runs at 10GbE.
+
+
+The data transfer connection should either be on the same subnet as the source data, or can be directly connected to the server if needed.
+
+IP settings can be viewed/managed from the LCD screen after the device is powered on (see the IP address configuration section below).
+
+
+
 
 
 ## Step-by-step user instructions
