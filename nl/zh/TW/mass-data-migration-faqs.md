@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-15"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 ---
 {:new_window: target="_blank"}
@@ -14,22 +14,22 @@ lastupdated: "2017-12-15"
 {{site.data.keyword.cloud}} Mass Data Migration 是一項實體資料傳送服務，使用堅固的 120 TB 可用容量可攜式儲存裝置，將 TB 到 PB 的資料安全移動到 {{site.data.keyword.cloud_notm}}。 
 
 ## Q2. 如何開始使用 Mass Data Migration？ 
-使用 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} 來提交要求。在要求被核准且進行處理之後，下一個可用的一或多個裝置將預先配置，並根據您的網路及出貨資訊出貨給您。使用下列鏈結立即啟動：https://control.softlayer.com/storage/mdms
+使用 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} 來提交要求。在要求被核准且進行處理之後，下一台（或多台）可用的裝置將預先配置，並根據您的網路及出貨資訊出貨給您。使用下列鏈結立即啟動：https://control.softlayer.com/storage/mdms
 
 ## Q3. Mass Data Migration 的適用對象？ 
-Mass Data Migration 裝置可在幾乎任何環境中執行：從資料中心和辦公室到偏遠的地點、倉庫和船隻。如果網路資料傳送選項成本過高、速度太慢或無法使用，則 Mass Data Migration 也是一種選擇。  
+Mass Data Migration 裝置可在幾乎任何環境中執行，從資料中心和辦公室到偏遠的地點、倉庫和船隻。如果網路資料傳送選項成本過高、速度太慢或無法使用，則 Mass Data Migration 也是一種選擇。  
 
 ## Q4. 使用 Mass Data Migration 可以傳送的資料量？
-對於您可以傳送的資料量幾乎沒有限制，無論是幾 TB 還是幾 PB。每一個裝置在 RAID-6 上最多可保留 120 TB 的可用容量，但您可以使用多個裝置來容納更大的工作負載。
+對於您可以傳送的資料量幾乎沒有限制，無論是幾 TB 還是幾 PB。每一台裝置在 RAID-6 上最多可保留 120 TB 的可用容量，但您可以使用多台裝置來容納更大的工作負載。
 
 ## Q5. 如何使用多台裝置來移動超過 120 TB 的較大工作負載？ 
 並行或串聯使用多台裝置來移動單一移轉中的所有資料，或者在反覆運算移轉中使用單一裝置。例如，並行使用 9 台裝置傳送 1 PB 資料，或在 9 次個別移轉中使用單一裝置。
 
 ## Q6. 傳送資料需要多久的時間？ 
-從客戶提交 Mass Data Migration 要求到可在客戶的 {{site.data.keyword.cos_full}} 儲存區中存取其資料的時間，處理時間最短只要 7 天。  
+從客戶提交「Mass Data Migration 要求」到可在客戶的 {{site.data.keyword.cos_full}} 儲存區中存取其資料的時間，處理時間最短只要 7 天。
 
 ## Q7. 可以擁有 Mass Data Migration 裝置多久？  
-在前 10 個營業日內，裝置可免費保留在現場。這不包括裝置的出貨日期或收貨日期。如果需要額外的時間才能完成汲取，您可以延長您的使用時間，之後為每天 30 美元（適用於美國和歐盟地區）。 
+在前 10 個營業日內，裝置可免費保留在站上。這不包括裝置的出貨日或收貨日。如果需要更多時間才能完成汲取，您可以延長您的使用時間，之後為每天 30 美元（適用於美國和歐盟地區）。 
 
 ## Q8. Mass Data Migration 支援的網路介面？  
 Mass Data Migration 裝置具備 10 Gbps 網路介面，其中包含 RJ45 (CAT6a) & SFP+ 銅線（包括 RJ45 到 SFP+ 轉換器）網路埠。
@@ -38,13 +38,13 @@ Mass Data Migration 裝置具備 10 Gbps 網路介面，其中包含 RJ45 (CAT6a
 Mass Data Migration 使用 UPS Next Day Air 往返遞送來運送所有裝置。此成本包括在每台裝置 395 美元的低廉固定費用中。客戶目前無法選取其他出貨方式。
 
 ## Q10. Mass Data Migration 可用地區？ 
-Mass Data Migration 目前只能在美國及歐盟使用。所有資料都會分別移轉至服務的美國標準跨區域或歐盟跨區域層級中的 {{site.data.keyword.cos_full}}。裝置不得從甲地出貨，但運回乙地。
+Mass Data Migration 只能在美國及歐盟使用。所有資料都會分別移轉至服務的美國標準跨區域或歐盟跨區域層級中的 {{site.data.keyword.cos_full}}。裝置不得從甲地出貨，但運回乙地。
 
 ## Q11. 將資料匯入至 {{site.data.keyword.cloud_notm}} 需要多少成本？ 
 將資料傳送至 {{site.data.keyword.cloud_notm}} 不會產生任何費用。
 
 ## Q12. 我可以使用 Mass Data Migration 從 {{site.data.keyword.cloud_notm}} 中匯出資料嗎？ 
-Mass Data Migration 目前不支援從 {{site.data.keyword.cloud_notm}} 中匯出資料。
+Mass Data Migration 目前不支援將資料匯出 {{site.data.keyword.cloud_notm}}。
 
 ## Q13. Mass Data Migration 會將資料加密嗎？ 
 Mass Data Migration 會使用 AES 256 位元加密來加密所有資料，並提供一個高保護性密碼來解除鎖定儲存區。{{site.data.keyword.IBM}} 內的所有資料傳送都是透過 SSL 完成的。

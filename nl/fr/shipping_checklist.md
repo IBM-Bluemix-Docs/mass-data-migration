@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-06-26"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 ---
 {:new_window: target="_blank"}
@@ -17,7 +17,7 @@ lastupdated: "2017-06-26"
 
 -	2 câbles CAT6A dans pochette inférieure gauche
 
--	2 adaptateurs 10Gb 10BaseT vers SFP+ dans pochette supérieure gauche
+-	2 adaptateurs 10-GB 10BaseT vers SFP+ dans pochette supérieure gauche
 
 -	Fusibles périphérique dans pochette supérieure droite
 

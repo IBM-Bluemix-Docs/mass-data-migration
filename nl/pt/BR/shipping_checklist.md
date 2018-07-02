@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-06-26"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 ---
 {:new_window: target="_blank"}
@@ -17,7 +17,7 @@ lastupdated: "2017-06-26"
 
 -	2 cabos CAT6A na bolsa inferior esquerda
 
--	2 adaptadores 10BaseT para SFP+ de 10 Gb na bolsa superior esquerda
+-	2 adaptadores 10BaseT para SFP+ de 10 GB na bolsa superior esquerda
 
 -	Fusíveis do dispositivo na bolsa superior direita
 

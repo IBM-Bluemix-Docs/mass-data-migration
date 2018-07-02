@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-15"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 ---
 {:new_window: target="_blank"}
@@ -20,10 +20,10 @@ Mass Data Migration 服务 (MDMS) 可用于将大型 Netezza 数据库迁移到 
 1. 从 [IBM支持：Fix Central - Netezza 工具](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window}下载与 Netezza 实例相对应的适用 Netezza 工具版本。
 
    **注** - 缺省情况下，支持工具会安装在 Netezza 服务器的 /nz/support-IBM_Netezza<version>/bin 目录下
-   
+
 2. 运行以下命令：`nz_db_size` 和 `nz_compressedTableRatio`
 
-```
+  ```
 nz_db_size
 对象  | 名称| 字节 | KB | MB | GB | TB
 -----------------------------------------------------------------------------------------------------------
@@ -41,17 +41,19 @@ nz_db_size
 表    | DH71964T8 | 9,615,179,776 | 9,389,824 | 9,170 | 9.0 | .0
 表    | DH71964T9 | 9,615,179,776 | 9,389,824 | 9,170 | 9.0 | .0
 ```
-```
-nz_compressedTableRatio
-....................................................................................
-. 下面的值显示了压缩表与其未压缩格式的估计大小 .
+
+
+  ```
+  nz_compressedTableRatio
+  ....................................................................................
+  . 下面的值显示了压缩表与其未压缩格式的估计大小 .
 . 比率。未压缩表比其压缩版本大约大 <ratio> .
 . 倍。.
-. .
-. “压缩大小”是表实际使用的存储量。.
-. “未压缩大小”是根据自述计算估计的值。.
-....................................................................................
-数据库：DHDB
+  . .
+  . “压缩大小”是表实际使用的存储量。.
+  . “未压缩大小”是根据自述计算估计的值。.
+  ....................................................................................
+  数据库：DHDB
 表/MView 名称 比率 压缩大小 未压缩大小 大小差异
 ================== ===== ================ =============== ===========
 DH71964I1 1.49 880,803,840 1,310,723,840 429,920,000
@@ -74,17 +76,20 @@ DH71964T9 1.50 9,615,179,776 14,417,923,840 4,802,744,064
 有两个选项可用于从 Netezza 抽取数据：
 1. 使用 **nz_backup 实用程序**：
 
-   `/nz/support/contrib/bin/nz_backup –db   {db_name} –d  {target_directory}  ascii threads 4`
-   
+  ```
+  /nz/support/contrib/bin/nz_backup –db   {db_name} –d  {target_directory}  ascii threads 4
+  ```
+
    **注**：请注意，{target_directory} 是安装到此服务器的由 MDMS 设备提供的 NFS 共享。
+
 2. 使用 CREATE EXTERNAL TABLE
    - 为 DashDB 团队提供用于导出的“USING”子句，以供在 LOAD 过程中复用
    - 选择 FORMAT = ”Text”
-   
-   
+
+
 ## 数据验证
 可以使用外部表 **myfile** `USING(....) “` 中的 select，在 Netezza 上重新读取数据，以确保数据正确。
- 
+
 ## 其他信息
 
 有关 Netezza 的更多信息，请访问 [IBM Netezza 数据库用户文档](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}。
