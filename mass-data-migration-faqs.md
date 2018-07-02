@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-07-02"
 
 ---
 {:new_window: target="_blank"}
@@ -53,7 +53,7 @@ A device can be kept onsite at no cost for the first 10 business days. This time
 
 **What network interfaces does Mass Data Migration support?** 
 
-Mass Data Migration devices have 10 Gbps network interfaces with RJ45 (CAT6a) and SFP+ copper--RJ45 to SFP+ converter included--network ports.
+Mass Data Migration devices have 10 Gbps network interfaces with RJ45 (CAT6a) and SFP+ copper network ports. The RJ45 to SFP+ converter is included.
 
 <hr/>
 
@@ -135,7 +135,7 @@ In the US, a flat rate of USD 395 is charged per device. This cost includes the 
 
 <hr/>
 
-**Am I charged for {{site.data.keyword.cos_full_notm}} use?** 
+**How much does {{site.data.keyword.cos_full_notm}} usage cost?** 
 
 The transfer of data into the {{site.data.keyword.cloud_notm}} is at no cost to you. However, standard rates apply for data that is stored in {{site.data.keyword.cos_full}} or any other {{site.data.keyword.cloud_notm}} service. You can find pricing for {{site.data.keyword.cos_full}} for the Standard Cross Region offering at the following link: https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage#s3api
 
