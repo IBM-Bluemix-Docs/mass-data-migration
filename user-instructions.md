@@ -30,9 +30,9 @@ You need to make two ethernet connections. One connection is for device manageme
 
 ![RJ45](/images/RJ45PortZoom.png)
 
-Ports originate from the device as RJ45, and CAT6A cables are supplied. Copper SFP+ adapters are provided to convert from RJ45.  The adapters work with all switch manufacturers. These adapters are located in a pocket on the underside of the shipping lid.
+Ports originate from the device as RJ45, and CAT6A cables are supplied. Copper SFP+ adapters are provided to convert from RJ45. The adapters work with all switch manufacturers. These adapters are located in a pocket on the underside of the shipping lid.
 
-- Eth1 (1 GbE-B) is typically used for device management, and as such, must have a gateway specified in the IP Address configuration. This can be viewed on the LCD screen after the device is powered on (see the IP address configuration section below).  This port is used to make the web based UI available outside the data subnet.
+- Eth1 (1 GbE-B) is typically used for device management, and as such, must have a gateway specified in the IP Address configuration. This can be viewed on the LCD screen after the device is powered on (see the IP address configuration section below). This port is used to make the web based UI available outside the data subnet.
 
 - Eth3 (10 GbE-B) is used for the data transfer and can also be used for device management. This connection must either be on the same subnet as the source data, or can be directly connected to the server if needed.
 
@@ -41,18 +41,18 @@ Ports originate from the device as RJ45, and CAT6A cables are supplied. Copper S
 
 ![Copper SFP+](/images/sfp-ports-sized-port5.png)
 
-Ports originate from the device as Coppper SFP+ and RJ45.  Both and CAT6A and Copper SFP+ cables are supplied.
+Ports originate from the device as Copper SFP+ and RJ45.  Both and CAT6A and Copper SFP+ cables are supplied.
 
-- Eth5 10GbE (5) typically used for data transfer but can also be used for device management. This port runs only at 10GbE.
+- Eth5 10 GbE (5) is typically used for data transfer but can also be used for device management. This port runs only at 10 GbE.
 
-- Eth2 10GbE (2) typically used for device management but can also be used for data transfer. This port can run at either 1GbE or 10GbE speed. 
+- Eth2 10 GbE (2) is typically used for device management but can also be used for data transfer. This port can run at either 1 GbE or 10 GbE speed. 
 
 
-The data transfer connection should either be on the same subnet as the source data, or can be directly connected to the server if needed.
+The data transfer connection must either be on the same subnet as the source data, or be directly connected to the server.
 
 IP settings can be viewed/managed from the LCD screen after the device is powered on (see the IP address configuration section below).
 
-NOTE: It is NOT required to configure/use both ports if one can be reached via a web browser.
+>*Note** - It is NOT required to configure/use both ports if one can be reached through a web browser.
 
 
 ## Loading the Data
@@ -61,40 +61,39 @@ NOTE: It is NOT required to configure/use both ports if one can be reached via a
 
 2.	Determine the most appropriate place for the device to be placed. It needs to reach both power and your ethernet connections, and minimize foot traffic.
 
-3.	Position the device to be connected. Ensure that the device is at room temperature, and there's no condensation on it. Connect power by using the provided power cable underneath the case lid and power on the device.<br/>
+3.	Position the device to be connected. The device does not need to be removed from the portable case. It can remain in the transport case during use. Ensure that the device is at room temperature, and there's no condensation on it. Connect power by using the provided power cable underneath the case lid and power on the device.<br/>
     **Note** - Take note of the two power switches.
-    ![Power switches](/images/MDMSPowerSwitch.png)
-    **Note** - The device does not need to be removed from the portable case. It can remain in the transport case during use.
+    ![Power switches](/images/MDMSPowerSwitch.png) 
 
 4.  Connect the device to the network.
     - Connecting RJ45 
-  	  1. Remove the CAT6A cable from the case lid and connect it to the Eth3 (10GbE-B) port shown in the picture below.
-      ![](/images/MDMSNewEth1and3.png)
+  	  1. Remove the CAT6A cable from the case lid and connect it to the Eth3 (10 GbE-B) port shown in the picture below.
+      ![Ports of the MDMS device](/images/MDMSNewEth1and3.png)
       
       2. Connect the provided CAT6A to SFP+ adapter and connect to your 10 Gb switch.
-      3. If the IP address configured for Eth3 can be reached in the browser through `HTTPS://'Your-Eth3-IPAddress'`, continue to the next step. Otherwise, connect Eth1 (1 GbE-B) port.<br/>
+      3. If the IP address that is configured for Eth3 can be reached in the browser through `HTTPS://'Your-Eth3-IPAddress'`, continue to the next step. Otherwise, connect the Eth1 (1 GbE-B) port.<br/>
          >**Note** - if you need to alter any IP settings for Eth3 or Eth1, see the Configuring IP addresses section.
     - Connecting Copper SFP+
-      1. Remove the Copper SFP+ cable from the case lid and connect it to Eth5 10GbE (5) 
-         ![](/images/sfp-ports-sized-ports-labeled.png)
-      2. Connect the provided Copper SFP+ cable to your 10Gb switch.
+      1. Remove the Copper SFP+ cable from the case lid and connect it to Eth5 10 GbE (5) 
+         ![Ports of the MDMS device](/images/sfp-ports-sized-ports-labeled.png)
+      2. Connect the Copper SFP+ cable to your 10 Gb switch.
       3. If the IP address configured for Eth5 can be reached via browser HTTPS://'Your-Eth5-IPAddress', continue to the next step, otherwise connect Eth2 (10/1 GbE-B) port.<br/>
-         >**Note** - if you need to alter any IP settings for Eth5 or Eth2, see the IP address configuration section.
+         >**Note** - if you need to alter any IP settings for Eth5 or Eth2, see the Configuring IP addresses section.
 
 
-5. Open your browser, and enter `HTTPS://'Your-Eth1-IPAddress'`. Enter Eth1 for your network configuration. Accept the certificate exception.
+5. Open your browser, and enter `HTTPS://Your-Eth1-IPAddress`. Replace `Your-Eth1-IPAddress` with the Eth1 for your network configuration. Accept the certificate exception.
 
 7. Use the provided user name and password to log in.<br/>
     ![Login page](/images/Login.png)
 
-7. The workflow wizard presents access to the specific items generally used in order from left to right.<br/>
+7. The workflow wizard presents access to the specific items that are generally used in order from left to right.<br/>
     ![Workflow icons](/images/workflow.png) <br/>
     >**NOTE** - The workflow can be reopened by using **Workflow Manager** in the upper left of the interface.
 
 8.	Activate the pre-configured storage pool.
     - Click **Unlock and Start Storage Pool**.
     - Enter your Storage Pool Passphrase, and click **OK**.
-    ![Activate Storage Pool](/images/UnlockPool.png)
+      ![Activate Storage Pool](/images/UnlockPool.png)
 
 9. By default, the share has both NFS and SMB protocols that are enabled with no access restrictions. To restrict access to this share (for NFS or SMB), right-click the share name, and select the appropriate menu item.<br/>
    ![Restrict Share Access](/images/ShareControls.png)
