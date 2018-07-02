@@ -27,6 +27,9 @@ The device accepts all standard power ranges.
 
 There are two ethernet connections to be made. One for device management through a browser, and one for data movement on the same subnet where the source data resides.
 
+There are two models of the MDMS device, one supports RJ45 connectivity, the other supports RJ45 and Copper SFP+ 
+
+#### RJ45
 Both ports originate from the device as RJ45, and CAT6A cables are supplied. Copper SFP+ adapters are provided to convert from RJ45.  The adapters work with all switch manufacturers. These adapters are located in a pocket on the underside of the shipping lid.
 
 - Eth1 (1 GbE-B) is used for device management, and as such, should have a gateway specified in the IP Address configuration. This can be viewed on the LCD screen after the device is powered on (see the IP address configuration section below).
@@ -35,6 +38,10 @@ Both ports originate from the device as RJ45, and CAT6A cables are supplied. Cop
 
 If a different form factor of ethernet connection is required, the customer must provide the converter.
 
+#### Copper SFP+
+
+
+ ![Copper SFP+](/images/sfp-ports-sized-port5.png)
 
 
 ## Step-by-step user instructions
