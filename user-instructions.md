@@ -25,15 +25,39 @@ The device accepts all standard power ranges.
 
 ### Ethernet Connectivity
 
-There are two ethernet connections to be made. One for device management through a browser, and one for data movement on the same subnet where the source data resides.
+There are two models of the MDMS device, one supports RJ45 only connectivity, the other supports Copper SFP+ and RJ45. 
 
-Both ports originate from the device as RJ45, and CAT6A cables are supplied. Copper SFP+ adapters are provided to convert from RJ45.  The adapters work with all switch manufacturers. These adapters are located in a pocket on the underside of the shipping lid.
 
-- Eth1 (1 GbE-B) is used for device management, and as such, should have a gateway specified in the IP Address configuration. This can be viewed on the LCD screen after the device is powered on (see the IP address configuration section below).
+#### RJ45 Only
 
-- Eth3 (10 GbE-B) is used for the data transfer. This connection should either be on the same subnet as the source data, or can be directly connected to the server if needed.
+![RJ45](/images/RJ45PortZoom.png)
+
+Ports originate from the device as RJ45, and CAT6A cables are supplied. Copper SFP+ adapters are provided to convert from RJ45.  The adapters work with all switch manufacturers. These adapters are located in a pocket on the underside of the shipping lid.
+
+- Eth1 (1 GbE-B) typically used for device management, and as such, should have a gateway specified in the IP Address configuration. This can be viewed on the LCD screen after the device is powered on (see the IP address configuration section below).  This port is used to make the web based UI available outside the data subnet.
+
+- Eth3 (10 GbE-B) used for the data transfer and can also be used for device management. This connection should either be on the same subnet as the source data, or can be directly connected to the server if needed.
 
 If a different form factor of ethernet connection is required, the customer must provide the converter.
+
+NOTE: It is NOT required to configure/use Eth1 if Eth3 can be reached via a web browser.
+
+#### Copper SFP+ and RJ45
+
+![Copper SFP+](/images/sfp-ports-sized-port5.png)
+
+Ports originate from the device as Coppper SFP+ and RJ45.  Both and CAT6A and Copper SFP+ cables are supplied.
+
+- Eth5 10GbE (5) typically used for data transfer but can also be used for device management. This port runs only at 10GbE.
+
+- Eth2 10GbE (2) typically used for device management but can also be used for data transfer. This port can run at either 1GbE or 10GbE speed. 
+
+
+The data transfer connection should either be on the same subnet as the source data, or can be directly connected to the server if needed.
+
+IP settings can be viewed/managed from the LCD screen after the device is powered on (see the IP address configuration section below).
+
+NOTE: It is NOT required to configure/use both ports if one can be reached via a web browser.
 
 
 
@@ -41,13 +65,14 @@ If a different form factor of ethernet connection is required, the customer must
 
 1.	Device arrives pre-configured with your IP address, user name, locked storage pool and NFS share. The user password and storage pool password are communicated through a separate email.
 
-2.	Determine the most appropriate place for the device to be placed; where it will reach both power and your ethernet (1GbE and 10GbE) connections and minimize foot traffic.
+2.	Determine the most appropriate place for the device to be placed; where it will reach both power and your ethernet connections and minimize foot traffic.
 
 3.	Position the device to be connected, it can remain the transport case during use. Ensure the device is at room temperature and there's no condensation on it. Connect power using the provided power cable underneath the case lid and power on the device.<br/>
     **Note**: There are two power switches.
     ![Power switches](/images/MDMSPowerSwitch.png)
     **Note**: The device does not need to be removed from the portable case.
 
+#### Connect RJ45 
 4.	Remove the CAT6A cable from the case lid and connect it to the Eth3 (10GbE-B) port shown in the picture below.
     ![](/images/MDMSNewEth1and3.png)
 
@@ -56,7 +81,17 @@ If a different form factor of ethernet connection is required, the customer must
 6.	If the IP address configured for Eth3 can be reached via browser HTTPS://'Your-Eth3-IPAddress', continue to the next step, otherwise connect Eth1 (1 GbE-B) port.<br/>
     **Note**: if you need to alter any IP settings for Eth3 or Eth1, see the IP address configuration section.
 
-7. Open your browser and enter HTTPS://'Your-Eth1-IPAddress'. Enter Eth1 as appropriate for your network configuration. Accept the certificate exception.
+#### Connect Copper SFP+
+4. Remove the Copper SFP+ cable from the case lid and connect it to Eth5 10GbE (5) 
+   ![](/images/sfp-ports-sized-ports-labeled.png)
+
+5. Connect the provided Copper SFP+ cable to your 10Gb switch.
+
+6.	If the IP address configured for Eth5 can be reached via browser HTTPS://'Your-Eth5-IPAddress', continue to the next step, otherwise connect Eth2 (10/1 GbE-B) port.<br/>
+    **Note**: if you need to alter any IP settings for Eth5 or Eth2, see the IP address configuration section.
+
+
+7. Open your browser and enter HTTPS://'Your-Chosen-IPAddress'. Accept the certificate exception.
 
 8. Use the provided user name and password to log in.<br/>
     ![Login page](/images/Login.png)
