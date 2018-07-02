@@ -81,9 +81,9 @@ NOTE: It is NOT required to configure/use both ports if one can be reached via a
 6.	If the IP address configured for Eth3 can be reached via browser HTTPS://'Your-Eth3-IPAddress', continue to the next step, otherwise connect Eth1 (1 GbE-B) port.<br/>
     **Note**: if you need to alter any IP settings for Eth3 or Eth1, see the IP address configuration section.
 
-#### Connect Coppper SFP+
+#### Connect Copper SFP+
 4. Remove the Copper SFP+ cable from the case lid and connect it to Eth5 10GbE (5) 
-   ![](/images/sfp-ports-sized-port5.png)
+   ![](/images/sfp-ports-sized-ports-labeled.png)
 
 5. Connect the provided Copper SFP+ cable to your 10Gb switch.
 
