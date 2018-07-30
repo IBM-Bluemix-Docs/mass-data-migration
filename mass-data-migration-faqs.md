@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-25"
+lastupdated: "2018-07-30"
 
 ---
 {:new_window: target="_blank"}
@@ -29,7 +29,7 @@ Mass Data Migration devices are equipped to perform in nearly any environment fr
 
 **How much data can be transferred by using Mass Data Migration?**
 
-There's virtually no limit to the amount of data you can transfer, whether it’s a few terabytes to petabytes. Each device holds up to 120 TB of usable capacity at RAID-6, but you can use multiple devices to accommodate larger workloads.  The largest single object is limited to 10TB.
+There's virtually no limit to the amount of data you can transfer, whether it’s a few terabytes to petabytes. Each device holds up to 120 TB of usable capacity at RAID-6, but you can use multiple devices to accommodate larger workloads. The largest single object is limited to 10 TB.
 
 <hr/>
 
@@ -41,7 +41,7 @@ Use multiple devices in parallel or in a series to move all data in a single mig
 
 **How long does it take to transfer the data?**
 
-From the time, a customer submits a Mass Data Migration Request to when their data is accessible in their {{site.data.keyword.cos_full}} bucket, the turnaround time can be as little as seven days.  Transfer performance is affected by the number of files to be tranferred, meanining millions of small files will take longer than the same amount of data contained in relatively few files. 
+From the time, a customer submits a Mass Data Migration Request to when their data is accessible in their {{site.data.keyword.cos_full}} bucket, the turnaround time can be as little as seven days. The transfer performance is affected by the number of files to be transferred. Transferring of millions of small files take longer than the same amount of data contained in relatively few files. 
 
 <hr/>
 
