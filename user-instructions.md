@@ -19,7 +19,7 @@ The device ships with a C13-US power cord [https://en.wikipedia.org/wiki/IEC_603
 The device accepts all standard power ranges.
 ![Power range](/images/PowerRating.png)
 
-**Note** To turn on the device, you must turn on the switch by the power plug as shown
+**Note:** To turn on the device, you must turn on the switch by the power plug as shown
 
 ![Power On Off](/images/MDMSPowerOnOff.png)
 
