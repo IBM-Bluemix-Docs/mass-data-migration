@@ -19,7 +19,7 @@ The device ships with a C13-US power cord [https://en.wikipedia.org/wiki/IEC_603
 The device accepts all standard power ranges.
 ![Power range](/images/PowerRating.png)
 
->*Note** To turn on the device, you must turn on the switch by the power plug.  
+**Note** To turn on the device, you must turn on the switch by the power plug as shown
 
 ![Power On Off](/images/MDMSPowerOnOff.png)
 
@@ -27,7 +27,7 @@ and also use the on/off button to the right of the connection link LEDs.
 
 ![System On Off](/images/MDMSSystemOnOff.png)
 
-The device is powered on when the system ID is shown on the LED.
+The device is powered on when the System ID is shown on the LED.
 
 
 ### Configuring Ethernet Connectivity
