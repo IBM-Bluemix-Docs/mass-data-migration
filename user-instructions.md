@@ -25,7 +25,7 @@ The device accepts all standard power ranges.
 
 and also use the on/off button to the right of the connection link LEDs.
 
-![System On Off](/images/MDMSSystemOnOff1.png)
+![System On Off](/images/MDMSSystemOnOff.png)
 
 The device is powered on when the System ID is shown on the LED.
 
