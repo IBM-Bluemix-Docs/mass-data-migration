@@ -2,37 +2,47 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-08-02"
 
 ---
 {:new_window: target="_blank"}
 
 # Importing Data to the IBM Cloud Mass Migration Device
 
-The {{site.data.keyword.cloud}} Mass Migration device is a portable storage device able to present mountable Network File System (NFS) or FileNet Content Federations Services (CFS) shares. The device is managed through a web browser interface. The device is shipped to your data center, loaded with data onsite, then returned to an {{site.data.keyword.BluSoftlayer_full}} data center and loaded into your {{site.data.keyword.cos_full}} account.
+The {{site.data.keyword.cloud}} Mass Migration device is a portable storage device able to present mountable Network file system (NFS) or FileNet Content Federations Services (CFS) shares. The device is managed through a web browser interface. The device is shipped to your data center, loaded with data onsite, then returned to an {{site.data.keyword.BluSoftlayer_full}} data center and loaded into your {{site.data.keyword.cos_full}} account.
 
 
 ### Powering the Device
 
-The device ships with a C13-US power cord [https://en.wikipedia.org/wiki/IEC_60320](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. If the device is being used outside of the United States, a power adapter might be required.
+The device is sent with a C13-US power cord [https://en.wikipedia.org/wiki/IEC_60320](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. If the device is used outside of the United States, a power adapter might be required.
 
 The device accepts all standard power ranges.
 ![Power range](/images/PowerRating.png)
+
+**Note:** To turn on the device, you must turn on the Mains switch by the power plug.
+
+![Mains Switch](/images/MDMSPowerOnOff.png)
+
+And use the System On/Off button to the right of the connection link LEDs.
+
+![System On/Off](/images/MDMSSystemOnOff.png)
+
+The device is powered on when the System ID is shown on the LED screen.
 
 
 ### Configuring Ethernet Connectivity
 
 You need to make two ethernet connections. One connection is for device management through a browser, and the other connection is for data movement on the same subnet where the source data is located.
-{{site.data.keyword.cloud}} provides two models of the MDMS Device. One model supports RJ45 connectivity only, the other model supports Copper SFP+ and RJ45. Depending on the model of the MDMS device, follow the instructions that are appropriate.
+{{site.data.keyword.cloud}} provides two models of the MDMS Device. One model supports RJ45 connectivity only. The other model supports Copper SFP+ and RJ45. Depending on the model of the MDMS device, follow the instructions that are appropriate.
 
 
 #### Configuring RJ45 Only
 
 ![RJ45](/images/RJ45PortZoom.png)
 
-Ports originate from the device as RJ45, and CAT6A cables are supplied. Copper SFP+ adapters are provided to convert from RJ45. The adapters work with all switch manufacturers. These adapters are located in a pocket on the underside of the shipping lid.
+Ports originate from the device as RJ45, and CAT6A cables are supplied. Copper SFP+ adapters are provided to convert from RJ45. The adapters work with all switch manufacturers. These adapters are located in a pocket on the underside of the shipping container lid.
 
-- Eth1 (1 GbE-B) is typically used for device management, and as such, must have a gateway specified in the IP Address configuration. This can be viewed on the LCD screen after the device is powered on (see the IP address configuration section below). This port is used to make the web based UI available outside the data subnet.
+- Eth1 (1 GbE-B) is typically used for device management, and as such, must have a gateway that is specified in the IP address configuration. This can be viewed on the LCD screen after the device is powered on (see the IP address configuration section). This port is used to make the web-based UI available outside the data subnet.
 
 - Eth3 (10 GbE-B) is used for the data transfer and can also be used for device management. This connection must either be on the same subnet as the source data, or can be directly connected to the server if needed.
 
@@ -41,7 +51,7 @@ Ports originate from the device as RJ45, and CAT6A cables are supplied. Copper S
 
 ![Copper SFP+](/images/sfp-ports-sized-port5.png)
 
-Ports originate from the device as Copper SFP+ and RJ45.  Both and CAT6A and Copper SFP+ cables are supplied.
+Ports originate from the device as Copper SFP+ and RJ45. Both and CAT6A and Copper SFP+ cables are supplied.
 
 - Eth5 10 GbE (5) is typically used for data transfer but can also be used for device management. This port runs only at 10 GbE.
 
@@ -50,7 +60,7 @@ Ports originate from the device as Copper SFP+ and RJ45.  Both and CAT6A and Cop
 
 The data transfer connection must either be on the same subnet as the source data, or be directly connected to the server.
 
-IP settings can be viewed/managed from the LCD screen after the device is powered on (see the IP address configuration section below).
+IP settings can be viewed/managed from the LCD screen after the device is powered on (see the IP address configuration section).
 
 >*Note** - It is NOT required to configure/use both ports if one can be reached through a web browser.
 
@@ -65,9 +75,9 @@ IP settings can be viewed/managed from the LCD screen after the device is powere
     **Note** - Take note of the two power switches.
     ![Power switches](/images/MDMSPowerSwitch.png) 
 
-4.  Connect the device to the network.
+4. Connect the device to the network.
     - Connecting RJ45 
-  	  1. Remove the CAT6A cable from the case lid and connect it to the Eth3 (10 GbE-B) port shown in the picture below.
+  	  1. Remove the CAT6A cable from the case lid and connect it to the Eth3 (10 GbE-B) port shown in the picture.
       ![Ports of the MDMS device](/images/MDMSNewEth1and3.png)
       
       2. Connect the provided CAT6A to SFP+ adapter and connect to your 10 Gb switch.
@@ -77,13 +87,13 @@ IP settings can be viewed/managed from the LCD screen after the device is powere
       1. Remove the Copper SFP+ cable from the case lid and connect it to Eth5 10 GbE (5) 
          ![Ports of the MDMS device](/images/sfp-ports-sized-ports-labeled.png)
       2. Connect the Copper SFP+ cable to your 10 Gb switch.
-      3. If the IP address configured for Eth5 can be reached via browser HTTPS://'Your-Eth5-IPAddress', continue to the next step, otherwise connect Eth2 (10/1 GbE-B) port.<br/>
+      3. If the IP address configured for Eth5 can be reached via browser `HTTPS://'Your-Eth5-IPAddress'`, continue to the next step, otherwise connect Eth2 (10/1 GbE-B) port.<br/>
          >**Note** - if you need to alter any IP settings for Eth5 or Eth2, see the Configuring IP addresses section.
 
 
 5. Open your browser, and enter `HTTPS://Your-Eth1-IPAddress`. Replace `Your-Eth1-IPAddress` with the Eth1 for your network configuration. Accept the certificate exception.
 
-7. Use the provided user name and password to log in.<br/>
+6. Use the provided user name and password to log in.<br/>
     ![Login page](/images/Login.png)
 
 7. The workflow wizard presents access to the specific items that are generally used in order from left to right.<br/>
@@ -115,7 +125,7 @@ IP settings can be viewed/managed from the LCD screen after the device is powere
 16.	Attach the provided shipping label, notify the carrier, and return device to the data center.
 
 
-## Configuring IP Addresses
+## Configuring IP addresses
 
 The LCD screen on the device can be used to configure the IP addresses for the Ethernet ports. You move the cursor around in the LCD panel by using the **Up**, **Down**, **Back/ESC**, and **Forward/ENTER** buttons. **Enter** takes you into a menu and **Exit** takes you out.
 
@@ -123,7 +133,7 @@ When you edit an IP address or subnet mask, **Enter** steps you forward one char
 
 **Up** and **Down** toggles through the numbers for the elected location.
 
-Use **Exit** to back up to the former menu.  
+Use **Exit** to back up to the former menu.
 
 Go to **Update...** and press **Enter** to save the setting.
 
