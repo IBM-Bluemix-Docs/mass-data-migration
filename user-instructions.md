@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-08-02"
 
 ---
 {:new_window: target="_blank"}
@@ -19,13 +19,13 @@ The device ships with a C13-US power cord [https://en.wikipedia.org/wiki/IEC_603
 The device accepts all standard power ranges.
 ![Power range](/images/PowerRating.png)
 
-**Note:** To turn on the device, you must turn on the switch by the power plug as shown
+**Note:** To turn on the device, you must turn on the switch by the power plug.
 
-![Power On Off](/images/MDMSPowerOnOff.png)
+![Power On/Off](/images/MDMSPowerOnOff.png)
 
-and also use the on/off button to the right of the connection link LEDs.
+Also use the on/off button to the right of the connection link LEDs.
 
-![System On Off](/images/MDMSSystemOnOff.png)
+![System On/Off](/images/MDMSSystemOnOff.png)
 
 The device is powered on when the System ID is shown on the LED.
 
