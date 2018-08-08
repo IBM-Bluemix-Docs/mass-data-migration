@@ -7,7 +7,7 @@ lastupdated: "2018-08-08"
 ---
 {:new_window: target="_blank"}
 
-# {{site.data.keyword.cloud_notm}} Mass Data Migration FAQs
+# FAQs
 
 ## **What is {{site.data.keyword.cloud_notm}} Mass Data Migration?**
 
