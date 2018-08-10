@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-08-02"
+lastupdated: "2018-08-10"
 
 ---
 {:new_window: target="_blank"}
@@ -94,7 +94,7 @@ IP settings can be viewed/managed from the LCD screen after the device is powere
 5. Open your browser, and enter `HTTPS://Your-Eth1-IPAddress`. Replace `Your-Eth1-IPAddress` with the Eth1 for your network configuration. Accept the certificate exception.
 
 6. Use the provided user name and password to log in.<br/>
-    ![Login page](/images/Login.png)
+    ![Login page](/images/login.png)
 
 7. The workflow wizard presents access to the specific items that are generally used in order from left to right.<br/>
     ![Workflow icons](/images/workflow.png) <br/>
@@ -103,22 +103,22 @@ IP settings can be viewed/managed from the LCD screen after the device is powere
 8.	Activate the pre-configured storage pool.
     - Click **Unlock and Start Storage Pool**.
     - Enter your Storage Pool Passphrase, and click **OK**.
-      ![Activate Storage Pool](/images/UnlockPool.png)
+      ![Activate Storage Pool](/images/Unlock.png)
 
 9. By default, the share has both NFS and SMB protocols that are enabled with no access restrictions. To restrict access to this share (for NFS or SMB), right-click the share name, and select the appropriate menu item.<br/>
-   ![Restrict Share Access](/images/ShareControls.png)
+   ![Restrict Share Access](/images/ShareAccessControl.png)
 
 10. When the storage pool is enabled, the NFS share is available to mount. In the workflow, click **View Network Shares** to see the network shares view. Close the workflow, right-click the share, and select mount command to see the share name and mount information. Mount the share on your source server. Be sure to specify the 10 GB link IP address.
     ![Mounting the share](/images/MountCommand.png)
 
 11. Copy your data to the NFS share. In the workflow, click **View Network Activity** to show inbound Ethernet load as data is transferred to the device on the 10 GB link.
-    ![View activity](/images/UserGuide13.png)
+    ![View activity](/images/SystemNetworkPerf.png)
 
 12. In the workflow, click **View Storage pool** to monitor storage usage and IOPS on the device.
-    ![View Storage Pool](/images/UserGuide14.png)
+    ![View Storage Pool](/images/SystemStoragePoolPerf.png)
 
 13.	When the load is complete, gracefully power down the system. In the workflow, click **Shutdown Appliance...**.
-    ![Shutting Appliance Down](/images/Shutdown.png)
+    ![Shutting Appliance Down](/images/SystemShutdown.png)
 
 14.	Disconnect the device, return the power cable, Ethernet cable, and SFP+ adapter into their storage locations under the lid.
 
