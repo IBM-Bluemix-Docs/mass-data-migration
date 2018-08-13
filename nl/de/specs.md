@@ -2,78 +2,76 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-17"
+lastupdated: "2018-06-27"
 
 ---
-{:new_window: target="_blank"}
-{:shortdesc: .shortdesc}
 
-# Spezifikationen für {{site.data.keyword.cloud_notm}} Mass Data Migration
 
-<table>
-  <caption>Einheitenspezifikationen für Mass Data Migration</caption>
+# Einheitenspezifikationen
+
+<table role="presentation">
         <colgroup>
           <col/>
           <col/>
         </colgroup>
           <tr>
-            <td>Speicherkapazität</td>
+            <td><p>Speicherkapazität</p></td>
             <td>
-              <p>Summe: 144 TB; Verwendbar: 120 TB mit RAID 6</p>
+              <p>Gesamt = 144 TB<br/>Verwendbar = 120 TB mit RAID-6</p>
             </td>
           </tr>
           <tr>
-            <td>Daten- und &amp; Netzverbindung</td>
+            <td><p>Daten- und Netzverbindung</p></td>
             <td>
-              <p>2 x 10 GBase-T</p>
+              <p>2 x 10 GBASE-T</p>
               <p>2 x 1 GbE</p>
-              <p>Unterstützt RJ45 &amp; SFP+ mit Kupferleitungen <br/> (inklusive Konverter von RJ45 auf SFP+)</p>
+              <p>Unterstützt RJ45 und Kupfer-SFP+<br/> (inklusive Konverter von RJ45 auf SFP+)</p>
             </td>
           </tr>
           <tr>
-            <td>Kabel</td>
+            <td><p>Kabel</p></td>
             <td>
               <p>2x CAT6a (1,8 m)</p>
               <p>Netzkabel (1,8 m)</p>
             </td>
           </tr>
           <tr>
-            <td>Thermische Anforderungen</td>
+            <td><p>Thermische Anforderungen</p></td>
             <td>
-              <p>Temp: 5°C – 35°C (aufrecht stehend mit geöffneter Abdeckung)</p>
-              <p>Luftfeuchtigkeit: 90 %  bei geöffneter Abdeckung</p>
-              <p>Höhe: 4.000 m (maximal)</p>
+              <p>Temperatur - 5-35 °C (aufrecht stehend mit vollständig geöffneter Abdeckung)</p>
+              <p>Luftfeuchtigkeit - 90 % mit geöffneter Abdeckung</p>
+              <p>Höhe - 4.000 m (maximal)</p>
             </td>
           </tr>
           <tr>
-            <td>Wasserdicht</td>
+            <td><p>Wasserdicht</p></td>
             <td>
-              <p>Abdeckung offen: Bis 1 Minute</p>
-              <p>Abdeckung geschlossen: Bis 30 Minuten</p>
+              <p>Mit geöffneter Abdeckung bis zu 1 Minute</p>
+              <p>Mit geschlossener Abdeckung bis zu 30 Minuten</p>
             </td>
           </tr>
           <tr>
-            <td>Gewicht</td>
+            <td><p>Gewicht</p></td>
             <td>
-              <p>Einheit: 24,7 kg; mit Transport-SoftCase: 27,0 kg</p>
-              <p>Hinweis: Mit Rädern &amp; ausklappbarem Griff für leichtes Manövrieren; erreichbar bei Verpackung in Transport-SoftCase.</p>
+              <p>Die Einheit wiegt 24,7 kg. <br/>Mit Transport-SoftCase wiegt sie 27 kg. </p>
+              <p>Hinweis: Die Einheit ist mit Rollen und einem Griff ausgestattet, um das Rangieren zu vereinfachen. Auf die Einheit kann zugegriffen werden, während sie sich in dem Transport-SoftCase befindet. </p>
             </td>
           </tr>
           <tr>
-            <td>Abmessungen</td>
+            <td><p>Abmessungen</p></td>
             <td>
-              <p>Einheit: 21,7 Zoll x 13,7 Zoll x 19,3 Zoll</p>
-              <p>Mit Transport-SoftCase: 25,6 Zoll x 17,3 Zoll x 22,8 Zoll</p>
+              <p>Einheit - 55,1 x 34,8 x 49,0 cm</p>
+              <p>Mit Transport-SoftCase - 65,0 x 43,9 x 57,9 cm</p>
             </td>
           </tr>
           <tr>
-            <td>Stromversorgung</td>
+            <td><p>Stromversorgung</p></td>
             <td>
-              <p>300 W; 88 V - 265 V Wechselstrom; 50-60 Hz</p>
+              <p>300 W; 88-265 V Wechselstrom; 50-60 Hz</p>
             </td>
           </tr>
           <tr>
-            <td>Stromverbrauch</td>
+            <td><p>Stromverbrauch</p></td>
             <td>
               <p>165 W (beim Kopieren von Dateien)</p>
             </td>

@@ -2,24 +2,24 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-17"
+lastupdated: "2018-06-27"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# Checkliste für die Ausstattung von Einheiten für Mass Data Migration
+# Checkliste für Ausstattung
 
 
 ![Ausstattung der Einheiten für Mass Data Migration](/images/MDMDeviceInventory.png)
 
--	Netzkabel im rechten unteren Beutel
+-	Netzkabel in der rechten unteren Tasche
 
--	2 CAT6A-Kabel im linken unteren Beutel
+-	2 CAT6A-Kabel in der linken unteren Tasche
 
--	2 10-Gb-Adapter von 10BaseT auf SFP+ im linken oberen Beutel
+-	2 10-GB-10BASET-auf-SFP+-Adapter in der linken oberen Tasche
 
--	Sicherungen für die Einheit im rechten oberen Beutel
+-	Sicherungen für die Einheit in der rechten oberen Tasche
 
    
    
@@ -30,12 +30,14 @@ lastupdated: "2018-05-17"
 </br> 
 </br> 
 </br> 
+</br> 
+</hr> 
 </br> 
 </hr>    
 </br> 
 ________________________________________________________________ 
 
-Datum/Unterschrift des Zustellers
+Datum/Unterschrift des Versenders
 
 
 </br> 
