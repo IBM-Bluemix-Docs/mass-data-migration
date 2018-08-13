@@ -2,13 +2,13 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-17"
+lastupdated: "2018-06-27"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# Liste de contrôle d'inventaire du périphérique Mass Data Migration
+# Liste de contrôle d'inventaire
 
 
 ![Inventaire du périphérique Mass Data Migration](/images/MDMDeviceInventory.png)
@@ -17,7 +17,7 @@ lastupdated: "2018-05-17"
 
 -	2 câbles CAT6A dans pochette inférieure gauche
 
--	2 adaptateurs 10-GB 10BaseT vers SFP+ dans pochette supérieure gauche
+-	2 adaptateurs 10-GB 10BASET vers SFP+ dans pochette supérieure gauche
 
 -	Fusibles périphérique dans pochette supérieure droite
 
@@ -30,6 +30,8 @@ lastupdated: "2018-05-17"
 </br> 
 </br> 
 </br> 
+</br> 
+</hr> 
 </br> 
 </hr>    
 </br> 
