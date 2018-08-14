@@ -2,78 +2,76 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-17"
+lastupdated: "2018-06-27"
 
 ---
-{:new_window: target="_blank"}
-{:shortdesc: .shortdesc}
 
-# {{site.data.keyword.cloud_notm}} 대량 데이터 마이그레이션 사양
 
-<table>
-  <caption>대량 데이터 마이그레이션 디바이스 사양</caption>
+# 디바이스 사양
+
+<table role="presentation">
         <colgroup>
           <col/>
           <col/>
         </colgroup>
           <tr>
-            <td>스토리지 용량</td>
+            <td><p>스토리지 용량</p></td>
             <td>
-              <p>총: 144TB, 사용 가능: 120TB(RAID-6에서)</p>
+              <p>총계 = 144TB<br/>사용 가능 용량 = 120TB(RAID-6에서)</p>
             </td>
           </tr>
           <tr>
-            <td>데이터 및 네트워크 연결</td>
+            <td><p>데이터 및 네트워크 연결</p></td>
             <td>
-              <p>2 x 10 Gbase-T</p>
+              <p>2 x 10GBASE-T</p>
               <p>2 x 1 GbE</p>
-              <p>RJ45 &amp; SFP+ 구리선 지원 <br/> (RJ45 - SFP+ 컨버터 포함됨)</p>
+              <p>RJ45 및 SFP+ 구리선 지원 <br/> (RJ45 - SFP+ 컨버터 포함됨)</p>
             </td>
           </tr>
           <tr>
-            <td>케이블</td>
+            <td><p>케이블</p></td>
             <td>
               <p>2x CAT6a(6피트)</p>
               <p>전원 코드(6피트)</p>
             </td>
           </tr>
           <tr>
-            <td>열 요구사항</td>
+            <td><p>열 요구사항</p></td>
             <td>
-              <p>온도: 41°F – 95°F (덮개가 완전히 열린 상태로 세워 놓음)</p>
-              <p>습도: 90% (덮개 열린 상태)</p>
-              <p>고도: 13,000피트 최대</p>
+              <p>온도 -  41°–95°F(덮개가 완전히 열린 상태로 세워 놓음)</p>
+              <p>습도 - 90% (덮개 열린 상태)</p>
+              <p>고도 - 최대 13,000피트</p>
             </td>
           </tr>
           <tr>
-            <td>방수</td>
+            <td><p>방수</p></td>
             <td>
-              <p>덮개 열림: 최대 1분</p>
-              <p>덮개 닫힘: 최대 30분</p>
+              <p>덮개 열림, 최대 1분</p>
+              <p>덮개 닫힘, 최대 30분</p>
             </td>
           </tr>
           <tr>
-            <td>중량</td>
+            <td><p>중량</p></td>
             <td>
-              <p>디바이스: 54.5lbs., Travel SoftCase 포함: 59.5lbs.</p>
-              <p>참고: 간편한 조작을 위해 휠 및 팝업 핸들을 장착했으며, Travel SoftCase에서 케이스에 포장된 상태로 액세스 가능합니다.</p>
+              <p>디바이스는 54.5파운드입니다.<br/>여행용 소프트 케이스를 포함하면 59.5파운드가 됩니다.</p>
+              <p>참고: 디바이스에는 쉬운 조작을 위한 휠과 핸들이 장착되어 있습니다. 디바이스는 여행용 소프트 케이스에 있는 동안 액세스 가능합니다.</p>
             </td>
           </tr>
           <tr>
-            <td>치수</td>
+            <td><p>치수</p></td>
             <td>
-              <p>디바이스: 21.7” x 13.7” x 19.3”</p>
-              <p>Travel SoftCase 포함: 25.6” x 17.3” x 22.8”</p>
+              <p>디바이스 - 21.7” x 13.7” x 19.3”</p>
+              <p>여행용 소프트 케이스 포함 - 25.6” x 17.3” x 22.8”</p>
             </td>
           </tr>
           <tr>
-            <td>전원</td>
+            <td><p>전원</p></td>
             <td>
-              <p>300W, 88 V- 265V AC, 50-60Hz</p>
+              <p>300W, 88V- 265V AC, 50 - 60Hz</p>
             </td>
           </tr>
           <tr>
-            <td>전력 소비</td>
+            <td><p>전력 소비</p></td>
             <td>
               <p>165W(파일 복사 중)</p>
             </td>

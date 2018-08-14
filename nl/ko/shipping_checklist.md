@@ -2,22 +2,22 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-17"
+lastupdated: "2018-06-27"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# 대량 데이터 마이그레이션 디바이스 인벤토리 체크리스트
+# 인벤토리 체크리스트
 
 
 ![대량 데이터 마이그레이션 디바이스 인벤토리](/images/MDMDeviceInventory.png)
 
 -	하단 오른쪽 파우치의 전원 케이블
 
--	하단 왼쪽 파우치의 2개 CAT6A 케이블 
+-	하단 왼쪽 파우치의 2개 CAT6A 케이블
 
--	상단 왼쪽 파우치의 2개 10-GB 10BaseT 대 SFP+ 어댑터
+-	상단 왼쪽 파우치의 2개 10-GB 10BASET 대 SFP+ 어댑터
 
 -	상단 오른쪽 파우치의 디바이스 퓨즈
 
@@ -30,6 +30,8 @@ lastupdated: "2018-05-17"
 </br> 
 </br> 
 </br> 
+</br> 
+</hr> 
 </br> 
 </hr>    
 </br> 
