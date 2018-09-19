@@ -53,7 +53,7 @@ A device can be kept onsite at no cost for the first 10 business days. This time
 
 ## **What network interfaces does Mass Data Migration support?** 
 
-Mass Data Migration devices have 10 Gbps network interfaces with RJ45 (CAT6a) and SFP+ copper network ports. The RJ45 to SFP+ converter is included.
+Mass Data Migration devices have 10 Gbps network interfaces with RJ45 (CAT6a) and SFP+ copper network ports. The RJ45 to SFP+ converter is included.  10 Gbps interfaces have Jumbo Frames enabled.
 
 <hr/>
 
@@ -107,13 +107,13 @@ As soon as your data offload to {{site.data.keyword.cos_full}} is complete, {{si
 
 ## **What is the file interface?**
 
-Mass Data Migration uses the Network File System (NFS).
+Mass Data Migration has shares with Network File System (NFS) and Server Message Block (SMB) enabled by default.
 
 <hr/>
 
 ## **How is the file interface used?**
 
-First, unlock the encryption pool. Then, mount the NFS share on the server that contains the data you intend to migrate. Begin copying your data files into the NFS share.
+First, unlock the encryption pool. Then, mount the share on the server that contains the data you intend to migrate. Begin copying your data files into the share.
 
 <hr/>
 
