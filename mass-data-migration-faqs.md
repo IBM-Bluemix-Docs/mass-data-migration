@@ -107,7 +107,7 @@ As soon as your data offload to {{site.data.keyword.cos_full}} is complete, {{si
 
 ## **What is the file interface?**
 
-Mass Data Migration uses the Network File System (NFS).
+Mass Data Migration uses Network File System (NFS) or Server Message Block (SMB).
 
 <hr/>
 
