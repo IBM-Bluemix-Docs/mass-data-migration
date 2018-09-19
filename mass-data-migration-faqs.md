@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-08-08"
+lastupdated: "2018-09-19"
 
 ---
 {:new_window: target="_blank"}
@@ -11,7 +11,7 @@ lastupdated: "2018-08-08"
 
 ## **What is {{site.data.keyword.cloud_notm}} Mass Data Migration?**
 
-{{site.data.keyword.cloud}} Mass Data Migration is a physical data transfer service that accelerates the secure movement of terabytes to petabytes of data into the {{site.data.keyword.cloud_notm}} by using rugged, 120 TB-usable capacity, portable storage devices. 
+{{site.data.keyword.cloud}} Mass Data Migration is a physical data transfer service that accelerates the secure movement of terabytes to petabytes of data into the {{site.data.keyword.cloud_notm}} by using rugged, 120 TB-usable capacity, portable storage devices.
 
 <hr/>
 
@@ -41,25 +41,25 @@ Use multiple devices in parallel or in a series to move all data in a single mig
 
 ## **How long does it take to transfer the data?**
 
-From the time, a customer submits a Mass Data Migration Request to when their data is accessible in their {{site.data.keyword.cos_full}} bucket, the turnaround time can be as little as seven days. The transfer performance is affected by the number of files to be transferred. Transferring of millions of small files take longer than the same amount of data contained in relatively few files. 
+From the time, a customer submits a Mass Data Migration Request to when their data is accessible in their {{site.data.keyword.cos_full}} bucket, the turnaround time can be as little as seven days. The transfer performance is affected by the number of files to be transferred. Transferring of millions of small files take longer than the same amount of data contained in relatively few files.
 
 <hr/>
 
-## **How long can the Mass Data Migration device be kept?** 
+## **How long can the Mass Data Migration device be kept?**
 
-A device can be kept onsite at no cost for the first 10 business days. This time frame doesn’t include the day that your device is shipped or the day you receive it. If more time is needed to complete your ingestion, you can extend your use for USD 30 per day thereafter (applies to US and EU regions).
+A device can be kept on-site at no cost for the first 10 business days. This time frame doesn't include the day that your device is shipped or the day you receive it. If more time is needed to complete your ingestion, you can extend your use for USD 30 per day thereafter (applies to US and EU regions).
 
 <hr/>
 
-## **What network interfaces does Mass Data Migration support?** 
+## **What network interfaces does Mass Data Migration support?**
 
-Mass Data Migration devices have 10 Gbps network interfaces with RJ45 (CAT6a) and SFP+ copper network ports. The RJ45 to SFP+ converter is included.
+Mass Data Migration devices have 10 Gbps network interfaces with RJ45 (CAT6a) and SFP+ copper network ports. The RJ45 to SFP+ converter is included. 10 Gbps interfaces have Jumbo Frames enabled.
 
 <hr/>
 
 ## **What is the Mass Data Migration default shipping option?**
 
-Mass Data Migration uses UPS Next Day Air roundtrip delivery to ship all devices. The cost is included in the low, flat rate of USD 395 per device. Customers are unable to select alternative shipping methods currently.
+Mass Data Migration uses UPS Next Day Air round-trip delivery to ship all devices. The cost is included in the low, flat rate of USD 395 per device. Customers are unable to select alternative shipping methods currently.
 
 <hr/>
 
@@ -89,7 +89,7 @@ Mass Data Migration encrypts all data with AES 256-bit encryption and provides a
 
 ## **How does Mass Data Migration physically secure the data?**
 
-All Mass Data Migration devices are housed in rugged and durable enclosures. These cases are waterproof, shockproof, and tamper-evident to ensure roundtrip device and data security. 
+All Mass Data Migration devices are housed in rugged and durable enclosures. These cases are waterproof, shockproof, and tamper-evident to ensure roundtrip device and data security.
 
 <hr/>
 
@@ -107,13 +107,13 @@ As soon as your data offload to {{site.data.keyword.cos_full}} is complete, {{si
 
 ## **What is the file interface?**
 
-Mass Data Migration uses the Network File System (NFS).
+The Mass Data Migration device has shares with Network File System (NFS) and Server Message Block (SMB) enabled by default.
 
 <hr/>
 
 ## **How is the file interface used?**
 
-First, unlock the encryption pool. Then, mount the NFS share on the server that contains the data you intend to migrate. Begin copying your data files into the NFS share.
+First, unlock the encryption pool. Then, mount the share on the server that contains the data you intend to migrate. Begin copying your data files into the share.
 
 <hr/>
 
@@ -131,11 +131,11 @@ Mass Data Migration devices use a ZFS file system with LZ4 compression and AES 2
 
 ## **How much does it cost to use Mass Data Migration in the US?**
 
-In the US, a flat rate of USD 395 is charged per device. This cost includes the USD 295 device fee, and USD 100 roundtrip UPS Next Day Air delivery, and 10 business days of use at your site.
+In the US, a flat rate of USD 395 is charged per device. This cost includes the USD 295 device fee, and USD 100 round-trip UPS Next Day Air delivery, and 10 business days of use at your site.
 
 <hr/>
 
-## **How much does {{site.data.keyword.cos_full_notm}} usage cost?** 
+## **How much does {{site.data.keyword.cos_full_notm}} usage cost?**
 
 The transfer of data into the {{site.data.keyword.cloud_notm}} is at no cost to you. However, standard rates apply for data that is stored in {{site.data.keyword.cos_full}} or any other {{site.data.keyword.cloud_notm}} service. You can find pricing for {{site.data.keyword.cos_full}} for the Standard Cross Region offering at the following link: https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage#s3api
 
@@ -143,4 +143,4 @@ The transfer of data into the {{site.data.keyword.cloud_notm}} is at no cost to 
 
 ## **Can an {{site.data.keyword.cloud_notm}} Mass Data Migration device be purchased?**
 
-{{site.data.keyword.cloud_notm}} Mass Data Migration devices are not for sale. 
+{{site.data.keyword.cloud_notm}} Mass Data Migration devices are not for sale.
