@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-08-08"
+lastupdated: "2018-09-19"
 
 ---
 {:new_window: target="_blank"}
@@ -107,7 +107,7 @@ As soon as your data offload to {{site.data.keyword.cos_full}} is complete, {{si
 
 ## **What is the file interface?**
 
-Mass Data Migration has shares with Network File System (NFS) and Server Message Block (SMB) enabled by default.
+The Mass Data Migration device has shares with Network File System (NFS) and Server Message Block (SMB) enabled by default.
 
 <hr/>
 
