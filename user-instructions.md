@@ -63,7 +63,7 @@ The data transfer connection must either be on the same subnet as the source dat
 
 IP settings can be viewed/managed from the LCD screen after the device is powered on (see the IP address configuration section).
 
->**Note**: It is NOT required to configure/use both ports if the 10 GbE port be reached through a web browser.
+>**Note**: It is NOT required to configure/use both ports if the 10 GbE port/IP be reached via a web browser..
 
 
 ## Loading the Data
