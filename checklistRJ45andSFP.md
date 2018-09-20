@@ -51,6 +51,7 @@ Signature/Date of Customer
 
 
 
+<hr>
 
 # SFP+ Inventory Checklist
 
