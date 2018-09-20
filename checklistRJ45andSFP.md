@@ -11,6 +11,7 @@ lastupdated: "2018-06-27"
 # RJ45 Inventory Checklist
 
 
+![Mass Data Migration Device Inventory](/images/RJ45ports.png)
 ![Mass Data Migration Device Inventory](/images/MDMDeviceInventory.png)
 
 -	Power Cable in lower right pouch
@@ -53,7 +54,8 @@ Sign/Date of Customer
 # SFP+ Inventory Checklist
 
 
-![Mass Data Migration Device Inventory](/images/MDMDeviceInventorySFP.png)
+![Mass Data Migration Device Inventory](/images/SFPports.png)
+![Mass Data Migration Device Inventory](/images/MDMDeviceInventory.png)
 
 -	Power Cable in lower right pouch
 
