@@ -11,9 +11,12 @@ lastupdated: "2018-09-20"
 # RJ45 Inventory Checklist
 
 
-![RJ45 Ports](/images/RJ45ports.png)
 
 ![Mass Data Migration Device Inventory](/images/MDMDeviceInventory.png)
+
+
+![RJ45 Ports](/images/RJ45ports.png)
+
 
 -	Power Cable in lower right pouch
 
