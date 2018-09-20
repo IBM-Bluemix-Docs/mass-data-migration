@@ -51,6 +51,7 @@ Sign/Date of Customer
 
 
 
+{:new_window: target="_blank"}
 
 # SFP+ Inventory Checklist
 
