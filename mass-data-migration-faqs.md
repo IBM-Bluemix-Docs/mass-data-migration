@@ -95,7 +95,7 @@ All Mass Data Migration devices are housed in rugged and durable enclosures. The
 
 ## **How can the request be tracked throughout the migration process?**
 
-## To track the status of your Request, refer to the active requests section on the Mass Data Migration page in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. You can sign in to the portal by using the following link: https://control.softlayer.com/storage/mdms
+To track the status of your Request, refer to the active requests section on the Mass Data Migration page in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. You can sign in to the portal by using the following link: https://control.softlayer.com/storage/mdms
 
 <hr/>
 

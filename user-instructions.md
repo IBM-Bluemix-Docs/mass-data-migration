@@ -19,7 +19,7 @@ The device is sent with a C13-US power cord [https://en.wikipedia.org/wiki/IEC_6
 The device accepts all standard power ranges.
 ![Power range](/images/PowerRating.png)
 
-**Note:** To turn on the device, you must turn on the Mains switch by the power plug.
+**Note:** To turn on the device, you must turn on the Mains Switch by the power plug.
 
 ![Mains Switch](/images/MDMSPowerOnOff.png)
 
@@ -35,7 +35,7 @@ The device is powered on when the System ID is shown on the LED screen.
 You need to make two ethernet connections. One connection is for device management through a browser, and the other connection is for data movement on the same subnet where the source data is located.
 {{site.data.keyword.cloud}} provides two models of the MDMS Device. One model supports RJ45 connectivity only. The other model supports Copper SFP+ and RJ45. Depending on the model of the MDMS device, follow the instructions that are appropriate.
 
->*Note** - By default, Jumbo Frames are enabled on 10 Gb ports. This setting can be changed by using the **Modify Netwwork Port** option in the UI.
+>**Note**: By default, Jumbo Frames are enabled on 10 GbE ports. This setting can be changed by using the Modify Network Port option in the UI.
 
 #### Configuring RJ45 Only
 
@@ -63,7 +63,7 @@ The data transfer connection must either be on the same subnet as the source dat
 
 IP settings can be viewed/managed from the LCD screen after the device is powered on (see the IP address configuration section).
 
->*Note** - It is NOT required to configure/use both ports if one can be reached through a web browser.
+>**Note**: It is NOT required to configure/use both ports if the 10 GbE port/IP be reached via a web browser.
 
 
 ## Loading the Data
