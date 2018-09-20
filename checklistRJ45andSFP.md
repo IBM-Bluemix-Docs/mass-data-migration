@@ -1,4 +1,3 @@
-
 ---
 
 copyright:
@@ -39,7 +38,7 @@ lastupdated: "2018-09-20"
 </br> 
 ________________________________________________________________ 
 
-Sign/Date of Shipper
+Signature/Date of Shipper
 
 
 </br> 
@@ -47,7 +46,7 @@ Sign/Date of Shipper
 </br> 
 ________________________________________________________________ 
 
-Sign/Date of Customer
+Signature/Date of Customer
 
 
 
