@@ -19,7 +19,7 @@ The device is sent with a C13-US power cord [https://en.wikipedia.org/wiki/IEC_6
 The device accepts all standard power ranges.
 ![Power range](/images/PowerRating.png)
 
-**Note:** To turn on the device, you must turn on the Mains switch by the power plug.
+**Note:** To turn on the device, you must turn on the Mains Switch by the power plug.
 
 ![Mains Switch](/images/MDMSPowerOnOff.png)
 
@@ -63,7 +63,7 @@ The data transfer connection must either be on the same subnet as the source dat
 
 IP settings can be viewed/managed from the LCD screen after the device is powered on (see the IP address configuration section).
 
->**Note**: It is NOT required to configure/use both ports if the 10 GbE port/IP be reached via a web browser..
+>**Note**: It is NOT required to configure/use both ports if the 10 GbE port/IP be reached via a web browser.
 
 
 ## Loading the Data
