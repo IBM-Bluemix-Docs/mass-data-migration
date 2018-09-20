@@ -35,7 +35,7 @@ The device is powered on when the System ID is shown on the LED screen.
 You need to make two ethernet connections. One connection is for device management through a browser, and the other connection is for data movement on the same subnet where the source data is located.
 {{site.data.keyword.cloud}} provides two models of the MDMS Device. One model supports RJ45 connectivity only. The other model supports Copper SFP+ and RJ45. Depending on the model of the MDMS device, follow the instructions that are appropriate.
 
->**Note** - By default, Jumbo Frames are enabled on 10 Gb ports. This setting can be changed by using the Modify Netwwork Port option in the UI.
+>**Note** - By default, Jumbo Frames are enabled on 10 Gb ports. This setting can be changed by using the Modify Network Port option in the UI.
 
 #### Configuring RJ45 Only
 
