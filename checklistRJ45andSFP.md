@@ -50,7 +50,7 @@ Signature/Date of Customer
 
 
 
-{:new_window: target="_blank"}
+
 
 # SFP+ Inventory Checklist
 
@@ -85,7 +85,7 @@ Signature/Date of Customer
 </br> 
 ________________________________________________________________ 
 
-Sign/Date of Shipper
+Signature/Date of Shipper
 
 
 </br> 
@@ -93,4 +93,4 @@ Sign/Date of Shipper
 </br> 
 ________________________________________________________________ 
 
-Sign/Date of Customer
+Signature/Date of Customer
