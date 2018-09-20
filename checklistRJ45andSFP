@@ -1,45 +1,101 @@
- 
-MDMS RJ45 Device Inventory Checklist
-RJ45 Device (all RJ45 ports – eth0 through eth3) shown below
+---
 
-o	Power Cable in bottom right pouch
+copyright:
+  years: 2017, 2018
+lastupdated: "2018-06-27"
 
-o	2 CAT6A cables in bottom left pouch
+---
+{:new_window: target="_blank"}
+{:shortdesc: .shortdesc}
 
-o	2 10Gb 10BaseT to SFP+ adapters in top left pouch
+# RJ45 Inventory Checklist
 
-o	Device fuses in top right pouch
 
+![Mass Data Migration Device Inventory](/images/MDMDeviceInventory.png)
+
+-	Power Cable in lower right pouch
+
+-	2 CAT6A cables in lower left pouch
+
+-	2 10-GB 10BASET to SFP+ adapters in upper left pouch
+
+-	Device fuses in upper right pouch
+
+   
+   
+</br> 
+</br> 
+</br> 
+</br> 
+</br> 
+</br> 
+</br> 
+</br> 
+</hr> 
+</br> 
+</hr>    
+</br> 
 ________________________________________________________________ 
-Sign/Date of shipper
 
+Sign/Date of Shipper
+
+
+</br> 
+</hr>
+</br> 
 ________________________________________________________________ 
-Sign/Date of customer
+
+Sign/Date of Customer
 
 
+---
+
+copyright:
+  years: 2017, 2018
+lastupdated: "2018-06-27"
+
+---
+{:new_window: target="_blank"}
+{:shortdesc: .shortdesc}
+
+# SFP+ Inventory Checklist
 
 
+![Mass Data Migration Device Inventory](/images/MDMDeviceInventorySFP.png)
 
+-	Power Cable in lower right pouch
 
+-	2 CAT6A cables in lower left pouch
 
+-	1 SFP CBL-NTWK-0456 in bottom left pouch
 
-MDMS SFP+ Device Inventory Checklist
-SFP+ Device (RJ45 on both ends, SFP+ in middle) show below
- 
+- 1 x Arista Optic SFP-1G-T in top left pouch
 
+-	Device fuses in upper right pouch
 
-o	Power Cable in bottom right pouch
-
-o	2 CAT6A cables in bottom left pouch
-
-o	1 SFP CBL-NTWK-0456 in bottom left pouch
-
-o	1 x Arista Optic SFP-1G-T in top left pouch
-
-o	Device fuses in top right pouch
-
+   
+   
+</br> 
+</br> 
+</br> 
+</br> 
+</br> 
+</br> 
+</br> 
+</br> 
+</hr> 
+</br> 
+</hr>    
+</br> 
 ________________________________________________________________ 
-Sign/Date of shipper
 
+Sign/Date of Shipper
+
+
+</br> 
+</hr>
+</br> 
 ________________________________________________________________ 
-Sign/Date of customer
+
+Sign/Date of Customer
+
