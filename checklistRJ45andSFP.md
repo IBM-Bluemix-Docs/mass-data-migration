@@ -15,7 +15,7 @@ lastupdated: "2018-09-20"
 ![Mass Data Migration Device Inventory](/images/MDMDeviceInventory.png)
 
 
-![RJ45 Ports](/images/RJ45ports.png)
+![RJ45 Ports](/images/RJ45Ports.png)
 
 
 -	Power Cable in lower right pouch
