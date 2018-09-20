@@ -3,7 +3,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-09-20"
 
 ---
 
@@ -54,7 +54,7 @@ Sign/Date of Customer
 # SFP+ Inventory Checklist
 
 
-![Mass Data Migration Device Inventory](/images/SFPports.png)
+![Mass Data Migration Device Inventory](/images/SFP+ports.png)
 ![Mass Data Migration Device Inventory](/images/MDMDeviceInventory.png)
 
 -	Power Cable in lower right pouch
