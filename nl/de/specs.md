@@ -25,7 +25,7 @@ lastupdated: "2018-06-27"
             <td>
               <p>2 x 10 GBASE-T</p>
               <p>2 x 1 GbE</p>
-              <p>Unterstützt RJ45 und Kupfer-SFP+<br/> (inklusive Konverter von RJ45 auf SFP+)</p>
+              <p>Unterstützt RJ45 und Kupfer-SFP+ <br/> (inklusive Konverter von RJ45 auf SFP+)</p>
             </td>
           </tr>
           <tr>
@@ -53,8 +53,8 @@ lastupdated: "2018-06-27"
           <tr>
             <td><p>Gewicht</p></td>
             <td>
-              <p>Die Einheit wiegt 24,7 kg. <br/>Mit Transport-SoftCase wiegt sie 27 kg. </p>
-              <p>Hinweis: Die Einheit ist mit Rollen und einem Griff ausgestattet, um das Rangieren zu vereinfachen. Auf die Einheit kann zugegriffen werden, während sie sich in dem Transport-SoftCase befindet. </p>
+              <p>Die Einheit wiegt 24,7 kg.<br/>Mit Transport-SoftCase wiegt sie 27 kg.</p>
+              <p>Hinweis: Die Einheit ist mit Rollen und einem Griff ausgestattet, um das Rangieren zu vereinfachen. Auf die Einheit kann zugegriffen werden, während sie sich in dem Transport-SoftCase befindet.</p>
             </td>
           </tr>
           <tr>

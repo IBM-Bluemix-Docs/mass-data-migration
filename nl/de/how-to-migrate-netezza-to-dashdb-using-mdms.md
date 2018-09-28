@@ -11,15 +11,15 @@ lastupdated: "2018-07-02"
 
 # Netezza-Datenbanken auf DashDB migrieren
 
-Mit dem Mass Data Migration Service (MDMS) können umfangreiche Netezza-Datenbanken auf DashDB migriert werden. Sie können dieses Dokument als Referenz für die Tools verwenden, mit denen die Menge der zu übertragenden Daten und die Exportmethoden festgelegt werden. 
+Mit dem Mass Data Migration Service (MDMS) können umfangreiche Netezza-Datenbanken auf DashDB migriert werden. Sie können dieses Dokument als Referenz für die Tools verwenden, mit denen die Menge der zu übertragenden Daten und die Exportmethoden festgelegt werden.
 
 ## Größe des Datenbankobjekts ermitteln
-1. Laden Sie von [IBM Support > Fix Central > Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window} die geeignete Version der Netezza-Tools für Ihre Netezza-Instanz herunter. 
+1. Laden Sie von [IBM Support > Fix Central > Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window} die geeignete Version der Netezza-Tools für Ihre Netezza-Instanz herunter.
 
-   >**HINWEIS** - Unterstützungstools werden auf dem Netezza-Server standardmäßig im Verzeichnis `/nz/support-IBM_Netezza<version>/bin` installiert. 
+   >**HINWEIS** - Unterstützungstools werden auf dem Netezza-Server standardmäßig im Verzeichnis `/nz/support-IBM_Netezza<version>/bin` installiert.
    
-2. Führen Sie die beiden folgenden Befehle aus. 
-   - `nz_db_size`, um die Größe der Datenbank zu bestimmen. 
+2. Führen Sie die beiden folgenden Befehle aus.
+   - `nz_db_size`, um die Größe der Datenbank zu bestimmen.
    
      ```
      nz_db_size
@@ -41,7 +41,7 @@ Mit dem Mass Data Migration Service (MDMS) können umfangreiche Netezza-Datenban
      ```
      {: codeblock}
    
-   - `nz_compressedTableRatio`, um die Größe der dekomprimierten Daten zu schätzen. 
+   - `nz_compressedTableRatio`, um die Größe der dekomprimierten Daten zu schätzen.
    
       ```
       nz_compressedTableRatio
@@ -75,22 +75,22 @@ Summe für diese Datenbank 1,50 183.537.500.160 275.251.242.240 91.713.742.080
 
 ## Daten extrahieren und Onboarding
 
-Sie können zwei Optionen verwenden, um die Daten aus Netezza zu extrahieren. 
-- Verwenden Sie das Dienstprogramm `nz_backup`. 
+Sie können zwei Optionen verwenden, um die Daten aus Netezza zu extrahieren.
+- Verwenden Sie das Dienstprogramm `nz_backup`.
    ```
    /nz/support/contrib/bin/nz_backup –db   {DB-Name} –d  {Zielverzeichnis}  ascii threads 4
    ```
    
-   **HINWEIS** - Das `{Zielverzeichnis}` ist die gemeinsam genutzte NFS-Ressource, die von der MDMS-Einheit bereitgestellt wird und die auf diesem Server angehängt ist. 
+   **HINWEIS** - Das `{Zielverzeichnis}` ist die gemeinsam genutzte NFS-Ressource, die von der MDMS-Einheit bereitgestellt wird und die auf diesem Server angehängt ist.
    
-- Verwenden Sie die Anweisung `CREATE EXTERNAL TABLE`. 
-   - Wählen Sie `FORMAT` = ”Text” aus. 
-   - Stellen Sie dem DashDB-Team die `USING`-Klausel zur Verfügung, die beim `LOAD`-Prozess für den Export für die Wiederverwendung verwendet wurde. 
+- Verwenden Sie die Anweisung `CREATE EXTERNAL TABLE`.
+   - Wählen Sie `FORMAT` = ”Text” aus.
+   - Stellen Sie dem DashDB-Team die `USING`-Klausel zur Verfügung, die beim `LOAD`-Prozess für den Export für die Wiederverwendung verwendet wurde.
    
    
 ## Daten überprüfen
-Die Daten können wieder in Netezza eingelesen werden, um sicherzustellen, dass sie korrekt sind. Verwenden Sie dazu die Anweisung `SELECT FROM` mit der externen Tabelle `myfile` und einer `USING(....)`-Klausel. 
+Die Daten können wieder in Netezza eingelesen werden, um sicherzustellen, dass sie korrekt sind. Verwenden Sie dazu die Anweisung `SELECT FROM` mit der externen Tabelle `myfile` und einer `USING(....)`-Klausel.
  
 **Weitere Informationen**
 
-Weitere Informationen zu Netezza sind in der [Benutzerdokumentation zur IBM Netezza-Datenbank](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window} verfügbar. 
+Weitere Informationen zu Netezza sind in der [Benutzerdokumentation zur IBM Netezza-Datenbank](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window} verfügbar.
