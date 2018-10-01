@@ -29,10 +29,10 @@ Les informations dont vous avez besoin pour soumettre une demande Mass Data Migr
 2. Sélectionnez **Storage** > **Data Migration** > **Mass Data Migration** dans la barre de navigation afin d'accéder à la page d'accueil de Mass Data Migration.
 3. Cliquez sur **Request Device** afin d'ouvrir le formulaire de commande.
 4. Remplissez chaque zone du formulaire de commande **Mass Data Migration**.
-   - **Shipping Address** - ce formulaire n'est pas prérempli et chaque zone est modifiable. Indiquez le nom de la personne qui acceptera la livraison du périphérique dans la zone Attention. Lors de la sélection de l'emplacement de livraison, tenez compte du poids du périphérique (en l'occurrence, 30 kg) et de l'accessibilité. <br/> (**Remarque** : Le périphérique est équipé de roues et de poignées rétractables pour une meilleure maniabilité.)
+   - **Shipping Address** - ce formulaire n'est pas prérempli et chaque zone est modifiable. Indiquez le nom de la personne qui acceptera la livraison du périphérique dans la zone Attention. Lors de la sélection de l'emplacement de livraison, tenez compte du poids du périphérique (en l'occurrence, 30 kg) et de l'accessibilité. <br/> (**Remarque** : le périphérique est équipé de roues et de poignées rétractables pour une meilleure maniabilité.)
    - **Key Migration Contacts** - ce formulaire n'est pas prérempli. Chaque zone est modifiable. Plusieurs personnes peuvent être ajoutées. 
    - **Data Center Network Configuration** - entrez des données de configuration réseau pour la configuration préalable du port Eth3 sur le périphérique Mass Data Migration avant l'expédition.
-   - **Data Offload Destination** - sélectionnez votre compte cible existant dans la liste. 
+   - **Data Offload Destination** - sélectionnez votre compte cible existant dans la liste.
    - **Request Name** - entrez un nom pour faciliter le suivi de votre commande.
 5. Cochez la case **I have read and agree to the full terms of the Mass Data Migration Agreement** après avoir lu chaque contrat de service.
 6. Cliquez sur **Place Request** pour soumettre la demande. Cliquez sur **Cancel** pour abandonner complètement le formulaire et revenir à la page d'accueil de Mass Data Migration.
@@ -40,7 +40,7 @@ Les informations dont vous avez besoin pour soumettre une demande Mass Data Migr
 
 ## Préparation et expédition
 
-Une fois la demande soumise, l'état du ticket de demande s'affiche dans `Processing Request`. Lorsque votre demande est acceptée, {{site.data.keyword.IBM}} commence à préconfigurer le périphérique disponible suivant. 
+Une fois la demande soumise, l'état du ticket de demande s'affiche dans `Processing Request`. Lorsque votre demande est acceptée, {{site.data.keyword.IBM}} commence à préconfigurer le périphérique disponible suivant.
 
 Lorsque le périphérique est en cours de préparation, la page [Requests](https://control.softlayer.com/storage/mdms){:new_window} affiche l'état `Prepping Device` suivi de `Awaiting Shipment`. Une fois que votre demande passe à l'état `Awaiting Shipment`, elle ne peut plus être annulée. 
 
@@ -58,26 +58,26 @@ Lorsque le périphérique est prélevé par le transporteur pour l'acheminement 
 5. Relancez l'exécution de l'inventaire DataShuttle afin de garantir que les éventuels nouveaux fichiers sont capturés.
 
 ## Déplacement des données
-1. Exécutez la copie DataShuttle pou déplacer les données.
+1. Exécutez la copie DataShuttle pour déplacer les données.
 2. Verrouillez le pool de stockage.
 3. Arrêtez le périphérique Mass Data Migration.
-4. Réexpédiez le colis au centre de données {{site.data.keyword.BluSoftlayer_full}} en utilisant l'étiquette d'expédition fournie. 
+4. Réexpédiez le colis au centre de données {{site.data.keyword.BluSoftlayer_full}} en utilisant l'étiquette d'expédition fournie.
 
 Une fois le périphérique retourné à {{site.data.keyword.BluSoftlayer}}, la demande passe à l'état `Device Received`. 
 
 ## Déchargement et accès
 
-Pendant le processus de transfert, la demande indique l'état `Offloading Data`. L'état change de nouveau lorsque la migration vers le compartiment {{site.data.keyword.objectstorageshort}} est terminée (`Offload Complete`). Vos données sont immédiatement accessibles lorsque le déchargement grande vitesse de votre compartiment Cloud Object Storage est terminé.
+Pendant le processus de transfert, la demande présente l'état `Offloading Data`. L'état change de nouveau lorsque la migration vers le compartiment {{site.data.keyword.objectstorageshort}} est terminée (`Offload Complete`). Vos données sont immédiatement accessibles lorsque le déchargement grande vitesse de votre compartiment Cloud Object Storage est terminé.
 
 ## Effacement du périphérique
 
-{{site.data.keyword.IBM}} applique des exigences d'effacement de données de niveau DOD afin d'effacer de manière définitive vos données du périphérique. Une fois l'effacement terminé, votre demande passe à l'état `Erase Complete`. 
+{{site.data.keyword.IBM}} applique des exigences d'effacement de données de niveau DOD afin d'effacer de manière définitive vos données du périphérique. Une fois l'effacement terminé, votre demande passe à l'état `Erase Complete`.
 
 **Remarques**
 
 **Unicité dans le compartiment**
 
-Pour garantir le caractère unique des noms d'objet lorsqu'ils sont copiés dans le compartiment, le chemin d'accès au fichier inclut un préfixe dans le nom d'objet. Par exemple, `/root/user/config.ini` devient `root/user/config.ini` lorsqu'il est copié dans le compartiment; 
+Pour garantir le caractère unique des noms d'objet lorsqu'ils sont copiés dans le compartiment, le chemin d'accès au fichier inclut un préfixe dans le nom d'objet. Par exemple, `/root/user/config.ini` devient `root/user/config.ini` lorsqu'il est copié dans le compartiment;
 
 **Compartiments**
 

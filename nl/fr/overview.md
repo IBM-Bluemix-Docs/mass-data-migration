@@ -11,7 +11,7 @@ lastupdated: "2018-06-27"
 
 Ce service représente une méthode rapide, simple et sécurisée pour le transfert physique de téraoctets ou de pétaoctets de données vers {{site.data.keyword.Bluemix}}.
 
-Mass Data Migration utilise des périphériques de stockage avec une capacité utilisable de 120 To pour accélérer le flux de données vers le cloud et comme solution aux problèmes de transfert en termes de coûts importants, de temps de transfert élevés et d'incidents de sécurité. 
+Mass Data Migration utilise des périphériques de stockage avec une capacité utilisable de 120 To pour accélérer le flux de données vers le cloud et comme solution aux problèmes de transfert en termes de coûts importants, de temps de transfert élevés et d'incidents de sécurité.
 
 ![Flux du processus Mass Data Migration](/images/MDMSWorkflow.png)
 

@@ -2,14 +2,14 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-08-02"
+lastupdated: "2018-09-20"
 
 ---
 {:new_window: target="_blank"}
 
 # 將資料匯入至 IBM Cloud Mass Migration 裝置
 
-{{site.data.keyword.cloud}} Mass Migration 裝置是一個可攜式儲存裝置，提供可裝載的「網路檔案系統 (NFS)」或 FileNet Content Federations Services (CFS) 共用。裝置透過 Web 瀏覽器介面進行管理。此裝置出貨至您的資料中心，負載站上資料，然後運回 {{site.data.keyword.BluSoftlayer_full}} 資料中心，並載入至您的 {{site.data.keyword.cos_full}} 帳戶。
+{{site.data.keyword.cloud}} Mass Migration 裝置是一台可攜式儲存裝置，提供可裝載的「網路檔案系統 (NFS)」或 FileNet Content Federations Services (CFS) 共用。裝置透過 Web 瀏覽器介面進行管理。此裝置出貨至您的資料中心，負載站上資料，然後運回 {{site.data.keyword.BluSoftlayer_full}} 資料中心，並載入至您的 {{site.data.keyword.cos_full}} 帳戶。
 
 
 ### 開啟裝置的電源
@@ -19,9 +19,9 @@ lastupdated: "2018-08-02"
 此裝置接受所有標準電源範圍。
 ![電源範圍](/images/PowerRating.png)
 
-**附註：**若要開啟裝置，您必須透過電源插頭開啟「主要」交換器。
+**附註：**若要開啟裝置，您必須透過電源插頭開啟電源開關。
 
-![「主要」交換器](/images/MDMSPowerOnOff.png)
+![電源開關](/images/MDMSPowerOnOff.png)
 
 然後使用連線鏈結 LED 右側的「開啟/關閉系統」按鈕。
 
@@ -35,6 +35,7 @@ LED 螢幕上顯示「系統 ID」時，即已開啟裝置的電源。
 您需要進行兩個乙太網路連線。其中一個連線用於透過瀏覽器進行裝置管理，另一個連線用於在來源資料所在的相同子網路上進行資料移動。
 {{site.data.keyword.cloud}} 提供兩種「MDMS 裝置」模型。其中一種模型僅支援 RJ45 連線功能。另一種模型支援「銅線 SFP+」及 RJ45。根據 MDMS 裝置的模型，遵循適當的指示。
 
+>**附註**：依預設，會在 10 GbE 埠上啟用巨大訊框。此設定可以在「使用者介面」中以「修改網路埠」選項來變更。
 
 #### 僅限配置 RJ45
 
@@ -62,7 +63,7 @@ LED 螢幕上顯示「系統 ID」時，即已開啟裝置的電源。
 
 在開啟裝置電源後，可以從 LCD 螢幕檢視/管理 IP 設定（請參閱 IP 位址配置小節）。
 
->**附註**：如果可以透過 Web 瀏覽器連接其中一個埠，則不需要配置/使用兩個埠。
+>**附註**：如果可以透過 Web 瀏覽器連接 10 GbE 埠/IP，則不需要配置/使用兩個埠。
 
 
 ## 載入資料
@@ -72,8 +73,8 @@ LED 螢幕上顯示「系統 ID」時，即已開啟裝置的電源。
 2.	確定將裝置放在最合適的地方。裝置需要連接電源及乙太網路連線，並最大限度地減少資料流量。
 
 3.	放置要連接的裝置。不需要從可攜式外殼中取出裝置。在使用過程，裝置可以保留在傳輸外殼中。確定裝置在室溫下沒有凝結。使用提供的電源線在外殼蓋下方連接電源，並開啟裝置電源。<br/>
-    **附註**：記下兩個電源交換器。
-    ![電源交換器](/images/MDMSPowerSwitch.png) 
+    **附註**：記下兩個電源開關。
+    ![電源開關](/images/MDMSPowerSwitch.png) 
 
 4. 將裝置連接至網路。
     - 連接 RJ45 
@@ -94,7 +95,7 @@ LED 螢幕上顯示「系統 ID」時，即已開啟裝置的電源。
 5. 開啟瀏覽器，然後輸入 `HTTPS://Your-Eth1-IPAddress`。針對您的網路配置，將 `Your-Eth1-IPAddress` 取代為 Eth1。接受憑證異常狀況。
 
 6. 使用提供的使用者名稱及密碼來登入。<br/>
-    ![「登入」頁面](/images/Login.png)
+    ![「登入」頁面](/images/login.png)
 
 7. 工作流程精靈會從左至右依序顯示存取通常使用的特定項目。<br/>
     ![工作流程圖示](/images/workflow.png) <br/>
@@ -103,22 +104,22 @@ LED 螢幕上顯示「系統 ID」時，即已開啟裝置的電源。
 8.	啟動預先配置的儲存區。
     - 按一下**解除鎖定並啟動儲存區**。
     - 輸入您的「儲存區通行詞組」，然後按一下**確定**。
-      ![啟動儲存區](/images/UnlockPool.png)
+      ![啟動儲存區](/images/Unlock.png)
 
 9. 依預設，共用同時啟用 NFS 及 SMB 通訊協定，並且沒有存取限制。若要限制存取此共用（對於 NFS 或 SMB），請在共用名稱上按一下滑鼠右鍵，然後選取適當的功能表項目。<br/>
-   ![限制共用存取](/images/ShareControls.png)
+   ![限制共用存取](/images/ShareAccessControl.png)
 
 10. 啟用儲存區時，NFS 共用即可用來進行裝載。在工作流程中，按一下**檢視網路共用**，以查看網路共用視圖。關閉工作流程，在共用上按一下滑鼠右鍵，然後選取裝載指令以查看共用名稱及裝載資訊。在來源伺服器上裝載共用。請務必指定 10 GB 鏈結 IP 位址。
     ![裝載共用](/images/MountCommand.png)
 
 11. 將資料複製到 NFS 共用。在工作流程中，按一下**檢視網路活動**，以在資料透過 10 GB 鏈結傳送到裝置時，顯示入埠乙太網路負載。
-    ![檢視活動](/images/UserGuide13.png)
+    ![檢視活動](/images/SystemNetworkPerf.png)
 
 12. 在工作流程中，按一下**檢視儲存區**，以監視裝置上的儲存空間用量及 IOPS。
-    ![檢視儲存區](/images/UserGuide14.png)
+    ![檢視儲存區](/images/SystemStoragePoolPerf.png)
 
 13.	載入完成時，溫和地關閉系統電源。在工作流程中，按一下**關閉應用裝置...**。
-    ![關閉應用裝置](/images/Shutdown.png)
+    ![關閉應用裝置](/images/SystemShutdown.png)
 
 14.	中斷裝置的連接，並將電源線、乙太網路纜線及 SFP + 配接器放回蓋子下的儲存位置。
 

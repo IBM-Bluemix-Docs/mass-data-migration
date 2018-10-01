@@ -24,10 +24,10 @@ Mass Data Migration 使用 120 TB 可用容量的儲存裝置來將資料移動�
     - 無論您需要移轉幾 TB 還是幾 PB 資料，您都可以彈性地要求一台或多台裝置來容納您的工作負載。
     
 3. 經濟實惠
-    - 移動大型資料集可能很昂貴且耗時。每個 Mass Data Migration 裝置都以經濟實惠的價格提供，包括往返出貨及在現場使用 10 天。 
+    - 移動大型資料集可能很昂貴且耗時。每台 Mass Data Migration 裝置都以經濟實惠的價格提供，包括往返出貨及在現場使用 10 天。 
     
 4. 簡單的過程
-    - {{site.data.keyword.IBM}} 傳送給您一個預先配置的裝置，可讓您連接、汲取資料，然後送回 {{site.data.keyword.IBM}}，以卸載至 {{site.data.keyword.cos_full}}。卸載完成時，在 {{site.data.keyword.BluSoftlayer}} 安全地抹除裝置的同時，立即存取雲端中的資料。
+    - {{site.data.keyword.IBM}} 會寄給您一台預先配置的裝置，可讓您連接、汲取資料，然後送回 {{site.data.keyword.IBM}}，以卸載至 {{site.data.keyword.cos_full}}。卸載完成時，在 {{site.data.keyword.BluSoftlayer}} 安全地抹除裝置的同時，立即存取雲端中的資料。
     
 5. 端對端的保護
     - 裝置設計使用 AES 256 位元加密、RAID-6 配置及堅固的防竄改、防水、防震外殼，從內到外最大限度地提高安全性，以提升裝置處理和傳輸期間的資料保護及完整性。

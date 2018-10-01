@@ -40,17 +40,17 @@ lastupdated: "2018-06-27"
 
 ## 準備及出貨
 
-在您提交要求之後，要求問題單的狀態會呈現為`正在處理要求`。接受要求時，{{site.data.keyword.IBM}} 會開始預先配置下一個可用的裝置。
+在您提交要求之後，要求問題單的狀態會呈現為`正在處理要求`。接受要求時，{{site.data.keyword.IBM}} 會開始預先配置下一台可用的裝置。
 
 正在準備裝置時，[要求](https://control.softlayer.com/storage/mdms){:new_window}頁面上的狀態會顯示`正在準備裝置`，後面接著顯示`正在等待出貨`。「要求」進入`正在等待出貨` 狀態之後，就無法被取消。 
 
-當裝置由快遞接收並運送到您的地點時，「要求」狀態就會更新為`裝置已出貨`。即會在[要求](https://control.softlayer.com/storage/mdms){:new_window}頁面的**訂單詳細資料**區段中與您分享追蹤號碼。
+當裝置由快遞接收並運送到您的地點時，「要求」狀態就會更新為`裝置已出貨`。會在[要求](https://control.softlayer.com/storage/mdms){:new_window}頁面的**訂單詳細資料**區段中與您分享追蹤號碼。
 
 
 ## 接收及連接
 
 1. 會為您預先配置裝置。包括基本的[電源/連線指示](user-instructions.html)。<br/>
-  **附註**：個別提供使用者名稱及儲存區密碼。檢查[要求](https://control.softlayer.com/storage/mdms){:new_window}中的**要求詳細資料**，以取得認證資訊。
+  **附註**：使用者名稱及儲存區密碼會分開提供。檢查[要求](https://control.softlayer.com/storage/mdms){:new_window}中的**要求詳細資料**，以取得認證資訊。
 2. 將瀏覽器指向您在訂單表單中提供的靜態 IP 位址。
 3. 登入，並輸入密碼以解除鎖定空的儲存區。<br/>
    **附註**：請參閱[要求](https://control.softlayer.com/storage/mdms){:new_window}頁面中的「要求詳細資料」，以取得密碼資訊。
@@ -77,7 +77,7 @@ lastupdated: "2018-06-27"
 
 **維護儲存區中的唯一性**
 
-若要在物件複製到儲存區時確保其名稱是唯一的，請在物件名稱字首中包括檔案路徑。例如，複製到儲存區時，`/root/user/config.ini` 會變成 `root/user/config.ini`。
+為了確保物件複製到儲存區時，名稱是唯一的，會在物件名稱字首中包含檔案路徑。例如，複製到儲存區時，`/root/user/config.ini` 會變成 `root/user/config.ini`。
 
 **儲存區**
 

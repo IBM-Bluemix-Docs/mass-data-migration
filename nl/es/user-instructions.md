@@ -2,14 +2,14 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-08-02"
+lastupdated: "2018-09-20"
 
 ---
 {:new_window: target="_blank"}
 
 # Importación de datos al dispositivo de migración masiva de IBM Cloud
 
-El dispositivo de migración de datos masiva de {{site.data.keyword.cloud}} es un dispositivo de almacenamiento portátil que puede presentar recursos compartidos montables del sistema de archivos de red (NFS) o CFS (Content Federations Services) de FileNet. El dispositivo se gestionar mediante una interfaz de navegador web. El dispositivo se envía al centro de datos, cargado con datos en el sitio y se devuelve a un centro de datos de {{site.data.keyword.BluSoftlayer_full}} y se carga en la cuenta de {{site.data.keyword.cos_full}}.
+El dispositivo de migración de datos masiva de {{site.data.keyword.cloud}} es un dispositivo de almacenamiento portátil que puede presentar recursos compartidos montables del sistema de archivos de red (NFS) o CFS (Content Federations Services) de FileNet. El dispositivo se gestiona mediante una interfaz de navegador web. El dispositivo se envía al centro de datos, cargado con datos en el sitio y se devuelve a un centro de datos de {{site.data.keyword.BluSoftlayer_full}} y se carga en la cuenta de {{site.data.keyword.cos_full}}.
 
 
 ### Alimentación del dispositivo
@@ -18,9 +18,9 @@ El dispositivo se suministra con un cable de alimentación C13-US [https://en.wi
 
 El dispositivo acepta todos los rangos de alimentación estándar. ![Rango de alimentación](/images/PowerRating.png)
 
-**Nota:** para encender el dispositivo, debe encender el interruptor Mains mediante el conector.
+**Nota:** para encender el dispositivo, debe encender el interruptor de alimentación situado al lado del enchufe.
 
-![Interruptor Mains](/images/MDMSPowerOnOff.png)
+![Interruptor de alimentación](/images/MDMSPowerOnOff.png)
 
 Utilice el botón de encendido y apagado del sistema que hay a la derecha de los LED de enlace de conexión.
 
@@ -34,6 +34,7 @@ El dispositivo está encendido cuando se muestra el ID del sistema en la pantall
 Debe establecer dos conexiones ethernet. Una conexión para la gestión de dispositivos mediante un navegador y la otra para el traslado de datos en la misma subred en la que residen los datos de origen.
 {{site.data.keyword.cloud}} ofrece dos modelos de dispositivo MDMS. Un modelo solo da soporte a la conectividad RJ45. El otro modelo da soporte a cobre SFP+ y a RJ45. En función del modelo de dispositivo MDMS, siga las instrucciones correspondientes.
 
+>**Nota**: de forma predeterminada, las tramas Jumbo están habilitadas en los puertos 10 GbE. Esta configuración puede cambiarse mediante la opción Modify Network Port de la IU.
 
 #### Configuración solo de RJ45
 
@@ -61,7 +62,7 @@ La conexión de transferencia de datos debe estar en la misma subred que los dat
 
 Los valores de IP se pueden ver y gestionar desde la pantalla LCD después de que el dispositivo se encienda (véase la sección de configuración de direcciones IP).
 
->*Nota** - NO es necesario configurar ni utilizar ambos puertos si se puede acceder a uno de ellos a través de un navegador web.
+>**Nota**: NO es necesario configurar ni utilizar ambos puertos si se puede acceder al puerto/IP 10 GbE mediante un navegador web.
 
 
 ## Carga de los datos
@@ -92,7 +93,7 @@ Los valores de IP se pueden ver y gestionar desde la pantalla LCD después de qu
 5. Abra el navegador y escriba `HTTPS://Su-dirección-Eth1`. Sustituya `Su-dirección-Eth1` por el valor de Eth1 correspondiente a su configuración de red. Acepte la excepción de certificado.
 
 6. Utilice el nombre de usuario y la contraseña proporcionados para iniciar la sesión.<br/>
-    ![Página de inicio de sesión](/images/Login.png)
+    ![Página de inicio de sesión](/images/login.png)
 
 7. El asistente de flujo presenta el acceso a los temas específicos utilizados habitualmente ordenados de izquierda a derecha.<br/>
     ![Iconos de flujo de trabajos](/images/workflow.png) <br/>
@@ -100,21 +101,21 @@ Los valores de IP se pueden ver y gestionar desde la pantalla LCD después de qu
 
 8.	Active la agrupación de almacenamiento preconfigurado.
     - Pulse **Desbloquear e iniciar agrupación de almacenamiento**.
-    - Escriba la contraseña de la agrupación de almacenamiento y pulse **Aceptar**.      ![Activar agrupación de almacenamiento](/images/UnlockPool.png)
+    - Escriba la contraseña de la agrupación de almacenamiento y pulse **Aceptar**.      ![Activar agrupación de almacenamiento](/images/Unlock.png)
 
 9. De forma predeterminada, el recurso compartido tiene habilitados los protocolos NFS y SMB sin restricciones de acceso. Para restringir el acceso a este recurso compartido (para NFS o SMB), pulse con el botón derecho del ratón el nombre del recurso compartido y seleccione el elemento de menú correspondiente.<br/>
-   ![Restringir el acceso al recurso compartido](/images/ShareControls.png)
+   ![Restringir el acceso al recurso compartido](/images/ShareAccessControl.png)
 
 10. Cuando la agrupación de almacenamiento esté habilitada, el recurso compartido NFS está disponible para montar. En el flujo de trabajo, pulse **Ver recursos compartidos de red** para ver la vista de recursos compartidos de red. Cierre el flujo de trabajo, pulse con el botón derecho del ratón el recurso compartido y seleccione el mandato de montaje para ver el nombre del recurso compartido y la información de montaje. Monte el recurso compartido en el servidor de origen. Asegúrese de especificar la dirección IP del enlace de 10 GB.
 ![Montaje del recurso compartido](/images/MountCommand.png)
 
 11. Copie los datos en el recurso compartido NFS. En el flujo de trabajo, pulse **Ver actividad de red** para mostrar la carga de entrada de Ethernet a medida que se transfieren datos al dispositivo en el enlace de 10 GB.
-    ![Ver actividad](/images/UserGuide13.png)
+    ![Ver actividad](/images/SystemNetworkPerf.png)
 
 12. En el flujo de trabajo, pulse **Ver agrupación de almacenamiento** para supervisar el uso de almacenamiento en el dispositivo.
-    ![Ver agrupación de almacenamiento](/images/UserGuide14.png)
+    ![Ver agrupación de almacenamiento](/images/SystemStoragePoolPerf.png)
 
-13.	Cuando la carga se complete, apague correctamente el sistema. En el flujo de trabajo, pulse **Cerrar dispositivo...**.![Cierre del dispositivo](/images/Shutdown.png)
+13.	Cuando la carga se complete, apague correctamente el sistema. En el flujo de trabajo, pulse **Cerrar dispositivo...**.![Cierre del dispositivo](/images/SystemShutdown.png)
 
 14.	Desconecte el dispositivo, devuelva el cable de alimentación, el cable Ethernet y el adaptador de SFP+ en sus respectivas ubicaciones de almacenamiento debajo de la tapa.
 

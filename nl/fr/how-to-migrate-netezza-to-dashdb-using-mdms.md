@@ -11,10 +11,10 @@ lastupdated: "2018-07-02"
 
 # Migration des bases de données Netezza vers DashDB
 
-Le service Mass Data Migration Service (MDMS) peut être utilisé pour migrer de grandes bases de données Netezza vers DashDB. Vous pouvez utiliser ce document comme référence pour les outils qui permettent de déterminer la quantité de données à transférer et les méthodes d'exportation. 
+Le service Mass Data Migration Service (MDMS) peut être utilisé pour migrer de grandes bases de données Netezza vers DashDB. Vous pouvez utiliser ce document comme référence pour les outils qui permettent de déterminer la quantité de données à transférer et les méthodes d'exportation.
 
 ## Détermination de la taille d'objet de base de données
-1. Depuis [IBM Support > Fix Central > Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window}, téléchargez la version appropriée des outils Netezza qui correspond à votre instance Netezza. 
+1. Depuis [IBM Support > Fix Central > Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window}, téléchargez la version appropriée des outils Netezza qui correspond à votre instance Netezza.
 
    >**REMARQUE** - Les outils de support sont installés par défaut sur le serveur Netezza dans le répertoire `/nz/support-IBM_Netezza<version>/bin`
    
@@ -75,14 +75,14 @@ Total For This Database 1.50 183,537,500,160 275,251,242,240 91,713,742,080
 ## Extraction des données et intégration
 
 Vous pouvez utiliser deux options pour extraire les données de Netezza.
-- Utilisez l'utilitaire `nz_backup`. 
+- Utilisez l'utilitaire `nz_backup`.
    ```
    /nz/support/contrib/bin/nz_backup –db   {db_name} –d  {target_directory}  ascii threads 4
    ```
    
-   **REMARQUE** : `{target_directory}` est le partage NFS fourni par le périphérique MDMS et monté sur ce serveur. 
+   **REMARQUE** : `{target_directory}` est le partage NFS fourni par le périphérique MDMS et monté sur ce serveur.
    
-- Utilisez l'instruction `CREATE EXTERNAL TABLE`. 
+- Utilisez l'instruction `CREATE EXTERNAL TABLE`.
    - Sélectionnez `FORMAT` = ”Text”
    - Fournissez à l'équipe DashDB la clause `USING` utilisée pour l'exportation à des fins de réutilisation pendant le processus `LOAD`
    
