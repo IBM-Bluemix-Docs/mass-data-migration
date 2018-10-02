@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-08-02"
+lastupdated: "2018-09-20"
 
 ---
 {:new_window: target="_blank"}
@@ -35,6 +35,7 @@ Il dispositivo viene acceso quando l'ID di sistema viene visualizzato nello sche
 Devi effettuare due connessioni ethernet. Una connessione è per la gestione dei dispositivi tramite un browser e l'altra per lo spostamento dei dati sulla stessa sottorete in cui sono ubicati i dati di origine.
 {{site.data.keyword.cloud}} fornisce due modelli del dispositivo MDMS. Un modello supporta solo la connettività RJ45. L'altro modello supporta Copper SFP + e RJ45. A seconda del modello del dispositivo MDMS, segui le istruzioni appropriate.
 
+>**Nota**: per impostazione predefinita, i frame Jumbo sono abilitati su porte 10 GbE. Questa impostazione può essere modificata utilizzando l'opzione Modify Network Port nell'IU.
 
 #### Configurazione solo di RJ45
 
@@ -42,7 +43,7 @@ Devi effettuare due connessioni ethernet. Una connessione è per la gestione dei
 
 Vengono forniti le porte generate dal dispositivo come RJ45 che i cavi CAT6A. Sono forniti adattatori SFP+ per la conversione da RJ45. Gli adattatori funzionano con tutti i produttori di interruttori. Questi adattatori si trovano in una tasca sul lato inferiore del coperchio del contenitore di spedizione.
 
-- Eth1 (1 GbE-B) viene normalmente utilizzato per la gestione dei dispositivi e, come tale, deve avere un gateway specificato nella configurazione dell'indirizzo IP.  Questo può essere visualizzato tramite lo schermo LCD dopo l'accensione del dispositivo (vedi la sezione Configurazione dell'indirizzo IP). Questa porta viene utilizzata per rendere disponibile l'IU basata sul web al di fuori della sottorete dei dati.
+- Eth1 (1 GbE-B) viene normalmente utilizzato per la gestione dei dispositivi e, come tale, deve avere un gateway specificato nella configurazione dell'indirizzo IP. Questo può essere visualizzato tramite lo schermo LCD dopo l'accensione del dispositivo (vedi la sezione Configurazione dell'indirizzo IP). Questa porta viene utilizzata per rendere disponibile l'IU basata sul web al di fuori della sottorete dei dati.
 
 - Eth3 (10 GbE-B) viene utilizzato per il trasferimento dei dati e può anche essere utilizzato per la gestione del dispositivo. Questa connessione deve essere sulla stessa sottorete dei dati di origine o, se necessario, può essere connesso direttamente al server.
 
@@ -60,9 +61,9 @@ Le porte hanno origine dal dispositivo come Copper SFP + e RJ45. Vengono forniti
 
 La connessione di trasferimento dati deve essere sulla stessa sottorete dei dati di origine o essere connessa direttamente al server.
 
-Le impostazioni IP possono essere visualizzate/gestite dallo schermo LCD dopo l'accensione del dispositivo (vedi la sezione Configurazione dell'indirizzo IP). 
+Le impostazioni IP possono essere visualizzate/gestite dallo schermo LCD dopo l'accensione del dispositivo (vedi la sezione Configurazione dell'indirizzo IP).
 
->*Nota** - NON è necessario configurare/utilizzare entrambe le porte se una può essere raggiunta tramite un browser web.
+>**Nota**: NON è necessario configurare/utilizzare entrambe le porte se l'IP/porta 10 GbE una può essere raggiunto tramite un browser web.
 
 
 ## Caricamento dei dati
@@ -94,35 +95,35 @@ Le impostazioni IP possono essere visualizzate/gestite dallo schermo LCD dopo l'
 5. Apri il tuo browser e immetti `HTTPS://Your-Eth1-IPAddress`. Sostituisci `Your-Eth1-IPAddress` con l'Eth1 per la tua configurazione di rete. Accetta l'eccezione del certificato.
 
 6. Utilizza il nome utente e la password forniti per accedere.<br/>
-    ![Pagina di accesso](/images/Login.png)
+    ![Pagina di accesso](/images/login.png)
 
-7. La procedura guidata del flusso di lavoro presenta l'accesso agli specifici elementi generalmente utilizzati nell'ordine da sinistra a destra.  <br/>
+7. La procedura guidata del flusso di lavoro presenta l'accesso agli specifici elementi generalmente utilizzati nell'ordine da sinistra a destra.<br/>
     ![Icone del flusso di lavoro](/images/workflow.png) <br/>
     >**NOTA** - Il flusso di lavoro può essere riaperto utilizzando **Workflow Manager** nell'angolo superiore sinistro dell'interfaccia.
 
 8.	Attiva il pool di archiviazione preconfigurato.
     - Fai clic su **Unlock and Start Storage Pool**.
     - Immetti la tua passphrase del pool di archiviazione e fai clic su **OK**.
-    ![Attiva pool di archiviazione](/images/UnlockPool.png)
+    ![Attiva pool di archiviazione](/images/Unlock.png)
 
 9. Per impostazione predefinita, la condivisione ha entrambi i protocolli NFS e SMB abilitati senza limitazioni di accesso. Per limitare l'accesso a questa condivisione (per NFS o SMB), fai clic con il tasto destro del mouse sul nome della condivisione e seleziona la voce di menu appropriata.<br/>
-   ![Limita accesso alla condivisione](/images/ShareControls.png)
+   ![Limita accesso alla condivisione](/images/ShareAccessControl.png)
 
 10. Quando il pool di archiviazione è abilitato, la condivisione NFS è disponibile per il montaggio. Nel flusso di lavoro, fai clic su **View Network Shares** per visualizzare la vista delle condivisioni di rete. Chiudi il flusso di lavoro, fai clic con il tasto destro del mouse sulla condivisione e seleziona il comando di montaggio per vedere il nome della condivisione e le informazioni di montaggio. Monta la condivisione sul tuo server di origine. Assicurati di specificare l'indirizzo IP del link da 10 GB.
     ![Montaggio della condivisione](/images/MountCommand.png)
 
 11. Copia i dati nella condivisione NFS. Nel flusso di lavoro, fai clic su **View Network Activity** per visualizzare il carico Ethernet in entrata mentre i dati vengono trasferiti al dispositivo sul link da 10 GB.
-    ![Visualizza attività](/images/UserGuide13.png)
+    ![Visualizza attività](/images/SystemNetworkPerf.png)
 
 12. Nel flusso di lavoro, fai clic su **View Storage pool** per monitorare l'utilizzo dell'archiviazione e gli IOPS sul dispositivo.
-    ![Visualizza pool di archiviazione](/images/UserGuide14.png)
+    ![Visualizza pool di archiviazione](/images/SystemStoragePoolPerf.png)
 
 13.	Al termine del caricamento, spegni il sistema normalmente. Nel flusso di lavoro, fai clic su **Shutdown Appliance...**.
-    ![Arresto dell'applicazione](/images/Shutdown.png)
+    ![Arresto dell'applicazione](/images/SystemShutdown.png)
 
 14.	Scollega il dispositivo e ricolloca il cavo di alimentazione, il cavo Ethernet e l'adattatore SFP+ nelle ubicazioni di archiviazione sotto il coperchio.
 
-16.	Allega l'etichetta di spedizione fornita, informa lo spedizioniere e restituisci il dispositivo al data center. 
+16.	Allega l'etichetta di spedizione fornita, informa lo spedizioniere e restituisci il dispositivo al data center.
 
 
 ## Configurazione degli indirizzi IP

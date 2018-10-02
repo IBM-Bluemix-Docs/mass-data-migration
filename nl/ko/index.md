@@ -25,7 +25,7 @@ lastupdated: "2018-06-27"
 
 ## 요청 작성
 
-1. 고유 신임 정보를 사용하여 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}에 로그인하십시오.
+1. 고유 인증 정보를 사용하여 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}에 로그인하십시오.
 2. 탐색줄에서 **스토리지** > **데이터 마이그레이션** > **대량 데이터 마이그레이션**을 선택하여 대량 데이터 마이그레이션 시작 페이지에 액세스하십시오.
 3. **디바이스 요청**을 클릭하여 주문 양식을 여십시오.
 4. **대량 데이터 마이그레이션** 주문 양식의 각 필드를 기입하십시오.
@@ -50,7 +50,7 @@ lastupdated: "2018-06-27"
 ## 수신 및 연결
 
 1. 디바이스는 사전 구성된 상태로 도착합니다. 기본 [전원/연결 지시사항](user-instructions.html)이 포함됩니다. <br/>
-  **참고**- 사용자 이름 및 스토리지 풀 비밀번호는 별도로 제공됩니다. 신임 정보에 대해서는 [요청](https://control.softlayer.com/storage/mdms){:new_window}의 **요청 세부사항**을 확인하십시오.
+  **참고**- 사용자 이름 및 스토리지 풀 비밀번호는 별도로 제공됩니다. 인증 정보에 대해서는 [요청](https://control.softlayer.com/storage/mdms){:new_window}의 **요청 세부사항**을 확인하십시오.
 2. 브라우저에서 주문 양식에 제공한 정적 IP 주소로 이동하십시오.
 3. 로그인하고 비밀번호를 입력하여 빈 스토리지 풀을 잠금 해제하십시오. <br/>
    **참고**: 비밀번호에 대해서는 [요청](https://control.softlayer.com/storage/mdms){:new_window} 페이지의 요청 세부사항을 참조하십시오.

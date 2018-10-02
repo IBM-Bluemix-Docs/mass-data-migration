@@ -33,14 +33,14 @@ Queste sono le informazioni di cui hai bisogno per inoltrare una richiesta di Ma
    - **Key Migration Contacts** - Questo modulo non è precompilato. Ogni campo è modificabile. È possibile aggiungere più di una persona. 
    - **Data Center Network Configuration** - Fornisci i dettagli di configurazione di rete per il pre-provisioning della porta Eth3 sul dispositivo Mass Data Migration prima della spedizione.
    - **Data Offload Destination** seleziona il tuo account di destinazione esistente dall'elenco.
-   - **Request Name** - Immetti un nome per aiutarti a tracciare il tuo ordine. 
+   - **Request Name** - Immetti un nome per aiutarti a tracciare il tuo ordine.
 5. Seleziona la casella di spunta **I have read and agree to the full terms of the Mass Data Migration Agreement** dopo aver letto ciascun accordo di servizio.
 6. Fai clic su **Place Request** per inviare la richiesta. Fai clic su **Cancel** per abbandonare completamente il modulo e tornare alla pagina di destinazione di Mass Data Migration.
 
 
 ## Preparazione e spedizione
 
-Dopo aver inviato la richiesta, lo stato per il ticket di richiesta viene visualizzato come `Processing Request`.  Quando la tua richiesta viene accettata, {{site.data.keyword.IBM}} inizia la pre-configurazione del successivo dispositivo disponibile.
+Dopo aver inviato la richiesta, lo stato per il ticket di richiesta viene visualizzato come `Processing Request`. Quando la tua richiesta viene accettata, {{site.data.keyword.IBM}} inizia la pre-configurazione del successivo dispositivo disponibile.
 
 Quando il dispositivo è in fase di preparazione, lo stato nella pagina [Requests](https://control.softlayer.com/storage/mdms){:new_window} mostra `Prepping Device` seguito da `Awaiting Shipment`. Dopo che la tua richiesta entra nello stato `Awaiting Shipment`, non può più essere annullata. 
 
@@ -49,7 +49,7 @@ Quando il dispositivo viene prelevato dal corriere per essere inviato alla tua p
 
 ## Ricezione e collegamento
 
-1. Il dispositivo arriva preconfigurato per te. Vengono incluse [istruzioni di alimentazione/connettività](user-instructions.html) di base.<br/>
+1. Il dispositivo arriva preconfigurato per te. Vengono incluse [istruzioni di alimentazione/connettività](user-instructions.html) di base. <br/>
   **Nota** - Il nome utente e la password del pool di archiviazione vengono forniti separatamente. Per le credenziali, consulta i **dettagli della richiesta** in [Requests](https://control.softlayer.com/storage/mdms){:new_window}.
 2. Punta il browser all'indirizzo IP statico che hai fornito nel modulo d'ordine.
 3. Accedi e immetti la password per sbloccare il pool di archiviazione vuoto. <br/>
@@ -65,7 +65,7 @@ Quando il dispositivo viene prelevato dal corriere per essere inviato alla tua p
 
 Quando il dispositivo viene restituito a {{site.data.keyword.BluSoftlayer}}, lo stato della richiesta cambia in `Device Received`. 
 
-## Scaricamento e accesso 
+## Scaricamento e accesso
 
 Durante il processo di trasferimento, lo stato della richiesta viene visualizzato come `Offloading Data`. Lo stato cambia di nuovo quando la migrazione al bucket di {{site.data.keyword.objectstorageshort}} viene completata (`Offload Complete`). I tuoi dati sono immediatamente accessibili una volta completato lo scaricamento ad alta velocità nel tuo bucket di Cloud Object Storage.
 

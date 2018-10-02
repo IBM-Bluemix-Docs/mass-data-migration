@@ -16,9 +16,9 @@ IBM Cloud Storage - 대량 데이터 마이그레이션
     {: .navgroup id="howto"}
     user-instructions.md
     [VM 워크로드 마이그레이션](https://developer.ibm.com/recipes/tutorials/cold-migration-of-vmware-guests-via-mdms/)
-    [COS에서 File Storage 또는 Block Storage로 데이터 이동](https://developer.ibm.com/recipes/tutorials/moving-data-from-cos-to-file-or-block-storage/)
+    [COS에서 File 또는 Block Storage로 데이터 이동](https://developer.ibm.com/recipes/tutorials/moving-data-from-cos-to-file-or-block-storage/)
     how-to-migrate-netezza-to-dashdb-using-mdms.md
-    shipping_checklist.md
+    checklistRJ45andSFP.md
     {: .navgroup-end}
     
     {: .navgroup id="help"}

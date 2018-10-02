@@ -7,7 +7,7 @@ lastupdated: "2018-06-27"
 ---
 
 
-# Specifiche dispositivo 
+# Specifiche dispositivo
 
 <table role="presentation">
         <colgroup>

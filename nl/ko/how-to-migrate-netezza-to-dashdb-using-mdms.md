@@ -41,7 +41,7 @@ lastupdated: "2018-07-02"
      ```
      {: codeblock}
    
-   - 압축을 풀었을 때 데이터 크기를 예상하기 위한 `nz_compressedTableRatio`.
+   - 압축을 풀었을 때의 데이터 크기를 예상하기 위한 `nz_compressedTableRatio`
    
       ```
   nz_compressedTableRatio
