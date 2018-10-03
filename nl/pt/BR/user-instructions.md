@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-08-02"
+lastupdated: "2018-09-20"
 
 ---
 {:new_window: target="_blank"}
@@ -19,7 +19,7 @@ O dispositivo é enviado com um cabo de energia C13-US [https://en.wikipedia.org
 O dispositivo aceita todos os intervalos de alimentação padrão.
 ![Intervalo de alimentação](/images/PowerRating.png)
 
-**Nota:** para ligar o dispositivo, deve-se ligar o comutador Mains pelo plugue de energia.
+**Observação:** para ligar o dispositivo, deve-se ligar o comutador Mains pelo plugue de energia.
 
 ![Mains Switch](/images/MDMSPowerOnOff.png)
 
@@ -35,6 +35,7 @@ O dispositivo é ligado quando o ID do sistema é mostrado na tela de LED.
 Você precisa fazer duas conexões Ethernet. Uma conexão é para gerenciamento de dispositivo por meio de um navegador e a outra conexão é para movimentação de dados na mesma sub-rede na qual os dados de origem estão localizados.
 O {{site.data.keyword.cloud}} fornece dois modelos do Dispositivo MDMS. Um modelo suporta apenas a conectividade RJ45. O outro modelo suporta o SFP+ de cobre e o RJ45. Dependendo do modelo do dispositivo MDMS, siga as instruções que forem apropriadas.
 
+>**Observação**: por padrão, Quadros Gigantes são ativados em portas de 10 GbE. Essa configuração pode ser mudada usando a opção Modificar Porta de Rede, na interface do usuário.
 
 #### Configurando Apenas RJ45
 
@@ -63,7 +64,7 @@ A conexão de transferência de dados deve estar na mesma sub-rede que os dados 
 
 As configurações de IP podem ser visualizadas/gerenciadas na tela LCD depois que o dispositivo estiver ligado (consulte a seção de configuração de endereço IP).
 
->*Nota**- NÃO será necessário configurar/usar ambas as portas se uma puder ser atingida por meio de um navegador da web.
+>**Observação**: NÃO será necessário configurar/usar ambas as portas se for possível alcançar a porta de 10 GbE/IP por meio de um navegador da web.
 
 
 ## Carregando os dados
@@ -95,7 +96,7 @@ As configurações de IP podem ser visualizadas/gerenciadas na tela LCD depois q
 5. Abra o navegador e insira  ` HTTPS: //Your-Eth1-IPAddress `. Substitua `Your-Eth1-IPAddress` pelo Eth1 para sua configuração de rede. Aceite a exceção de certificado.
 
 6. Use o nome do usuário e a senha fornecidos para efetuar login.<br/>
-    ![Página de login](/images/Login.png)
+    ![Página de login](/images/login.png)
 
 7. O assistente de fluxo de trabalho apresenta acesso aos itens específicos que são geralmente usados em ordem da esquerda para a direita.<br/>
     ![Ícones do fluxo de trabalho](/images/workflow.png) <br/>
@@ -104,23 +105,23 @@ As configurações de IP podem ser visualizadas/gerenciadas na tela LCD depois q
 8.	Ative o conjunto de armazenamentos pré-configurado.
     - Clique em **Desbloquear e iniciar o conjunto de armazenamentos**.
     - Insira sua passphrase do conjunto de armazenamentos e clique em **OK**.
-      ![Ativar conjunto de armazenamentos](/images/UnlockPool.png)
+      ![Ativar conjunto de armazenamentos](/images/Unlock.png)
 
 9. Por padrão, o compartilhamento tem os protocolos NFS e SMB que são ativados sem restrições de acesso. Para restringir o acesso a esse compartilhamento (para NFS ou SMB), clique com o botão direito no nome de compartilhamento e selecione o item de menu apropriado.<br/>
-   ![Restringir acesso de compartilhamento](/images/ShareControls.png)
+   ![Restringir acesso de compartilhamento](/images/ShareAccessControl.png)
 
 10. Quando o conjunto de armazenamentos é ativado, o compartilhamento do NFS se torna disponível para montagem. No fluxo de trabalho, clique em **Visualizar compartilhamentos de rede** para
 abrira a visualização de compartilhamentos de rede. Feche o fluxo de trabalho, clique com o botão direito no compartilhamento e selecione o comando de montagem para ver o nome de compartilhamento e as informações de montagem. Monte o compartilhamento em seu servidor de origem. Certifique-se de especificar o endereço IP de link de 10 GB.
     ![Montando o compartilhamento](/images/MountCommand.png)
 
-11. Copie seus dados para o compartilhamento do NFS. No fluxo de trabalho, clique em **Visualizar atividade de rede** para mostrar o carregamento Ethernet de entrada conforme os dados são transferidos para o dispositivo no link de 10 GB.
-    ![Visualizar atividade](/images/UserGuide13.png)
+11. Copie seus dados para o compartilhamento do NFS. No fluxo de trabalho, clique em **Visualizar atividade de rede** para mostrar cargas de entrada Ethernet à medida que os dados são transferidos para o dispositivo no link de 10 GB.
+    ![Visualizar atividade](/images/SystemNetworkPerf.png)
 
 12. No fluxo de trabalho, clique em **Visualizar conjunto de armazenamentos** para monitorar o uso de armazenamento e o IOPS no dispositivo.
-    ![Visualizar conjunto de armazenamentos](/images/UserGuide14.png)
+    ![Visualizar conjunto de armazenamentos](/images/SystemStoragePoolPerf.png)
 
 13.	Quando o carregamento for concluído, desligue normalmente o sistema. No fluxo de trabalho, clique em **Encerrar dispositivo...**.
-    ![Encerrando o dispositivo](/images/Shutdown.png)
+    ![Encerrando o dispositivo](/images/SystemShutdown.png)
 
 14.	Desconecte o dispositivo, retorne o cabo de energia, o cabo Ethernet e o adaptador SFP+ em seus locais de armazenamento sob a tampa.
 

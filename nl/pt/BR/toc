@@ -15,10 +15,9 @@ IBM Cloud Storage - Migração de dados em massa
     
     {: .navgroup id="howto"}
     user-instructions.md
-    [Migrando cargas de trabalho da VM](https://developer.ibm.com/recipes/tutorials/cold-migration-of-vmware-guests-via-mdms/)
-    [Movendo dados do COS para File ou Block Storage](https://developer.ibm.com/recipes/tutorials/moving-data-from-cos-to-file-or-block-storage/)
+    [Migrando cargas de trabalho de MV](https://developer.ibm.com/recipes/tutorials/cold-migration-of-vmware-guests-via-mdms/) [Movendo dados do COS para File ou Block Storage](https://developer.ibm.com/recipes/tutorials/moving-data-from-cos-to-file-or-block-storage/)
     how-to-migrate-netezza-to-dashdb-using-mdms.md
-    shipping_checklist.md
+    checklistRJ45andSFP.md
     {: .navgroup-end}
     
     {: .navgroup id="help"}
