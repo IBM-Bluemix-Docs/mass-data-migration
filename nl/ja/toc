@@ -16,9 +16,9 @@ IBM Cloud Storage - 大量データ・マイグレーション
     {: .navgroup id="howto"}
     user-instructions.md
     [VM ワークロードのマイグレーション](https://developer.ibm.com/recipes/tutorials/cold-migration-of-vmware-guests-via-mdms/)
-    [Moving data from COS to File or Block Storage](https://developer.ibm.com/recipes/tutorials/moving-data-from-cos-to-file-or-block-storage/)
+    [COS からファイル・ストレージまたはブロック・ストレージへのデータの移行 (Moving data from COS to File or Block Storage)](https://developer.ibm.com/recipes/tutorials/moving-data-from-cos-to-file-or-block-storage/)
     how-to-migrate-netezza-to-dashdb-using-mdms.md
-    shipping_checklist.md
+    checklistRJ45andSFP.md
     {: .navgroup-end}
     
     {: .navgroup id="help"}

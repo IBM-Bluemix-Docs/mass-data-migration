@@ -11,7 +11,7 @@ lastupdated: "2018-07-02"
 
 # Netezza データベースを DashDB にマイグレーションする方法
 
-大量データ・マイグレーション・サービス (MDMS) を使用して、大容量の Netezza データベースを DashDB にマイグレーションできます。本資料は、転送するデータの量と、エクスポート方法を決定するツールのリファレンスとして使用できます。
+大量データ・マイグレーション・サービス (MDMS) を使用して、大容量の Netezza データベースを DashDB にマイグレーションできます。 本資料は、転送するデータの量と、エクスポート方法を決定するツールのリファレンスとして使用できます。
 
 ## データベース・オブジェクトのサイズの決定
 1. [IBM Support > Fix Central > Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window} から、ご使用の Netezza インスタンスに対応するバージョンの Netezza ツールをダウンロードしてください。
