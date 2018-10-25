@@ -2,12 +2,14 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-10-25"
 
 ---
 {:codeblock: .codeblock}
 {:new_window: target="_blank"}
-
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
 # Migrating Netezza databases to DashDB
 
@@ -16,7 +18,8 @@ The Mass Data Migration Service (MDMS) can be used to migrate large Netezza data
 ## Determining Database object size
 1. From [IBM Support > Fix Central > Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window}, download the appropriate Netezza Tools version that corresponds to your Netezza instance.
 
-   >**NOTE** - By default, support tools are installed on Netezza server at directory `/nz/support-IBM_Netezza<version>/bin`
+   By default, support tools are installed on Netezza server at directory `/nz/support-IBM_Netezza<version>/bin`
+   {:note}
    
 2. Run the following two commands.
    - `nz_db_size` to determine the size of the database
@@ -80,7 +83,8 @@ You can use two options to extract the data from Netezza.
    /nz/support/contrib/bin/nz_backup –db   {db_name} –d  {target_directory}  ascii threads 4
    ```
    
-   **NOTE** - The `{target_directory}` is the NFS share that is provided by the MDMS device, and mounted to this server.
+   The `{target_directory}` is the NFS share that is provided by the MDMS device, and mounted to this server.
+   {:tip}
    
 - Use the `CREATE EXTERNAL TABLE` statement.
    - Select `FORMAT` = ”Text”
