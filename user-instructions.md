@@ -23,7 +23,7 @@ The device accepts all standard power ranges.
 ![Power range](/images/PowerRating.png)
 
 To turn on the device, complete the following steps. 
-1. Turn on the Mains Switch by the power plug.
+1. Turn on the Mains Switch by the power plug. <br/>
    ![Mains Switch](/images/MDMSPowerOnOff.png)
 
 2. Use the System On/Off button to the right of the connection link LEDs.
