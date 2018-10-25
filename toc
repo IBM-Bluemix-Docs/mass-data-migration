@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="mass-data-migration" audience="services" href="/docs/infrastructure/mass-data-migration/index.html"}
+{: .toc subcollection="mass-data-migration" audience="services" href="/docs/infrastructure/mass-data-migration/index.html" path="infrastructure/mass-data-migration"}
 IBM Cloud Storage - Mass Data Migration
 
     {: .navgroup id="learn"}
