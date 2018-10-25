@@ -2,10 +2,13 @@
 
 copyright:
   years: 2017-2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-10-25"
 
 ---
 {:new_window: target="_blank"}
+{:tip: .tip} 
+{:note: .note} 
+{:important: .important}
 
 # Getting Started with {{site.data.keyword.cloud_notm}} Mass Data Migration
 
@@ -29,7 +32,10 @@ These are the pieces of information you need to submit a Mass Data Migration req
 2. Select **Storage** > **Data Migration** > **Mass Data Migration** from the Navigation Bar to access the Mass Data Migration landing page.
 3. Click **Request Device** to open the order form.
 4. Complete each field in the **Mass Data Migration** order form.
-   - **Shipping Address** - this form is not prefilled and each field is editable. Provide the name of the person who is going to accept the device delivery in the Attention field. When you pick the delivery location, consider the weight of the device (66 lbs with its case) and accessibility. <br/> (**Note**: The device is equipped with wheels and pop-up handle for maneuvering.)
+   - **Shipping Address** - this form is not prefilled and each field is editable. Provide the name of the person who is going to accept the device delivery in the Attention field. When you pick the delivery location, consider the weight of the device (66 lbs with its case) and accessibility. <br/>
+   The device is equipped with wheels and pop-up handle for maneuvering.
+   {:note}
+   
    - **Key Migration Contacts** - This form isn't prefilled. Each field is editable. More than one person can be added. 
    - **Data Center Network Configuration** - Provide network configuration details for the pre-provisioning of the Eth3 port on the Mass Data Migration device before shipment.
    - **Data Offload Destination** Select your existing target account from the list.
