@@ -2,12 +2,12 @@
 
 copyright:
   years: 2017-2018
-lastupdated: "2018-10-25"
+lastupdated: "2018-10-31"
 
 ---
 {:new_window: target="_blank"}
-{:tip: .tip} 
-{:note: .note} 
+{:tip: .tip}
+{:note: .note}
 {:important: .important}
 
 # Getting Started with {{site.data.keyword.cloud_notm}} Mass Data Migration
@@ -21,7 +21,7 @@ These are the pieces of information you need to submit a Mass Data Migration req
    - Netmask for enabling the data transfer
 2. Network settings for remote computer
    - Static IP address
-   - Netmask 
+   - Netmask
    - Default Gateway to access the User Interface
 3. Cloud Object Storage download destination <br/>
    **Important**: You must have at least one {{site.data.keyword.cos_full}} account, and one bucket in a US Standard Cross Region or the EU Cross Region to complete the request form. If you don't have an {{site.data.keyword.cos_full_notm}}} account yet, create one before you request the Mass Data Migration device. Refer to [About {{site.data.keyword.cos_full}}](https://console.bluemix.net/docs/services/cloud-object-storage/about-cos.html){:new_window}.
@@ -35,8 +35,8 @@ These are the pieces of information you need to submit a Mass Data Migration req
    - **Shipping Address** - this form is not prefilled and each field is editable. Provide the name of the person who is going to accept the device delivery in the Attention field. When you pick the delivery location, consider the weight of the device (66 lbs with its case) and accessibility. <br/>
    The device is equipped with wheels and pop-up handle for maneuvering.
    {:note}
-   
-   - **Key Migration Contacts** - This form isn't prefilled. Each field is editable. More than one person can be added. 
+
+   - **Key Migration Contacts** - This form isn't prefilled. Each field is editable. More than one person can be added.
    - **Data Center Network Configuration** - Provide network configuration details for the pre-provisioning of the Eth3 port on the Mass Data Migration device before shipment.
    - **Data Offload Destination** Select your existing target account from the list.
    - **Request Name** - Enter a name to help you track your order.
@@ -48,7 +48,7 @@ These are the pieces of information you need to submit a Mass Data Migration req
 
 After you submitted the request, the status for the request ticket appears as `Processing Request`. When your Request is accepted, {{site.data.keyword.IBM}} begins pre-configuring the next available device.
 
-When the device is being prepared, the status on the [Requests](https://control.softlayer.com/storage/mdms){:new_window} page shows `Prepping Device` followed by `Awaiting Shipment`. After your Request enters `Awaiting Shipment` status, it can no longer be canceled. 
+When the device is being prepared, the status on the [Requests](https://control.softlayer.com/storage/mdms){:new_window} page shows `Prepping Device` followed by `Awaiting Shipment`. After your Request enters `Awaiting Shipment` status, it can no longer be canceled.
 
 When the device is picked up by the carrier to be sent to your location, the Request status is updated to `Device Shipped`. The tracking number is shared with you in the **Order Details** section of the [Requests](https://control.softlayer.com/storage/mdms){:new_window} page.
 
@@ -69,7 +69,7 @@ When the device is picked up by the carrier to be sent to your location, the Req
 3. Gracefully shut down the Mass Data Migration device.
 4. Send the box back to {{site.data.keyword.BluSoftlayer_full}} Data Center by using the shipping label that was provided.
 
-When the device is returned to {{site.data.keyword.BluSoftlayer}} the request status changes to `Device Received`. 
+When the device is returned to {{site.data.keyword.BluSoftlayer}} the request status changes to `Device Received`.
 
 ## Offloading and Access
 

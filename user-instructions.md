@@ -2,12 +2,12 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-10-25"
+lastupdated: "2018-10-31"
 
 ---
 {:new_window: target="_blank"}
-{:tip: .tip} 
-{:note: .note} 
+{:tip: .tip}
+{:note: .note}
 {:important: .important}
 
 # Importing Data to the IBM Cloud Mass Migration Device
@@ -22,7 +22,7 @@ The device is sent with a C13-US power cord [https://en.wikipedia.org/wiki/IEC_6
 The device accepts all standard power ranges.
 ![Power range](/images/PowerRating.png)
 
-To turn on the device, complete the following steps. 
+To turn on the device, complete the following steps.
 1. Turn on the Mains Switch by the power plug. <br/>
    ![Mains Switch](/images/MDMSPowerOnOff.png)
 
@@ -60,7 +60,7 @@ Ports originate from the device as Copper SFP+ and RJ45. Both CAT6A and Copper S
 
 - Eth5 10 GbE (5) is typically used for data transfer but can also be used for device management. This port runs only at 10 GbE.
 
-- Eth2 10 GbE (2) is typically used for device management but can also be used for data transfer. This port can run at either 1 GbE or 10 GbE speed. 
+- Eth2 10 GbE (2) is typically used for device management but can also be used for data transfer. This port can run at either 1 GbE or 10 GbE speed.
 
 
 The data transfer connection must either be on the same subnet as the source data, or be directly connected to the server.
@@ -79,22 +79,22 @@ It is NOT required to configure/use both ports if the 10 GbE port/IP be reached 
 
 3.	Position the device to be connected. The device does not need to be removed from the portable case. It can remain in the transport case during use. Ensure that the device is at room temperature, and there's no condensation on it. Connect power by using the provided power cable underneath the case lid and power on the device.<br/>
     **Note** - Take note of the two power switches.
-    ![Power switches](/images/MDMSPowerSwitch.png) 
+    ![Power switches](/images/MDMSPowerSwitch.png)
 
 4. Connect the device to the network.
-    - Connecting RJ45 
+    - Connecting RJ45
   	  1. Remove the CAT6A cable from the case lid and connect it to the Eth3 (10 GbE-B) port shown in the picture.
       ![Ports of the MDMS device](/images/MDMSNewEth1and3.png)
-      
+
       2. Connect the provided CAT6A to SFP+ adapter and connect to your 10 Gb switch.
       3. If the IP address that is configured for Eth3 can be reached in the browser through `HTTPS://'Your-Eth3-IPAddress'`, continue to the next step. Otherwise, connect the Eth1 (1 GbE-B) port.<br/>
          >**Note** - if you need to alter any IP settings for Eth3 or Eth1, see the Configuring IP addresses section.
     - Connecting Copper SFP+
-      1. Remove the Copper SFP+ cable from the case lid and connect it to Eth5 10 GbE (5) 
+      1. Remove the Copper SFP+ cable from the case lid and connect it to Eth5 10 GbE (5)
          ![Ports of the MDMS device](/images/sfp-ports-sized-ports-labeled.png)
       2. Connect the Copper SFP+ cable to your 10 Gb switch.
       3. If the IP address configured for Eth5 can be reached via browser `HTTPS://'Your-Eth5-IPAddress'`, continue to the next step, otherwise connect Eth2 (10/1 GbE-B) port.
-      
+
          If you need to alter any IP settings for Eth5 or Eth2, see the [Configuring IP addresses](#configuring-ip-addresses) section.
          {:tip}
 
@@ -106,7 +106,7 @@ It is NOT required to configure/use both ports if the 10 GbE port/IP be reached 
 
 7. The workflow wizard presents access to the specific items that are generally used in order from left to right.<br/>
     ![Workflow icons](/images/workflow.png)
-    
+
     The workflow can be reopened by using **Workflow Manager** in the upper left of the interface.
     {:tip}
 
@@ -139,7 +139,7 @@ It is NOT required to configure/use both ports if the 10 GbE port/IP be reached 
 
 The LCD screen on the device can be used to configure the IP addresses for the Ethernet ports. You move the cursor around in the LCD panel by using the **Up**, **Down**, **Back/ESC**, and **Forward/ENTER** buttons. **Enter** takes you into a menu and **Exit** takes you out.
 
-When you edit an IP address or subnet mask, **Enter** steps you forward one character at a time; **Exit** steps you back one character at a time. 
+When you edit an IP address or subnet mask, **Enter** steps you forward one character at a time; **Exit** steps you back one character at a time.
 
 **Up** and **Down** toggles through the numbers for the elected location.
 
