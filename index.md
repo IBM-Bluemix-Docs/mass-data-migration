@@ -59,7 +59,9 @@ When the device is picked up by the carrier to be sent to your location, the Req
 ## Receiving and Connecting
 
 1. The device arrives pre-configured for you. Basic [powering/connectivity instruction](user-instructions.html) is included. <br/>
-  **Note** - User name and storage pool password are provided separately. Check the **Request Details** in your [Requests](https://control.softlayer.com/storage/mdms){:new_window} for the credentials.
+  
+   User name and storage pool password are provided separately. Check the **Request Details** in your [Requests](https://control.softlayer.com/storage/mdms){:new_window} for the credentials.
+   {:note}
 2. Point browser to the static IP address you provided in the order form.
 3. Log in, enter the password to unlock the empty storage pool. <br/>
    
