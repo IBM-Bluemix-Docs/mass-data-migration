@@ -24,7 +24,9 @@ These are the pieces of information you need to submit a Mass Data Migration req
    - Netmask
    - Default Gateway to access the User Interface
 3. Cloud Object Storage download destination <br/>
-   **Important**: You must have at least one {{site.data.keyword.cos_full}} account, and one bucket in a US Standard Cross Region or the EU Cross Region to complete the request form. If you don't have an {{site.data.keyword.cos_full_notm}}} account yet, create one before you request the Mass Data Migration device. Refer to [About {{site.data.keyword.cos_full}}](https://console.bluemix.net/docs/services/cloud-object-storage/about-cos.html){:new_window}.
+   
+   You must have at least one {{site.data.keyword.cos_full}} account, and one bucket in a US Standard Cross Region or the EU Cross Region to complete the request form. If you don't have an {{site.data.keyword.cos_full_notm}}} account yet, create one before you request the Mass Data Migration device. Refer to [About {{site.data.keyword.cos_full}}](https://console.bluemix.net/docs/services/cloud-object-storage/about-cos.html){:new_window}.
+   {:important}
 
 ## Creating a request
 
@@ -32,7 +34,8 @@ These are the pieces of information you need to submit a Mass Data Migration req
 2. Select **Storage** > **Data Migration** > **Mass Data Migration** from the Navigation Bar to access the Mass Data Migration landing page.
 3. Click **Request Device** to open the order form.
 4. Complete each field in the **Mass Data Migration** order form.
-   - **Shipping Address** - this form is not prefilled and each field is editable. Provide the name of the person who is going to accept the device delivery in the Attention field. When you pick the delivery location, consider the weight of the device (66 lbs with its case) and accessibility. <br/>
+   - **Shipping Address** - this form is not prefilled and each field is editable. Provide the name of the person who is going to accept the device delivery in the Attention field. When you pick the delivery location, consider the weight of the device (66 lbs with its case) and accessibility.
+   
    The device is equipped with wheels and pop-up handle for maneuvering.
    {:note}
 
