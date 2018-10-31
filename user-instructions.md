@@ -78,7 +78,9 @@ It is NOT required to configure/use both ports if the 10 GbE port/IP be reached 
 2.	Determine the most appropriate place for the device to be placed. It needs to reach both power and your ethernet connections, and minimize foot traffic.
 
 3.	Position the device to be connected. The device does not need to be removed from the portable case. It can remain in the transport case during use. Ensure that the device is at room temperature, and there's no condensation on it. Connect power by using the provided power cable underneath the case lid and power on the device.<br/>
-    **Note** - Take note of the two power switches.
+    
+    Take note of the two power switches.
+    {:note}
     ![Power switches](/images/MDMSPowerSwitch.png)
 
 4. Connect the device to the network.
@@ -88,7 +90,9 @@ It is NOT required to configure/use both ports if the 10 GbE port/IP be reached 
 
       2. Connect the provided CAT6A to SFP+ adapter and connect to your 10 Gb switch.
       3. If the IP address that is configured for Eth3 can be reached in the browser through `HTTPS://'Your-Eth3-IPAddress'`, continue to the next step. Otherwise, connect the Eth1 (1 GbE-B) port.<br/>
-         >**Note** - if you need to alter any IP settings for Eth3 or Eth1, see the Configuring IP addresses section.
+         
+         If you need to alter any IP settings for Eth3 or Eth1, see the [Configuring IP addresses](#configuring-ip-addresses) section.
+         {:tip}
     - Connecting Copper SFP+
       1. Remove the Copper SFP+ cable from the case lid and connect it to Eth5 10 GbE (5)
          ![Ports of the MDMS device](/images/sfp-ports-sized-ports-labeled.png)
@@ -97,7 +101,6 @@ It is NOT required to configure/use both ports if the 10 GbE port/IP be reached 
 
          If you need to alter any IP settings for Eth5 or Eth2, see the [Configuring IP addresses](#configuring-ip-addresses) section.
          {:tip}
-
 
 5. Open your browser, and enter `HTTPS://Your-Eth1-IPAddress`. Replace `Your-Eth1-IPAddress` with the Eth1 for your network configuration. Accept the certificate exception.
 
