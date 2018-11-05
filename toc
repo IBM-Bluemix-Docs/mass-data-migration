@@ -22,5 +22,5 @@ IBM Cloud Storage - Mass Data Migration
     {: .navgroup-end}
     
     {: .navgroup id="help"}
-    mass-data-migration-faqs.md
+    faqs.md
     {: .navgroup-end}
