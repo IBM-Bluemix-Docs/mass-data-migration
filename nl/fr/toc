@@ -6,13 +6,13 @@ IBM Cloud Storage - Mass Data Migration
 
     {: .navgroup id="learn"}
     index.md
-    
+
     {: .topicgroup}
     A propos
         overview.md
         specs.md
     {: .navgroup-end}
-    
+
     {: .navgroup id="howto"}
     user-instructions.md
     [Migrating VM Workloads](https://developer.ibm.com/recipes/tutorials/cold-migration-of-vmware-guests-via-mdms/)
@@ -20,7 +20,7 @@ IBM Cloud Storage - Mass Data Migration
     how-to-migrate-netezza-to-dashdb-using-mdms.md
     checklistRJ45andSFP.md
     {: .navgroup-end}
-    
+
     {: .navgroup id="help"}
-    mass-data-migration-faqs.md
+    faqs.md
     {: .navgroup-end}

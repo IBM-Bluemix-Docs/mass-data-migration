@@ -2,10 +2,12 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-10-31"
 
 ---
-
+ {:tip: .tip}
+ {:note: .note}
+ {:important: .important}
 
 # Device Specs
 
@@ -54,7 +56,8 @@ lastupdated: "2018-06-27"
             <td><p>Weight</p></td>
             <td>
               <p>Device is 54.5 lbs.<br/>With Travel SoftCase, it weights 59.5 lbs.</p>
-              <p>Note: Device is equipped with wheels and handle for easy maneuvering. Device is accessible while it's in the Travel SoftCase.</p>
+              Device is equipped with wheels and handle for easy maneuvering. Device is accessible while it's in the Travel SoftCase.
+              {:note}
             </td>
           </tr>
           <tr>
