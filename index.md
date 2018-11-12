@@ -85,17 +85,3 @@ During the transfer process, the request status displays as `Offloading Data`. T
 ## Erasing the Device
 
 {{site.data.keyword.IBM}} implements DOD-Level data wipe requirements to permanently erase your data from the device. When finished, your Request status displays `Erase Complete`.
-
-**Notes**
-
-**Maintaining Uniqueness in the Bucket**
-
-To ensure that object names are unique when they are copied into the bucket, the file path is included a prefix in the object name. For example, `/root/user/config.ini` becomes `root/user/config.ini` when copied into the bucket.
-
-**Buckets**
-
-If the target bucket doesn't exist, it is created. If it does exist, it must be empty, otherwise the copy can't proceed.  
-
-**File system**
-
-Symlinks and Hard links are skipped during the scan process.
