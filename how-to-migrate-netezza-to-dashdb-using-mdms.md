@@ -2,12 +2,14 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-10-31"
 
 ---
 {:codeblock: .codeblock}
 {:new_window: target="_blank"}
-
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
 # Migrating Netezza databases to DashDB
 
@@ -16,11 +18,12 @@ The Mass Data Migration Service (MDMS) can be used to migrate large Netezza data
 ## Determining Database object size
 1. From [IBM Support > Fix Central > Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window}, download the appropriate Netezza Tools version that corresponds to your Netezza instance.
 
-   >**NOTE** - By default, support tools are installed on Netezza server at directory `/nz/support-IBM_Netezza<version>/bin`
-   
+   By default, support tools are installed on Netezza server at directory `/nz/support-IBM_Netezza<version>/bin`
+   {:note}
+
 2. Run the following two commands.
    - `nz_db_size` to determine the size of the database
-   
+
      ```
      nz_db_size
      Object | Name | Bytes | KB | MB | GB | TB
@@ -40,9 +43,9 @@ The Mass Data Migration Service (MDMS) can be used to migrate large Netezza data
      Table | DH71964T9 | 9,615,179,776 | 9,389,824 | 9,170 | 9.0 | .0
      ```
      {: codeblock}
-   
+
    - `nz_compressedTableRatio` to estimate the size of the data when it is decompressed.
-   
+
       ```
       nz_compressedTableRatio
       ....................................................................................
@@ -79,17 +82,18 @@ You can use two options to extract the data from Netezza.
    ```
    /nz/support/contrib/bin/nz_backup –db   {db_name} –d  {target_directory}  ascii threads 4
    ```
-   
-   **NOTE** - The `{target_directory}` is the NFS share that is provided by the MDMS device, and mounted to this server.
-   
+
+   The `{target_directory}` is the NFS share that is provided by the MDMS device, and mounted to this server.
+   {:tip}
+
 - Use the `CREATE EXTERNAL TABLE` statement.
    - Select `FORMAT` = ”Text”
    - Provide the DashDB team the `USING` clause that was used for export for reuse during the `LOAD` process.
-   
-   
+
+
 ## Validating Data
 The data can be reread back on the Netezza by using the `SELECT FROM` statement with the external table `myfile` and a `USING(....)` clause to ensure that the data is correct.
- 
+
 **Additional information**
 
 More information on Netezza is available at [IBM Netezza database user documentation](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.
