@@ -55,7 +55,7 @@ lastupdated: "2018-10-31"
           <tr>
             <td><p>Weight</p></td>
             <td>
-              <p>Device is 54.5 lbs.<br/>With Travel SoftCase, it weights 59.5 lbs.</p>
+              <p>Device is 54.5 lbs.<br/>With Travel Soft Case, it weights 59.5 lbs.</p>
               Device is equipped with wheels and handle for easy maneuvering. Device is accessible while it's in the Travel Soft Case.
               {:note}
             </td>
