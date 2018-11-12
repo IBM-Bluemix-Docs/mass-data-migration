@@ -38,7 +38,7 @@ You need to make two ethernet connections. One connection is for device manageme
 
 {{site.data.keyword.cloud}} provides two models of the MDMS Device. One model supports RJ45 connectivity only. The other model supports Copper SFP+ and RJ45. Depending on the model of the MDMS device, follow the instructions that are appropriate.
 
-By default, Jumbo Frames are enabled on 10 GbE ports. This setting can be changed by using the Modify Network Port option in the UI.
+By default, Jumbo Frames are enabled on 10-GbE ports. This setting can be changed by using the Modify Network Port option in the UI.
 {:tip}
 
 ### Configuring RJ45 Only
@@ -58,16 +58,16 @@ Ports originate from the device as RJ45, and CAT6A cables are supplied. Copper S
 
 Ports originate from the device as Copper SFP+ and RJ45. Both CAT6A and Copper SFP+ cables are supplied.
 
-- Eth5 10 GbE (5) is typically used for data transfer but can also be used for device management. This port runs only at 10 GbE.
+- Eth5 10 GbE (5) is typically used for data transfer but can also be used for device management. This port runs only at 10-GbE speed.
 
-- Eth2 10 GbE (2) is typically used for device management but can also be used for data transfer. This port can run at either 1 GbE or 10 GbE speed.
+- Eth2 10 GbE (2) is typically used for device management but can also be used for data transfer. This port can run at either 1-GbE or 10-GbE speed.
 
 
 The data transfer connection must either be on the same subnet as the source data, or be directly connected to the server.
 
-IP settings can be viewed/managed from the LCD screen after the device is powered on (see the IP address configuration section).
+IP settings can be viewed and managed from the LCD screen after the device is powered on (see the IP address configuration section).
 
-It is NOT required to configure/use both ports if the 10 GbE port/IP be reached through a web browser.
+It is NOT required to configure and use both ports if the 10-GbE port's IP can be reached through a web browser.
 {:note}
 
 
@@ -88,7 +88,7 @@ It is NOT required to configure/use both ports if the 10 GbE port/IP be reached 
   	  1. Remove the CAT6A cable from the case lid and connect it to the Eth3 (10 GbE-B) port shown in the picture.
       ![Ports of the MDMS device](/images/MDMSNewEth1and3.png)
 
-      2. Connect the provided CAT6A to SFP+ adapter and connect to your 10 Gb switch.
+      2. Connect the provided CAT6A to SFP+ adapter and connect to your 10-Gb switch.
       3. If the IP address that is configured for Eth3 can be reached in the browser through `HTTPS://'Your-Eth3-IPAddress'`, continue to the next step. Otherwise, connect the Eth1 (1 GbE-B) port.<br/>
          
          If you need to alter any IP settings for Eth3 or Eth1, see the [Configuring IP addresses](#configuring-ip-addresses) section.
@@ -96,8 +96,8 @@ It is NOT required to configure/use both ports if the 10 GbE port/IP be reached 
     - Connecting Copper SFP+
       1. Remove the Copper SFP+ cable from the case lid and connect it to Eth5 10 GbE (5)
          ![Ports of the MDMS device](/images/sfp-ports-sized-ports-labeled.png)
-      2. Connect the Copper SFP+ cable to your 10 Gb switch.
-      3. If the IP address configured for Eth5 can be reached via browser `HTTPS://'Your-Eth5-IPAddress'`, continue to the next step, otherwise connect Eth2 (10/1 GbE-B) port.
+      2. Connect the Copper SFP+ cable to your 10-Gb switch.
+      3. If the IP address configured for Eth5 can be reached through the browser `HTTPS://'Your-Eth5-IPAddress'`, continue to the next step, otherwise connect Eth2 (10/1 GbE-B) port.
 
          If you need to alter any IP settings for Eth5 or Eth2, see the [Configuring IP addresses](#configuring-ip-addresses) section.
          {:tip}
@@ -121,10 +121,10 @@ It is NOT required to configure/use both ports if the 10 GbE port/IP be reached 
 9. By default, the share has both NFS and SMB protocols that are enabled with no access restrictions. To restrict access to this share (for NFS or SMB), right-click the share name, and select the appropriate menu item.<br/>
    ![Restrict Share Access](/images/ShareAccessControl.png)
 
-10. When the storage pool is enabled, the NFS share is available to mount. In the workflow, click **View Network Shares** to see the network shares view. Close the workflow, right-click the share, and select mount command to see the share name and mount information. Mount the share on your source server. Be sure to specify the 10 GB link IP address.
+10. When the storage pool is enabled, the NFS share is available to mount. In the workflow, click **View Network Shares** to see the network shares view. Close the workflow, right-click the share, and select mount command to see the share name and mount information. Mount the share on your source server. Be sure to specify the 10-GB link IP address.
     ![Mounting the share](/images/MountCommand.png)
 
-11. Copy your data to the NFS share. In the workflow, click **View Network Activity** to show inbound Ethernet load as data is transferred to the device on the 10 GB link.
+11. Copy your data to the NFS share. In the workflow, click **View Network Activity** to show inbound Ethernet load as data is transferred to the device on the 10-GB link.
     ![View activity](/images/SystemNetworkPerf.png)
 
 12. In the workflow, click **View Storage pool** to monitor storage usage and IOPS on the device.
