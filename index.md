@@ -14,7 +14,7 @@ lastupdated: "2018-10-31"
 
 **Prerequisites**
 
-These are the pieces of information you need to submit a Mass Data Migration request and complete the migration.
+Gather this information before you submit a Mass Data Migration request and complete the migration.
 
 1. Network settings for the Storage Device
    - Static IP address
@@ -58,7 +58,7 @@ When the device is picked up by the carrier to be sent to your location, the Req
 
 ## Receiving and Connecting
 
-1. The device arrives pre-configured for you. Basic [powering/connectivity instruction](user-instructions.html) is included. <br/>
+1. The device arrives pre-configured for you. A basic [powering and connectivity instruction](user-instructions.html) is included. <br/>
   
    User name and storage pool password are provided separately. Check the **Request Details** in your [Requests](https://control.softlayer.com/storage/mdms){:new_window} for the credentials.
    {:note}
@@ -90,12 +90,12 @@ During the transfer process, the request status displays as `Offloading Data`. T
 
 **Maintaining Uniqueness in the Bucket**
 
-To ensure that object names are unique when they are copied into the bucket, the file path is included a prefix in the object name. For example, `/root/user/config.ini` becomes  `root/user/config.ini` when copied into the bucket.
+To ensure that object names are unique when they are copied into the bucket, the file path is included a prefix in the object name. For example, `/root/user/config.ini` becomes `root/user/config.ini` when copied into the bucket.
 
 **Buckets**
 
 If the target bucket doesn't exist, it is created. If it does exist, it must be empty, otherwise the copy can't proceed.  
 
-**File systems**
+**File system**
 
 Symlinks and Hard links are skipped during the scan process.
