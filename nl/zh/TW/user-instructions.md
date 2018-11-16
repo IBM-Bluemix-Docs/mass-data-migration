@@ -2,42 +2,46 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-09-20"
+lastupdated: "2018-10-31"
 
 ---
 {:new_window: target="_blank"}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
 # 將資料匯入至 IBM Cloud Mass Migration 裝置
 
 {{site.data.keyword.cloud}} Mass Migration 裝置是一台可攜式儲存裝置，提供可裝載的「網路檔案系統 (NFS)」或 FileNet Content Federations Services (CFS) 共用。裝置透過 Web 瀏覽器介面進行管理。此裝置出貨至您的資料中心，負載站上資料，然後運回 {{site.data.keyword.BluSoftlayer_full}} 資料中心，並載入至您的 {{site.data.keyword.cos_full}} 帳戶。
 
 
-### 開啟裝置的電源
+## 開啟裝置的電源
 
 此裝置會與 C13-US 電源線 [https://en.wikipedia.org/wiki/IEC_60320](https://en.wikipedia.org/wiki/IEC_60320){:new_window} 一起送出。如果裝置是在美國以外地區使用，則可能需要使用變壓器。
 
 此裝置接受所有標準電源範圍。
 ![電源範圍](/images/PowerRating.png)
 
-**附註：**若要開啟裝置，您必須透過電源插頭開啟電源開關。
+若要開啟裝置，請完成下列步驟。
+1. 透過電源插頭開啟電源開關。<br/>
+   ![電源開關](/images/MDMSPowerOnOff.png)
 
-![電源開關](/images/MDMSPowerOnOff.png)
-
-然後使用連線鏈結 LED 右側的「開啟/關閉系統」按鈕。
-
-![開啟/關閉系統](/images/MDMSSystemOnOff.png)
+2. 使用連線鏈結 LED 右側的「開啟/關閉系統」按鈕。
+   ![系統開啟/關閉](/images/MDMSSystemOnOff.png)
 
 LED 螢幕上顯示「系統 ID」時，即已開啟裝置的電源。
 
 
-### 配置乙太網路連線功能
+## 配置乙太網路連線功能
 
 您需要進行兩個乙太網路連線。其中一個連線用於透過瀏覽器進行裝置管理，另一個連線用於在來源資料所在的相同子網路上進行資料移動。
+
 {{site.data.keyword.cloud}} 提供兩種「MDMS 裝置」模型。其中一種模型僅支援 RJ45 連線功能。另一種模型支援「銅線 SFP+」及 RJ45。根據 MDMS 裝置的模型，遵循適當的指示。
 
->**附註**：依預設，會在 10 GbE 埠上啟用巨大訊框。此設定可以在「使用者介面」中以「修改網路埠」選項來變更。
+依預設，會在 10 GbE 埠上啟用巨大訊框。此設定可以在「使用者介面」中以「修改網路埠」選項來變更。
+{:tip}
 
-#### 僅限配置 RJ45
+### 僅限配置 RJ45
 
 ![RJ45](/images/RJ45PortZoom.png)
 
@@ -48,22 +52,23 @@ LED 螢幕上顯示「系統 ID」時，即已開啟裝置的電源。
 - Eth3 (10 GbE-B) 用於資料傳送，而且也可以用於裝置管理。此連線必須位於與來源資料相同的子網路上，或在必要時直接連接至伺服器。
 
 
-#### 配置銅線 SFP+ 及 RJ45
+### 配置銅線 SFP+ 及 RJ45
 
 ![銅線 SFP+](/images/sfp-ports-sized-port5.png)
 
 埠來自裝置（如「銅線 SFP+」及 RJ45）。同時提供 CAT6A 及「銅線 SFP+」纜線。
 
-- Eth5 10 GbE (5) 一般用於資料傳送，但也可以用於裝置管理。此埠只會依 10 GbE 執行。
+- Eth5 10 GbE (5) 一般用於資料傳送，但也可以用於裝置管理。此埠只會依 10 GbE 速度執行。
 
-- Eth2 10 GbE (2) 一般用於裝置管理，但也可以用於資料傳送。此埠可以依 1 GbE 或 10 GbE 速度執行。 
+- Eth2 10 GbE (2) 一般用於裝置管理，但也可以用於資料傳送。此埠可以依 1 GbE 或 10 GbE 速度執行。
 
 
 資料傳送連線必須位於與來源資料相同的子網路上，或直接連接至伺服器。
 
-在開啟裝置電源後，可以從 LCD 螢幕檢視/管理 IP 設定（請參閱 IP 位址配置小節）。
+在開啟裝置電源後，可以從 LCD 螢幕檢視及管理 IP 設定（請參閱 IP 位址配置小節）。
 
->**附註**：如果可以透過 Web 瀏覽器連接 10 GbE 埠/IP，則不需要配置/使用兩個埠。
+如果可以透過 Web 瀏覽器連接 10 GbE 埠的 IP，則不需要配置和使用兩個埠。
+{:note}
 
 
 ## 載入資料
@@ -73,24 +78,29 @@ LED 螢幕上顯示「系統 ID」時，即已開啟裝置的電源。
 2.	確定將裝置放在最合適的地方。裝置需要連接電源及乙太網路連線，並最大限度地減少資料流量。
 
 3.	放置要連接的裝置。不需要從可攜式外殼中取出裝置。在使用過程，裝置可以保留在傳輸外殼中。確定裝置在室溫下沒有凝結。使用提供的電源線在外殼蓋下方連接電源，並開啟裝置電源。<br/>
-    **附註**：記下兩個電源開關。
-    ![電源開關](/images/MDMSPowerSwitch.png) 
+    
+    記下兩個電源開關。
+    {:note}
+    ![電源開關](/images/MDMSPowerSwitch.png)
 
 4. 將裝置連接至網路。
-    - 連接 RJ45 
+    - 連接 RJ45
   	  1. 將 CAT6A 纜線從外殼蓋取下，並將其連接到圖片中所示的 Eth3 (10 GbE-B) 埠。
       ![MDMS 裝置的埠](/images/MDMSNewEth1and3.png)
-      
+
       2. 將提供的 CAT6A 連接至 SFP+ 配接器，並連接至 10 Gb 交換器。
       3. 如果可以透過 `HTTPS://'Your-Eth3-IPAddress'` 在瀏覽器中連接針對 Eth3 所配置的 IP 位址，請繼續進行下一步。否則，請連接 Eth1 (1 GbE-B) 埠。<br/>
-         >**附註**：如果您需要變更 Eth3 或 Eth1 的任何 IP 設定，請參閱「配置 IP 位址」小節。
+         
+         如果您需要變更 Eth3 或 Eth1 的任何 IP 設定，請參閱[配置 IP 位址](#configuring-ip-addresses)小節。
+         {:tip}
     - 連接銅線 SFP+
       1. 將「銅線 SFP+」纜線從外殼蓋取下，並將其連接到 Eth5 10 GbE (5)
          ![MDMS 裝置的埠](/images/sfp-ports-sized-ports-labeled.png)
       2. 將「銅線 SFP+」纜線連接至 10 Gb 交換器。
-      3. 如果可以透過瀏覽器連接針對 Eth5 所配置的 IP 位址 `HTTPS://'Your-Eth5-IPAddress'`，請繼續進行下一步，否則，請連接 Eth2 (10/1 GbE-B) 埠。<br/>
-         >**附註**：如果您需要變更 Eth5 或 Eth2 的任何 IP 設定，請參閱「配置 IP 位址」小節。
+      3. 如果可以透過瀏覽器連接針對 Eth5 所配置的 IP 位址 `HTTPS://'Your-Eth5-IPAddress'`，請繼續進行下一步，否則，請連接 Eth2 (10/1 GbE-B) 埠。
 
+         如果您需要變更 Eth5 或 Eth2 的任何 IP 設定，請參閱[配置 IP 位址](#configuring-ip-addresses)小節。
+         {:tip}
 
 5. 開啟瀏覽器，然後輸入 `HTTPS://Your-Eth1-IPAddress`。針對您的網路配置，將 `Your-Eth1-IPAddress` 取代為 Eth1。接受憑證異常狀況。
 
@@ -98,8 +108,10 @@ LED 螢幕上顯示「系統 ID」時，即已開啟裝置的電源。
     ![「登入」頁面](/images/login.png)
 
 7. 工作流程精靈會從左至右依序顯示存取通常使用的特定項目。<br/>
-    ![工作流程圖示](/images/workflow.png) <br/>
-    >**附註**：可以使用介面左上角的**工作流程管理程式**，來重新開啟工作流程。
+    ![工作流程圖示](/images/workflow.png)
+
+    可以使用介面左上角的**工作流程管理程式**，來重新開啟工作流程。
+    {:tip}
 
 8.	啟動預先配置的儲存區。
     - 按一下**解除鎖定並啟動儲存區**。
@@ -130,7 +142,7 @@ LED 螢幕上顯示「系統 ID」時，即已開啟裝置的電源。
 
 裝置的 LCD 螢幕可用來配置乙太網路埠的 IP 位址。您可以使用**向上**、**向下**、**後退/ESC**及**前進/ENTER** 按鈕，在 LCD 面板中移動游標。**Enter** 鍵會將您帶入某個功能表，而 **Exit** 鍵則讓您退出。
 
-當您編輯 IP 位址或子網路遮罩時，按 **Enter** 鍵一次前進一個字元；按 **Exit** 鍵一次後退一個字元。 
+當您編輯 IP 位址或子網路遮罩時，按 **Enter** 鍵一次前進一個字元；按 **Exit** 鍵一次後退一個字元。
 
 **向上**及**向下**鍵可切換選定位置的號碼。
 
