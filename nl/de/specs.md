@@ -2,10 +2,12 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-10-31"
 
 ---
-
+ {:tip: .tip}
+ {:note: .note}
+ {:important: .important}
 
 # Einheitenspezifikationen
 
@@ -53,15 +55,16 @@ lastupdated: "2018-06-27"
           <tr>
             <td><p>Gewicht</p></td>
             <td>
-              <p>Die Einheit wiegt 24,7 kg.<br/>Mit Transport-SoftCase wiegt sie 27 kg.</p>
-              <p>Hinweis: Die Einheit ist mit Rollen und einem Griff ausgestattet, um das Rangieren zu vereinfachen. Auf die Einheit kann zugegriffen werden, während sie sich in dem Transport-SoftCase befindet.</p>
+              <p>Die Einheit wiegt 24,7 kg.<br/>Mit Travel Soft Case wiegt sie 27 kg.</p>
+              Die Einheit ist mit Rollen und einem Griff ausgestattet, um die Handhabung zu vereinfachen. Auf die Einheit kann zugegriffen werden, während sie sich im Travel Soft Case befindet.
+              {:note}
             </td>
           </tr>
           <tr>
             <td><p>Abmessungen</p></td>
             <td>
               <p>Einheit - 55,1 x 34,8 x 49,0 cm</p>
-              <p>Mit Transport-SoftCase - 65,0 x 43,9 x 57,9 cm</p>
+              <p>Mit Travel Soft Case - 65,0 x 43,9 x 57,9 cm</p>
             </td>
           </tr>
           <tr>
