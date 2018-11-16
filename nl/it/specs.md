@@ -2,10 +2,12 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-10-31"
 
 ---
-
+ {:tip: .tip}
+ {:note: .note}
+ {:important: .important}
 
 # Specifiche dispositivo
 
@@ -54,7 +56,8 @@ lastupdated: "2018-06-27"
             <td><p>Peso</p></td>
             <td>
               <p>Il dispositivo è 54,5 lb.<br/>Con la custodia morbida da viaggio, pesa 59,5 lb.</p>
-              <p>Nota: il dispositivo è dotato di ruote e dotato di una facile manovrabilità. Il dispositivo è accessibile mentre si trova nella custodia morbida.</p>
+              Il dispositivo è dotato di ruote e dotato di una facile manovrabilità. Il dispositivo è accessibile mentre si trova nella custodia morbida.
+              {:note}
             </td>
           </tr>
           <tr>

@@ -2,12 +2,14 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-10-31"
 
 ---
 {:codeblock: .codeblock}
 {:new_window: target="_blank"}
-
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
 # Migrazione dei database Netezza a DashDB
 
@@ -16,11 +18,12 @@ Il servizio Mass Data Migration Service (MDMS) consente di migrare database Nete
 ## Determinazione della dimensione dell'oggetto del database
 1. Da [IBM Support > Fix Central > Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window}, scarica la versione appropriata degli strumenti Netezza che corrisponde alla tua istanza Netezza.
 
-   >**NOTA** - Per impostazione predefinita, gli strumenti di supporto sono installati sul server Netezza nella directory `/nz/support-IBM_Netezza<version>/bin`
-   
+   Per impostazione predefinita, gli strumenti di supporto sono installati sul server Netezza nella directory `/nz/support-IBM_Netezza<version>/bin`
+   {:note}
+
 2. Immetti i seguenti due comandi.
    - `nz_db_size` per determinare la dimensione del database
-   
+
      ```
      nz_db_size
      Object | Name | Bytes | KB | MB | GB | TB
@@ -40,9 +43,9 @@ Il servizio Mass Data Migration Service (MDMS) consente di migrare database Nete
      Table | DH71964T9 | 9,615,179,776 | 9,389,824 | 9,170 | 9.0 | .0
      ```
      {: codeblock}
-   
+
    - `nz_compressedTableRatio` per stimare la dimensione dei dati dopo la decompressione.
-   
+
       ```
       nz_compressedTableRatio
   ....................................................................................
@@ -79,17 +82,18 @@ Puoi utilizzare due opzioni per estrarre i dati da Netezza.
    ```
    /nz/support/contrib/bin/nz_backup –db   {db_name} –d  {target_directory}  ascii threads 4
    ```
-   
-   **NOTA** - `{target_directory}` è la condivisione NFS fornita dal dispositivo MDMS e montata su questo server.
-   
+
+   `{target_directory}` è la condivisione NFS fornita dal dispositivo MDMS e montata su questo server.
+   {:tip}
+
 - Utilizza l'istruzione `CREATE EXTERNAL TABLE`.
    - Seleziona `FORMAT` = ”Text”
    - Fornisci al team DashDB la clausola `USING` utilizzata per l'esportazione per il riutilizzo durante il processo `LOAD`.
-   
-   
+
+
 ## Convalida dei dati
 I dati possono essere riletti su Netezza usando l'istruzione `SELECT FROM` con la tabella esterna `myfile` e una clausola `USING(....)` per assicurarti che i dati siano corretti.
- 
+
 **Informazioni aggiuntive**
 
 Ulteriori informazioni su Netezza sono disponibili nella [documentazione utente del database IBM Netezza](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.
