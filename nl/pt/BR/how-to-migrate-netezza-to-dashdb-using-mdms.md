@@ -2,12 +2,14 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-10-31"
 
 ---
 {:codeblock: .codeblock}
 {:new_window: target="_blank"}
-
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
 # Migrando bancos de dados do Netezza para o DashDB
 
@@ -16,11 +18,12 @@ O Mass Data Migration Service (MDMS) pode ser usado para migrar grandes bancos d
 ## Determinando o tamanho do objeto do banco
 1. Em [Suporte IBM > Fix Central > Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window}, faça download da versão apropriada do Netezza Tools que corresponde à sua instância do Netezza.
 
-   >**NOTA** - Por padrão, as ferramentas de suporte são instaladas no servidor Netezza no diretório `/nz/support-IBM_Netezza<version>/bin `
-   
+   Por padrão, as ferramentas de suporte são instaladas no servidor Netezza, no diretório `/nz/support-IBM_Netezza<version>/bin`
+   {:note}
+
 2. Execute os dois comandos a seguir.
    - `nz_db_size` para determinar o tamanho do banco de dados
-   
+
      ```
      nz_db_size
      Object | Name | Bytes | KB | MB | GB | TB
@@ -40,9 +43,9 @@ O Mass Data Migration Service (MDMS) pode ser usado para migrar grandes bancos d
      Table | DH71964T9 | 9,615,179,776 | 9,389,824 | 9,170 | 9.0 | .0
      ```
      {: codeblock}
-   
+
    - `nz_compressedTableRatio` para estimar o tamanho dos dados quando eles são descompactados.
-   
+
       ```
       nz_compressedTableRatio
   ....................................................................................
@@ -79,17 +82,18 @@ Total For This Database 1.50 183,537,500,160 275,251,242,240 91,713,742,080
    ```
    /nz/support/contrib/bin/nz_backup –db   {db_name} –d  {target_directory}  ascii threads 4
    ```
-   
-   **NOTA** - O `{target_directory}` é o compartilhamento do NFS que é fornecido pelo dispositivo MDMS e montado nesse servidor.
-   
+
+   O `{target_directory}` é o compartilhamento NFS fornecido pelo dispositivo MDMS e montado nesse servidor.
+   {:tip}
+
 - Use a instrução  ` CREATE EXTERNAL TABLE ` .
    - Selecione  ` FORMAT `  = "Texto"
    - Forneça à equipe do DashDB a cláusula `USING` que foi usada para exportar para reutilização durante o processo `LOAD`.
-   
-   
+
+
 ## Validando Dados
 Os dados podem ser lidos novamente no Netezza usando a instrução `SELECT FROM` com a tabela externa `myfile` e uma cláusula `USING(....)` para assegurar que os dados estejam corretos.
- 
+
 ** Informações adicionais **
 
 Mais informações sobre o Netezza estão disponíveis em [Documentação do usuário do banco de dados do IBM Netezza](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.

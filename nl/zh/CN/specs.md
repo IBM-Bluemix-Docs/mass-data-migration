@@ -2,10 +2,12 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-10-31"
 
 ---
-
+ {:tip: .tip}
+ {:note: .note}
+ {:important: .important}
 
 # 设备规范
 
@@ -54,7 +56,8 @@ lastupdated: "2018-06-27"
             <td><p>重量</p></td>
             <td>
               <p>设备为 54.5 磅。<br/>含运输箱，重量为 59.5 磅。</p>
-              <p>注：设备配备有脚轮和手柄以方便搬运。可对位于运输箱内的设备进行访问。</p>
+              设备配备有脚轮和手柄以方便搬运。设备在运输箱内也可以访问。
+{:note}
             </td>
           </tr>
           <tr>

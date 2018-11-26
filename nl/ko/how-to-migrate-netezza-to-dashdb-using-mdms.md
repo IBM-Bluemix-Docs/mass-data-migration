@@ -2,12 +2,14 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-10-31"
 
 ---
 {:codeblock: .codeblock}
 {:new_window: target="_blank"}
-
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
 # DashDB로 Netezza 데이터베이스 마이그레이션
 
@@ -16,11 +18,12 @@ lastupdated: "2018-07-02"
 ## 데이터베이스 오브젝트 크기 판별
 1. [IBM 지원 센터 > Fix Central > Netezza 도구](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window}에서 Netezza 인스턴스에 대응하는 적절한 Netezza 도구 버전을 다운로드하십시오.
 
-   >**참고** - 기본적으로 지원 도구는 Netezza 서버의 `/nz/support-IBM_Netezza<version>/bin` 디렉토리에 설치됩니다.
-   
+   기본적으로 지원 도구는 Netezza 서버에서 다음 디렉토리에 설치됩니다. `/nz/support-IBM_Netezza<version>/bin`
+   {:note}
+
 2. 다음 두 가지 명령을 실행하십시오.
    - 데이터베이스 크기를 판별하기 위한 `nz_db_size`
-   
+
      ```
      nz_db_size
      Object | Name | Bytes | KB | MB | GB | TB
@@ -40,9 +43,9 @@ lastupdated: "2018-07-02"
      Table | DH71964T9 | 9,615,179,776 | 9,389,824 | 9,170 | 9.0 | .0
      ```
      {: codeblock}
-   
+
    - 압축을 풀었을 때의 데이터 크기를 예상하기 위한 `nz_compressedTableRatio`
-   
+
       ```
   nz_compressedTableRatio
   ....................................................................................
@@ -79,17 +82,18 @@ lastupdated: "2018-07-02"
    ```
   /nz/support/contrib/bin/nz_backup –db   {db_name} –d  {target_directory}  ascii threads 4
    ```
-   
-   **참고** - `{target_directory}`는 이 서버에 마운트된 MDMS 디바이스가 제공하는 NFS 공유입니다.
-   
+
+   `{target_directory}`는 MDMS 디바이스에서 제공하는 NFS 공유이며 이 서버에 마운트됩니다.
+{:tip}
+
 - `CREATE EXTERNAL TABLE` 문을 사용하십시오.
    - `FORMAT` = ”Text”를 선택하십시오.
    - `LOAD` 프로세스 중에 재사용을 위해 내보내는 데 사용된 `USING` 절을 DashDB 팀에 제공하십시오.
-   
-   
+
+
 ## 데이터 유효성 검증
 데이터가 올바른지 확인하기 위해 외부 테이블이 `myfile`인 `SELECT FROM` 문과 `USING(....)` 절을 사용하여 Netezza에서 데이터를 다시 읽을 수 있습니다.
- 
+
 **추가 정보**
 
 Netezza에 대한 자세한 정보는 [IBM Netezza 데이터베이스 사용자 문서](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}에 있습니다.

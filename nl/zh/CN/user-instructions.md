@@ -2,41 +2,46 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-09-20"
+lastupdated: "2018-10-31"
 
 ---
 {:new_window: target="_blank"}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
 # 将数据导入 IBM Cloud Mass Migration 设备
 
 {{site.data.keyword.cloud}} Mass Migration 设备是一种便携式存储设备，能够提供可安装的网络文件系统 (NFS) 或 FileNet Content Federations Services (CFS) 共享。该设备通过 Web 浏览器界面进行管理。该设备会发货到您的数据中心，现场装入数据，然后将其返回给 {{site.data.keyword.BluSoftlayer_full}} 数据中心，接着将其中的数据装入到 {{site.data.keyword.cos_full}} 帐户中。
 
 
-### 打开设备电源
+## 打开设备电源
 
 设备随附 C13-US 电源线 [https://en.wikipedia.org/wiki/IEC_60320](https://en.wikipedia.org/wiki/IEC_60320){:new_window}。如果设备在美国以外使用，可能需要电源适配器。
 
 设备支持所有标准功率范围。
 ![功率范围](/images/PowerRating.png)
 
-**注：**要开启设备，必须打开电源插头旁边的电源开关。
+要打开设备，请完成下列步骤。
+1. 打开电源插头旁边的电源开关。<br/>
+   ![电源开关](/images/MDMSPowerOnOff.png)
 
-![电源开关](/images/MDMSPowerOnOff.png)
-
-使用连接链路 LED 指示灯右侧的“系统开/关”按钮。
-
-![系统开/关](/images/MDMSSystemOnOff.png)
+2. 使用连接链路 LED 指示灯右侧的“系统开/关”按钮。
+   ![系统开/关](/images/MDMSSystemOnOff.png)
 
 LED 屏幕上显示系统标识时，说明已打开设备电源。
 
 
-### 配置以太网连接
+## 配置以太网连接
 
-需要建立两个以太网连接。一个连接用于通过浏览器来管理设备，另一个连接用于在源数据所在的同一子网上移动数据。{{site.data.keyword.cloud}} 提供两个型号的 MDMS 设备。一个型号仅支持 RJ45 连接。另一个型号支持铜缆 SFP+ 和 RJ45。根据 MDMS 设备的型号，遵循相应的指示信息进行操作。
+需要建立两个以太网连接。一个连接用于通过浏览器来管理设备，另一个连接用于在源数据所在的同一子网上移动数据。
 
->**注**：缺省情况下，10 GbE 端口上已启用巨型帧。要更改此设置，可以使用 UI 中的“修改网络端口”选项。
+{{site.data.keyword.cloud}} 提供两个型号的 MDMS 设备。一个型号仅支持 RJ45 连接。另一个型号支持铜缆 SFP+ 和 RJ45。根据 MDMS 设备的型号，遵循相应的指示信息进行操作。
 
-#### 仅配置 RJ45
+缺省情况下，10 GbE 端口上已启用巨型帧。要更改此设置，可以使用 UI 中的“修改网络端口”选项。
+{:tip}
+
+### 仅配置 RJ45
 
 ![RJ45](/images/RJ45PortZoom.png)
 
@@ -47,7 +52,7 @@ LED 屏幕上显示系统标识时，说明已打开设备电源。
 - Eth3 (10 GbE-B) 用于数据传输，还可用于设备管理。此连接必须与源数据位于同一子网上，或者可根据需要直接连接到服务器。
 
 
-#### 配置铜缆 SFP+ 和 RJ45
+### 配置铜缆 SFP+ 和 RJ45
 
 ![铜缆 SFP+](/images/sfp-ports-sized-port5.png)
 
@@ -55,14 +60,15 @@ LED 屏幕上显示系统标识时，说明已打开设备电源。
 
 - Eth5 10 GbE (5) 通常用于数据传输，但是也可用于设备管理。此端口仅以 10 GbE 速度运行。
 
-- Eth2 10 GbE (2) 通常用于设备管理，但是也可用于数据传输。此端口可以 1 GbE 或 10 GbE 速度运行。 
+- Eth2 10 GbE (2) 通常用于设备管理，但是也可用于数据传输。此端口可以 1 GbE 或 10 GbE 速度运行。
 
 
 数据传输连接必须与源数据位于同一子网上，或者必须直接连接到服务器。
 
-打开设备电源后，可以通过 LCD 屏幕查看/管理 IP 设置（请参阅“配置 IP 地址”部分）。
+打开设备电源后，可以通过 LCD 屏幕查看和管理 IP 设置（请参阅“IP 地址配置”部分）。
 
->**注**：如果可通过 Web 浏览器访问 10 GbE 端口/IP，那么无需配置/使用这两个端口。
+如果可通过 Web 浏览器访问 10 GbE 端口的 IP，那么无需配置和使用这两个端口。
+{:note}
 
 
 ## 装入数据
@@ -72,24 +78,29 @@ LED 屏幕上显示系统标识时，说明已打开设备电源。
 2.	确定放置设备的最合适位置。要求此位置可以连接电源和以太网，并且人流量最少。
 
 3.	确定要连接的设备的位置。设备无需从便携式机箱中取出。设备在使用过程中，可保留在运输箱中。确保设备处于室温环境，并且设备上没有冷凝水。使用箱盖内侧提供的电源线来连接电源，然后打开设备电源。<br/>
-    **注** - 请注意，有两个电源开关。
-    ![电源开关](/images/MDMSPowerSwitch.png) 
+    
+    请记下有两个电源开关。
+    {:note}
+    ![电源开关](/images/MDMSPowerSwitch.png)
 
 4. 将设备连接到网络。
-    - 连接 RJ45 
+    - 连接 RJ45
   	  1. 从箱盖中取出 CAT6A 电缆，并将其连接到 Eth3 (10 GbE-B) 端口，如图中所示。
       ![MDMS 设备的端口](/images/MDMSNewEth1and3.png)
-      
-      2. 将提供的 CAT6A 连接到 SFP+ 适配器，然后再连接到 10 Gb 交换机。
+
+      2. 将提供的 CAT6A 连接到 SFP+ 适配器，然后再连接到 10 GB 交换机。
       3. 如果可在浏览器中通过 `HTTPS://'Your-Eth3-IPAddress'` 访问为 Eth3 配置的 IP 地址，请继续执行下一步。否则，请连接 Eth1 (1 GbE-B) 端口。<br/>
-         >**注** - 如果需要更改 Eth3 或 Eth1 的任何 IP 设置，请参阅“配置 IP 地址”部分。
+         
+         如果需要更改 Eth3 或 Eth1 的任何 IP 设置，请参阅[配置 IP 地址](#configuring-ip-addresses)部分。
+{:tip}
     - 连接铜缆 SFP+
       1. 从箱盖中取出 SFP+ 铜缆，并将其连接到 Eth5 10 GbE (5)
          ![MDMS 设备的端口](/images/sfp-ports-sized-ports-labeled.png)
-      2. 将 SFP+ 铜缆连接到 10 Gb 交换机。
-      3. 如果可通过浏览器 `HTTPS://'Your-Eth5-IPAddress'` 访问为 Eth5 配置的 IP 地址，请继续执行下一步，否则请连接 Eth2 (10/1 GbE-B) 端口。<br/>
-         >**注** - 如果需要更改 Eth5 或 Eth2 的任何 IP 设置，请参阅“配置 IP 地址”部分。
+      2. 将 SFP+ 铜缆连接到 10 GB 交换机。
+      3. 如果可通过浏览器 `HTTPS://'Your-Eth5-IPAddress'` 访问为 Eth5 配置的 IP 地址，请继续执行下一步，否则请连接 Eth2 (10/1 GbE-B) 端口。
 
+         如果需要更改 Eth5 或 Eth2 的任何 IP 设置，请参阅[配置 IP 地址](#configuring-ip-addresses)部分。
+{:tip}
 
 5. 打开浏览器并输入 `HTTPS://Your-Eth1-IPAddress`。将 `Your-Eth1-IPAddress` 替换为网络配置的 Eth1。接受证书例外。
 
@@ -97,8 +108,8 @@ LED 屏幕上显示系统标识时，说明已打开设备电源。
     ![“登录”页面](/images/login.png)
 
 7. 工作流程向导从左到右依次显示可访问的常用特定项。<br/>
-    ![“工作流程”图标](/images/workflow.png) <br/>
-    >**注** - 可以使用界面左上方的**工作流程管理器**重新打开工作流程。
+    ![“工作流程”图标](/images/workflow.png)     可以使用界面左上方的**工作流程管理器**重新打开工作流程。
+{:tip}
 
 8.	激活预配置的存储池。
     - 单击**解锁并启动存储池**。
@@ -129,7 +140,7 @@ LED 屏幕上显示系统标识时，说明已打开设备电源。
 
 设备上的 LCD 屏幕可用于配置以太网端口的 IP 地址。在 LCD 面板中，使用**向上键**、**向下键**、**后退/ESC 键**和**前进/ENTER 键**移动光标。按 **Enter** 键可进入菜单，按**退出**键将退出。
 
-编辑 IP 地址或子网掩码时，按 **Enter** 键可一次前进一个字符；按**退出**键可一次后退一个字符。 
+编辑 IP 地址或子网掩码时，按 **Enter** 键可一次前进一个字符；按**退出**键可一次后退一个字符。
 
 **向上键**和**向下键**可切换浏览所选位置的相应数字。
 

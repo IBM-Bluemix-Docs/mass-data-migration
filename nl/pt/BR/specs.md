@@ -2,10 +2,12 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-10-31"
 
 ---
-
+ {:tip: .tip}
+ {:note: .note}
+ {:important: .important}
 
 # Especificações do Dispositivo
 
@@ -53,15 +55,16 @@ lastupdated: "2018-06-27"
           <tr>
             <td><p>Peso</p></td>
             <td>
-              <p>O dispositivo é 54.5 lbs.<br/>Com capa de viagem, ele pesa 59,5 lbs.</p>
-              <p>Nota: o dispositivo é equipado com rodas e alça para fácil manobra. O dispositivo é acessível enquanto está na capa de viagem.</p>
+              <p>O dispositivo é 54.5 lbs.<br/>Com o estojo de viagem pesa 59,5 lb.</p>
+              O dispositivo está equipado com rodas e alça para fácil manuseio. O dispositivo permanece acessível enquanto se encontra no estojo de viagem.
+              {:note}
             </td>
           </tr>
           <tr>
             <td><p>Dimensões</p></td>
             <td>
               <p>Dispositivo - 21,7” x 13,7” x 19,3”</p>
-              <p>Com capa de viagem - 25,6” x 17,3” x 22,8”</p>
+              <p>Com o estojo de viagem - 25,6” x 17,3” x 22,8”</p>
             </td>
           </tr>
           <tr>

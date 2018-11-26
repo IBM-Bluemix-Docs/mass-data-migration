@@ -2,10 +2,12 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-10-31"
 
 ---
-
+ {:tip: .tip}
+ {:note: .note}
+ {:important: .important}
 
 # Especificaciones del dispositivo
 
@@ -54,7 +56,8 @@ lastupdated: "2018-06-27"
             <td><p>Peso</p></td>
             <td>
               <p>El dispositivo pesa 24,7 kilos (54,5 libras)<br/>Con el maletín de transporte, pesa 27 kilos (59,5 libras)</p>
-              <p>Nota: el dispositivo está equipado con ruedas y un asa para poder moverlo fácilmente. Se puede acceder al dispositivo cuando está en el maletín de transporte.</p>
+              El dispositivo está equipado con ruedas y un asa para poder moverlo fácilmente. Se puede acceder al dispositivo cuando está en el maletín de transporte.
+              {:note}
             </td>
           </tr>
           <tr>

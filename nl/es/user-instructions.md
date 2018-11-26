@@ -2,41 +2,45 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-09-20"
+lastupdated: "2018-10-31"
 
 ---
 {:new_window: target="_blank"}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
 # Importación de datos al dispositivo de migración masiva de IBM Cloud
 
 El dispositivo de migración de datos masiva de {{site.data.keyword.cloud}} es un dispositivo de almacenamiento portátil que puede presentar recursos compartidos montables del sistema de archivos de red (NFS) o CFS (Content Federations Services) de FileNet. El dispositivo se gestiona mediante una interfaz de navegador web. El dispositivo se envía al centro de datos, cargado con datos en el sitio y se devuelve a un centro de datos de {{site.data.keyword.BluSoftlayer_full}} y se carga en la cuenta de {{site.data.keyword.cos_full}}.
 
 
-### Alimentación del dispositivo
+## Alimentación del dispositivo
 
 El dispositivo se suministra con un cable de alimentación C13-US [https://en.wikipedia.org/wiki/IEC_60320](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. Si se utiliza el dispositivo fuera de Estados Unidos, es posible que sea necesario un adaptador de alimentación.
 
 El dispositivo acepta todos los rangos de alimentación estándar. ![Rango de alimentación](/images/PowerRating.png)
 
-**Nota:** para encender el dispositivo, debe encender el interruptor de alimentación situado al lado del enchufe.
+Para encender el dispositivo, complete los pasos siguientes.
+1. Encienda el interruptor de alimentación situado al lado del enchufe. <br/>
+   ![Interruptor de alimentación](/images/MDMSPowerOnOff.png)
 
-![Interruptor de alimentación](/images/MDMSPowerOnOff.png)
-
-Utilice el botón de encendido y apagado del sistema que hay a la derecha de los LED de enlace de conexión.
-
-![Apagado y encendido del sistema](/images/MDMSSystemOnOff.png)
+2. Utilice el botón de encendido y apagado del sistema que hay a la derecha de los LED de enlace de conexión.
+   ![System On/Off](/images/MDMSSystemOnOff.png)
 
 El dispositivo está encendido cuando se muestra el ID del sistema en la pantalla de LED.
 
 
-### Configuración de la conectividad Ethernet
+## Configuración de la conectividad Ethernet
 
 Debe establecer dos conexiones ethernet. Una conexión para la gestión de dispositivos mediante un navegador y la otra para el traslado de datos en la misma subred en la que residen los datos de origen.
+
 {{site.data.keyword.cloud}} ofrece dos modelos de dispositivo MDMS. Un modelo solo da soporte a la conectividad RJ45. El otro modelo da soporte a cobre SFP+ y a RJ45. En función del modelo de dispositivo MDMS, siga las instrucciones correspondientes.
 
->**Nota**: de forma predeterminada, las tramas Jumbo están habilitadas en los puertos 10 GbE. Esta configuración puede cambiarse mediante la opción Modify Network Port de la IU.
+De forma predeterminada, las tramas Jumbo están habilitadas en los puertos 10-GbE. Esta configuración puede cambiarse mediante la opción Modify Network Port de la IU.
+{:tip}
 
-#### Configuración solo de RJ45
+### Configuración solo de RJ45
 
 ![RJ45](/images/RJ45PortZoom.png)
 
@@ -47,22 +51,23 @@ Los puertos se originan en el mismo dispositivo que los cables RJ45, y se sumini
 - Eth3 (10 GbE-B) se utiliza para la transferencia de datos y también se puede utilizar para la gestión del dispositivo. Esta conexión debe estar en la misma subred que los datos de origen o conectarse directamente al servidor si es necesario.
 
 
-#### Configuración de cobre SFP+ y de RJ45
+### Configuración de cobre SFP+ y de RJ45
 
 ![Cobre SFP+](/images/sfp-ports-sized-port5.png)
 
 Los puertos se originan en el mismo dispositivo que cobre SFP+ y RJ45. Se suministra tanto el cable CAT6A como el cable cobre SFP+.
 
-- Eth5 10 GbE (5) se suele utilizar para la transferencia de datos, pero también se puede utilizar para la gestión del dispositivo. Este puerto solo se ejecuta a 10 GbE.
+- Eth5 10 GbE (5) se suele utilizar para la transferencia de datos, pero también se puede utilizar para la gestión del dispositivo. Este puerto solo funciona a velocidad de 10 GbE.
 
-- Eth2 10 GbE (2) se suele utilizar para la gestión del dispositivo, pero también se puede utilizar para la transferencia de datos. Este puerto se puede ejecutar a una velocidad de 1 GbE o de 10 GbE. 
+- Eth2 10 GbE (2) se suele utilizar para la gestión del dispositivo, pero también se puede utilizar para la transferencia de datos. Este puerto puede funcionar a una velocidad de 1 GbE o de 10 GbE.
 
 
 La conexión de transferencia de datos debe estar en la misma subred que los datos de origen o conectarse directamente al servidor.
 
 Los valores de IP se pueden ver y gestionar desde la pantalla LCD después de que el dispositivo se encienda (véase la sección de configuración de direcciones IP).
 
->**Nota**: NO es necesario configurar ni utilizar ambos puertos si se puede acceder al puerto/IP 10 GbE mediante un navegador web.
+NO es necesario configurar ni utilizar ambos puertos si se puede acceder a la dirección IP del puerto de 10 GbE mediante un navegador web.
+{:note}
 
 
 ## Carga de los datos
@@ -72,23 +77,29 @@ Los valores de IP se pueden ver y gestionar desde la pantalla LCD después de qu
 2.	Determine el lugar más adecuado para colocar el dispositivo. Debe estar al alcance del cable de alimentación y del cable de ethernet y en un lugar poco transitado.
 
 3.	Coloque el dispositivo para conectarlo. No es necesario que el dispositivo se extraiga del compartimento portátil. Puede permanecer en el maletín de transporte mientras se utiliza. Asegúrese de que el dispositivo esté a temperatura ambiente y de que no haya condensación en el mismo. Conecte el dispositivo a la corriente mediante el cable de alimentación proporcionado debajo de la tapa del compartimento y enciéndalo.<br/>
-    **Nota**: observe que hay dos interruptores de alimentación. ![Interruptores de alimentación](/images/MDMSPowerSwitch.png) 
+    
+    Observe que hay dos interruptores de alimentación.
+    {:note}
+    ![Interruptores de alimentación](/images/MDMSPowerSwitch.png)
 
 4. Conecte el dispositivo a la red.
-    - Conexión de RJ45 
+    - Conexión de RJ45
   	  1. Extraiga el cable CAT6A de la tapa del compartimento y conéctelo al puerto Eth3 (10 GbE-B) que se muestra en la imagen.
 ![Puertos del dispositivo MDMS](/images/MDMSNewEth1and3.png)
-      
+
       2. Conecte el adaptador de CAT6A a SFP proporcionado y conecte el conmutador de 10 Gb.
       3. Si se puede acceder a la dirección IP configurada para Eth3 con el navegador mediante `HTTPS://'Su-dirección-Eth3'`, continúe con el paso siguiente. De lo contrario, conecte el puerto Eth1 (1 GbE-B).<br/>
-         >**Nota**: si tiene que modificar los valores de IP para Eth3 o Eth1, consulte la sección sobre configuración de direcciones IP.
+         
+         Si tiene que modificar los valores de IP para Eth3 o Eth1, consulte la sección [Configuración de direcciones IP](#configuring-ip-addresses).
+         {:tip}
     - Conexión de cobre SFP+
       1. Extraiga el cable de cobre SFP+ de la tapa del compartimento y conéctelo a Eth5 10 GbE (5)
          ![Puertos del dispositivo MDMS](/images/sfp-ports-sized-ports-labeled.png)
-      2. Conecte el cable de cobre SFP+ al conmutador 10 Gb.
-      3. Si se puede llegar a la dirección IP configurada para Eth5 mediante el navegador `HTTPS://'Su-dirección-Eth5'`, continúe con el siguiente paso; de lo contrario, conecte el puerto Eth2 (10/1 GbE-B).<br/>
-         >**Nota**: si tiene que modificar los valores de IP para Eth5 o Eth2, consulte la sección sobre configuración de direcciones IP.
+      2. Conecte el cable de cobre SFP+ al conmutador de 10 Gb.
+      3. Si se puede llegar a la dirección IP configurada para Eth5 mediante el navegador `HTTPS://'Su-dirección-Eth5'`, continúe con el siguiente paso; de lo contrario, conecte el puerto Eth2 (10/1 GbE-B).
 
+         Si tiene que modificar los valores de IP para Eth5 o Eth2, consulte la sección [Configuración de direcciones IP](#configuring-ip-addresses).
+         {:tip}
 
 5. Abra el navegador y escriba `HTTPS://Su-dirección-Eth1`. Sustituya `Su-dirección-Eth1` por el valor de Eth1 correspondiente a su configuración de red. Acepte la excepción de certificado.
 
@@ -96,8 +107,10 @@ Los valores de IP se pueden ver y gestionar desde la pantalla LCD después de qu
     ![Página de inicio de sesión](/images/login.png)
 
 7. El asistente de flujo presenta el acceso a los temas específicos utilizados habitualmente ordenados de izquierda a derecha.<br/>
-    ![Iconos de flujo de trabajos](/images/workflow.png) <br/>
-    >**NOTA**: el flujo de trabajo se puede reabrir con el **Gestor de trabajo** de la parte superior izquierda de la interfaz.
+    ![Iconos de flujo de trabajos](/images/workflow.png)
+
+    El flujo de trabajo se puede reabrir con el **Gestor de trabajo** de la parte superior izquierda de la interfaz.
+    {:tip}
 
 8.	Active la agrupación de almacenamiento preconfigurado.
     - Pulse **Desbloquear e iniciar agrupación de almacenamiento**.
@@ -126,7 +139,7 @@ Los valores de IP se pueden ver y gestionar desde la pantalla LCD después de qu
 
 La pantalla LCD del dispositivo se puede utilizar para configurar las direcciones IP de los puertos Ethernet. Mueva el cursor por el panel LCD mediante los botones **Arriba**, **Abajo**, **Atrás/ESC** y **Adelante/INTRO**. Con el botón **Intro** se accede a un menú y con el botón **Salir**, se sale de él.
 
-Cuando edita una dirección IP o máscara de subred, el botón **Intro** hace avanzar un carácter cada vez; el botón **Salir** hace retroceder un paso cada vez. 
+Cuando edita una dirección IP o máscara de subred, el botón **Intro** hace avanzar un carácter cada vez; el botón **Salir** hace retroceder un paso cada vez.
 
 Los botones **Arriba** y **Abajo** permiten desplazarse por los números de la ubicación elegida.
 

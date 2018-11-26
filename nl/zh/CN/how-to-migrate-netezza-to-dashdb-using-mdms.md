@@ -2,12 +2,14 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-10-31"
 
 ---
 {:codeblock: .codeblock}
 {:new_window: target="_blank"}
-
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
 # 将 Netezza 数据库迁移到 DashDB
 
@@ -16,11 +18,12 @@ Mass Data Migration 服务 (MDMS) 可用于将大型 Netezza 数据库迁移到 
 ## 确定数据库对象大小
 1. 从 [IBM 支持 > Fix Central > Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window}，下载与 Netezza 实例相对应的相应 Netezza Tools 版本。
 
-   >**注** - 缺省情况下，支持工具会安装在 Netezza 服务器的 `/nz/support-IBM_Netezza<version>/bin` 目录下
-   
+   缺省情况下，支持工具会安装在 Netezza 服务器的此目录下：`/nz/support-IBM_Netezza<version>/bin`
+   {:note}
+
 2. 运行以下两个命令。
    - `nz_db_size`，用于确定数据库大小
-   
+
      ```
      nz_db_size
      对象 | 名称 | 字节 | KB | MB | GB | TB
@@ -40,9 +43,9 @@ Mass Data Migration 服务 (MDMS) 可用于将大型 Netezza 数据库迁移到 
      表    | DH71964T9 | 9,615,179,776 | 9,389,824 | 9,170 | 9.0 | .0
      ```
      {: codeblock}
-   
+
    - `nz_compressedTableRatio`，用于估算解压缩后的数据大小。
-   
+
       ```
   nz_compressedTableRatio
   ....................................................................................
@@ -79,17 +82,18 @@ DH71964T9 1.50 9,615,179,776 14,417,923,840 4,802,744,064
    ```
   /nz/support/contrib/bin/nz_backup –db   {db_name} –d  {target_directory}  ascii threads 4
   ```
-   
-   **注** - `{target_directory}` 是安装到此服务器且由 MDMS 设备提供的 NFS 共享。
-   
+
+   `{target_directory}` 是安装到此服务器且由 MDMS 设备提供的 NFS 共享。
+{:tip}
+
 - 使用 `CREATE EXTERNAL TABLE` 语句。
    - 选择 `FORMAT` = ”Text”
    - 为 DashDB 团队提供用于导出的 `USING` 子句，以供在 `LOAD` 过程中复用。
-   
-   
+
+
 ## 验证数据
 可以使用 `SELECT FROM` 语句以及外部表 `myfile` 和 `USING(....)` 子句在 Netezza 上重新读回数据，以确保数据正确。
- 
+
 **其他信息**
 
 有关 Netezza 的更多信息，请访问 [IBM Netezza 数据库用户文档](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}。

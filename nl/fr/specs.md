@@ -2,10 +2,12 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-10-31"
 
 ---
-
+ {:tip: .tip}
+ {:note: .note}
+ {:important: .important}
 
 # Spécifications de périphérique
 
@@ -54,7 +56,7 @@ lastupdated: "2018-06-27"
             <td><p>Poids</p></td>
             <td>
               <p>Périphérique : 24,5 kg<br/>Avec mallette de transport : 26,7 kg</p>
-              <p>Le périphérique est équipé de roues et de poignées pour une meilleure maniabilité. Il est accessible depuis l'extérieur de la mallette de transport.</p>
+               Le périphérique est équipé de roues et de poignées pour une meilleure maniabilité. Il est accessible depuis l'extérieur de la mallette de transport.{:note}
             </td>
           </tr>
           <tr>

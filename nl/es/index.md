@@ -2,26 +2,31 @@
 
 copyright:
   years: 2017-2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-10-31"
 
 ---
 {:new_window: target="_blank"}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
 # Guía de inicio a la migración de datos masiva de {{site.data.keyword.cloud_notm}}
 
 **Requisitos previos**
 
-Esta es la información que necesita para enviar una solicitud de migración de datos masiva y completar la migración.
+Recopile esta información antes de enviar una solicitud de migración de datos masiva y completar la migración.
 
 1. Valores de red del dispositivo de almacenamiento
    - Dirección IP estática
    - Máscara para habilitar la transferencia de datos
 2. Valores de red del sistema remoto
    - Dirección IP estática
-   - Máscara de red 
+   - Máscara de red
    - Pasarela predeterminada para acceder a la interfaz de usuario
 3. Destino de descarga de Cloud Object Storage <br/>
-   **Importante**: debe tener como mínimo una cuenta de {{site.data.keyword.cos_full}} y un grupo en varias regiones estándar de EE.UU. o de la UE cumplimentar el formulario de solicitud. Si todavía no dispone de una cuenta de {{site.data.keyword.cos_full_notm}}}, cree una antes de solicitar el dispositivo de migración de datos masiva. Consulte [Acerca de {{site.data.keyword.cos_full}}](https://console.bluemix.net/docs/services/cloud-object-storage/about-cos.html){:new_window}.
+   
+   Debe tener como mínimo una cuenta de {{site.data.keyword.cos_full}} y un grupo en varias regiones estándar de EE.UU. o de la UE cumplimentar el formulario de solicitud. Si todavía no dispone de una cuenta de {{site.data.keyword.cos_full_notm}}}, cree una antes de solicitar el dispositivo de migración de datos masiva. Consulte [Acerca de {{site.data.keyword.cos_full}}](https://console.bluemix.net/docs/services/cloud-object-storage/about-cos.html){:new_window}.
+   {:important}
 
 ## Creación de una solicitud
 
@@ -29,8 +34,12 @@ Esta es la información que necesita para enviar una solicitud de migración de 
 2. Seleccione **Almacenamiento** > **Migración de datos** > **Migración de datos masiva** en la barra de navegación para acceder a la página de destino de la migración de datos masiva.
 3. Pulse **Solicitar dispositivo** para abrir el formulario de pedido.
 4. Rellene todos los campos del formulario de solicitud de **migración de datos masiva**.
-   - **Dirección de envío**: este formulario no está rellenado de antemano y sus campos son editables. Proporcione el nombre de la persona que aceptará la entrega del dispositivo en el campo A la atención de. Cuando elija la ubicación de entrega, tenga en cuenta el peso del dispositivo (30 kg con el maletín) y la accesibilidad. <br/> (**Nota**: el dispositivo está equipado con ruedas y un asa para poder moverlo).
-   - **Contactos de migración clave**: este formulario no está rellenado de antemano. Los campos son editables. Se puede añadir más de una persona. 
+   - **Dirección de envío**: este formulario no está rellenado de antemano y sus campos son editables. Proporcione el nombre de la persona que aceptará la entrega del dispositivo en el campo A la atención de. Cuando elija la ubicación de entrega, tenga en cuenta el peso del dispositivo (30 kg con el maletín) y la accesibilidad.
+   
+   El dispositivo está equipado con ruedas y un asa plegable para manejarlo con facilidad.
+   {:note}
+
+   - **Contactos de migración clave**: este formulario no está rellenado de antemano. Los campos son editables. Se puede añadir más de una persona.
    - **Configuración de red del centro de datos**: proporciona detalles sobre la configuración de red para el suministro previo del puerto Eth3 en el dispositivo de migración de datos masiva antes de envío.
    - **Destino de la descarga de datos**: seleccione la cuenta de destino de la lista.
    - **Nombre de la solicitud**: especifique un nombre para realizar el seguimiento del pedido.
@@ -42,7 +51,7 @@ Esta es la información que necesita para enviar una solicitud de migración de 
 
 Después de enviar la solicitud, el estado de la incidencia de solicitud aparece como `Procesando solicitud`. Una vez aceptada la solicitud, {{site.data.keyword.IBM}} comienza a preconfigurar el siguiente dispositivo disponible.
 
-Cuando el dispositivo se esté preparando, el estado de la página [Solicitudes](https://control.softlayer.com/storage/mdms){:new_window} aparece como `Preparando dispositivo` seguido de `Pendiente de envío`. Después de pasar al estado `Pendiente de envío`, la solicitud ya no puede cancelarse. 
+Cuando el dispositivo se esté preparando, el estado de la página [Solicitudes](https://control.softlayer.com/storage/mdms){:new_window} aparece como `Preparando dispositivo` seguido de `Pendiente de envío`. Después de pasar al estado `Pendiente de envío`, la solicitud ya no puede cancelarse.
 
 Cuando el transportista recoge el dispositivo para enviarlo a su ubicación, el estado de solicitud se actualiza a `Dispositivo enviado`. Se le proporciona el número de seguimiento en el apartado **Detalles de la solicitud** de la página [Solicitudes](https://control.softlayer.com/storage/mdms){:new_window}.
 
@@ -50,10 +59,14 @@ Cuando el transportista recoge el dispositivo para enviarlo a su ubicación, el 
 ## Recepción y conexión
 
 1. El dispositivo estará preconfigurado cuando lo reciba. Se incluyen [instrucciones básicas para encenderlo y conectarlo](user-instructions.html). <br/>
-  **Nota**: se proporciona el nombre de usuario y la contraseña de la agrupación de almacenamiento por separado. Compruebe los **Detalles de la solicitud** en la página [Solicitudes](https://control.softlayer.com/storage/mdms){:new_window} para verificar las credenciales.
+  
+   Se proporciona el nombre de usuario y la contraseña de la agrupación de almacenamiento por separado. Compruebe los **Detalles de la solicitud** en la página [Solicitudes](https://control.softlayer.com/storage/mdms){:new_window} para verificar las credenciales.
+   {:note}
 2. Apunte el navegador a la dirección IP estática proporcionada en el formulario de pedido.
 3. Inicie una sesión y escriba la contraseña para desbloquear la agrupación de almacenamiento vacía. <br/>
-   **Nota**: consulte los detalles de la solicitud de su página [Solicitudes](https://control.softlayer.com/storage/mdms){:new_window} para ver la contraseña.
+   
+   Consulte los detalles de la solicitud de su página [Solicitudes](https://control.softlayer.com/storage/mdms){:new_window} para ver la contraseña.
+   {:tip}
 4. Monte el recurso compartido NFS en el servidor.
 5. Vuelva a ejecutar el inventario DataShuttle para asegurarse de que se han capturado los archivos nuevos.
 
@@ -63,7 +76,7 @@ Cuando el transportista recoge el dispositivo para enviarlo a su ubicación, el 
 3. Cierre de forma adecuada el dispositivo de migración de datos masiva.
 4. Devuelva la caja al centro de datos de {{site.data.keyword.BluSoftlayer_full}} con la etiqueta de envío suministrada.
 
-Una vez que se devuelve el dispositivo a {{site.data.keyword.BluSoftlayer}}, el estado de la solicitud cambia a `Dispositivo recibido`. 
+Una vez que se devuelve el dispositivo a {{site.data.keyword.BluSoftlayer}}, el estado de la solicitud cambia a `Dispositivo recibido`.
 
 ## Descarga y acceso
 
@@ -72,17 +85,3 @@ Durante el proceso de transferencia, el estado de la solicitud se muestra como `
 ## Borrado del dispositivo
 
 {{site.data.keyword.IBM}} implementa los requisitos de limpieza de datos de nivel DOD para borrar de forma permanente los datos del dispositivo. Cuando haya terminado, el estado de solicitud mostrará `Borrado completo`.
-
-**Notas**
-
-**Mantenimiento de la exclusividad en el grupo**
-
-Para garantizar que los nombres de objetos son exclusivos cuando se copian en el grupo, se incluye un prefijo en el nombre de objeto de la vía de acceso. Por ejemplo, `/root/user/config.ini` se convierte en `root/user/config.ini` cuando se copia en el grupo.
-
-**Grupos**
-
-Si el grupo de destino no existe, se crea. Si existe, debe estar vacío; de lo contrario la copia no puede continuar.  
-
-**Sistemas de archivos**
-
-Los enlaces simbólicos y los enlaces fijos se omiten durante el proceso de exploración.
