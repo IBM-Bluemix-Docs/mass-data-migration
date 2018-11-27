@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017-2018
-lastupdated: "2018-10-31"
+lastupdated: "2018-11-27"
 
 ---
 {:new_window: target="_blank"}
@@ -30,7 +30,9 @@ Gather this information before you submit a Mass Data Migration request and comp
 
 ## Creating a request
 
-1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} with your unique credentials.
+1. Log in to the [IBM Cloud console](https://console.bluemix.net/catalog/){:new_window} and click the menu icon on the upper left. Select **Infrastructure**.
+
+   Alternatively, you can log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
 2. Select **Storage** > **Data Migration** > **Mass Data Migration** from the Navigation Bar to access the Mass Data Migration landing page.
 3. Click **Request Device** to open the order form.
 4. Complete each field in the **Mass Data Migration** order form.
