@@ -27,7 +27,7 @@ To turn on the device, complete the following steps.
    ![Mains Switch](/images/MDMSPowerOnOff.png)
 
 2. Use the System On / Off button that is next to the connection link LEDs.
-   ![System On/Off](/images/MDMSSystemOnOff.png)
+   ![System On / Off](/images/MDMSSystemOnOff.png)
 
 The device is powered on when the System ID is shown on the LED screen.
 
