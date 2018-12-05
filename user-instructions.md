@@ -110,7 +110,7 @@ It is NOT required to configure and use both ports if the 10-GbE port's IP can b
 7. The workflow wizard presents access to the specific items that are generally used in order from left to right.<br/>
     ![Workflow icons](/images/workflow.png)
 
-    The workflow can be reopened by using the **Workflow Manager** in the upper-left of the interface.
+    The workflow can be reopened by using the **Workflow Manager** in the upper-left area of the interface.
     {:tip}
 
 8.	Activate the pre-configured storage pool.
