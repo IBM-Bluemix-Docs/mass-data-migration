@@ -130,7 +130,7 @@ It is NOT required to configure and use both ports if the 10-GbE port's IP can b
 12. In the workflow, click **View Storage pool** to monitor storage usage and IOPS on the device.
     ![View Storage Pool](/images/SystemStoragePoolPerf.png)
 
-13.	When the load is complete, gracefully power down the system. In the workflow, click **Shutdown Appliance...**.
+13.	When the load is complete, you can gracefully power down the system. In the workflow, click **Shutdown Appliance...**.
     ![Shutting Appliance Down](/images/SystemShutdown.png)
 
 14.	Disconnect the device, return the power cable, Ethernet cable, and SFP+ adapter into their storage locations under the lid.
