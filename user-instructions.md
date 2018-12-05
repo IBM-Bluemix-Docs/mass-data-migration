@@ -47,9 +47,9 @@ By default, Jumbo Frames are enabled on 10-GbE ports. This setting can be change
 
 Ports originate from the device as RJ45, and CAT6A cables are supplied. Copper SFP+ adapters are provided to convert from RJ45. The adapters work with all switch manufacturers. These adapters are located in a pocket on the underside of the shipping container lid.
 
-- Eth1 (1 GbE-B) is typically used for device management, and as such, must have a gateway that is specified in the IP address configuration. This can be viewed on the LCD screen after the device is powered on (see the IP address configuration section). This port is used to make the web-based UI available outside the data subnet.
+- Eth1 (1GbE-B) is typically used for device management, and as such, must have a gateway that is specified in the IP address configuration. This can be viewed on the LCD screen after the device is powered on (see the IP address configuration section). This port is used to make the web-based UI available outside the data subnet.
 
-- Eth3 (10 GbE-B) is used for the data transfer and can also be used for device management. This connection must either be on the same subnet as the source data, or can be directly connected to the server if needed.
+- Eth3 (10GbE-B) is used for the data transfer and can also be used for device management. This connection must either be on the same subnet as the source data, or can be directly connected to the server if needed.
 
 
 ### Configuring Copper SFP+ and RJ45
@@ -58,9 +58,9 @@ Ports originate from the device as RJ45, and CAT6A cables are supplied. Copper S
 
 Ports originate from the device as Copper SFP+ and RJ45. Both CAT6A and Copper SFP+ cables are supplied.
 
-- Eth5 10 GbE (5) is typically used for data transfer but can also be used for device management. This port runs only at 10-GbE speed.
+- Eth5 (10Gb SFP+ (5)) is typically used for data transfer but can also be used for device management. This port runs only at 10-GbE speed.
 
-- Eth2 10 GbE (2) is typically used for device management but can also be used for data transfer. This port can run at either 1-GbE or 10-GbE speed.
+- Eth2 (10-GbE (2)) is typically used for device management but can also be used for data transfer. This port can run at either 1-GbE or 10-GbE speed.
 
 
 The data transfer connection must either be on the same subnet as the source data, or be directly connected to the server.
@@ -88,7 +88,7 @@ It is NOT required to configure and use both ports if the 10-GbE port's IP can b
       1. Remove the CAT6A cable from the case lid and connect it to the Eth3 (10 GbE-B) port.
          ![Ports of the MDMS device](/images/MDMSNewEth1and3.png)
       2. Connect the provided CAT6A to SFP+ adapter and connect to your 10-Gb switch.
-      3. If the IP address that is configured for Eth3 can be reached in the browser through `HTTPS://'Your-Eth3-IPAddress'`, continue to the next step. Otherwise, connect the Eth1 (1 GbE-B) port.<br/>
+      3. If the IP address that is configured for Eth3 can be reached in the browser through `HTTPS://'Your-Eth3-IPAddress'`, continue to the next step. Otherwise, connect the Eth1 (1GbE-B) port.<br/>
          
          If you need to alter any IP settings for Eth3 or Eth1, see the [Configuring IP addresses](#configuring-ip-addresses) section.
          {:tip}
@@ -97,7 +97,7 @@ It is NOT required to configure and use both ports if the 10-GbE port's IP can b
       1. Remove the Copper SFP+ cable from the case lid and connect it to Eth5 10 GbE (5)
          ![Ports of the MDMS device](/images/sfp-ports-sized-ports-labeled.png)
       2. Connect the Copper SFP+ cable to your 10-Gb switch.
-      3. If the IP address that is configured for Eth5 can be reached through the browser `HTTPS://'Your-Eth5-IPAddress'`, continue to the next step, otherwise connect Eth2 (10/1 GbE-B) port.
+      3. If the IP address that is configured for Eth5 can be reached through the browser `HTTPS://'Your-Eth5-IPAddress'`, continue to the next step, otherwise connect Eth2 (10 or 1 GbE-B) port.
 
          If you need to alter any IP settings for Eth5 or Eth2, see the [Configuring IP addresses](#configuring-ip-addresses) section.
          {:tip}
