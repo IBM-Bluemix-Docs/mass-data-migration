@@ -47,7 +47,7 @@ By default, Jumbo Frames are enabled on 10-GbE ports. This setting can be change
 
 Ports originate from the device as RJ45, and CAT6A cables are supplied. Copper SFP+ adapters are provided to convert from RJ45. The adapters work with all switch manufacturers. These adapters are located in a pocket on the underside of the shipping container lid.
 
-- Eth1 (1GbE-B) is typically used for device management, and as such, must have a gateway that is specified in the IP address configuration. This can be viewed on the LCD screen after the device is powered on (see the IP address configuration section). This port is used to make the web-based UI available outside the data subnet.
+- Eth1 (1GbE-B) is typically used for device management, and as such, must have a gateway that is specified in the IP address configuration. This information can be viewed on the LCD screen after the device is powered on (see the IP address configuration section). This port is used to make the web-based UI available outside the data subnet.
 
 - Eth3 (10GbE-B) is used for the data transfer and can also be used for device management. This connection must either be on the same subnet as the source data, or can be directly connected to the server if needed.
 
