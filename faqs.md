@@ -60,7 +60,7 @@ A device can be kept onsite at no cost for the first 10 business days. This time
 ## What network interfaces does Mass Data Migration support?
 {: faq}
 
-Mass Data Migration devices have 10-Gbps network interfaces with RJ45 (CAT6a) and SFP+ copper network ports. The RJ45 to SFP+ converter is included. 10-Gbps interfaces have Jumbo Frames enabled.
+Mass Data Migration devices have 10-Gbps network interfaces with RJ45 (CAT6a) and SFP+ copper network ports. The RJ45 to SFP+ converter is included. Jumbo Frames are enabled on the 10-Gbps interfaces.
 
 <hr/>
 
@@ -108,7 +108,7 @@ All Mass Data Migration devices are housed in rugged and durable enclosures. The
 
 ## How can the request be tracked throughout the migration process?
 
-To track the status of your Request, refer to the active requests section on the Mass Data Migration page in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. You can sign in to the portal by using the following link: https://control.softlayer.com/storage/mdms
+To track the status of your Request, refer to the active requests section on the Mass Data Migration page in the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}. You can sign in to the portal by using the following link: https://control.softlayer.com/storage/mdms ![External link icon](../../icons/launch-glyph.svg "External link icon")
 
 <hr/>
 
@@ -156,7 +156,7 @@ In the US, a flat rate of USD 395 is charged per device. This cost includes the 
 ## How much does {{site.data.keyword.cos_full_notm}} usage cost?
 {: faq}
 
-The transfer of data into the {{site.data.keyword.cloud_notm}} is at no cost to you. However, standard rates apply for data that is stored in {{site.data.keyword.cos_full}} or any other {{site.data.keyword.cloud_notm}} service. You can find pricing for {{site.data.keyword.cos_full}} for the Standard Cross Region offering at the following link: https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage#s3api
+The transfer of data into the {{site.data.keyword.cloud_notm}} is at no cost to you. However, standard rates apply for data that is stored in {{site.data.keyword.cos_full}} or any other {{site.data.keyword.cloud_notm}} service. You can find pricing for {{site.data.keyword.cos_full}} for the Standard Cross Region offering at the following link: https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage#s3api ![External link icon](../../icons/launch-glyph.svg "External link icon")
 
 <hr/>
 
