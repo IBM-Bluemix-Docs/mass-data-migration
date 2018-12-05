@@ -19,14 +19,14 @@ The {{site.data.keyword.cloud}} Mass Migration device is a portable storage devi
 
 The device is sent with a C13-US power cord [https://en.wikipedia.org/wiki/IEC_60320](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. If the device is used outside of the United States, a power adapter might be required.
 
-The device accepts all standard power ranges.
+The device accepts all standard power ranges. <br/>
 ![Power range](/images/PowerRating.png)
 
 To turn on the device, complete the following steps.
 1. Turn on the Mains Switch by the power plug. <br/>
    ![Mains Switch](/images/MDMSPowerOnOff.png)
 
-2. Use the System On/Off button to the right of the connection link LEDs.
+2. Use the System On / Off button that is next to the connection link LEDs.
    ![System On/Off](/images/MDMSSystemOnOff.png)
 
 The device is powered on when the System ID is shown on the LED screen.
@@ -85,19 +85,19 @@ It is NOT required to configure and use both ports if the 10-GbE port's IP can b
 
 4. Connect the device to the network.
     - Connecting RJ45
-  	  1. Remove the CAT6A cable from the case lid and connect it to the Eth3 (10 GbE-B) port shown in the picture.
-      ![Ports of the MDMS device](/images/MDMSNewEth1and3.png)
-
+      1. Remove the CAT6A cable from the case lid and connect it to the Eth3 (10 GbE-B) port.
+         ![Ports of the MDMS device](/images/MDMSNewEth1and3.png)
       2. Connect the provided CAT6A to SFP+ adapter and connect to your 10-Gb switch.
       3. If the IP address that is configured for Eth3 can be reached in the browser through `HTTPS://'Your-Eth3-IPAddress'`, continue to the next step. Otherwise, connect the Eth1 (1 GbE-B) port.<br/>
          
          If you need to alter any IP settings for Eth3 or Eth1, see the [Configuring IP addresses](#configuring-ip-addresses) section.
          {:tip}
+         
     - Connecting Copper SFP+
       1. Remove the Copper SFP+ cable from the case lid and connect it to Eth5 10 GbE (5)
          ![Ports of the MDMS device](/images/sfp-ports-sized-ports-labeled.png)
       2. Connect the Copper SFP+ cable to your 10-Gb switch.
-      3. If the IP address configured for Eth5 can be reached through the browser `HTTPS://'Your-Eth5-IPAddress'`, continue to the next step, otherwise connect Eth2 (10/1 GbE-B) port.
+      3. If the IP address that is configured for Eth5 can be reached through the browser `HTTPS://'Your-Eth5-IPAddress'`, continue to the next step, otherwise connect Eth2 (10/1 GbE-B) port.
 
          If you need to alter any IP settings for Eth5 or Eth2, see the [Configuring IP addresses](#configuring-ip-addresses) section.
          {:tip}
@@ -110,7 +110,7 @@ It is NOT required to configure and use both ports if the 10-GbE port's IP can b
 7. The workflow wizard presents access to the specific items that are generally used in order from left to right.<br/>
     ![Workflow icons](/images/workflow.png)
 
-    The workflow can be reopened by using **Workflow Manager** in the upper left of the interface.
+    The workflow can be reopened by using the **Workflow Manager** in the upper-left of the interface.
     {:tip}
 
 8.	Activate the pre-configured storage pool.
