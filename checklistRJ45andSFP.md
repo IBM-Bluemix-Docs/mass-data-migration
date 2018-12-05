@@ -65,9 +65,9 @@ Signature and Date of Customer
 
 -	2 CAT6A cables in lower-left pouch
 
--	1 SFP CBL-NTWK-0456 in bottom-left pouch
+-	1 SFP CBL-NTWK-0456 in lower-left pouch
 
-- 1 x Arista Optic SFP-1G-T in top-left pouch
+- 1 x Arista Optic SFP-1G-T in upper-left pouch
 
 -	Device fuses in upper-right pouch
 
