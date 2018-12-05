@@ -15,7 +15,7 @@ lastupdated: "2018-10-31"
 
 The Mass Data Migration Service (MDMS) can be used to migrate large Netezza databases to DashDB. You can use this document as a reference for the tools that determine the amount of data to be transferred, and exporting methods.
 
-## Determining Database object size
+## Determining the database object size
 1. From [IBM Support > Fix Central > Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window}, download the appropriate Netezza Tools version that corresponds to your Netezza instance.
 
    By default, support tools are installed on Netezza server at directory `/nz/support-IBM_Netezza<version>/bin`
@@ -75,7 +75,7 @@ The Mass Data Migration Service (MDMS) can be used to migrate large Netezza data
       ```
       {: codeblock}
 
-## Extracting Data and Onboarding
+## Extracting data and onboarding
 
 You can use two options to extract the data from Netezza.
 - Use the `nz_backup` utility.
@@ -91,9 +91,9 @@ You can use two options to extract the data from Netezza.
    - Provide the DashDB team the `USING` clause that was used for export for reuse during the `LOAD` process.
 
 
-## Validating Data
+## Validating data
 The data can be reread back on the Netezza by using the `SELECT FROM` statement with the external table `myfile` and a `USING(....)` clause to ensure that the data is correct.
 
 **Additional information**
 
-More information on Netezza is available at [IBM Netezza database user documentation](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.
+More information about Netezza, see [IBM Netezza database user documentation](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.

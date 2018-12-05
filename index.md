@@ -36,15 +36,15 @@ Gather this information before you submit a Mass Data Migration request and comp
 2. Select **Storage** > **Data Migration** > **Mass Data Migration** from the Navigation Bar to access the Mass Data Migration landing page.
 3. Click **Request Device** to open the order form.
 4. Complete each field in the **Mass Data Migration** order form.
-   - **Shipping Address** - this form is not prefilled and each field is editable. Provide the name of the person who is going to accept the device delivery in the Attention field. When you pick the delivery location, consider the weight of the device (66 lbs with its case) and accessibility.
+   - **Shipping address** - this form is not prefilled and each field is editable. Provide the name of the person who is going to accept the device delivery in the Attention field. When you pick the delivery location, consider the weight of the device (66 lbs with its case) and accessibility.
    
    The device is equipped with wheels and pop-up handle for maneuvering.
    {:note}
 
-   - **Key Migration Contacts** - This form isn't prefilled. Each field is editable. More than one person can be added.
-   - **Data Center Network Configuration** - Provide network configuration details for the pre-provisioning of the Eth3 port on the Mass Data Migration device before shipment.
-   - **Data Offload Destination** Select your existing target account from the list.
-   - **Request Name** - Enter a name to help you track your order.
+   - **Key migration contacts** - This form isn't prefilled. Each field is editable. More than one person can be added.
+   - **Data center network configuration** - Provide network configuration details for the pre-provisioning of the Eth3 port on the Mass Data Migration device before shipment.
+   - **Data offload destination** - Select your existing target account from the list.
+   - **Request name** - Enter a name to help you track your order.
 5. Select the **I have read and agree to the full terms of the Mass Data Migration Agreement** check box after you read each service agreement.
 6. Click **Place Request** to submit the Request. Click **Cancel** to completely abandon the form and return to the Mass Data Migration landing page.
 
