@@ -2,12 +2,14 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-09-20"
+lastupdated: "2018-12-05"
 
 ---
 {:new_window: target="_blank"}
 
-# RJ45 - Checkliste für Ausstattung
+# Checkliste für Ausstattung
+
+## RJ45 - Checkliste für Ausstattung
 
 ![RJ45-Ports](/images/RJ45Ports.png)
 ![Ausstattung der Einheiten für Mass Data Migration](/images/MDMDeviceInventory.png)
@@ -38,7 +40,7 @@ lastupdated: "2018-09-20"
 </br> 
 ________________________________________________________________ 
 
-Datum/Unterschrift des Versenders
+Datum und Unterschrift des Versenders
 
 
 </br> 
@@ -46,14 +48,14 @@ Datum/Unterschrift des Versenders
 </br> 
 ________________________________________________________________ 
 
-Datum/Unterschrift des Kunden
+Datum und Unterschrift des Kunden
 
 
 
 
 <hr>
 
-# SFP+ - Checkliste für Ausstattung
+## SFP+ - Checkliste für Ausstattung
 
 ![SFP-Ports](/images/SFP+Ports.png)
 ![Ausstattung der Einheiten für Mass Data Migration](/images/MDMDeviceInventory.png)
@@ -85,7 +87,7 @@ Datum/Unterschrift des Kunden
 </br> 
 ________________________________________________________________ 
 
-Datum/Unterschrift des Versenders
+Datum und Unterschrift des Versenders
 
 
 </br> 
@@ -93,4 +95,4 @@ Datum/Unterschrift des Versenders
 </br> 
 ________________________________________________________________ 
 
-Datum/Unterschrift des Kunden
+Datum und Unterschrift des Kunden

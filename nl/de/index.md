@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017-2018
-lastupdated: "2018-10-31"
+lastupdated: "2018-11-27"
 
 ---
 {:new_window: target="_blank"}
@@ -30,7 +30,9 @@ Sammeln Sie diese Informationen, bevor Sie eine Mass Data Migration-Anforderung 
 
 ## Anforderung erstellen
 
-1. Melden Sie sich mit Ihren eindeutigen Berechtigungsnachweisen beim [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} an.
+1. Melden Sie sich bei der [IBM Cloud-Konsole](https://console.bluemix.net/catalog/){:new_window} an und klicken Sie auf das Menüsymbol in der linken oberen Ecke. Wählen Sie **Infrastruktur** aus. 
+
+   Alternativ dazu können Sie sich beim [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} anmelden. 
 2. Wählen Sie in der Navigationsleiste **Storage** > **Datenmigration** > **Mass Data Migration** aus, um die Landing-Page für Mass Data Migration zu öffnen.
 3. Klicken Sie auf **Einheit anfordern**, um das Bestellformular zu öffnen.
 4. Füllen Sie alle Felder im Bestellformular **Mass Data Migration** aus.
@@ -58,7 +60,7 @@ Wenn die Einheit vom Versandunternehmen für den Versand an Sie abgeholt wird, w
 
 ## Empfangen und anschließen
 
-1. Die vorkonfigurierte Einheit trifft bei Ihnen ein. Eine grundlegende [Anweisung für den Stromanschluss und die Konnektivität](user-instructions.html) wird mitgeliefert.<br/>
+1. Die vorkonfigurierte Einheit trifft bei Ihnen ein. Eine grundlegende [Anweisung für den Stromanschluss und die Konnektivität](user-instructions.html) wird mitgeliefert. <br/>
   
    Der Benutzername und das Kennwort für den Speicherpool werden separat bereitgestellt. Die Berechtigungsnachweise finden Sie in den **Anforderungsdetails** in Ihren [Anforderungen](https://control.softlayer.com/storage/mdms){:new_window}.
    {:note}

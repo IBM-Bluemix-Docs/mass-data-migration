@@ -60,7 +60,7 @@ Eine ausgelieferte Einheit kann vor Ort in den ersten 10 Arbeitstagen kostenfrei
 ## Welche Netzschnittstellen werden durch Mass Data Migration unterstützt?<
 {: faq}
 
-Einheiten für Mass Data Migration sind mit 10-Gb/s-Netzschnittstellen mit RJ45- (CAT6a) und Kupfer-SFP+-Netzanschlüssen ausgestattet. Der RJ45-zu-SFP+-Konverter ist im Lieferumfang enthalten. Für 10-Gb/s-Schnittstellen sind Jumbo-Frames aktiviert.
+Einheiten für Mass Data Migration sind mit 10-Gb/s-Netzschnittstellen mit RJ45- (CAT6a) und Kupfer-SFP+-Netzanschlüssen ausgestattet. Der RJ45-zu-SFP+-Konverter ist im Lieferumfang enthalten. Jumbo-Frames sind für die 10-GB/s-Schnittstellen aktiviert.
 
 <hr/>
 
@@ -108,7 +108,7 @@ Alle Einheiten für Mass Data Migration werden durch robuste und widerstandsfäh
 
 ## Wie kann die Anforderung während des Migrationsprozesses verfolgt werden?
 
-Sie können den Status Ihrer Anforderung im Abschnitt für aktive Anforderungen auf der Seite 'Mass Data Migration' im [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} verfolgen. Sie können sich über den folgenden Link bei dem Portal anmelden: https://control.softlayer.com/storage/mdms
+Sie können den Status Ihrer Anforderung im Abschnitt für aktive Anforderungen auf der Seite 'Masssendatenmigration' im [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} verfolgen. Sie können sich über den folgenden Link bei dem Portal anmelden: https://control.softlayer.com/storage/mdms ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 <hr/>
 
@@ -156,7 +156,7 @@ In den USA wird ein Pauschalbetrag von 395 US-Dollar pro Einheit berechnet. Dies
 ## Wie viel kostet die Nutzung von {{site.data.keyword.cos_full_notm}}?
 {: faq}
 
-Die Datenübertragung in {{site.data.keyword.cloud_notm}} ist für Sie kostenlos. Für die Datenspeicherung in {{site.data.keyword.cos_full}} oder in einem anderen {{site.data.keyword.cloud_notm}}-Service werden jedoch die Standardgebühren berechnet. Die Preise für das Angebot 'Standard Cross Region' in {{site.data.keyword.cos_full}} finden Sie über den folgenden Link: https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage#s3api
+Die Datenübertragung in {{site.data.keyword.cloud_notm}} ist für Sie kostenlos. Für die Datenspeicherung in {{site.data.keyword.cos_full}} oder in einem anderen {{site.data.keyword.cloud_notm}}-Service werden jedoch die Standardgebühren berechnet. Die Preise für das Angebot 'Standard Cross Region' in {{site.data.keyword.cos_full}} finden Sie über den folgenden Link: https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage#s3api ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 <hr/>
 

@@ -20,14 +20,15 @@ Die Einheit für {{site.data.keyword.cloud}} Mass Data Migration ist eine tragba
 Die Einheit wird mit einem amerikanischen Netzkabel C13-US ausgeliefert (siehe [https://en.wikipedia.org/wiki/IEC_60320](https://en.wikipedia.org/wiki/IEC_60320){:new_window}). Bei Verwendung der Einheit außerhalb der Vereinigten Staaten ist möglicherweise ein Netzteil erforderlich.
 
 Die Einheit kann mit allen Standard-Netzspannungen betrieben werden.
+<br/>
 ![Netzspannung](/images/PowerRating.png)
 
 Die folgenden Schritte ausführen, um die Einheit einzuschalten.
-1. Den Hauptschalter neben dem Netzstecker einschalten.<br/>
+1. Den Hauptschalter neben dem Netzstecker einschalten. <br/>
    ![Hauptschalter](/images/MDMSPowerOnOff.png)
 
-2. Verwenden Sie die Taste "System On/Off" rechts von den LEDs für die Verbindungen.
-   ![System On/Off](/images/MDMSSystemOnOff.png)
+2. Den Knopf zum Ein-/Ausschalten des Systems verwenden, der sich neben den Verbindungs-LEDs befindet.
+   ![System ein/ausschalten](/images/MDMSSystemOnOff.png)
 
 Die Einheit ist eingeschaltet, wenn die System-ID in der LED-Anzeige angezeigt wird.
 
@@ -47,20 +48,20 @@ Standardmäßig sind Jumbo-Frames an 10-GbE-Ports aktiviert. Diese Einstellung k
 
 Die Ports verlassen die Einheit als RJ45 und CAT6A-Kabel sind im Lieferumfang enthalten. Kupfer-SFP+-Adapter ermöglichen die Konvertierung von RJ45. Die Adapter sind mit Switches aller Hersteller einsetzbar. Diese Adapter befinden sich in einer Tasche an der Unterseite der Abdeckung des Versandbehälters.
 
-- Eth1 (1 GbE-B) wird in der Regel für das Einheitenmanagement verwendet. Wenn dies der Fall ist, muss für Eth1 ein Gateway in der IP-Adresskonfiguration angegeben sein. Dies wird auf der LCD-Anzeige angezeigt, nachdem die Einheit eingeschaltet wurde (siehe Abschnitt zur IP-Adresskonfiguration). Dieser Port wird verwendet, um die webbasierte Benutzerschnittstelle außerhalb des Datenteilnetzes verfügbar zu machen.
+- Eth1 (`1GbE-B`) wird in der Regel für das Einheitenmanagement verwendet. Wenn dies der Fall ist, muss für Eth1 ein Gateway in der IP-Adresskonfiguration angegeben sein. Dies wird auf der LCD-Anzeige angezeigt, nachdem die Einheit eingeschaltet wurde (siehe Abschnitt zur IP-Adresskonfiguration). Dieser Port wird verwendet, um die webbasierte Benutzerschnittstelle außerhalb des Datenteilnetzes verfügbar zu machen.
 
-- Eth3 (10 GbE-B) wird für die Datenübertragung verwendet und kann auch für das Einheitenmanagement verwendet werden. Diese Verbindung muss sich entweder in demselben Teilnetz wie die Quellendaten befinden oder kann bei Bedarf direkt mit dem Server verbunden werden.
+- Eth3 (`10GbE-B`) wird für die Datenübertragung verwendet und kann auch für das Einheitenmanagement verwendet werden. Diese Verbindung muss sich entweder in demselben Teilnetz wie die Quellendaten befinden oder kann bei Bedarf direkt mit dem Server verbunden werden.
 
 
 ### Kupfer-SFP+ und RJ45 konfigurieren
 
-![Kupfer-SFP+](/images/sfp-ports-sized-port5.png)
+![ Kupfer-SFP+](/images/sfp-ports-sized-port5.png)
 
 Die Ports verlassen die Einheit als Kupfer-SFP+ und RJ45. Sowohl CAT6A- als auch Kupfer-SFP+-Kabel sind im Lieferumfang enthalten.
 
-- Eth5 10 GbE (5) wird in der Regel für die Datenübertragung verwendet; kann jedoch auch für das Einheitenmanagement verwendet werden. Dieser Port kann nur mit 10 GbE betrieben werden.
+- Eth5 (`10Gb SFP+ (5)`) wird in der Regel für die Datenübertragung verwendet; kann jedoch auch für das Einheitenmanagement verwendet werden. Dieser Port kann nur mit 10 GbE betrieben werden.
 
-- Eth2 10 GbE (2) wird normalerweise für das Einheitenmanagement verwendet; kann jedoch auch für die Datenübertragung verwendet werden. Dieser Port kann entweder mit einer Geschwindigkeit von 1 GbE oder von 10 GbE betrieben werden.
+- Eth2 (`10-GbE (2)`) wird normalerweise für das Einheitenmanagement verwendet; kann jedoch auch für die Datenübertragung verwendet werden. Dieser Port kann mit 1 GbE oder 10 GbE betrieben werden.
 
 
 Die Verbindung für die Datenübertragung muss sich entweder in demselben Teilnetz wie die Quellendaten befinden oder kann bei Bedarf direkt mit dem Server verbunden werden.
@@ -85,19 +86,19 @@ Es ist nicht erforderlich, beide Ports zu konfigurieren und zu verwenden, wenn d
 
 4. Schließen Sie die Einheit an das Netz an.
     - RJ45 anschließen
-  	  1. Entnehmen Sie das CAT6A-Kabel aus der Tasche unter der Abdeckung und verbinden Sie es mit dem Eth3-Port (10 GbE-B), wie in der folgenden Abbildung dargestellt.
+      1. Entnehmen Sie das CAT6A-Kabel aus der Tasche unter der Abdeckung und verbinden Sie es mit dem Eth3-Port (10 GbE-B).
       ![Ports der MDMS-Einheit](/images/MDMSNewEth1and3.png)
-
       2. Verbinden Sie den mitgelieferten CAT6A-auf-SFP+-Adapter und schließen Sie Ihren 10-Gb-Switch an.
-      3. Wenn die für Eth3 konfigurierte IP-Adresse im Browser über `HTTPS://'Ihre-Eth3-IP-Adresse'` erreichbar ist, fahren Sie mit dem nächsten Schritt fort. Andernfalls verbinden Sie den Eth1-Port (1 GbE-B).<br/>
+      3. Wenn die für Eth3 konfigurierte IP-Adresse im Browser über `HTTPS://'Ihre-Eth3-IP-Adresse'` erreichbar ist, fahren Sie mit dem nächsten Schritt fort. Andernfalls verbinden Sie den Eth1-Port (`1GbE-B`). <br/>
          
          Wenn Sie IP-Einstellungen für Eth3 oder Eth1 ändern müssen, finden Sie weitere Informationen im Abschnitt [IP-Adressen konfigurieren](#configuring-ip-addresses).
          {:tip}
+         
     - Kupfer-SFP+ anschließen
       1. Entnehmen Sie das Kupfer-SFP+-Kabel aus der Tasche unter der Abdeckung und verbinden Sie es mit dem 10-GbE-Eth5-Port (5).
          ![Ports der MDMS-Einheit](/images/sfp-ports-sized-ports-labeled.png)
       2. Schließen Sie das Kupfer-SFP+-Kabel an Ihren 10-Gb-Switch an.
-      3. Wenn die für Eth5 konfigurierte IP-Adresse über einen Browser erreichbar ist (`HTTPS://'Ihre-Eth5-IP-Adresse'`), fahren Sie mit dem nächsten Schritt fort. Andernfalls verbinden Sie den Eth2-Port (10/1 GbE-B).
+      3. Wenn die für Eth5 konfigurierte IP-Adresse über einen Browser erreichbar ist (`HTTPS://'Ihre-Eth5-IP-Adresse'`), fahren Sie mit dem nächsten Schritt fort. Andernfalls verbinden Sie den Eth2-Port (`10GbE-B` oder `1GbE-B`). 
 
          Wenn Sie IP-Einstellungen für Eth5 oder Eth2 ändern müssen, finden Sie weitere Informationen im Abschnitt [IP-Adressen konfigurieren](#configuring-ip-addresses).
          {:tip}
@@ -130,7 +131,7 @@ Es ist nicht erforderlich, beide Ports zu konfigurieren und zu verwenden, wenn d
 12. Klicken Sie im Workflow auf **Speicherpool anzeigen**, um die Speichernutzung und die E/A-Operationen pro Sekunde für die Einheit zu überwachen.
     ![Speicherpool anzeigen](/images/SystemStoragePoolPerf.png)
 
-13.	Wenn der Ladevorgang abgeschlossen ist, schalten Sie das System ordnungsgemäß aus. Klicken Sie im Workflow auf **Appliance beenden...**.
+13.	Wenn der Ladevorgang abgeschlossen ist, können Sie das System ordnungsgemäß ausschalten. Klicken Sie im Workflow auf **Appliance beenden...**.
     ![Appliance beenden](/images/SystemShutdown.png)
 
 14.	Trennen Sie die Kabelverbindungen der Einheit und legen Sie das Netzkabel, das Ethernet-Kabel und den SFP+-Adapter in die entsprechenden Taschen unter der Abdeckung zurück.

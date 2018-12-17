@@ -92,9 +92,9 @@ Sie können zwei Optionen verwenden, um die Daten aus Netezza zu extrahieren.
    - Stellen Sie dem DashDB-Team die `USING`-Klausel zur Verfügung, die beim `LOAD`-Prozess für den Export für die Wiederverwendung verwendet wurde.
 
 
-## Daten überprüfen
+## Daten validieren
 Die Daten können wieder in Netezza eingelesen werden, um sicherzustellen, dass sie korrekt sind. Verwenden Sie dazu die Anweisung `SELECT FROM` mit der externen Tabelle `myfile` und einer `USING(....)`-Klausel.
 
 **Weitere Informationen**
 
-Weitere Informationen zu Netezza sind in der [Benutzerdokumentation zur IBM Netezza-Datenbank](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window} verfügbar.
+Weitere Informationen zu Netezza finden Sie in der [Benutzerdokumentation zur IBM Netezza-Datenbank](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.
