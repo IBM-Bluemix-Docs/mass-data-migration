@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017-2018
-lastupdated: "2018-10-31"
+lastupdated: "2018-11-27"
 
 ---
 {:new_window: target="_blank"}
@@ -30,7 +30,9 @@ Recopile esta información antes de enviar una solicitud de migración de datos 
 
 ## Creación de una solicitud
 
-1. Inicie una sesión en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} con sus credenciales exclusivas.
+1. Inicie sesión en la [consola de IBM Cloud](https://console.bluemix.net/catalog/){:new_window} y pulse el icono de menú de la parte superior izquierda. Seleccione **Infraestructura**.
+
+   Como alternativa, puede iniciar sesión en [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
 2. Seleccione **Almacenamiento** > **Migración de datos** > **Migración de datos masiva** en la barra de navegación para acceder a la página de destino de la migración de datos masiva.
 3. Pulse **Solicitar dispositivo** para abrir el formulario de pedido.
 4. Rellene todos los campos del formulario de solicitud de **migración de datos masiva**.
@@ -39,8 +41,8 @@ Recopile esta información antes de enviar una solicitud de migración de datos 
    El dispositivo está equipado con ruedas y un asa plegable para manejarlo con facilidad.
    {:note}
 
-   - **Contactos de migración clave**: este formulario no está rellenado de antemano. Los campos son editables. Se puede añadir más de una persona.
-   - **Configuración de red del centro de datos**: proporciona detalles sobre la configuración de red para el suministro previo del puerto Eth3 en el dispositivo de migración de datos masiva antes de envío.
+   - **Contactos clave de migración**: este formulario no está rellenado de antemano. Los campos son editables. Se puede añadir más de una persona.
+   - **Configuración de red del centro de datos**: proporcione detalles sobre la configuración de red para el suministro previo del puerto Eth3 en el dispositivo de migración de datos masiva antes de envío.
    - **Destino de la descarga de datos**: seleccione la cuenta de destino de la lista.
    - **Nombre de la solicitud**: especifique un nombre para realizar el seguimiento del pedido.
 5. Marque el recuadro de selección **He leído y acepto los términos del Acuerdo de migración de datos masiva** después de leer el acuerdo de cada servicio.

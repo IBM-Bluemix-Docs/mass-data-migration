@@ -60,7 +60,7 @@ Mass Data Migration 裝置可在幾乎任何環境中執行，從資料中心和
 ## Mass Data Migration 支援的網路介面？
 {: faq}
 
-Mass Data Migration 裝置具備 10 Gbps 網路介面，其中包含 RJ45 (CAT6a) 及 SFP+ 銅線網路埠。包括 RJ45 到 SFP+ 轉換器。10 Gbps 介面已啟用巨大訊框。
+Mass Data Migration 裝置具備 10 Gbps 網路介面，其中包含 RJ45 (CAT6a) 及 SFP+ 銅線網路埠。包括 RJ45 到 SFP+ 轉換器。在 10-Gbps 介面上已啟用巨大訊框。
 
 <hr/>
 
@@ -108,7 +108,7 @@ Mass Data Migration 會使用 AES 256 位元加密來加密所有資料，並提
 
 ## 如何在整個移轉處理程序追蹤要求？
 
-若要追蹤「要求」的狀態，請參閱 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} 中 Mass Data Migration 頁面上的作用中要求區段。您可以使用下列鏈結登入入口網站：https://control.softlayer.com/storage/mdms
+若要追蹤「要求」的狀態，請參閱 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window} 中 Mass Data Migration 頁面上的作用中要求區段。您可以使用下列鏈結登入入口網站：https://control.softlayer.com/storage/mdms ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")
 
 <hr/>
 
@@ -156,7 +156,7 @@ Mass Data Migration 裝置使用含有 LZ4 壓縮及 AES 256 位元加密的 ZFS
 ## 使用 {{site.data.keyword.cos_full_notm}} 需要多少成本？
 {: faq}
 
-將資料傳送到 {{site.data.keyword.cloud_notm}} 是免費的。不過，標準費率會套用於儲存在 {{site.data.keyword.cos_full}} 或任何其他 {{site.data.keyword.cloud_notm}} 服務中的資料。您可以在下列鏈結中找到標準跨區域產品與服務的 {{site.data.keyword.cos_full}} 的定價：https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage#s3api
+將資料傳送到 {{site.data.keyword.cloud_notm}} 是免費的。不過，標準費率會套用於儲存在 {{site.data.keyword.cos_full}} 或任何其他 {{site.data.keyword.cloud_notm}} 服務中的資料。您可以在下列鏈結中找到標準跨區域產品與服務的 {{site.data.keyword.cos_full}} 的定價：https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage#s3api ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")
 
 <hr/>
 

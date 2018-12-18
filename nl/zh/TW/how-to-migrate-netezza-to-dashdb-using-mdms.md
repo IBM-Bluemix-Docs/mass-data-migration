@@ -96,4 +96,4 @@ Mass Data Migration Service (MDMS) 可用來將大型 Netezza 資料庫移轉至
 
 **其他資訊**
 
-[IBM Netezza 資料庫使用者文件](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}中會提供其他 Netezza 相關資訊。
+如需 Netezza 的相關資訊，請參閱 [IBM Netezza database user documentation](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}。

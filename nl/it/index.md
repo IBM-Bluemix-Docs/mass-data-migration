@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017-2018
-lastupdated: "2018-10-31"
+lastupdated: "2018-11-27"
 
 ---
 {:new_window: target="_blank"}
@@ -30,19 +30,21 @@ Recupera queste informazioni prima di inoltrare una richiesta di Mass Data Migra
 
 ## Creazione di una richiesta
 
-1. Accedi a [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} con le tue credenziali univoche.
+1. Esegui l'accesso alla [console IBM Cloud](https://console.bluemix.net/catalog/){:new_window} e fai clic sull'icona di menu nell'angolo superiore sinistro. Seleziona **Infrastructure**.
+
+   In alternativa, puoi eseguire l'accesso al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
 2. Seleziona **Storage** > **Data Migration** > **Mass Data Migration** dalla barra di navigazione per accedere alla pagina di destinazione di Mass Data Migration.
 3. Fai clic su **Request Device** per aprire il modulo d'ordine.
 4. Completa ogni campo nel modulo d'ordine di **Mass Data Migration**.
-   - **Shipping Address** - Questo modulo non è precompilato e ogni campo è modificabile. Fornisci il nome della persona che accetterà la consegna del dispositivo nel campo Attention. Quando scegli il luogo di consegna, considera il peso del dispositivo (66 libbre con la sua custodia) e l'accessibilità.
+   - **Shipping address** - questo modulo non è precompilato e ogni campo è modificabile. Fornisci il nome della persona che accetterà la consegna del dispositivo nel campo Attention. Quando scegli il luogo di consegna, considera il peso del dispositivo (66 libbre con la sua custodia) e l'accessibilità.
    
    Il dispositivo è dotato di ruote e maniglia a scomparsa per la manovra.
    {:note}
 
-   - **Key Migration Contacts** - Questo modulo non è precompilato. Ogni campo è modificabile. È possibile aggiungere più di una persona.
-   - **Data Center Network Configuration** - Fornisci i dettagli di configurazione di rete per il pre-provisioning della porta Eth3 sul dispositivo Mass Data Migration prima della spedizione.
-   - **Data Offload Destination** seleziona il tuo account di destinazione esistente dall'elenco.
-   - **Request Name** - Immetti un nome per aiutarti a tracciare il tuo ordine.
+   - **Key migration contacts** - questo modulo non è precompilato. Ogni campo è modificabile. È possibile aggiungere più di una persona.
+   - **Data center network configuration** - Fornisci i dettagli di configurazione di rete per il pre-provisioning della porta Eth3 sul dispositivo Mass Data Migration prima della spedizione.
+   - **Data offload destination** - seleziona il tuo account di destinazione esistente dall'elenco.
+   - **Request name** - immetti un nome per aiutarti a tracciare il tuo ordine.
 5. Seleziona la casella di spunta **I have read and agree to the full terms of the Mass Data Migration Agreement** dopo aver letto ciascun accordo di servizio.
 6. Fai clic su **Place Request** per inviare la richiesta. Fai clic su **Cancel** per abbandonare completamente il modulo e tornare alla pagina di destinazione di Mass Data Migration.
 
@@ -58,7 +60,7 @@ Quando il dispositivo viene prelevato dal corriere per essere inviato alla tua p
 
 ## Ricezione e collegamento
 
-1. Il dispositivo arriva preconfigurato per te. Vengono incluse [istruzioni di alimentazione e connettività](user-instructions.html) di base.<br/>
+1. Il dispositivo arriva preconfigurato per te. Vengono incluse [istruzioni di alimentazione e connettività](user-instructions.html) di base. <br/>
   
    Il nome utente e la password del pool di archiviazione vengono forniti separatamente. Per le credenziali, consulta i **dettagli della richiesta** in [Requests](https://control.softlayer.com/storage/mdms){:new_window}.
    {:note}

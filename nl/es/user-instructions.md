@@ -19,14 +19,15 @@ El dispositivo de migración de datos masiva de {{site.data.keyword.cloud}} es u
 
 El dispositivo se suministra con un cable de alimentación C13-US [https://en.wikipedia.org/wiki/IEC_60320](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. Si se utiliza el dispositivo fuera de Estados Unidos, es posible que sea necesario un adaptador de alimentación.
 
-El dispositivo acepta todos los rangos de alimentación estándar. ![Rango de alimentación](/images/PowerRating.png)
+El dispositivo acepta todos los rangos de alimentación estándar. <br/>
+![Rango de alimentación](/images/PowerRating.png)
 
 Para encender el dispositivo, complete los pasos siguientes.
 1. Encienda el interruptor de alimentación situado al lado del enchufe. <br/>
    ![Interruptor de alimentación](/images/MDMSPowerOnOff.png)
 
-2. Utilice el botón de encendido y apagado del sistema que hay a la derecha de los LED de enlace de conexión.
-   ![System On/Off](/images/MDMSSystemOnOff.png)
+2. Utilice el botón de Encender/Apagar el sistema que está junto a los diodos LED de enlace de conexión.
+   ![Encender/Apagar el sistema](/images/MDMSSystemOnOff.png)
 
 El dispositivo está encendido cuando se muestra el ID del sistema en la pantalla de LED.
 
@@ -46,9 +47,9 @@ De forma predeterminada, las tramas Jumbo están habilitadas en los puertos 10-G
 
 Los puertos se originan en el mismo dispositivo que los cables RJ45, y se suministran los cables CAT6A. Se proporcionan los adaptadores de cobre SFP+ para realizar las conversiones desde RJ45. Los adaptadores funcionan con todos los fabricantes de interruptores. Dichos adaptadores están ubicados en un bolsillo de la parte inferior de la tapa del contenedor de envío.
 
-- Eth1 (1 GbE-B) se suele utilizar para la gestión de dispositivos y, por lo tanto, debe tener una pasarela especificada en la configuración de direcciones IP. Esto puede verse en la pantalla LCD después de que el dispositivo se encienda (véase la sección de configuración de direcciones IP). Este puerto se utiliza para que la interfaz de usuario basada en web esté disponible fuera de la subred de datos.
+- Eth1 (`1GbE-B`) se suele utilizar para la gestión de dispositivos y, por lo tanto, debe tener una pasarela especificada en la configuración de direcciones IP. Esta información puede verse en la pantalla LCD después de que el dispositivo se encienda (véase la sección de configuración de direcciones IP). Este puerto se utiliza para que la interfaz de usuario basada en web esté disponible fuera de la subred de datos.
 
-- Eth3 (10 GbE-B) se utiliza para la transferencia de datos y también se puede utilizar para la gestión del dispositivo. Esta conexión debe estar en la misma subred que los datos de origen o conectarse directamente al servidor si es necesario.
+- Eth3 (`10GbE-B`) se utiliza para la transferencia de datos y también se puede utilizar para la gestión del dispositivo. Esta conexión debe estar en la misma subred que los datos de origen o conectarse directamente al servidor si es necesario.
 
 
 ### Configuración de cobre SFP+ y de RJ45
@@ -57,9 +58,9 @@ Los puertos se originan en el mismo dispositivo que los cables RJ45, y se sumini
 
 Los puertos se originan en el mismo dispositivo que cobre SFP+ y RJ45. Se suministra tanto el cable CAT6A como el cable cobre SFP+.
 
-- Eth5 10 GbE (5) se suele utilizar para la transferencia de datos, pero también se puede utilizar para la gestión del dispositivo. Este puerto solo funciona a velocidad de 10 GbE.
+- Eth5 (`10Gb SFP+ (5)`) se suele utilizar para la transferencia de datos, pero también se puede utilizar para la gestión del dispositivo. Este puerto solo funciona a velocidad de 10 GbE.
 
-- Eth2 10 GbE (2) se suele utilizar para la gestión del dispositivo, pero también se puede utilizar para la transferencia de datos. Este puerto puede funcionar a una velocidad de 1 GbE o de 10 GbE.
+- Eth2 (`10-GbE (2)`) se suele utilizar para la gestión del dispositivo, pero también se puede utilizar para la transferencia de datos. Este puerto puede funcionar a velocidad de 1GbE o bien de 10GbE.
 
 
 La conexión de transferencia de datos debe estar en la misma subred que los datos de origen o conectarse directamente al servidor.
@@ -84,19 +85,19 @@ NO es necesario configurar ni utilizar ambos puertos si se puede acceder a la di
 
 4. Conecte el dispositivo a la red.
     - Conexión de RJ45
-  	  1. Extraiga el cable CAT6A de la tapa del compartimento y conéctelo al puerto Eth3 (10 GbE-B) que se muestra en la imagen.
+      1. Extraiga el cable CAT6A de la tapa del compartimento y conéctelo al puerto Eth3 (10 GbE-B).
 ![Puertos del dispositivo MDMS](/images/MDMSNewEth1and3.png)
-
       2. Conecte el adaptador de CAT6A a SFP proporcionado y conecte el conmutador de 10 Gb.
-      3. Si se puede acceder a la dirección IP configurada para Eth3 con el navegador mediante `HTTPS://'Su-dirección-Eth3'`, continúe con el paso siguiente. De lo contrario, conecte el puerto Eth1 (1 GbE-B).<br/>
+      3. Si se puede acceder a la dirección IP configurada para Eth3 con el navegador mediante `HTTPS://'Su-dirección-Eth3'`, continúe con el paso siguiente. De lo contrario, conecte el puerto Eth1 (`1GbE-B`).<br/>
          
          Si tiene que modificar los valores de IP para Eth3 o Eth1, consulte la sección [Configuración de direcciones IP](#configuring-ip-addresses).
          {:tip}
+         
     - Conexión de cobre SFP+
       1. Extraiga el cable de cobre SFP+ de la tapa del compartimento y conéctelo a Eth5 10 GbE (5)
          ![Puertos del dispositivo MDMS](/images/sfp-ports-sized-ports-labeled.png)
       2. Conecte el cable de cobre SFP+ al conmutador de 10 Gb.
-      3. Si se puede llegar a la dirección IP configurada para Eth5 mediante el navegador `HTTPS://'Su-dirección-Eth5'`, continúe con el siguiente paso; de lo contrario, conecte el puerto Eth2 (10/1 GbE-B).
+      3. Si se puede llegar a la dirección IP que se ha configurado para Eth5 mediante el navegador `HTTPS://'Su-dirección-Eth5'`, continúe con el siguiente paso; de lo contrario, conecte el puerto Eth2 (`10GbE-B` o `1GbE-B`).
 
          Si tiene que modificar los valores de IP para Eth5 o Eth2, consulte la sección [Configuración de direcciones IP](#configuring-ip-addresses).
          {:tip}
@@ -128,7 +129,7 @@ NO es necesario configurar ni utilizar ambos puertos si se puede acceder a la di
 12. En el flujo de trabajo, pulse **Ver agrupación de almacenamiento** para supervisar el uso de almacenamiento en el dispositivo.
     ![Ver agrupación de almacenamiento](/images/SystemStoragePoolPerf.png)
 
-13.	Cuando la carga se complete, apague correctamente el sistema. En el flujo de trabajo, pulse **Cerrar dispositivo...**.![Cierre del dispositivo](/images/SystemShutdown.png)
+13.	Cuando la carga se complete, puede apagar correctamente el sistema. En el flujo de trabajo, pulse **Cerrar dispositivo...**.![Cierre del dispositivo](/images/SystemShutdown.png)
 
 14.	Desconecte el dispositivo, devuelva el cable de alimentación, el cable Ethernet y el adaptador de SFP+ en sus respectivas ubicaciones de almacenamiento debajo de la tapa.
 

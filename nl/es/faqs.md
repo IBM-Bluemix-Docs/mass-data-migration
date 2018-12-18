@@ -60,7 +60,7 @@ Un dispositivo puede estar en unas instalaciones sin coste alguno durante los pr
 ## ¿Qué interfaces de red admite la migración de datos masiva?
 {: faq}
 
-Los dispositivos de migración de datos masiva tienen interfaces de red de 10 Gbps con puertos de red de cobre SFP+ y RJ45 (CAT6a). También se incluye el convertidor de RJ45 a SFP+. Las interfaces de 10 Gbps tienen habilitadas las tramas Jumbo.
+Los dispositivos de migración de datos masiva tienen interfaces de red de 10 Gbps con puertos de red de cobre SFP+ y RJ45 (CAT6a). También se incluye el convertidor de RJ45 a SFP+. Las tramasde gran tamaño están habilitadas en las interfaces de 10 Gbps.
 
 <hr/>
 
@@ -108,7 +108,7 @@ Todos los dispositivos de migración de datos masiva se alojan en compartimentos
 
 ## ¿Cómo puedo solicitar que se realice el seguimiento durante el proceso de migración?
 
-Para realizar el seguimiento del estado de una solicitud, consulte el apartado de solicitudes activas en la página de migración de datos masiva de [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. También puede iniciar la sesión en el portal mediante el enlace siguiente: https://control.softlayer.com/storage/mdms
+Para realizar el seguimiento del estado de una solicitud, consulte el apartado de solicitudes activas en la página de migración de datos masiva de [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}. Puede iniciar sesión en el portal mediante el enlace siguiente: https://control.softlayer.com/storage/mdms ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
 
 <hr/>
 
@@ -156,7 +156,7 @@ En Estados Unidos se aplica una tarifa plana de 395 dólares por dispositivo. Es
 ## ¿Cuánto cuesta el uso de {{site.data.keyword.cos_full_notm}}?
 {: faq}
 
-La transferencia de datos a {{site.data.keyword.cloud_notm}} no supone ningún coste para el usuario. Sin embargo, se aplican las tarifas estándares para los datos que se almacenan en {{site.data.keyword.cos_full}} o en cualquier otro servicio de {{site.data.keyword.cloud_notm}}. Encontrará los precios de {{site.data.keyword.cos_full}} para la oferta en varias regiones estándar en el enlace siguiente: https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage#s3api
+La transferencia de datos a {{site.data.keyword.cloud_notm}} no supone ningún coste para el usuario. Sin embargo, se aplican las tarifas estándares para los datos que se almacenan en {{site.data.keyword.cos_full}} o en cualquier otro servicio de {{site.data.keyword.cloud_notm}}. Encontrará los precios de {{site.data.keyword.cos_full}} para la oferta en varias regiones estándar en el enlace siguiente: https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage#s3api ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
 
 <hr/>
 

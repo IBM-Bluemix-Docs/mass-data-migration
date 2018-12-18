@@ -2,12 +2,14 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-09-20"
+lastupdated: "2018-12-05"
 
 ---
 {:new_window: target="_blank"}
 
-# Lista de comprobación de inventario de RJ45
+# Listas de comprobación de inventario
+
+## Lista de comprobación de inventario de RJ45
 
 ![Puertos RJ45](/images/RJ45Ports.png)
 ![Inventario de dispositivos de migración de datos masiva](/images/MDMDeviceInventory.png)
@@ -38,7 +40,7 @@ lastupdated: "2018-09-20"
 </br> 
 ________________________________________________________________ 
 
-Firma/fecha del expedidor
+Fecha y firma del expedidor
 
 
 </br> 
@@ -46,14 +48,14 @@ Firma/fecha del expedidor
 </br> 
 ________________________________________________________________ 
 
-Firma/fecha del cliente
+Fecha y firma del cliente
 
 
 
 
 <hr>
 
-# Lista de comprobación de inventario de SFP
+## Lista de comprobación de inventario de SFP
 
 ![Puertos SFP](/images/SFP+Ports.png)
 ![Inventario de dispositivos de migración de datos masiva](/images/MDMDeviceInventory.png)
@@ -85,7 +87,7 @@ Firma/fecha del cliente
 </br> 
 ________________________________________________________________ 
 
-Firma/fecha del expedidor
+Fecha y firma del expedidor
 
 
 </br> 
@@ -93,4 +95,4 @@ Firma/fecha del expedidor
 </br> 
 ________________________________________________________________ 
 
-Firma/fecha del cliente
+Fecha y firma del cliente

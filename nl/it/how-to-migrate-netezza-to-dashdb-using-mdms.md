@@ -96,4 +96,4 @@ I dati possono essere riletti su Netezza usando l'istruzione `SELECT FROM` con l
 
 **Informazioni aggiuntive**
 
-Ulteriori informazioni su Netezza sono disponibili nella [documentazione utente del database IBM Netezza](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.
+Per ulteriori informazioni su Netezza, vedi la [documentazione utente del database IBM Netezza](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.

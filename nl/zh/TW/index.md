@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017-2018
-lastupdated: "2018-10-31"
+lastupdated: "2018-11-27"
 
 ---
 {:new_window: target="_blank"}
@@ -30,7 +30,9 @@ lastupdated: "2018-10-31"
 
 ## 建立要求
 
-1. 使用您的唯一認證登入 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}。
+1. 登入 [IBM Cloud 主控台](https://console.bluemix.net/catalog/){:new_window}，然後按一下左上角的功能表圖示。選取**基礎架構**。
+
+   或者，您可以登入 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}。
 2. 從「導覽列」中，選取**儲存空間** > **資料移轉** > **Mass Data Migration**，以存取 Mass Data Migration 登入頁面。
 3. 按一下**要求裝置**，以開啟訂單表單。
 4. 完成 **Mass Data Migration** 訂單表單中的每一個欄位。

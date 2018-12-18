@@ -2,12 +2,14 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-09-20"
+lastupdated: "2018-12-05"
 
 ---
 {:new_window: target="_blank"}
 
-# Elenco di controllo per l'inventario RJ45
+# Elenchi di controllo per l'inventario
+
+## Elenco di controllo per l'inventario RJ45
 
 ![Porte RJ45](/images/RJ45Ports.png)
 ![Inventario del dispositivo Mass Data Migration](/images/MDMDeviceInventory.png)
@@ -18,7 +20,7 @@ lastupdated: "2018-09-20"
 
 -	2 cavi CAT6A nella busta inferiore sinistra
 
--	2 adattatori da 10BASET a SFP+ da 10Gb nella busta superiore sinistra
+-	2 adattatori da 10BASET a SFP+ da 10-GB nella busta superiore sinistra
 
 -	Fusibili del dispositivo nella busta superiore destra
 
@@ -38,7 +40,7 @@ lastupdated: "2018-09-20"
 </br> 
 ________________________________________________________________ 
 
-Firma/data del mittente
+Firma e data del mittente
 
 
 </br> 
@@ -46,14 +48,14 @@ Firma/data del mittente
 </br> 
 ________________________________________________________________ 
 
-Firma/data del cliente
+Firma e data del cliente
 
 
 
 
 <hr>
 
-# Elenco di controllo per l'inventario SFP+
+## Elenco di controllo per l'inventario SFP+
 
 ![Porte SFP](/images/SFP+Ports.png)
 ![Inventario del dispositivo Mass Data Migration](/images/MDMDeviceInventory.png)
@@ -85,7 +87,7 @@ Firma/data del cliente
 </br> 
 ________________________________________________________________ 
 
-Firma/data del mittente
+Firma e data del mittente
 
 
 </br> 
@@ -93,4 +95,4 @@ Firma/data del mittente
 </br> 
 ________________________________________________________________ 
 
-Firma/data del cliente
+Firma e data del cliente
