@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017-2018
-lastupdated: "2018-10-31"
+lastupdated: "2018-11-27"
 
 ---
 {:new_window: target="_blank"}
@@ -30,7 +30,9 @@ lastupdated: "2018-10-31"
 
 ## 创建请求
 
-1. 使用您的唯一凭证登录到 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}。
+1. 登录到 [IBM Cloud 控制台](https://console.bluemix.net/catalog/){:new_window}，并单击左上角的菜单图标。选择**基础架构**。
+
+   或者，可以登录到 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}。
 2. 从导航栏中选择**存储器** > **数据迁移** > **Mass Data Migration**，以访问 Mass Data Migration 登录页面。
 3. 单击**请求设备**以打开订单表单。
 4. 填写 **Mass Data Migration** 订购表单中的每个字段。

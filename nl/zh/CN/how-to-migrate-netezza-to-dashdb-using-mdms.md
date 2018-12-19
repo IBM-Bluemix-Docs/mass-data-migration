@@ -75,7 +75,7 @@ DH71964T9 1.50 9,615,179,776 14,417,923,840 4,802,744,064
 ```
       {: codeblock}
 
-## 抽取数据和上线
+## 抽取数据并上线
 
 可以使用两个选项从 Netezza 中抽取数据。
 - 使用 `nz_backup` 实用程序。
@@ -96,4 +96,4 @@ DH71964T9 1.50 9,615,179,776 14,417,923,840 4,802,744,064
 
 **其他信息**
 
-有关 Netezza 的更多信息，请访问 [IBM Netezza 数据库用户文档](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}。
+有关 Netezza 的更多信息，请参阅 [IBM Netezza 数据库用户文档](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}。
