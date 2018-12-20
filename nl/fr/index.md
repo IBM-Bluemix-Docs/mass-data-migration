@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017-2018
-lastupdated: "2018-10-31"
+lastupdated: "2018-11-27"
 
 ---
 {:new_window: target="_blank"}
@@ -14,7 +14,7 @@ lastupdated: "2018-10-31"
 
 **Prérequis**
 
-Rassemblez ces informations avant de soumettre une demande Mass Data Migration et de réaliser la migration. 
+Rassemblez ces informations avant de soumettre une demande Mass Data Migration et de réaliser la migration.
 
 1. Paramètres réseau pour le périphérique de stockage
    - Adresse IP statique
@@ -30,18 +30,21 @@ Rassemblez ces informations avant de soumettre une demande Mass Data Migration e
 
 ## Création d'une demande
 
-1. Connectez-vous au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} avec vos données d'identification uniques.
+1. Connectez-vous à la [console IBM Cloud](https://console.bluemix.net/catalog/){:new_window}, puis cliquez sur l'icône de menu dans l'angle supérieur gauche. Sélectionnez **Infrastructure**.
+
+   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
 2. Sélectionnez **Storage** > **Data Migration** > **Mass Data Migration** dans la barre de navigation afin d'accéder à la page d'accueil de Mass Data Migration.
 3. Cliquez sur **Request Device** afin d'ouvrir le formulaire de commande.
 4. Remplissez chaque zone du formulaire de commande **Mass Data Migration**.
-   - **Shipping Address** - ce formulaire n'est pas prérempli et chaque zone est modifiable. Indiquez le nom de la personne qui acceptera la livraison du périphérique dans la zone Attention. Lors de la sélection de l'emplacement de livraison, tenez compte du poids du périphérique (en l'occurrence, 30 kg) et de l'accessibilité.
+   - **Adresse de facturation** - ce formulaire n'est pas prérempli et chaque zone est modifiable. Indiquez le nom de la personne qui acceptera la livraison du périphérique dans la zone Attention. Lors de la sélection de l'emplacement de livraison, tenez compte du poids du périphérique (en l'occurrence, 30 kg) et de l'accessibilité.
    
-   Le périphérique est équipé de roues et de poignées rétractables pour une meilleure maniabilité.{:note}
+   Le périphérique est équipé de roues et de poignées rétractables pour une meilleure maniabilité.
+   {:note}
 
-   - **Key Migration Contacts** - ce formulaire n'est pas prérempli. Chaque zone est modifiable. Plusieurs personnes peuvent être ajoutées.
-   - **Data Center Network Configuration** - entrez des données de configuration réseau pour la configuration préalable du port Eth3 sur le périphérique Mass Data Migration avant l'expédition.
-   - **Data Offload Destination** - sélectionnez votre compte cible existant dans la liste.
-   - **Request Name** - entrez un nom pour faciliter le suivi de votre commande.
+   - **Key migration contacts** - ce formulaire n'est pas prérempli. Chaque zone est modifiable. Plusieurs personnes peuvent être ajoutées.
+   - **Data center network configuration** - fournit des détails de configuration de réseau pour préparer la mise à disposition du port Eth3 sur le périphérique Mass Data Migration avant l'expédition.
+   - **Data offload destination** - sélectionnez votre compte cible existant dans la liste.
+   - **Request name** - entrez un nom qui vous permettra de suivre votre commande.
 5. Cochez la case **I have read and agree to the full terms of the Mass Data Migration Agreement** après avoir lu chaque contrat de service.
 6. Cliquez sur **Place Request** pour soumettre la demande. Cliquez sur **Cancel** pour abandonner complètement le formulaire et revenir à la page d'accueil de Mass Data Migration.
 
@@ -64,7 +67,8 @@ Lorsque le périphérique est prélevé par le transporteur pour l'acheminement 
 2. Pointez le navigateur sur l'adresse IP statique que vous avez indiquée dans le formulaire de demande.
 3. Connectez-vous et fournissez un mot de passe pour débloquer le pool de stockage vide. <br/>
    
-   Pour connaître le mot de passe, consultez les détails de la demande sur la page [Requests](https://control.softlayer.com/storage/mdms){:new_window}.{:tip}
+   Pour connaître le mot de passe, consultez les détails de la demande sur la page [Requests](https://control.softlayer.com/storage/mdms){:new_window}.
+   {:tip}
 4. Montez le partage NFS sur votre serveur.
 5. Relancez l'exécution de l'inventaire DataShuttle afin de garantir que les éventuels nouveaux fichiers sont capturés.
 

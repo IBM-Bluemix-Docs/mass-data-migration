@@ -84,7 +84,7 @@ lastupdated: "2018-10-31"
    ```
 
    `{target_directory}`는 MDMS 디바이스에서 제공하는 NFS 공유이며 이 서버에 마운트됩니다.
-{:tip}
+   {:tip}
 
 - `CREATE EXTERNAL TABLE` 문을 사용하십시오.
    - `FORMAT` = ”Text”를 선택하십시오.
@@ -96,4 +96,4 @@ lastupdated: "2018-10-31"
 
 **추가 정보**
 
-Netezza에 대한 자세한 정보는 [IBM Netezza 데이터베이스 사용자 문서](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}에 있습니다.
+Netezza에 관한 자세한 정보는 [IBM Netezza 데이터베이스 사용자 문서](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}를 참조하십시오.

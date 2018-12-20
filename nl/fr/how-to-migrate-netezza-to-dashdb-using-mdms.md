@@ -75,7 +75,7 @@ Total For This Database 1.50 183,537,500,160 275,251,242,240 91,713,742,080
       ```
       {: codeblock}
 
-## Extraction des données et intégration
+## Extraction de données et processus d'intégration
 
 Vous pouvez utiliser deux options pour extraire les données de Netezza.
 - Utilisez l'utilitaire `nz_backup`.
@@ -83,7 +83,8 @@ Vous pouvez utiliser deux options pour extraire les données de Netezza.
    /nz/support/contrib/bin/nz_backup –db   {db_name} –d  {target_directory}  ascii threads 4
    ```
 
-   `{target_directory}` est le partage NFS fourni par le périphérique MDMS et monté sur ce serveur.{:tip}
+   `{target_directory}` est le partage NFS fourni par le périphérique MDMS et monté sur ce serveur.
+   {:tip}
 
 - Utilisez l'instruction `CREATE EXTERNAL TABLE`.
    - Sélectionnez `FORMAT` = ”Text”
@@ -95,4 +96,4 @@ Il est possible de relire les données sur Netezza en utilisant l'instruction `S
 
 **Informations supplémentaires**
 
-Des informations supplémentaires sur Netezza sont disponibles dans la [documentation utilisateur de la base de données IBM Netezza](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.
+Pour plus d'informations sur Netezza, voir la [documentation relative à l'utilisation d'une base de données IBM Netezza](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.

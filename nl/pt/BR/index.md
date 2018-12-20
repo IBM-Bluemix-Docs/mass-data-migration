@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017-2018
-lastupdated: "2018-10-31"
+lastupdated: "2018-11-27"
 
 ---
 {:new_window: target="_blank"}
@@ -30,21 +30,21 @@ Reúna essas informações antes de enviar uma solicitação ao Mass Data Migrat
 
 ## Criando uma Solicitação
 
-1. Efetue login no
-[{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}
-com suas credenciais exclusivas.
+1. Efetue login no [console do IBM Cloud](https://console.bluemix.net/catalog/){:new_window} e clique no ícone de menu na parte superior esquerda. Selecione **Infrastructure**.
+
+   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
 2. Selecione **Armazenamento** > **Migração de dados** > **Mass Data Migration** na Barra de navegação para acessar a página de entrada do Mass Data Migration.
 3. Clique em **Solicitar dispositivo** para abrir o formulário do pedido.
 4. Preencha cada campo no formulário do pedido **Mass Data Migration**.
-   - **Endereço de entrega** - este formulário não está preenchido e cada campo é editável. Forneça o nome da pessoa que vai aceitar a entrega do dispositivo no campo Atenção. Ao escolher o local de entrega, considere o peso do dispositivo (66 lb. com sua caixa) e a acessibilidade.
+   - **Endereço de entrega**: esse formulário não é pré-preenchido previamente e cada campo é editável. Forneça o nome da pessoa que vai aceitar a entrega do dispositivo no campo Atenção. Ao escolher o local de entrega, considere o peso do dispositivo (66 lb. com sua caixa) e a acessibilidade.
    
    O dispositivo está equipado com rodas e alça retrátil para manuseio.
    {:note}
 
-   - **Contatos de migração de chave** - este formulário não é pré-preenchido. Cada campo é editável. Mais de uma pessoa pode ser incluída.
-   - **Configuração de rede do data center** - forneça detalhes de configuração de rede para o pré-fornecimento da porta Eth3 no dispositivo Mass Data Migration antes da remessa.
-   - **Destino de transferência de dados** - selecione sua conta de destino existente na lista.
-   - **Nome da solicitação** - insira um nome para ajudar a rastrear sua ordem.
+   - **Contatos de migração de chave**: esse formulário não é pré-preenchido. Cada campo é editável. Mais de uma pessoa pode ser incluída.
+   - **Configuração de rede do data center**: forneça os detalhes de configuração de rede para o pré-fornecimento da porta Eth3 no dispositivo Mass Data Migration antes da remessa.
+   - **Destino de transferência de dados**: selecione sua conta de destino existente na lista.
+   - **Nome da solicitação**: insira um nome para ajudar a rastrear seu pedido.
 5. Selecione a caixa de seleção **Eu li e concordo com os termos integrais do Contrato do Mass Data Migration** após a leitura de cada contrato de prestação de serviços.
 6. Clique em **Fazer solicitação** para enviar a solicitação. Clique em **Cancelar** para abandonar completamente o formulário e retornar para a página de entrada do Mass Data Migration.
 

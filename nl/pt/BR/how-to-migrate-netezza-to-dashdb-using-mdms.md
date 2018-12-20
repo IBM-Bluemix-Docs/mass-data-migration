@@ -15,7 +15,7 @@ lastupdated: "2018-10-31"
 
 O Mass Data Migration Service (MDMS) pode ser usado para migrar grandes bancos de dados do Netezza para o DashDB. É possível usar esse documento como uma referência para as ferramentas que determinam a quantia de dados a serem transferidos e os métodos de exportação.
 
-## Determinando o tamanho do objeto do banco
+## Determinando o tamanho do objeto de banco de dados
 1. Em [Suporte IBM > Fix Central > Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window}, faça download da versão apropriada do Netezza Tools que corresponde à sua instância do Netezza.
 
    Por padrão, as ferramentas de suporte são instaladas no servidor Netezza, no diretório `/nz/support-IBM_Netezza<version>/bin`
@@ -75,7 +75,7 @@ Total For This Database 1.50 183,537,500,160 275,251,242,240 91,713,742,080
       ```
       {: codeblock}
 
-## Extraindo dados e onboarding
+## Extraindo dados e migrando
 
 É possível usar duas opções para extrair os dados do Netezza.
 - Use o utilitário  ` nz_backup ` .
@@ -96,4 +96,4 @@ Os dados podem ser lidos novamente no Netezza usando a instrução `SELECT FROM`
 
 ** Informações adicionais **
 
-Mais informações sobre o Netezza estão disponíveis em [Documentação do usuário do banco de dados do IBM Netezza](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.
+Para mais informações sobre o Netezza, consulte a [Documentação do usuário do banco de dados IBM Netezza](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.

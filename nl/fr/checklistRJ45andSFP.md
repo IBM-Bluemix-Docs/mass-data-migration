@@ -2,12 +2,14 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-09-20"
+lastupdated: "2018-12-05"
 
 ---
 {:new_window: target="_blank"}
 
-# Liste de contrôle de l'inventaire RJ45
+# Listes de contrôle d'inventaire
+
+## Liste de contrôle de l'inventaire RJ45
 
 ![Ports RJ45](/images/RJ45Ports.png)
 ![Inventaire du périphérique Mass Data Migration](/images/MDMDeviceInventory.png)
@@ -18,7 +20,7 @@ lastupdated: "2018-09-20"
 
 -	2 câbles CAT6A dans la pochette inférieure gauche
 
--	2 adaptateurs 10-GB 10BASET vers SFP+ dans la pochette supérieure gauche
+-	2 adaptateurs 10 Go 10BASET vers SFP+ dans la pochette supérieure gauche
 
 -	Fusibles du périphérique dans la pochette supérieure droite
 
@@ -38,7 +40,7 @@ lastupdated: "2018-09-20"
 </br> 
 ________________________________________________________________ 
 
-Date/Signature de l'expéditeur
+Signature et date de l'expéditeur
 
 
 </br> 
@@ -46,14 +48,14 @@ Date/Signature de l'expéditeur
 </br> 
 ________________________________________________________________ 
 
-Date/Signature du client
+Signature et date du client
 
 
 
 
 <hr>
 
-# Liste de contrôle de l'inventaire SFP+
+## Liste de contrôle de l'inventaire SFP+
 
 ![Ports SFP](/images/SFP+Ports.png)
 ![Inventaire du périphérique Mass Data Migration](/images/MDMDeviceInventory.png)
@@ -85,7 +87,7 @@ Date/Signature du client
 </br> 
 ________________________________________________________________ 
 
-Date/Signature de l'expéditeur
+Signature et date de l'expéditeur
 
 
 </br> 
@@ -93,4 +95,4 @@ Date/Signature de l'expéditeur
 </br> 
 ________________________________________________________________ 
 
-Date/Signature du client
+Signature et date du client

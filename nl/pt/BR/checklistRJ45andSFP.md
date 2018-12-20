@@ -2,19 +2,21 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-09-20"
+lastupdated: "2018-12-05"
 
 ---
 {:new_window: target="_blank"}
 
-# Lista de verificação do inventário do RJ45
+# Listas de verificação de inventário
+
+## Lista de verificação do inventário do RJ45
 
 ![Portas RJ45](/images/RJ45Ports.png)
 ![Inventário do dispositivo de Mass Data Migration](/images/MDMDeviceInventory.png)
 
 
 
--	Cabo de energia na bolsa inferior direita
+-	Cabo de alimentação na bolsa inferior direita
 
 -	2 cabos CAT6A na bolsa inferior esquerda
 
@@ -38,7 +40,7 @@ lastupdated: "2018-09-20"
 </br> 
 ________________________________________________________________ 
 
-Assinatura/Data da transportadora
+Assinatura e data da transportadora
 
 
 </br> 
@@ -46,20 +48,20 @@ Assinatura/Data da transportadora
 </br> 
 ________________________________________________________________ 
 
-Assinatura/Data do cliente
+Assinatura e data do cliente
 
 
 
 
 <hr>
 
-# Lista de verificação do inventário do SFP+
+## Lista de verificação do inventário do SFP+
 
 ![Portas SFP](/images/SFP+Ports.png)
 ![Inventário do dispositivo de Mass Data Migration](/images/MDMDeviceInventory.png)
 
 
--	Cabo de energia na bolsa inferior direita
+-	Cabo de alimentação na bolsa inferior direita
 
 -	2 cabos CAT6A na bolsa inferior esquerda
 
@@ -85,7 +87,7 @@ Assinatura/Data do cliente
 </br> 
 ________________________________________________________________ 
 
-Assinatura/Data da transportadora
+Assinatura e data da transportadora
 
 
 </br> 
@@ -93,4 +95,4 @@ Assinatura/Data da transportadora
 </br> 
 ________________________________________________________________ 
 
-Assinatura/Data do cliente
+Assinatura e data do cliente

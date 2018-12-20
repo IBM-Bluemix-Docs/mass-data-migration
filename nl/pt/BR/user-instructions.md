@@ -20,14 +20,15 @@ O dispositivo {{site.data.keyword.cloud}} Mass Migration é um dispositivo de ar
 O dispositivo é enviado com um cabo de energia C13-US [https://en.wikipedia.org/wiki/IEC_60320](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. Se o dispositivo for usado fora dos Estados Unidos, um adaptador de energia poderá ser necessário.
 
 O dispositivo aceita todos os intervalos de alimentação padrão.
+<br/>
 ![Intervalo de alimentação](/images/PowerRating.png)
 
 Para ligar o dispositivo, execute as etapas a seguir.
 1. Ligue o comutador Mains ao lado do plugue de energia. <br/>
    ![Mains Switch](/images/MDMSPowerOnOff.png)
 
-2. Use o botão Ligar/Desligar Sistema, à direita dos LEDs do link de conexão.
-   ![Ligar/Desligar Sistema](/images/MDMSSystemOnOff.png)
+2. Use o botão Ligar/desligar sistema que está ao lado dos LEDs do link de conexão.
+   ![Ligar/desligar sistema](/images/MDMSSystemOnOff.png)
 
 O dispositivo é ligado quando o ID do sistema é mostrado na tela de LED.
 
@@ -48,9 +49,9 @@ Por padrão, o recurso de quadros gigante está ativado nas portas de 10 GbE. Es
 As portas se originam do dispositivo como RJ45 e os cabos CAT6A são fornecidos. Adaptadores
 SFP+ de cobre são fornecidos para converter de RJ45. Os adaptadores funcionam com todos os fabricantes de comutador. Esses adaptadores estão localizados em um bolso na parte de baixo da tampa do contêiner de remessa.
 
-- Eth1 (1 GbE-B) é geralmente usado para gerenciamento de dispositivo e, como tal, deve ter um gateway especificado na configuração de endereço IP. Isso pode ser visualizado na tela LCD depois que o dispositivo estiver ligado (consulte a seção de configuração de endereço IP). Essa porta é usada para tornar a UI baseada na web disponível fora da sub-rede de dados.
+- O Eth1 (`1GbE-B`) geralmente é usado para gerenciamento de dispositivo e, como tal, deve ter um gateway especificado na configuração de endereço IP. Essas informações podem ser visualizadas na tela LCD depois que o dispositivo estiver ligado (consulte a seção de configuração do endereço IP). Essa porta é usada para tornar a UI baseada na web disponível fora da sub-rede de dados.
 
-- Eth3 (10 GbE-B) é usado para a transferência de dados e também pode ser usado para gerenciamento de dispositivo. Essa conexão deve estar na mesma sub-rede que os dados de origem ou pode ser conectada diretamente ao servidor, se necessário.
+- O Eth3 (`10GbE-B`) é usado para transferência de dados e também pode ser usado para gerenciamento de dispositivo. Essa conexão deve estar na mesma sub-rede que os dados de origem ou pode ser conectada diretamente ao servidor, se necessário.
 
 
 ### Configurando o Copper SFP + e o RJ45
@@ -59,16 +60,17 @@ SFP+ de cobre são fornecidos para converter de RJ45. Os adaptadores funcionam c
 
 As portas se originam do dispositivo como SFP+ de cobre e RJ45. Ambos os cabos, CAT6A e SFP+ de cobre, são fornecidos.
 
-- Eth5 10 GbE (5) é geralmente usado para transferência de dados, mas também pode ser usado para gerenciamento de dispositivo. Esta porta é executada apenas a 10 GbE de velocidade.
+- O Eth5 (`10Gb SFP+ (5)`) geralmente é usado para transferência de dados, mas também pode ser usado para gerenciamento de dispositivo. Esta porta é executada apenas a 10 GbE de velocidade.
 
-- Eth2 10 GbE (2) é geralmente usado para gerenciamento de dispositivo, mas também pode ser usado para transferência de dados. Esta porta pode ser executada a 1 GbE ou 10 GbE de velocidade.
+- O Eth2 (`10-GbE (2)`) geralmente é usado para gerenciamento de dispositivo, mas também pode ser usado para transferência de dados. Essa porta pode ser executada em velocidades de 1 ou 10 GbE.
 
 
 A conexão de transferência de dados deve estar na mesma sub-rede que os dados de origem ou ser conectada diretamente ao servidor.
 
 As configurações de IP podem ser visualizadas e gerenciadas na tela LCD depois que o dispositivo for ligado (consulte a seção de configuração de endereço IP).
 
-NÃO é necessário configurar e usar ambas as portas quando o IP da porta de 10 GbE pode ser acessado por meio de um navegador da web. {:note}
+NÃO é necessário configurar e usar ambas as portas quando o IP da porta de 10 GbE pode ser acessado por meio de um navegador da web.
+{:note}
 
 
 ## Carregando os dados
@@ -85,19 +87,19 @@ NÃO é necessário configurar e usar ambas as portas quando o IP da porta de 10
 
 4. Conecte o dispositivo à rede.
     - Conectando RJ45
-  	  1. Remova o cabo CAT6A da tampa da caixa e conecte-o à porta Eth3 (10 GbE-B) mostrada na figura.
-      ![Portas do dispositivo MDMS](/images/MDMSNewEth1and3.png)
-
+      1. Remova o cabo CAT6A da tampa da caixa e conecte-o à porta Eth3 (10 GbE-B).
+         ![Portas do dispositivo MDMS](/images/MDMSNewEth1and3.png)
       2. Conecte o CAT6A fornecido ao adaptador SFP+ e ligue em seu comutador de 10 Gb.
-      3. Se o endereço IP que estiver configurado para Eth3 puder ser atingido no navegador por meio de `HTTPS://'Your-Eth3-IPAddress'`, continue com a próxima etapa. Caso contrário, conecte a porta Eth1 (1 GbE-B).<br/>
+      3. Se o endereço IP que estiver configurado para Eth3 puder ser atingido no navegador por meio de `HTTPS://'Your-Eth3-IPAddress'`, continue com a próxima etapa. Caso contrário, conecte a porta Eth1 (`1GbE-B`).<br/>
          
          Se você precisar alterar alguma configuração IP para Eth3 ou Eth1, consulte a seção [Configurando endereços IP](#configuring-ip-addresses).
          {:tip}
+         
     - Conectando o SFP de Cobre
       1. Remova o cabo SFP+ de cobre da tampa da caixa e conecte-o ao Eth5 10 GbE (5)
          ![Portas do dispositivo MDMS](/images/sfp-ports-sized-ports-labeled.png)
       2. Conecte o cabo SFP+ de cobre ao seu comutador de 10 Gb.
-      3. Se for possível encontrar o endereço IP configurado para Eth5 usando o navegador `HTTPS://'Your-Eth5-IPAddress'`, prossiga para a etapa seguinte. Caso contrário, conecte a porta Eth2 (10/1 GbE-B).
+      3. Se o endereço IP que está configurado para o Eth5 puder ser alcançado por meio do navegador `HTTPS://'Your-Eth5-IPAddress'`, continue com a próxima etapa, caso contrário, conecte a porta Eth2 (`10GbE-B` ou `1GbE-B`).
 
          Se você precisar alterar alguma configuração IP para Eth5 ou Eth2, consulte a seção [Configurando endereços IP](#configuring-ip-addresses).
          {:tip}
@@ -110,8 +112,7 @@ NÃO é necessário configurar e usar ambas as portas quando o IP da porta de 10
 7. O assistente de fluxo de trabalho apresenta acesso aos itens específicos que são geralmente usados em ordem da esquerda para a direita.<br/>
     ![Ícones do fluxo de trabalho](/images/workflow.png)
 
-    O fluxo de trabalho pode ser reaberto usando o **Gerenciador de fluxo de trabalho**, na parte superior esquerda da interface.
-    {:tip}
+    O fluxo de trabalho pode ser reaberto usando o **Workflow Manager** na área superior esquerda da interface.     {:tip}
 
 8.	Ative o conjunto de armazenamentos pré-configurado.
     - Clique em **Desbloquear e iniciar o conjunto de armazenamentos**.
@@ -131,7 +132,7 @@ abrira a visualização de compartilhamentos de rede. Feche o fluxo de trabalho,
 12. No fluxo de trabalho, clique em **Visualizar conjunto de armazenamentos** para monitorar o uso de armazenamento e o IOPS no dispositivo.
     ![Visualizar conjunto de armazenamentos](/images/SystemStoragePoolPerf.png)
 
-13.	Quando o carregamento for concluído, desligue normalmente o sistema. No fluxo de trabalho, clique em **Encerrar dispositivo...**.
+13.	Quando o carregamento for concluído, será possível desligar o sistema normalmente. No fluxo de trabalho, clique em **Encerrar dispositivo...**.
     ![Encerrando o dispositivo](/images/SystemShutdown.png)
 
 14.	Desconecte o dispositivo, retorne o cabo de energia, o cabo Ethernet e o adaptador SFP+ em seus locais de armazenamento sob a tampa.

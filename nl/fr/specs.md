@@ -56,7 +56,8 @@ lastupdated: "2018-10-31"
             <td><p>Poids</p></td>
             <td>
               <p>Périphérique : 24,5 kg<br/>Avec mallette de transport : 26,7 kg</p>
-               Le périphérique est équipé de roues et de poignées pour une meilleure maniabilité. Il est accessible depuis l'extérieur de la mallette de transport.{:note}
+              Le périphérique est équipé de roues et de poignées pour une meilleure maniabilité. Il est accessible depuis l'extérieur de la mallette de transport.
+              {:note}
             </td>
           </tr>
           <tr>

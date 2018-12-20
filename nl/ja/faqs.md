@@ -53,14 +53,14 @@ lastupdated: "2018-11-05"
 
 ## 大量データ・マイグレーション・デバイスをどれほどの期間置いておくことができますか?
 
-最初の 10 営業日の間は、無料でデバイスをサイトに置いておくことができます。この時間フレームに、デバイスの配送日や受け取り日は含まれません。 この期間内にデータの取り込みが完了しない場合は、1 日あたり 30 USD で使用期間を延長できます (米国と EU の地域が対象です)。
+最初の 10 営業日の間は、無料でデバイスをサイトに置いておくことができます。 この時間フレームに、デバイスの配送日や受け取り日は含まれません。 この期間内にデータの取り込みが完了しない場合は、1 日あたり 30 USD で使用期間を延長できます (米国と EU の地域が対象です)。
 
 <hr/>
 
 ## 大量データ・マイグレーションはどんなネットワーク・インターフェースに対応していますか?
 {: faq}
 
-大量データ・マイグレーション・デバイスには、10 Gbps のネットワーク・インターフェースと、RJ45 (CAT6a) と SFP+ 銅線に対応したネットワーク・ポートがあります。RJ45 から SFP+ へのコンバーターが同梱されています。 10 Gbps インターフェースではジャンボ・フレームが有効になっています。
+大量データ・マイグレーション・デバイスには、10 Gbps のネットワーク・インターフェースと、RJ45 (CAT6a) と SFP+ 銅線に対応したネットワーク・ポートがあります。 RJ45 から SFP+ へのコンバーターが同梱されています。 10-Gbps インターフェースでジャンボ・フレームが使用可能になります。
 
 <hr/>
 
@@ -108,7 +108,7 @@ lastupdated: "2018-11-05"
 
 ## マイグレーション・プロセス全体で要求をどのように追跡管理できますか?
 
-要求の状況を追跡管理する場合は、[{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} の大量データ・マイグレーションのページにあるアクティブ要求のセクションを参照してください。 このリンク (https://control.softlayer.com/storage/mdms) を使用して、ポータルにサインインできます。
+要求の状況を追跡管理する場合は、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} の大量データ・マイグレーションのページにあるアクティブ要求のセクションを参照してください。このリンク (https://control.softlayer.com/storage/mdms) を使用して、ポータルにサインインできます。![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")
 
 <hr/>
 
@@ -156,7 +156,7 @@ lastupdated: "2018-11-05"
 ## {{site.data.keyword.cos_full_notm}} を使用するための費用はいくらかかりますか?
 {: faq}
 
-{{site.data.keyword.cloud_notm}} へのデータ転送は無料です。 ただし、{{site.data.keyword.cos_full}} や他の {{site.data.keyword.cloud_notm}} サービスでデータを保管するための標準料金が発生します。 Standard Cross Region での {{site.data.keyword.cos_full}} の価格設定については、このリンク (https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage#s3api) を参照してください。
+{{site.data.keyword.cloud_notm}} へのデータ転送は無料です。 ただし、{{site.data.keyword.cos_full}} や他の {{site.data.keyword.cloud_notm}} サービスでデータを保管するための標準料金が発生します。 Standard Cross Region での {{site.data.keyword.cos_full}} の価格設定については、このリンク (https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage#s3api) を参照してください。![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")
 
 <hr/>
 
@@ -180,4 +180,4 @@ lastupdated: "2018-11-05"
 ## スキャン・プロセス中にリンクはスキップされますか?
 {: faq}
 
-はい。スキャン・プロセス中に、シンボリック・リンクとハード・リンクはスキップされます。
+はい。 スキャン・プロセス中に、シンボリック・リンクとハード・リンクはスキップされます。

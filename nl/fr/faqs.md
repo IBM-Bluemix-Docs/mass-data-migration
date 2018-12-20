@@ -60,7 +60,7 @@ Un périphérique peut être conservé sur site sans frais pendant les 10 premie
 ## Quelles sont les interfaces réseau prises en charge par Mass Data Migration ?
 {: faq}
 
-Les périphériques Mass Data Migration sont dotés d'interfaces réseau de 10 Gbps avec ports réseau RJ45 (CAT6a) et SFP+ cuivre. Le convertisseur RJ45 vers SFP+ est inclus. Les trames Jumbo sont activées sur les interfaces 10 Gbps.
+Les périphériques Mass Data Migration sont dotés d'interfaces réseau de 10 Gbps avec ports réseau RJ45 (CAT6a) et SFP+ cuivre. Le convertisseur RJ45 vers SFP+ est inclus. Les trames sont activées sur les interfaces 10 Gbps.
 
 <hr/>
 
@@ -108,7 +108,7 @@ Tous les périphériques Mass Data Migration sont hébergés dans des boîtiers 
 
 ## Comment suivre la demande tout au long du processus de migration ?
 
-Pour suivre l'état de votre demande, consultez la section des demandes actives dans la page Mass Data Migration du portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. Vous pouvez vous connecter au portail à l'aide du lien suivant : https://control.softlayer.com/storage/mdms
+Pour suivre l'état de votre demande, consultez la section des demandes actives dans la page Mass Data Migration du portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}. Vous pouvez vous connecter au portail à l'aide du lien suivant : https://control.softlayer.com/storage/mdms ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")
 
 <hr/>
 
@@ -156,7 +156,7 @@ Aux Etats-unis, un montant forfaitaire de 395 USD est facturé par périphériqu
 ## Quel est le coût lié à l'utilisation d'{{site.data.keyword.cos_full_notm}} ?
 {: faq}
 
-Le transfert de données dans {{site.data.keyword.cloud_notm}} est effectué sans frais. Toutefois, des frais standard s'appliquent pour les données stockées dans {{site.data.keyword.cos_full}} ou tout autre service {{site.data.keyword.cloud_notm}}. La tarification relative à {{site.data.keyword.cos_full}} pour l'offre Standard Cross Region est disponible en suivant le lien suivant : https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage#s3api
+Le transfert de données dans {{site.data.keyword.cloud_notm}} est effectué sans frais. Toutefois, des frais standard s'appliquent pour les données stockées dans {{site.data.keyword.cos_full}} ou tout autre service {{site.data.keyword.cloud_notm}}. La tarification relative à {{site.data.keyword.cos_full}} pour l'offre Standard Cross Region est disponible en suivant le lien suivant : https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage#s3api ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")
 
 <hr/>
 

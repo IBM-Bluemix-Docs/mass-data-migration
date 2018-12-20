@@ -20,14 +20,15 @@ Le périphérique {{site.data.keyword.cloud}} Mass Migration est un périphériq
 Le périphérique est envoyé avec un cordon d'alimentation C13-US [https://en.wikipedia.org/wiki/IEC_60320](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. Si le périphérique est utilisé en dehors des Etats-Unis, un adaptateur d'alimentation peut être nécessaire.
 
 Le périphérique accepte toutes les gammes de puissance standard.
+<br/>
 ![Gamme de puissance](/images/PowerRating.png)
 
 Pour mettre le périphérique sous tension, procédez comme suit :
 1. Activez le commutateur Mains à l'aide de la prise électrique. <br/>
    ![Commutateur Mains](/images/MDMSPowerOnOff.png)
 
-2. Utilisez le bouton de mise sous/hors tension situé à droite des voyants de liaison.
-   ![Mise sous/hors tension du système](/images/MDMSSystemOnOff.png)
+2. Utilisez le bouton On/Off du système situé à côté des voyants de liaison de connexion.
+   ![Bouton On/Off](/images/MDMSSystemOnOff.png)
 
 Le périphérique est mis sous tension lorsque l'ID système apparaît sur l'écran des voyants.
 
@@ -47,9 +48,9 @@ Par défaut, les trames Jumbo sont activées sur les ports 10 GbE. Ce paramètre
 
 Les ports du périphérique sont constitués par des prises RJ45, et des câbles CAT6A sont fournis. Des adaptateurs SFP+ cuivre sont fournis pour la conversion à partir de RJ45. Les adaptateurs sont compatibles avec tous les fabricants de commutateurs. Ces adaptateurs se trouvent dans une pochette dans la section inférieure du couvercle du carton d'expédition.
 
-- Eth1 (1 GbE-B) est généralement utilisé pour la gestion des périphériques ; par conséquent, une passerelle doit être spécifiée dans la configuration d'adresse IP. Cette information est visible sur l'écran LCD une fois que le périphérique est mis sous tension (voir la section relative à la configuration d'adresse IP). Ce port est utilisé pour rendre l'interface utilisateur Web disponible en dehors du sous-réseau de données.
+- Eth1 (`1GbE-B`) est généralement utilisé pour la gestion des périphériques et doit donc disposer d'une passerelle spécifiée dans la configuration d'adresse IP. Ces informations sont visibles sur l'écran LCD une fois que le périphérique est mis sous tension (voir la section relative à la configuration d'adresse IP). Ce port est utilisé pour rendre l'interface utilisateur Web disponible en dehors du sous-réseau de données.
 
-- Eth3 (10 GbE-B) est utilisé pour le transfert de données et peut également servir à la gestion des périphériques. Cette connexion doit se trouver sur le même sous-réseau que celui où résident les données source, ou elle peut être directement reliée au serveur si nécessaire.
+- Eth3 (`10GbE-B`) est utilisé pour le transfert de données et peut éventuellement être utilisé pour la gestion des périphériques. Cette connexion doit se trouver sur le même sous-réseau que celui où résident les données source, ou elle peut être directement reliée au serveur si nécessaire.
 
 
 ### Configuration de SFP+ et RJ45 cuivre
@@ -58,16 +59,17 @@ Les ports du périphérique sont constitués par des prises RJ45, et des câbles
 
 Les ports du périphérique sont constitués de prises SFP+ cuivre et RJ45. Les câbles CAT6A et SFP+ cuivre sont fournis.
 
-- Eth5 (5 GbE-B) est généralement utilisé pour le transfert de données et peut également servir à la gestion des périphériques. Ce port s'exécute uniquement à une vitesse de 10 GbE. 
+- Eth5 (`10Gb SFP+ (5)`) est généralement utilisé pour le transfert de données mais peut également être utilisé pour la gestion des périphériques. Ce port s'exécute uniquement à une vitesse de 10 GbE.
 
-- Eth2 (2 GbE-B) est généralement utilisé pour la gestion des périphériques et peut également servir au transfert de données. Ce port peut s'exécuter à une vitesse de 1 GbE ou 10 GbE. 
+- Eth2 (`10-GbE (2)`) est généralement utilisé pour la gestion des périphériques mais peut également être utilisé pour le transfert de données. Ce port peut s'exécuter à une vitesse de 1 GbE ou 10 GbE.
 
 
 La connexion pour le transfert de données doit se trouver sur le même sous-réseau que celui où résident les données source ou elle peut être directement reliée au serveur si nécessaire.
 
 Les paramétrages d'adresse IP sont visibles et gérés sur l'écran LCD une fois que le périphérique est mis sous tension (voir la section relative à la configuration d'adresse IP).
 
-Il n'est PAS nécessaire de configurer et d'utiliser les deux ports si l'adresse IP du port 10 GbE port est accessible via un navigateur Web.{:note}
+Il n'est PAS nécessaire de configurer et d'utiliser les deux ports si l'adresse IP du port 10 GbE port est accessible via un navigateur Web.
+{:note}
 
 
 ## Chargement des données
@@ -84,20 +86,22 @@ Il n'est PAS nécessaire de configurer et d'utiliser les deux ports si l'adresse
 
 4. Connectez le périphérique au réseau.
     - Connexion de RJ45
-  	  1. Sortez le câble CAT6A du couvercle de la mallette et branchez-le sur le port Eth3 (10 GbE-B) illustré dans l'image ci-dessous.
-      ![Ports du périphérique MDMS](/images/MDMSNewEth1and3.png)
-
-      2. Connectez l'adaptateur CAT6A vers SFP+ fourni et reliez-le à votre interrupteur 10 Gb. 
-      3. Si l'adresse IP configurée pour Eth3 est accessible dans le navigateur via `HTTPS://'Your-Eth3-IPAddress'`, passez à l'étape suivante. Sinon, connectez le port Eth1 (1 GbE-B).<br/>
+      1. Sortez le câble CAT6A du couvercle de la mallette et branchez-le sur le port Eth3 (10 GbE-B).
+         ![Ports du périphérique MDMS](/images/MDMSNewEth1and3.png)
+      2. Connectez l'adaptateur CAT6A vers SFP+ fourni et reliez-le à votre interrupteur 10 Gb.
+      3. Si l'adresse IP configurée pour Eth3 est accessible dans le navigateur via `HTTPS://'Your-Eth3-IPAddress'`, passez à l'étape suivante. Sinon, connectez le port Eth1 (`1GbE-B`).<br/>
          
-         Si vous devez modifier les paramétrages d'adresse IP pour Eth3 ou Eth1, reportez-vous à la section [Configuration des adresses IP](#configuring-ip-addresses). {:tip}
+         Si vous devez modifier les paramétrages d'adresse IP pour Eth3 ou Eth1, reportez-vous à la section [Configuration des adresses IP](#configuring-ip-addresses).
+         {:tip}
+         
     - Connexion de SFP+ cuivre
       1. Sortez le câble SFP+ cuivre du couvercle de la mallette et branchez-le sur le port Eth5 10 GbE (5)
          ![Ports du périphérique MDMS](/images/sfp-ports-sized-ports-labeled.png)
-      2. Connectez le câble SFP+ cuivre à votre commutateur 10 Gb. 
-      3. Si l'adresse IP configurée pour Eth5 est accessible via le navigateur `HTTPS://'Your-Eth5-IPAddress'`, passez à l'étape suivante, sinon, connectez le port Eth2 (10/1 GbE-B).
+      2. Connectez le câble SFP+ cuivre à votre commutateur 10 Gb.
+      3. Si l'adresse IP configurée pour Eth5 est accessible via le navigateur `HTTPS://'Your-Eth5-IPAddress'`, passez à l'étape suivante, sinon connectez le port Eth2 (`10GbE-B` ou `1GbE-B`).
 
-         Si vous devez modifier les paramétrages d'adresse IP pour Eth5 ou Eth2, reportez-vous à la section [Configuration des adresses IP](#configuring-ip-addresses). {:tip}
+         Si vous devez modifier les paramétrages d'adresse IP pour Eth5 ou Eth2, reportez-vous à la section [Configuration des adresses IP](#configuring-ip-addresses).
+         {:tip}
 
 5. Ouvrez votre navigateur et entrez `HTTPS://Your-Eth1-IPAddress`. Remplacez `Your-Eth1-IPAddress` par l'adresse Eth1 de votre configuration réseau. Acceptez l'exception de certificat.
 
@@ -107,7 +111,8 @@ Il n'est PAS nécessaire de configurer et d'utiliser les deux ports si l'adresse
 7. L'assistant de flux de travaux présente l'accès à des éléments spécifiques qui sont généralement utilisés dans l'ordre de gauche à droite.<br/>
     ![Icônes de flux de travaux](/images/workflow.png)
 
-    Le flux de travaux peut être rouvert à l'aide de **Workflow Manager** dans l'angle supérieur gauche de l'interface.{:tip}
+    Le flux de travaux peut être de nouveau ouvert à l'aide du **gestionnaire de flux de travaux** affiché dans la zone supérieure gauche de l'interface.
+    {:tip}
 
 8.	Activez le pool de stockage préconfiguré.
     - Cliquez sur **Unlock and Start Storage Pool**.
@@ -126,7 +131,7 @@ Il n'est PAS nécessaire de configurer et d'utiliser les deux ports si l'adresse
 12. Dans le flux de travaux, cliquez sur **View Storage pool** pour surveiller l'utilisation de l'espace de stockage et les IOPS sur le périphérique.
     ![Affichage du pool de stockage](/images/SystemStoragePoolPerf.png)
 
-13.	Une fois le chargement terminé, mettez le système hors tension. Dans le flux de travaux, cliquez sur **Shutdown Appliance...**.
+13.	Une fois le chargement terminé, vous pouvez mettre proprement le système hors tension. Dans le flux de travaux, cliquez sur **Shutdown Appliance...**.
     ![Mise hors tension de l'appliance](/images/SystemShutdown.png)
 
 14.	Déconnectez le périphérique, replacez le câble d'alimentation, le câble Ethernet et l'adaptateur SFP+ dans leur emplacement de rangement respectifs sous le couvercle.

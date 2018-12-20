@@ -96,4 +96,4 @@ Netezza からデータを抽出する方法として、2 つのオプション�
 
 **追加情報**
 
-Netezza について詳しくは、[IBM Netezza データベース・ユーザー資料](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}を参照してください。
+Netezza について詳しくは、[IBM データベース・ユーザー資料](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}を参照してください。

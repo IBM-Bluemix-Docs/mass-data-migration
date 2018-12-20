@@ -60,7 +60,7 @@ lastupdated: "2018-11-05"
 ## 대량 데이터 마이그레이션에서는 어떤 네트워크 인터페이스를 지원합니까?
 {: faq}
 
-대량 데이터 마이그레이션 디바이스에는 RJ45(CAT6a) 및 SFP+ 구리선 네트워크 포트의 10Gbps 네트워크 인터페이스가 있습니다. RJ45 - SFP+ 변환기가 포함됩니다. 10Gbps 인터페이스에는 Jumbo Frame이 사용으로 설정되어 있습니다. 
+대량 데이터 마이그레이션 디바이스에는 RJ45(CAT6a) 및 SFP+ 구리선 네트워크 포트의 10Gbps 네트워크 인터페이스가 있습니다. RJ45 - SFP+ 변환기가 포함됩니다. Jumbo 프레임은 10Gbps 인터페이스에서 사용됩니다.
 
 <hr/>
 
@@ -108,7 +108,7 @@ lastupdated: "2018-11-05"
 
 ## 마이그레이션 프로세스 전체에서 요청을 어떻게 추적할 수 있습니까?
 
-요청 상태를 추적하려면 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}의 대량 데이터 마이그레이션 페이지에서 활성 요청 섹션을 참조하십시오. https://control.softlayer.com/storage/mdms 링크를 사용하여 포털에 로그인할 수 있습니다.
+요청 상태를 추적하려면 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}의 대량 데이터 마이그레이션 페이지에서 활성 요청 섹션을 참조하십시오. https://control.softlayer.com/storage/mdms ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 링크를 사용하여 포털에 로그인할 수 있습니다.
 
 <hr/>
 
@@ -156,7 +156,8 @@ lastupdated: "2018-11-05"
 ## {{site.data.keyword.cos_full_notm}} 사용 비용은 얼마입니까?
 {: faq}
 
-{{site.data.keyword.cloud_notm}}에 데이터를 전송하는 것은 무료입니다. 하지만 {{site.data.keyword.cos_full}} 또는 다른 모든 {{site.data.keyword.cloud_notm}} 서비스에 저장된 데이터에는 표준 요금이 적용됩니다. 다음 링크에서 표준 Cross Region 오퍼링에 대한 {{site.data.keyword.cos_full}}의 가격을 확인할 수 있습니다. https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage#s3api
+{{site.data.keyword.cloud_notm}}에 데이터를 전송하는 것은 무료입니다. 하지만 {{site.data.keyword.cos_full}} 또는 다른 모든 {{site.data.keyword.cloud_notm}} 서비스에 저장된 데이터에는 표준 요금이 적용됩니다. https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage#s3api ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 링크에서 표준 Cross Region 오퍼링에 대한 {{site.data.keyword.cos_full}}의 가격을 확인할 수 있습니다.
+
 
 <hr/>
 
@@ -172,12 +173,12 @@ lastupdated: "2018-11-05"
 
 버킷으로 복사될 때 오브젝트 이름이 고유하도록 보장하기 위해 오브젝트 이름의 접두부에 파일 경로가 포함됩니다. 예를 들어, 버킷으로 복사될 때 `/root/user/config.ini`는 `root/user/config.ini`가 됩니다.
 
-## {{site.data.keyword.cos_full_notm}} 계정에 대상 버킷이 존재하지 않으면 어떻게 됩니까? 
+## {{site.data.keyword.cos_full_notm}} 계정에 대상 버킷이 존재하지 않으면 어떻게 됩니까?
 {: faq}
 
 대상 버킷이 존재하지 않으면 버킷이 작성됩니다. 존재하는 경우에 버킷은 비어 있어야 합니다. 그렇지 않으면 복사를 진행할 수 없습니다.  
 
-## 스캔 프로세스 중에는 링크를 건너뜁니까? 
+## 스캔 프로세스 중에는 링크를 건너뜁니까?
 {: faq}
 
 예. 스캔 프로세스 중에는 Symlink 및 하드 링크를 건너뜁니다.
