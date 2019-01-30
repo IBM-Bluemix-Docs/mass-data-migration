@@ -12,6 +12,7 @@ lastupdated: "2019-02-05"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Getting Started with {{site.data.keyword.cloud_notm}} Mass Data Migration
+{: # GettingStarted}
 
 **Prerequisites**
 
