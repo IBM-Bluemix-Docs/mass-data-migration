@@ -18,7 +18,7 @@ The {{site.data.keyword.cloud}} Mass Migration device is a portable storage devi
 
 ## Powering up the Device
 
-The device is sent with a C13-US power cord [https://en.wikipedia.org/wiki/IEC_60320](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. If the device is used outside of the United States, a power adapter might be required.
+The device is sent with a C13-US power cord [https://en.wikipedia.org/wiki/IEC_60320 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. If the device is used outside of the United States, a power adapter might be required.
 
 The device accepts all standard power ranges. <br/>
 ![Power range](/images/PowerRating.png)
