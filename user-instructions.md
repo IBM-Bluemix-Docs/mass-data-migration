@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-10-31"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -11,6 +11,7 @@ lastupdated: "2018-10-31"
 {:important: .important}
 
 # Importing Data to the IBM Cloud Mass Migration Device
+{: #userguide}
 
 The {{site.data.keyword.cloud}} Mass Migration device is a portable storage device able to present mountable Network file system (NFS) or FileNet Content Federations Services (CFS) shares. The device is managed through a web browser interface. The device is shipped to your data center, loaded with data onsite, then returned to an {{site.data.keyword.BluSoftlayer_full}} data center and loaded into your {{site.data.keyword.cos_full}} account.
 
@@ -78,7 +79,7 @@ It is NOT required to configure and use both ports if the 10-GbE port's IP can b
 2.	Determine the most appropriate place for the device to be placed. It needs to reach both power and your ethernet connections, and minimize foot traffic.
 
 3.	Position the device to be connected. The device does not need to be removed from the portable case. It can remain in the transport case during use. Ensure that the device is at room temperature, and there's no condensation on it. Connect power by using the provided power cable underneath the case lid and power on the device.<br/>
-    
+
     Take note of the two power switches.
     {:note}
     ![Power switches](/images/MDMSPowerSwitch.png)
@@ -89,10 +90,10 @@ It is NOT required to configure and use both ports if the 10-GbE port's IP can b
          ![Ports of the MDMS device](/images/MDMSNewEth1and3.png)
       2. Connect the provided CAT6A to SFP+ adapter and connect to your 10-Gb switch.
       3. If the IP address that is configured for Eth3 can be reached in the browser through `HTTPS://'Your-Eth3-IPAddress'`, continue to the next step. Otherwise, connect the Eth1 (`1GbE-B`) port.<br/>
-         
+
          If you need to alter any IP settings for Eth3 or Eth1, see the [Configuring IP addresses](#configuring-ip-addresses) section.
          {:tip}
-         
+
     - Connecting Copper SFP+
       1. Remove the Copper SFP+ cable from the case lid and connect it to Eth5 10 GbE (5)
          ![Ports of the MDMS device](/images/sfp-ports-sized-ports-labeled.png)

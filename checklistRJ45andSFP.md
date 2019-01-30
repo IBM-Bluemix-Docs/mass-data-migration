@@ -1,13 +1,14 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-12-05"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
 
 # Inventory Checklists
+{: #inventorychecklists}
 
 ## RJ45 Inventory Checklist
 
@@ -24,29 +25,29 @@ lastupdated: "2018-12-05"
 
 -	Device fuses in upper-right pouch
 
-   
-   
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</hr> 
-</br> 
+
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</hr>
+</br>
 </hr>    
-</br> 
-________________________________________________________________ 
+</br>
+________________________________________________________________
 
 Signature and Date of Shipper
 
 
-</br> 
+</br>
 </hr>
-</br> 
-________________________________________________________________ 
+</br>
+________________________________________________________________
 
 Signature and Date of Customer
 
@@ -57,7 +58,7 @@ Signature and Date of Customer
 
 ## SFP+ Inventory Checklist
 
-![SFP Ports](/images/SFP+Ports.png) 
+![SFP Ports](/images/SFP+Ports.png)
 ![Mass Data Migration Device Inventory](/images/MDMDeviceInventory.png)
 
 
@@ -71,28 +72,28 @@ Signature and Date of Customer
 
 -	Device fuses in upper-right pouch
 
-   
-   
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</hr> 
-</br> 
+
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</hr>
+</br>
 </hr>    
-</br> 
-________________________________________________________________ 
+</br>
+________________________________________________________________
 
 Signature and Date of Shipper
 
 
-</br> 
+</br>
 </hr>
-</br> 
-________________________________________________________________ 
+</br>
+________________________________________________________________
 
 Signature and Date of Customer

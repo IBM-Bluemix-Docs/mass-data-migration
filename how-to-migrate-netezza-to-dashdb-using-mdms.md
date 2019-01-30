@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-31"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:codeblock: .codeblock}
@@ -12,6 +12,7 @@ lastupdated: "2018-10-31"
 {:important: .important}
 
 # Migrating Netezza databases to DashDB
+{: #migratingNetezzaDashDB}
 
 The Mass Data Migration Service (MDMS) can be used to migrate large Netezza databases to DashDB. You can use this document as a reference for the tools that determine the amount of data to be transferred, and exporting methods.
 

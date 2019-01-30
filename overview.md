@@ -1,13 +1,14 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-06-27"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 
 
 # {{site.data.keyword.cloud_notm}} Mass Data Migration Overview
+{: #overview}
 
 This service is a fast, simple, secure way to physically transfer terabytes to petabytes of data to the {{site.data.keyword.Bluemix}}.
 
@@ -19,23 +20,23 @@ Mass Data Migration uses 120 TB-usable capacity storage devices to accelerate mo
 
 1. Move data fast
     - By using a single Mass Data Migration device, you can migrate up to 120 TB of data (at RAID-6) in just days, as opposed to weeks or months that traditional data transfer methods use.
-    
+
 2. Flexible and scalable
     - Whether you need to migrate a few terabytes or many petabytes of data, you have the flexibility to request one or multiple devices to accommodate your workload.
-    
+
 3. Affordable
-    - Moving large data sets can be expensive and time-consuming. Each Mass Data Migration device is offered at an affordable rate that includes roundtrip shipping and 10 days of use at your site. 
-    
+    - Moving large data sets can be expensive and time-consuming. Each Mass Data Migration device is offered at an affordable rate that includes roundtrip shipping and 10 days of use at your site.
+
 4. Simple process
     - {{site.data.keyword.IBM}} sends you a pre-configured device for you to connect, ingest data, and then send back to {{site.data.keyword.IBM}} for offload into {{site.data.keyword.cos_full}}. When the offload is complete, you can enjoy immediate access to your data in the cloud while {{site.data.keyword.BluSoftlayer}} securely wipes the device.
-    
+
 5. End-to-end protection
     - Device design maximizes security from the inside-out by using AES 256-bit encryption, RAID-6 configuration and rugged, tamper-evident, waterproof, shockproof cases to promote data protection and integrity during device-handling and transport.
-    
+
 6. Secure erasure
     - {{site.data.keyword.IBM}} uses a four-pass, DOD-Level data wipe to ensure complete erasure of all customer data from Mass Data Migration devices.
-    
-    
+
+
 <hr>
 
 
