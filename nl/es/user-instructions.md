@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-10-31"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -11,13 +11,14 @@ lastupdated: "2018-10-31"
 {:important: .important}
 
 # Importación de datos al dispositivo de migración masiva de IBM Cloud
+{: #userguide}
 
 El dispositivo de migración de datos masiva de {{site.data.keyword.cloud}} es un dispositivo de almacenamiento portátil que puede presentar recursos compartidos montables del sistema de archivos de red (NFS) o CFS (Content Federations Services) de FileNet. El dispositivo se gestiona mediante una interfaz de navegador web. El dispositivo se envía al centro de datos, cargado con datos en el sitio y se devuelve a un centro de datos de {{site.data.keyword.BluSoftlayer_full}} y se carga en la cuenta de {{site.data.keyword.cos_full}}.
 
 
 ## Alimentación del dispositivo
 
-El dispositivo se suministra con un cable de alimentación C13-US [https://en.wikipedia.org/wiki/IEC_60320](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. Si se utiliza el dispositivo fuera de Estados Unidos, es posible que sea necesario un adaptador de alimentación.
+El dispositivo se suministra con un cable de alimentación C13-US [https://en.wikipedia.org/wiki/IEC_60320 ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. Si se utiliza el dispositivo fuera de Estados Unidos, es posible que sea necesario un adaptador de alimentación.
 
 El dispositivo acepta todos los rangos de alimentación estándar. <br/>
 ![Rango de alimentación](/images/PowerRating.png)
@@ -78,7 +79,7 @@ NO es necesario configurar ni utilizar ambos puertos si se puede acceder a la di
 2.	Determine el lugar más adecuado para colocar el dispositivo. Debe estar al alcance del cable de alimentación y del cable de ethernet y en un lugar poco transitado.
 
 3.	Coloque el dispositivo para conectarlo. No es necesario que el dispositivo se extraiga del compartimento portátil. Puede permanecer en el maletín de transporte mientras se utiliza. Asegúrese de que el dispositivo esté a temperatura ambiente y de que no haya condensación en el mismo. Conecte el dispositivo a la corriente mediante el cable de alimentación proporcionado debajo de la tapa del compartimento y enciéndalo.<br/>
-    
+
     Observe que hay dos interruptores de alimentación.
     {:note}
     ![Interruptores de alimentación](/images/MDMSPowerSwitch.png)
@@ -89,10 +90,10 @@ NO es necesario configurar ni utilizar ambos puertos si se puede acceder a la di
 ![Puertos del dispositivo MDMS](/images/MDMSNewEth1and3.png)
       2. Conecte el adaptador de CAT6A a SFP proporcionado y conecte el conmutador de 10 Gb.
       3. Si se puede acceder a la dirección IP configurada para Eth3 con el navegador mediante `HTTPS://'Su-dirección-Eth3'`, continúe con el paso siguiente. De lo contrario, conecte el puerto Eth1 (`1GbE-B`).<br/>
-         
+
          Si tiene que modificar los valores de IP para Eth3 o Eth1, consulte la sección [Configuración de direcciones IP](#configuring-ip-addresses).
          {:tip}
-         
+
     - Conexión de cobre SFP+
       1. Extraiga el cable de cobre SFP+ de la tapa del compartimento y conéctelo a Eth5 10 GbE (5)
          ![Puertos del dispositivo MDMS](/images/sfp-ports-sized-ports-labeled.png)

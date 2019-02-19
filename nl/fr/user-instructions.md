@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-10-31"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -11,13 +11,14 @@ lastupdated: "2018-10-31"
 {:important: .important}
 
 # Importation de données sur le périphérique IBM Cloud Mass Migration
+{: #userguide}
 
 Le périphérique {{site.data.keyword.cloud}} Mass Migration est un périphérique de stockage portable capable de présenter des partages NFS (Network file system) ou CFS (FileNet Content Federations Services). Il est géré à partir d'une interface de navigateur Web. Le périphérique est expédié à votre centre de données, chargé avec des données sur site, puis retourné à un centre de données {{site.data.keyword.BluSoftlayer_full}} et chargé dans votre compte {{site.data.keyword.cos_full}}.
 
 
 ## Mise sous tension du périphérique
 
-Le périphérique est envoyé avec un cordon d'alimentation C13-US [https://en.wikipedia.org/wiki/IEC_60320](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. Si le périphérique est utilisé en dehors des Etats-Unis, un adaptateur d'alimentation peut être nécessaire.
+Le périphérique est envoyé avec un cordon d'alimentation C13-US [https://en.wikipedia.org/wiki/IEC_60320 ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. Si le périphérique est utilisé en dehors des Etats-Unis, un adaptateur d'alimentation peut être nécessaire.
 
 Le périphérique accepte toutes les gammes de puissance standard.
 <br/>
@@ -53,7 +54,7 @@ Les ports du périphérique sont constitués par des prises RJ45, et des câbles
 - Eth3 (`10GbE-B`) est utilisé pour le transfert de données et peut éventuellement être utilisé pour la gestion des périphériques. Cette connexion doit se trouver sur le même sous-réseau que celui où résident les données source, ou elle peut être directement reliée au serveur si nécessaire.
 
 
-### Configuration de SFP+ et RJ45 cuivre
+### Configuration de SFP+ cuivre et RJ45
 
 ![SFP+ cuivre](/images/sfp-ports-sized-port5.png)
 
@@ -79,7 +80,7 @@ Il n'est PAS nécessaire de configurer et d'utiliser les deux ports si l'adresse
 2.	Déterminez l'emplacement le plus approprié pour l'installation du périphérique. Celui-ci doit se trouver à portée d'une prise secteur et d'une prise Ethernet et être positionné de manière à minimiser les déplacements.
 
 3.	Positionnez le périphérique à connecter. Il n'est pas nécessaire de sortir le périphérique de la mallette portable. Il peut rester dans sa mallette de transport lors de son utilisation. Assurez-vous que le périphérique est à la température de la pièce et qu'il ne présente aucune condensation. Connectez-le à l'aide du câble d'alimentation fourni sous le couverte de la mallette et mettez-le sous tension.<br/>
-    
+
     Notez la présence de deux interrupteurs d'alimentation.
     {:note}
     ![Interrupteurs d'alimentation](/images/MDMSPowerSwitch.png)
@@ -90,10 +91,10 @@ Il n'est PAS nécessaire de configurer et d'utiliser les deux ports si l'adresse
          ![Ports du périphérique MDMS](/images/MDMSNewEth1and3.png)
       2. Connectez l'adaptateur CAT6A vers SFP+ fourni et reliez-le à votre interrupteur 10 Gb.
       3. Si l'adresse IP configurée pour Eth3 est accessible dans le navigateur via `HTTPS://'Your-Eth3-IPAddress'`, passez à l'étape suivante. Sinon, connectez le port Eth1 (`1GbE-B`).<br/>
-         
+
          Si vous devez modifier les paramétrages d'adresse IP pour Eth3 ou Eth1, reportez-vous à la section [Configuration des adresses IP](#configuring-ip-addresses).
          {:tip}
-         
+
     - Connexion de SFP+ cuivre
       1. Sortez le câble SFP+ cuivre du couvercle de la mallette et branchez-le sur le port Eth5 10 GbE (5)
          ![Ports du périphérique MDMS](/images/sfp-ports-sized-ports-labeled.png)

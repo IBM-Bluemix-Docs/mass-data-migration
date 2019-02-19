@@ -1,16 +1,18 @@
 ---
 
 copyright:
-  years: 2017-2018
-lastupdated: "2018-11-27"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # {{site.data.keyword.cloud_notm}} 대량 데이터 마이그레이션 시작하기
+{: # GettingStarted}
 
 **전제조건**
 
@@ -24,20 +26,20 @@ lastupdated: "2018-11-27"
    - 넷마스크
    - 사용자 인터페이스에 액세스하기 위한 기본 게이트웨이
 3. Cloud Object Storage 다운로드 대상 <br/>
-   
-   요청 양식을 완료하려면 US Standard Cross Region 또는 EU Cross Region 위치에 하나의 버킷과 하나 이상의 {{site.data.keyword.cos_full}} 계정이 있어야 합니다. 아직 {{site.data.keyword.cos_full_notm}}} 계정이 없으면 대량 데이터 마이그레이션 디바이스를 요청하기 전에 계정을 작성하십시오. [{{site.data.keyword.cos_full}} 정보](https://console.bluemix.net/docs/services/cloud-object-storage/about-cos.html){:new_window}를 참조하십시오.
+
+   요청 양식을 완료하려면 US Standard Cross Region 또는 EU Cross Region 위치에 하나의 버킷과 하나 이상의 {{site.data.keyword.cos_full}} 계정이 있어야 합니다. 아직 {{site.data.keyword.cos_full_notm}}} 계정이 없으면 대량 데이터 마이그레이션 디바이스를 요청하기 전에 계정을 작성하십시오. [{{site.data.keyword.cos_full}} 정보](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage){:new_window}를 참조하십시오.
    {:important}
 
 ## 요청 작성
 
-1. [IBM Cloud 콘솔](https://console.bluemix.net/catalog/){:new_window}에 로그인하고 왼쪽 상단에 있는 메뉴 아이콘을 클릭하십시오. **인프라**를 선택하십시오.
+1. [IBM Cloud 콘솔](https://{DomainName}/){:new_window}에 로그인하고 왼쪽 상단에 있는 메뉴 아이콘을 클릭하십시오. **인프라**를 선택하십시오.
 
-   또는 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다. 
+   또는 [{{site.data.keyword.cloud_notm}} 콘솔 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/catalog/){:new_window}에 로그인할 수 있습니다.
 2. 탐색줄에서 **스토리지** > **데이터 마이그레이션** > **대량 데이터 마이그레이션**을 선택하여 대량 데이터 마이그레이션 시작 페이지에 액세스하십시오.
 3. **디바이스 요청**을 클릭하여 주문 양식을 여십시오.
 4. **대량 데이터 마이그레이션** 주문 양식의 각 필드를 기입하십시오.
    - **발송 주소** - 이 양식은 미리 채워져 있지 않으며 각 필드는 편집 가능합니다. 주의 필드에 디바이스 전달을 수락할 사람의 이름을 제공하십시오. 전달 위치를 선택할 때 디바이스의 중량(케이스 포함 66lb.) 및 접근성을 고려하십시오.
-   
+
    디바이스에는 손쉬운 조작을 위한 휠과 팝업 핸들이 장착되어 있습니다.
    {:note}
 
@@ -53,21 +55,21 @@ lastupdated: "2018-11-27"
 
 요청을 제출한 후 요청 티켓의 상태는 `Processing Request`로 표시됩니다. 요청이 허용되면 {{site.data.keyword.IBM}}에서는 사용 가능한 다음 디바이스를 사전 구성하기 시작합니다.
 
-디바이스를 준비하는 중이면 [요청](https://control.softlayer.com/storage/mdms){:new_window} 페이지의 상태가 차례로 `Prepping Device` 및 `Awaiting Shipment`로 표시됩니다. 요청이 `Awaiting Shipment` 상태가 된 후에는 더 이상 이를 취소할 수 없습니다.
+디바이스를 준비하는 중이면 [요청 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/storage/mdms){:new_window} 페이지의 상태가 `Prepping Device`로 표시된 다음에 `Awaiting Shipment`로 표시됩니다. 요청이 `Awaiting Shipment` 상태가 된 후에는 더 이상 이를 취소할 수 없습니다.
 
-운송 업체가 사용자 위치로 발송하기 위해 디바이스를 픽업하면 요청 상태는 `Device Shipped`로 업데이트됩니다. 추적 번호는 [요청](https://control.softlayer.com/storage/mdms){:new_window} 페이지의 **주문 세부사항** 섹션에서 공유됩니다.
+운송 업체가 사용자 위치로 발송하기 위해 디바이스를 픽업하면 요청 상태는 `Device Shipped`로 업데이트됩니다. 추적 번호는 [요청 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/storage/mdms){:new_window} 페이지의 **주문 세부사항** 섹션에서 공유됩니다. 
 
 
 ## 수신 및 연결
 
 1. 디바이스는 사전 구성된 상태로 도착합니다. 기본 [전원 공급 및 연결 지시사항](user-instructions.html)이 포함되어 있습니다. <br/>
-  
-   사용자 이름 및 스토리지 풀 비밀번호는 별도로 제공됩니다. 인증 정보에 대해서는 [요청](https://control.softlayer.com/storage/mdms){:new_window}의 **요청 세부사항**을 확인하십시오.
+
+   사용자 이름 및 스토리지 풀 비밀번호는 별도로 제공됩니다. 인증 정보에 대해서는 [요청 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/storage/mdms){:new_window}의 **요청 세부사항**을 확인하십시오.
    {:note}
 2. 브라우저에서 주문 양식에 제공한 정적 IP 주소로 이동하십시오.
 3. 로그인하고 비밀번호를 입력하여 빈 스토리지 풀을 잠금 해제하십시오. <br/>
-   
-   비밀번호에 대해서는 [요청](https://control.softlayer.com/storage/mdms){:new_window} 페이지의 요청 세부사항을 참조하십시오.
+
+   비밀번호에 대해서는 [요청 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/storage/mdms){:new_window} 페이지의 요청 세부사항을 참조하십시오.
    {:tip}
 4. 서버에 NFS 공유를 마운트하십시오.
 5. DataShuttle 인벤토리를 다시 실행하여 새 파일이 캡처되었는지 확인하십시오.
@@ -78,7 +80,7 @@ lastupdated: "2018-11-27"
 3. 대량 데이터 마이그레이션 디바이스를 정상 종료하십시오.
 4. 제공된 발송 레이블을 사용하여 상자를 {{site.data.keyword.BluSoftlayer_full}} 데이터 센터로 반송하십시오.
 
-디바이스가 {{site.data.keyword.BluSoftlayer}}에 환반되면 요청 상태는 `Device Received`로 변경됩니다.
+디바이스가 {{site.data.keyword.BluSoftlayer}}에 반환되면 요청 상태는 `Device Received`로 변경됩니다.
 
 ## 오프로드 및 액세스
 

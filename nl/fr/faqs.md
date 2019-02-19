@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-05"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -10,6 +10,7 @@ lastupdated: "2018-11-05"
 
 
 # FAQ (Foire aux questions)
+{: #faqs}
 
 ## Qu'est-ce qu'{{site.data.keyword.cloud_notm}} Mass Data Migration ?
 
@@ -20,7 +21,7 @@ lastupdated: "2018-11-05"
 ## Comment démarrer Mass Data Migration ?
 {: faq}
 
-Utilisez le portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} pour soumettre votre demande. Une fois votre demande approuvée et traitée, le ou les périphériques disponibles suivants sont configurés et vous sont livrés d'après vos informations de réseau et de livraison. Utilisez le lien suivant pour démarrer maintenant : https://control.softlayer.com/storage/mdms
+Utilisez la [console {{site.data.keyword.cloud_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/catalog/){:new_window} pour soumettre votre demande. Une fois votre demande approuvée et traitée, le ou les périphériques disponibles suivants sont configurés et vous sont livrés d'après vos informations de réseau et de livraison. Utilisez le lien suivant pour démarrer maintenant : https://control.softlayer.com/storage/mdms
 
 <hr/>
 

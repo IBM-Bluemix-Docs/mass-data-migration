@@ -1,16 +1,18 @@
 ---
 
 copyright:
-  years: 2017-2018
-lastupdated: "2018-11-27"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # Introdução ao {{site.data.keyword.cloud_notm}} Mass Data Migration
+{: # GettingStarted}
 
 ** Pré-requisitos **
 
@@ -24,20 +26,20 @@ Reúna essas informações antes de enviar uma solicitação ao Mass Data Migrat
    - Máscara de rede
    - Gateway padrão para acessar a interface com o usuário
 3. Destino de download do Cloud Object Storage <br/>
-   
-   Deve-se ter pelo menos uma conta do {{site.data.keyword.cos_full}} e um depósito na Região Cruzada Padrão dos EUA ou na Região Cruzada da UE para completar o formulário de solicitação. Se você ainda não tiver uma conta do {{site.data.keyword.cos_full_notm}}}, crie uma antes de solicitar o dispositivo Mass Data Migration. Consulte [Sobre o {{site.data.keyword.cos_full}}](https://console.bluemix.net/docs/services/cloud-object-storage/about-cos.html){:new_window}.
+
+   Deve-se ter pelo menos uma conta do {{site.data.keyword.cos_full}} e um depósito na Região Cruzada Padrão dos EUA ou na Região Cruzada da UE para completar o formulário de solicitação. Se você ainda não tiver uma conta do {{site.data.keyword.cos_full_notm}}}, crie uma antes de solicitar o dispositivo Mass Data Migration. Consulte [Sobre o {{site.data.keyword.cos_full}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage){:new_window}.
    {:important}
 
 ## Criando uma Solicitação
 
-1. Efetue login no [console do IBM Cloud](https://console.bluemix.net/catalog/){:new_window} e clique no ícone de menu na parte superior esquerda. Selecione **Infrastructure**.
+1. Efetue login no [console do IBM Cloud](https://{DomainName}/){:new_window} e clique no ícone de menu na parte superior esquerda. Selecione **Infrastructure**.
 
-   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
+   Como alternativa, é possível efetuar login no console do [{{site.data.keyword.cloud_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/catalog/){:new_window}.
 2. Selecione **Armazenamento** > **Migração de dados** > **Mass Data Migration** na Barra de navegação para acessar a página de entrada do Mass Data Migration.
 3. Clique em **Solicitar dispositivo** para abrir o formulário do pedido.
 4. Preencha cada campo no formulário do pedido **Mass Data Migration**.
    - **Endereço de entrega**: esse formulário não é pré-preenchido previamente e cada campo é editável. Forneça o nome da pessoa que vai aceitar a entrega do dispositivo no campo Atenção. Ao escolher o local de entrega, considere o peso do dispositivo (66 lb. com sua caixa) e a acessibilidade.
-   
+
    O dispositivo está equipado com rodas e alça retrátil para manuseio.
    {:note}
 
@@ -53,22 +55,22 @@ Reúna essas informações antes de enviar uma solicitação ao Mass Data Migrat
 
 Depois de enviar a solicitação, o status para o chamado de solicitação aparece como `Processing Request`. Quando sua Solicitação é aceita, a {{site.data.keyword.IBM}} começa a pré-configurar o próximo dispositivo disponível.
 
-Quando o dispositivo está sendo preparado, o status na página [Requests](https://control.softlayer.com/storage/mdms){:new_window} mostra `Prepping Device` seguido por `Awaiting Shipment`. Após sua
+Quando o dispositivo está sendo preparado, o status na página [Solicitações ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/storage/mdms){:new_window} mostra `Preparando dispositivo` seguido por `Aguardando remessa`. Após sua
 solicitação entrar no status `Aguardando remessa`, ela não poderá mais ser cancelada.
 
-Quando o dispositivo é retirado em loja pela transportadora para ser enviado para o seu local, o status da Solicitação é atualizado para `Dispositivo enviado`. O número de rastreamento é compartilhado com você na seção **Detalhes da ordem** da página [Solicitações](https://control.softlayer.com/storage/mdms){:new_window}.
+Quando o dispositivo é retirado em loja pela transportadora para ser enviado para o seu local, o status da Solicitação é atualizado para `Dispositivo enviado`. O número de rastreamento é compartilhado com você na seção **Detalhes da ordem** da página [Solicitações ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/storage/mdms){:new_window}.
 
 
 ## Recebendo e Conectando
 
 1. O dispositivo chega pré-configurado para você. Uma configuração básica de [instrução de energização e conectividade](user-instructions.html) está incluída. <br/>
-  
-   O nome do usuário e a senha do conjunto de armazenamentos são fornecidos separadamente. Verifique os **Detalhes da solicitação** em suas [Solicitações](https://control.softlayer.com/storage/mdms){:new_window} para as credenciais.
+
+   O nome do usuário e a senha do conjunto de armazenamentos são fornecidos separadamente. Verifique os **Detalhes da solicitação** em suas [Solicitações ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/storage/mdms){:new_window} para as credenciais.
    {:note}
 2. Aponte seu navegador para o endereço IP estático fornecido no formulário do pedido.
 3. Efetue login, insira a senha para desbloquear o conjunto de armazenamentos vazio. <br/>
-   
-   Veja os detalhes da solicitação da sua página de [Solicitações](https://control.softlayer.com/storage/mdms){:new_window} da senha.
+
+   Consulte os Detalhes da solicitação da sua página [Solicitações ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/storage/mdms){:new_window} para a senha.
    {:tip}
 4. Monte o compartilhamento NFS em seu servidor.
 5. Execute novamente seu inventário do DataShuttle para assegurar que quaisquer novos arquivos sejam capturados.

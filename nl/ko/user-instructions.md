@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-10-31"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -11,16 +11,16 @@ lastupdated: "2018-10-31"
 {:important: .important}
 
 # IBM Cloud 대용량 마이그레이션 디바이스로 데이터 가져오기
+{: #userguide}
 
 {{site.data.keyword.cloud}} 대용량 마이그레이션 디바이스는 마운트 가능한 NFS(Network File System) 또는 FileNet CFS(Content Federations Services) 공유를 제공할 수 있는 휴대용 스토리지 디바이스입니다. 디바이스는 웹 브라우저 인터페이스를 통해 관리됩니다. 디바이스는 사용자의 데이터 센터로 발송되고 현장에서 데이터가 로드된 후에 다시 {{site.data.keyword.BluSoftlayer_full}} 데이터 센터로 환반되며 {{site.data.keyword.cos_full}} 계정으로 로드됩니다.
 
 
 ## 디바이스 전원 켜기
 
-디바이스는 C13-US 전원 코드([https://en.wikipedia.org/wiki/IEC_60320](https://en.wikipedia.org/wiki/IEC_60320){:new_window})와 함께 발송됩니다. 미국 외 지역에서 디바이스를 사용하는 경우에는 전원 어댑터가 필요할 수 있습니다.
+디바이스는 C13-US 전원 코드([https://en.wikipedia.org/wiki/IEC_60320 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://en.wikipedia.org/wiki/IEC_60320){:new_window})와 함께 발송됩니다. 미국 외 지역에서 디바이스를 사용하는 경우에는 전원 어댑터가 필요할 수 있습니다.
 
-디바이스는 모든 표준 전원 범위를 허용합니다.
-<br/>
+디바이스는 모든 표준 전원 범위를 허용합니다. <br/>
 ![전원 범위](/images/PowerRating.png)
 
 디바이스의 전원을 켜려면 다음 단계를 완료하십시오.
@@ -79,7 +79,7 @@ lastupdated: "2018-10-31"
 2.	디바이스를 배치할 가장 적합한 장소를 판별하십시오. 전원 연결과 이더넷 연결 모두에 접속해야 하고 풋 트래픽을 최소화해야 합니다.
 
 3.	연결할 디바이스를 배치하십시오. 휴대용 케이스에서 디바이스를 꺼내지 않아도 됩니다. 사용 중에 운송용 케이스에 그대로 둘 수 있습니다. 디바이스가 실온에 있고 표면에 응결 현상이 없는지 확인하십시오. 케이스 덮개 아래 제공된 전원 케이블을 사용하여 전원에 연결하고 디바이스의 전원을 켜십시오.<br/>
-    
+
     두 개의 전원 스위치를 잘 주목하십시오.
     {:note}
     ![전원 스위치](/images/MDMSPowerSwitch.png)
@@ -87,13 +87,13 @@ lastupdated: "2018-10-31"
 4. 네트워크에 디바이스를 연결하십시오.
     - RJ45 연결
       1. 케이스 덮개에서 CAT6A 케이블을 제거하고 Eth3(10GbE-B) 포트에 연결하십시오.
-      ![MDMS 디바이스의 포트](/images/MDMSNewEth1and3.png)
+         ![MDMS 디바이스의 포트](/images/MDMSNewEth1and3.png)
       2. 제공된 CAT6A를 SFP+ 어댑터에 연결하고 10Gb 스위치에 연결하십시오.
       3. 브라우저의 `HTTPS://'Your-Eth3-IPAddress'`를 통해 Eth3용으로 구성된 IP 주소에 접속할 수 있는 경우 다음 단계를 계속하십시오. 접속할 수 없으면 Eth1(`1GbE-B`) 포트를 연결하십시오.<br/>
-         
+
          Eth3 또는 Eth1의 IP 설정 변경이 필요하면 [IP 주소 구성](#configuring-ip-addresses) 섹션을 참조하십시오.
          {:tip}
-         
+
     - 구리선 SFP+ 연결
       1. 케이스 덮개에서 구리선 SFP+ 케이블을 제거하고 Eth5 10GbE(5)에 연결하십시오.
          ![MDMS 디바이스의 포트](/images/sfp-ports-sized-ports-labeled.png)

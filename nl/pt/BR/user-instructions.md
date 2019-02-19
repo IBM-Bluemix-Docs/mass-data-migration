@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-10-31"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -11,13 +11,14 @@ lastupdated: "2018-10-31"
 {:important: .important}
 
 # Importando dados para o dispositivo IBM Cloud Mass Migration
+{: #userguide}
 
 O dispositivo {{site.data.keyword.cloud}} Mass Migration é um dispositivo de armazenamento móvel capaz de apresentar compartilhamentos do Network File System (NFS) ou do FileNet Content Federations Services (CFS). O dispositivo é gerenciado por meio de uma interface do navegador da web. O dispositivo é enviado para seu data center, carregado com dados no local, em seguida, retornado para um data center do {{site.data.keyword.BluSoftlayer_full}} e carregado em sua conta do {{site.data.keyword.cos_full}}.
 
 
 ## Ligando o dispositivo
 
-O dispositivo é enviado com um cabo de energia C13-US [https://en.wikipedia.org/wiki/IEC_60320](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. Se o dispositivo for usado fora dos Estados Unidos, um adaptador de energia poderá ser necessário.
+O dispositivo é enviado com um cabo de energia C13-US [https://en.wikipedia.org/wiki/IEC_60320 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. Se o dispositivo for usado fora dos Estados Unidos, um adaptador de energia poderá ser necessário.
 
 O dispositivo aceita todos os intervalos de alimentação padrão.
 <br/>
@@ -80,7 +81,7 @@ NÃO é necessário configurar e usar ambas as portas quando o IP da porta de 10
 2.	Determine o local mais apropriado para que o dispositivo seja colocado. Ele precisa atingir ambas as conexões de energia e Ethernet e minimizar o tráfego de pessoas.
 
 3.	Posicione o dispositivo a ser conectado. O dispositivo não precisa ser removido da caixa móvel. Ele pode permanecer na caixa de transporte durante o uso. Assegure-se de que o dispositivo esteja à temperatura ambiente e não haja condensação nele. Conecte a energia usando o cabo de energia fornecido sob a tampa da caixa e ligue o dispositivo.<br/>
-    
+
     Observe os dois comutadores de energia.
     {:note}
     ![Comutadores de energia](/images/MDMSPowerSwitch.png)
@@ -91,10 +92,10 @@ NÃO é necessário configurar e usar ambas as portas quando o IP da porta de 10
          ![Portas do dispositivo MDMS](/images/MDMSNewEth1and3.png)
       2. Conecte o CAT6A fornecido ao adaptador SFP+ e ligue em seu comutador de 10 Gb.
       3. Se o endereço IP que estiver configurado para Eth3 puder ser atingido no navegador por meio de `HTTPS://'Your-Eth3-IPAddress'`, continue com a próxima etapa. Caso contrário, conecte a porta Eth1 (`1GbE-B`).<br/>
-         
+
          Se você precisar alterar alguma configuração IP para Eth3 ou Eth1, consulte a seção [Configurando endereços IP](#configuring-ip-addresses).
          {:tip}
-         
+
     - Conectando o SFP de Cobre
       1. Remova o cabo SFP+ de cobre da tampa da caixa e conecte-o ao Eth5 10 GbE (5)
          ![Portas do dispositivo MDMS](/images/sfp-ports-sized-ports-labeled.png)
@@ -112,7 +113,8 @@ NÃO é necessário configurar e usar ambas as portas quando o IP da porta de 10
 7. O assistente de fluxo de trabalho apresenta acesso aos itens específicos que são geralmente usados em ordem da esquerda para a direita.<br/>
     ![Ícones do fluxo de trabalho](/images/workflow.png)
 
-    O fluxo de trabalho pode ser reaberto usando o **Workflow Manager** na área superior esquerda da interface.     {:tip}
+    O fluxo de trabalho pode ser reaberto usando o **Workflow Manager** na área superior esquerda da interface.
+    {:tip}
 
 8.	Ative o conjunto de armazenamentos pré-configurado.
     - Clique em **Desbloquear e iniciar o conjunto de armazenamentos**.

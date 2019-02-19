@@ -1,13 +1,14 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-06-27"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 
 
 # Visión general de la migración de datos masiva de {{site.data.keyword.cloud_notm}}
+{: #overview}
 
 Este servicio constituye una forma rápida, sencilla y segura para transferir físicamente de terabytes a petabytes de datos a {{site.data.keyword.Bluemix}}.
 
@@ -19,23 +20,23 @@ La migración de datos masiva utiliza dispositivos de almacenamiento de una capa
 
 1. Traslado rápido de datos
     - Con un único dispositivo de migración de datos masiva, puede migrar hasta 120 TB de datos (en RAID-6) en apenas unos días, en lugar de las semanas o meses que lleva hacerlo con métodos tradicionales de transferencia de datos.
-    
+
 2. Flexible y escalable
     - Tanto si es necesario migrar pocos terabytes o como muchos petabytes de datos, se pueden solicitar uno o varios dispositivos para acomodar la carga.
-    
+
 3. Asequible
-    - Trasladar conjuntos de datos puede resultar caro y llevar mucho tiempo. Cada dispositivo de migración de datos masiva se ofrece por una tarifa asequible que incluye los envíos de entrega y devolución y 10 días de uso en el sitio. 
-    
+    - Trasladar conjuntos de datos puede resultar caro y llevar mucho tiempo. Cada dispositivo de migración de datos masiva se ofrece por una tarifa asequible que incluye los envíos de entrega y devolución y 10 días de uso en el sitio.
+
 4. Proceso sencillo
     - {{site.data.keyword.IBM}} le envía un dispositivo preconfigurado para que solo tenga que conectarlo, ingerir datos y después devolverlo a {{site.data.keyword.IBM}} para descargarlo en {{site.data.keyword.cos_full}}. Una vez finalizada la descarga, tendrá acceso inmediato a los datos en la nube mientras {{site.data.keyword.BluSoftlayer}} borra el dispositivo de forma segura.
-    
+
 5. Protección completa
     - El diseño del dispositivo maximiza la seguridad desde dentro mediante el cifrado AES de 256 bits, la configuración de RAID-6 y compartimentos robustos, con detección de manipulaciones, impermeables y antigolpes para garantizar la protección y la integridad de los datos durante el manejo y el transporte del dispositivo.
-    
+
 6. Borrado seguro
     - {{site.data.keyword.IBM}} utiliza una limpieza de datos de nivel DOD de cuatro pasos para garantizar el borrado completo de todos los datos de clientes de los dispositivos de migración de datos masiva.
-    
-    
+
+
 <hr>
 
 

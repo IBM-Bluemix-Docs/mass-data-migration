@@ -1,15 +1,16 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-12-05"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
 
 # Listes de contrôle d'inventaire
+{: #inventorychecklists}
 
-## Liste de contrôle de l'inventaire RJ45
+## RJ45 - Liste de contrôle d'inventaire
 
 ![Ports RJ45](/images/RJ45Ports.png)
 ![Inventaire du périphérique Mass Data Migration](/images/MDMDeviceInventory.png)
@@ -24,29 +25,29 @@ lastupdated: "2018-12-05"
 
 -	Fusibles du périphérique dans la pochette supérieure droite
 
-   
-   
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</hr> 
-</br> 
+
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</hr>
+</br>
 </hr>    
-</br> 
-________________________________________________________________ 
+</br>
+________________________________________________________________
 
 Signature et date de l'expéditeur
 
 
-</br> 
+</br>
 </hr>
-</br> 
-________________________________________________________________ 
+</br>
+________________________________________________________________
 
 Signature et date du client
 
@@ -55,7 +56,7 @@ Signature et date du client
 
 <hr>
 
-## Liste de contrôle de l'inventaire SFP+
+## SFP+ - Liste de contrôle d'inventaire
 
 ![Ports SFP](/images/SFP+Ports.png)
 ![Inventaire du périphérique Mass Data Migration](/images/MDMDeviceInventory.png)
@@ -71,28 +72,28 @@ Signature et date du client
 
 -	Fusibles du périphérique dans la pochette supérieure droite
 
-   
-   
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</hr> 
-</br> 
+
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</hr>
+</br>
 </hr>    
-</br> 
-________________________________________________________________ 
+</br>
+________________________________________________________________
 
 Signature et date de l'expéditeur
 
 
-</br> 
+</br>
 </hr>
-</br> 
-________________________________________________________________ 
+</br>
+________________________________________________________________
 
 Signature et date du client

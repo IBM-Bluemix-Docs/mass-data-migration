@@ -1,16 +1,18 @@
 ---
 
 copyright:
-  years: 2017-2018
-lastupdated: "2018-11-27"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # Guía de inicio a la migración de datos masiva de {{site.data.keyword.cloud_notm}}
+{: # GettingStarted}
 
 **Requisitos previos**
 
@@ -24,20 +26,20 @@ Recopile esta información antes de enviar una solicitud de migración de datos 
    - Máscara de red
    - Pasarela predeterminada para acceder a la interfaz de usuario
 3. Destino de descarga de Cloud Object Storage <br/>
-   
-   Debe tener como mínimo una cuenta de {{site.data.keyword.cos_full}} y un grupo en varias regiones estándar de EE.UU. o de la UE cumplimentar el formulario de solicitud. Si todavía no dispone de una cuenta de {{site.data.keyword.cos_full_notm}}}, cree una antes de solicitar el dispositivo de migración de datos masiva. Consulte [Acerca de {{site.data.keyword.cos_full}}](https://console.bluemix.net/docs/services/cloud-object-storage/about-cos.html){:new_window}.
+
+   Debe tener como mínimo una cuenta de {{site.data.keyword.cos_full}} y un grupo en varias regiones estándar de EE.UU. o de la UE cumplimentar el formulario de solicitud. Si todavía no dispone de una cuenta de {{site.data.keyword.cos_full_notm}}}, cree una antes de solicitar el dispositivo de migración de datos masiva. Consulte [Acerca de {{site.data.keyword.cos_full}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage){:new_window}.
    {:important}
 
 ## Creación de una solicitud
 
-1. Inicie sesión en la [consola de IBM Cloud](https://console.bluemix.net/catalog/){:new_window} y pulse el icono de menú de la parte superior izquierda. Seleccione **Infraestructura**.
+1. Inicie la sesión en la [consola de IBM Cloud](https://{DomainName}/){:new_window} y pulse el icono de menú de la parte superior izquierda. Seleccione **Infraestructura**.
 
-   Como alternativa, puede iniciar sesión en [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
+   También puede iniciar la sesión en la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/catalog/){:new_window}.
 2. Seleccione **Almacenamiento** > **Migración de datos** > **Migración de datos masiva** en la barra de navegación para acceder a la página de destino de la migración de datos masiva.
 3. Pulse **Solicitar dispositivo** para abrir el formulario de pedido.
 4. Rellene todos los campos del formulario de solicitud de **migración de datos masiva**.
    - **Dirección de envío**: este formulario no está rellenado de antemano y sus campos son editables. Proporcione el nombre de la persona que aceptará la entrega del dispositivo en el campo A la atención de. Cuando elija la ubicación de entrega, tenga en cuenta el peso del dispositivo (30 kg con el maletín) y la accesibilidad.
-   
+
    El dispositivo está equipado con ruedas y un asa plegable para manejarlo con facilidad.
    {:note}
 
@@ -53,21 +55,21 @@ Recopile esta información antes de enviar una solicitud de migración de datos 
 
 Después de enviar la solicitud, el estado de la incidencia de solicitud aparece como `Procesando solicitud`. Una vez aceptada la solicitud, {{site.data.keyword.IBM}} comienza a preconfigurar el siguiente dispositivo disponible.
 
-Cuando el dispositivo se esté preparando, el estado de la página [Solicitudes](https://control.softlayer.com/storage/mdms){:new_window} aparece como `Preparando dispositivo` seguido de `Pendiente de envío`. Después de pasar al estado `Pendiente de envío`, la solicitud ya no puede cancelarse.
+Cuando el dispositivo se esté preparando, el estado de la página [Solicitudes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/storage/mdms){:new_window} aparece como `Preparando dispositivo` seguido de `Pendiente de envío`. Después de pasar al estado `Pendiente de envío`, la solicitud ya no puede cancelarse.
 
-Cuando el transportista recoge el dispositivo para enviarlo a su ubicación, el estado de solicitud se actualiza a `Dispositivo enviado`. Se le proporciona el número de seguimiento en el apartado **Detalles de la solicitud** de la página [Solicitudes](https://control.softlayer.com/storage/mdms){:new_window}.
+Cuando el transportista recoge el dispositivo para enviarlo a su ubicación, el estado de solicitud se actualiza a `Dispositivo enviado`. Se le proporciona el número de seguimiento en el apartado **Detalles de la solicitud** de la página [Solicitudes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/storage/mdms){:new_window}.
 
 
 ## Recepción y conexión
 
 1. El dispositivo estará preconfigurado cuando lo reciba. Se incluyen [instrucciones básicas para encenderlo y conectarlo](user-instructions.html). <br/>
-  
-   Se proporciona el nombre de usuario y la contraseña de la agrupación de almacenamiento por separado. Compruebe los **Detalles de la solicitud** en la página [Solicitudes](https://control.softlayer.com/storage/mdms){:new_window} para verificar las credenciales.
+
+   Se proporciona el nombre de usuario y la contraseña de la agrupación de almacenamiento por separado. Compruebe los **Detalles de la solicitud** en la página [Solicitudes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/storage/mdms){:new_window} para verificar las credenciales.
    {:note}
 2. Apunte el navegador a la dirección IP estática proporcionada en el formulario de pedido.
 3. Inicie una sesión y escriba la contraseña para desbloquear la agrupación de almacenamiento vacía. <br/>
-   
-   Consulte los detalles de la solicitud de su página [Solicitudes](https://control.softlayer.com/storage/mdms){:new_window} para ver la contraseña.
+
+   Consulte los detalles de la solicitud de su página [Solicitudes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/storage/mdms){:new_window} para ver la contraseña.
    {:tip}
 4. Monte el recurso compartido NFS en el servidor.
 5. Vuelva a ejecutar el inventario DataShuttle para asegurarse de que se han capturado los archivos nuevos.

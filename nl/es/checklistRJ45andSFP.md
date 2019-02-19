@@ -1,13 +1,14 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-12-05"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
 
 # Listas de comprobación de inventario
+{: #inventorychecklists}
 
 ## Lista de comprobación de inventario de RJ45
 
@@ -24,29 +25,29 @@ lastupdated: "2018-12-05"
 
 -	Fusibles del dispositivo en el bolsillo superior derecho
 
-   
-   
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</hr> 
-</br> 
+
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</hr>
+</br>
 </hr>    
-</br> 
-________________________________________________________________ 
+</br>
+________________________________________________________________
 
 Fecha y firma del expedidor
 
 
-</br> 
+</br>
 </hr>
-</br> 
-________________________________________________________________ 
+</br>
+________________________________________________________________
 
 Fecha y firma del cliente
 
@@ -71,28 +72,28 @@ Fecha y firma del cliente
 
 -	Fusibles del dispositivo en el bolsillo superior derecho
 
-   
-   
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</hr> 
-</br> 
+
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</hr>
+</br>
 </hr>    
-</br> 
-________________________________________________________________ 
+</br>
+________________________________________________________________
 
 Fecha y firma del expedidor
 
 
-</br> 
+</br>
 </hr>
-</br> 
-________________________________________________________________ 
+</br>
+________________________________________________________________
 
 Fecha y firma del cliente

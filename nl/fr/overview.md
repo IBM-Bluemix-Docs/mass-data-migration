@@ -1,13 +1,14 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-06-27"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 
 
 # {{site.data.keyword.cloud_notm}} Mass Data Migration - Présentation
+{: #overview}
 
 Ce service représente une méthode rapide, simple et sécurisée pour le transfert physique de téraoctets ou de pétaoctets de données vers {{site.data.keyword.Bluemix}}.
 
@@ -19,23 +20,23 @@ Mass Data Migration utilise des périphériques de stockage avec une capacité u
 
 1. Déplacement rapide des données
     - Avec un seul périphérique Mass Data Migration, vous pouvez faire migrer jusqu'à 120 To de données (en mode RAID-6) en seulement quelques jours, alors que des semaines ou des mois sont nécessaires avec les méthodes de transfert de données traditionnelles.
-    
+
 2. Souple et évolutif
     - Qu'il s'agisse de migrer quelques téraoctets ou un grand nombre de pétaoctets de données, vous êtes libre de choisir un ou plusieurs périphériques pour le support de votre charge de travail.
-    
+
 3. Economique
-    - Le déplacement de grandes quantités de données peut être onéreux et fastidieux. Chaque périphérique Mass Data Migration est proposé à un prix abordable, qui inclut les frais d'expédition aller-retour ainsi que les 10 jours d'utilisation sur votre site. 
-    
+    - Le déplacement de grandes quantités de données peut être onéreux et fastidieux. Chaque périphérique Mass Data Migration est proposé à un prix abordable, qui inclut les frais d'expédition aller-retour ainsi que les 10 jours d'utilisation sur votre site.
+
 4. Processus simple
     - {{site.data.keyword.IBM}} vous envoie un périphérique préconfiguré ; vous devez ensuite connecter, ingérer des données, puis renvoyer le périphérique à {{site.data.keyword.IBM}} pour déchargement dans {{site.data.keyword.cos_full}}. Une fois le déchargement terminé, vous pouvez accéder immédiatement à vos données dans le cloud pendant qu'{{site.data.keyword.BluSoftlayer}} nettoie le périphérique en toute sécurité.
-    
+
 5. Protection de bout en bout
     - Les périphériques sont conçus pour une optimisation de la sécurité de l'intérieur, avec un chiffrement 256 bits AES, une configuration RAID-6, ainsi que des boîtiers solides, anti-fraude, étanches, antichoc, qui garantissent la protection et l'intégrité des données pendant la manipulation et le transport des périphériques.
-    
+
 6. Effacement sécurisé
     - {{site.data.keyword.IBM}} utilise le nettoyage de données de niveau DOD en quatre étapes pour garantir un effacement complet de toutes les données client des périphériques Mass Data Migration.
-    
-    
+
+
 <hr>
 
 

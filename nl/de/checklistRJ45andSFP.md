@@ -1,13 +1,14 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-12-05"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
 
 # Checkliste für Ausstattung
+{: #inventorychecklists}
 
 ## RJ45 - Checkliste für Ausstattung
 
@@ -24,29 +25,29 @@ lastupdated: "2018-12-05"
 
 -	Sicherungen für die Einheit in der rechten oberen Tasche
 
-   
-   
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</hr> 
-</br> 
+
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</hr>
+</br>
 </hr>    
-</br> 
-________________________________________________________________ 
+</br>
+________________________________________________________________
 
 Datum und Unterschrift des Versenders
 
 
-</br> 
+</br>
 </hr>
-</br> 
-________________________________________________________________ 
+</br>
+________________________________________________________________
 
 Datum und Unterschrift des Kunden
 
@@ -71,28 +72,28 @@ Datum und Unterschrift des Kunden
 
 -	Sicherungen für die Einheit in der rechten oberen Tasche
 
-   
-   
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</hr> 
-</br> 
+
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</hr>
+</br>
 </hr>    
-</br> 
-________________________________________________________________ 
+</br>
+________________________________________________________________
 
 Datum und Unterschrift des Versenders
 
 
-</br> 
+</br>
 </hr>
-</br> 
-________________________________________________________________ 
+</br>
+________________________________________________________________
 
 Datum und Unterschrift des Kunden

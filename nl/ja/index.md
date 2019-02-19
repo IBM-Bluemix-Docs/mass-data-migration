@@ -1,16 +1,18 @@
 ---
 
 copyright:
-  years: 2017-2018
-lastupdated: "2018-11-27"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # {{site.data.keyword.cloud_notm}} 大量データ・マイグレーションの概説
+{: # GettingStarted}
 
 **前提条件**
 
@@ -24,24 +26,24 @@ lastupdated: "2018-11-27"
    - ネットマスク
    - ユーザー・インターフェースにアクセスするためのデフォルト・ゲートウェイ
 3. クラウド・オブジェクト・ストレージのダウンロード宛先 <br/>
-   
-   要求フォームを完成させるには、US Standard Cross Region または EU Cross Region のロケーションで少なくとも 1 つの {{site.data.keyword.cos_full}} アカウントと 1 つのバケットを持っていることが必要です。 {{site.data.keyword.cos_full_notm}} アカウントがまだない場合は、アカウントを作成してから大量データ・マイグレーション・デバイスを要求してください。 [About {{site.data.keyword.cos_full}}](https://console.bluemix.net/docs/services/cloud-object-storage/about-cos.html){:new_window} を参照してください。
+
+   要求フォームを完成させるには、US Standard Cross Region または EU Cross Region のロケーションで少なくとも 1 つの {{site.data.keyword.cos_full}} アカウントと 1 つのバケットを持っていることが必要です。 {{site.data.keyword.cos_full_notm}} アカウントがまだない場合は、アカウントを作成してから大量データ・マイグレーション・デバイスを要求してください。 [About {{site.data.keyword.cos_full}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage){:new_window} を参照してください。
    {:important}
 
 ## 要求の作成
 
-1. [IBM Cloud コンソール](https://console.bluemix.net/catalog/){:new_window}にログインして、左上にあるメニュー・アイコンをクリックします。**「インフラストラクチャー」**を選択します。
+1. [IBM Cloud コンソール](https://{DomainName}/){:new_window}にログインして、左上にあるメニュー・アイコンをクリックします。 **「インフラストラクチャー」**を選択します。
 
-   あるいは、[{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}にログインします。
+   あるいは、[{{site.data.keyword.cloud_notm}} コンソール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/catalog/){:new_window} にログインします。
 2. ナビゲーション・バーから**「ストレージ」**>**「データ・マイグレーション」**>**「大量データ・マイグレーション」**を選択して、大量データ・マイグレーションのランディング・ページにアクセスします。
 3. **「デバイスの要求」**をクリックして、注文フォームを開きます。
 4. **「大量データ・マイグレーション」**注文フォームの各フィールドに入力します。
-   - **出荷先住所** - このフォームにはあらかじめデータが設定されません。どのフィールドも編集可能です。デバイスの配送の受け取り人の名前を「注意」フィールドに入力します。 配送場所を選択する時に、デバイスの重量 (ケース込みで 30 kg) やアクセスのしやすさを考慮に入れてください。
-   
+   - **出荷先住所** - このフォームにはあらかじめデータが設定されません。どのフィールドも編集可能です。 デバイスの配送の受け取り人の名前を「注意」フィールドに入力します。 配送場所を選択する時に、デバイスの重量 (ケース込みで 30 kg) やアクセスのしやすさを考慮に入れてください。
+
    デバイスには、移動のためのホイールとポップアップ・ハンドルが付いています。
    {:note}
 
-   - **マイグレーションの主要な連絡先 (Key migration contacts)** - このフォームは事前に入力されていません。どのフィールドも編集可能です。 複数の人を追加できます。
+   - **マイグレーションの主要な連絡先 (Key migration contacts)** - このフォームは事前に入力されていません。 どのフィールドも編集可能です。 複数の人を追加できます。
    - **データ・センター・ネットワーク構成 (Data center network configuration)** - 大量データ・マイグレーション・デバイスの Eth3 ポートを配送前にあらかじめプロビジョニングするために、ネットワーク構成の詳細情報を入力します。
    - **データ・オフロードの宛先 (Data offload destination)** - リストから既存のターゲット・アカウントを選択します。
    - **要求名** - 注文を追跡するための名前を入力します。
@@ -53,21 +55,21 @@ lastupdated: "2018-11-27"
 
 要求を送信した後、要求チケットの状況は`「要求の処理中」`と表示されます。 要求を受け取った後、{{site.data.keyword.IBM}} は、次に使用可能なデバイスの事前構成を開始します。
 
-デバイスが準備中になると、[「要求」](https://control.softlayer.com/storage/mdms){:new_window}ページの状況が`「デバイスの準備中」`になり、その後、`「出荷待機中」`になります。 要求が`「出荷待機中」`の状況になった後でキャンセルすることはできません。
+デバイスが準備中になると、[「要求」![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/storage/mdms){:new_window}ページの状況が`「デバイスの準備中」`になり、その後、`「出荷待機中」`になります。 要求が`「出荷待機中」`の状況になった後でキャンセルすることはできません。
 
-配送業者がデバイスを受け取って配送場所への輸送を始めると、要求の状況が`「デバイスが発送されました」`に更新されます。 [「要求」](https://control.softlayer.com/storage/mdms){:new_window}ページの**「注文の詳細 (Order Details)」**セクションで追跡番号を確認できます。
+配送業者がデバイスを受け取って配送場所への輸送を始めると、要求の状況が`「デバイスが発送されました」`に更新されます。 [「要求」![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/storage/mdms){:new_window}ページの**「注文の詳細 (Order Details)」**セクションで追跡番号を確認できます。
 
 
 ## 受け取りと接続
 
 1. 事前構成されたデバイスが到着します。 簡単な[電源投入/接続の説明書](user-instructions.html)が同梱されています。 <br/>
-  
-   ユーザー名とストレージ・プールのパスワードは別の方法で通知されます。 [「要求」](https://control.softlayer.com/storage/mdms){:new_window}の**「要求の詳細」**で資格情報を確認してください。
+
+   ユーザー名とストレージ・プールのパスワードは別の方法で通知されます。 [「要求」![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/storage/mdms){:new_window}の**「要求の詳細」**で資格情報を確認してください。
    {:note}
 2. 注文フォームで指定した静的 IP アドレスをブラウザーに入力します。
 3. ログインし、パスワードを入力して、空のストレージ・プールのロックを解除します。 <br/>
-   
-   [「要求」](https://control.softlayer.com/storage/mdms){:new_window}ページの「要求の詳細」でパスワードを確認してください。
+
+   [「要求」![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/storage/mdms){:new_window}ページの「要求の詳細」でパスワードを確認してください。
    {:tip}
 4. サーバーに NFS 共有をマウントします。
 5. DataShuttle インベントリーを再実行して、新しいファイルがすべて取り込まれていることを確認します。

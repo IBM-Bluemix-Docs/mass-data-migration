@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-31"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:codeblock: .codeblock}
@@ -12,11 +12,12 @@ lastupdated: "2018-10-31"
 {:important: .important}
 
 # Migración de bases de datos Netezza a DashDB
+{: #migratingNetezzaDashDB}
 
 El servicio de migración de datos masiva (MDMS) puede utilizarse para migrar bases de datos grandes de Netezza a DashDB. Puede utilizar este documento como referencia para las herramientas que determinan la cantidad de datos que se van a transferir y los métodos de exportación.
 
 ## Determinación del tamaño del objeto de base de datos
-1. Desde [IBM Support > Fix Central > Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window}, descargue la versión adecuada de Netezza Tools correspondiente a su instancia de Netezza.
+1. Desde [IBM Support > Fix Central > Netezza Tools ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window}, descargue la versión adecuada de Netezza Tools correspondiente a su instancia de Netezza.
 
    De forma predeterminada, las herramientas de soporte se instalan en el servidor Netezza en el directorio `/nz/support-IBM_Netezza<version>/bin`
    {:note}
@@ -96,4 +97,4 @@ Los datos se pueden volver a leer en Netezza mediante la sentencia `SELECT FROM`
 
 **Información adicional**
 
-Encontrará más información sobre Netezza en la [documentación de usuario de la base de datos IBM Netezza](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.
+Encontrará más información sobre Netezza en la [documentación de usuario de la base de datos IBM Netezza ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.

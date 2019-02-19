@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-31"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:codeblock: .codeblock}
@@ -12,11 +12,12 @@ lastupdated: "2018-10-31"
 {:important: .important}
 
 # Netezza-Datenbanken auf DashDB migrieren
+{: #migratingNetezzaDashDB}
 
 Mit dem Mass Data Migration Service (MDMS) können umfangreiche Netezza-Datenbanken auf DashDB migriert werden. Sie können dieses Dokument als Referenz für die Tools verwenden, mit denen die Menge der zu übertragenden Daten und die Exportmethoden festgelegt werden.
 
 ## Größe des Datenbankobjekts ermitteln
-1. Laden Sie von [IBM Support > Fix Central > Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window} die geeignete Version der Netezza-Tools für Ihre Netezza-Instanz herunter.
+1. Laden Sie von [IBM Support > Fix Central > Netezza-Tools ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window} die geeignete Version der Netezza-Tools für Ihre Netezza-Instanz herunter. 
 
    Unterstützungstools werden auf dem Netezza-Server standardmäßig im Verzeichnis `/nz/support-IBM_Netezza<version>/bin` installiert.
    {:note}
@@ -97,4 +98,4 @@ Die Daten können wieder in Netezza eingelesen werden, um sicherzustellen, dass 
 
 **Weitere Informationen**
 
-Weitere Informationen zu Netezza finden Sie in der [Benutzerdokumentation zur IBM Netezza-Datenbank](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.
+Weitere Informationen zu Netezza finden Sie in der [Benutzerdokumentation zur IBM Netezza-Datenbank ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}. 

@@ -1,13 +1,14 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-12-05"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
 
 # Elenchi di controllo per l'inventario
+{: #inventorychecklists}
 
 ## Elenco di controllo per l'inventario RJ45
 
@@ -24,29 +25,29 @@ lastupdated: "2018-12-05"
 
 -	Fusibili del dispositivo nella busta superiore destra
 
-   
-   
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</hr> 
-</br> 
+
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</hr>
+</br>
 </hr>    
-</br> 
-________________________________________________________________ 
+</br>
+________________________________________________________________
 
 Firma e data del mittente
 
 
-</br> 
+</br>
 </hr>
-</br> 
-________________________________________________________________ 
+</br>
+________________________________________________________________
 
 Firma e data del cliente
 
@@ -71,28 +72,28 @@ Firma e data del cliente
 
 -	Fusibili del dispositivo nella busta superiore destra
 
-   
-   
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</br> 
-</hr> 
-</br> 
+
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</hr>
+</br>
 </hr>    
-</br> 
-________________________________________________________________ 
+</br>
+________________________________________________________________
 
 Firma e data del mittente
 
 
-</br> 
+</br>
 </hr>
-</br> 
-________________________________________________________________ 
+</br>
+________________________________________________________________
 
 Firma e data del cliente

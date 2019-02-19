@@ -1,16 +1,18 @@
 ---
 
 copyright:
-  years: 2017-2018
-lastupdated: "2018-11-27"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # Getting Started with {{site.data.keyword.cloud_notm}} Mass Data Migration
+{: # GettingStarted}
 
 **Prerequisites**
 
@@ -24,20 +26,20 @@ Gather this information before you submit a Mass Data Migration request and comp
    - Netmask
    - Default Gateway to access the User Interface
 3. Cloud Object Storage download destination <br/>
-   
-   You must have at least one {{site.data.keyword.cos_full}} account, and one bucket in a US Standard Cross Region or the EU Cross Region to complete the request form. If you don't have an {{site.data.keyword.cos_full_notm}}} account yet, create one before you request the Mass Data Migration device. Refer to [About {{site.data.keyword.cos_full}}](https://console.bluemix.net/docs/services/cloud-object-storage/about-cos.html){:new_window}.
+
+   You must have at least one {{site.data.keyword.cos_full}} account, and one bucket in a US Standard Cross Region or the EU Cross Region to complete the request form. If you don't have an {{site.data.keyword.cos_full_notm}}} account yet, create one before you request the Mass Data Migration device. Refer to [About {{site.data.keyword.cos_full}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage){:new_window}.
    {:important}
 
 ## Creating a request
 
-1. Log in to the [IBM Cloud console](https://console.bluemix.net/catalog/){:new_window} and click the menu icon on the upper left. Select **Infrastructure**.
+1. Log in to the [IBM Cloud console](https://{DomainName}/){:new_window} and click the menu icon on the upper left. Select **Infrastructure**.
 
-   Alternatively, you can log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
+   Alternatively, you can log in to the [{{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog/){:new_window}.
 2. Select **Storage** > **Data Migration** > **Mass Data Migration** from the Navigation Bar to access the Mass Data Migration landing page.
 3. Click **Request Device** to open the order form.
 4. Complete each field in the **Mass Data Migration** order form.
    - **Shipping address** - this form is not prefilled and each field is editable. Provide the name of the person who is going to accept the device delivery in the Attention field. When you pick the delivery location, consider the weight of the device (66 lbs with its case) and accessibility.
-   
+
    The device is equipped with wheels and pop-up handle for maneuvering.
    {:note}
 
@@ -53,21 +55,21 @@ Gather this information before you submit a Mass Data Migration request and comp
 
 After you submitted the request, the status for the request ticket appears as `Processing Request`. When your Request is accepted, {{site.data.keyword.IBM}} begins pre-configuring the next available device.
 
-When the device is being prepared, the status on the [Requests](https://control.softlayer.com/storage/mdms){:new_window} page shows `Prepping Device` followed by `Awaiting Shipment`. After your Request enters `Awaiting Shipment` status, it can no longer be canceled.
+When the device is being prepared, the status on the [Requests ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/storage/mdms){:new_window} page shows `Prepping Device` followed by `Awaiting Shipment`. After your Request enters `Awaiting Shipment` status, it can no longer be canceled.
 
-When the device is picked up by the carrier to be sent to your location, the Request status is updated to `Device Shipped`. The tracking number is shared with you in the **Order Details** section of the [Requests](https://control.softlayer.com/storage/mdms){:new_window} page.
+When the device is picked up by the carrier to be sent to your location, the Request status is updated to `Device Shipped`. The tracking number is shared with you in the **Order Details** section of the [Requests ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/storage/mdms){:new_window} page.
 
 
 ## Receiving and Connecting
 
 1. The device arrives pre-configured for you. A basic [powering and connectivity instruction](user-instructions.html) is included. <br/>
-  
-   User name and storage pool password are provided separately. Check the **Request Details** in your [Requests](https://control.softlayer.com/storage/mdms){:new_window} for the credentials.
+
+   User name and storage pool password are provided separately. Check the **Request Details** in your [Requests ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/storage/mdms){:new_window} for the credentials.
    {:note}
 2. Point browser to the static IP address you provided in the order form.
 3. Log in, enter the password to unlock the empty storage pool. <br/>
-   
-   See the Request Details of your [Requests](https://control.softlayer.com/storage/mdms){:new_window} page for the password.
+
+   See the Request Details of your [Requests ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/storage/mdms){:new_window} page for the password.
    {:tip}
 4. Mount the NFS share on your server.
 5. Rerun your DataShuttle inventory to ensure that any new files are captured.

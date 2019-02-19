@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-10-31"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -11,13 +11,14 @@ lastupdated: "2018-10-31"
 {:important: .important}
 
 # Daten in die Einheit für IBM Cloud Mass Data Migration importieren
+{: #userguide}
 
 Die Einheit für {{site.data.keyword.cloud}} Mass Data Migration ist eine tragbare Speichereinheit, die mountfähige, gemeinsam genutzte NFS-Ressourcen (Network File System) oder CFS-Ressourcen (FileNet Content Federations Services) bereitstellen kann. Die Einheit wird über eine Web-Browser-Schnittstelle verwaltet. Die Einheit wird an Ihr Rechenzentrum geliefert, vor Ort mit Daten gefüllt, anschließend an ein {{site.data.keyword.BluSoftlayer_full}}-Rechenzentrum zurückgesendet und in Ihr {{site.data.keyword.cos_full}}-Konto geladen.
 
 
 ## Einheit einschalten
 
-Die Einheit wird mit einem amerikanischen Netzkabel C13-US ausgeliefert (siehe [https://en.wikipedia.org/wiki/IEC_60320](https://en.wikipedia.org/wiki/IEC_60320){:new_window}). Bei Verwendung der Einheit außerhalb der Vereinigten Staaten ist möglicherweise ein Netzteil erforderlich.
+Die Einheit wird mit einem amerikanischen Netzkabel C13-US ausgeliefert (siehe [https://en.wikipedia.org/wiki/IEC_60320 ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. Bei Verwendung der Einheit außerhalb der Vereinigten Staaten ist möglicherweise ein Netzteil erforderlich.
 
 Die Einheit kann mit allen Standard-Netzspannungen betrieben werden.
 <br/>
@@ -55,7 +56,7 @@ Die Ports verlassen die Einheit als RJ45 und CAT6A-Kabel sind im Lieferumfang en
 
 ### Kupfer-SFP+ und RJ45 konfigurieren
 
-![ Kupfer-SFP+](/images/sfp-ports-sized-port5.png)
+![Kupfer-SFP+](/images/sfp-ports-sized-port5.png)
 
 Die Ports verlassen die Einheit als Kupfer-SFP+ und RJ45. Sowohl CAT6A- als auch Kupfer-SFP+-Kabel sind im Lieferumfang enthalten.
 
@@ -79,7 +80,7 @@ Es ist nicht erforderlich, beide Ports zu konfigurieren und zu verwenden, wenn d
 2.	Wählen Sie einen geeigneten Standort für die Einheit aus. Er muss den Port an das Stromnetz sowie Ethernet-Verbindungen ermöglichen und sollte sich nicht in Durchgängen befinden.
 
 3.	Bringen Sie die Einheit, die verbunden werden soll, an den vorgesehenen Standort. Die Einheit muss nicht aus dem tragbaren Behälter entnommen werden. Sie kann während der Nutzung im Transportbehälter verbleiben. Stellen Sie sicher, dass die Temperatur der Einheit der Raumtemperatur entspricht und dass sich kein Kondenswasser gebildet hat. Stellen Sie die Stromverbindung mit dem mitgelieferten Netzkabel her, das sich unter der Abdeckung des Behälters befindet, und schalten Sie die Einheit ein.<br/>
-    
+
     Beachten Sie die beiden Netzschalter.
     {:note}
     ![Netzschalter](/images/MDMSPowerSwitch.png)
@@ -89,16 +90,16 @@ Es ist nicht erforderlich, beide Ports zu konfigurieren und zu verwenden, wenn d
       1. Entnehmen Sie das CAT6A-Kabel aus der Tasche unter der Abdeckung und verbinden Sie es mit dem Eth3-Port (10 GbE-B).
       ![Ports der MDMS-Einheit](/images/MDMSNewEth1and3.png)
       2. Verbinden Sie den mitgelieferten CAT6A-auf-SFP+-Adapter und schließen Sie Ihren 10-Gb-Switch an.
-      3. Wenn die für Eth3 konfigurierte IP-Adresse im Browser über `HTTPS://'Ihre-Eth3-IP-Adresse'` erreichbar ist, fahren Sie mit dem nächsten Schritt fort. Andernfalls verbinden Sie den Eth1-Port (`1GbE-B`). <br/>
-         
+      3. Wenn die für Eth3 konfigurierte IP-Adresse im Browser über `HTTPS://'Ihre-Eth3-IP-Adresse'` erreichbar ist, fahren Sie mit dem nächsten Schritt fort. Andernfalls verbinden Sie den Eth1-Port (`1GbE-B`).<br/>
+
          Wenn Sie IP-Einstellungen für Eth3 oder Eth1 ändern müssen, finden Sie weitere Informationen im Abschnitt [IP-Adressen konfigurieren](#configuring-ip-addresses).
          {:tip}
-         
+
     - Kupfer-SFP+ anschließen
       1. Entnehmen Sie das Kupfer-SFP+-Kabel aus der Tasche unter der Abdeckung und verbinden Sie es mit dem 10-GbE-Eth5-Port (5).
          ![Ports der MDMS-Einheit](/images/sfp-ports-sized-ports-labeled.png)
       2. Schließen Sie das Kupfer-SFP+-Kabel an Ihren 10-Gb-Switch an.
-      3. Wenn die für Eth5 konfigurierte IP-Adresse über einen Browser erreichbar ist (`HTTPS://'Ihre-Eth5-IP-Adresse'`), fahren Sie mit dem nächsten Schritt fort. Andernfalls verbinden Sie den Eth2-Port (`10GbE-B` oder `1GbE-B`). 
+      3. Wenn die für Eth5 konfigurierte IP-Adresse über einen Browser erreichbar ist (`HTTPS://'Ihre-Eth5-IP-Adresse'`), fahren Sie mit dem nächsten Schritt fort. Andernfalls verbinden Sie den Eth2-Port (`10GbE-B` oder `1GbE-B`).
 
          Wenn Sie IP-Einstellungen für Eth5 oder Eth2 ändern müssen, finden Sie weitere Informationen im Abschnitt [IP-Adressen konfigurieren](#configuring-ip-addresses).
          {:tip}

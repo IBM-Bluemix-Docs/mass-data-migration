@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-05"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -10,6 +10,7 @@ lastupdated: "2018-11-05"
 
 
 # FAQs
+{: #faqs}
 
 ## What is {{site.data.keyword.cloud_notm}} Mass Data Migration?
 
@@ -20,7 +21,7 @@ lastupdated: "2018-11-05"
 ## How is Mass Data Migration initiated?
 {: faq}
 
-Use the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} to submit your request. When your request is approved and processed, the next available device or devices are configured and sent to you based on your network and shipping information. Use the following link to start now: https://control.softlayer.com/storage/mdms
+Use the [{{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog/){:new_window} to submit your request. When your request is approved and processed, the next available device or devices are configured and sent to you based on your network and shipping information. Use the following link to start now: https://control.softlayer.com/storage/mdms
 
 <hr/>
 

@@ -1,16 +1,18 @@
 ---
 
 copyright:
-  years: 2017-2018
-lastupdated: "2018-11-27"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # Introduzione a {{site.data.keyword.cloud_notm}} Mass Data Migration
+{: # GettingStarted}
 
 **Prerequisiti**
 
@@ -24,20 +26,20 @@ Recupera queste informazioni prima di inoltrare una richiesta di Mass Data Migra
    - Maschera di rete
    - Gateway predefinito per accedere all'interfaccia utente
 3. Destinazione di download di Cloud Object Storage <br/>
-   
-   Per completare il modulo di richiesta, devi disporre di almeno un account {{site.data.keyword.cos_full}} e di un bucket in più regioni dell'UE o degli Stati Uniti standard. Se non hai ancora un account {{site.data.keyword.cos_full_notm}}}, creane uno prima di richiedere il dispositivo Mass Data Migration. Fai riferimento a [Informazioni su {{site.data.keyword.cos_full}}](https://console.bluemix.net/docs/services/cloud-object-storage/about-cos.html){:new_window}.
+
+   Per completare il modulo di richiesta, devi disporre di almeno un account {{site.data.keyword.cos_full}} e di un bucket in più regioni dell'UE o degli Stati Uniti standard. Se non hai ancora un account {{site.data.keyword.cos_full_notm}}}, creane uno prima di richiedere il dispositivo Mass Data Migration. Fai riferimento a [Informazioni su {{site.data.keyword.cos_full}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage){:new_window}.
    {:important}
 
 ## Creazione di una richiesta
 
-1. Esegui l'accesso alla [console IBM Cloud](https://console.bluemix.net/catalog/){:new_window} e fai clic sull'icona di menu nell'angolo superiore sinistro. Seleziona **Infrastructure**.
+1. Esegui l'accesso alla [console IBM Cloud](https://{DomainName}/){:new_window} e fai clic sull'icona di menu nell'angolo superiore sinistro. Seleziona **Infrastructure**.
 
-   In alternativa, puoi eseguire l'accesso al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
+   In alternativa, puoi eseguire l'accesso alla [console {{site.data.keyword.cloud_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/catalog/){:new_window}.
 2. Seleziona **Storage** > **Data Migration** > **Mass Data Migration** dalla barra di navigazione per accedere alla pagina di destinazione di Mass Data Migration.
 3. Fai clic su **Request Device** per aprire il modulo d'ordine.
 4. Completa ogni campo nel modulo d'ordine di **Mass Data Migration**.
    - **Shipping address** - questo modulo non è precompilato e ogni campo è modificabile. Fornisci il nome della persona che accetterà la consegna del dispositivo nel campo Attention. Quando scegli il luogo di consegna, considera il peso del dispositivo (66 libbre con la sua custodia) e l'accessibilità.
-   
+
    Il dispositivo è dotato di ruote e maniglia a scomparsa per la manovra.
    {:note}
 
@@ -53,21 +55,21 @@ Recupera queste informazioni prima di inoltrare una richiesta di Mass Data Migra
 
 Dopo aver inviato la richiesta, lo stato per il ticket di richiesta viene visualizzato come `Processing Request`. Quando la tua richiesta viene accettata, {{site.data.keyword.IBM}} inizia la pre-configurazione del successivo dispositivo disponibile.
 
-Quando il dispositivo è in fase di preparazione, lo stato nella pagina [Requests](https://control.softlayer.com/storage/mdms){:new_window} mostra `Prepping Device` seguito da `Awaiting Shipment`. Dopo che la tua richiesta entra nello stato `Awaiting Shipment`, non può più essere annullata.
+Quando il dispositivo è in fase di preparazione, lo stato nella pagina [Requests ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/storage/mdms){:new_window} mostra `Prepping Device` seguito da `Awaiting Shipment`. Dopo che la tua richiesta entra nello stato `Awaiting Shipment`, non può più essere annullata.
 
-Quando il dispositivo viene prelevato dal corriere per essere inviato alla tua posizione, lo stato della richiesta viene aggiornato a `Device Shipped`. Il numero di tracciamento viene condiviso con te nella sezione **Order Details** della pagina [Requests](https://control.softlayer.com/storage/mdms){:new_window}.
+Quando il dispositivo viene prelevato dal corriere per essere inviato alla tua posizione, lo stato della richiesta viene aggiornato a `Device Shipped`. Il numero di tracciabilità viene condiviso con te nella sezione **Order Details** della pagina [Requests ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/storage/mdms){:new_window}.
 
 
 ## Ricezione e collegamento
 
 1. Il dispositivo arriva preconfigurato per te. Vengono incluse [istruzioni di alimentazione e connettività](user-instructions.html) di base. <br/>
-  
-   Il nome utente e la password del pool di archiviazione vengono forniti separatamente. Per le credenziali, consulta i **dettagli della richiesta** in [Requests](https://control.softlayer.com/storage/mdms){:new_window}.
+
+   Il nome utente e la password del pool di archiviazione vengono forniti separatamente. Controlla i dettagli della richiesta (**Request Details**) nella tua pagina [Requests ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/storage/mdms){:new_window} per le credenziali.
    {:note}
 2. Punta il browser all'indirizzo IP statico che hai fornito nel modulo d'ordine.
 3. Accedi e immetti la password per sbloccare il pool di archiviazione vuoto. <br/>
-   
-   Per la password, vedi i dettagli della richiesta nella pagina [Requests](https://control.softlayer.com/storage/mdms){:new_window}.
+
+   Vedi i dettagli della richiesta (Request Details) della tua pagina [Requests ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/storage/mdms){:new_window} per la password.
    {:tip}
 4. Monta la condivisione file NFS sul tuo server.
 5. Esegui di nuovo l'inventario di DataShuttle per assicurarti che gli eventuali nuovi file vengano catturati.

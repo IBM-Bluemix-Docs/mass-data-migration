@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-05"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -10,6 +10,7 @@ lastupdated: "2018-11-05"
 
 
 # Häufig gestellte Fragen
+{: #faqs}
 
 ## Was ist {{site.data.keyword.cloud_notm}} Mass Data Migration?
 
@@ -20,7 +21,7 @@ lastupdated: "2018-11-05"
 ## Wie wird Mass Data Migration initiiert?
 {: faq}
 
-Schicken Sie eine Anforderung im [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} ab. Wenn Ihre Anforderung genehmigt und verarbeitet wurde, wird die nächste verfügbare Einheit (bzw. werden die nächsten verfügbaren Einheiten) auf der Basis Ihrer Netz- und Versandinformationen konfiguriert und an Sie gesendet. Über den folgenden Link können Sie sofort eine Anforderung abschicken: https://control.softlayer.com/storage/mdms
+Verwenden Sie die [{{site.data.keyword.cloud_notm}}-Konsole ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/catalog/){:new_window}, um die Anforderung zu übergeben. Wenn Ihre Anforderung genehmigt und verarbeitet wurde, wird die nächste verfügbare Einheit (bzw. werden die nächsten verfügbaren Einheiten) auf der Basis Ihrer Netz- und Versandinformationen konfiguriert und an Sie gesendet. Über den folgenden Link können Sie sofort eine Anforderung abschicken: https://control.softlayer.com/storage/mdms
 
 <hr/>
 
@@ -47,7 +48,7 @@ Durch die parallele oder serielle Nutzung von mehreren Einheiten können Sie all
 ## Wie lange dauert die Übertragung der Daten?
 {: faq}
 
-Die Bearbeitungszeit vom Einsenden einer Anforderung für Mass Data Migration durch einen Kunden bis zur Verfügbarkeit der Daten im zugehörigen {{site.data.keyword.cos_full}}-Bucket beträgt mindestens sieben Tage. Die Übertragungsleistung wird durch die Anzahl der zu übertragenden Dateien beeinflusst. Das Übertragen von Millionen kleiner Dateien dauert länger als die gleiche Menge an Daten, die in relativ wenigen Dateien enthalten ist.
+Die Bearbeitungszeit von der Übergabe einer Anforderung für Mass Data Migration durch einen Kunden bis zur Verfügbarkeit der Daten im zugehörigen {{site.data.keyword.cos_full}}-Bucket beträgt mindestens sieben Tage. Die Übertragungsleistung wird durch die Anzahl der zu übertragenden Dateien beeinflusst. Das Übertragen von Millionen kleiner Dateien dauert länger als die gleiche Menge an Daten, die in relativ wenigen Dateien enthalten ist.
 
 <hr/>
 

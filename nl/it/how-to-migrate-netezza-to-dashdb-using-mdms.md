@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-31"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:codeblock: .codeblock}
@@ -12,11 +12,12 @@ lastupdated: "2018-10-31"
 {:important: .important}
 
 # Migrazione dei database Netezza a DashDB
+{: #migratingNetezzaDashDB}
 
-Il servizio Mass Data Migration Service (MDMS) consente di migrare database Netezza di grandi dimensioni in DashDB. Puoi utilizzare questo documento come riferimento per gli strumenti che determinano la quantità di dati da trasferire e i metodi di esportazione.
+Il servizio MDMS (Mass Data Migration Service) consente di migrare database Netezza di grandi dimensioni in DashDB. Puoi utilizzare questo documento come riferimento per gli strumenti che determinano la quantità di dati da trasferire e i metodi di esportazione.
 
 ## Determinazione della dimensione dell'oggetto del database
-1. Da [IBM Support > Fix Central > Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window}, scarica la versione appropriata degli strumenti Netezza che corrisponde alla tua istanza Netezza.
+1. Da [IBM Support > Fix Central > Netezza Tools ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window}, scarica la versione appropriata degli strumenti Netezza che corrisponde alla tua istanza Netezza.
 
    Per impostazione predefinita, gli strumenti di supporto sono installati sul server Netezza nella directory `/nz/support-IBM_Netezza<version>/bin`
    {:note}
@@ -96,4 +97,4 @@ I dati possono essere riletti su Netezza usando l'istruzione `SELECT FROM` con l
 
 **Informazioni aggiuntive**
 
-Per ulteriori informazioni su Netezza, vedi la [documentazione utente del database IBM Netezza](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.
+Per ulteriori informazioni su Netezza, vedi [la documentazione utente del database Netezza ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.

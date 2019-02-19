@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-05"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -10,6 +10,7 @@ lastupdated: "2018-11-05"
 
 
 # FAQ
+{: #faqs}
 
 ## {{site.data.keyword.cloud_notm}} 대량 데이터 마이그레이션이란 무엇입니까?
 
@@ -20,7 +21,7 @@ lastupdated: "2018-11-05"
 ## 대량 데이터 마이그레이션은 어떻게 시작됩니까?
 {: faq}
 
-[{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}에서 요청을 제출하십시오. 일단 요청이 승인되고 처리되면 사용 가능한 다음 디바이스가 구성되어 네트워크 및 발송 정보에 기반하여 사용자에게 발송됩니다. 다음 링크를 사용하여 지금 시작해 보십시오. https://control.softlayer.com/storage/mdms
+[{{site.data.keyword.cloud_notm}} 콘솔 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/catalog/){:new_window}을 사용하여 요청을 제출하십시오. 일단 요청이 승인되고 처리되면 사용 가능한 다음 디바이스가 구성되어 네트워크 및 발송 정보에 기반하여 사용자에게 발송됩니다. 다음 링크를 사용하여 지금 시작해 보십시오. https://control.softlayer.com/storage/mdms
 
 <hr/>
 
@@ -157,7 +158,6 @@ lastupdated: "2018-11-05"
 {: faq}
 
 {{site.data.keyword.cloud_notm}}에 데이터를 전송하는 것은 무료입니다. 하지만 {{site.data.keyword.cos_full}} 또는 다른 모든 {{site.data.keyword.cloud_notm}} 서비스에 저장된 데이터에는 표준 요금이 적용됩니다. https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage#s3api ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 링크에서 표준 Cross Region 오퍼링에 대한 {{site.data.keyword.cos_full}}의 가격을 확인할 수 있습니다.
-
 
 <hr/>
 

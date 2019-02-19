@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-05"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -10,6 +10,7 @@ lastupdated: "2018-11-05"
 
 
 # FAQs
+{: #faqs}
 
 ## O que é o {{site.data.keyword.cloud_notm}} Mass Data Migration?
 
@@ -20,7 +21,7 @@ O {{site.data.keyword.cloud}} Mass Data Migration é um serviço de transferênc
 ## Como é iniciado o Mass Data Migration?
 {: faq}
 
-Use o [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} para enviar sua solicitação. Quando sua solicitação é aprovada e processada, o próximo dispositivo ou os dispositivos disponíveis são configurados e enviados a você com base em suas informações de rede e remessa. Use o link a seguir para começar agora: https://control.softlayer.com/storage/mdms
+Use o console do [{{site.data.keyword.cloud_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/catalog/){:new_window} para enviar sua solicitação. Quando sua solicitação é aprovada e processada, o próximo dispositivo ou os dispositivos disponíveis são configurados e enviados a você com base em suas informações de rede e remessa. Use o link a seguir para começar agora: https://control.softlayer.com/storage/mdms
 
 <hr/>
 

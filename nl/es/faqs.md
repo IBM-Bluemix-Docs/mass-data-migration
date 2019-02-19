@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-05"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -10,6 +10,7 @@ lastupdated: "2018-11-05"
 
 
 # Preguntas más frecuentes
+{: #faqs}
 
 ## ¿Qué es la migración de datos masiva de {{site.data.keyword.cloud_notm}}?
 
@@ -20,7 +21,7 @@ La migración de datos masiva de {{site.data.keyword.cloud}} es un servicio de t
 ## ¿Cómo se inicia la migración de datos masiva?
 {: faq}
 
-Utilice [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} para enviar la solicitud. Cuando dicha solicitud se haya aprobado y procesado, se preconfigura el siguiente o los siguientes dispositivos disponibles y se le envían de acuerdo con la información de red y de envío que haya especificado. Utilice el enlace siguiente para empezar ahora: https://control.softlayer.com/storage/mdms
+Utilice la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/catalog/){:new_window} para enviar la solicitud. Cuando dicha solicitud se haya aprobado y procesado, se preconfigura el siguiente o los siguientes dispositivos disponibles y se le envían de acuerdo con la información de red y de envío que haya especificado. Utilice el enlace siguiente para empezar ahora: https://control.softlayer.com/storage/mdms
 
 <hr/>
 
@@ -60,7 +61,7 @@ Un dispositivo puede estar en unas instalaciones sin coste alguno durante los pr
 ## ¿Qué interfaces de red admite la migración de datos masiva?
 {: faq}
 
-Los dispositivos de migración de datos masiva tienen interfaces de red de 10 Gbps con puertos de red de cobre SFP+ y RJ45 (CAT6a). También se incluye el convertidor de RJ45 a SFP+. Las tramasde gran tamaño están habilitadas en las interfaces de 10 Gbps.
+Los dispositivos de migración de datos masiva tienen interfaces de red de 10 Gbps con puertos de red de cobre SFP+ y RJ45 (CAT6a). También se incluye el convertidor de RJ45 a SFP+. Las tramas de gran tamaño están habilitadas en las interfaces de 10 Gbps.
 
 <hr/>
 

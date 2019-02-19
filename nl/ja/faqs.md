@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-05"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -10,6 +10,7 @@ lastupdated: "2018-11-05"
 
 
 # FAQ
+{: #faqs}
 
 ## {{site.data.keyword.cloud_notm}} 大量データ・マイグレーションとは何ですか?
 
@@ -20,7 +21,7 @@ lastupdated: "2018-11-05"
 ## 大量データ・マイグレーションはどのように開始されますか?
 {: faq}
 
-[{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} を使用して要求を送信してください。 要求が承認され、処理が行われると、ネットワーク情報と配送先情報に基づいて次の利用可能なデバイスの構成が行われて、デバイスが配送されます。 このリンク (https://control.softlayer.com/storage/mdms) からすぐに開始できます。
+[{{site.data.keyword.cloud_notm}} コンソール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/catalog/){:new_window} を使用して、要求を送信します。要求が承認され、処理が行われると、ネットワーク情報と配送先情報に基づいて次の利用可能なデバイスの構成が行われて、デバイスが配送されます。 このリンク (https://control.softlayer.com/storage/mdms) からすぐに開始できます。
 
 <hr/>
 
@@ -108,7 +109,7 @@ lastupdated: "2018-11-05"
 
 ## マイグレーション・プロセス全体で要求をどのように追跡管理できますか?
 
-要求の状況を追跡管理する場合は、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} の大量データ・マイグレーションのページにあるアクティブ要求のセクションを参照してください。このリンク (https://control.softlayer.com/storage/mdms) を使用して、ポータルにサインインできます。![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")
+要求の状況を追跡管理する場合は、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} の大量データ・マイグレーションのページにあるアクティブ要求のセクションを参照してください。 このリンク (https://control.softlayer.com/storage/mdms) を使用して、ポータルにサインインできます。![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")
 
 <hr/>
 

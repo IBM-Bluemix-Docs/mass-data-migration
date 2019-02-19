@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-10-31"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -11,13 +11,14 @@ lastupdated: "2018-10-31"
 {:important: .important}
 
 # Importazione dei dati nel dispositivo IBM Cloud Mass Migration
+{: #userguide}
 
 Il dispositivo {{site.data.keyword.cloud}} Mass Migration è un dispositivo di archiviazione portatile in grado di presentare condivisioni NFS (Network file system) o FileNet CFS (Content Federations Services) montabili. Il dispositivo viene gestito tramite un'interfaccia browser web. Il dispositivo viene spedito al tuo data center, caricato con dati in loco e quindi restituito a un data center {{site.data.keyword.BluSoftlayer_full}} e caricato nel tuo account {{site.data.keyword.cos_full}}.
 
 
 ## Accensione del dispositivo
 
-Il dispositivo viene fornito con un cavo di alimentazione C13 a spina Americana [https://en.wikipedia.org/wiki/IEC_60320](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. Se il dispositivo viene utilizzato al di fuori degli Stati Uniti, potrebbe essere necessario un adattatore di alimentazione.
+Il dispositivo viene inviato con un cavo di alimentazione C13-US [https://en.wikipedia.org/wiki/IEC_60320 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. Se il dispositivo viene utilizzato al di fuori degli Stati Uniti, potrebbe essere necessario un adattatore di alimentazione.
 
 Il dispositivo accetta tutte le gamme di potenza standard.
 <br/>
@@ -48,7 +49,7 @@ Per impostazione predefinita, i frame Jumbo sono abilitati su porte 10-GbE. Ques
 
 Vengono forniti le porte generate dal dispositivo come RJ45 che i cavi CAT6A. Sono forniti adattatori SFP+ per la conversione da RJ45. Gli adattatori funzionano con tutti i produttori di interruttori. Questi adattatori si trovano in una tasca sul lato inferiore del coperchio del contenitore di spedizione.
 
-- Eth1 (`1GbE-B`) viene normalmente utilizzato per la gestione dei dispositivi e, come tale, deve avere un gateway specificato nella configurazione dell'indirizzo IP.  Queste informazioni possono essere visualizzate tramite lo schermo LCD dopo l'accensione del dispositivo (vedi la sezione Configurazione dell'indirizzo IP). Questa porta viene utilizzata per rendere disponibile l'IU basata sul web al di fuori della sottorete dei dati.
+- Eth1 (`1GbE-B`) viene normalmente utilizzato per la gestione dei dispositivi e, come tale, deve avere un gateway specificato nella configurazione dell'indirizzo IP. Queste informazioni possono essere visualizzate tramite lo schermo LCD dopo l'accensione del dispositivo (vedi la sezione Configurazione dell'indirizzo IP). Questa porta viene utilizzata per rendere disponibile l'IU basata sul web al di fuori della sottorete dei dati.
 
 - Eth3 (`10GbE-B`) viene utilizzato per il trasferimento dei dati e può anche essere utilizzato per la gestione del dispositivo. Questa connessione deve essere sulla stessa sottorete dei dati di origine o, se necessario, può essere connesso direttamente al server.
 
@@ -79,7 +80,7 @@ NON è necessario configurare e utilizzare entrambe le porte se l'IP della porta
 2.	Determina la posizione più appropriata in cui collocare il dispositivo. Deve raggiungere sia l'alimentazione che le tue connessioni ethernet e ridurre al minimo l'area di passaggio.
 
 3.	Posiziona il dispositivo da collegare. Non è necessario rimuovere il dispositivo dalla custodia portatile. Durante l'uso può rimanere nella custodia di trasporto. Assicurati che il dispositivo sia a temperatura ambiente e che non vi sia condensa. Collega l'alimentazione utilizzando il cavo fornito sotto il coperchio della custodia e accendi il dispositivo.<br/>
-    
+
     Prendi nota dei due interruttori di alimentazione.
     {:note}
     ![Interruttori di alimentazione](/images/MDMSPowerSwitch.png)
@@ -90,10 +91,10 @@ NON è necessario configurare e utilizzare entrambe le porte se l'IP della porta
       ![Porte del dispositivo MDMS](/images/MDMSNewEth1and3.png)
       2. Connetti l'adattatore CAT6A/SFP+ fornito e collegalo al tuo switch da 10-Gb.
       3. Se l'indirizzo IP configurato per Eth3 può essere raggiunto tramite browser in `HTTPS://'Your-Eth3-IPAddress'`, vai al passo successivo. Altrimenti, collega la porta Eth1 (`1GbE-B`).<br/>
-         
+
          Se hai bisogno di modificare le impostazioni IP per Eth3 o Eth1, vedi la sezione [Configurazione degli indirizzi IP](#configuring-ip-addresses).
          {:tip}
-         
+
     - Connessione di Copper SFP+
       1. Rimuovi il cavo Copper SFP+ dal coperchio della custodia e collegalo a Eth5 10 GbE (5)
          ![Porte del dispositivo MDMS](/images/sfp-ports-sized-ports-labeled.png)
