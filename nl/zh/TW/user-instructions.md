@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-10-31"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -11,13 +11,14 @@ lastupdated: "2018-10-31"
 {:important: .important}
 
 # 將資料匯入至 IBM Cloud Mass Migration 裝置
+{: #userguide}
 
 {{site.data.keyword.cloud}} Mass Migration 裝置是一台可攜式儲存裝置，提供可裝載的「網路檔案系統 (NFS)」或 FileNet Content Federations Services (CFS) 共用。裝置透過 Web 瀏覽器介面進行管理。此裝置出貨至您的資料中心，負載站上資料，然後運回 {{site.data.keyword.BluSoftlayer_full}} 資料中心，並載入至您的 {{site.data.keyword.cos_full}} 帳戶。
 
 
 ## 開啟裝置的電源
 
-此裝置會與 C13-US 電源線 [https://en.wikipedia.org/wiki/IEC_60320](https://en.wikipedia.org/wiki/IEC_60320){:new_window} 一起送出。如果裝置是在美國以外地區使用，則可能需要使用變壓器。
+此裝置會與 C13-US 電源線 [https://en.wikipedia.org/wiki/IEC_60320 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://en.wikipedia.org/wiki/IEC_60320){:new_window} 一起送出。如果裝置是在美國以外地區使用，則可能需要使用變壓器。
 
 此裝置接受所有標準電源範圍。
 <br/>
@@ -79,7 +80,7 @@ LED 螢幕上顯示「系統 ID」時，即已開啟裝置的電源。
 2.	確定將裝置放在最合適的地方。裝置需要連接電源及乙太網路連線，並最大限度地減少資料流量。
 
 3.	放置要連接的裝置。不需要從可攜式外殼中取出裝置。在使用過程，裝置可以保留在傳輸外殼中。確定裝置在室溫下沒有凝結。使用提供的電源線在外殼蓋下方連接電源，並開啟裝置電源。<br/>
-    
+
     記下兩個電源開關。
     {:note}
     ![電源開關](/images/MDMSPowerSwitch.png)
@@ -90,10 +91,10 @@ LED 螢幕上顯示「系統 ID」時，即已開啟裝置的電源。
       ![MDMS 裝置的埠](/images/MDMSNewEth1and3.png)
       2. 將提供的 CAT6A 連接至 SFP+ 配接器，並連接至 10 Gb 交換器。
       3. 如果可以透過 `HTTPS://'Your-Eth3-IPAddress'` 在瀏覽器中連接針對 Eth3 所配置的 IP 位址，請繼續進行下一步。否則，請連接 Eth1 (`1GbE-B`) 埠。<br/>
-         
+
          如果您需要變更 Eth3 或 Eth1 的任何 IP 設定，請參閱[配置 IP 位址](#configuring-ip-addresses)小節。
          {:tip}
-         
+
     - 連接銅線 SFP+
       1. 將「銅線 SFP+」纜線從外殼蓋取下，並將其連接到 Eth5 10 GbE (5)
          ![MDMS 裝置的埠](/images/sfp-ports-sized-ports-labeled.png)

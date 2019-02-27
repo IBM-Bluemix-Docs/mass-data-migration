@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-31"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:codeblock: .codeblock}
@@ -12,11 +12,12 @@ lastupdated: "2018-10-31"
 {:important: .important}
 
 # 將 Netezza 資料庫移轉至 DashDB
+{: #migratingNetezzaDashDB}
 
 Mass Data Migration Service (MDMS) 可用來將大型 Netezza 資料庫移轉至 DashDB。您可以使用本文件作為工具的參照，而這些工具決定要傳送的資料量及匯出方法。
 
 ## 決定資料庫物件大小
-1. 從 [IBM 支援中心 > 修正程式中心 > Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window}，下載與您的 Netezza 實例相對應的適當 Netezza Tools 版本。
+1. 從 [IBM 支援中心 > 修正程式中心 > Netezza Tools ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window}，下載與您的 Netezza 實例相對應的適當 Netezza Tools 版本。
 
    依預設，支援工具會安裝在 Netezza 伺服器的 `/nz/support-IBM_Netezza<version>/bin` 目錄中
    {:note}
@@ -96,4 +97,4 @@ Mass Data Migration Service (MDMS) 可用來將大型 Netezza 資料庫移轉至
 
 **其他資訊**
 
-如需 Netezza 的相關資訊，請參閱 [IBM Netezza database user documentation](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}。
+如需 Netezza 的相關資訊，請參閱 [IBM Netezza database user documentation ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}。
