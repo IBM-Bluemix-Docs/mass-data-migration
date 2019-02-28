@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-02-28"
+
+keywords:
+
+subcollection: mass-data-migration
 
 ---
 {:new_window: target="_blank"}
@@ -11,7 +15,7 @@ lastupdated: "2019-02-05"
 {:important: .important}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Getting Started with {{site.data.keyword.cloud_notm}} Mass Data Migration
+# Getting started tutorial
 {: # GettingStarted}
 
 **Prerequisites**

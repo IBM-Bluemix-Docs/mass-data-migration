@@ -4,10 +4,14 @@ copyright:
   years: 2017, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: mass-data-migration
+
 ---
 
 
-# {{site.data.keyword.cloud_notm}} Mass Data Migration Overview
+# About {{site.data.keyword.cloud_notm}} Mass Data Migration
 {: #overview}
 
 This service is a fast, simple, secure way to physically transfer terabytes to petabytes of data to the {{site.data.keyword.Bluemix}}.
