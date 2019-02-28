@@ -1,79 +1,81 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-05-17"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
-{:new_window: target="_blank"}
-{:shortdesc: .shortdesc}
+ {:tip: .tip}
+ {:note: .note}
+ {:important: .important}
 
-# {{site.data.keyword.cloud_notm}} Mass Data Migration - Spécifications
+# Spécifications de périphérique
+{: #devicespecs}
 
-<table>
-  <caption>Spécifications de périphérique Mass Data Migration</caption>
+<table role="presentation">
         <colgroup>
           <col/>
           <col/>
         </colgroup>
           <tr>
-            <td>Capacité de stockage</td>
+            <td><p>Capacité de stockage</p></td>
             <td>
-              <p>Total : 144 To ; Utilisable : 120 TB en mode RAID-6</p>
+              <p>Total = 144 To<br/>Utilisable = 120 To en mode RAID-6</p>
             </td>
           </tr>
           <tr>
-            <td>Connexion données et réseau</td>
+            <td><p>Connexion données et réseau</p></td>
             <td>
-              <p>2 x 10 Gbase-T</p>
+              <p>2 x 10 GBASE-T</p>
               <p>2 x 1 GbE</p>
-              <p>RJ45 &amp; SFP+ cuivre pris en charge <br/> (convertisseur RJ45 vers SFP+ fourni)</p>
+              <p>RJ45 et SFP+ cuivre pris en charge <br/> (convertisseur RJ45 vers SFP+ fourni)</p>
             </td>
           </tr>
           <tr>
-            <td>Câbles</td>
+            <td><p>Câbles</p></td>
             <td>
               <p>2x CAT6a (182 m)</p>
               <p>Cordon d'alimentation (182 m)</p>
             </td>
           </tr>
           <tr>
-            <td>Exigences thermiques</td>
+            <td><p>Exigences thermiques</p></td>
             <td>
-              <p>Temp : 95°F (droit avec couvercle entièrement ouvert)</p>
-              <p>Humidité : 90% avec couvercle ouvert</p>
-              <p>Altitude : 4000 mètres max</p>
+              <p>Température -  41° à 95°F (droit avec couvercle entièrement ouvert)</p>
+              <p>Humidité - 90 % avec couvercle ouvert</p>
+              <p>Altitude - 4000 mètres max</p>
             </td>
           </tr>
           <tr>
-            <td>Waterproof</td>
+            <td><p>Waterproof</p></td>
             <td>
-              <p>Couvercle ouvert : jusqu'à 1 minute</p>
-              <p>Couvercle fermé : jusqu'à 30 minutes</p>
+              <p>Couvercle ouvert, jusqu'à 1 minute</p>
+              <p>Couvercle fermé, jusqu'à 30 minutes</p>
             </td>
           </tr>
           <tr>
-            <td>Poids</td>
+            <td><p>Poids</p></td>
             <td>
-              <p>Périphérique : 24,5 kg ; avec mallette de transport : 26,7 kg.</p>
-              <p>Remarque : Equipé de roues et d'une poignée rétractable pour une meilleure maniabilité ; accessible depuis l'extérieur de la mallette de transport.</p>
+              <p>Périphérique : 24,5 kg<br/>Avec mallette de transport : 26,7 kg</p>
+              Le périphérique est équipé de roues et de poignées pour une meilleure maniabilité. Il est accessible depuis l'extérieur de la mallette de transport.
+              {:note}
             </td>
           </tr>
           <tr>
-            <td>Dimensions</td>
+            <td><p>Dimensions</p></td>
             <td>
-              <p>Périphérique : 21,7” x 13,7” x 19,3”</p>
-              <p>Avec mallette de transport : 25,6” x 17,3” x 22,8”</p>
+              <p>Périphérique - 21,7” x 13,7” x 19,3”</p>
+              <p>Avec mallette de transport - 25,6” x 17,3” x 22,8”</p>
             </td>
           </tr>
           <tr>
-            <td>Alimentation</td>
+            <td><p>Alimentation</p></td>
             <td>
-              <p>300 W ; 88 V - 265 Vca ; 50-60 Hz</p>
+              <p>300 W ; 88 V - 265 V AC ; 50 - 60 Hz</p>
             </td>
           </tr>
           <tr>
-            <td>Consommation électrique</td>
+            <td><p>Consommation électrique</p></td>
             <td>
               <p>165 W (pendant la copie des fichiers)</p>
             </td>

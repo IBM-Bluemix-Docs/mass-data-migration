@@ -1,106 +1,155 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-05-17"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
-{:shortdesc: .shortdesc}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
-# Instructions utilisateur
+# Importation de données sur le périphérique IBM Cloud Mass Migration
+{: #userguide}
 
-## Présentation
-
-Le périphérique {{site.data.keyword.cloud}} Mass Migration est un périphérique de stockage portable capable de présenter des partages NFS (Network File System) ou CFS (FileNet Content Federations Services) et géré à partir d'une interface de navigateur Web.  Le périphérique est expédié à votre centre de données, chargé avec des données sur site, puis retourné à un centre de données {{site.data.keyword.BluSoftlayer_full}} et chargé dans votre compte {{site.data.keyword.cos_full}}. 
+Le périphérique {{site.data.keyword.cloud}} Mass Migration est un périphérique de stockage portable capable de présenter des partages NFS (Network file system) ou CFS (FileNet Content Federations Services). Il est géré à partir d'une interface de navigateur Web. Le périphérique est expédié à votre centre de données, chargé avec des données sur site, puis retourné à un centre de données {{site.data.keyword.BluSoftlayer_full}} et chargé dans votre compte {{site.data.keyword.cos_full}}.
 
 
-### Alimentation
+## Mise sous tension du périphérique
 
-Le périphérique est fourni avec un cordon d'alimentation C13-US [https://en.wikipedia.org/wiki/IEC_60320](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. Si le périphérique est utilisé en dehors des Etats-Unis, un adaptateur d'alimentation peut être nécessaire.
+Le périphérique est envoyé avec un cordon d'alimentation C13-US [https://en.wikipedia.org/wiki/IEC_60320 ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. Si le périphérique est utilisé en dehors des Etats-Unis, un adaptateur d'alimentation peut être nécessaire.
 
 Le périphérique accepte toutes les gammes de puissance standard.
+<br/>
 ![Gamme de puissance](/images/PowerRating.png)
 
+Pour mettre le périphérique sous tension, procédez comme suit :
+1. Activez le commutateur Mains à l'aide de la prise électrique. <br/>
+   ![Commutateur Mains](/images/MDMSPowerOnOff.png)
 
-### Connectivité Ethernet
+2. Utilisez le bouton On/Off du système situé à côté des voyants de liaison de connexion.
+   ![Bouton On/Off](/images/MDMSSystemOnOff.png)
 
-Deux connexions Ethernet doivent être réalisées : la première pour la gestion du périphérique via un navigateur, et la deuxième pour le transfert de données sur le même sous-réseau que celui où résident les données source.
-
-Les deux ports proviennent du périphérique car les câbles RJ45 et CAT6A sont fournis. Des adaptateurs SFP+ cuivre sont fournis pour la conversion à partir de RJ45.  Les adaptateurs sont compatibles avec tous les fabricants d'interrupteur. Ces adaptateurs se trouvent dans une pochette dans la section inférieure du couvercle du carton d'expédition.
-
-- Eth1 (1 GbE-B) est utilisé pour la gestion des périphériques ; pour cette raison, une passerelle doit être spécifiée dans la configuration d'adresse IP. Cette information est visible sur l'écran LCD une fois que le périphérique est mis sous tension (voir la section ci-dessous relative à la configuration d'adresse IP). 
-
-- Eth3 (10 GbE-B) est utilisé pour le transfert de données. Cette connexion doit se trouver sur le même sous-réseau que celui où résident les données source ou elle peut être directement reliée au serveur si nécessaire.
-
-Si un autre format de connexion Ethernet est nécessaire, le client doit fournir le convertisseur.
+Le périphérique est mis sous tension lorsque l'ID système apparaît sur l'écran des voyants.
 
 
+## Configuration de la connectivité Ethernet
 
-## Instructions utilisateur étape par étape
+Vous devez établir deux connexions Ethernet. La première pour la gestion du périphérique via un navigateur, et la seconde pour le transfert de données sur le sous-réseau où résident les données source.
 
-1.	Le périphérique vous parvient pré-configuré avec votre adresse IP, votre nom d'utilisateur, un pool de stockage verrouillé et un partage NFS. Le mot de passe utilisateur et le mot de passe du pool de stockage vous sont communiqués dans un e-mail distinct.
+{{site.data.keyword.cloud}} fournit deux modèles de périphérique MDMS. Un modèle prend en charge uniquement la connectivité RJ45. Les connectivités SFP+ cuivre et RJ45 sont prises en charge par l'autre modèle. Suivez les instructions adaptées au modèle du périphérique MDMS dont vous disposez.
 
-2.	Déterminez l'emplacement le plus approprié pour l'installation du périphérique : proche d'une prise secteur et d'une prise Ethernet (1GbE et 10GbE) et circulation réduite.
+Par défaut, les trames Jumbo sont activées sur les ports 10 GbE. Ce paramètre peut être changé en utilisant l'option Modify Network Port dans l'interface utilisateur.
+{:tip}
 
-3.	Installez le périphérique à connecter (il peut demeurer dans sa mallette de transport pendant l'utilisation). Assurez-vous que le périphérique est à la température de la pièce et qu'il ne présente aucune condensation. Connectez-le à l'aide du câble d'alimentation fourni sous le couverte de la mallette et mettez-le sous tension.<br/>
-    **Remarque **: Deux interrupteurs d'alimentation sont présents.
+### Configuration de RJ45 uniquement
+
+![RJ45](/images/RJ45PortZoom.png)
+
+Les ports du périphérique sont constitués par des prises RJ45, et des câbles CAT6A sont fournis. Des adaptateurs SFP+ cuivre sont fournis pour la conversion à partir de RJ45. Les adaptateurs sont compatibles avec tous les fabricants de commutateurs. Ces adaptateurs se trouvent dans une pochette dans la section inférieure du couvercle du carton d'expédition.
+
+- Eth1 (`1GbE-B`) est généralement utilisé pour la gestion des périphériques et doit donc disposer d'une passerelle spécifiée dans la configuration d'adresse IP. Ces informations sont visibles sur l'écran LCD une fois que le périphérique est mis sous tension (voir la section relative à la configuration d'adresse IP). Ce port est utilisé pour rendre l'interface utilisateur Web disponible en dehors du sous-réseau de données.
+
+- Eth3 (`10GbE-B`) est utilisé pour le transfert de données et peut éventuellement être utilisé pour la gestion des périphériques. Cette connexion doit se trouver sur le même sous-réseau que celui où résident les données source, ou elle peut être directement reliée au serveur si nécessaire.
+
+
+### Configuration de SFP+ cuivre et RJ45
+
+![SFP+ cuivre](/images/sfp-ports-sized-port5.png)
+
+Les ports du périphérique sont constitués de prises SFP+ cuivre et RJ45. Les câbles CAT6A et SFP+ cuivre sont fournis.
+
+- Eth5 (`10Gb SFP+ (5)`) est généralement utilisé pour le transfert de données mais peut également être utilisé pour la gestion des périphériques. Ce port s'exécute uniquement à une vitesse de 10 GbE.
+
+- Eth2 (`10-GbE (2)`) est généralement utilisé pour la gestion des périphériques mais peut également être utilisé pour le transfert de données. Ce port peut s'exécuter à une vitesse de 1 GbE ou 10 GbE.
+
+
+La connexion pour le transfert de données doit se trouver sur le même sous-réseau que celui où résident les données source ou elle peut être directement reliée au serveur si nécessaire.
+
+Les paramétrages d'adresse IP sont visibles et gérés sur l'écran LCD une fois que le périphérique est mis sous tension (voir la section relative à la configuration d'adresse IP).
+
+Il n'est PAS nécessaire de configurer et d'utiliser les deux ports si l'adresse IP du port 10 GbE port est accessible via un navigateur Web.
+{:note}
+
+
+## Chargement des données
+
+1.	Le périphérique vous parvient préconfiguré avec votre adresse IP, votre nom d'utilisateur, un pool de stockage verrouillé et un partage NFS. Le mot de passe utilisateur et le mot de passe du pool de stockage vous sont communiqués dans un e-mail distinct.
+
+2.	Déterminez l'emplacement le plus approprié pour l'installation du périphérique. Celui-ci doit se trouver à portée d'une prise secteur et d'une prise Ethernet et être positionné de manière à minimiser les déplacements.
+
+3.	Positionnez le périphérique à connecter. Il n'est pas nécessaire de sortir le périphérique de la mallette portable. Il peut rester dans sa mallette de transport lors de son utilisation. Assurez-vous que le périphérique est à la température de la pièce et qu'il ne présente aucune condensation. Connectez-le à l'aide du câble d'alimentation fourni sous le couverte de la mallette et mettez-le sous tension.<br/>
+
+    Notez la présence de deux interrupteurs d'alimentation.
+    {:note}
     ![Interrupteurs d'alimentation](/images/MDMSPowerSwitch.png)
-    **Remarque **: Il n'est pas obligatoire de sortir le périphérique de la mallette portable.
 
-4.	Sortez le câble CAT6A du couvercle de la mallette et branchez-le sur le port Eth3 (10GbE-B) illustré dans l'image ci-dessous.
-    ![](/images/MDMSNewEth1and3.png)
+4. Connectez le périphérique au réseau.
+    - Connexion de RJ45
+      1. Sortez le câble CAT6A du couvercle de la mallette et branchez-le sur le port Eth3 (10 GbE-B).
+         ![Ports du périphérique MDMS](/images/MDMSNewEth1and3.png)
+      2. Connectez l'adaptateur CAT6A vers SFP+ fourni et reliez-le à votre interrupteur 10 Gb.
+      3. Si l'adresse IP configurée pour Eth3 est accessible dans le navigateur via `HTTPS://'Your-Eth3-IPAddress'`, passez à l'étape suivante. Sinon, connectez le port Eth1 (`1GbE-B`).<br/>
 
-5.	Connectez l'adaptateur CAT6A vers SFP+ et reliez-le à votre interrupteur 10 Gb.
+         Si vous devez modifier les paramétrages d'adresse IP pour Eth3 ou Eth1, reportez-vous à la section [Configuration des adresses IP](#configuring-ip-addresses).
+         {:tip}
 
-6.	Si l'adresse IP configurée pour Eth3 est accessible via le navigateur HTTPS://'Your-Eth3-IPAddress', passez à l'étape suivante ; sinon, connectez le port Eth1 (1 GbE-B). <br/>
-    **Remarque **: consultez la section ci-dessous relative à la configuration d'adresse IP si vous devez modifier des paramètres IP pour Eth3 ou Eth1.
+    - Connexion de SFP+ cuivre
+      1. Sortez le câble SFP+ cuivre du couvercle de la mallette et branchez-le sur le port Eth5 10 GbE (5)
+         ![Ports du périphérique MDMS](/images/sfp-ports-sized-ports-labeled.png)
+      2. Connectez le câble SFP+ cuivre à votre commutateur 10 Gb.
+      3. Si l'adresse IP configurée pour Eth5 est accessible via le navigateur `HTTPS://'Your-Eth5-IPAddress'`, passez à l'étape suivante, sinon connectez le port Eth2 (`10GbE-B` ou `1GbE-B`).
 
-7. Ouvrez votre navigateur et entrez HTTPS://'Votre-AdresseIP-Eth1'. Entrez l'adresse Eth1 appropriée pour votre configuration réseau. Acceptez l'exception de certificat.
+         Si vous devez modifier les paramétrages d'adresse IP pour Eth5 ou Eth2, reportez-vous à la section [Configuration des adresses IP](#configuring-ip-addresses).
+         {:tip}
 
-8. Utilisez le nom d'utilisateur et le mot de passe fournis pour vous connecter.<br/>
-    ![Page de connexion](/images/Login.png)
+5. Ouvrez votre navigateur et entrez `HTTPS://Your-Eth1-IPAddress`. Remplacez `Your-Eth1-IPAddress` par l'adresse Eth1 de votre configuration réseau. Acceptez l'exception de certificat.
 
-9. L'assistant de flux de travaux présente l'accès à des éléments spécifiques généralement utilisés dans l'ordre de gauche à droite.<br/>
-    ![Icônes de flux de travaux](/images/workflow.png) <br/>
-    **REMARQUE **: le flux de travaux peut être rouvert à l'aide de **Workflow Manager** dans l'angle supérieur gauche de l'interface graphique. 
+6. Utilisez le nom d'utilisateur et le mot de passe fournis pour vous connecter.<br/>
+    ![Page de connexion](/images/login.png)
 
-10.	Activez le pool de stockage préconfiguré :
+7. L'assistant de flux de travaux présente l'accès à des éléments spécifiques qui sont généralement utilisés dans l'ordre de gauche à droite.<br/>
+    ![Icônes de flux de travaux](/images/workflow.png)
+
+    Le flux de travaux peut être de nouveau ouvert à l'aide du **gestionnaire de flux de travaux** affiché dans la zone supérieure gauche de l'interface.
+    {:tip}
+
+8.	Activez le pool de stockage préconfiguré.
     - Cliquez sur **Unlock and Start Storage Pool**.
     - Entrez la phrase de passe de votre pool de stockage et cliquez sur **OK**.
-    ![Activation du pool de stockage](/images/UnlockPool.png)
+    ![Activation du pool de stockage](/images/Unlock.png)
 
-11. Par défaut, les protocoles NFS and SMB sont activés sur le partage et aucune restriction d'accès n'est placée sur ce dernier. Pour restreindre l'accès à ce partage (pour NFS ou SMB), cliquez avec le bouton droit de la souris sur le nom du partage et sélectionnez l'élément de menu approprié.<br/>
-    ![Restriction de l'accès au partage](/images/ShareControls.png)
+9. Par défaut, les protocoles NFS and SMB sont activés sur le partage sans aucune restriction d'accès. Pour restreindre l'accès à ce partage (pour NFS ou SMB), cliquez avec le bouton droit de la souris sur le nom du partage et sélectionnez l'élément de menu approprié.<br/>
+   ![Restriction de l'accès au partage](/images/ShareAccessControl.png)
 
-12. Lorsque le pool de stockage est activé, le partage NFS est disponible pour montage. Dans le flux de travaux, cliquez sur **View Network Shares** afin d'afficher la vue des partages de réseau. Fermez le flux de travaux, cliquez avec le bouton droit de la souris sur le partage et sélectionnez la commande de montage afin d'afficher le nom du partage et les informations de montage. Montez le partage sur votre serveur source et chargez les données. Prenez soin de spécifier l'adresse IP de la liaison 10 Go lors du montage du partage.
+10. Lorsque le pool de stockage est activé, le partage NFS est disponible pour montage. Dans le flux de travaux, cliquez sur **View Network Shares** afin d'afficher la vue des partages de réseau. Fermez le flux de travaux, cliquez avec le bouton droit de la souris sur le partage et sélectionnez la commande de montage afin d'afficher le nom du partage et les informations de montage. Montez le partage sur votre serveur source. Prenez soin de spécifier l'adresse IP de la liaison 10 Go.
     ![Montage du partage](/images/MountCommand.png)
 
-13. Copiez vos données dans le partage NFS. Dans le flux de travaux, cliquez sur **View Network Activity** pour afficher la charge Ethernet entrante dans l'interface graphique dès lors que des données sont transférées vers le périphérique sur la liaison 10 Go.
-    ![Affichage de l'activité](/images/UserGuide13.png)
+11. Copiez vos données dans le partage NFS. Dans le flux de travaux, cliquez sur **View Network Activity** pour afficher la charge Ethernet entrante dès lors que des données sont transférées vers le périphérique sur la liaison 10 Go.
+    ![Affichage de l'activité](/images/SystemNetworkPerf.png)
 
-14. Dans le flux de travaux, cliquez sur **View Storage pool** pour surveiller l'utilisation de l'espace de stockage et les IOPS sur le périphérique.
-    ![Affichage du pool de stockage](/images/UserGuide14.png)
+12. Dans le flux de travaux, cliquez sur **View Storage pool** pour surveiller l'utilisation de l'espace de stockage et les IOPS sur le périphérique.
+    ![Affichage du pool de stockage](/images/SystemStoragePoolPerf.png)
 
-15.	Une fois le chargement terminé, mettez le système hors tension. Dans le flux de travaux, cliquez sur **Shutdown Appliance...**.  
-    ![Mise hors tension du dispositif](/images/Shutdown.png)
+13.	Une fois le chargement terminé, vous pouvez mettre proprement le système hors tension. Dans le flux de travaux, cliquez sur **Shutdown Appliance...**.
+    ![Mise hors tension de l'appliance](/images/SystemShutdown.png)
 
-16.	Déconnectez le périphérique, replacez le câble d'alimentation, le câble Ethernet et l'adaptateur SFP+ dans leur emplacement de rangement respectifs sous le couvercle.
+14.	Déconnectez le périphérique, replacez le câble d'alimentation, le câble Ethernet et l'adaptateur SFP+ dans leur emplacement de rangement respectifs sous le couvercle.
 
-17.	Apposez l'étiquette d'expédition fournie, prévenez l'expéditeur, puis retournez le périphérique au centre de données afin que les données soient chargées dans {{site.data.keyword.cos_full_notm}}. 
+16.	Apposez l'étiquette d'expédition fournie, prévenez l'expéditeur, puis retournez le périphérique au centre de données.
 
 
-## Configuration d'adresse IP
+## Configuration des adresses IP
 
-L'écran LCD situé sur le dessus du périphérique peut être utilisé pour configurer les adresses IP des ports Ethernet. Pour naviguer sur cet écran LCD, utilisez les touches **Haut**, **Bas**, **Retour/Echap** et **Avant/ENTREE**. La touche **Entrée** vous permet d'accéder à un menu et la touche **Exit** vous permet d'en sortir. 
+L'écran LCD du périphérique peut être utilisé pour configurer les adresses IP des ports Ethernet. Pour naviguer sur cet écran LCD, utilisez les touches **Haut**, **Bas**, **Retour/Echap** et **Avant/Entrée**. La touche **Entrée** vous permet d'accéder à un menu et la touche **Exit** vous permet d'en sortir.
 
-Lors de la modification d'une adresse IP ou d'un masque de sous-réseau, la touche **Entrée** vous permet d'avancer d'un caractère à la fois, tandis que la touche **Exit** vous permet de reculer d'un caractère à la fois.  
+Lorsque vous éditez une adresse IP ou un masque de sous-réseau, la touche **Entrée** vous permet d'avancer d'un caractère à la fois, tandis que la touche **Exit** vous permet de reculer d'un caractère à la fois.
 
 Les touches **Haut** et **Bas** vous permettent de naviguer entre les chiffres de l'emplacement choisi.
 
+Utilisez la touche **Exit** pour revenir au menu initial.
 
-Utilisez la touche **Exit** pour revenir au menu initial.  
-
-Accédez à **Update...** et appuyez sur **Entrée** pour sauvegarder le paramètre. 
+Accédez à **Update...** et appuyez sur **Entrée** pour sauvegarder le paramètre.
 
   ![Ecran LCD](/images/MDMSLCD.png)

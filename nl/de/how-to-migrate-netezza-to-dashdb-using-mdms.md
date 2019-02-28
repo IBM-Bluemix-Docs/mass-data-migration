@@ -1,60 +1,64 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-05-17"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
+{:codeblock: .codeblock}
 {:new_window: target="_blank"}
-{:shortdesc: .shortdesc}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
 # Netezza-Datenbanken auf DashDB migrieren
+{: #migratingNetezzaDashDB}
 
-Mit dem Mass Data Migration Service (MDMS) können umfangreiche Netezza-Datenbanken auf DashDB migriert werden.
+Mit dem Mass Data Migration Service (MDMS) können umfangreiche Netezza-Datenbanken auf DashDB migriert werden. Sie können dieses Dokument als Referenz für die Tools verwenden, mit denen die Menge der zu übertragenden Daten und die Exportmethoden festgelegt werden.
 
-In diesem Dokument wird Folgendes beschrieben:
-- Netezza-Tools zum Ermitteln des Datenvolumens, das mit dem Mass Data Migration Service übertragen werden soll
-- Befehle zum Exportieren der Daten in die Einheit für Mass Data Migration
+## Größe des Datenbankobjekts ermitteln
+1. Laden Sie von [IBM Support > Fix Central > Netezza-Tools ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window} die geeignete Version der Netezza-Tools für Ihre Netezza-Instanz herunter. 
 
-## Datenbankdimensionierung
-1. Laden Sie die geeignete Version der Netezza-Tools für Ihre Netezza-Instanz von [IBM Support: Fix Central - Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window} herunter.
+   Unterstützungstools werden auf dem Netezza-Server standardmäßig im Verzeichnis `/nz/support-IBM_Netezza<version>/bin` installiert.
+   {:note}
 
-   **Hinweis**: Unterstützungstools werden auf dem Netezza-Server standardmäßig im Verzeichnis /nz/support-IBM_Netezza<version>/bin installiert.
+2. Führen Sie die beiden folgenden Befehle aus.
+   - `nz_db_size`, um die Größe der Datenbank zu bestimmen.
 
-2. Die beiden folgenden Befehle können verwendet werden: `nz_db_size` und `nz_compressedTableRatio`
+     ```
+     nz_db_size
+     Objekt | Name | Byte  | KB | MB | GB | TB
+     -----------------------------------------------------------------------------------------------------------
+     Appliance | cdcntze1 | 23.388.712.337.408 | 22.840.539.392 | 22.305.214 | 21.782,4 | 21,3
+     Datenbank | DHDB | 183.537.500.160 | 179.235.840 | 175.035 | 170,9 | 0,2
+     Tabelle | DH71964I1 | 880.803.840 | 860.160 | 840 | 0,8 | 0,0
+     Tabelle | DH71964T1 | 96.120.078.336 | 93.867.264 | 91.667 | 89,5 | 0,1
+     Tabelle | DH71964T10 | 9.615.179.776 | 9.389.824 | 9.170 | 9,0 | 0,0
+     Tabelle | DH71964T2 | 9.615.179.776 | 9.389.824 | 9.170 | 9,0 | 0,0
+     Tabelle | DH71964T3 | 9.615.179.776 | 9.389.824 | 9.170 | 9,0 | 0,0
+     Tabelle | DH71964T4 | 9.615.179.776 | 9.389.824 | 9.170 | 9,0 | 0,0
+     Tabelle | DH71964T5 | 9.615.179.776 | 9.389.824 | 9.170 | 9,0 | 0,0
+     Tabelle | DH71964T6 | 9.615.179.776 | 9.389.824 | 9.170 | 9,0 | 0,0
+     Tabelle | DH71964T7 | 9.615.179.776 | 9.389.824 | 9.170 | 9,0 | 0,0
+     Tabelle | DH71964T8 | 9.615.179.776 | 9.389.824 | 9.170 | 9,0 | 0,0
+     Tabelle | DH71964T9 | 9.615.179.776 | 9.389.824 | 9.170 | 9,0 | 0,0
+     ```
+     {: codeblock}
 
-  ```
-  nz_db_size
-Objekt | Name | Byte | KB | MB | GB | TB
------------------------------------------------------------------------------------------------------------
-Appliance | cdcntze1 | 23.388.712.337.408 | 22.840.539.392 | 22.305.214 | 21.782,4 | 21,3
-Datenbank | DHDB | 183.537.500.160 | 179.235.840 | 175.035 | 170,9 | ,2
-Tabelle | DH71964I1 | 880.803.840 | 860.160 | 840 | ,8 | ,0
-Tabelle | DH71964T1 | 96.120.078.336 | 93.867.264 | 91.667 | 89,5 | ,1
-Tabelle | DH71964T10 | 9.615.179.776 | 9.389.824 | 9.170 | 9,0 | ,0
-Tabelle | DH71964T2 | 9.615.179.776 | 9.389.824 | 9.170 | 9,0 | ,0
-Tabelle | DH71964T3 | 9.615.179.776 | 9.389.824 | 9.170 | 9,0 | ,0
-Tabelle | DH71964T4 | 9.615.179.776 | 9.389.824 | 9.170 | 9,0 | ,0
-Tabelle | DH71964T5 | 9.615.179.776 | 9.389.824 | 9.170 | 9,0 | ,0
-Tabelle | DH71964T6 | 9.615.179.776 | 9.389.824 | 9.170 | 9,0 | ,0
-Tabelle | DH71964T7 | 9.615.179.776 | 9.389.824 | 9.170 | 9,0 | ,0
-Tabelle | DH71964T8 | 9.615.179.776 | 9.389.824 | 9.170 | 9,0 | ,0
-Tabelle | DH71964T9 | 9.615.179.776 | 9.389.824 | 9.170 | 9,0 | ,0
-  ```
+   - `nz_compressedTableRatio`, um die Größe der dekomprimierten Daten zu schätzen.
 
-
-  ```
-  nz_compressedTableRatio
+      ```
+      nz_compressedTableRatio
   ....................................................................................
-  . Die Werte zeigen das geschätzte Größenverhältnis einer komprimierten Tabelle .
-  . zu der entsprechenden nicht komprimierten Tabelle. Eine nicht komprimierte .
+      . Die Werte zeigen das geschätzte Größenverhältnis einer komprimierten Tabelle .
+      . zu der entsprechenden nicht komprimierten Tabelle. Eine nicht komprimierte .
 . Tabelle ist ungefähr <ratio> mal größer als die entsprechende
-  . . nicht komprimierte Tabelle. .
-  . .
-  . Die 'Komprimierte Größe' gibt an, wie viel Speicher die Tabelle belegt. .
-  . Die 'Unkomprimierte Größe' ist ein mathematisch berechneter Schätzwert. .
-  ....................................................................................
-  Datenbank: DHDB
+      . . nicht komprimierte Tabelle. .
+      . .
+      . Die 'Komprimierte Größe' gibt an, wie viel Speicher die Tabelle belegt. .
+      . Die 'Unkomprimierte Größe' ist ein mathematisch berechneter Schätzwert. .
+      ....................................................................................
+      Datenbank: DHDB
 Tabelle/MView-Name Ratio Komprimierte Größe Unkomprimierte Größe Größendifferenz
 ================== ===== ================ =============== ===========
 DH71964I1 1,49 880.803.840 1.310.723.840 429.920.000
@@ -68,28 +72,30 @@ DH71964T6 1,50 9.615.179.776 14.417.923.840 4.802.744.064
 DH71964T7 1,50 9.615.179.776 14.417.923.840 4.802.744.064
 DH71964T8 1,50 9.615.179.776 14.417.923.840 4.802.744.064
 DH71964T9 1,50 9.615.179.776 14.417.923.840 4.802.744.064
-  ================================ ===== =================== ===================
+      ================================ ===== =================== ===================
 Summe für diese Datenbank 1,50 183.537.500.160 275.251.242.240 91.713.742.080
-  ```
+      ```
+      {: codeblock}
 
-## Prozedur für Datenextraktion und Onboarding
+## Daten extrahieren und Onboarding
 
-Zum Extrahieren der Daten aus Netezza stehen zwei Optionen zur Verfügung:
-1. Verwendung des **Dienstprogramms 'nz_backup'**:
+Sie können zwei Optionen verwenden, um die Daten aus Netezza zu extrahieren.
+- Verwenden Sie das Dienstprogramm `nz_backup`.
+   ```
+   /nz/support/contrib/bin/nz_backup –db   {DB-Name} –d  {Zielverzeichnis}  ascii threads 4
+   ```
 
-  ```
-  /nz/support/contrib/bin/nz_backup –db   {db_name} –d  {target_directory}  ascii threads 4
-  ```
+   Das `{Zielverzeichnis}` ist die gemeinsam genutzte NFS-Ressource, die von der MDMS-Einheit bereitgestellt wird und die auf diesem Server angehängt ist.
+   {:tip}
 
-   **Hinweis**: Das {zielverzeichnis} ist die vom MDMS-Gerät bereitgestellte, gemeinsam genutzte NFS-Ressource, die an diesen Server angehängt ist.
-
-2. Erstellen einer externen Tabelle (CREATE EXTERNAL TABLE)
-   - Stellen Sie dem DashDB-Team die Klausel “USING” zur Verfügung, die beim LOAD-Prozess zum Exportieren für die Wiederverwendung verwendet wird.
-   - Wählen Sie FORMAT = ”Text” aus.
+- Verwenden Sie die Anweisung `CREATE EXTERNAL TABLE`.
+   - Wählen Sie `FORMAT` = ”Text” aus.
+   - Stellen Sie dem DashDB-Team die `USING`-Klausel zur Verfügung, die beim `LOAD`-Prozess für den Export für die Wiederverwendung verwendet wurde.
 
 
-## Datenvalidierung
-Die Daten können unter Verwendung von 'select from external table **meinedatei** `USING(....) “`' erneut in Netezza gelesen werden, um sicherzustellen, dass die Daten korrekt sind.
+## Daten validieren
+Die Daten können wieder in Netezza eingelesen werden, um sicherzustellen, dass sie korrekt sind. Verwenden Sie dazu die Anweisung `SELECT FROM` mit der externen Tabelle `myfile` und einer `USING(....)`-Klausel.
 
-## Zusätzliche Informationen
-Weitere Informationen zu Netezza finden Sie in der [Dokumentation für IBM Netezza-Datenbankbenutzer](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.
+**Weitere Informationen**
+
+Weitere Informationen zu Netezza finden Sie in der [Benutzerdokumentation zur IBM Netezza-Datenbank ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}. 

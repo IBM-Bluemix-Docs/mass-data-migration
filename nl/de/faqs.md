@@ -1,80 +1,184 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-05-17"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
-{:shortdesc: .shortdesc}
+{:faq: data-hd-content-type='faq'}
 
-# Häufig gestellte Fragen (FAQs) zu {{site.data.keyword.cloud_notm}} Mass Data Migration
 
-## F1. Was ist {{site.data.keyword.cloud_notm}} Mass Data Migration? 
-{{site.data.keyword.cloud}} Mass Data Migration ist ein Service für physische Datenübertragung, der die schnelle und sichere Übertragung von Datenvolumen im Terabyte- bis Petabytebereich in {{site.data.keyword.cloud_notm}} unter Verwendung robuster portierbarer Speichereinheiten mit einer verwendbaren Kapazität von 120 TB ermöglicht. 
+# Häufig gestellte Fragen
+{: #faqs}
 
-## F2. Wie funktioniert der Einstieg in Mass Data Migration? 
-Reichen Sie eine Anforderung bei [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} ein. Sobald Ihre Anforderung genehmigt und verarbeitet ist, wird die nächste verfügbare Einheit (oder die verfügbaren Einheiten) vorkonfiguriert und an Sie zugestellt (gemäß den Netz- und Versandinformationen, die Sie angegeben haben). Über den folgenden Link können Sie sofort eine Anforderung abschicken: https://control.softlayer.com/storage/mdms
+## Was ist {{site.data.keyword.cloud_notm}} Mass Data Migration?
 
-## F3. Für welche Umgebungen ist Mass Data Migration geeignet? 
-Einheiten für Mass Data Migration können nahezu in jeder Umgebung eingesetzt werden - von Rechenzentren und Büros bis hin zu fernen Standorten, Warehouses und Schiffen. Mass Data Migration bietet zudem ein sinnvolle Alternative, wenn die Datenübertragung im Netz aus Kosten-, Kapazitäts- oder Verfügbarkeitsgründen nicht in Frage kommt.  
+{{site.data.keyword.cloud}} Mass Data Migration ist ein Service für physische Datenübertragung, der die schnelle und sichere Übertragung von Datenvolumen im Terabyte- bis Petabytebereich in {{site.data.keyword.cloud_notm}} ermöglicht. Dazu werden robuste, tragbare Speichereinheiten mit einer verwendbaren Kapazität von 120 TB eingesetzt.
 
-## F4. Welche Datenvolumen kann ich mit Mass Data Migration übertragen?
-Der Umfang des übertragenen Datenvolumens ist nahezu unbegrenzt und reicht von einigen Terabyte bis in den Petabytebereich. Jede Einheit bietet bis zu 120 TB verwendbare Kapazität (mit RAID 6) und Sie können mehrere Einheiten nutzen, um größere Workloads zu verarbeiten.
+<hr/>
 
-## F5. Wie kann ich mehrere Einheiten verwenden, um große Workloads mit mehr als 120 TB zu übertragen? 
-Durch die parallele oder serielle Nutzung von mehreren Einheiten können Sie alle Daten in einem einzigen Migrationsvorgang übertragen. Oder verwenden Sie eine einzelne Einheit für schrittweise (iterative) Migrationen. Ein Datenvolumen von 1 PB können Sie beispielsweise mit neun Einheiten in einem einzigen Schritt parallel migrieren oder mit nur einer Einheit in neun separaten Migrationsschritten.
+## Wie wird Mass Data Migration initiiert?
+{: faq}
 
-## F6. Wie lange dauert das Übertragen meiner Daten? 
-Die Bearbeitungszeit vom Einsenden einer Anforderung für Mass Data Migration durch einen Kunden bis zur Verfügbarkeit der Daten im zugehörigen {{site.data.keyword.cos_full}}-Bucket beträgt mindestens sieben Tage.
+Verwenden Sie die [{{site.data.keyword.cloud_notm}}-Konsole ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/catalog/){:new_window}, um die Anforderung zu übergeben. Wenn Ihre Anforderung genehmigt und verarbeitet wurde, wird die nächste verfügbare Einheit (bzw. werden die nächsten verfügbaren Einheiten) auf der Basis Ihrer Netz- und Versandinformationen konfiguriert und an Sie gesendet. Über den folgenden Link können Sie sofort eine Anforderung abschicken: https://control.softlayer.com/storage/mdms
 
-## F7. Wie lange kann ich eine Einheit für Mass Data Migration nutzen?  
-Eine ausgelieferte Einheit kann vor Ort in den ersten 10 Arbeitstagen kostenfrei genutzt werden. Der Tag, an dem die Einheit transportiert oder an Sie ausgeliefert wird, ist dabei nicht eingerechnet. Wenn das Einpflegen der Einheit länger dauert, können Sie die Nutzungsdauer für 30 US-Dollar pro Tag entsprechend verlängern (gilt nur für Regionen in den USA und in der EU). 
+<hr/>
 
-## F8. Welche Netzschnittstellen werden durch Mass Data Migration unterstützt?  
-Die Einheiten für Mass Data Migration verfügen über Netzschnittstellen mit 10 Gb/s und RJ45 (CAT6a) & SFP+-Netzanschlüssen mit Kupferleitungen (inklusive Konverter von RJ45 auf SFP+).
+## Was spricht für die Verwendung von Mass Data Migration?
+{: faq}
 
-## F9. Welche Standardversandoption wird bei Mass Data Migration verwendet? 
+Einheiten für Mass Data Migration können in nahezu jeder Umgebung eingesetzt werden, von Rechenzentren und Büros bis hin zu fernen Standorten, Warenlagern und Schiffen. Mass Data Migration bietet zudem ein sinnvolle Alternative, wenn die Datenübertragung im Netz aus Kosten-, Kapazitäts- oder Verfügbarkeitsgründen nicht in Frage kommt.
+
+<hr/>
+
+## Welche Datenvolumen können mit Mass Data Migration übertragen werden?
+
+Der Umfang des übertragenen Datenvolumens ist nahezu unbegrenzt und reicht von einigen Terabyte bis in den Petabytebereich. Jede Einheit bietet bis zu 120 TB verwendbare Kapazität (mit RAID 6) und Sie können mehrere Einheiten nutzen, um größere Workloads zu verarbeiten. Das größte einzelne Objekt ist auf 10 TB begrenzt.
+
+<hr/>
+
+## Können mehrere Einheiten verwendet werden, um große Workloads mit mehr als 120 TB zu übertragen? Wenn ja, wie?
+{: faq}
+
+Durch die parallele oder serielle Nutzung von mehreren Einheiten können Sie alle Daten in einem einzigen Migrationsvorgang übertragen. Oder verwenden Sie eine einzelne Einheit für schrittweise (iterative) Migrationen. Ein Datenvolumen von 1 PB können Sie beispielsweise mit neun Einheiten parallel migrieren oder mit nur einer Einheit in neun separaten Migrationen.
+
+<hr/>
+
+## Wie lange dauert die Übertragung der Daten?
+{: faq}
+
+Die Bearbeitungszeit von der Übergabe einer Anforderung für Mass Data Migration durch einen Kunden bis zur Verfügbarkeit der Daten im zugehörigen {{site.data.keyword.cos_full}}-Bucket beträgt mindestens sieben Tage. Die Übertragungsleistung wird durch die Anzahl der zu übertragenden Dateien beeinflusst. Das Übertragen von Millionen kleiner Dateien dauert länger als die gleiche Menge an Daten, die in relativ wenigen Dateien enthalten ist.
+
+<hr/>
+
+## Wie lange kann ich die Einheit für Mass Data Migration behalten?<
+
+Eine ausgelieferte Einheit kann vor Ort in den ersten 10 Arbeitstagen kostenfrei genutzt werden. Dieser Zeitrahmen schließt nicht den Tag ein, an dem Ihre Einheit geliefert wird bzw. an dem Sie sie empfangen. Wenn die Aufnahme der Einheit länger dauert, können Sie die Nutzungsdauer für 30 US-Dollar pro Tag verlängern (gilt nur für Regionen in den USA und in der EU).
+
+<hr/>
+
+## Welche Netzschnittstellen werden durch Mass Data Migration unterstützt?<
+{: faq}
+
+Einheiten für Mass Data Migration sind mit 10-Gb/s-Netzschnittstellen mit RJ45- (CAT6a) und Kupfer-SFP+-Netzanschlüssen ausgestattet. Der RJ45-zu-SFP+-Konverter ist im Lieferumfang enthalten. Jumbo-Frames sind für die 10-GB/s-Schnittstellen aktiviert.
+
+<hr/>
+
+## Welche Standardversandoption wird bei Mass Data Migration verwendet?
+{: faq}
+
 Alle Einheiten für Mass Data Migration werden durch UPS mit der Versandoption 'Next Day Air' (Zustellung am nächsten Geschäftstag) ausgeliefert. Die Versandkosten sind im günstigen Pauschalpreis von 395 US-Dollar pro Einheit enthalten. Gegenwärtig können die Kunden keine andere Versandart wählen.
 
-## F10. In welchen geografischen Regionen ist Mass Data Migration verfügbar? 
-Mass Data Migration ist nur in den Vereinigten Staaten und in der Europäischen Union verfügbar. Alle Daten werden jeweils innerhalb der Serviceregion 'US Standard Cross' oder 'EU Cross' nach {{site.data.keyword.cos_full}} migriert. Der Versand aus einer Region mit anschließender Rücksendung in eine andere Region ist nicht möglich.
+<hr/>
 
-## F11: Wie hoch sind die Kosten für den Datenimport in {{site.data.keyword.cloud_notm}}? 
+## In welchen geografischen Regionen ist Mass Data Migration verfügbar?
+{: faq}
+
+Mass Data Migration ist nur in den Vereinigten Staaten und in der Europäischen Union verfügbar. Alle Daten werden in den Stufen 'US Standard Cross Region' oder 'EU Cross Region' des Service in {{site.data.keyword.cos_full}} migriert. Der Versand einer Einheit aus einer Region mit anschließender Rücksendung in eine andere Region ist nicht möglich.
+
+<hr/>
+
+## Wie hoch sind die Kosten für den Datenimport in {{site.data.keyword.cloud_notm}}?
+{: faq}
+
 Für die Datenübertragung in {{site.data.keyword.cloud_notm}} werden keine Gebühren berechnet.
 
-## F12: Kann ich Mass Data Migration verwenden, um meine Daten aus {{site.data.keyword.cloud_notm}} zu exportieren? 
+<hr/>
+
+## Kann Mass Data Migration verwendet werden, um Daten aus {{site.data.keyword.cloud_notm}} zu exportieren?
+{: faq}
+
 Mass Data Migration unterstützt zum gegenwärtigen Zeitpunkt keine Exporte von Daten aus {{site.data.keyword.cloud_notm}}.
 
-## F13. Werden meine Daten durch Mass Data Migration verschlüsselt? 
+<hr/>
+
+## Werden die Daten bei Mass Data Migration verschlüsselt?
+{: faq}
+
 Mass Data Migration verwendet für alle Daten die 256-Bit-AES-Verschlüsselung. Zum Freischalten des Speicherpools wird ein sicheres Kennwort bereitgestellt. Für alle Datenübertragungen in {{site.data.keyword.IBM}} wird das SSL-Protokoll verwendet.
 
-## F14. Wie werden meine Daten bei Mass Data Migration physisch geschützt? 
-Alle Einheiten für Mass Data Migration werden durch robuste und dauerhafte Transportgehäuse geschützt. Die Gehäuse sind wasserdicht, stoßfest und verfügen über eine Sicherheitsverpackung, um einen lückenlosen Geräte- und Datenschutz zu ermöglichen. 
+<hr/>
 
-## F15. Wie kann ich meine Anforderung während des Migrationsprozesses verfolgen? 
-Sie können den Status Ihrer Anforderung im Abschnitt für aktive Anforderungen auf der Seite 'Mass Data Migration' im [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} verfolgen. Melden Sie sich über den folgenden Link am Portal an: https://control.softlayer.com/storage/mdms
+## Wie werden die Daten bei Mass Data Migration physisch geschützt?
+{: faq}
 
-## F16. Wie werden meine Daten in der Einheit gelöscht, nachdem die Auslagerung in {{site.data.keyword.cos_full_notm}} erfolgt ist?
-Nachdem das Auslagern Ihrer Daten in {{site.data.keyword.cos_full}} abgeschlossen ist, startet {{site.data.keyword.IBM}} sofort ein aus vier Phasen bestehendes Datenbereinigungsverfahren auf DOD-Ebene, um Ihre Daten in der Einheit dauerhaft zu löschen. 
+Alle Einheiten für Mass Data Migration werden durch robuste und widerstandsfähige Gehäuse geschützt. Diese Gehäuse sind wasserdicht, stoßfest und verfügen über eine Sicherheitsverpackung, um eine hohe Sicherheit der Einheit und der Daten zu gewährleisten.
 
-## F17: Welche Dateischnittstelle wird bei Mass Data Migration verwendet? 
-Mass Data Migration verwendet das Dateisystem NFS (Network File System).
+<hr/>
 
-## F18: Wie muss ich vorgehen, um die Dateischnittstelle bei Mass Data Migration zu verwenden? 
-Hängen Sie nach dem Entsperren des Verschlüsselungspools die gemeinsam genutzte NFS-Ressource auf dem Server an, der die zu migrierenden Daten enthält. Anschließend können Sie Ihre Datendateien in die gemeinsam genutzte NFS-Ressource kopieren.
+## Wie kann die Anforderung während des Migrationsprozesses verfolgt werden?
 
-## F19: Welche Vorteile bietet die Dateischnittstelle bei Mass Data Migration? 
+Sie können den Status Ihrer Anforderung im Abschnitt für aktive Anforderungen auf der Seite 'Masssendatenmigration' im [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} verfolgen. Sie können sich über den folgenden Link bei dem Portal anmelden: https://control.softlayer.com/storage/mdms ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
+
+<hr/>
+
+## Wie werden die Daten gelöscht, nachdem sie in {{site.data.keyword.cos_full_notm}} ausgelagert wurden?
+
+Nachdem das Auslagern Ihrer Daten in {{site.data.keyword.cos_full}} abgeschlossen ist, startet {{site.data.keyword.IBM}} sofort ein aus vier Durchgängen bestehendes Datenbereinigungsverfahren nach DOD-Standard, um Ihre Daten dauerhaft von der Einheit zu löschen.
+
+<hr/>
+
+## Was ist die Dateischnittstelle?
+{: faq}
+
+Für die Mass Data Migration-Einheit sind gemeinsam genutzte NFS-Ressourcen (Network File System) und SMB-Ressourcen (Server Message Block) standardmäßig aktiviert.
+
+<hr/>
+
+## Wie wird die Dateischnittstelle verwendet?
+{: faq}
+
+Entsperren Sie zuerst den Verschlüsselungspool. Hängen Sie anschließend die gemeinsam genutzte Ressource auf dem Server an, auf dem sich die zu migrierenden Daten befinden. Beginnen Sie mit dem Kopieren Ihrer Datendateien in die gemeinsam genutzte Ressource.
+
+<hr/>
+
+## Welche Vorteile bietet die Dateischnittstelle bei Mass Data Migration?
+{: faq}
+
 Die Dateischnittstelle basiert auf einer ausgereiften Datei- und Netzsoftware, die das Kopieren und Übertragen einer großen Anzahl umfangreicher Dateien in {{site.data.keyword.cloud_notm}} ermöglicht.
 
-## F20: Wie werden Dateien in der Einheit für Mass Data Migration gespeichert? 
+<hr/>
+
+## Wie werden Dateien in der Einheit für Mass Data Migration gespeichert?
+{: faq}
+
 In den Einheiten für Mass Data Migration kommt ein ZFS-Dateisystem mit LZ4-Komprimierung und 256-Bit-AES-Verschlüsselung zum Einsatz.
 
-## F21. Was kostet die Nutzung von Mass Data Migration in den USA? 
-In den USA wird ein Pauschalbetrag von 395 US-Dollar pro Einheit berechnet. Dieser Betrag beinhaltet 295 US-Dollar für die Einheit, 100 US-Dollar für den Transport mit UPS Next Day Air (hin und zurück) sowie die Nutzung an Ihrem Standort für 10 Geschäftstage. 
+<hr/>
 
-## F22. Ist die Nutzung von {{site.data.keyword.cos_full_notm}} kostenpflichtig? 
-Die Datenübertragung in {{site.data.keyword.cloud_notm}} ist kostenlos, für die Datenspeicherung in {{site.data.keyword.cos_full}} oder in einem anderen {{site.data.keyword.cloud_notm}}-Service werden jedoch die Standardgebühren berechnet. Die Preise für das Angebot 'Standard Cross Region' in {{site.data.keyword.cos_full}} finden Sie über den folgenden Link: https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage#s3api
+## Was kostet die Nutzung von Mass Data Migration in den USA?
+{: faq}
 
-## F23. Kann ich eine Einheit für {{site.data.keyword.cloud_notm}} Mass Data Migration käuflich erwerben? 
-Einheiten für {{site.data.keyword.cloud_notm}} Mass Data Migration werden nicht zum Kauf angeboten. 
+In den USA wird ein Pauschalbetrag von 395 US-Dollar pro Einheit berechnet. Dieser Betrag beinhaltet 295 US-Dollar für die Einheit, 100 US-Dollar für den Transport mit UPS Next Day Air (hin und zurück) sowie die Nutzung an Ihrem Standort für 10 Arbeitstage.
+
+<hr/>
+
+## Wie viel kostet die Nutzung von {{site.data.keyword.cos_full_notm}}?
+{: faq}
+
+Die Datenübertragung in {{site.data.keyword.cloud_notm}} ist für Sie kostenlos. Für die Datenspeicherung in {{site.data.keyword.cos_full}} oder in einem anderen {{site.data.keyword.cloud_notm}}-Service werden jedoch die Standardgebühren berechnet. Die Preise für das Angebot 'Standard Cross Region' in {{site.data.keyword.cos_full}} finden Sie über den folgenden Link: https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage#s3api ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
+
+<hr/>
+
+## Kann ich eine Einheit für {{site.data.keyword.cloud_notm}} Mass Data Migration kaufen?
+{: faq}
+
+Einheiten für {{site.data.keyword.cloud_notm}} Mass Data Migration sind nicht verkäuflich.
+
+<hr/>
+
+## Wie gewährleistet der {{site.data.keyword.cloud_notm}} Mass Data Migration-Prozess die Eindeutigkeit von Objektnamen?
+{: faq}
+
+Um sicherzustellen, dass die Objektnamen eindeutig sind, wenn sie in das Bucket kopiert werden, wird dem Dateipfad ein Präfix im Objektnamen hinzugefügt. Beispielsweise wird `/root/user/config.ini` zu `root/user/config.ini`, wenn die Datei in das Bucket kopiert wird.
+
+## Wie ist die Vorgehensweise, wenn das Zielbucket im {{site.data.keyword.cos_full_notm}}-Konto nicht vorhanden ist?
+{: faq}
+
+Wenn das Zielbucket nicht vorhanden ist, wird es erstellt. Falls das Bucket bereits vorhanden ist, muss es leer sein. Andernfalls kann der Kopiervorgang nicht ausgeführt werden.  
+
+## Werden Links beim Scannen übersprungen?
+{: faq}
+
+Ja. Symbolische Verbindungen (Symlinks) und feste Verbindungen (Hardlinks) werden beim Scannen übersprungen.

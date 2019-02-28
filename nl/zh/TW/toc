@@ -1,11 +1,11 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="mass-data-migration" audience="services" href="/docs/infrastructure/mass-data-migration/index.html"}
+{: .toc subcollection="mass-data-migration" audience="services" href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-GettingStarted" path="infrastructure/mass-data-migration"}
 IBM Cloud Storage - Mass Data Migration
 
     {: .navgroup id="learn"}
-    index.md
+    getting-started.md
 
     {: .topicgroup}
     關於
@@ -15,8 +15,10 @@ IBM Cloud Storage - Mass Data Migration
 
     {: .navgroup id="howto"}
     user-instructions.md
+    [移轉 VM 工作負載](https://developer.ibm.com/recipes/tutorials/cold-migration-of-vmware-guests-via-mdms/)
+    [將資料從 COS 移至 File 或 Block Storage](https://developer.ibm.com/recipes/tutorials/moving-data-from-cos-to-file-or-block-storage/)
     how-to-migrate-netezza-to-dashdb-using-mdms.md
-    shipping_checklist.md
+    checklistRJ45andSFP.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
