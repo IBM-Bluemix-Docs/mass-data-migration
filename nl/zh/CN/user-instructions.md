@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-10-31"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -11,13 +11,14 @@ lastupdated: "2018-10-31"
 {:important: .important}
 
 # 将数据导入 IBM Cloud Mass Migration 设备
+{: #userguide}
 
 {{site.data.keyword.cloud}} Mass Migration 设备是一种便携式存储设备，能够提供可安装的网络文件系统 (NFS) 或 FileNet Content Federations Services (CFS) 共享。该设备通过 Web 浏览器界面进行管理。该设备会发货到您的数据中心，现场装入数据，然后将其返回给 {{site.data.keyword.BluSoftlayer_full}} 数据中心，接着将其中的数据装入到 {{site.data.keyword.cos_full}} 帐户中。
 
 
 ## 打开设备电源
 
-设备随附 C13-US 电源线 [https://en.wikipedia.org/wiki/IEC_60320](https://en.wikipedia.org/wiki/IEC_60320){:new_window}。如果设备在美国以外使用，可能需要电源适配器。
+设备随附 C13-US 电源线 [https://en.wikipedia.org/wiki/IEC_60320 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://en.wikipedia.org/wiki/IEC_60320){:new_window}。如果设备在美国以外使用，可能需要电源适配器。
 
 设备支持所有标准功率范围。
 <br/>
@@ -79,7 +80,7 @@ LED 屏幕上显示系统标识时，说明已打开设备电源。
 2.	确定放置设备的最合适位置。要求此位置可以连接电源和以太网，并且人流量最少。
 
 3.	确定要连接的设备的位置。设备无需从便携式机箱中取出。设备在使用过程中，可保留在运输箱中。确保设备处于室温环境，并且设备上没有冷凝水。使用箱盖内侧提供的电源线来连接电源，然后打开设备电源。<br/>
-    
+
     请记下有两个电源开关。
     {:note}
     ![电源开关](/images/MDMSPowerSwitch.png)
@@ -90,10 +91,10 @@ LED 屏幕上显示系统标识时，说明已打开设备电源。
       ![MDMS 设备的端口](/images/MDMSNewEth1and3.png)
       2. 将提供的 CAT6A 连接到 SFP+ 适配器，然后再连接到 10 GB 交换机。
       3. 如果可在浏览器中通过 `HTTPS://'Your-Eth3-IPAddress'` 访问为 Eth3 配置的 IP 地址，请继续执行下一步。否则，请连接 Eth1 (`1GbE-B`) 端口。<br/>
-         
+
          如果需要更改 Eth3 或 Eth1 的任何 IP 设置，请参阅[配置 IP 地址](#configuring-ip-addresses)部分。
 {:tip}
-         
+
     - 连接铜缆 SFP+
       1. 从箱盖中取出 SFP+ 铜缆，并将其连接到 Eth5 10 GbE (5)
          ![MDMS 设备的端口](/images/sfp-ports-sized-ports-labeled.png)

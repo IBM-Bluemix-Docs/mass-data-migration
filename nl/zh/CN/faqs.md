@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-05"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -10,6 +10,7 @@ lastupdated: "2018-11-05"
 
 
 # 常见问题
+{: #faqs}
 
 ## 什么是 {{site.data.keyword.cloud_notm}} Mass Data Migration？
 
@@ -20,7 +21,7 @@ lastupdated: "2018-11-05"
 ## 如何启动 Mass Data Migration？
 {: faq}
 
-使用 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} 提交请求。您的请求获得批准并经过处理后，将对接下来的一个或多个可用设备进行配置，然后根据您的网络和发货信息发送给您。使用以下链接可立即开始：https://control.softlayer.com/storage/mdms
+使用 [{{site.data.keyword.cloud_notm}} 控制台 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/catalog/){:new_window} 来提交您的请求。您的请求获得批准并经过处理后，将对接下来的一个或多个可用设备进行配置，然后根据您的网络和发货信息发送给您。使用以下链接可立即开始：https://control.softlayer.com/storage/mdms
 
 <hr/>
 

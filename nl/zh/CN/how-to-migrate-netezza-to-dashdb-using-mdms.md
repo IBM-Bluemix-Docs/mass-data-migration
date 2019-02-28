@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-31"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:codeblock: .codeblock}
@@ -12,11 +12,12 @@ lastupdated: "2018-10-31"
 {:important: .important}
 
 # 将 Netezza 数据库迁移到 DashDB
+{: #migratingNetezzaDashDB}
 
 Mass Data Migration 服务 (MDMS) 可用于将大型 Netezza 数据库迁移到 DashDB。使用用于确定传输的数据量和导出方法的工具时，可以将此文档作为参考。
 
 ## 确定数据库对象大小
-1. 从 [IBM 支持 > Fix Central > Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window}，下载与 Netezza 实例相对应的相应 Netezza Tools 版本。
+1. 从 [IBM 支持 > Fix Central > Netezza Tools ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window}，下载与 Netezza 实例相对应的相应 Netezza Tools 版本。
 
    缺省情况下，支持工具会安装在 Netezza 服务器的此目录下：`/nz/support-IBM_Netezza<version>/bin`
    {:note}
@@ -96,4 +97,4 @@ DH71964T9 1.50 9,615,179,776 14,417,923,840 4,802,744,064
 
 **其他信息**
 
-有关 Netezza 的更多信息，请参阅 [IBM Netezza 数据库用户文档](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}。
+有关 Netezza 的更多信息，请参阅 [IBM Netezza database user documentation ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}。
