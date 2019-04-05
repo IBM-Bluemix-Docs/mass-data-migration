@@ -56,6 +56,7 @@ Ports originate from the device as RJ45, and CAT6A cables are supplied. Copper S
 
 - Eth3 (`10GbE-B`) is used for the data transfer and can also be used for device management. This connection must either be on the same subnet as the source data, or can be directly connected to the server if needed.
 
+![RJ45UI](/images/OSN5.2PortNamesRJ45.png)
 
 ### Configuring Copper SFP+ and RJ45
 
@@ -75,6 +76,7 @@ IP settings can be viewed and managed from the LCD screen after the device is po
 It is NOT required to configure and use both ports if the 10-GbE port's IP can be reached through a web browser.
 {:note}
 
+![SFPUI](/images/OSN5.2PortNamesSFP.png)
 
 ## Loading the Data
 
