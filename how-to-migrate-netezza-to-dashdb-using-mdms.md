@@ -2,25 +2,31 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-04-16"
 
 keywords:
 
 subcollection: mass-data-migration
 
 ---
+
+{:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
 
-# Migrating Netezza databases to DashDB
+# Migrating Netezza databases to {{site.data.keyword.dashdbshort_notm}}
 {: #migratingNetezzaDashDB}
 
-The Mass Data Migration Service (MDMS) can be used to migrate large Netezza databases to DashDB. You can use this document as a reference for the tools that determine the amount of data to be transferred, and exporting methods.
+The {{site.data.keyword.mdms_short}} Service (MDMS) can be used to migrate large Netezza databases to {{site.data.keyword.dashdbshort}}. You can use this document as a reference for the tools that determine the amount of data to be transferred, and exporting methods.
+{: shortdesc}
 
 ## Determining the database object size
+
 1. From [IBM Support > Fix Central > Netezza Tools ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window}, download the appropriate Netezza Tools version that corresponds to your Netezza instance.
 
    By default, support tools are installed on Netezza server at directory `/nz/support-IBM_Netezza<version>/bin`
@@ -93,7 +99,7 @@ You can use two options to extract the data from Netezza.
 
 - Use the `CREATE EXTERNAL TABLE` statement.
    - Select `FORMAT` = ”Text”
-   - Provide the DashDB team the `USING` clause that was used for export for reuse during the `LOAD` process.
+   - Provide the {{site.data.keyword.dashdbshort_notm}} team the `USING` clause that was used for export for reuse during the `LOAD` process.
 
 
 ## Validating data

@@ -9,9 +9,15 @@ keywords:
 subcollection: mass-data-migration
 
 ---
- {:tip: .tip}
- {:note: .note}
- {:important: .important}
+
+{:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:new_window: target="_blank"}
+{:pre: .pre}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
 # Device Specs
 {: #devicespecs}

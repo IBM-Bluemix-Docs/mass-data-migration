@@ -2,23 +2,28 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-04-16"
 
 keywords:
 
 subcollection: mass-data-migration
 
 ---
+
+{:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
 
-# Importing Data to the IBM Cloud Mass Migration Device
+# Importing Data to the {{site.data.keyword.mdms_full_notm}} Device
 {: #userguide}
 
-The {{site.data.keyword.cloud}} Mass Migration device is a portable storage device able to present mountable Network file system (NFS) or FileNet Content Federations Services (CFS) shares. The device is managed through a web browser interface. The device is shipped to your data center, loaded with data onsite, then returned to an {{site.data.keyword.BluSoftlayer_full}} data center and loaded into your {{site.data.keyword.cos_full}} account.
-
+The {{site.data.keyword.mdms_full}} device is a portable storage device able to present mountable Network file system (NFS) or FileNet Content Federations Services (CFS) shares. The device is managed through a web browser interface. The device is shipped to your data center, loaded with data onsite, then returned to an {{site.data.keyword.BluSoftlayer_full}} data center and loaded into your {{site.data.keyword.cos_full}} account.
+{: shortdesc}
 
 ## Powering up the Device
 

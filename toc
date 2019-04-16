@@ -1,8 +1,8 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="mass-data-migration" audience="services" href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-GettingStarted" path="infrastructure/mass-data-migration"}
-IBM Cloud Storage - Mass Data Migration
+{: .toc subcollection="mass-data-migration" audience="service" href="/docs/services/mass-data-migration?topic=mass-data-migration-getting-started-tutorial" path="services/mass-data-migration"}
+Mass Data Migration
 
     {: .navgroup id="learn"}
     getting-started.md

@@ -9,7 +9,15 @@ keywords:
 subcollection: mass-data-migration
 
 ---
+
+{:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
 # Inventory Checklists
 {: #inventorychecklists}
