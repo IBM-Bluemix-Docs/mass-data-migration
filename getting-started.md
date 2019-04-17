@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-04-16"
+lastupdated: "2019-04-17"
 
 keywords:
 
@@ -38,7 +38,7 @@ To get started with {{site.data.keyword.mdms_short}}, create an {{site.data.keyw
 3. Gather the network settings that are required for enabling your data transfer connection, such as the static IP address and the netmask for the server where your source data resides.
 4. Gather the network settings, such as the static IP address, the netmask, and the default gateway for your remote computer, that are required for interacting with the device's graphical user interface.
 
-## Step 1. Create a Cloud Object Storage bucket
+## Creating a storage bucket
 {: #get-started-create-bucket}
 
 [After you create an instance of Cloud Object Storage](https://{DomainName}/catalog/services/cloud-object-storage), you're ready to designate a new storage bucket for your data. 
@@ -89,7 +89,7 @@ To get started with {{site.data.keyword.mdms_short}}, create an {{site.data.keyw
 
 3. Click **Create bucket**.
 
-## Step 2. Submit your {{site.data.keyword.mdms_short}} request
+## Submitting your {{site.data.keyword.mdms_short}} request
 {: #get-started-create-request}
 
 1. In the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog) search bar, type _{{site.data.keyword.mdms_short}}_.
