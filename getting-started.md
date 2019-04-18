@@ -31,7 +31,7 @@ Updates in progress. We welcome your feedback! Reach out to Crystal Barragan (`@
 ## Before you begin
 {: #get-started-prereqs}
 
-To get started with {{site.data.keyword.mdms_short}}, create an {{site.data.keyword.cos_full}} instance and bucket for your {{site.data.keyword.cloud_notm}} account. Then, gather details about your network configuration.
+To get started with {{site.data.keyword.mdms_short}}, create an {{site.data.keyword.cos_full}} instance for your {{site.data.keyword.cloud_notm}} account. Then, gather details about your network configuration.
 
 1. [Log in to your {{site.data.keyword.cloud_notm}} account ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}){: new_window}.
 2. [Create an instance of {{site.data.keyword.cos_full_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog/services/cloud-object-storage){: new_window}.
@@ -45,52 +45,16 @@ To get started with {{site.data.keyword.mdms_short}}, create an {{site.data.keyw
 
 1. From the {{site.data.keyword.cloud_notm}} resource list, select your provisioned instance of Cloud Object Storage.
 2. From the _Getting started_ page, click **Create Bucket**.
+3. Enter a bucket name, and select a resiliency option for your data.
 
-   Specify the bucket details:
+   The resiliency option determines how your data is distributed by the Cloud Object Storage service across a geographic area after the data is imported into the service. {{site.data.keyword.mdms_short}} supports the _Cross Region_ or _Regional_ resiliency options.
 
-    <table>
-      <tr>
-        <th>Setting</th>
-        <th>Description</th>
-      </tr>
-      <tr>
-        <td>Bucket name</td>
-        <td>
-          <p>A unique, human-readable alias for easy identification of your Cloud Object Storage bucket.</p>
-        </td>
-      </tr>
-      <tr>
-        <td>Resiliency</td>
-        <td>
-          <p>The type of resiliency that determines how your data is distributed across a geographic area. You can choose from <b>Cross-region</b> or <b>Regional</b> resiliency.</p>
-        </td>
-      </tr>
-      <tr>
-        <td>Location</td>
-        <td>
-          <p>The regional abbreviation that represents the geographic area where you want your data to be physically stored.</p>
-          <p>Ensure that your location settings meet the following requirements:</p>
-          <p>
-            <ul>
-              <li>For <b>Cross-region</b> resiliency, {{site.data.keyword.mdms_short}} supports the <code>us-geo</code> location.</li>
-              <li>For <b>Regional</b> resiliency, {{site.data.keyword.mdms_short}} supports the <code>us-south</code> (Dallas) and <code>us-east</code> (Washington DC) regions.</li>
-            </ul>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td>Storage class</td>
-        <td>
-          <p>The storage option that identifies how often you expect to read the stored data after it's migrated into your Cloud Object Storage service instance. Currently {{site.data.keyword.mdms_short}} supports only the <b>Standard</b> storage option.</p>
-        </td>
-      </tr>
-      <caption style="caption-side:bottom;">Table 1. Describes the {{site.data.keyword.cos_full_notm}} bucket settings</caption>
-    </table>
+4. From the list of locations, select the geographic area where you want your data to be physically stored after it's migrated into the storage bucket.
+5. From the list of storage classes, select **Standard**.
+6. Click **Create bucket**.
 
-3. Click **Create bucket**.
-
-## Submitting your {{site.data.keyword.mdms_short}} request
-{: #get-started-create-request}
+## Submitting your request
+{: #get-started-submit-request}
 
 1. In the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog) search bar, type _{{site.data.keyword.mdms_short}}_.
 2. Click the **{{site.data.keyword.mdms_short}}** tile.
