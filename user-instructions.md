@@ -132,16 +132,16 @@ It is NOT required to configure and use both ports if the 10-GbE port's IP can b
    ![Restrict Share Access](/images/ShareAccessControl.png)
 
 10. When the storage pool is enabled, the NFS share is available to mount. In the workflow, click **View Network Shares** to see the network shares view. Close the workflow, right-click the share, and select mount command to see the share name and mount information. Mount the share on your source server. Be sure to specify the 10-GB link IP address.
-    ![Mounting the share](/images/Mount Command.png)
+    ![Mounting the share](/images/MountCommand.png)
 
 11. Copy your data to the NFS share. In the workflow, click **View Network Activity** to show inbound Ethernet load as data is transferred to the device on the 10-GB link.
-    ![View activity](/images/Network Perf.png)
+    ![View activity](/images/NetworkPerf.png)
 
 12. In the workflow, click **View Storage pool** to monitor storage usage and IOPS on the device.
-    ![View Storage Pool](/images/Pool Perf.png)
+    ![View Storage Pool](/images/PoolPerf.png)
 
 13.	When the load is complete, you can gracefully power down the system. In the workflow, click **Shutdown Appliance...**.
-    ![Shutting Appliance Down](/images/Shut Down.png)
+    ![Shutting Appliance Down](/images/ShutDown.png)
 
 14.	Disconnect the device, return the power cable, Ethernet cable, and SFP+ adapter into their storage locations under the lid.
 
