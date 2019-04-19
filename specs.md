@@ -45,7 +45,7 @@ subcollection: mass-data-migration
             <td><p>Cables</p></td>
             <td>
               <p>2 x CAT6a (6 ft.)</p>
-              <p>1 x IEC C13-US Power Cord (6 ft.) Power converters are not provided.</p>
+              <p>1 x IEC C13-US Power Cord (6 ft.) <br/>Power converters are not provided.</p>
             </td>
           </tr>
           <tr>
@@ -67,7 +67,7 @@ subcollection: mass-data-migration
             <td><p>Weight</p></td>
             <td>
               <p>Device + Rolling Hard Case: 55.9 lb.<br/>Device + Hard Case + Foam Travel Case: 60.9 lb.</p>
-              Note: Device is equipped with wheels and pop-up handle for easy maneuvering (handle and wheels also accessible while in Foam Travel Case). Device does not need to be removed from Hard Case to connect and ingest data.
+              Note: Device is equipped with wheels and pop-up handle for easy maneuvering (handle and wheels are also accessible while in Foam Travel Case). Device does not need to be removed from Hard Case to connect and ingest data.
             </td>
           </tr>
           <tr>
