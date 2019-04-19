@@ -59,11 +59,8 @@ Ports originate from the device as RJ45, and CAT6A cables are supplied. Copper S
 
 - Eth1 (`1GbE-B`) is typically used for device management, and as such, must have a gateway that is specified in the IP address configuration. This information can be viewed on the LCD screen after the device is powered on (see the IP address configuration section). This port is used to make the web-based UI available outside the data subnet.
 
-- Eth3 (`10GbE-B`) is used for the data transfer and can also be used for device management. This connection must either be on the same subnet as the source data, or can be directly connected to the server if needed.
+- Eth3 (`10GbE-B`) is used for the data transfer and can also be used for device management. This connection should either be on the same subnet as the source data, or can be directly connected to the server if needed.
 
-Here is a cross reference of the ports presented in the UI and how they relate to the physical ports on the device.
-
-![RJ45UI](/images/OSN5.2PortNamesRJ45.png)
 
 ### Configuring Copper SFP+ and RJ45
 
@@ -76,16 +73,13 @@ Ports originate from the device as Copper SFP+ and RJ45. Both CAT6A and Copper S
 - Eth2 (`10-GbE (2)`) is typically used for device management but can also be used for data transfer. This port can run at speeds of either 1 GbE or 10 GbE.
 
 
-The data transfer connection must either be on the same subnet as the source data, or be directly connected to the server.
+The data transfer connection should either be on the same subnet as the source data, or be directly connected to the server.
 
 IP settings can be viewed and managed from the LCD screen after the device is powered on (see the IP address configuration section).
 
 It is NOT required to configure and use both ports if the 10-GbE port's IP can be reached through a web browser.
 {:note}
 
-Here is a cross reference of the ports presented in the UI and how they relate to the physical ports on the device.
-
-![SFPUI](/images/OSN5.2PortNamesSFP.png)
 
 ## Loading the Data
 
@@ -123,10 +117,10 @@ Here is a cross reference of the ports presented in the UI and how they relate t
 6. Use the provided user name and password to log in.<br/>
     ![Login page](/images/login.png)
 
-7. The workflow wizard presents access to the specific items that are generally used in order from left to right.<br/>
-    ![Workflow icons](/images/workflow.png)
+7. The common tasks wizard presents access to the specific items that are generally used in order from left to right.<br/>
+    ![Workflow icons](/images/CommonTasks.png)
 
-    The workflow can be reopened by using the **Workflow Manager** in the upper-left area of the interface.
+    The workflow can be reopened by clicking the **Common Tasks** in the upper-left area of the interface.
     {:tip}
 
 8.	Activate the pre-configured storage pool.
