@@ -67,8 +67,7 @@ subcollection: mass-data-migration
             <td><p>Weight</p></td>
             <td>
               <p>Device + Rolling Hard Case: 55.9 lb.<br/>Device + Hard Case + Foam Travel Case: 60.9 lb.</p>
-              Device is equipped with wheels and pop-up handle for easy maneuvering (handle and wheels also accessible while in Foam Travel Case). Device does not need to be removed from Hard Case to connect and ingest data.
-              {:note}
+              Note: Device is equipped with wheels and pop-up handle for easy maneuvering (handle and wheels also accessible while in Foam Travel Case). Device does not need to be removed from Hard Case to connect and ingest data.
             </td>
           </tr>
           <tr>
