@@ -6,21 +6,24 @@ IBM Cloud Mass Data Migration
 
     {: .navgroup id="learn"}
     getting-started.md
-
-    {: .topicgroup}
-    About
-        overview.md
-        specs.md
+    overview.md
+    releases.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
     user-instructions.md
-    [Migrating VM Workloads](https://developer.ibm.com/recipes/tutorials/cold-migration-of-vmware-guests-via-mdms/)
-    [Moving data from COS to File or Block Storage](https://developer.ibm.com/recipes/tutorials/moving-data-from-cos-to-file-or-block-storage/)
-    how-to-migrate-netezza-to-dashdb-using-mdms.md
-    checklistRJ45andSFP.md
+    [Migrating VM workloads](https://developer.ibm.com/recipes/tutorials/cold-migration-of-vmware-guests-via-mdms/)
+    migrate-netezza-databases.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    regions.md
+    inventory-checklists.md
+    specs.md
+    related-links
     {: .navgroup-end}
 
     {: .navgroup id="help"}
+    troubleshooting.md
     faqs.md
     {: .navgroup-end}

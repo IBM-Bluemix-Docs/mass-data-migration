@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-04-16"
+lastupdated: "2019-04-17"
 
 keywords:
 
@@ -20,12 +20,13 @@ subcollection: mass-data-migration
 {:important: .important}
 
 # Migrating Netezza databases to {{site.data.keyword.dashdbshort_notm}}
-{: #migratingNetezzaDashDB}
+{: #migrate-netezza-databases}
 
 The {{site.data.keyword.mdms_short}} Service (MDMS) can be used to migrate large Netezza databases to {{site.data.keyword.dashdbshort}}. You can use this document as a reference for the tools that determine the amount of data to be transferred, and exporting methods.
 {: shortdesc}
 
 ## Determining the database object size
+{: #determine-db-object-size}
 
 1. From [IBM Support > Fix Central > Netezza Tools ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window}, download the appropriate Netezza Tools version that corresponds to your Netezza instance.
 
@@ -87,6 +88,7 @@ The {{site.data.keyword.mdms_short}} Service (MDMS) can be used to migrate large
       {: codeblock}
 
 ## Extracting data and onboarding
+{: #extract-data}
 
 You can use two options to extract the data from Netezza.
 - Use the `nz_backup` utility.
@@ -103,6 +105,8 @@ You can use two options to extract the data from Netezza.
 
 
 ## Validating data
+{: #validate-data}
+
 The data can be reread back on the Netezza by using the `SELECT FROM` statement with the external table `myfile` and a `USING(....)` clause to ensure that the data is correct.
 
 **Additional information**

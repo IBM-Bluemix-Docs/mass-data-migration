@@ -19,8 +19,8 @@ subcollection: mass-data-migration
 {:note: .note}
 {:important: .important}
 
-# Device Specs
-{: #devicespecs}
+# Device specs
+{: #device-specs}
 
 <table role="presentation">
         <colgroup>
