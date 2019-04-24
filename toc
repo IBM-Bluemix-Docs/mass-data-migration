@@ -20,7 +20,7 @@ IBM Cloud Mass Data Migration
     regions.md
     inventory-checklists.md
     specs.md
-    related-links
+    related-links.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
