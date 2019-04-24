@@ -23,7 +23,7 @@ subcollection: mass-data-migration
 # Regions and locations
 {: #regions}
 
-With {{site.data.keyword.mdms_full}} and {{site.data.keyword.cos_full_notm}}, you can choose from different storage options for offloading data to meet your resiliency needs.  
+With {{site.data.keyword.mdms_full}} and {{site.data.keyword.cos_full_notm}}, you can choose from different storage options to meet your availability and resiliency needs.  
 {: shortdesc}
 
 ## Available storage locations
