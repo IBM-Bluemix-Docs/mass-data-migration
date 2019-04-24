@@ -24,9 +24,6 @@ subcollection: mass-data-migration
 
 Additional resources to help you learn about moving data into the cloud with {{site.data.keyword.mdms_full}}.
 
-This content is currently being developed. We welcome your feedback! Reach out to Crystal Barragan (`@cbarragan`) on Slack, or [raise a doc issue ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.ibm.com/Bluemix-Docs/mass-data-migration/issues){: new_window} in our repository.
-{: note}
-
 ## Samples and recipes
 {: #samples}
 
