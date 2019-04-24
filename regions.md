@@ -26,9 +26,6 @@ subcollection: mass-data-migration
 With {{site.data.keyword.mdms_full}} and {{site.data.keyword.cos_full_notm}}, you can choose from different storage options for offloading data to meet your resiliency needs.  
 {: shortdesc}
 
-This content is currently being developed. We welcome your feedback! Reach out to Crystal Barragan (`@cbarragan`) on Slack, or [raise a doc issue ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.ibm.com/Bluemix-Docs/mass-data-migration/issues){: new_window} in our repository.
-{: note}
-
 ## Available storage locations
 {: #available-regions}
 

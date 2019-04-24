@@ -20,7 +20,7 @@ subcollection: mass-data-migration
 {:important: .important}
 
 
-# About {{site.data.keyword.mdms_full_notm}}
+# About {{site.data.keyword.mdms_short}}
 {: #overview}
 
 This service is a fast, simple, secure way to physically transfer terabytes to petabytes of data to the {{site.data.keyword.Bluemix}}.

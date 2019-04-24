@@ -19,8 +19,8 @@ subcollection: mass-data-migration
 {:note: .note}
 {:important: .important}
 
-# Inventory Checklists
-{: #inventorychecklists}
+# Inventory checklists
+{: #inventory-checklists}
 
 ## RJ45 Inventory Checklist
 
