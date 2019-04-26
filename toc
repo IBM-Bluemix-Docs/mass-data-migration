@@ -7,13 +7,21 @@ IBM Cloud Mass Data Migration
     {: .navgroup id="learn"}
     getting-started.md
     overview.md
+
+    {: .topicgroup}
+    Tutorials
+        [Migrating VM workloads](https://developer.ibm.com/recipes/tutorials/cold-migration-of-vmware-guests-via-mdms/)
+        migrate-netezza-databases.md
+
     releases.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    user-instructions.md
-    [Migrating VM workloads](https://developer.ibm.com/recipes/tutorials/cold-migration-of-vmware-guests-via-mdms/)
-    migrate-netezza-databases.md
+    manage-request.md
+    set-up-device.md
+    import-data.md
+    return-device.md
+    access-data.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
@@ -21,6 +29,10 @@ IBM Cloud Mass Data Migration
     inventory-checklists.md
     specs.md
     related-links.md
+
+    {: .topicgroup}
+    Archive
+         user-instructions.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
