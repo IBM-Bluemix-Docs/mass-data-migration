@@ -21,7 +21,7 @@ subcollection: mass-data-migration
 {:download: .download}
 
 # Accessing your data
-{: #migrate-data}
+{: #access-data}
 
 You can access your migrated data by using {{site.data.keyword.cos_full}}.
 {: shortdesc}
