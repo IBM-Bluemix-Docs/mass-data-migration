@@ -30,7 +30,8 @@ This service is a fast, simple, secure way to physically transfer terabytes to p
 
 ![Mass Data Migration Process Flow](/images/MDMSWorkflow.png)
 
-**Benefits of {{site.data.keyword.mdms_short}}**
+## Benefits of {{site.data.keyword.mdms_short}}
+{: #mdms-benefits}
 
 1. Move data fast
     - By using a single {{site.data.keyword.mdms_short}} device, you can migrate up to 120 TB of data (at RAID-6) in just days, as opposed to weeks or months that traditional data transfer methods use.
@@ -51,10 +52,9 @@ This service is a fast, simple, secure way to physically transfer terabytes to p
     - {{site.data.keyword.IBM}} uses a four-pass, DOD-Level data wipe to ensure complete erasure of all customer data from {{site.data.keyword.mdms_short}} devices.
 
 
-<hr>
+## {{site.data.keyword.mdms_short}} use cases
+{: #mdms-use-cases}
 
-
-**{{site.data.keyword.mdms_short}} Use Cases**
 1. Migrating data to the cloud
     - Whether you want to free-up on-premises storage space, archive inactive data, or backup data for redundancy and recovery, {{site.data.keyword.mdms_short}} can quickly and securely move your data to the cloud.
 
