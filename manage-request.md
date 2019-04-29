@@ -33,7 +33,31 @@ This content is currently being developed. We welcome your feedback! Reach out t
 ## Submitting a request
 {: #create-request}
 
-`TBU`
+You can create a {{site.data.keyword.mdms_short}} request by using the {{site.data.keyword.cloud_notm}} console.
+
+Before you create a {{site.data.keyword.mdms_short}} request, ensure that you have a provisioned instance of Cloud Object Storage. Learn more in the [Getting started tutorial](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-getting-started-tutorial).
+{: note}
+
+1. In the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog) search bar, type _{{site.data.keyword.mdms_short}}_.
+2. Click the **{{site.data.keyword.mdms_short}}** tile.
+3. In the application details page, select the **Place an order** tab to access the Order Device wizard.
+4. Start your {{site.data.keyword.mdms_short}} request by specifying the following details.
+
+    | Action | Description |
+    | --- | --- |
+    | Add a request name | Enter an alias to identify and track your {{site.data.keyword.mdms_short}} request. Then, select the resource group that contains your provisioned instance of Cloud Object Storage. |
+    | Select your Cloud Object Storage instance | From the drop-down list, select your provisioned instance of Cloud Object Storage. Then, select the name that you assigned to storage bucket where you want to store your migrated data. |
+    | Add a shipping address | Enter your shipping information, such as shipping address and name of the person who will accept the delivery.  |
+    | Add your contact information | Enter the name of the person who will data manage migration to your device.  |
+    | Configure network settings | Configure settings for the data transfer connection by entering your network configuration details. |
+    | Review order | Review details about your order.|
+  
+    When you pick a delivery location for your device, consider the weight of the device and accessibility. The device weighs 66 pounds, and it comes equipped with wheels and pop-up handle for maneuvering.
+    {: tip}
+
+5. Read the {{site.data.keyword.mdms_short}} service agreement, and then select the **{{site.data.keyword.mdms_short}} Services Agreement** check box.
+6. Click **Submit order** to complete your request. 
+
 
 ## Tracking your request
 {: #track-request}
