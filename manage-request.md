@@ -92,8 +92,8 @@ After you submit the request, you receive an e-mail to confirm your order. Order
 
 `TBU`
 
-### Estimated shipping and delivery
-{: #track-request}
+### Estimated shipping and delivery times
+{: #shipping-delivery-times}
 
 `TBU`
 
