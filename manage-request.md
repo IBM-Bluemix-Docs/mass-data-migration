@@ -27,6 +27,13 @@ subcollection: mass-data-migration
 Manage and track the status of your {{site.data.keyword.mdms_full}} request by using the {{site.data.keyword.cloud_notm}} console.
 {: shortdesc}
 
+Before you create a {{site.data.keyword.mdms_short}} request, keep in mind the following considerations:
+
+- Ensure that you have a provisioned instance of Cloud Object Storage for your {{site.data.keyword.cloud_notm}} account. Learn more in the [Getting started tutorial](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-getting-started-tutorial).
+- Understand your network connection types and speeds.
+- Gather your network settings, such as IP addresses, and other routing details for configuring the device.
+- Identify a person who can receive, connect, and use the device at your site.
+
 This content is currently being developed. We welcome your feedback! Reach out to Crystal Barragan (`@cbarragan`) on Slack, or [raise a doc issue ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.ibm.com/Bluemix-Docs/mass-data-migration/issues){: new_window} in our repository.
 {: note}
 
@@ -34,8 +41,6 @@ This content is currently being developed. We welcome your feedback! Reach out t
 {: #create-request}
 
 You can create a {{site.data.keyword.mdms_short}} request by using the {{site.data.keyword.cloud_notm}} console.
-
-Before you create a {{site.data.keyword.mdms_short}} request, ensure that you have a provisioned instance of Cloud Object Storage. Learn more in the [Getting started tutorial](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-getting-started-tutorial).
 
 1. In the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog) search bar, type _{{site.data.keyword.mdms_short}}_.
 2. Click the **{{site.data.keyword.mdms_short}}** tile.
