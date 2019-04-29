@@ -6,11 +6,7 @@ IBM Cloud Mass Data Migration
 
     {: .navgroup id="learn"}
     getting-started.md
-
-    {: .topicgroup}
-    About Mass Data Migration
-        [About the service](overview.md)
-        specs.md
+    overview.md
 
     {: .topicgroup}
     Tutorials
@@ -31,6 +27,7 @@ IBM Cloud Mass Data Migration
     {: .navgroup id="reference"}
     regions.md
     inventory-checklists.md
+    specs.md
     related-links.md
 
     {: .topicgroup}
