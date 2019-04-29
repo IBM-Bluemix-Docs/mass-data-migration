@@ -15,7 +15,7 @@ subcollection: mass-data-migration
 {:note: .note}
 {:important: .important}
 
-# Migrating Netezza databases to {{site.data.keyword.dashdbshort}}
+# Migrating Netezza databases to {{site.data.keyword.dashdbshort_notm}}
 {: #migratingNetezzaDashDB}
 
 The Mass Data Migration Service (MDMS) can be used to migrate large Netezza databases to {{site.data.keyword.dashdbshort}}. You can use this document as a reference for the tools that determine the amount of data to be transferred, and exporting methods.
