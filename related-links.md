@@ -32,7 +32,7 @@ Additional resources to help you learn about moving data into the cloud with {{s
 ## Blogs and videos
 {: #blogs}
 
-`TBU`
+- [{{site.data.keyword.mdms_short}} provides a fast, simple and secure way to transfer data to the {{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.youtube.com/watch?v=eNSlUoswvss){: new_window}
 
 ## Service terms
 {: #service-terms}
