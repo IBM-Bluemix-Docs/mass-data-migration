@@ -7,6 +7,7 @@ IBM Cloud Mass Data Migration
     {: .navgroup id="learn"}
     getting-started.md
     overview.md
+    specs.md
 
     {: .topicgroup}
     Tutorials

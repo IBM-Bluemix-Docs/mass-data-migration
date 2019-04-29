@@ -19,7 +19,7 @@ subcollection: mass-data-migration
 {:note: .note}
 {:important: .important}
 
-# Device specs
+# Device specifications
 {: #device-specs}
 
 <table role="presentation">
