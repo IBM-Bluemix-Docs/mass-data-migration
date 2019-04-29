@@ -58,7 +58,7 @@ To get started with {{site.data.keyword.mdms_short}}, create an {{site.data.keyw
 
 1. In the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog) search bar, type _{{site.data.keyword.mdms_short}}_.
 2. Click the **{{site.data.keyword.mdms_short}}** tile.
-3. In the application details page, select the **Place an order** tab to access the Order Device wizard.
+3. In the application details page, select the **Place an order** tab.
 4. Start your {{site.data.keyword.mdms_short}} request by specifying the following details.
     
    | Action | Description |
