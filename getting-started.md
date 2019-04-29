@@ -41,7 +41,7 @@ To get started with {{site.data.keyword.mdms_short}}, create an {{site.data.keyw
 ## Creating a storage bucket
 {: #get-started-create-bucket}
 
-[After you create an instance of Cloud Object Storage](https://{DomainName}/catalog/services/cloud-object-storage), you're ready to designate a new storage bucket for your data. 
+After you create an instance of Cloud Object Storage, you're ready to designate a new storage bucket for your data. 
 
 1. From the {{site.data.keyword.cloud_notm}} resource list, select your provisioned instance of Cloud Object Storage.
 2. From the _Getting started_ page, click **Create Bucket**.
