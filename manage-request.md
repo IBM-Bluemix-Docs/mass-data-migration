@@ -39,9 +39,8 @@ Before you create a {{site.data.keyword.mdms_short}} request, ensure that you ha
 
 1. In the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog) search bar, type _{{site.data.keyword.mdms_short}}_.
 2. Click the **{{site.data.keyword.mdms_short}}** tile.
-3. In the application details page, select the **Place an order** tab to access the Order Device wizard.
+3. In the application details page, select the **Place an order** tab.
 4. Start your {{site.data.keyword.mdms_short}} request by specifying the following details.
-
 
     <table>
       <tr>
@@ -74,6 +73,9 @@ Before you create a {{site.data.keyword.mdms_short}} request, ensure that you ha
       </tr>
       <caption style="caption-side:bottom;">Table 1. Describes the {{site.data.keyword.mdms_short}} request options</caption>
     </table>
+
+    When you pick a delivery location for your device, consider the weight of the device and accessibility. The device weighs 66 pounds, and it comes equipped with wheels and pop-up handle for maneuvering.
+    {: tip}
 
 5. Read the {{site.data.keyword.mdms_short}} service agreement, and then select the **{{site.data.keyword.mdms_short}} Services Agreement** check box.
 6. Click **Submit order** to complete your request. 
