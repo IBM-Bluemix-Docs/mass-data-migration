@@ -8,8 +8,9 @@ IBM Cloud Mass Data Migration
     getting-started.md
 
     {: .topicgroup}
-    [About the service](overview.md)
-    specs.md
+    About Mass Data Migration
+        [About the service](overview.md)
+        specs.md
 
     {: .topicgroup}
     Tutorials
