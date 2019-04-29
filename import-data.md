@@ -27,8 +27,6 @@ subcollection: mass-data-migration
 You can move your data into a {{site.data.keyword.cos_full}} bucket by using {{site.data.keyword.mdms_full_notm}}.
 {: shortdesc}
 
-After you receive and set up the {{site.data.keyword.mdms_short}} device, you can start loading your data.
-
 This content is currently being developed. We welcome your feedback! Reach out to Crystal Barragan (`@cbarragan`) on Slack, or [raise a doc issue ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.ibm.com/Bluemix-Docs/mass-data-migration/issues){: new_window} in our repository.
 {: note}
 
@@ -36,4 +34,3 @@ This content is currently being developed. We welcome your feedback! Reach out t
 {: #load-data}
 
 `TBU`
-

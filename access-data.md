@@ -9,6 +9,7 @@ keywords:
 subcollection: mass-data-migration
 
 ---
+
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen: .screen}
@@ -25,6 +26,8 @@ subcollection: mass-data-migration
 
 You can access your migrated data by using {{site.data.keyword.cos_full}}.
 {: shortdesc}
+
+After the offload is complete, you can enjoy immediate access to your data in the cloud while {{site.data.keyword.cloud_notm}} securely wipes the device.
 
 ## Accessing your storage bucket
 {: #access-bucket}
