@@ -87,7 +87,8 @@ After you create an instance of Cloud Object Storage, you're ready to designate 
         <td>Configure settings for the data transfer connection by entering your network configuration details.</td>
       </tr>
       <tr>
-        <td>Review order</td><td>Review details about your order.</td>
+        <td>Review the order</td>
+        <td>Review and confirm details about your order.</td>
       </tr>
       <caption style="caption-side:bottom;">Table 1. Describes the {{site.data.keyword.mdms_short}} request options</caption>
     </table>
