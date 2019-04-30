@@ -89,19 +89,9 @@ After you submit the request, you receive an e-mail to confirm your order. Order
 
 You can track the progress of your order by using the {{site.data.keyword.mdms_short}} user interface. To access tracking information about your order, select **{{site.data.keyword.mdms_short}}** from your {{site.data.keyword.cloud_notm}} Resource list, and then select the **Order Summary** tab from the application details page.
 
-The following chart shows how the request passes through states between its generation and its destruction.
+The following chart shows how the request status changes as {{site.data.keyword.cloud_notm}} processes the request.
 
-`Image TBU`
-
-| Status           | Description |
-| ---------------- | ----------- |
-| Processing order | `TBU`       |
-| Prepare shipment | `TBU`       |
-| Ship to customer | `TBU`       |
-| Client site      | `TBU`       |
-| Ship to IBM      | `TBU`       |
-| Data offload     | `TBU`       |
-| Erase data       | `TBU`       |
+`Image with descriptions TBU`
 
 
 ### Estimated shipping and delivery times
