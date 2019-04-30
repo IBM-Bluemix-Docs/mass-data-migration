@@ -34,9 +34,6 @@ Before you create a {{site.data.keyword.mdms_short}} request, keep in mind the f
 - Gather your network settings, such as IP addresses, and other routing details for configuring the device.
 - Identify a person who can receive, connect, and use the device at your site.
 
-This content is currently being developed. We welcome your feedback! Reach out to Crystal Barragan (`@cbarragan`) on Slack, or [raise a doc issue ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.ibm.com/Bluemix-Docs/mass-data-migration/issues){: new_window} in our repository.
-{: note}
-
 ## Submitting a request
 {: #create-request}
 
