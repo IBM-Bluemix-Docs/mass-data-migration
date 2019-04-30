@@ -76,7 +76,7 @@ You can create a {{site.data.keyword.mdms_short}} request by using the {{site.da
       <caption style="caption-side:bottom;">Table 1. Describes the {{site.data.keyword.mdms_short}} request options</caption>
     </table>
 
-    When you pick a delivery location for your device, consider the weight of the device and accessibility. The device weighs 66 pounds, and it comes equipped with wheels and pop-up handle for maneuvering.
+    When you select a delivery location for your device, consider the weight of the device and accessibility. The device weighs 66 pounds, and it comes equipped with wheels and pop-up handle for maneuvering.
     {: tip}
 
 5. Read the {{site.data.keyword.mdms_short}} service agreement, and then select the **{{site.data.keyword.mdms_short}} Services Agreement** check box.
@@ -87,7 +87,22 @@ After you submit the request, you receive an e-mail to confirm your order. Order
 ## Tracking your request
 {: #track-request}
 
-`TBU`
+You can track the progress of your order by using the {{site.data.keyword.mdms_short}} user interface. To access tracking information about your order, select **{{site.data.keyword.mdms_short}}** from your {{site.data.keyword.cloud_notm}} Resource list, and then select the **Order Summary** tab from application details page.
+
+The following chart shows how the request passes through states between its generation and its destruction.
+
+![Add image here.]()
+
+| Status           | Description |
+| ---------------- | ----------- |
+| Processing order | `TBU`       |
+| Prepare shipment | `TBU`       |
+| Ship to customer | `TBU`       |
+| Client site      | `TBU`       |
+| Ship to IBM      | `TBU`       |
+| Data offload     | `TBU`       |
+| Erase data       | `TBU`       |
+
 
 ### Estimated shipping and delivery times
 {: #shipping-delivery-times}
