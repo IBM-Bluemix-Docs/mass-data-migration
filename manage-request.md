@@ -82,8 +82,6 @@ You can create a {{site.data.keyword.mdms_short}} request by using the {{site.da
 5. Read the {{site.data.keyword.mdms_short}} service agreement, and then select the **{{site.data.keyword.mdms_short}} Services Agreement** check box.
 6. Click **Submit order** to complete your request. 
 
-After you submit the request, you receive an e-mail to confirm your order. Orders that are submitted during normal business hours are approved `the following business day`, and then shipped overnight to the specified location.
-
 ## Tracking your request
 {: #track-request}
 
@@ -98,6 +96,8 @@ The following chart shows how the request status changes as {{site.data.keyword.
 {: #shipping-delivery-times}
 
 `TBU`
+
+<!--After you submit the request, you receive an e-mail to confirm your order. Orders that are submitted during normal business hours are approved `the following business day`, and then shipped overnight to the specified location.-->
 
 ## Canceling your request
 {: #cancel-request}
