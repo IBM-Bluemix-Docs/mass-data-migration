@@ -57,6 +57,8 @@ After you create an instance of Cloud Object Storage, you're ready to designate 
 ## Submitting your request
 {: #get-started-submit-request}
 
+After you set a destination for your data in Cloud Object Storage, you can submit the {{site.data.keyword.mdms_short}} request by using the {{site.data.keyword.cloud_notm}} console.
+
 1. In the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog) search bar, type _{{site.data.keyword.mdms_short}}_.
 2. Click the **{{site.data.keyword.mdms_short}}** tile.
 3. In the application details page, select the **Place an order** tab.
