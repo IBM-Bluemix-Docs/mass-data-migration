@@ -27,12 +27,12 @@ Additional resources to help you learn about moving data into the cloud with {{s
 ## Samples and recipes
 {: #samples}
 
-- [Moving data from COS to File or Block Storage ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/recipes/tutorials/moving-data-from-cos-to-file-or-block-storage/){: new_window}
+- [Recipe: Moving data from COS to File or Block Storage ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/recipes/tutorials/moving-data-from-cos-to-file-or-block-storage/){: new_window}
 
 ## Blogs and videos
 {: #blogs}
 
-- [{{site.data.keyword.mdms_short}} provides a fast, simple and secure way to transfer data to the {{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.youtube.com/watch?v=eNSlUoswvss){: new_window}
+- [Video: {{site.data.keyword.mdms_short}} provides a fast, simple and secure way to transfer data to the {{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.youtube.com/watch?v=eNSlUoswvss){: new_window}
 
 ## Service terms
 {: #service-terms}
