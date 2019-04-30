@@ -107,8 +107,8 @@ After you set a destination for your data in Cloud Object Storage, you can submi
 
 Congratulations! You're all set with your {{site.data.keyword.mdms_short}} request.
 
-- To find out more about tracking your request, check out `TBU`.
-- To find out more about receiving and connecting your device, check out `TBU`.
+- To find out more about tracking your request, check out [Managing your request](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-manage-request).
+- To find out more about receiving and connecting your device, check out [Setting up the device](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-set-up-device).
 
 
 <!--
