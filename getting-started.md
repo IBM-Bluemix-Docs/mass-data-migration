@@ -35,8 +35,9 @@ To get started with {{site.data.keyword.mdms_short}}, create an {{site.data.keyw
 
 1. [Log in to your {{site.data.keyword.cloud_notm}} account ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}){: new_window}.
 2. [Create an instance of {{site.data.keyword.cos_full_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog/services/cloud-object-storage){: new_window}.
-3. Gather the network settings that are required for enabling your data transfer connection, such as the static IP address and the netmask for the server where your source data resides.
-4. Gather the network settings, such as the static IP address, the netmask, and the default gateway for your remote computer, that are required for interacting with the device's graphical user interface.
+3. Gather the following details about your network configuration to prepare the {{site.data.keyword.mdms_short}} device.
+   1. To configure data transfer settings, gather the static IP address and the netmask for the server where your source data resides.
+   2. To configure device management settings, gather the static IP address, the netmask, and the default gateway for your remote comoputer.
 
 ## Creating a storage bucket
 {: #get-started-create-bucket}
