@@ -27,9 +27,9 @@ subcollection: mass-data-migration
 Manage and track the status of your {{site.data.keyword.mdms_full}} request by using the {{site.data.keyword.cloud_notm}} console.
 {: shortdesc}
 
-Before you create a {{site.data.keyword.mdms_short}} request, keep in mind the following considerations:
+Before you create a {{site.data.keyword.mdms_short}} request, keep in mind the following prerequisites:
 
-- Ensure that you have a provisioned instance of Cloud Object Storage for your {{site.data.keyword.cloud_notm}} account. Learn more in the [Getting started tutorial](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-getting-started-tutorial).
+- Ensure that you have a provisioned instance of Cloud Object Storage for your {{site.data.keyword.cloud_notm}} account. 
 - Understand your network connection types and speeds.
 - Gather your network settings, such as IP addresses, and other routing details for configuring the device.
 - Identify a person who can receive, connect, and use the device at your site.
