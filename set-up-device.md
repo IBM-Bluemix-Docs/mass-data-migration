@@ -29,8 +29,6 @@ subcollection: mass-data-migration
 
 After the device is shipped to your data center, power on and connect the device to begin loading your data.
 
-This content is currently being developed. We welcome your feedback! Reach out to Crystal Barragan (`@cbarragan`) on Slack, or [raise a doc issue ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.ibm.com/Bluemix-Docs/mass-data-migration/issues){: new_window} in our repository.
-{: note}
 
 ## Powering on the device
 {: #power-on-device}
