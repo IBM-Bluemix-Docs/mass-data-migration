@@ -81,8 +81,8 @@ Configuring Ethernet connectivity on the device depends on the {{site.data.keywo
 
 | Device model | Description |
 | --- | ---- |
-| [RJ45](#set-up-RJ45-model) | <li>Natively supports Ethernet connectivity by using RJ45 connectors.</li><li> Includes adapters and optics that enable SFP+ copper support.</li>|
-| [RJ45 / SFP+](#set-up-SFP+-model) | <li>Natively supports both RJ45 and SFP+ copper connections.</li> |
+| [RJ45](#set-up-RJ45-model) | <ul><li>Natively supports Ethernet connectivity by using RJ45 connectors.</li><li> Includes adapters and optics that enable SFP+ copper support.</li></ul>|
+| [RJ45 / SFP+](#set-up-SFP+-model) | <ul><li>Natively supports both RJ45 and SFP+ copper connections.</li></ul> |
 {: caption="Table 1. Describes the supported {{site.data.keyword.mdms_short}} device models" caption-side="top"}
 
 To allow for greater efficiency in data transmission, [jumbo frames ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/Jumbo_frame){:new_window} are enabled by default on the 10 Gigabit Ethernet (10GbE) device ports. You can change this setting for your device by using the [**Modify Network Port** ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://wiki.osnexus.com/index.php?title=Network_Port_Modify) option in the user interface.
