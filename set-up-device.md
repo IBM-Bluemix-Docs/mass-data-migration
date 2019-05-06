@@ -144,8 +144,8 @@ The following image shows how the physical ports on the device map to the ports 
 
 | Physical device port | Ethernet type  | Displayed in the UI |  Description |
 | --- | --- | --- | --- |
-| Eth5 | 10Gb SFP+ (5)| `eno3` | Th Eth5 port is used to transfer data from your storage system onto the {{site.data.keyword.mdms_short}}. This port can also be used to manage the device. The port runs only at 10GbE speed. |
-| Eth2 | 10GbE (2) | `eno6` | The Eth2 port is used to manage the device and make the web-based UI available outside the data subnet. This port can also be used for data transfer. The connection must either be on the same subnet as the source data or directly connected to the server. The port can run at speeds of either 1GbE or 10GbE. |
+| Eth5 | 10Gb SFP+ | `eno3` | Th Eth5 port is used to transfer data from your storage system onto the {{site.data.keyword.mdms_short}}. This port can also be used to manage the device. The port runs only at 10GbE speed. |
+| Eth2 | 10GbE | `eno6` | The Eth2 port is used to manage the device and make the web-based UI available outside the data subnet. This port can also be used for data transfer. The connection must either be on the same subnet as the source data or directly connected to the server. The port can run at speeds of either 1GbE or 10GbE. |
 {: caption="Table 1. Describes how {{site.data.keyword.mdms_short}} device ports map to the UI display" caption-side="top"}
 
 To connect the device to your network by using the SFP+ and RJ45 connectors:
