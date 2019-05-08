@@ -29,9 +29,8 @@ subcollection: mass-data-migration
 
 After the device is shipped to your data center, power on and connect the device to begin loading your data.
 
-
-## Powering on the device
-{: #power-on-device}
+## Before you begin
+{: #set-up-prereqs}
 
 Before you power on and connect the {{site.data.keyword.mdms_short}} device, keep in mind the following considerations:
 
@@ -39,13 +38,16 @@ Before you power on and connect the {{site.data.keyword.mdms_short}} device, kee
 - Ensure that there is no condensation on the device.
 - To avoid inadvertent damage to the device, keep the device in its portable case while the device is in use.
 
+## Powering on the device
+{: #power-on-device}
+
 To turn on the device:
 
 1. Retrieve the power cord that is located under the transport case lid.
 
     {{site.data.keyword.mdms_short}} devices use a [C13 power cord ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. If you're using the device outside of the United States, you might need an additional power adapter that accommodates the plug and socket system that is used in your country. {{site.data.keyword.mdms_short}} devices are compatible with all standard power ranges.
     {: note}
-    
+
 2. Attach the power cord to the inlet on the device, and then connect the plug to a power socket.
 3. Set the **Mains Switch** to **On**.
 4. Power on the device by using the **System On / Off** button.
