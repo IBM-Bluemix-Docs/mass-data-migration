@@ -63,7 +63,7 @@ Before you power on and connect the {{site.data.keyword.mdms_short}} device, kee
   <caption style="caption-side:bottom;">Table 1. Describes the supported {{site.data.keyword.mdms_short}} device models</caption>
 </table>
 
-Each model comes packaged with [optics and adapters](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-inventory-checklists) that enable both RJ45 and SFP+ copper connections. You can find the cables in pouches that are located inside the portable case.
+Each model comes packaged with [optics and adapters](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-inventory-checklists) that support both RJ45 and SFP+ copper connections. You can find the cables in pouches that are located inside the portable case.
 
 The following image shows a top-down view of the RJ45 / SFP+ device model. 
 
@@ -93,7 +93,7 @@ After you position the device, power on the device by using the supplied power c
 
 After you power on the device, you can view and manage the IP settings for your network ports from the _Network Config..._ menu on the device. 
 
-![The figure shows the System Control Display screen on the Mass Data Migration device.](images/network-config.svg)
+![The figure shows the Network Config screen on the Mass Data Migration device.](images/network-config.svg){: caption="Figure 2. Shows the Network Config screen on the {{site.data.keyword.mdms_short}} device" caption-side="bottom"}
 
 To interact with the _System Control Display_ screen, move the cursor by using the **△**, **▽**, **esc**, and **enter** buttons. **Enter** takes you into a menu and **esc** takes you out.
 {: tip}
