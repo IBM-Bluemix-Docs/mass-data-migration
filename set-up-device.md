@@ -44,7 +44,7 @@ Before you power on and connect the {{site.data.keyword.mdms_short}} device, kee
     <th>Description</th>
   </tr>
   <tr>
-    <td><a href="#set-up-RJ45-model">RJ45</a></td>
+    <td><p><a href="#set-up-RJ45-model">RJ45</a></p></td>
     <td>
       <ul>
         <li>Natively supports Ethernet connectivity by using RJ45 connectors.</li>
@@ -130,7 +130,7 @@ The following table shows how the physical ports on the device map to the ports 
 | --- | --- | --- | --- |
 | Eth1 | 1GbE-B | `eno2` | The Eth1 port is used to manage the device and make the web-based UI available outside the data subnet. You can view the gateway information by using the _System Control Display_ screen after the device is powered on. |
 | Eth3 | 10GbE-B | `eno4` | The Eth3 port is used to transfer data from your storage system onto the {{site.data.keyword.mdms_short}}. The connection must either be on the same subnet as the source data or directly connected to the server. |
-{: caption="Table 1. Describes how {{site.data.keyword.mdms_short}} device ports map to the UI display" caption-side="top"}
+{: caption="Table 2. Describes how {{site.data.keyword.mdms_short}} device ports map to the UI display" caption-side="top"}
 
 To connect the device to your network by using the RJ45 connector:
 
@@ -170,7 +170,7 @@ The following table shows how the physical ports on the device map to the ports 
 | --- | --- | --- | --- |
 | Eth5 | 10Gb SFP+ | `eno3` | Th Eth5 port is used to transfer data from your storage system onto the {{site.data.keyword.mdms_short}}. This port can also be used to manage the device. The port runs only at 10GbE speed. |
 | Eth2 | 10GbE | `eno6` | The Eth2 port is used to manage the device and make the web-based UI available outside the data subnet. This port can also be used for data transfer. The connection must either be on the same subnet as the source data or directly connected to the server. The port can run at speeds of either 1GbE or 10GbE. |
-{: caption="Table 1. Describes how {{site.data.keyword.mdms_short}} device ports map to the UI display" caption-side="top"}
+{: caption="Table 3. Describes how {{site.data.keyword.mdms_short}} device ports map to the UI display" caption-side="top"}
 
 To connect the device to your network by using the SFP+ and RJ45 connectors:
 
