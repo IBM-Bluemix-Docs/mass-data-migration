@@ -36,9 +36,36 @@ Before you power on and connect the {{site.data.keyword.mdms_short}} device, kee
 ## {{site.data.keyword.mdms_short}} device basics
 {: #device-basics}
 
-The {{site.data.keyword.mdms_short}} device comes packaged with [cables, optics, and a power cord](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-inventory-checklists). You can find the cables in pouches that are located inside the portable case.
+{{site.data.keyword.cloud_notm}} ships the following {{site.data.keyword.mdms_short}} device models:
 
-As you interact with the device, you might want to review its general layout. The following image shows the main areas of the device. 
+<table>
+  <tr>
+    <th>Device model</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href="#set-up-RJ45-model">RJ45</a></td>
+    <td>
+      <ul>
+        <li>Natively supports Ethernet connectivity by using RJ45 connectors.</li>
+        <li>Includes adapters and optics that enable SFP+ copper support.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><a href="#set-up-SFP+-model">RJ45 / SFP+</a></td>
+    <td>
+      <ul>
+        <li>Natively supports both RJ45 and SFP+ copper connections.</li>
+      </ul>
+    </td>
+  </tr>
+  <caption style="caption-side:bottom;">Table 1. Describes the supported {{site.data.keyword.mdms_short}} device models</caption>
+</table>
+
+Each model comes packaged with [optics and adapters](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-inventory-checklists) that enable both RJ45 and SFP+ copper connections. You can find the cables in pouches that are located inside the portable case.
+
+The following image shows a top-down view of the RJ45 / SFP+ device model. 
 
 <a href="https://{DomainName}/docs/api/content/mass-data-migration/images/mdms-device.svg">
   <img src="images/mdms-device.svg" alt="Top-down view of the Mass Data Migration device">
@@ -69,6 +96,7 @@ After you power on the device, you can view and manage the IP settings for your 
 ![The figure shows the System Control Display screen on the Mass Data Migration device.](images/network-config.svg)
 
 To interact with the _System Control Display_ screen, move the cursor by using the **△**, **▽**, **esc**, and **enter** buttons. **Enter** takes you into a menu and **esc** takes you out.
+{: tip}
 
 To edit an IP address or subnet mask:
 
@@ -86,15 +114,9 @@ To edit an IP address or subnet mask:
 
 To connect the device to your network, you need to configure two Ethernet connections. The first connection is for managing the device through a browser, and the second connection is for moving data across the same subnet where the source data is located.
 
-Configuring Ethernet connectivity on the device depends on the {{site.data.keyword.mdms_short}} device type that you receive. {{site.data.keyword.IBM_notm}} provides the following {{site.data.keyword.mdms_short}} device models:
+Configuring Ethernet connectivity on the device depends on the {{site.data.keyword.mdms_short}} device type that you receive. 
 
-| Device model | Description |
-| --- | ---- |
-| [RJ45](#set-up-RJ45-model) | <ul><li>Natively supports Ethernet connectivity by using RJ45 connectors.</li><li> Includes adapters and optics that enable SFP+ copper support.</li></ul>|
-| [RJ45 / SFP+](#set-up-SFP+-model) | <ul><li>Natively supports both RJ45 and SFP+ copper connections.</li></ul> |
-{: caption="Table 1. Describes the supported {{site.data.keyword.mdms_short}} device models" caption-side="top"}
-
-To allow for greater efficiency in data transmission, [jumbo frames ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/Jumbo_frame){:new_window} are enabled by default on the 10 Gigabit Ethernet (10GbE) device ports. You can change this setting for your device by using the [**Modify Network Port** ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://wiki.osnexus.com/index.php?title=Network_Port_Modify) option in the user interface.
+To allow for greater efficiency in data transmission, [jumbo frames ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/Jumbo_frame){:new_window} are enabled by default on the 10 Gigabit Ethernet (10GbE) device ports. You can change this setting for your device by using the [Modify Network Port ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://wiki.osnexus.com/index.php?title=Network_Port_Modify) option in the user interface.
 {: tip}
 
 ### Setting up the RJ45 model
