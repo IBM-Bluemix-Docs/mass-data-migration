@@ -33,8 +33,8 @@ Before you power on and connect the {{site.data.keyword.mdms_short}} device, kee
 - Ensure that there is no condensation on the device.
 - To avoid inadvertent damage to the device, keep the device in its portable case while the device is in use.
 
-## {{site.data.keyword.mdms_short}} device basics
-{: #device-basics}
+## Device overview
+{: #device-overview}
 
 {{site.data.keyword.cloud_notm}} ships the following {{site.data.keyword.mdms_short}} device models:
 
