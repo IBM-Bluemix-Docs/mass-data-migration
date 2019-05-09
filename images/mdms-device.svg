@@ -12,7 +12,7 @@
 	.st6{fill:#5AAAFA;}
 	.st7{fill:#8CD211;}
 	.st8{fill:#264A60;}
-	.st9{fill:#003BC9;stroke:#003BC9;stroke-width:0.5;stroke-miterlimit:10;}
+	.st9{fill:#0064FF;stroke:#0064FF;stroke-width:0.5;stroke-miterlimit:10;}
 	.st10{fill:none;}
 	.st11{fill:#FFFFFF;}
 	.st12{font-family:'IBMPlexSans-Bold';}
@@ -21,11 +21,13 @@
 	.st15{fill:#000F5E;stroke:#000F5E;stroke-width:0.5;stroke-miterlimit:10;}
 	.st16{display:inline;fill:none;}
 	.st17{display:inline;fill:#FFFFFF;}
-	.st18{fill:#001689;stroke:#001689;stroke-width:0.5;stroke-miterlimit:10;}
-	.st19{font-size:7px;}
-	.st20{font-family:'IBMPlexSans';}
-	.st21{font-size:6px;}
-	.st22{font-size:16px;}
+	.st18{fill:#003BC9;stroke:#003BC9;stroke-width:0.5;stroke-miterlimit:10;}
+	.st19{fill:#001689;stroke:#001689;stroke-width:0.5;stroke-miterlimit:10;}
+	.st20{font-size:7px;}
+	.st21{font-family:'IBMPlexSans';}
+	.st22{fill:#0064FF;}
+	.st23{font-size:6px;}
+	.st24{font-size:16px;}
 </style>
 <font horiz-adv-x="1000">
 <!-- Hey there, greetings from Paul, Pieter, Diana, Barbara, Edgar, Jasper and Marko. We miss Eliot! -->
@@ -473,34 +475,34 @@
 	</g>
 	<g>
 		<g>
-			<circle class="st15" cx="167.5" cy="124.6" r="5"/>
+			<circle class="st19" cx="167.5" cy="124.6" r="5"/>
 		</g>
 		<rect x="165.4" y="122.4" class="st10" width="4.1" height="4.7"/>
 		<text transform="matrix(1 0 0 1 165.7876 126.0908)" class="st11 st12 st13">A</text>
 	</g>
 	<g>
 		<g>
-			<circle class="st15" cx="219.2" cy="124.6" r="5"/>
+			<circle class="st19" cx="219.2" cy="124.6" r="5"/>
 		</g>
 		<rect x="217.5" y="122.4" class="st10" width="4.1" height="4.7"/>
 		<text transform="matrix(1 0 0 1 217.9367 126.0908)" class="st11 st12 st13">B</text>
 	</g>
 	<g>
 		<g>
-			<circle class="st15" cx="59.5" cy="428.5" r="5"/>
+			<circle class="st19" cx="59.5" cy="428.5" r="5"/>
 		</g>
 		<rect x="57.4" y="426.2" class="st10" width="4.1" height="4.7"/>
 		<text transform="matrix(1 0 0 1 57.7876 429.8564)" class="st11 st12 st13">A</text>
 	</g>
 	<g>
 		<g>
-			<circle class="st15" cx="59.5" cy="443.5" r="5"/>
+			<circle class="st19" cx="59.5" cy="443.5" r="5"/>
 		</g>
 		<rect x="57.4" y="441.3" class="st10" width="4.1" height="4.7"/>
 		<text transform="matrix(1 0 0 1 57.8325 445.0034)" class="st11 st12 st13">B</text>
 	</g>
-	<text transform="matrix(1 0 0 1 72 430.5093)"><tspan x="0" y="0" class="st12 st19">Eth5:</tspan><tspan x="17.6" y="0" class="st20 st19"> Data transfer port</tspan></text>
-	<text transform="matrix(1 0 0 1 72 445.5)"><tspan x="0" y="0" class="st12 st19">Eth2:</tspan><tspan x="17.6" y="0" class="st20 st19"> Device management port</tspan></text>
+	<text transform="matrix(1 0 0 1 72 430.5093)"><tspan x="0" y="0" class="st12 st20">Eth5:</tspan><tspan x="17.6" y="0" class="st21 st20"> Data transfer port</tspan></text>
+	<text transform="matrix(1 0 0 1 72 445.5)"><tspan x="0" y="0" class="st12 st20">Eth2:</tspan><tspan x="17.6" y="0" class="st21 st20"> Device management port</tspan></text>
 	<g>
 		<g>
 			<circle class="st18" cx="221.5" cy="428.5" r="5"/>
@@ -536,54 +538,58 @@
 		<rect x="372.4" y="440.3" class="st10" width="4.1" height="4.7"/>
 		<text transform="matrix(1 0 0 1 372.7026 444.0127)" class="st11 st12 st13">G</text>
 	</g>
-	<text transform="matrix(1 0 0 1 234 430.6138)" class="st20 st19">System display screen</text>
-	<text transform="matrix(1 0 0 1 234 445.6138)" class="st20 st19">System display buttons</text>
-	<text transform="matrix(1 0 0 1 234 460.6138)" class="st20 st19">System on/off button</text>
-	<text transform="matrix(1 0 0 1 387 429.6138)" class="st20 st19">Main power inlet</text>
-	<text transform="matrix(1 0 0 1 387 444.6138)" class="st20 st19">Main power switch</text>
+	<text transform="matrix(1 0 0 1 234 430.6138)" class="st21 st20">System display screen</text>
+	<text transform="matrix(1 0 0 1 234 445.6138)" class="st21 st20">System display buttons</text>
+	<text transform="matrix(1 0 0 1 234 460.6138)" class="st21 st20">System on/off button</text>
+	<text transform="matrix(1 0 0 1 387 429.6138)" class="st21 st20">Main power inlet</text>
+	<text transform="matrix(1 0 0 1 387 444.6138)" class="st21 st20">Main power switch</text>
+	<g>
+		<path class="st22" d="M752.4,453v10.5h13.1V453H752.4z M765.1,463.1h-12.2v-7.9h12.2V463.1z"/>
+		<path class="st22" d="M760.1,460.7l2.8-2.8v2h0.9v-3.5h-3.5v0.9h2l-2.8,2.8L760.1,460.7z"/>
+	</g>
 </g>
 <g id="Text">
 	<rect x="64.3" y="185.3" class="st10" width="24.7" height="6.7"/>
-	<text transform="matrix(1 0 0 1 64.3335 189.7734)" class="st20 st21">1GbE (0)</text>
+	<text transform="matrix(1 0 0 1 64.3335 189.7734)" class="st21 st23">1GbE (0)</text>
 	<rect x="108.3" y="185.3" class="st10" width="40.1" height="6.7"/>
-	<text transform="matrix(1 0 0 1 108.3052 189.7734)" class="st20 st21">10Gb SFP+ (4)</text>
+	<text transform="matrix(1 0 0 1 108.3052 189.7734)" class="st21 st23">10Gb SFP+ (4)</text>
 	<rect x="159.6" y="185.3" class="st10" width="40.9" height="6.7"/>
-	<text transform="matrix(1 0 0 1 159.5691 189.7734)" class="st20 st21">10Gb SFP+ (5)</text>
+	<text transform="matrix(1 0 0 1 159.5691 189.7734)" class="st21 st23">10Gb SFP+ (5)</text>
 	<rect x="217.3" y="185.3" class="st10" width="28.7" height="6.7"/>
-	<text transform="matrix(1 0 0 1 217.3335 189.7734)" class="st20 st21">10GbE (2)</text>
+	<text transform="matrix(1 0 0 1 217.3335 189.7734)" class="st21 st23">10GbE (2)</text>
 	<rect x="63.3" y="210.3" class="st10" width="46.7" height="6.7"/>
-	<text transform="matrix(1 0 0 1 63.3335 215.5127)" class="st12 st19">Utility Power</text>
+	<text transform="matrix(1 0 0 1 63.3335 215.5127)" class="st12 st20">Utility Power</text>
 	<rect x="238.3" y="247.4" class="st10" width="18.7" height="10.7"/>
-	<text transform="matrix(1 0 0 1 238.3335 251.0547)"><tspan x="0" y="0" class="st20 st13">Mains</tspan><tspan x="0" y="6" class="st20 st13">Switch</tspan></text>
+	<text transform="matrix(1 0 0 1 238.3335 251.0547)"><tspan x="0" y="0" class="st21 st13">Mains</tspan><tspan x="0" y="6" class="st21 st13">Switch</tspan></text>
 	<rect x="386.2" y="147.3" class="st10" width="77.7" height="6.7"/>
-	<text transform="matrix(1 0 0 1 386.1668 152.5137)" class="st12 st19">System Control Display</text>
+	<text transform="matrix(1 0 0 1 386.1668 152.5137)" class="st12 st20">System Control Display</text>
 	<rect x="628.6" y="124.3" class="st10" width="23.4" height="13.7"/>
-	<text transform="matrix(1 0 0 1 628.5831 128.7734)"><tspan x="0" y="0" class="st12 st21">System</tspan><tspan x="0" y="7.2" class="st12 st21">On / Off</tspan></text>
+	<text transform="matrix(1 0 0 1 628.5831 128.7734)"><tspan x="0" y="0" class="st12 st23">System</tspan><tspan x="0" y="7.2" class="st12 st23">On / Off</tspan></text>
 	<rect x="590.3" y="315.3" class="st10" width="156.7" height="36.7"/>
-	<text transform="matrix(1 0 0 1 590.333 327.1729)"><tspan x="0" y="0" class="st12 st22">IBM Cloud</tspan><tspan x="0" y="16.2" class="st20 st22">Mass Data Migration</tspan></text>
+	<text transform="matrix(1 0 0 1 590.333 327.1729)"><tspan x="0" y="0" class="st12 st24">IBM Cloud</tspan><tspan x="0" y="16.2" class="st21 st24">Mass Data Migration</tspan></text>
 	<rect x="516.4" y="130.1" class="st10" width="8.2" height="4.8"/>
-	<text transform="matrix(1 0 0 1 516.4164 133.7842)" class="st20 st13">esc</text>
+	<text transform="matrix(1 0 0 1 516.4164 133.7842)" class="st21 st13">esc</text>
 	<rect x="556.1" y="130.2" class="st10" width="12.8" height="4.7"/>
-	<text transform="matrix(1 0 0 1 556.0835 133.8675)" class="st20 st13">enter</text>
+	<text transform="matrix(1 0 0 1 556.0835 133.8675)" class="st21 st13">enter</text>
 	<rect x="589.3" y="110.2" class="st10" width="14.7" height="4.7"/>
-	<text transform="matrix(1 0 0 1 589.3331 113.8675)" class="st20 st13">Power</text>
+	<text transform="matrix(1 0 0 1 589.3331 113.8675)" class="st21 st13">Power</text>
 	<rect x="586.2" y="118.6" class="st10" width="17.8" height="4.7"/>
-	<text transform="matrix(1 0 0 1 586.1669 122.2842)" class="st20 st13">PwrFail</text>
+	<text transform="matrix(1 0 0 1 586.1669 122.2842)" class="st21 st13">PwrFail</text>
 	<rect x="585" y="127" class="st10" width="19" height="4.7"/>
-	<text transform="matrix(1 0 0 1 584.9999 130.7009)" class="st20 st13">OvTemp</text>
+	<text transform="matrix(1 0 0 1 584.9999 130.7009)" class="st21 st13">OvTemp</text>
 	<rect x="584" y="135.4" class="st10" width="20" height="4.7"/>
-	<text transform="matrix(1 0 0 1 583.9999 139.1175)" class="st20 st13">1GbE (0)</text>
+	<text transform="matrix(1 0 0 1 583.9999 139.1175)" class="st21 st13">1GbE (0)</text>
 	<rect x="571" y="144" class="st10" width="33" height="4.7"/>
-	<text transform="matrix(1 0 0 1 570.9999 147.6592)" class="st20 st13">10Gb SFP+ (4)</text>
+	<text transform="matrix(1 0 0 1 570.9999 147.6592)" class="st21 st13">10Gb SFP+ (4)</text>
 	<rect x="571" y="152.2" class="st10" width="33" height="4.7"/>
-	<text transform="matrix(1 0 0 1 570.9999 155.9499)" class="st20 st13">10Gb SFP+ (5)</text>
+	<text transform="matrix(1 0 0 1 570.9999 155.9499)" class="st21 st13">10Gb SFP+ (5)</text>
 	<rect x="581" y="160.7" class="st10" width="23" height="4.7"/>
-	<text transform="matrix(1 0 0 1 580.9999 164.3675)" class="st20 st13">10GbE (2)</text>
+	<text transform="matrix(1 0 0 1 580.9999 164.3675)" class="st21 st13">10GbE (2)</text>
 	<rect x="646.7" y="261.3" class="st10" width="18.7" height="6.7"/>
-	<text transform="matrix(1 0 0 1 646.6663 265.7734)" class="st20 st21">USB-3</text>
+	<text transform="matrix(1 0 0 1 646.6663 265.7734)" class="st21 st23">USB-3</text>
 	<rect x="704.7" y="261.3" class="st10" width="12.7" height="6.7"/>
-	<text transform="matrix(1 0 0 1 704.6663 265.7734)" class="st20 st21">VGA</text>
+	<text transform="matrix(1 0 0 1 704.6663 265.7734)" class="st21 st23">VGA</text>
 	<rect x="704.3" y="179.3" class="st10" width="14.7" height="6.7"/>
-	<text transform="matrix(1 0 0 1 704.333 183.7734)" class="st20 st21">IPMI</text>
+	<text transform="matrix(1 0 0 1 704.333 183.7734)" class="st21 st23">IPMI</text>
 </g>
 </svg>
