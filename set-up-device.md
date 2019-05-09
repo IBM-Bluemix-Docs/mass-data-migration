@@ -40,9 +40,12 @@ The {{site.data.keyword.mdms_short}} device comes packaged with [cables, optics,
 
 As you interact with the device, you might want to review its general layout. The following image shows the main areas of the device. 
 
-<a href="https://cloud.ibm.com/docs/api/content/mass-data-migration/images/mdms-device.svg">
+<a href="https://{DomainName}/docs/api/content/mass-data-migration/images/mdms-device.svg">
   <img src="images/mdms-device.svg" alt="Top-down view of the Mass Data Migration device">
 </a>
+
+{{site.data.keyword.mdms_short}} devices use a [C13 power cord ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. If you're using the device outside of the United States, you might need an additional power adapter that accommodates the plug and socket system that is used in your country. {{site.data.keyword.mdms_short}} devices are compatible with all standard power ranges.
+{: note}
 
 <!--![The figure shows a top view of the Mass Data Migration device.](images/mdms-device.svg){: caption="Figure 1. Shows a top-down view of the {{site.data.keyword.mdms_short}} device" caption-side="bottom"}-->
 
@@ -52,10 +55,6 @@ As you interact with the device, you might want to review its general layout. Th
 After you position the device, power on the device by using the supplied power cord.
 
 1. Retrieve the power cord that is located under the transport case lid.
-
-    {{site.data.keyword.mdms_short}} devices use a [C13 power cord ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. If you're using the device outside of the United States, you might need an additional power adapter that accommodates the plug and socket system that is used in your country. {{site.data.keyword.mdms_short}} devices are compatible with all standard power ranges.
-    {: note}
-
 2. Attach the power cord to the inlet on the device, and then connect the plug to a power socket.
 3. Set the **Mains Switch** to **On**.
 4. Power on the device by using the **System On / Off** button.
