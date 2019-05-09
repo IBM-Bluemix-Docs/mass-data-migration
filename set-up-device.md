@@ -60,14 +60,13 @@ Before you power on and connect the {{site.data.keyword.mdms_short}} device, kee
       </ul>
     </td>
   </tr>
-  <caption style="caption-side:bottom;">Table 1. Describes the supported {{site.data.keyword.mdms_short}} device models</caption>
-</table>
+</table>{: caption="Table 1. Describes the supported {{site.data.keyword.mdms_short}} device models" caption-side="bottom"}
 
 Each model comes packaged with [optics and adapters](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-inventory-checklists) that support both RJ45 and SFP+ copper connections. The following image shows a top-down view of the RJ45 / SFP+ device model. 
 
 <a href="https://{DomainName}/docs/api/content/mass-data-migration/images/mdms-device.svg">
   <img src="images/mdms-device.svg" alt="Top-down view of the Mass Data Migration device">
-</a>
+</a>{: caption="Figure 2. Shows a top-down view of the {{site.data.keyword.mdms_short}} device" caption-side="bottom"}
 
 {{site.data.keyword.mdms_short}} devices use a [C13 power cord ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. If you're using the device outside of the United States, you might need an additional power adapter that accommodates the plug and socket system that is used in your country. {{site.data.keyword.mdms_short}} devices are compatible with all standard power ranges.
 {: note}
