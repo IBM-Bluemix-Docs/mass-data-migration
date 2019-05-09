@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-04-29"
+lastupdated: "2019-05-09"
 
 keywords:
 
@@ -27,21 +27,29 @@ subcollection: mass-data-migration
 {{site.data.keyword.mdms_full}} provides a portable, pre-configured storage device that is shipped to your location for easy migration of your data.
 {: shortdesc}
 
-After the device is shipped to your data center, power on and connect the device to begin loading your data.
-
-## Before you begin
-{: #set-up-prereqs}
-
 Before you power on and connect the {{site.data.keyword.mdms_short}} device, keep in mind the following considerations:
 
 - Ensure that the device is at room temperature.
 - Ensure that there is no condensation on the device.
 - To avoid inadvertent damage to the device, keep the device in its portable case while the device is in use.
 
+## {{site.data.keyword.mdms_short}} device basics
+{: #device-basics}
+
+The {{site.data.keyword.mdms_short}} device comes packaged with [cables, optics, and a power cord](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-inventory-checklists). You can find the cables in pouches that are located inside the portable case.
+
+As you interact with the device, you might want to review its general layout. The following image shows the main areas of the device. 
+
+<a href="https://cloud.ibm.com/docs/api/content/mass-data-migration/images/mdms-device.svg">
+  <img src="images/mdms-device.svg" alt="Top-down view of the Mass Data Migration device">
+</a>
+
+<!--![The figure shows a top view of the Mass Data Migration device.](images/mdms-device.svg){: caption="Figure 1. Shows a top-down view of the {{site.data.keyword.mdms_short}} device" caption-side="bottom"}-->
+
 ## Powering on the device
 {: #power-on-device}
 
-To turn on the device:
+After you position the device, power on the device by using the supplied power cord.
 
 1. Retrieve the power cord that is located under the transport case lid.
 
@@ -51,29 +59,28 @@ To turn on the device:
 2. Attach the power cord to the inlet on the device, and then connect the plug to a power socket.
 3. Set the **Mains Switch** to **On**.
 4. Power on the device by using the **System On / Off** button.
-  
-   ![System On / Off](/images/MDMSSystemOnOff.png)
 
    When a System ID value displays on the _System Control Display_ screen, the device is powered on and ready for the next step.
 
 ## Reviewing your network settings
 {: #review-network-settings}
 
-After you power on the device, you can view and manage the IP settings for your network ports from the _System Control Display_ screen on the device. 
+After you power on the device, you can view and manage the IP settings for your network ports from the _Network Config..._ menu on the device. 
 
-To interact with the _System Control Display_ screen, move the cursor by using the **Up**, **Down**, **Back/ESC**, and **Forward/ENTER** buttons. **Enter** takes you into a menu and **Exit** takes you out.
+![The figure shows the System Control Display screen on the Mass Data Migration device.](images/network-config.svg)
+
+To interact with the _System Control Display_ screen, move the cursor by using the **△**, **▽**, **esc**, and **enter** buttons. **Enter** takes you into a menu and **esc** takes you out.
 
 To edit an IP address or subnet mask:
 
-1. Use the **Up** and **Down** buttons to configure a new IP address setting.
+1. From the Network Config menu, use the **△** and **▽** buttons to select the port that you want to modify. Press **enter**.
+2. Select **IP Address**, and then use the **△** and **▽** buttons to set the new IP address.
 
-   Press the **Enter** button to move forward one character at a time. Press the **Exit** button to move backwards one character at a time.
+   Press **enter** to move forward one character at a time. Press **esc** to move backwards one character at a time.
 
-2. Press the **Exit** button to return to the previous menu.
+3. Press **esc** to return to the previous menu.
 
-3. Go to **Update...** and press **Enter** to save the setting.
-
-   ![LCD Display](/images/MDMSLCD.png)
+4. Go to **Update...** and press **enter** to save the setting.
 
 ## Connecting the device to your network
 {: #connect-device}
@@ -96,9 +103,7 @@ To allow for greater efficiency in data transmission, [jumbo frames ![External l
 
 The RJ45 device model natively supports Ethernet connectivity by using RJ45 connectors. You can use the supplied CAT6A Ethernet cables to connect your storage system to the RJ45 network ports on the device. If you need to enable SFP+ copper support, use the supplied adapters. The adapters are compatible with all switch manufacturers. You can find the adapters in a pocket on the underside of the shipping container lid.
 
-The following image shows how the physical ports on the device map to the ports that are displayed in the UI.
-
-![RJ45UI](/images/OSN5.2PortNamesRJ45.png)
+The following table shows how the physical ports on the device map to the ports that are displayed in the UI.
 
 | Physical device port | Ethernet type  | Displayed in the UI |  Description |
 | --- | --- | --- | --- |
@@ -110,9 +115,6 @@ To connect the device to your network by using the RJ45 connector:
 
 1. Retrieve the CAT6A cable from the transport case lid.
 2. Connect the CAT6A cable to the Eth3 (`10GbE-B`) port on the device.
-         
-   ![Ports of the MDMS device](/images/MDMSNewEth1and3.png)
-
 3. Connect the CAT6A cable to the SFP+ adapter.
 4. Connect the CAT6A cable to your 10Gb Ethernet switch.
 5. Open a web browser, and navigate to the following URL.
@@ -141,9 +143,7 @@ To connect the device to your network by using the RJ45 connector:
 
 The RJ45 / SFP+ device model natively supports both RJ45 and SFP+ copper connections, which means that the network ports originate from the device in both RJ45 and SFP+ copper formats. You can use the supplied CAT6A and SFP+ cables to connect your storage system to the network ports on the device. 
 
-The following image shows how the physical ports on the device map to the ports that are displayed in the UI.
-
-![Copper SFP+](/images/sfp-ports-sized-port5.png)
+The following table shows how the physical ports on the device map to the ports that are displayed in the UI.
 
 | Physical device port | Ethernet type  | Displayed in the UI |  Description |
 | --- | --- | --- | --- |
