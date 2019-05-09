@@ -126,7 +126,7 @@ The RJ45 device model natively supports Ethernet connectivity by using RJ45 conn
 
 The following table shows how the physical ports on the device map to the ports that are displayed in the UI.
 
-| Physical device port | Ethernet type  | Displayed in the UI |  Description |
+| Device port | Ethernet type  | UI display |  Description |
 | --- | --- | --- | --- |
 | Eth1 | 1GbE-B | `eno2` | The Eth1 port is used to manage the device and make the web-based UI available outside the data subnet. You can view the gateway information by using the _System Control Display_ screen after the device is powered on. |
 | Eth3 | 10GbE-B | `eno4` | The Eth3 port is used to transfer data from your storage system onto the {{site.data.keyword.mdms_short}}. The connection must either be on the same subnet as the source data or directly connected to the server. |
@@ -166,7 +166,7 @@ The RJ45 / SFP+ device model natively supports both RJ45 and SFP+ copper connect
 
 The following table shows how the physical ports on the device map to the ports that are displayed in the UI.
 
-| Physical device port | Ethernet type  | Displayed in the UI |  Description |
+| Device port | Ethernet type  | UI display |  Description |
 | --- | --- | --- | --- |
 | Eth5 | 10Gb SFP+ | `eno3` | Th Eth5 port is used to transfer data from your storage system onto the {{site.data.keyword.mdms_short}}. This port can also be used to manage the device. The port runs only at 10GbE speed. |
 | Eth2 | 10GbE | `eno6` | The Eth2 port is used to manage the device and make the web-based UI available outside the data subnet. This port can also be used for data transfer. The connection must either be on the same subnet as the source data or directly connected to the server. The port can run at speeds of either 1GbE or 10GbE. |
