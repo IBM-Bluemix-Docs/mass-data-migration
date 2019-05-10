@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-04-17"
+lastupdated: "2019-05-10"
 
 keywords:
 
@@ -19,10 +19,10 @@ subcollection: mass-data-migration
 {:note: .note}
 {:important: .important}
 
-# Migrating Netezza databases to {{site.data.keyword.dashdbshort_notm}}
+# Migrating PureData System for Analytics databases to {{site.data.keyword.dashdbshort_notm}}
 {: #migrate-netezza-databases}
 
-The {{site.data.keyword.mdms_short}} Service (MDMS) can be used to migrate large Netezza databases to {{site.data.keyword.dashdbshort}}. You can use this document as a reference for the tools that determine the amount of data to be transferred, and exporting methods.
+The {{site.data.keyword.mdms_full}} can be used to migrate large IBM PureData™ System for Analytics (powered by Netezza® technology) databases to {{site.data.keyword.dashdbshort}}. You can use this document as a reference for the tools that determine the amount of data to be transferred, and exporting methods.
 {: shortdesc}
 
 ## Determining the database object size
@@ -111,4 +111,4 @@ The data can be reread back on the Netezza by using the `SELECT FROM` statement 
 
 **Additional information**
 
-More information about Netezza, see [IBM Netezza database user documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.
+More information about PureData System for Analytics, see [IBM Netezza database user documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.
