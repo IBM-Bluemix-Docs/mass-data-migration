@@ -91,8 +91,6 @@ To edit an IP address or subnet mask:
 
 1. From the Network Config menu, use the **△** and **▽** buttons to select the port that you want to modify. Press **enter**.
 
-    ![The figure shows the Network Config screen on the Mass Data Migration device.](images/network-config.svg){: caption="Figure 2. Shows the Network Config screen on the {{site.data.keyword.mdms_short}} device" caption-side="bottom"}
-
 2. Select **IP Address**, and then use the **△** and **▽** buttons to set the new IP address.
 
    Press **enter** to move forward one character at a time. Press **esc** to move backwards one character at a time.
@@ -163,7 +161,7 @@ To connect the device to your network by using the RJ45 connector:
 The RJ45 / SFP+ device model natively supports both RJ45 and SFP+ copper connections. The following image shows a top-down view of this device model.
 
 <a href="https://{DomainName}/docs/api/content/mass-data-migration/images/mdms-device.svg">
-  <img src="images/mdms-device.svg" alt="Top-down view of the Mass Data Migration device">
+  <img src="images/mdms-device-sfp.svg" alt="Top-down view of the Mass Data Migration device">
 </a>{: caption="Figure 2. Shows a top-down view of the {{site.data.keyword.mdms_short}} device" caption-side="bottom"}
 
 You can use the supplied CAT6A and SFP+ cables to connect your storage system to the network ports on the device. 
