@@ -82,7 +82,7 @@ After you position the device, power on the device by using the supplied power c
 ## Reviewing your network settings
 {: #review-network-settings}
 
-After you power on the device, you can view and manage the IP settings for your network ports from the _Network Config..._ menu on the device. 
+After you power on the device, you can view and manage the IP settings for your network ports by using the _System Control Display_ screen on the device. 
 
 To interact with the _System Control Display_ screen, move the cursor by using the **△**, **▽**, **esc**, and **enter** buttons. **Enter** takes you into a menu and **esc** takes you out.
 {: tip}

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 413 127" style="enable-background:new 0 0 413 127;" xml:space="preserve">
+	 viewBox="0 0 396 108" style="enable-background:new 0 0 396 108;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;}
-	.st1{stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;}
+	.st1{fill:#EAEAEA;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;}
 	.st2{fill:#24A249;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
 	.st3{fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
 	.st4{fill:none;}
@@ -13,7 +13,7 @@
 	.st7{font-size:6px;}
 	.st8{font-family:'IBMPlexSans';}
 	.st9{font-size:5px;}
-	.st10{fill:#FFFFFF;}
+	.st10{fill:#23292E;}
 	.st11{font-family:'IBMPlexMono-Bold';}
 	.st12{font-family:'IBMPlexMono';}
 </style>
@@ -126,51 +126,51 @@
 <glyph unicode="0" horiz-adv-x="600" d="M300,-12C467,-12 540,121 540,349C540,577 467,710 300,710C133,710 60,577 60,349C60,121 133,-12 300,-12M300,61C191,61 148,157 148,292l0,114C148,541 191,637 300,637C409,637 452,541 452,406l0,-114C452,157 409,61 300,61z"/>
 </font>
 
-	<path class="st0" d="M390.5,107.5h-368c-2.7,0-5-2.2-5-5v-78c0-2.7,2.2-5,5-5h368c2.7,0,5,2.2,5,5v78
-	C395.5,105.3,393.3,107.5,390.5,107.5z"/>
-<path class="st0" d="M379.5,72.5h-27c-2.7,0-5-2.2-5-5v-27c0-2.7,2.2-5,5-5h27c2.7,0,5,2.2,5,5v27C384.5,70.3,382.3,72.5,379.5,72.5
+	<path class="st0" d="M381.5,97.5h-368c-2.7,0-5-2.2-5-5v-78c0-2.7,2.2-5,5-5h368c2.7,0,5,2.2,5,5v78
+	C386.5,95.3,384.3,97.5,381.5,97.5z"/>
+<path class="st0" d="M370.5,62.5h-27c-2.7,0-5-2.2-5-5v-27c0-2.7,2.2-5,5-5h27c2.7,0,5,2.2,5,5v27C375.5,60.3,373.3,62.5,370.5,62.5
 	z"/>
-<path class="st0" d="M274.5,47.5h-14c-1.7,0-3-1.4-3-3v-14c0-1.7,1.4-3,3-3h14c1.7,0,3,1.4,3,3v14C277.5,46.1,276.1,47.5,274.5,47.5
+<path class="st0" d="M265.5,37.5h-14c-1.7,0-3-1.4-3-3v-14c0-1.7,1.4-3,3-3h14c1.7,0,3,1.4,3,3v14C268.5,36.1,267.1,37.5,265.5,37.5
 	z"/>
-<path class="st0" d="M253.5,67.5h-14c-1.7,0-3-1.4-3-3v-14c0-1.7,1.4-3,3-3h14c1.7,0,3,1.4,3,3v14C256.5,66.1,255.1,67.5,253.5,67.5
+<path class="st0" d="M244.5,57.5h-14c-1.7,0-3-1.4-3-3v-14c0-1.7,1.4-3,3-3h14c1.7,0,3,1.4,3,3v14C247.5,56.1,246.1,57.5,244.5,57.5
 	z"/>
-<path class="st1" d="M208.5,68.5h-115c-1.7,0-3-1.4-3-3v-35c0-1.7,1.4-3,3-3h115c1.7,0,3,1.4,3,3v35
-	C211.5,67.1,210.1,68.5,208.5,68.5z"/>
-<path class="st0" d="M274.5,88.5h-14c-1.7,0-3-1.4-3-3v-14c0-1.7,1.4-3,3-3h14c1.7,0,3,1.4,3,3v14C277.5,87.1,276.1,88.5,274.5,88.5
+<path class="st1" d="M199.5,58.5h-115c-1.7,0-3-1.4-3-3v-35c0-1.7,1.4-3,3-3h115c1.7,0,3,1.4,3,3v35
+	C202.5,57.1,201.1,58.5,199.5,58.5z"/>
+<path class="st0" d="M265.5,78.5h-14c-1.7,0-3-1.4-3-3v-14c0-1.7,1.4-3,3-3h14c1.7,0,3,1.4,3,3v14C268.5,77.1,267.1,78.5,265.5,78.5
 	z"/>
-<path class="st0" d="M295.5,67.5h-14c-1.7,0-3-1.4-3-3v-14c0-1.7,1.4-3,3-3h14c1.7,0,3,1.4,3,3v14C298.5,66.1,297.1,67.5,295.5,67.5
+<path class="st0" d="M286.5,57.5h-14c-1.7,0-3-1.4-3-3v-14c0-1.7,1.4-3,3-3h14c1.7,0,3,1.4,3,3v14C289.5,56.1,288.1,57.5,286.5,57.5
 	z"/>
-<circle class="st2" cx="334.8" cy="37.5" r="2.5"/>
-<circle class="st3" cx="334.8" cy="45.9" r="2.5"/>
-<circle class="st3" cx="334.8" cy="54.3" r="2.5"/>
-<circle class="st3" cx="334.8" cy="62.8" r="2.5"/>
-<circle class="st3" cx="334.8" cy="71.3" r="2.5"/>
-<circle class="st3" cx="334.8" cy="79.6" r="2.5"/>
-<circle class="st3" cx="335" cy="88" r="2.5"/>
-<circle class="st3" cx="353" cy="42" r="2.5"/>
-<polygon class="st3" points="273,73.5 267.5,76 262,73.5 262,78.5 262,81 267.5,83.5 273,81 273,78.5 "/>
-<polygon class="st3" points="273,42.5 267.5,40 262,42.5 262,37.5 262,35 267.5,32.5 273,35 273,37.5 "/>
-<rect x="112.2" y="72.3" class="st4" width="77.7" height="6.7"/>
-<text transform="matrix(1 0 0 1 112.1668 77.5137)" class="st5 st6">System Control Display</text>
-<rect x="354.6" y="49.3" class="st4" width="23.4" height="13.7"/>
-<text transform="matrix(1 0 0 1 354.5831 53.7734)"><tspan x="0" y="0" class="st5 st7">System</tspan><tspan x="0" y="7.2" class="st5 st7">On / Off</tspan></text>
-<rect x="242.4" y="55.1" class="st4" width="8.2" height="4.8"/>
-<text transform="matrix(1 0 0 1 242.4164 58.7842)" class="st8 st9">esc</text>
-<rect x="282.1" y="55.2" class="st4" width="12.8" height="4.7"/>
-<text transform="matrix(1 0 0 1 282.0835 58.8675)" class="st8 st9">enter</text>
-<rect x="315.3" y="35.2" class="st4" width="14.7" height="4.7"/>
-<text transform="matrix(1 0 0 1 315.3331 38.8675)" class="st8 st9">Power</text>
-<rect x="312.2" y="43.6" class="st4" width="17.8" height="4.7"/>
-<text transform="matrix(1 0 0 1 312.1669 47.2842)" class="st8 st9">PwrFail</text>
-<rect x="311" y="52" class="st4" width="19" height="4.7"/>
-<text transform="matrix(1 0 0 1 310.9999 55.7009)" class="st8 st9">OvTemp</text>
-<rect x="310" y="60.4" class="st4" width="20" height="4.7"/>
-<text transform="matrix(1 0 0 1 309.9999 64.1175)" class="st8 st9">1GbE (0)</text>
-<rect x="297" y="69" class="st4" width="33" height="4.7"/>
-<text transform="matrix(1 0 0 1 296.9999 72.6592)" class="st8 st9">10Gb SFP+ (4)</text>
-<rect x="297" y="77.2" class="st4" width="33" height="4.7"/>
-<text transform="matrix(1 0 0 1 296.9999 80.9499)" class="st8 st9">10Gb SFP+ (5)</text>
-<rect x="307" y="85.7" class="st4" width="23" height="4.7"/>
-<text transform="matrix(1 0 0 1 306.9999 89.3675)" class="st8 st9">10GbE (2)</text>
-<text transform="matrix(1 0 0 1 95.75 36.75)"><tspan x="0" y="0" class="st10 st11 st7"> [  Main Menu  ] </tspan><tspan x="0" y="7.2" class="st10 st11 st7"> </tspan><tspan x="3.6" y="7.2" class="st10 st12 st7">System Status...</tspan><tspan x="0" y="14.4" class="st10 st11 st7">&gt;</tspan><tspan x="3.6" y="14.4" class="st10 st12 st7">Network Config...</tspan><tspan x="0" y="21.6" class="st10 st12 st7"> DNS Status...</tspan></text>
+<circle class="st2" cx="325.8" cy="27.5" r="2.5"/>
+<circle class="st3" cx="325.8" cy="35.9" r="2.5"/>
+<circle class="st3" cx="325.8" cy="44.3" r="2.5"/>
+<circle class="st3" cx="325.8" cy="52.8" r="2.5"/>
+<circle class="st3" cx="325.8" cy="61.3" r="2.5"/>
+<circle class="st3" cx="325.8" cy="69.6" r="2.5"/>
+<circle class="st3" cx="326" cy="78" r="2.5"/>
+<circle class="st3" cx="344" cy="32" r="2.5"/>
+<polygon class="st3" points="264,63.5 258.5,66 253,63.5 253,68.5 253,71 258.5,73.5 264,71 264,68.5 "/>
+<polygon class="st3" points="264,32.5 258.5,30 253,32.5 253,27.5 253,25 258.5,22.5 264,25 264,27.5 "/>
+<rect x="103.2" y="62.3" class="st4" width="77.7" height="6.7"/>
+<text transform="matrix(1 0 0 1 103.1668 67.5137)" class="st5 st6">System Control Display</text>
+<rect x="345.6" y="39.3" class="st4" width="23.4" height="13.7"/>
+<text transform="matrix(1 0 0 1 345.5831 43.7734)"><tspan x="0" y="0" class="st5 st7">System</tspan><tspan x="0" y="7.2" class="st5 st7">On / Off</tspan></text>
+<rect x="233.4" y="45.1" class="st4" width="8.2" height="4.8"/>
+<text transform="matrix(1 0 0 1 233.4164 48.7842)" class="st8 st9">esc</text>
+<rect x="273.1" y="45.2" class="st4" width="12.8" height="4.7"/>
+<text transform="matrix(1 0 0 1 273.0835 48.8675)" class="st8 st9">enter</text>
+<rect x="306.3" y="25.2" class="st4" width="14.7" height="4.7"/>
+<text transform="matrix(1 0 0 1 306.3331 28.8675)" class="st8 st9">Power</text>
+<rect x="303.2" y="33.6" class="st4" width="17.8" height="4.7"/>
+<text transform="matrix(1 0 0 1 303.1669 37.2842)" class="st8 st9">PwrFail</text>
+<rect x="302" y="42" class="st4" width="19" height="4.7"/>
+<text transform="matrix(1 0 0 1 301.9999 45.7009)" class="st8 st9">OvTemp</text>
+<rect x="301" y="50.4" class="st4" width="20" height="4.7"/>
+<text transform="matrix(1 0 0 1 300.9999 54.1175)" class="st8 st9">1GbE (0)</text>
+<rect x="288" y="59" class="st4" width="33" height="4.7"/>
+<text transform="matrix(1 0 0 1 287.9999 62.6592)" class="st8 st9">10Gb SFP+ (4)</text>
+<rect x="288" y="67.2" class="st4" width="33" height="4.7"/>
+<text transform="matrix(1 0 0 1 287.9999 70.9499)" class="st8 st9">10Gb SFP+ (5)</text>
+<rect x="298" y="75.7" class="st4" width="23" height="4.7"/>
+<text transform="matrix(1 0 0 1 297.9999 79.3675)" class="st8 st9">10GbE (2)</text>
+<text transform="matrix(1 0 0 1 86.75 26.75)"><tspan x="0" y="0" class="st10 st11 st7"> [  Main Menu  ] </tspan><tspan x="0" y="7.2" class="st10 st11 st7"> </tspan><tspan x="3.6" y="7.2" class="st10 st12 st7">System Status...</tspan><tspan x="0" y="14.4" class="st10 st11 st7">&gt;</tspan><tspan x="3.6" y="14.4" class="st10 st12 st7">Network Config...</tspan><tspan x="0" y="21.6" class="st10 st12 st7"> DNS Status...</tspan></text>
 </svg>
