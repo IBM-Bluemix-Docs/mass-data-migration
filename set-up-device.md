@@ -114,7 +114,13 @@ To allow for greater efficiency in data transmission, [jumbo frames ![External l
 ### Setting up the RJ45 model
 {: #set-up-RJ45-model}
 
-The RJ45 device model natively supports Ethernet connectivity by using RJ45 connectors. You can use the supplied CAT6A Ethernet cables to connect your storage system to the RJ45 network ports on the device. If you need to enable SFP+ copper support, use the supplied adapters. The adapters are compatible with all switch manufacturers. You can find the adapters in a pocket on the underside of the shipping container lid.
+The RJ45 device model natively supports Ethernet connectivity by using RJ45 connectors. The following image shows a top-down view of this device model.
+
+<a href="https://{DomainName}/docs/api/content/mass-data-migration/images/mdms-device-rj45.svg">
+  <img src="images/mdms-device-rj45.svg" alt="Top-down view of the Mass Data Migration device">
+</a>{: caption="Figure 2. Shows a top-down view of the {{site.data.keyword.mdms_short}} device" caption-side="bottom"}
+
+You can use the supplied CAT6A Ethernet cables to connect your storage system to the RJ45 network ports on the device. If you need to enable SFP+ copper support, use the supplied adapters. The adapters are compatible with all switch manufacturers. You can find the adapters in a pocket on the underside of the shipping container lid.
 
 The following table shows how the physical ports on the device map to the ports that are displayed in the UI.
 
@@ -154,12 +160,13 @@ To connect the device to your network by using the RJ45 connector:
 ### Setting up the RJ45 / SFP+ model
 {: #set-up-SFP+-model}
 
-The RJ45 / SFP+ device model natively supports both RJ45 and SFP+ copper connections, which means that the network ports originate from the device in both RJ45 and SFP+ copper formats. You can use the supplied CAT6A and SFP+ cables to connect your storage system to the network ports on the device. 
+The RJ45 / SFP+ device model natively supports both RJ45 and SFP+ copper connections. The following image shows a top-down view of this device model.
 
 <a href="https://{DomainName}/docs/api/content/mass-data-migration/images/mdms-device.svg">
   <img src="images/mdms-device.svg" alt="Top-down view of the Mass Data Migration device">
 </a>{: caption="Figure 2. Shows a top-down view of the {{site.data.keyword.mdms_short}} device" caption-side="bottom"}
 
+You can use the supplied CAT6A and SFP+ cables to connect your storage system to the network ports on the device. 
 The following table shows how the physical ports on the device map to the ports that are displayed in the UI.
 
 | Device port | Ethernet type  | UI display |  Description |
@@ -172,9 +179,6 @@ To connect the device to your network by using the SFP+ and RJ45 connectors:
 
 1. Retrieve the SFP+ copper cable from the transport case lid.
 2. Connect the SFP+ cable to the Eth5 (`10GbE (5)`) port on the device.
-
-  ![](images/sfp-model-ports.svg)
-  
 3. Connect the SFP+ cable to your 10Gb Ethernet switch.
 4. Open a web browser, and navigate to the following URL.
 
