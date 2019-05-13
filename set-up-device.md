@@ -36,7 +36,13 @@ Before you power on and connect the {{site.data.keyword.mdms_short}} device, kee
 ## Device overview
 {: #device-overview}
 
-{{site.data.keyword.cloud_notm}} ships the following {{site.data.keyword.mdms_short}} device models:
+The following image shows the main areas of the {{site.data.keyword.mdms_short}} device.
+
+<a href="https://{DomainName}/docs/api/content/mass-data-migration/images/mdms-device-rj45.svg">
+  <img src="images/mdms-device-rj45.svg" alt="Top-down view of the Mass Data Migration device">
+</a>{: caption="Figure 2. Shows a top-down view of the {{site.data.keyword.mdms_short}} device" caption-side="bottom"}
+
+{{site.data.keyword.cloud_notm}} ships the two {{site.data.keyword.mdms_short}} device models. Each model comes packaged with [optics and adapters](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-inventory-checklists) that support both RJ45 and SFP+ copper connections. 
 
 <table>
   <tr>
@@ -61,8 +67,6 @@ Before you power on and connect the {{site.data.keyword.mdms_short}} device, kee
     </td>
   </tr>
 </table>{: caption="Table 1. Describes the supported {{site.data.keyword.mdms_short}} device models" caption-side="bottom"}
-
-Each model comes packaged with [optics and adapters](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-inventory-checklists) that support both RJ45 and SFP+ copper connections. 
 
 {{site.data.keyword.mdms_short}} devices use a [C13 power cord ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. If you're using the device outside of the United States, you might need an additional power adapter that accommodates the plug and socket system that is used in your country. {{site.data.keyword.mdms_short}} devices are compatible with all standard power ranges.
 {: note}
