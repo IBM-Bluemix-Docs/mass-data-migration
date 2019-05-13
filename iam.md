@@ -30,7 +30,7 @@ subcollection: mass-data-migration
 ## Roles and permissions
 {: #roles}
 
-As an account owner, you can set policies within your {{site.data.keyword.cloud_notm}} account to create different levels of access for different users. You decide who is allowed to create and track {{site.data.keyword.mdms_short}} orders from the {{site.data.keyword.cloud_notm}} console.
+As an account owner, you can set policies within your {{site.data.keyword.cloud_notm}} account to create different levels of access for different users. You decide who can create and track {{site.data.keyword.mdms_short}} orders from the {{site.data.keyword.cloud_notm}} console.
 
 The following table shows how identity and access roles map to {{site.data.keyword.mdms_short}} permissions:
 
