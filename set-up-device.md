@@ -62,11 +62,7 @@ Before you power on and connect the {{site.data.keyword.mdms_short}} device, kee
   </tr>
 </table>{: caption="Table 1. Describes the supported {{site.data.keyword.mdms_short}} device models" caption-side="bottom"}
 
-Each model comes packaged with [optics and adapters](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-inventory-checklists) that support both RJ45 and SFP+ copper connections. The following image shows a top-down view of the RJ45 / SFP+ device model. 
-
-<a href="https://{DomainName}/docs/api/content/mass-data-migration/images/mdms-device.svg">
-  <img src="images/mdms-device.svg" alt="Top-down view of the Mass Data Migration device">
-</a>{: caption="Figure 2. Shows a top-down view of the {{site.data.keyword.mdms_short}} device" caption-side="bottom"}
+Each model comes packaged with [optics and adapters](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-inventory-checklists) that support both RJ45 and SFP+ copper connections. 
 
 {{site.data.keyword.mdms_short}} devices use a [C13 power cord ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. If you're using the device outside of the United States, you might need an additional power adapter that accommodates the plug and socket system that is used in your country. {{site.data.keyword.mdms_short}} devices are compatible with all standard power ranges.
 {: note}
@@ -160,6 +156,10 @@ To connect the device to your network by using the RJ45 connector:
 
 The RJ45 / SFP+ device model natively supports both RJ45 and SFP+ copper connections, which means that the network ports originate from the device in both RJ45 and SFP+ copper formats. You can use the supplied CAT6A and SFP+ cables to connect your storage system to the network ports on the device. 
 
+<a href="https://{DomainName}/docs/api/content/mass-data-migration/images/mdms-device.svg">
+  <img src="images/mdms-device.svg" alt="Top-down view of the Mass Data Migration device">
+</a>{: caption="Figure 2. Shows a top-down view of the {{site.data.keyword.mdms_short}} device" caption-side="bottom"}
+
 The following table shows how the physical ports on the device map to the ports that are displayed in the UI.
 
 | Device port | Ethernet type  | UI display |  Description |
@@ -172,6 +172,9 @@ To connect the device to your network by using the SFP+ and RJ45 connectors:
 
 1. Retrieve the SFP+ copper cable from the transport case lid.
 2. Connect the SFP+ cable to the Eth5 (`10GbE (5)`) port on the device.
+
+  ![](images/sfp-model-ports.svg)
+  
 3. Connect the SFP+ cable to your 10Gb Ethernet switch.
 4. Open a web browser, and navigate to the following URL.
 
