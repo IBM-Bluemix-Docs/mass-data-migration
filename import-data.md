@@ -24,7 +24,7 @@ subcollection: mass-data-migration
 # Importing your data
 {: #migrate-data}
 
-Start moving data from your source server into a pre-configured storage device by using {{site.data.keyword.mdms_full}.
+Start moving data from your source server into a pre-configured storage device by using {{site.data.keyword.mdms_full}}.
 {: shortdesc}
 
 ## Accessing the user interface
