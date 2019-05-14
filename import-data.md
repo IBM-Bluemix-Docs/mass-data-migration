@@ -24,13 +24,13 @@ subcollection: mass-data-migration
 # Importing your data
 {: #migrate-data}
 
-Start moving data from your source server into a pre-configured storage device by using {{site.data.keyword.mdms_full}}.
+Start moving data from your source server onto a pre-configured storage device by using {{site.data.keyword.mdms_full}}.
 {: shortdesc}
 
 ## Accessing the user interface
 {: #access-ui}
 
-[After you configure the {{site.data.keyword.mdms_short}} device for Ethernet connectivity](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-set-up-device#connect-device), you're ready to access the OSNEXUS QuantaStor user interface (UI) so you can begin loading your data onto the device.
+[After you configure the {{site.data.keyword.mdms_short}} device for Ethernet connectivity](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-set-up-device#connect-device), you're ready to access the OSNEXUS QuantaStor user interface (UI) so you can begin loading data onto the device.
 
 ### Step 1. Retrieve your service credentials
 {: #retrieve-service-credentials}
