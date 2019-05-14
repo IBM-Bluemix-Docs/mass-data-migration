@@ -33,7 +33,7 @@ This content is currently being developed. We welcome your feedback! Reach out t
 ## Accessing the user interface
 {: #access-ui}
 
-After you configure the device for Ethernet connectivity, you're ready to access the OSNEXUS QuantaStor user interface (UI) so you can begin loading and importing your data into the device.
+[After you configure the device for Ethernet connectivity](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-set-up-device#connect-device), you're ready to access the OSNEXUS QuantaStor user interface (UI) so you can begin loading your data onto the device.
 
 To access the QuantaStor UI:
 
@@ -65,8 +65,6 @@ The device arrives pre-configured with your IP address, user name, locked storag
 ### Step 1. Activate the storage pool
 {: #activate-storage-pool}
 
-To activate the storage pool:
-
 1. In the Common Tasks wizard, click **Unlock and Start Storage Pool**.
 2. Enter your storage pool passphrase, and then click **OK**.
       
@@ -80,27 +78,23 @@ To activate the storage pool:
 ### Step 2. Mount the network share on your source server
 {: #mount-network-share}
 
-To mount the network share:
-
 1. In the Common Tasks wizard, click **View Network Shares** to display the network shares view.
 2. Close the Common Tasks wizard, and then right-click the network share name to view a list of options. 
-3. From the list of options, click **View Mount Command** to review mount information for the share.
+3. Click **View Mount Command** to review mount information for the share.
 4. Mount the share on your source server by using the specified commands.
 
    ![Mounting the share](/images/MountCommand.png)
 
-   Be sure to specify the IP address that corresponds to the 10 Gigabit Ethernet (10GbE) port on the device.
+   Be sure to specify the IP address that corresponds to the 10GbE port on the device.
    To allow for greater efficiency in data transmission, [jumbo frames ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/Jumbo_frame){:new_window} are enabled by default on the 10GbE device ports. You can change this setting for your device by using the [Modify Network Port ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://wiki.osnexus.com/index.php?title=Network_Port_Modify) option in the user interface.
    {: note}
 
 ### Step 3. Copy the data onto the network share
 {: #copy-data}
 
-To complete the data transfer:
-
 1. Copy your data onto the network share. 
 
-2. In the Common Tasks wizard, click **View Network Activity** to show inbound Ethernet load as data is transferred to the device on the 10GB link.
+2. In the Common Tasks wizard, click **View Network Activity** to show inbound Ethernet load as data is transferred to the device on the 10Gb link.
    
     ![View activity](/images/NetworkPerf.png)
 
