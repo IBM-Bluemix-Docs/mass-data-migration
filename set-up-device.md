@@ -42,7 +42,7 @@ The following image shows the main areas of the {{site.data.keyword.mdms_short}}
   <img src="images/mdms-device-rj45.svg" alt="Top-down view of the Mass Data Migration device">
 </a>
 
-{{site.data.keyword.cloud_notm}} ships the two {{site.data.keyword.mdms_short}} device models. Each model comes packaged with [optics and adapters](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-inventory-checklists) that support both RJ45 and SFP+ copper connections. 
+{{site.data.keyword.cloud_notm}} ships two {{site.data.keyword.mdms_short}} device models. Each model comes packaged with [optics and adapters](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-inventory-checklists) that support both RJ45 and SFP+ copper connections. 
 
 <table>
   <tr>
