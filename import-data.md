@@ -68,7 +68,7 @@ To access the QuantaStor UI:
    You can reopen the Common Tasks wizard by using the **Workflow Manager** in the upper-left area of the interface.
    {:tip}
 
-## Loading the data
+## Loading your data
 {: #load-data}
 
 The device arrives pre-configured with your IP address, user name, locked storage pool, and Network File System (NFS) share.
@@ -87,14 +87,14 @@ To access the storage pool on the {{site.data.keyword.mdms_short}} device, retri
 ### Step 2. Activate the storage pool
 {: #activate-storage-pool}
 
-Unlock the storage pool by using the credentials that you retrieved in the previous step.
+Unlock the empty storage pool by using the credentials that you retrieved in the previous step.
 
 1. In the Common Tasks wizard, click **Unlock and Start Storage Pool**.
-2. Enter your storage pool passphrase, and then click **OK**.
+2. Enter the storage pool passphrase that you retrieved in step 1, and then click **OK**.
       
    ![Activate Storage Pool](/images/StartStoragePool.png)
 
-   By default, the share has both Network File System (NFS) and Server Message Block (SMB) protocols that are enabled with no access restrictions. You can modify access to this share for NFS or SMB by right-clicking the share name in the user inferace, and then selecting the appropriate menu option.
+   By default, the share has both Network File System (NFS) and Server Message Block (SMB) protocols that are enabled with no access restrictions. You can modify access to this share for NFS or SMB by right-clicking the share name in the user inferface, and then selecting the appropriate menu option.
    {: note}
 
 ### Step 3. Mount the network share on your source server
@@ -115,10 +115,13 @@ To mount the network share:
    To allow for greater efficiency in data transmission, [jumbo frames ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/Jumbo_frame){:new_window} are enabled by default on the 10GbE device ports. You can change this setting for your device by using the [Modify Network Port ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://wiki.osnexus.com/index.php?title=Network_Port_Modify) option in the user interface.
    {: note}
 
-### Step 4. Copy the data onto the network share
+### Step 4. Copy data onto the network share
 {: #copy-data}
 
-1. Copy data onto the network share.
+After you connect to the NFS share, start and monitor the data copy.
+
+1. Copy data onto the network share by using a file copy tool that is compatible with your host computer.
+
 2. In the Common Tasks wizard, click **View Network Activity** to show inbound Ethernet load as data is transferred to the device on the 10Gb link.
    
     ![View activity](/images/NetworkPerf.png)
