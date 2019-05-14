@@ -108,7 +108,10 @@ To edit an IP address or subnet mask:
 
 To connect the device to your network, you need to configure two Ethernet connections. The first connection is for managing the device through a browser, and the second connection is for moving data across the same subnet where the source data is located.
 
-Configuring Ethernet connectivity on the device depends on the {{site.data.keyword.mdms_short}} device model that you receive. 
+Configure Ethernet connectivity for your device depending on the {{site.data.keyword.mdms_short}} device model that you receive. 
+
+- [Setting up the RJ45 model](#set-up-RJ45-model)
+- [Setting up the RJ45 / SFP+ model](#set-up-SFP+-model)
 
 ### Setting up the RJ45 model
 {: #set-up-RJ45-model}
