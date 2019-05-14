@@ -24,7 +24,7 @@ subcollection: mass-data-migration
 # Importing your data
 {: #migrate-data}
 
-You can move your data into a {{site.data.keyword.cos_full}} bucket by using {{site.data.keyword.mdms_full_notm}}.
+You can move data from your source server into a pre-configured storage device by using {{site.data.keyword.mdms_full_notm}}.
 {: shortdesc}
 
 This content is currently being developed. We welcome your feedback! Reach out to Crystal Barragan (`@cbarragan`) on Slack, or [raise a doc issue ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.ibm.com/Bluemix-Docs/mass-data-migration/issues){: new_window} in our repository.
@@ -33,18 +33,18 @@ This content is currently being developed. We welcome your feedback! Reach out t
 ## Accessing the user interface
 {: #access-ui}
 
-[After you configure the device for Ethernet connectivity](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-set-up-device#connect-device), you're ready to access the OSNEXUS QuantaStor user interface (UI) so you can begin loading your data onto the device.
+[After you configure the {{site.data.keyword.mdms_short}} device for Ethernet connectivity](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-set-up-device#connect-device), you're ready to access the OSNEXUS QuantaStor user interface (UI) so you can begin loading your data onto the device.
 
 To access the QuantaStor UI:
 
 1. Open a web browser, and navigate to the following URL.
 
    ```
-   https://<your_management_IP_address>
+   https://<device_management_IP_address>
    ```
    {: codeblock}
 
-   Replace `<your_management_IP_address>` with the IP address that is configured for your Eth1 or Eth2 network ports. Accept the certificate exception.
+   Replace `<device_management_IP_address>` with the IP address that is configured for your Eth1 or Eth2 network ports. Accept the certificate exception.
 
 2. Log in to the QuantaStor UI by using the username and password that was sent to your e-mail address.
 
