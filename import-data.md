@@ -118,7 +118,7 @@ To mount the network share:
 ### Step 4. Copy data onto the network share
 {: #copy-data}
 
-After you connect to the NFS share, start and monitor the data copy.
+Now that you're connected to the NFS share, you can start and monitor the data copy to the device.
 
 1. Copy data onto the network share by using a file copy tool that is compatible with your host computer.
 
