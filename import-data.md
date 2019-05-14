@@ -93,11 +93,9 @@ The device arrives pre-configured with your IP address, user name, locked storag
 {: #copy-data}
 
 1. Copy your data onto the network share. 
-
 2. In the Common Tasks wizard, click **View Network Activity** to show inbound Ethernet load as data is transferred to the device on the 10Gb link.
    
     ![View activity](/images/NetworkPerf.png)
-
 3. Click **View Storage pool** to monitor storage usage and IOPS on the device.
    
     ![View Storage Pool](/images/PoolPerf.png)
