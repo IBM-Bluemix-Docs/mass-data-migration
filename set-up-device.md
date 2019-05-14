@@ -95,13 +95,10 @@ To interact with the _System Control Display_ screen, move the cursor by using t
 To edit an IP address or subnet mask:
 
 1. From the Network Config menu, use the **△** and **▽** buttons to select the port that you want to modify. Press **enter**.
-
 2. Select **IP Address**, and then use the **△** and **▽** buttons to set the new IP address.
 
    Press **enter** to move forward one character at a time. Press **esc** to move backwards one character at a time.
-
 3. Press **esc** to return to the previous menu.
-
 4. Go to **Update...** and press **enter** to save the setting.
 
 ## Connecting the device to your network
@@ -110,9 +107,6 @@ To edit an IP address or subnet mask:
 To connect the device to your network, you need to configure two Ethernet connections. The first connection is for managing the device through a browser, and the second connection is for moving data across the same subnet where the source data is located.
 
 Configuring Ethernet connectivity on the device depends on the {{site.data.keyword.mdms_short}} device type that you receive. 
-
-To allow for greater efficiency in data transmission, [jumbo frames ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/Jumbo_frame){:new_window} are enabled by default on the 10 Gigabit Ethernet (10GbE) device ports. You can change this setting for your device by using the [Modify Network Port ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://wiki.osnexus.com/index.php?title=Network_Port_Modify) option in the user interface.
-{: tip}
 
 ### Setting up the RJ45 model
 {: #set-up-RJ45-model}
@@ -208,4 +202,4 @@ To connect the device to your network by using the SFP+ and RJ45 connectors:
 {: #set-up-device-next-steps}
 
 - [Access the user interface](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-access-ui)
-- [Load data onto the device]()
+- [Load data onto the device](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-load-data)
