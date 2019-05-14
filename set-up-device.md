@@ -204,30 +204,8 @@ To connect the device to your network by using the SFP+ and RJ45 connectors:
    If you need to alter any IP settings for Eth3 or Eth1, see the [Configuring IP addresses](#configuring-ip-addresses) section.
    {: tip}
 
-## Accessing the user interface
-{: #access-ui}
+## What's next
+{: #set-up-device-next-steps}
 
-After you configure the device for Ethernet connectivity, you're ready to access the OSNEXUS QuantaStor user interface (UI) so you can begin loading and importing your data into the device.
-
-To access the QuantaStor UI:
-
-1. Open a web browser, and navigate to the following URL.
-
-   ```
-   https://<your_management_IP_address>
-   ```
-   {: codeblock}
-
-   Replace `<your_management_IP_address>` with the IP address that is configured for your Eth1 or Eth2 network ports. Accept the certificate exception.
-
-2. Log in to the QuantaStor UI by using the username and password that was sent to your e-mail address.
-
-   ![Login page](/images/login.png)
-
-   The Common Tasks wizard is displayed. Use the options from left to right to begin importing your data.
-
-   ![Workflow icons](/images/workflow.png)
-
-   You can reopen the Common Tasks wizard by using the **Workflow Manager** in the upper-left area of the interface.
-   {:tip}
-
+- [Access the user interface](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-access-ui)
+- [Load data onto the device]()
