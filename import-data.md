@@ -35,7 +35,7 @@ Start moving data from your source server into a pre-configured storage device b
 ### Step 1. Retrieve your service credentials
 {: #retrieve-service-credentials}
 
-To unlock the empty storage pool on the {{site.data.keyword.mdms_short}} device, retrieve your device credentials by navigating to the {{site.data.keyword.mdms_short}} user interface.
+To log in to the device user interface, retrieve your device credentials by navigating to the {{site.data.keyword.mdms_short}} dashboard.
 
 1. [Log in to the {{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window}.
 2. Go to **Menu** &gt; **Resource List** to view a list of your resources.
@@ -71,12 +71,12 @@ To access the QuantaStor UI:
 ## Loading the data
 {: #load-data}
 
-The device arrives pre-configured with your IP address, user name, locked storage pool, and Network File System (NFS) share that is used to load the device. The user password and storage pool password are communicated through a separate email.
+The device arrives pre-configured with your IP address, user name, locked storage pool, and Network File System (NFS) share.
 
 ### Step 1. Retrieve your storage pool passphrase
 {: #activate-storage-pool}
 
-To unlock the empty storage pool on the {{site.data.keyword.mdms_short}} device, retrieve your device credentials by navigating to the {{site.data.keyword.mdms_short}} user interface.
+To access the storage pool on the {{site.data.keyword.mdms_short}} device, retrieve your device credentials by navigating to the {{site.data.keyword.mdms_short}} user interface.
 
 1. [Log in to the {{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window}.
 2. Go to **Menu** &gt; **Resource List** to view a list of your resources.
