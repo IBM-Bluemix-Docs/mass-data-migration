@@ -24,13 +24,27 @@ subcollection: mass-data-migration
 # Importing your data
 {: #migrate-data}
 
-You can move data from your source server into a pre-configured storage device by using {{site.data.keyword.mdms_full_notm}}.
+Start moving data from your source server into a pre-configured storage device by using {{site.data.keyword.mdms_full}.
 {: shortdesc}
 
 ## Accessing the user interface
 {: #access-ui}
 
 [After you configure the {{site.data.keyword.mdms_short}} device for Ethernet connectivity](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-set-up-device#connect-device), you're ready to access the OSNEXUS QuantaStor user interface (UI) so you can begin loading your data onto the device.
+
+### Step 1. Retrieve your service credentials
+{: #retrieve-service-credentials}
+
+To unlock the empty storage pool on the {{site.data.keyword.mdms_short}} device, retrieve your device credentials by navigating to the {{site.data.keyword.mdms_short}} user interface.
+
+1. [Log in to the {{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window}.
+2. Go to **Menu** &gt; **Resource List** to view a list of your resources.
+3. From your {{site.data.keyword.cloud_notm}} resource list, select your provisioned instance of {{site.data.keyword.mdms_short}}.
+4. In the _Request details_ tab, navigate to the Credentials section.
+5. Copy the **User name** and **Password** values.
+
+### Step 2. Log in to the QuantaStor user interface
+{: #log-in-device-ui}
 
 To access the QuantaStor UI:
 
