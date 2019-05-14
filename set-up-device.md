@@ -36,7 +36,7 @@ Before you power on and connect the {{site.data.keyword.mdms_short}} device, kee
 ## Device overview
 {: #device-overview}
 
-The following image shows the main areas of the {{site.data.keyword.mdms_short}} device.
+Your {{site.data.keyword.mdms_short}} device arrives pre-configured and ready to connect to your network. The following image shows the main areas of the device.
 
 <a href="https://{DomainName}/docs/api/content/mass-data-migration/images/mdms-device-rj45.svg">
   <img src="images/mdms-device-rj45.svg" alt="Top-down view of the Mass Data Migration device">
@@ -75,7 +75,7 @@ The following image shows the main areas of the {{site.data.keyword.mdms_short}}
 ## Powering on the device
 {: #power-on-device}
 
-After you position the device, power on the device by using the supplied power cord.
+After you position the device, use the supplied power cord to power on the device.
 
 1. Retrieve the power cord that is located under the transport case lid.
 2. Attach the power cord to the inlet on the device, and then connect the plug to a power socket.
@@ -87,7 +87,7 @@ After you position the device, power on the device by using the supplied power c
 ## Reviewing your network settings
 {: #review-network-settings}
 
-After you power on the device, you can view and manage the IP settings for your network ports by using the _System Control Display_ screen on the device. 
+You can review the network configuration on the device before you connect it to your network. View and manage the IP settings for your network ports by using the _System Control Display_ screen on the device. 
 
 To interact with the _System Control Display_ screen, move the cursor by using the **△**, **▽**, **esc**, and **enter** buttons. **Enter** takes you into a menu and **esc** takes you out.
 {: tip}
