@@ -111,7 +111,7 @@ Configuring Ethernet connectivity on the device depends on the {{site.data.keywo
 ### Setting up the RJ45 model
 {: #set-up-RJ45-model}
 
-The RJ45 device model natively supports Ethernet connectivity by using RJ45 connectors. The following image shows a top-down view of this device model.
+The RJ45 device model natively supports Ethernet connectivity by using RJ45 connectors.
 
 <a href="https://{DomainName}/docs/api/content/mass-data-migration/images/mdms-device-rj45.svg">
   <img src="images/mdms-device-rj45.svg" alt="Top-down view of the Mass Data Migration device">
@@ -127,7 +127,7 @@ The following table shows how the physical ports on the device map to the ports 
 | Eth3 | 10GbE-B | `eno4` | The Eth3 port is used to transfer data from your storage system onto the {{site.data.keyword.mdms_short}}. The connection must either be on the same subnet as the source data or directly connected to the server. |
 {: caption="Table 2. Describes how {{site.data.keyword.mdms_short}} device ports map to the UI display" caption-side="top"}
 
-To connect the device to your network by using the RJ45 connector:
+To connect the RJ45 device model to your network:
 
 1. Retrieve the CAT6A cable from the transport case lid.
 2. Connect the CAT6A cable to the Eth3 (`10GbE-B`) port on the device.
@@ -157,7 +157,7 @@ To connect the device to your network by using the RJ45 connector:
 ### Setting up the RJ45 / SFP+ model
 {: #set-up-SFP+-model}
 
-The RJ45 / SFP+ device model natively supports both RJ45 and SFP+ copper connections. The following image shows a top-down view of this device model.
+The RJ45 / SFP+ device model natively supports both RJ45 and SFP+ copper connections. 
 
 <a href="https://{DomainName}/docs/api/content/mass-data-migration/images/mdms-device.svg">
   <img src="images/mdms-device-sfp.svg" alt="Top-down view of the Mass Data Migration device">
@@ -172,7 +172,7 @@ The following table shows how the physical ports on the device map to the ports 
 | Eth2 | 10GbE | `eno6` | The Eth2 port is used to manage the device and make the web-based UI available outside the data subnet. This port can also be used for data transfer. The connection must either be on the same subnet as the source data or directly connected to the server. The port can run at speeds of either 1GbE or 10GbE. |
 {: caption="Table 3. Describes how {{site.data.keyword.mdms_short}} device ports map to the UI display" caption-side="top"}
 
-To connect the device to your network by using the SFP+ and RJ45 connectors:
+To connect the RJ45 / SFP+ device model to your network:
 
 1. Retrieve the SFP+ copper cable from the transport case lid.
 2. Connect the SFP+ cable to the Eth5 (`10GbE (5)`) port on the device.
