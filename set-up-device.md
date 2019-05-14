@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-05-09"
+lastupdated: "2019-05-14"
 
 keywords:
 
@@ -159,7 +159,7 @@ To connect the RJ45 device model to your network:
 
 The RJ45 / SFP+ device model natively supports both RJ45 and SFP+ copper connections. 
 
-<a href="https://{DomainName}/docs/api/content/mass-data-migration/images/mdms-device.svg">
+<a href="https://{DomainName}/docs/api/content/mass-data-migration/images/mdms-device-sfp.svg">
   <img src="images/mdms-device-sfp.svg" alt="Top-down view of the Mass Data Migration device">
 </a>
 
