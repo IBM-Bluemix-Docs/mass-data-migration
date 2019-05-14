@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-04-17"
+lastupdated: "2019-05-14"
 
 keywords:
 
@@ -32,10 +32,20 @@ This content is currently being developed. We welcome your feedback! Reach out t
 ## Disconnecting the device
 {: #disconnect-device}
 
-`TBU`
+When the data copy is complete, you can gracefully power down the system. 
 
+1. In the Common Tasks wizard, click **Shutdown Appliance...**.
+    ![Shutting Appliance Down](/images/ShutDown.png)
+
+2. Disconnect the device.
+3. Return all cables and optics to the storage location inside of the transport case.
 
 ## Shipping the device
 {: #ship-device}
 
-`TBU`
+1. [Log in to the {{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window}.
+2. Go to **Menu** &gt; **Resource List** to view a list of your resources.
+3. From your {{site.data.keyword.cloud_notm}} resource list, select your provisioned instance of {{site.data.keyword.mdms_short}}.
+4. In the _Request details_ tab, navigate to the Shipping Info section.
+5. Click **Print return label** to print the shipping label for the device, and then attach the label to the device.
+6. Notify the carrier, and return the device to the data center.
