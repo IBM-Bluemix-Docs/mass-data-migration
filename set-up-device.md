@@ -42,7 +42,7 @@ Your {{site.data.keyword.mdms_short}} device arrives pre-configured and ready to
   <img src="images/mdms-device-rj45.svg" alt="Top-down view of the Mass Data Migration device">
 </a>
 
-{{site.data.keyword.cloud_notm}} ships two {{site.data.keyword.mdms_short}} device models. Each model comes packaged with [optics and adapters](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-inventory-checklists) that support both RJ45 and SFP+ copper connections. 
+{{site.data.keyword.cloud_notm}} provides two {{site.data.keyword.mdms_short}} device models. Each model comes packaged with [optics and adapters](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-inventory-checklists) that support both RJ45 and SFP+ copper connections. 
 
 <table>
   <tr>
@@ -68,6 +68,8 @@ Your {{site.data.keyword.mdms_short}} device arrives pre-configured and ready to
   </tr>
   <caption style="caption-side:bottom;">Table 1. Describes the supported {{site.data.keyword.mdms_short}} device models</caption>
 </table>
+
+Both device models offer the same functionality, but the cabling instructions are different for each model. When you receive your {{site.data.keyword.mdms_short}} device, be sure to identify the device model so that you follow the instructions that correspond to your device type.  
 
 {{site.data.keyword.mdms_short}} devices use a [C13 power cord ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. If you're using the device outside of the United States, you might need an additional power adapter that accommodates the plug and socket system that is used in your country. {{site.data.keyword.mdms_short}} devices are compatible with all standard power ranges.
 {: note}
@@ -106,7 +108,7 @@ To edit an IP address or subnet mask:
 
 To connect the device to your network, you need to configure two Ethernet connections. The first connection is for managing the device through a browser, and the second connection is for moving data across the same subnet where the source data is located.
 
-Configuring Ethernet connectivity on the device depends on the {{site.data.keyword.mdms_short}} device type that you receive. 
+Configuring Ethernet connectivity on the device depends on the {{site.data.keyword.mdms_short}} device model that you receive. 
 
 ### Setting up the RJ45 model
 {: #set-up-RJ45-model}
