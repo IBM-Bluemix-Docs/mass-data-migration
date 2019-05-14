@@ -27,9 +27,6 @@ subcollection: mass-data-migration
 You can move data from your source server into a pre-configured storage device by using {{site.data.keyword.mdms_full_notm}}.
 {: shortdesc}
 
-This content is currently being developed. We welcome your feedback! Reach out to Crystal Barragan (`@cbarragan`) on Slack, or [raise a doc issue ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.ibm.com/Bluemix-Docs/mass-data-migration/issues){: new_window} in our repository.
-{: note}
-
 ## Accessing the user interface
 {: #access-ui}
 
@@ -37,7 +34,7 @@ This content is currently being developed. We welcome your feedback! Reach out t
 
 To access the QuantaStor UI:
 
-1. Open a web browser, and navigate to the following URL.
+1. Open a web browser, and navigate to the static IP address that you provided in the order form.
 
    ```
    https://<device_management_IP_address>
@@ -60,23 +57,38 @@ To access the QuantaStor UI:
 ## Loading the data
 {: #load-data}
 
-The device arrives pre-configured with your IP address, user name, locked storage pool, and Network File System (NFS) share. The user password and storage pool password are communicated through a separate email.
+The device arrives pre-configured with your IP address, user name, locked storage pool, and Network File System (NFS) share that is used to load the device. The user password and storage pool password are communicated through a separate email.
 
-### Step 1. Activate the storage pool
+### Step 1. Retrieve your storage pool passphrase
 {: #activate-storage-pool}
+
+To unlock the empty storage pool on the {{site.data.keyword.mdms_short}} device, retrieve your device credentials by navigating to the {{site.data.keyword.mdms_short}} user interface.
+
+1. [Log in to the {{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window}.
+2. Go to **Menu** &gt; **Resource List** to view a list of your resources.
+3. From your {{site.data.keyword.cloud_notm}} resource list, select your provisioned instance of {{site.data.keyword.mdms_short}}.
+4. In the _Request details_ tab, navigate to the Credentials section.
+5. Copy the **Pool lock passcode** value.
+
+### Step 2. Activate the storage pool
+{: #activate-storage-pool}
+
+Unlock the storage pool by using the credentials that you retrieved in the previous step.
 
 1. In the Common Tasks wizard, click **Unlock and Start Storage Pool**.
 2. Enter your storage pool passphrase, and then click **OK**.
       
    ![Activate Storage Pool](/images/StartStoragePool.png)
 
-   When the storage pool is enabled, the NFS share is available to mount.
-
    By default, the share has both Network File System (NFS) and Server Message Block (SMB) protocols that are enabled with no access restrictions. You can modify access to this share for NFS or SMB by right-clicking the share name in the user inferace, and then selecting the appropriate menu option.
    {: note}
 
-### Step 2. Mount the network share on your source server
+### Step 3. Mount the network share on your source server
 {: #mount-network-share}
+
+After you unlock and activate the storage pool, you can mount the NFS share on your source server.
+
+To mount the network share: 
 
 1. In the Common Tasks wizard, click **View Network Shares** to display the network shares view.
 2. Close the Common Tasks wizard, and then right-click the network share name to view a list of options. 
@@ -89,10 +101,10 @@ The device arrives pre-configured with your IP address, user name, locked storag
    To allow for greater efficiency in data transmission, [jumbo frames ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/Jumbo_frame){:new_window} are enabled by default on the 10GbE device ports. You can change this setting for your device by using the [Modify Network Port ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://wiki.osnexus.com/index.php?title=Network_Port_Modify) option in the user interface.
    {: note}
 
-### Step 3. Copy the data onto the network share
+### Step 4. Copy the data onto the network share
 {: #copy-data}
 
-1. Copy your data onto the network share. 
+1. Copy data onto the network share.
 2. In the Common Tasks wizard, click **View Network Activity** to show inbound Ethernet load as data is transferred to the device on the 10Gb link.
    
     ![View activity](/images/NetworkPerf.png)
