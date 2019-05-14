@@ -131,5 +131,5 @@ Now that you're connected to the NFS share, you can start and monitor the data c
 ## What's next
 {: #import-data-next-steps}
 
-- [Shut down the device](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-disconnect-device)
-- [Return the device](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-ship-device)
+- [Disconnect the device](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-disconnect-device)
+- [Ship the device to {{site.data.keyword.cloud_notm}}](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-ship-device)
