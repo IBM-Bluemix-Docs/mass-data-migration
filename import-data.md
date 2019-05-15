@@ -32,11 +32,10 @@ You can copy data from your source server onto a pre-configured storage device b
 
 After you configure the {{site.data.keyword.mdms_full}} device for Ethernet connectivity, you're ready to access the device user interface and start the data copy process.
 
-
 ### Step 1. Retrieve your service credentials
 {: #retrieve-service-credentials}
 
-When you submit a {{site.data.keyword.mdms_short}} request, the service auto-generates credentials on your behalf that you can use to access the device user interface. 
+When you submit a {{site.data.keyword.mdms_short}} request, the service auto-generates credentials on your behalf that you can use to access the local web UI for the device. 
 
 To retrieve your service credentials:
 
@@ -49,7 +48,7 @@ To retrieve your service credentials:
 ### Step 2. Log in to the QuantaStor user interface
 {: #log-in-device-ui}
 
-You can use your service credentials to log in to the QuantaStor UI for interacting with the {{site.data.keyword.mdms_short}} device.
+Use the service credentials that you retrieved in the previous step to log in to the QuantaStor UI and interact with the {{site.data.keyword.mdms_short}} device.
 
 1. Open a web browser, and navigate to the static IP address that you provided in the order form.
 
