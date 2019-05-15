@@ -53,3 +53,11 @@ When the data copy is complete, you can gracefully power down the system.
 4. In the _Request details_ tab, navigate to the Shipping Info section.
 5. Click **Print return label** to print the shipping label for the device, and then attach the label to the device.
 6. Schedule a pickup with your carrier, and return the device to the data center.
+
+    When the device is returned to {{site.data.keyword.cloud_notm}}, the order status changes to _Device received_ in the {{site.data.keyword.mdms_short}} request details page.
+
+## What's next
+{: #return-device-next-steps}
+
+- [Verify the offloaded data](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-verify-data)
+
