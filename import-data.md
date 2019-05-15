@@ -131,7 +131,7 @@ Now that you're connected to the NFS share, you can start and monitor the data c
    
     ![View Storage Pool](/images/PoolPerf.png)
 
-## What's next
+## Next steps
 {: #import-data-next-steps}
 
 - [Disconnect the device](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-disconnect-device)

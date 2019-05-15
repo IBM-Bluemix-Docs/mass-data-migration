@@ -56,7 +56,7 @@ When the data copy is complete, you can gracefully power down the system.
 
     When the device is returned to {{site.data.keyword.cloud_notm}}, the order status changes to _Device received_ in the {{site.data.keyword.mdms_short}} request details page.
 
-## What's next
+## Next steps
 {: #return-device-next-steps}
 
 - [Verify the offloaded data](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-verify-data)

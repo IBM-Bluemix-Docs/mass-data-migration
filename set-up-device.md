@@ -203,7 +203,7 @@ To connect the RJ45 / SFP+ device model to your network:
    If you need to alter any IP settings for Eth3 or Eth1, see the [Configuring IP addresses](#configuring-ip-addresses) section.
    {: tip}
 
-## What's next
+## Next steps
 {: #set-up-device-next-steps}
 
 - [Access the user interface](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-access-ui)
