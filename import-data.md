@@ -35,7 +35,7 @@ Start moving data from your source server onto a pre-configured storage device b
 ### Step 1. Retrieve your service credentials
 {: #retrieve-service-credentials}
 
-To log in to the device user interface, retrieve your device credentials by navigating to the {{site.data.keyword.mdms_short}} dashboard.
+When you submit a {{site.data.keyword.mdms_short}} request, the service generates credentials on your behalf that are used for logging in to the device user interface. You can retrieve your service credentials by navigating to the {{site.data.keyword.mdms_short}} dashboard.
 
 1. [Log in to the {{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window}.
 2. Go to **Menu** &gt; **Resource List** to view a list of your resources.
