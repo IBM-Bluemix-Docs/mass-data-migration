@@ -40,8 +40,9 @@ When the data copy is complete, you can gracefully power down the system.
 
     Click **OK** to confirm.
 
-2. Power off the device by using the **System On / Off** button on the device. Then, set the **Mains Switch** to **Off**.
-3. Spool and return all cables and optics to the storage location inside of the transport case.
+2. Power off the device by using the **System On / Off** button on the device. 
+3. Set the **Mains Switch** to **Off**.
+4. Spool and return all cables and optics to their storage locations inside the transport case.
 
 ## Shipping the device
 {: #ship-device}
