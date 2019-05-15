@@ -30,7 +30,7 @@ Start moving data from your source server onto a pre-configured storage device b
 ## Accessing the user interface
 {: #access-ui}
 
-[After you configure the {{site.data.keyword.mdms_short}} device for Ethernet connectivity](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-set-up-device#connect-device), you're ready to access the OSNEXUS QuantaStor user interface (UI) so you can begin loading data onto the device.
+[After you configure the {{site.data.keyword.mdms_short}} device for Ethernet connectivity](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-set-up-device#connect-device), you're ready to access the OSNEXUS QuantaStor user interface so you can begin loading data onto the device.
 
 ### Step 1. Retrieve your service credentials
 {: #retrieve-service-credentials}
@@ -46,7 +46,7 @@ When you submit a {{site.data.keyword.mdms_short}} request, the service generate
 ### Step 2. Log in to the QuantaStor user interface
 {: #log-in-device-ui}
 
-To access the QuantaStor UI:
+You can use your service credentials to log in to the QuantaStor UI for interacting with the {{site.data.keyword.mdms_short}} device.
 
 1. Open a web browser, and navigate to the static IP address that you provided in the order form.
 
@@ -76,7 +76,7 @@ The device arrives pre-configured with your IP address, user name, locked storag
 ### Step 1. Retrieve your storage pool passphrase
 {: #activate-storage-pool}
 
-To access the storage pool on the {{site.data.keyword.mdms_short}} device, retrieve your device credentials by navigating to the {{site.data.keyword.mdms_short}} user interface.
+To access the storage pool on the {{site.data.keyword.mdms_short}} device, retrieve your device credentials by navigating to the {{site.data.keyword.mdms_short}} user interface in the {{site.data.keyword.cloud_notm}} console.
 
 1. [Log in to the {{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window}.
 2. Go to **Menu** &gt; **Resource List** to view a list of your resources.
