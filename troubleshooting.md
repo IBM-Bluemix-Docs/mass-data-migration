@@ -25,11 +25,8 @@ subcollection: mass-data-migration
 # Troubleshooting
 {: #troubleshooting}
 
-General problems with using {{site.data.keyword.mdms_notm}} might include `TBU` or `TBU`. In many cases, you can recover from these problems by following a few easy steps.
+General problems with using {{site.data.keyword.mdms_full}} might include viewing your order status or accessing the user interface. In many cases, you can recover from these problems by following a few easy steps.
 {: shortdesc}
-
-This content is currently being developed. We welcome your feedback! Reach out to Crystal Barragan (`@cbarragan`) on Slack, or [raise a doc issue ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.ibm.com/Bluemix-Docs/mass-data-migration/issues){: new_window} in our repository.
-{: note}
 
 ## Unable to view an order
 {: #unable-to-view-order}
