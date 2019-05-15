@@ -32,7 +32,7 @@ subcollection: mass-data-migration
 
 As an account owner, you can set policies within your {{site.data.keyword.cloud_notm}} account to create different levels of access for different users. After you create a {{site.data.keyword.mdms_short}} request, you decide who can track the progress of the order from the {{site.data.keyword.cloud_notm}} console.
 
-The following table shows how {{site.data.keyword.mdms_short}} actions map to platform management roles. 
+The following table shows how {{site.data.keyword.mdms_short}} actions map to [{{site.data.keyword.cloud_notm}} IAM platform management roles](/docs/iam?topic=iam-userroles#iamusermanrol). 
 
 <table>
   <col width="20%">
@@ -93,6 +93,7 @@ The following table shows how {{site.data.keyword.mdms_short}} actions map to pl
 </table>
 
 For information about assigning user roles in the UI, see [Managing access to resources](/docs/iam?topic=iam-iammanidaccser#iammanidaccser).
+{: tip}
 
 
 
