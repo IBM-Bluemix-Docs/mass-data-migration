@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-04-17"
+lastupdated: "2019-05-15"
 
 keywords: 
 
@@ -34,12 +34,12 @@ This content is currently being developed. We welcome your feedback! Reach out t
 ## Unable to view an order
 {: #unable-to-view-order}
 
-When you access the {{site.data.keyword.cloud_notm}} console, you cannot view or track a {{site.data.keyword.mdms_notm}} order for your organization.
+When you access the {{site.data.keyword.cloud_notm}} console, you cannot view or track a {{site.data.keyword.mdms_short}} order for your organization.
 
-You can see a list of services in your {{site.data.keyword.cloud_notm}} resource list, but you do not see a {{site.data.keyword.mdms_notm}} entry.
+You can see a list of services in your {{site.data.keyword.cloud_notm}} resource list, but you do not see a {{site.data.keyword.mdms_short}} entry.
 {: tsSymptoms}
 
-You do not have the correct authorization to view or track {{site.data.keyword.mdms_notm}} orders.
+You do not have the correct authorization to view or track {{site.data.keyword.mdms_short}} orders.
 {: tsCauses} 
 
 Verify with your administrator that you are assigned the correct role in the applicable resource group or service instance. For more information about roles, see [Roles and permissions](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-manage-access#roles).
