@@ -27,8 +27,8 @@ IBM Cloud Mass Data Migration
 
     {: .navgroup id="reference"}
     regions.md
-    inventory-checklists.md
     iam.md
+    inventory-checklists.md
     related-links.md
 
     {: .topicgroup}
