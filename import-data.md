@@ -30,7 +30,7 @@ You can copy data from your source server onto a pre-configured storage device b
 ## Accessing the device user interface
 {: #access-ui}
 
-After you configure the {{site.data.keyword.mdms_full}} device for Ethernet connectivity, you're ready to access the device user interface and start the data copy process.
+After you receive and configure the {{site.data.keyword.mdms_full}} device for Ethernet connectivity, you're ready to access the device user interface and start the data migration process.
 
 ### Step 1. Retrieve your service credentials
 {: #retrieve-service-credentials}
