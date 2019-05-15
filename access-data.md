@@ -29,10 +29,8 @@ You can access your migrated data by using {{site.data.keyword.cos_full}}.
 
 After the offload is complete, you can enjoy immediate access to your data in the cloud while {{site.data.keyword.cloud_notm}} securely wipes the device.
 
-## Accessing your storage bucket
-{: #access-bucket}
-
-<!-- Brief steps for managing data in COS -->
+## Verifying the data upload
+{: #verify-data}
 
 `TBU`
 

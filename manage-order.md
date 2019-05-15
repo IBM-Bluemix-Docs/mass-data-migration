@@ -21,28 +21,28 @@ subcollection: mass-data-migration
 {:important: .important}
 {:download: .download}
 
-# Managing your request
-{: #manage-request}
+# Managing your order
+{: #manage-order}
 
-Manage and track the status of your {{site.data.keyword.mdms_full}} request by using the {{site.data.keyword.cloud_notm}} console.
+Manage and track the status of your {{site.data.keyword.mdms_full}} order by using the {{site.data.keyword.cloud_notm}} console.
 {: shortdesc}
 
-Before you create a {{site.data.keyword.mdms_short}} request, keep in mind the following prerequisites:
+Before you place a {{site.data.keyword.mdms_short}} order, keep in mind the following prerequisites:
 
 - Ensure that you have a provisioned instance of Cloud Object Storage for your {{site.data.keyword.cloud_notm}} account. 
 - Understand your network connection types and speeds.
 - Gather your network settings, such as IP addresses, and other routing details for configuring the device.
 - Identify a person who can receive, connect, and use the device at your site.
 
-## Submitting a request
+## Placing an order
 {: #create-request}
 
-You can create a {{site.data.keyword.mdms_short}} request by using the {{site.data.keyword.cloud_notm}} console.
+You can place a {{site.data.keyword.mdms_short}} order by using the {{site.data.keyword.cloud_notm}} console.
 
 1. In the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog) search bar, type _{{site.data.keyword.mdms_short}}_.
 2. Click the **{{site.data.keyword.mdms_short}}** tile.
 3. In the application details page, select the **Place an order** tab.
-4. Start your {{site.data.keyword.mdms_short}} request by specifying the following details.
+4. Start your {{site.data.keyword.mdms_short}} order by specifying the following details.
 
     <table>
       <tr>
@@ -51,7 +51,7 @@ You can create a {{site.data.keyword.mdms_short}} request by using the {{site.da
       </tr>
       <tr>
         <td>Add a request name</td>
-        <td>Enter an alias to identify and track your {{site.data.keyword.mdms_short}} request. Then, select the resource group that contains your provisioned instance of Cloud Object Storage.</td>
+        <td>Enter an alias to identify and track your {{site.data.keyword.mdms_short}} order. Then, select the resource group that contains your provisioned instance of Cloud Object Storage.</td>
       </tr>
       <tr>
         <td>Select your Cloud Object Storage instance</td>
@@ -82,12 +82,12 @@ You can create a {{site.data.keyword.mdms_short}} request by using the {{site.da
 5. Read the {{site.data.keyword.mdms_short}} service agreement, and then select the **{{site.data.keyword.mdms_short}} Services Agreement** check box.
 6. Click **Submit order** to complete your request. 
 
-## Tracking your request
-{: #track-request}
+## Tracking your order
+{: #track-order}
 
 You can track the progress of your order by using the {{site.data.keyword.mdms_short}} user interface. To access tracking information about your order, select **{{site.data.keyword.mdms_short}}** from your {{site.data.keyword.cloud_notm}} Resource list, and then select the **Order Summary** tab from the application details page.
 
-The following chart shows how the request status changes as {{site.data.keyword.cloud_notm}} processes the request.
+The following chart shows how the order status changes as {{site.data.keyword.cloud_notm}} processes the request.
 
 `Image with descriptions TBU`
 
@@ -99,7 +99,7 @@ The following chart shows how the request status changes as {{site.data.keyword.
 
 <!--After you submit the request, you receive an e-mail to confirm your order. Orders that are submitted during normal business hours are approved `the following business day`, and then shipped overnight to the specified location.-->
 
-## Canceling your request
-{: #cancel-request}
+## Canceling your order
+{: #cancel-order}
 
 `TBU`
