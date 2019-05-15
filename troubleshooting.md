@@ -31,24 +31,18 @@ General problems with using {{site.data.keyword.mdms_notm}} might include `TBU` 
 This content is currently being developed. We welcome your feedback! Reach out to Crystal Barragan (`@cbarragan`) on Slack, or [raise a doc issue ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.ibm.com/Bluemix-Docs/mass-data-migration/issues){: new_window} in our repository.
 {: note}
 
-## Unable to access the user interface
-{: #unable-to-access-ui}
+## Unable to view an order
+{: #unable-to-view-order}
 
-When you access the {{site.data.keyword.mdms_short}} user interface, the UI does not load as expected.
+When you access the {{site.data.keyword.cloud_notm}} console, you cannot view or track a {{site.data.keyword.mdms_notm}} order for your organization.
 
-From the {{site.data.keyword.cloud_notm}} console, you select your instance of the {{site.data.keyword.mdms_short}} service.
+You can see a list of services in your {{site.data.keyword.cloud_notm}} resource list, but you do not see a {{site.data.keyword.mdms_notm}} entry.
 {: tsSymptoms}
 
-You see the following error: 
-```
-TBU
-```
-{: screen}
+You do not have the correct authorization to view or track {{site.data.keyword.mdms_notm}} orders.
+{: tsCauses} 
 
-`TBU`
-{: tsCauses}
-
-`TBU`
+Verify with your administrator that you are assigned the correct role in the applicable resource group or service instance. For more information about roles, see [Roles and permissions](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-manage-access#roles).
 {: tsResolve}
 
 ## Getting help and support
