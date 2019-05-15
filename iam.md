@@ -72,7 +72,7 @@ The following table shows how {{site.data.keyword.mdms_short}} actions map to [{
     <td>
       <p>
         <ul>
-          <li>All actions that a viewer, operator, and editor can perform</li>
+          <li>Not applicable</li>
         </ul>
       </p>
     </td>
