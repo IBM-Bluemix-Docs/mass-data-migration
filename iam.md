@@ -89,7 +89,7 @@ The following table shows how {{site.data.keyword.mdms_short}} actions map to [{
       </p>
     </td>
   </tr>
-  <caption style="caption-side:bottom;">Table 1. Describes how identity and access roles map to {{site.data.keyword.keymanagementserviceshort}} permissions</caption>
+  <caption style="caption-side:bottom;">Table 1. Describes how identity and access roles map to {{site.data.keyword.mdms_short}} permissions</caption>
 </table>
 
 For information about assigning user roles in the UI, see [Managing access to resources](/docs/iam?topic=iam-iammanidaccser#iammanidaccser).
