@@ -24,18 +24,21 @@ subcollection: mass-data-migration
 # Importing your data
 {: #migrate-data}
 
-After you configure the {{site.data.keyword.mdms_full}} device for Ethernet connectivity, you're ready to access the device user interface so you can begin loading data onto the device.
+You can copy data from your source server onto a pre-configured storage device by using {{site.data.keyword.mdms_full}}.
 {: shortdesc}
 
 ## Accessing the device user interface
 {: #access-ui}
 
-Start moving data from your source server onto a pre-configured storage device by using {{site.data.keyword.mdms_full}}.
+After you configure the {{site.data.keyword.mdms_full}} device for Ethernet connectivity, you're ready to access the device user interface and start the data copy process.
+
 
 ### Step 1. Retrieve your service credentials
 {: #retrieve-service-credentials}
 
-When you submit a {{site.data.keyword.mdms_short}} request, the service generates credentials on your behalf that are used for logging in to the device user interface. You can retrieve your service credentials by navigating to the {{site.data.keyword.mdms_short}} request details in the {{site.data.keyword.cloud_notm}} console.
+When you submit a {{site.data.keyword.mdms_short}} request, the service auto-generates credentials on your behalf that you can use to access the device user interface. 
+
+To retrieve your service credentials:
 
 1. [Log in to the {{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window}.
 2. Go to **Menu** &gt; **Resource List** to view a list of your resources.
