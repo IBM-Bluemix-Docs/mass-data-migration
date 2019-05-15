@@ -34,11 +34,14 @@ This content is currently being developed. We welcome your feedback! Reach out t
 
 When the data copy is complete, you can gracefully power down the system. 
 
-1. In the Common Tasks wizard, click **Shutdown Appliance...**.
+1. In the Common Tasks wizard, click **Shutdown Appliance**.
+
     ![Shutting Appliance Down](/images/ShutDown.png)
 
-2. Disconnect the device.
-3. Return all cables and optics to the storage location inside of the transport case.
+    Click **OK** to confirm.
+
+2. Power off the device by using the **System On / Off** button on the device. Then, set the **Mains Switch** to **Off**.
+3. Spool and return all cables and optics to the storage location inside of the transport case.
 
 ## Shipping the device
 {: #ship-device}
@@ -48,4 +51,4 @@ When the data copy is complete, you can gracefully power down the system.
 3. From your {{site.data.keyword.cloud_notm}} resource list, select your provisioned instance of {{site.data.keyword.mdms_short}}.
 4. In the _Request details_ tab, navigate to the Shipping Info section.
 5. Click **Print return label** to print the shipping label for the device, and then attach the label to the device.
-6. Notify the carrier, and return the device to the data center.
+6. Schedule a pickup with your carrier, and return the device to the data center.
