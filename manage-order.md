@@ -50,7 +50,7 @@ You can place a {{site.data.keyword.mdms_short}} order by using the {{site.data.
         <th>Description</th>
       </tr>
       <tr>
-        <td>Add a request name</td>
+        <td>Add an order name</td>
         <td>Enter an alias to identify and track your {{site.data.keyword.mdms_short}} order. Then, select the resource group that contains your provisioned instance of Cloud Object Storage.</td>
       </tr>
       <tr>
@@ -87,15 +87,9 @@ You can place a {{site.data.keyword.mdms_short}} order by using the {{site.data.
 
 You can track the progress of your order by using the {{site.data.keyword.mdms_short}} user interface. To access tracking information about your order, select **{{site.data.keyword.mdms_short}}** from your {{site.data.keyword.cloud_notm}} Resource list, and then select the **Order Summary** tab from the application details page.
 
-The following chart shows how the order status changes as {{site.data.keyword.cloud_notm}} processes the request.
+The following figure and table show how the order status changes as {{site.data.keyword.cloud_notm}} processes the request.
 
 `Image with descriptions TBU`
-
-
-### Estimated shipping and delivery times
-{: #shipping-delivery-times}
-
-`TBU`
 
 <!--After you submit the request, you receive an e-mail to confirm your order. Orders that are submitted during normal business hours are approved `the following business day`, and then shipped overnight to the specified location.-->
 
