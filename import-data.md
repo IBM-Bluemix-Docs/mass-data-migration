@@ -24,18 +24,18 @@ subcollection: mass-data-migration
 # Importing your data
 {: #migrate-data}
 
-Start moving data from your source server onto a pre-configured storage device by using {{site.data.keyword.mdms_full}}.
+After you configure the {{site.data.keyword.mdms_full}} device for Ethernet connectivity, you're ready to access the device user interface so you can begin loading data onto the device.
 {: shortdesc}
 
-## Accessing the user interface
+## Accessing the device user interface
 {: #access-ui}
 
-[After you configure the {{site.data.keyword.mdms_short}} device for Ethernet connectivity](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-set-up-device#connect-device), you're ready to access the OSNEXUS QuantaStor user interface so you can begin loading data onto the device.
+Start moving data from your source server onto a pre-configured storage device by using {{site.data.keyword.mdms_full}}.
 
 ### Step 1. Retrieve your service credentials
 {: #retrieve-service-credentials}
 
-When you submit a {{site.data.keyword.mdms_short}} request, the service generates credentials on your behalf that are used for logging in to the device user interface. You can retrieve your service credentials by navigating to the {{site.data.keyword.mdms_short}} dashboard.
+When you submit a {{site.data.keyword.mdms_short}} request, the service generates credentials on your behalf that are used for logging in to the device user interface. You can retrieve your service credentials by navigating to the {{site.data.keyword.mdms_short}} request details in the {{site.data.keyword.cloud_notm}} console.
 
 1. [Log in to the {{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window}.
 2. Go to **Menu** &gt; **Resource List** to view a list of your resources.
@@ -76,7 +76,7 @@ The device arrives pre-configured with your IP address, user name, locked storag
 ### Step 1. Retrieve your storage pool passphrase
 {: #activate-storage-pool}
 
-To access the storage pool on the {{site.data.keyword.mdms_short}} device, retrieve your device credentials by navigating to the {{site.data.keyword.mdms_short}} user interface in the {{site.data.keyword.cloud_notm}} console.
+To access the storage pool on the {{site.data.keyword.mdms_short}} device, retrieve your device credentials by navigating to the {{site.data.keyword.mdms_short}} request details in the {{site.data.keyword.cloud_notm}} console.
 
 1. [Log in to the {{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window}.
 2. Go to **Menu** &gt; **Resource List** to view a list of your resources.

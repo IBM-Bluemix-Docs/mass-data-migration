@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-05-10"
+lastupdated: "2019-05-15"
 
 keywords:
 
@@ -30,10 +30,9 @@ subcollection: mass-data-migration
 ## Roles and permissions
 {: #roles}
 
-As an account owner, you can set policies within your {{site.data.keyword.cloud_notm}} account to create different levels of access for different users. You decide who can create and track {{site.data.keyword.mdms_short}} orders from the {{site.data.keyword.cloud_notm}} console.
+As an account owner, you can set policies within your {{site.data.keyword.cloud_notm}} account to create different levels of access for different users. After you create a {{site.data.keyword.mdms_short}} request, you decide who can track the progress of the order from the {{site.data.keyword.cloud_notm}} console.
 
-The following table shows how {{site.data.keyword.mdms_short}} actions map to platform management roles. Platform management roles enable users to perform tasks on service resources at the platform level, for example assign user access for the service, create or delete service IDs, create instances, and bind instances to applications.
-
+The following table shows how {{site.data.keyword.mdms_short}} actions map to platform management roles. 
 
 <table>
   <col width="20%">
@@ -42,7 +41,7 @@ The following table shows how {{site.data.keyword.mdms_short}} actions map to pl
   <tr>
     <th>Platform management role</th>
     <th>Description</th>
-    <th>Actions</th>
+    <th>Example actions</th>
   </tr>
   <tr>
     <td><p>Viewer</p></td>
@@ -50,7 +49,8 @@ The following table shows how {{site.data.keyword.mdms_short}} actions map to pl
     <td>
       <p>
         <ul>
-          <li>View the status of {{site.data.keyword.mdms_short}} requests</li>
+          <li>Access the {{site.data.keyword.mdms_short}} request details page</li>
+          <li>View the status of a {{site.data.keyword.mdms_short}} order</li>
         </ul>
       </p>
     </td>
@@ -72,8 +72,7 @@ The following table shows how {{site.data.keyword.mdms_short}} actions map to pl
     <td>
       <p>
         <ul>
-          <li>All actions that a viewer or a operator can perform</li>
-          <li>Create {{site.data.keyword.mdms_short}} requests</li>
+          <li>All actions that a viewer, operator, and editor can perform</li>
         </ul>
       </p>
     </td>
