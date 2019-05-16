@@ -27,12 +27,12 @@ subcollection: mass-data-migration
 You can access your migrated data by using {{site.data.keyword.cos_full}}.
 {: shortdesc}
 
-After the offload is complete, you can enjoy immediate access to your data in the cloud while {{site.data.keyword.cloud_notm}} securely wipes the device.
+After the offload is complete, enjoy immediate access to your data in the cloud while {{site.data.keyword.cloud_notm}} securely wipes the device.
 
 ## Accessing your data in Cloud Object Storage
 {: #access-data-cos}
 
-Your migrated data is available in the Cloud Object Storage instance that you specified when you submitted your {{site.data.keyword.mdms_short}} request. Before you delete data from your source server, verify that the data uploaded successfully to {{site.data.keyword.cloud_notm}}.
+Your migrated data is available in the Cloud Object Storage instance that you specified when you submitted your {{site.data.keyword.mdms_short}} request. Before you delete data from your source server, verify that the data was uploaded successfully to {{site.data.keyword.cloud_notm}}.
 
 To access and verify your data: 
 
@@ -44,6 +44,8 @@ To access and verify your data:
 
 ## Moving data to a different storage solution
 {: #move-data}
+
+Depending on your workload requirements, you might need to move your migrated data from Cloud Object Storage to a different cloud storage solution, such as [File Storage](https://{DomainName}/catalog/infrastructure/file-storage) or [Block Storage](https://{DomainName}/catalog/infrastructure/block-storage). 
 
 <!-- Add info from https://developer.ibm.com/recipes/tutorials/moving-data-from-cos-to-file-or-block-storage/ -->
 
