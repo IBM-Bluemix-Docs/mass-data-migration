@@ -32,17 +32,15 @@ After the offload is complete, you can enjoy immediate access to your data in th
 ## Accessing your data in Cloud Object Storage
 {: #access-data-cos}
 
-When {{site.data.keyword.cloud_notm}} receives your {{site.data.keyword.mdms_short}} device, the order status in the {{site.data.keyword.mdms_short}} dashboard is updated to **Data offload**. The device is connected to the network in the {{site.data.keyword.cloud_notm}} data center, and the data copy starts automatically. 
-
-Depending on the data size, the copy process can take from a few hours to days to complete. You can monitor the migration progress by navigating to the _Request details_ tab in the {{site.data.keyword.mdms_short}} dashboard. 
-
-After the data copy is completed, the order status changes to **Erase data**. Your migrated data is available in the Cloud Object Storage instance that you specified when you submitted your {{site.data.keyword.mdms_short}} request. Before you delete data from your source server, verify that the data uploaded successfully to {{site.data.keyword.cloud_notm}}.
+Your migrated data is available in the Cloud Object Storage instance that you specified when you submitted your {{site.data.keyword.mdms_short}} request. Before you delete data from your source server, verify that the data uploaded successfully to {{site.data.keyword.cloud_notm}}.
 
 To access and verify your data: 
 
-1. From the {{site.data.keyword.cloud_notm}} resource list, select your provisioned instance of Cloud Object Storage.
-2. From the list of available storage buckets, select the bucket name that you designated for data migration.
-3. Verify that the objects that are associated with the bucket correspond with the data that you copied to the {{site.data.keyword.mdms_short}} device.
+1. [Log in to the {{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window}.
+2. Go to **Menu** &gt; **Resource List** to view a list of your resources.
+3. From your {{site.data.keyword.cloud_notm}} resource list, select your provisioned instance of Cloud Object Storage.
+4. From the list of available storage buckets, select the bucket name that you designated for data migration.
+5. Verify that the objects that are associated with the bucket correspond with the data that you copied to the {{site.data.keyword.mdms_short}} device.
 
 ## Moving data to a different storage solution
 {: #move-data}
