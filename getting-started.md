@@ -30,7 +30,7 @@ subcollection: mass-data-migration
 
 Before you order a {{site.data.keyword.mdms_short}} device, keep in mind the following prerequisites:
 
-- Ensure that you have a provisioned instance of [{{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog/services/cloud-object-storage) for your {{site.data.keyword.cloud_notm}} account. 
+- Ensure that you have a provisioned instance of [{{site.data.keyword.cos_full}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog/services/cloud-object-storage) for your {{site.data.keyword.cloud_notm}} account. 
 - Understand your network connection types and speeds.
 - Gather your network settings, such as IP addresses and other routing details, for connecting the device to your source server.
 - Identify a person who can receive, connect, and use the device at your site.
