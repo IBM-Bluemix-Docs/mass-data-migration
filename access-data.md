@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-04-24"
+lastupdated: "2019-05-16"
 
 keywords:
 
@@ -29,10 +29,16 @@ You can access your migrated data by using {{site.data.keyword.cos_full}}.
 
 After the offload is complete, you can enjoy immediate access to your data in the cloud while {{site.data.keyword.cloud_notm}} securely wipes the device.
 
-## Verifying the data upload
-{: #verify-data}
+## Accessing your data in Cloud Object Storage
+{: #access-data-cos}
 
-`TBU`
+Your migrated data is available in the Cloud Object Storage instance that you specified when you submitted your {{site.data.keyword.mdms_short}} request.
+
+To access your data: 
+
+1. From the {{site.data.keyword.cloud_notm}} resource list, select your provisioned instance of Cloud Object Storage.
+2. From the list of available storage buckets, select the bucket name that you designated for data migration.
+3. Verify that the objects that are associated with the bucket correspond with the data that you copied to the {{site.data.keyword.mdms_short}} device.
 
 ## Moving data to a different storage solution
 {: #move-data}
