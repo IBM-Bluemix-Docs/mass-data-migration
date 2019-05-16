@@ -23,11 +23,10 @@ subcollection: mass-data-migration
 # Returning the device
 {: #return-device}
 
-Power down and ship your {{site.data.keyword.mdms_full}} device back to {{site.data.keyword.cloud_notm}} to complete the migration process.
+Power down and ship your {{site.data.keyword.mdms_full}} device to {{site.data.keyword.cloud_notm}} to complete the migration process.
 {: shortdesc}
 
 You can keep the device onsite at no additional cost for the first 10 business days. The time frame does not include the day that your device is shipped or the day that you receive it. If you need more time to complete the data ingestion, you can extend your use for USD 30 per day (applies to US and EU regions).
-{: note}
 
 ## Disconnecting the device
 {: #disconnect-device}
