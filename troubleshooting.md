@@ -28,7 +28,7 @@ subcollection: mass-data-migration
 General problems with using {{site.data.keyword.mdms_full}} might include viewing your order status or accessing the user interface. In many cases, you can recover from these problems by following a few easy steps.
 {: shortdesc}
 
-## Unable to view an order
+## Unable to view order details
 {: #unable-to-view-order}
 
 When you access the {{site.data.keyword.cloud_notm}} console, you cannot view or track a {{site.data.keyword.mdms_short}} order for your organization.
