@@ -88,8 +88,8 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
           <p>Provide the following network settings:</p>
           <p>
             <ul>
-              <li>Device management settings. Enter the static IP address, the netmask, and the default gateway for your remote computer.</li>
-              <li>Data transfer settings. Enter the static IP address and the netmask for the server where your source data resides.</li>
+              <li><i>Device management settings.</i> Enter the static IP address, the netmask, and the default gateway for your remote computer.</li>
+              <li><i>Data transfer settings.</i> Enter the static IP address and the netmask for the server where your source data resides.</li>
             </ul>
           </p>
         </td>
@@ -98,10 +98,10 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
         <td>Review the order</td>
         <td>Review and confirm details about your order.</td>
       </tr>
-      <caption style="caption-side:bottom;">Table 1. Describes the {{site.data.keyword.mdms_short}} request options</caption>
+      <caption style="caption-side:bottom;">Table 1. Describes the {{site.data.keyword.mdms_short}} request workflow</caption>
     </table>
 
-    When you pick a delivery location for your device, consider the weight of the device and accessibility. The device weighs 66 pounds, and it comes equipped with wheels and pop-up handle for maneuvering.
+    When you select a delivery location for your device, consider the weight of the device and accessibility. The device weighs 66 pounds, and it comes equipped with wheels and pop-up handle for maneuvering.
     {: tip}
 
 5. Read the {{site.data.keyword.mdms_short}} service agreement, and then select the **{{site.data.keyword.mdms_short}} Services Agreement** check box.
