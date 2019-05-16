@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-05-14"
+lastupdated: "2019-05-16"
 
 keywords:
 
@@ -28,18 +28,17 @@ subcollection: mass-data-migration
 ## Before you begin
 {: #get-started-prereqs}
 
-To get started with {{site.data.keyword.mdms_short}}, create an {{site.data.keyword.cos_full}} instance for your {{site.data.keyword.cloud_notm}} account. Then, gather details about your network configuration.
+Before you order a {{site.data.keyword.mdms_short}} device, keep in mind the following prerequisites:
 
-1. [Log in to your {{site.data.keyword.cloud_notm}} account ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}){: new_window}.
-2. [Create an instance of {{site.data.keyword.cos_full_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog/services/cloud-object-storage){: new_window}.
-3. Gather the following details about your network configuration to prepare the {{site.data.keyword.mdms_short}} device.
-   1. To configure data transfer settings, gather the static IP address and the netmask for the server where your source data resides.
-   2. To configure device management settings, gather the static IP address, the netmask, and the default gateway for your remote computer.
+- Ensure that you have a provisioned instance of [{{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog/services/cloud-object-storage) for your {{site.data.keyword.cloud_notm}} account. 
+- Understand your network connection types and speeds.
+- Gather your network settings, such as IP addresses and other routing details, for connecting the device to your source server.
+- Identify a person who can receive, connect, and use the device at your site.
 
 ## Creating a storage bucket
 {: #get-started-create-bucket}
 
-After you create an instance of Cloud Object Storage, you're ready to designate a new storage bucket for your data. 
+After you provision an instance of Cloud Object Storage, create a storage bucket to set a destination for your migrated data. 
 
 1. From the {{site.data.keyword.cloud_notm}} resource list, select your provisioned instance of Cloud Object Storage.
 2. From the _Getting started_ page, click **Create Bucket**.
@@ -54,7 +53,7 @@ After you create an instance of Cloud Object Storage, you're ready to designate 
 ## Requesting a device
 {: #get-started-request-device}
 
-After you set a destination for your data in Cloud Object Storage, you can submit the {{site.data.keyword.mdms_short}} request by using the {{site.data.keyword.cloud_notm}} console.
+You can request a {{site.data.keyword.mdms_short}} device by using the {{site.data.keyword.cloud_notm}} console.
 
 1. In the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog) search bar, type _{{site.data.keyword.mdms_short}}_.
 2. Click the **{{site.data.keyword.mdms_short}}** tile.
@@ -80,11 +79,20 @@ After you set a destination for your data in Cloud Object Storage, you can submi
       </tr>
       <tr>
         <td>Add your contact information</td>
-        <td>Enter the name of the person who will data manage migration to your device.</td>
+        <td>Enter the name of the person who will manage data migration to your device.</td>
       </tr>
       <tr>
         <td>Configure network settings</td>
-        <td>Configure settings for the data transfer connection by entering your network configuration details.</td>
+        <td>
+          <p>Configure settings for the data transfer connection by entering your network configuration details.</p>
+          <p>Provide the following network settings:</p>
+          <p>
+            <ul>
+              <li>Device management settings. Enter the static IP address, the netmask, and the default gateway for your remote computer.</li>
+              <li>Data transfer settings. Enter the static IP address and the netmask for the server where your source data resides.</li>
+            </ul>
+          </p>
+        </td>
       </tr>
       <tr>
         <td>Review the order</td>
