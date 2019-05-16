@@ -21,23 +21,23 @@ subcollection: mass-data-migration
 {:important: .important}
 {:download: .download}
 
-# Managing your order
-{: #manage-order}
+# Managing your request
+{: #manage-request}
 
-Manage and track the status of your {{site.data.keyword.mdms_full}} order by using the {{site.data.keyword.cloud_notm}} console.
+Manage and track the status of your {{site.data.keyword.mdms_full}} request by using the {{site.data.keyword.cloud_notm}} console.
 {: shortdesc}
 
-Before you place a {{site.data.keyword.mdms_short}} order, keep in mind the following prerequisites:
+Before you order a {{site.data.keyword.mdms_short}} device, keep in mind the following prerequisites:
 
 - Ensure that you have a provisioned instance of Cloud Object Storage for your {{site.data.keyword.cloud_notm}} account. 
 - Understand your network connection types and speeds.
 - Gather your network settings, such as IP addresses, and other routing details for configuring the device.
 - Identify a person who can receive, connect, and use the device at your site.
 
-## Placing an order
-{: #create-request}
+## Requesting a device
+{: #request-device}
 
-You can place a {{site.data.keyword.mdms_short}} order by using the {{site.data.keyword.cloud_notm}} console.
+You can request a {{site.data.keyword.mdms_short}} device by using the {{site.data.keyword.cloud_notm}} console.
 
 1. In the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog) search bar, type _{{site.data.keyword.mdms_short}}_.
 2. Click the **{{site.data.keyword.mdms_short}}** tile.
@@ -82,10 +82,11 @@ You can place a {{site.data.keyword.mdms_short}} order by using the {{site.data.
 5. Read the {{site.data.keyword.mdms_short}} service agreement, and then select the **{{site.data.keyword.mdms_short}} Services Agreement** check box.
 6. Click **Submit order** to complete your request. 
 
+
 ## Tracking your order
 {: #track-order}
 
-You can track the progress of your order by using the {{site.data.keyword.mdms_short}} user interface. To access tracking information about your order, select **{{site.data.keyword.mdms_short}}** from your {{site.data.keyword.cloud_notm}} Resource list, and then select the **Order Summary** tab from the application details page.
+You can track the progress of your order by using the {{site.data.keyword.mdms_short}} user interface. To access tracking information about your order, select **{{site.data.keyword.mdms_short}}** from your {{site.data.keyword.cloud_notm}} resource list, and then select the **Order Summary** tab from the application details page.
 
 The following figure and table show how the order status changes as {{site.data.keyword.cloud_notm}} processes the request.
 

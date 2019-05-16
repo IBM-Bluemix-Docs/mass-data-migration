@@ -18,7 +18,7 @@ IBM Cloud Mass Data Migration
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    manage-order.md
+    manage-request.md
     set-up-device.md
     import-data.md
     return-device.md
