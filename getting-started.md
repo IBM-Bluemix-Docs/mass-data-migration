@@ -51,8 +51,8 @@ After you create an instance of Cloud Object Storage, you're ready to designate 
 5. From the list of storage classes, select **Standard**.
 6. Click **Create bucket**.
 
-## Submitting your request
-{: #get-started-submit-request}
+## Requesting a device
+{: #get-started-request-device}
 
 After you set a destination for your data in Cloud Object Storage, you can submit the {{site.data.keyword.mdms_short}} request by using the {{site.data.keyword.cloud_notm}} console.
 
