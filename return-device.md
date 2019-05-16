@@ -23,16 +23,16 @@ subcollection: mass-data-migration
 # Returning the device
 {: #return-device}
 
-{{site.data.keyword.mdms_full}} provides a portable storage device that you can manage by using a graphical user interface.
+Power down and ship your {{site.data.keyword.mdms_full}} device back to {{site.data.keyword.cloud_notm}} to complete the migration process.
 {: shortdesc}
 
-This content is currently being developed. We welcome your feedback! Reach out to Crystal Barragan (`@cbarragan`) on Slack, or [raise a doc issue ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.ibm.com/Bluemix-Docs/mass-data-migration/issues){: new_window} in our repository.
+You can keep the device onsite at no additional cost for the first 10 business days. The time frame does not include the day that your device is shipped or the day that you receive it. If you need more time to complete the data ingestion, you can extend your use for USD 30 per day (applies to US and EU regions).
 {: note}
 
 ## Disconnecting the device
 {: #disconnect-device}
 
-When the data copy is complete, you can gracefully power down the system. 
+When the data copy process is complete, you can gracefully power down the system.
 
 1. In the Common Tasks wizard, click **Shutdown Appliance**.
 
@@ -44,8 +44,10 @@ When the data copy is complete, you can gracefully power down the system.
 3. Set the **Mains Switch** to **Off**.
 4. Spool and return all cables and optics to their storage locations inside the transport case.
 
-## Shipping the device
+## Shipping the device to {{site.data.keyword.cloud_notm}}
 {: #ship-device}
+
+Prepare your shipping label and notify your carrier when you're ready to return the device.
 
 1. [Log in to the {{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window}.
 2. Go to **Menu** &gt; **Resource List** to view a list of your resources.
