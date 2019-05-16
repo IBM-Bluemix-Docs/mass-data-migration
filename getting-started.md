@@ -44,7 +44,7 @@ After you provision an instance of Cloud Object Storage, create a storage bucket
 2. From the _Getting started_ page, click **Create Bucket**.
 3. Enter a bucket name, and select a resiliency option for your data.
 
-   The resiliency optiondetermines how your data is distributed by the Cloud Object Storage service across a geographic area after the data is imported into the service. {{site.data.keyword.mdms_short}} supports the _Cross Region_ or _Regional_ resiliency options.
+   The resiliency option determines how your data is distributed by the Cloud Object Storage service across a geographic area after the data is imported into the service. {{site.data.keyword.mdms_short}} supports the _Cross Region_ or _Regional_ resiliency options.
    {: note}
 
 4. From the list of locations, select the geographic area where you want your data to be physically stored after it's migrated into the storage bucket.
