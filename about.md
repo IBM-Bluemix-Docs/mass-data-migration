@@ -27,7 +27,9 @@ subcollection: mass-data-migration
 {: shortdesc}
 
 When you need to securely transfer a large amount of data into the cloud, you can use {{site.data.keyword.mdms_short}} to jumpstart the migration process. Find out more about {{site.data.keyword.mdms_short}} features and use cases in following video.
-<iframe class="embed-responsive-item" id="youtubeplayer" title="My unique title" type="text/html" width="640" height="390" src="//www.youtube.com/embed/eNSlUoswvss?rel=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen> </iframe>
+
+<iframe style="display:block;" class="embed-responsive-item" id="youtubeplayer" title="Mass Data Migration provides a fast, simple and secure way to transfer data to the IBM Cloud" type="text/html" width="640" height="390" src="//www.youtube.com/embed/eNSlUoswvss?rel=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen> </iframe>
+
 
 | Use case | Description |
 | --- | --- |
