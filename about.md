@@ -42,40 +42,27 @@ When you need to securely transfer a large amount of data into the cloud, you ca
 {: caption="Table 1. Describes {{site.data.keyword.mdms_short}} use cases " caption-side="top"}
 
 To learn more about {{site.data.keyword.mdms_short}} features and benefits, check out the [{{site.data.keyword.mdms_short}} product page](https://www.ibm.com/cloud/mass-data-migration).
+
 ## How it works
 {: #how-it-works}
 
 {{site.data.keyword.mdms_short}} uses 120 TB-usable capacity storage devices to accelerate moving data to the cloud and overcome common transfer challenges such as high costs, long transfer times, and security concerns.
 
+{{site.data.keyword.mdms_short}} comprises the following service components.
+
+<dl>
+   <dt>{{site.data.keyword.mdms_short}} dashboard</dt>
+      <dd>You can create and track {{site.data.keyword.mdms_short}} orders from the service dashboard in the {{site.data.keyword.cloud_notm}} console. In the {{site.data.keyword.mdms_short}} dashboard, you specify your network configuration settings for the device, retrieve credentials to log in to the device, and track the status of your order. </dd>
+   <dt>{{site.data.keyword.mdms_short}} device</dt>
+      <dd><p>{{site.data.keyword.mdms_short}} provides a portable storage device that is shipped to your location. The {{site.data.keyword.mdms_short}} device arrives pre-configured and ready to connect to your network.</p><p class="note">{{site.data.keyword.cloud_notm}} provides two {{site.data.keyword.mdms_short}} device models. Each model comes packaged with <a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-inventory-checklists">optics and adapters</a> that support both RJ45 and SFP+ copper connections.</p></dd>
+   <dt>File interface</dt>
+      <dd>The file interface is a local, web-based UI that you use to access the network share on the {{site.data.keyword.mdms_short}} device. The file interface is based on a mature file and network software that enables large numbers of large files to be copied and transported to {{site.data.keyword.cloud_notm}}.</dd>
+</dl>
+
 The following flowchart walks you through the {{site.data.keyword.mdms_short}} process.
 
 `TBU`
 
-
-## Service components
-{: #service-components}
-
-Learn about the different components that comprise the {{site.data.keyword.mdms_short}} service.
-
-### {{site.data.keyword.mdms_short}} dashboard
-{: #service-dashboard}
-
-You can create and track {{site.data.keyword.mdms_short}} orders from the service dashboard in the {{site.data.keyword.cloud_notm}} console.
-
-In the {{site.data.keyword.mdms_short}} dashboard, you specify your network configuration settings for the device, retrieve credentials to log in to the device, and track the status of your order.  
-
-### {{site.data.keyword.mdms_short}} device
-{: #storage-device}
-
-{{site.data.keyword.mdms_short}} provides a portable storage device that is shipped to your location. The {{site.data.keyword.mdms_short}} device arrives pre-configured and ready to connect to your network. 
-
-{{site.data.keyword.cloud_notm}} provides two {{site.data.keyword.mdms_short}} device models. Each model comes packaged with [optics and adapters](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-inventory-checklists) that support both RJ45 and SFP+ copper connections.
-{: note} 
-
-### File interface
-{: #file-interface}
-
-The file interface is a local, web-based UI that you use to access the network share on the {{site.data.keyword.mdms_short}} device. The file interface is based on a mature file and network software that enables large numbers of large files to be copied and transported to {{site.data.keyword.cloud_notm}}.
 
 
 
