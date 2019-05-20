@@ -48,7 +48,7 @@ The following image shows the main areas of the device.
     <th>Description</th>
   </tr>
   <tr>
-    <td><p><a href="#set-up-RJ45-model">RJ45</a></p></td>
+    <td><p><a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-connect-device#set-up-RJ45-model">RJ45</a></p></td>
     <td>
       <ul>
         <li>Natively supports Ethernet connectivity by using RJ45 connectors.</li>
@@ -57,7 +57,7 @@ The following image shows the main areas of the device.
     </td>
   </tr>
   <tr>
-    <td><a href="#set-up-SFP+-model">RJ45 / SFP+</a></td>
+    <td><a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-connect-device#set-up-SFP+-model">RJ45 / SFP+</a></td>
     <td>
       <ul>
         <li>Natively supports both RJ45 and SFP+ copper connections.</li>
