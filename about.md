@@ -26,6 +26,9 @@ subcollection: mass-data-migration
 {{site.data.keyword.mdms_full}} is a fast, simple, and secure way to physically transfer terabytes to petabytes of data to {{site.data.keyword.cloud_notm}}.
 {: shortdesc}
 
+## {{site.data.keyword.mdms_short}} use cases
+{: #use-cases}
+
 When you need to securely transfer a large amount of data into the cloud, you can use {{site.data.keyword.mdms_short}} to jumpstart the migration process. Find out more about {{site.data.keyword.mdms_short}} features and use cases in following video.
 
 <iframe class="embed-responsive-item" id="youtubeplayer" title="Mass Data Migration provides a fast, simple and secure way to transfer data to the IBM Cloud" type="text/html" width="640" height="390" src="//www.youtube.com/embed/eNSlUoswvss?rel=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen> </iframe>
@@ -51,8 +54,6 @@ The following flowchart walks you through the {{site.data.keyword.mdms_short}} p
 ## Service components
 {: #service-components}
 
-{{site.data.keyword.mdms_short}} 
-
 Learn about the different components that comprise the {{site.data.keyword.mdms_short}} service.
 
 ### {{site.data.keyword.mdms_short}} dashboard
@@ -67,14 +68,13 @@ In the {{site.data.keyword.mdms_short}} dashboard, you specify your network conf
 
 {{site.data.keyword.mdms_short}} provides a portable storage device that is shipped to your location. The {{site.data.keyword.mdms_short}} device arrives pre-configured and ready to connect to your network. 
 
-The following image shows the main areas of the device.
-
-<a href="https://{DomainName}/docs/api/content/mass-data-migration/images/mdms-device-rj45.svg">
-  <img src="images/mdms-device-rj45.svg" alt="Top-down view of the Mass Data Migration device">
-</a>
-
 {{site.data.keyword.cloud_notm}} provides two {{site.data.keyword.mdms_short}} device models. Each model comes packaged with [optics and adapters](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-inventory-checklists) that support both RJ45 and SFP+ copper connections.
 {: note} 
+
+### File interface
+{: #file-interface}
+
+The file interface is a local, web-based UI that you use to access the network share on the {{site.data.keyword.mdms_short}} device. The file interface is based on a mature file and network software that enables large numbers of large files to be copied and transported to {{site.data.keyword.cloud_notm}}.
 
 ## Benefits and features
 {: #mdms-benefits}
