@@ -27,6 +27,24 @@ subcollection: mass-data-migration
 {{site.data.keyword.mdms_full}} provides a portable, pre-configured storage device that is shipped to your location for easy migration of your data.
 {: shortdesc}
 
+Before you power on the {{site.data.keyword.mdms_short}} device, keep in mind the following considerations:
+
+- Ensure that the device is at room temperature.
+- Ensure that there is no condensation on the device.
+- To avoid inadvertent damage to the device, keep the device in its portable case while the device is in use.
+
+## Powering on the device
+{: #power-on-device}
+
+After you position the device, use the supplied power cord to power on the device.
+
+1. Retrieve the power cord that is located under the transport case lid.
+2. Attach the power cord to the inlet on the device, and then connect the plug to a power socket.
+3. Set the **Mains Switch** to **On**.
+4. Power on the device by using the **System On / Off** button.
+
+   When a System ID value displays on the _System Control Display_ screen, the device is powered on and ready for the next step.
+
 ## Reviewing your network settings
 {: #review-network-settings}
 
