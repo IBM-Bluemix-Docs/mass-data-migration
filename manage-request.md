@@ -49,3 +49,7 @@ After the data copy is completed, the order status changes to **Erase data**.-->
 {: #cancel-order}
 
 `TBU`
+
+<!--You can cancel your {{site.data.keyword.mdms_short}} order before the order is processed. After the {{site.data.keyword.mdms_short}} order is processed, you can no longer cancel the request.
+
+Reach out to us at `TBU` if you need to cancel your order.-->
