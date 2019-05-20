@@ -34,12 +34,12 @@ With {{site.data.keyword.mdms_full}} and {{site.data.keyword.cos_full_notm}}, yo
 {{site.data.keyword.mdms_short}} devices are confined to the region where they are sent to. Devices can't be sent from one region and returned to another region.
 {: note}
 
-## Cross-region storage
+## Cross region storage
 {: #cross-region}
 
 When you set a Cloud Object Storage bucket destination for your migrated data, you can choose cross-region resiliency for the following locations:
 
-- US Cross region (`us-geo`)
+- US Cross Region (`us-geo`)
 
 ## Regional storage
 {: #regional}
