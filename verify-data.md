@@ -21,10 +21,10 @@ subcollection: mass-data-migration
 {:important: .important}
 {:download: .download}
 
-# Accessing your data
-{: #access-data}
+# Verifying your data
+{: #verify-data}
 
-You can access your migrated data by using {{site.data.keyword.cos_full}}.
+You can access and verify your migrated data by using {{site.data.keyword.cos_full}}.
 {: shortdesc}
 
 After the offload is complete, enjoy immediate access to your data in the cloud while {{site.data.keyword.cloud_notm}} securely wipes the device.

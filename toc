@@ -6,7 +6,7 @@ IBM Cloud Mass Data Migration
 
     {: .navgroup id="learn"}
     getting-started.md
-    overview.md
+    about.md
     specs.md
 
     {: .topicgroup}
@@ -19,10 +19,21 @@ IBM Cloud Mass Data Migration
 
     {: .navgroup id="howto"}
     manage-request.md
-    set-up-device.md
-    import-data.md
+
+    {: .topicgroup}
+    Setting up the device
+        configure-device.md
+        connect-device.md
+        access-interface.md
+
+    {: .topicgroup}
+    Importing your data
+        unlock-storage-pool.md
+        copy-data-nfs.md
+        copy-data-smb.md
+
     return-device.md
-    access-data.md
+    verify-data.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}

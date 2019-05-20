@@ -26,9 +26,6 @@ subcollection: mass-data-migration
 Power down and return your {{site.data.keyword.mdms_full}} device to {{site.data.keyword.cloud_notm}} to complete the migration process.
 {: shortdesc}
 
-Need to more time to complete the data ingestion? If you need to keep the device for more than ten business days, you can extend your use for USD 30 per day. Contact your sales representative for information.
-{: tip}
-
 ## Disconnecting the device
 {: #disconnect-device}
 

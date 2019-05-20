@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-04-16"
+  years:  2019
+lastupdated: "2019-05-14"
 
 keywords:
 
@@ -10,56 +10,107 @@ subcollection: mass-data-migration
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
 {:new_window: target="_blank"}
+{:shortdesc: .shortdesc}
+{:screen: .screen}
 {:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:codeblock: .codeblock}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:download: .download}
 
+# Service overview
+{: #service-overview}
 
-# About {{site.data.keyword.mdms_short}}
-{: #overview}
-
-This service is a fast, simple, secure way to physically transfer terabytes to petabytes of data to the {{site.data.keyword.Bluemix}}.
+{{site.data.keyword.mdms_full}} provides a portable, pre-configured storage device that is shipped to your location for easy migration of your data.
 {: shortdesc}
 
-{{site.data.keyword.mdms_short}} uses 120 TB-usable capacity storage devices to accelerate moving data to the cloud and overcome common transfer challenges like high costs, long transfer times, and security concerns.
+Learn about the different components that comprise the {{site.data.keyword.mdms_short}} service.
 
-![Mass Data Migration Process Flow](/images/MDMSWorkflow.png)
+## Service components
+{: #service-components}
 
-## Benefits of {{site.data.keyword.mdms_short}}
-{: #mdms-benefits}
+{{site.data.keyword.mdms_short}} 
 
-1. Move data fast
-    - By using a single {{site.data.keyword.mdms_short}} device, you can migrate up to 120 TB of data (at RAID-6) in just days, as opposed to weeks or months that traditional data transfer methods use.
+### {{site.data.keyword.mdms_short}} dashboard
+{: #service-dashboard}
 
-2. Flexible and scalable
-    - Whether you need to migrate a few terabytes or many petabytes of data, you have the flexibility to request one or multiple devices to accommodate your workload.
-
-3. Affordable
-    - Moving large data sets can be expensive and time-consuming. Each {{site.data.keyword.mdms_short}} device is offered at an affordable rate that includes roundtrip shipping and 10 days of use at your site.
-
-4. Simple process
-    - {{site.data.keyword.IBM}} sends you a pre-configured device for you to connect, ingest data, and then send back to {{site.data.keyword.IBM}} for offload into {{site.data.keyword.cos_full}}. When the offload is complete, you can enjoy immediate access to your data in the cloud while {{site.data.keyword.BluSoftlayer}} securely wipes the device.
-
-5. End-to-end protection
-    - Device design maximizes security from the inside-out by using AES 256-bit encryption, RAID-6 configuration and rugged, tamper-evident, waterproof, shockproof cases to promote data protection and integrity during device-handling and transport.
-
-6. Secure erasure
-    - {{site.data.keyword.IBM}} uses a four-pass, DOD-Level data wipe to ensure complete erasure of all customer data from {{site.data.keyword.mdms_short}} devices.
+You can create and track {{site.data.keyword.mdms_short}} orders from the service dashboard in the {{site.data.keyword.cloud_notm}} console.
 
 
-## {{site.data.keyword.mdms_short}} use cases
-{: #mdms-use-cases}
+In the {{site.data.keyword.mdms_short}} dashboard, you specify your network configuration settings for the device, retrieve credentials to log in to the device, and track the status of your order.  
 
-1. Migrating data to the cloud
-    - Whether you want to free-up on-premises storage space, archive inactive data, or backup data for redundancy and recovery, {{site.data.keyword.mdms_short}} can quickly and securely move your data to the cloud.
+### {{site.data.keyword.mdms_short}} device
+{: #storage-device}
 
-2. Data center decommission
-    - Jumpstart your data center transformation and use {{site.data.keyword.mdms_short}} to securely move your sensitive data to the cloud as you downsize, expand, or relocate your data center.
+{{site.data.keyword.mdms_short}} provides a portable storage device that is shipped to your location. The {{site.data.keyword.mdms_short}} device arrives pre-configured and ready to connect to your network. 
 
-3. Limited bandwidth
-    - {{site.data.keyword.mdms_short}} is a great alternative if you are in a remote location or find over-the-network options to be cost-prohibitive, too slow, or unavailable for your data transfer.
+The following image shows the main areas of the device.
+
+<a href="https://{DomainName}/docs/api/content/mass-data-migration/images/mdms-device-rj45.svg">
+  <img src="images/mdms-device-rj45.svg" alt="Top-down view of the Mass Data Migration device">
+</a>
+
+{{site.data.keyword.cloud_notm}} provides two {{site.data.keyword.mdms_short}} device models. Each model comes packaged with [optics and adapters](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-inventory-checklists) that support both RJ45 and SFP+ copper connections. 
+
+<table>
+  <tr>
+    <th>Device model</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><p><a href="#set-up-RJ45-model">RJ45</a></p></td>
+    <td>
+      <ul>
+        <li>Natively supports Ethernet connectivity by using RJ45 connectors.</li>
+        <li>Includes adapters and optics that enable SFP+ copper support.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><a href="#set-up-SFP+-model">RJ45 / SFP+</a></td>
+    <td>
+      <ul>
+        <li>Natively supports both RJ45 and SFP+ copper connections.</li>
+      </ul>
+    </td>
+  </tr>
+  <caption style="caption-side:bottom;">Table 1. Describes the supported {{site.data.keyword.mdms_short}} device models</caption>
+</table>
+
+Both device models offer the same functionality, but the cabling instructions are different for each model. When you receive your {{site.data.keyword.mdms_short}} device, be sure to identify the device model so that you follow the instructions that correspond to your device type.  
+
+{{site.data.keyword.mdms_short}} devices use a [C13 power cord ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. If you're using the device outside of the United States, you might need an additional power adapter that accommodates the plug and socket system that is used in your country. {{site.data.keyword.mdms_short}} devices are compatible with all standard power ranges.
+{: note}
+
+### File interface
+{: #file-interface}
+
+The file interface is a local, web-based UI that you use to access the network share on the {{site.data.keyword.mdms_short}} device. The file interface is based on a mature file and network software that enables large numbers of large files to be copied and transported to {{site.data.keyword.cloud_notm}}.
+
+## Network configuration
+{: #network-settings}
+
+{{site.data.keyword.mdms_short}} devices are pre-configured for your network according to settings that you specify when you submit the device request. You can set your network configuration according to the following scenarios:
+
+<dl>
+    <dt>Default configuration</dt>
+        <dd>The expected configuration for an MDMS device a 1Gb management port with a gateway and a 10Gb data port on the same subnet as the data source. This is represented on the order form.</dd>
+    <dt>Optional configuration</dt>
+        <dd>You can also allocate only the 10Gb port on the device for both data movement and device management connections. configure a 10Gb data transfer port with a gateway and no device management port. When you submit your , you can specify this configuration by providing the same IP, netmask, and gateway address for both the management and data ports. The device arrives with the 10Gb port configured with your IP information including a gateway.</dd>
+<dl>
+
+### Device management port
+{: #device-management}
+
+You can manage the {{site.data.keyword.mdms_short}} device by using a local, web-based file interface that you serve on your remote computer.
+
+
+The device management port on the {{site.data.keyword.mdms_short}} device provides administrative access to the UI. To run the user interface, you connect your computer to the device management port on the device, and then reference the corresponding IP address in your browser. 
+
+### Data transfer port
+{: #device-management}
+
+The data transfer port provides network share access that allows for data movement. When you mount the network share on the device to your source server, you reference the corresponding IP address for the data transfer port. The data transfer port can also serve as the device management port to run the file interface if needed.
