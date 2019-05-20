@@ -26,7 +26,7 @@ subcollection: mass-data-migration
 With {{site.data.keyword.mdms_full}} and {{site.data.keyword.cos_full_notm}}, you can choose from different storage options to meet your availability and resiliency needs.  
 {: shortdesc}
 
-## Available storage locations
+## Available storage destinations
 {: #available-regions}
 
 {{site.data.keyword.mdms_short}} is available in the United States and the European Union. Your data is migrated into Cloud Object Storage, where you can choose from different storage classes, locations, and resiliency for your stored data. 
@@ -37,10 +37,17 @@ With {{site.data.keyword.mdms_full}} and {{site.data.keyword.cos_full_notm}}, yo
 ## Cross-region storage
 {: #cross-region}
 
-`TBU`
+When you set a Cloud Object Storage bucket destination for your migrated data, you can choose cross-region resiliency for the following locations:
+
+- US Cross region (`us-geo`)
 
 ## Regional storage
 {: #regional}
 
-`TBU`
+{{site.data.keyword.mdms_short}} supports the following regional storage destinations:
+
+- Dallas (`us-south`)
+- Washington DC (`us-east`)
+
+
 
