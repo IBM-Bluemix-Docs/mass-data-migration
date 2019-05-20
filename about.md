@@ -61,7 +61,7 @@ To learn more about {{site.data.keyword.mdms_short}} features and benefits, chec
 
 The following flowchart walks you through the {{site.data.keyword.mdms_short}} process.
 
-`TBU`
+`Updated flowchart TBU`
 
 
 
