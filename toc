@@ -31,7 +31,7 @@ IBM Cloud Mass Data Migration
         unlock-storage-pool.md
         copy-data-nfs.md
         copy-data-smb.md
-
+        
     return-device.md
     verify-data.md
     {: .navgroup-end}

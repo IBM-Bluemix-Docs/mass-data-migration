@@ -21,7 +21,7 @@ subcollection: mass-data-migration
 {:important: .important}
 {:download: .download}
 
-## Copying data by using SMB
+# Copying data by using SMB
 {: #copy-data-smb}
 
 You can copy data from your Windows-based source server onto a pre-configured storage device by using {{site.data.keyword.mdms_full}}.

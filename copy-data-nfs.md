@@ -21,7 +21,7 @@ subcollection: mass-data-migration
 {:important: .important}
 {:download: .download}
 
-## Copying data by using NFS
+# Copying data by using NFS
 {: #copy-data-nfs}
 
 You can copy data from your Linux-based source server onto a pre-configured storage device by using {{site.data.keyword.mdms_full}}.
