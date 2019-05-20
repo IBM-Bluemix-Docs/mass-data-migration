@@ -21,8 +21,8 @@ subcollection: mass-data-migration
 {:important: .important}
 {:download: .download}
 
-# Configuring the device
-{: #configure-device}
+# Device overview
+{: #device-overview}
 
 {{site.data.keyword.mdms_full}} provides a portable, pre-configured storage device that is shipped to your location for easy migration of your data.
 {: shortdesc}
@@ -33,8 +33,8 @@ Before you power on the {{site.data.keyword.mdms_short}} device, keep in mind th
 - Ensure that there is no condensation on the device.
 - To avoid inadvertent damage to the device, keep the device in its portable case while the device is in use.
 
-## Device overview
-{: #device-overview}
+## {{site.data.keyword.mdms_short}} device models
+{: #device-models}
 
 Your {{site.data.keyword.mdms_short}} device arrives pre-configured and ready to connect to your network. 
 
@@ -88,19 +88,4 @@ After you position the device, use the supplied power cord to power on the devic
 
    When a System ID value displays on the _System Control Display_ screen, the device is powered on and ready for the next step.
 
-## Reviewing your network settings
-{: #review-network-settings}
 
-You can review the network configuration on the device before you connect it to your network. View and manage the IP settings for your network ports by using the _System Control Display_ screen on the device. 
-
-To interact with the _System Control Display_ screen, move the cursor by using the **△**, **▽**, **esc**, and **enter** buttons. **Enter** takes you into a menu and **esc** takes you out.
-{: tip}
-
-To edit an IP address or subnet mask:
-
-1. From the Network Config menu, use the **△** and **▽** buttons to select the port that you want to modify. Press **enter**.
-2. Select **IP Address**, and then use the **△** and **▽** buttons to set the new IP address.
-
-   Press **enter** to move forward one character at a time. Press **esc** to move backwards one character at a time.
-3. Press **esc** to return to the previous menu.
-4. Go to **Update...** and press **enter** to save the setting.
