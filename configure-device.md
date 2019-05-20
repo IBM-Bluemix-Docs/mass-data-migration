@@ -33,7 +33,7 @@ Before you power on the {{site.data.keyword.mdms_short}} device, keep in mind th
 - Ensure that there is no condensation on the device.
 - To avoid inadvertent damage to the device, keep the device in its portable case while the device is in use.
 
-### Device overview
+## Device overview
 {: #device-overview}
 
 Your {{site.data.keyword.mdms_short}} device arrives pre-configured and ready to connect to your network. 
