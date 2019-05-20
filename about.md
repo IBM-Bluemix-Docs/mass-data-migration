@@ -49,6 +49,13 @@ To learn more about {{site.data.keyword.mdms_short}} features and benefits, chec
 
 {{site.data.keyword.mdms_short}} uses 120 TB-usable capacity storage devices to accelerate moving data to the cloud and overcome common transfer challenges such as high costs, long transfer times, and security concerns.
 
+The following flowchart walks you through the {{site.data.keyword.mdms_short}} process.
+
+`Updated flowchart TBU`
+
+## Service components
+{: #service-componenets}
+
 {{site.data.keyword.mdms_short}} comprises the following service components.
 
 <dl>
@@ -59,10 +66,6 @@ To learn more about {{site.data.keyword.mdms_short}} features and benefits, chec
    <dt>File interface</dt>
       <dd>The file interface is a local, web-based UI that you use to access the network share on the {{site.data.keyword.mdms_short}} device. The file interface is based on a mature file and network software that enables large numbers of large files to be copied and transported to {{site.data.keyword.cloud_notm}}.</dd>
 </dl>
-
-The following flowchart walks you through the {{site.data.keyword.mdms_short}} process.
-
-`Updated flowchart TBU`
 
 
 
