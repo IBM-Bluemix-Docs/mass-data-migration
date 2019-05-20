@@ -24,7 +24,7 @@ subcollection: mass-data-migration
 # Accessing the file interface
 {: #access-ui}
 
-After you configure the {{site.data.keyword.mdms_full}} device for Ethernet connectivity, you're ready to access the file interface and start the data migration process.
+After you configure the {{site.data.keyword.mdms_full}} device for Ethernet connectivity, you're ready to access the file interface so you can interact with the device and begin the data migration process.
 {: shortdesc}
 
 ## Retrieving your service credentials
