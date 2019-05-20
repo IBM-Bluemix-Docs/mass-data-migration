@@ -27,6 +27,8 @@ subcollection: mass-data-migration
 {{site.data.keyword.mdms_full}} provides a portable, pre-configured storage device that is shipped to your location for easy migration of your data.
 {: shortdesc}
 
+Use this page to learn about network configuration options for your {{site.data.keyword.mdms_short}} device.
+
 ## Device models
 {: #device-models}
 
@@ -70,24 +72,19 @@ Both device models offer the same functionality, but the cabling instructions ar
 {{site.data.keyword.mdms_short}} devices use a [C13 power cord ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/IEC_60320){:new_window}. If you're using the device outside of the United States, you might need an additional power adapter that accommodates the plug and socket system that is used in your country. {{site.data.keyword.mdms_short}} devices are compatible with all standard power ranges.
 {: note}
 
-## Device ports and network settings
+## Device ports 
 {: #network-settings}
 
 {{site.data.keyword.mdms_short}} devices are configured for two Ethernet connections. The first connection handles device management by running a web-based user interface, and the second connection handles data movement between the device and your source server.
 
-### Device management port
-{: #device-management}
+<dl>
+    <dt>Device management port</dt>
+        <dd>You can manage the {{site.data.keyword.mdms_short}} device by using a local, web-based file interface that you serve on your remote computer. The device management port on the {{site.data.keyword.mdms_short}} device provides administrative access to the UI. To run the user interface, you connect your computer to the device management port on the device, and then reference the corresponding IP address in your browser.</dd>
+    <dt>Data transfer port</dt>
+        <dd>You can also allocate only the 10Gb port on the device for both data movement and device management connections. When you request a {{site.data.keyword.mdms_short}} device, you can specify this configuration in the order form by providing the same static IP address, netmask, and gateway address for both the management and data ports. The device arrives with the 10Gb port that is configured with your IP information, including a gateway.</dd>
+<dl>
 
-You can manage the {{site.data.keyword.mdms_short}} device by using a local, web-based file interface that you serve on your remote computer.
-
-The device management port on the {{site.data.keyword.mdms_short}} device provides administrative access to the UI. To run the user interface, you connect your computer to the device management port on the device, and then reference the corresponding IP address in your browser. 
-
-### Data transfer port
-{: #device-management}
-
-The data transfer port provides network share access that allows for data movement from your source server onto the device. When you mount the network share on the device to your source server, you reference the corresponding IP address for the data transfer port. The data transfer port can also serve as the device management port to run the file interface if needed.
-
-### Network settings
+## Network settings
 {: #network-settings}
 
 {{site.data.keyword.mdms_short}} devices are configured for your network according to settings that you specify when you request the device. When you request a device, you can specify your network configuration according to the following scenarios:

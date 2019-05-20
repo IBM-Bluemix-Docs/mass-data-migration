@@ -162,5 +162,5 @@ To connect the RJ45 / SFP+ device model to your network:
 ## Next steps
 {: #set-up-device-next-steps}
 
-- [Access the user interface](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-access-ui)
+- [Access the file interface](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-access-ui)
 - [Load data onto the device](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-load-data)
