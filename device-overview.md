@@ -73,14 +73,7 @@ Both device models offer the same functionality, but the cabling instructions ar
 ## Device ports and network settings
 {: #network-settings}
 
-{{site.data.keyword.mdms_short}} devices are pre-configured for your network according to settings that you specify when you submit the device request. You can set your network configuration according to the following scenarios:
-
-<dl>
-    <dt>Default configuration</dt>
-        <dd>The expected configuration for an MDMS device a 1Gb management port with a gateway and a 10Gb data port on the same subnet as the data source. This is represented on the order form.</dd>
-    <dt>Optional configuration</dt>
-        <dd>You can also allocate only the 10Gb port on the device for both data movement and device management connections. When you submit your request, you can specify this configuration by providing the same IP, netmask, and gateway address for both the management and data ports. The device arrives with the 10Gb port that is configured with your IP information, including a gateway.</dd>
-<dl>
+{{site.data.keyword.mdms_short}} devices are configured for two Ethernet connections. The first connection handles device management by running a web-based user interface, and the second connection handles data movement between the device and your source server.
 
 ### Device management port
 {: #device-management}
@@ -92,4 +85,18 @@ The device management port on the {{site.data.keyword.mdms_short}} device provid
 ### Data transfer port
 {: #device-management}
 
-The data transfer port provides network share access that allows for data movement. When you mount the network share on the device to your source server, you reference the corresponding IP address for the data transfer port. The data transfer port can also serve as the device management port to run the file interface if needed.
+The data transfer port provides network share access that allows for data movement from your source server onto the device. When you mount the network share on the device to your source server, you reference the corresponding IP address for the data transfer port. The data transfer port can also serve as the device management port to run the file interface if needed.
+
+### Network settings
+{: #network-settings}
+
+{{site.data.keyword.mdms_short}} devices are configured for your network according to settings that you specify when you request the device. When you request a device, you can specify your network configuration according to the following scenarios:
+
+<dl>
+    <dt>Common configuration</dt>
+        <dd>In most cases, {{site.data.keyword.mdms_short}} devices are configured by designating the 1GbE port on the device for device management and allocating the 10GbE port for data transfer. For the device management port, you specify the static IP address, the netmask, and the default gateway for your remote computer. For the data transfer port, you provide the static IP address and netmask for the server with a gateway and a 10Gb data port on the same subnet as the data source. This is represented on the order form.</dd>
+    <dt>Optional configuration</dt>
+        <dd>You can also allocate only the 10Gb port on the device for both data movement and device management connections. When you request a {{site.data.keyword.mdms_short}} device, you can specify this configuration in the order form by providing the same static IP address, netmask, and gateway address for both the management and data ports. The device arrives with the 10Gb port that is configured with your IP information, including a gateway.</dd>
+<dl>
+
+

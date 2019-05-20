@@ -64,3 +64,8 @@ Use the service credentials that you retrieved in the previous step to log in to
 
    You can reopen the Common Tasks wizard by using the **Workflow Manager** in the upper-left area of the interface.
    {:tip}
+
+## Next steps
+{: #access-ui-next-steps}
+
+- To begin the data ingestion process, start by [unlocking the storage pool on the device](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-unlock-storage-pool).
