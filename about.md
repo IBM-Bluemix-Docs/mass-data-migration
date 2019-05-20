@@ -47,6 +47,35 @@ The following flowchart walks you through the {{site.data.keyword.mdms_short}} p
 
 `TBU`
 
+
+## Service components
+{: #service-components}
+
+{{site.data.keyword.mdms_short}} 
+
+Learn about the different components that comprise the {{site.data.keyword.mdms_short}} service.
+
+### {{site.data.keyword.mdms_short}} dashboard
+{: #service-dashboard}
+
+You can create and track {{site.data.keyword.mdms_short}} orders from the service dashboard in the {{site.data.keyword.cloud_notm}} console.
+
+In the {{site.data.keyword.mdms_short}} dashboard, you specify your network configuration settings for the device, retrieve credentials to log in to the device, and track the status of your order.  
+
+### {{site.data.keyword.mdms_short}} device
+{: #storage-device}
+
+{{site.data.keyword.mdms_short}} provides a portable storage device that is shipped to your location. The {{site.data.keyword.mdms_short}} device arrives pre-configured and ready to connect to your network. 
+
+The following image shows the main areas of the device.
+
+<a href="https://{DomainName}/docs/api/content/mass-data-migration/images/mdms-device-rj45.svg">
+  <img src="images/mdms-device-rj45.svg" alt="Top-down view of the Mass Data Migration device">
+</a>
+
+{{site.data.keyword.cloud_notm}} provides two {{site.data.keyword.mdms_short}} device models. Each model comes packaged with [optics and adapters](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-inventory-checklists) that support both RJ45 and SFP+ copper connections.
+{: note} 
+
 ## Benefits and features
 {: #mdms-benefits}
 
