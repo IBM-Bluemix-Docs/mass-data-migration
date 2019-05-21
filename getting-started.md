@@ -86,7 +86,7 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
         <td>Configure network settings</td>
         <td>
           <p>Configure settings for the data transfer connection by entering your network configuration details.</p>
-          <p>Provide the following network settings:</p>
+          <p>Provide the following <a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#network-settings">network settings</a>:</p>
           <p>
             <ul>
               <li><i>Device management settings.</i> Enter the static IP address, the netmask, and the default gateway for your remote computer.</li>

@@ -26,10 +26,10 @@ subcollection: mass-data-migration
 {{site.data.keyword.mdms_full}} is a fast, simple, and secure way to physically transfer terabytes to petabytes of data to {{site.data.keyword.cloud_notm}}.
 {: shortdesc}
 
-## Reasons to use the service
+## Why {{site.data.keyword.mdms_short}}?
 {: #use-cases}
 
-{{site.data.keyword.mdms_short}} simplifies your onboarding journey into the cloud by securely migrating your sensitive data onto a cloud destination of your choice. Learn more about {{site.data.keyword.mdms_short}} features and use cases in following video.
+{{site.data.keyword.mdms_short}} helps you simplify your journey into the cloud by providing a portable, pre-configured storage device for easy migration of data. Learn more about {{site.data.keyword.mdms_short}} features and use cases in following video.
 
 <iframe class="embed-responsive-item" id="youtubeplayer" title="Mass Data Migration provides a fast, simple and secure way to transfer data to the IBM Cloud" type="text/html" width="100%" height="390" src="//www.youtube.com/embed/eNSlUoswvss?rel=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen> </iframe>
 
