@@ -58,5 +58,6 @@ Prepare your shipping label and notify your carrier when you're ready to return 
 ## Next steps
 {: #return-device-next-steps}
 
-- [Verify the offloaded data](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-verify-data)
+- Check on the status of your order by [managing your {{site.data.keyword.mdms_request}}](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-manage-request).
+- Before you delete data from your source server, [verify that the data was uploaded successfully to {{site.data.keyword.cloud_notm}}](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-verify-data).
 
