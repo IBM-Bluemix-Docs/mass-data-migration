@@ -56,4 +56,5 @@ Unlock the empty storage pool by using the credentials that you retrieved in the
 ## Next steps
 {: #unlock-storage-pool-next-steps}
 
-`TBU`
+- To begin the data copy process from your Linux-based server, see [Copying data by using NFS](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-copy-data-nfs)
+- To begin the data copy process from your Windows-based server, see [Copying data by using SMB](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-copy-data-smb)
