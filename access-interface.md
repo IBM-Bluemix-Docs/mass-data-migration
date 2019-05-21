@@ -40,8 +40,8 @@ To retrieve your service credentials:
 4. In the _Request details_ tab, navigate to the Credentials section.
 5. Copy the **User name** and **Password** values.
 
-## Logging in to the file interface
-{: #log-in-device-ui}
+## Logging in to file interface
+{: #log-in-ui}
 
 Use the service credentials that you retrieved in the previous step to log in to the file interface and interact with the {{site.data.keyword.mdms_short}} device.
 

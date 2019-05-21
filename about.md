@@ -26,15 +26,15 @@ subcollection: mass-data-migration
 {{site.data.keyword.mdms_full}} is a fast, simple, and secure way to physically transfer terabytes to petabytes of data to {{site.data.keyword.cloud_notm}}.
 {: shortdesc}
 
-## {{site.data.keyword.mdms_short}} use cases
+## Reasons to use the service
 {: #use-cases}
 
-When you need to securely transfer a large amount of data into the cloud, you can use {{site.data.keyword.mdms_short}} to jumpstart the migration process. Find out more about {{site.data.keyword.mdms_short}} features and use cases in following video.
+{{site.data.keyword.mdms_short}} simplifies your onboarding journey into the cloud by securely migrating your sensitive data onto a cloud destination of your choice. Learn more about {{site.data.keyword.mdms_short}} features and use cases in following video.
 
 <iframe class="embed-responsive-item" id="youtubeplayer" title="Mass Data Migration provides a fast, simple and secure way to transfer data to the IBM Cloud" type="text/html" width="100%" height="390" src="//www.youtube.com/embed/eNSlUoswvss?rel=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen> </iframe>
 
 
-| Use case | Description |
+| Use cases| Description |
 | --- | --- |
 | Migrating data to the cloud | Whether you want to free-up on-premises storage space, archive inactive data, or backup data for redundancy and recovery, {{site.data.keyword.mdms_short}} can quickly and securely move your data to the cloud. |
 | Data center decommission | Jumpstart your data center transformation and use {{site.data.keyword.mdms_short}} to securely move your sensitive data to the cloud as you downsize, expand, or relocate your data center. |
@@ -51,7 +51,7 @@ To learn more about {{site.data.keyword.mdms_short}} features and benefits, chec
 
 The following flowchart walks you through the {{site.data.keyword.mdms_short}} process.
 
-`Updated flowchart TBU`
+![Describes the Mass Data Migration process.](images/mdms-workflow.png)
 
 ## Service components
 {: #service-componenets}
@@ -64,7 +64,7 @@ The following flowchart walks you through the {{site.data.keyword.mdms_short}} p
    <dt>{{site.data.keyword.mdms_short}} device</dt>
       <dd>{{site.data.keyword.mdms_short}} provides a <a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview">portable storage device</a> that is shipped to your location. The {{site.data.keyword.mdms_short}} device arrives pre-configured and ready to connect to your network.</dd>
    <dt>File interface</dt>
-      <dd>The file interface is a local, web-based UI that you use to access the network share on the {{site.data.keyword.mdms_short}} device. The file interface is based on a mature file and network software that enables large numbers of large files to be copied and transported to {{site.data.keyword.cloud_notm}}.</dd>
+      <dd>The <a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-access-ui">file interface</a> is a local, web-based UI that you use to access the network share on the {{site.data.keyword.mdms_short}} device. The file interface is based on a mature file and network software that enables large numbers of large files to be copied and transported to {{site.data.keyword.cloud_notm}}.</dd>
 </dl>
 
 
