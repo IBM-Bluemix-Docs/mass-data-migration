@@ -42,5 +42,5 @@ Additional resources to help you learn about moving data into the cloud with {{s
 ## Related services
 {: #related-services}
 
-- [Data migration with {{site.data.keyword.cloud_notm}}](https://www.ibm.com/cloud/data-migration){: new_window}
+- [Data migration with {{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/data-migration){: new_window}
 
