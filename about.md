@@ -49,7 +49,7 @@ You compare your data migration options on {{site.data.keyword.cloud_notm}} by [
 
 {{site.data.keyword.mdms_short}} uses 120 TB-usable capacity storage devices to accelerate moving data to the cloud and overcome common transfer challenges such as high costs, long transfer times, and security concerns.
 
-The following flowchart walks you through the {{site.data.keyword.mdms_short}} process.
+The following image describes the {{site.data.keyword.mdms_short}} process.
 
 ![Describes the Mass Data Migration process.](images/mdms-workflow.png)
 

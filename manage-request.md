@@ -30,7 +30,12 @@ Manage and track the status of your {{site.data.keyword.mdms_full}} order by usi
 ## Tracking your order
 {: #track-order}
 
-After you request a device, you can track the progress of your order by using the {{site.data.keyword.mdms_short}} user interface. To access tracking information about your order, select **{{site.data.keyword.mdms_short}}** from your {{site.data.keyword.cloud_notm}} resource list, and then select the _Request details_ tab from the application details page.
+After you request a device, you can track the progress of your order by using the {{site.data.keyword.mdms_short}} dashboard. 
+
+![Shows the Mass Data Migration dashboard.](images/mdms-status-ui.png)
+{: caption="Figure 1. Mass Data Migration dashboard in the IBM Cloud console" caption-side="top"}
+
+To access tracking information about your order, select **{{site.data.keyword.mdms_short}}** from your {{site.data.keyword.cloud_notm}} resource list, and then select the _Request details_ tab from the application details page.
 
 The following figure and table show how the order status changes as {{site.data.keyword.cloud_notm}} processes the request.
 
