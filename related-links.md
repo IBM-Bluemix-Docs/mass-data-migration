@@ -37,7 +37,7 @@ Additional resources to help you learn about moving data into the cloud with {{s
 ## Service terms
 {: #service-terms}
 
-`TBU`
+- [{{site.data.keyword.mdms_full_notm}} Services Agreement ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/mdms/terms/USMassDataMigrationServicesAgreementMay2018.pdf){: new_window}
 
 ## Related services
 {: #related-services}
