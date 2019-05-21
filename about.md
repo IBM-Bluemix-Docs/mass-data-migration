@@ -62,7 +62,7 @@ The following flowchart walks you through the {{site.data.keyword.mdms_short}} p
    <dt>{{site.data.keyword.mdms_short}} dashboard</dt>
       <dd>You can create and track {{site.data.keyword.mdms_short}} orders from the service dashboard in the {{site.data.keyword.cloud_notm}} console. In the {{site.data.keyword.mdms_short}} dashboard, you specify your network configuration settings for the device, retrieve credentials to log in to the device, and track the status of your order. </dd>
    <dt>{{site.data.keyword.mdms_short}} device</dt>
-      <dd><p>{{site.data.keyword.mdms_short}} provides a portable storage device that is shipped to your location. The {{site.data.keyword.mdms_short}} device arrives pre-configured and ready to connect to your network.</p><p class="note">{{site.data.keyword.cloud_notm}} provides two {{site.data.keyword.mdms_short}} device models. Each model comes packaged with <a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-inventory-checklists">optics and adapters</a> that support both RJ45 and SFP+ copper connections.</p></dd>
+      <dd>{{site.data.keyword.mdms_short}} provides a <a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview">portable storage device</a> that is shipped to your location. The {{site.data.keyword.mdms_short}} device arrives pre-configured and ready to connect to your network.</dd>
    <dt>File interface</dt>
       <dd>The file interface is a local, web-based UI that you use to access the network share on the {{site.data.keyword.mdms_short}} device. The file interface is based on a mature file and network software that enables large numbers of large files to be copied and transported to {{site.data.keyword.cloud_notm}}.</dd>
 </dl>
