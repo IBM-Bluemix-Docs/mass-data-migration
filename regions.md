@@ -35,14 +35,14 @@ You can order a {{site.data.keyword.mdms_short}} device in the United States and
 {: note}
 
 ## Storage destinations
+{: #storage-destinations}
+
+When you set a Cloud Object Storage bucket destination for your migrated data, you can choose from cross region or regional resiliency for the following supported regions.
+
+### Cross region storage
 {: #cross-region}
 
-When you set a Cloud Object Storage bucket destination for your migrated data, you can choose from cross-region or regional resiliency for the following supported regions.
-
-### Cross-region storage
-{: #regional}
-
-{{site.data.keyword.mdms_short}} supports the following cross-region storage destinations:
+{{site.data.keyword.mdms_short}} supports the following cross region storage destinations:
 
 - US Cross Region (`us-geo`)
 
