@@ -41,20 +41,11 @@ The following table shows how the order status changes as {{site.data.keyword.cl
 
 | Status | Description |
 | --- | --- |
-| Processing order | {{site.data.keyword.mdms_short}} is processing your order.  |
-| Prepare shipment | After your order is approved, the request status changes to _Prepare shipment_. {{site.data.keyword.mdms_short}} prepares and configures the next available device.  |
-| Ship to customer | Your pre-configured {{site.data.keyword.mdms_short}} is shipped to your location. |
-| Client site | After the device is delivered, the request status changes to _Client site_. |
-| Coordinate shipment to IBM | `TBU` |
+| Processing order | After {{site.data.keyword.mdms_short}} receives the request, the status changes to _Processing order_. |
+| Prepare shipment | After your order is approved, the request status changes to _Prepare shipment_. {{site.data.keyword.mdms_short}} prepares and configures the next available storage device.  |
+| Ship to customer | A pre-configured storage device is shipped to your location. {{site.data.keyword.mdms_short}} uses roundtrip UPS overnight shipping for US devices and roundtrip FedEx overnight shipping for EU devices.|
+| Client site | After the device is delivered to your location, the request status changes to _Client site_. |
+| Coordinate shipment to IBM | If the device is delivered to a supported region outside of the US and EU, the request status changes to _Coordinate shipment with IBM_. Follow the instructions in the {{site.data.keyword.mdms_short}} dashboard to request a return shipment. |
 | Ship to IBM | The device is in transit to IBM. |
-| Data offload | When the device is returned to IBM, the request status changes to _Data offload_. Your data is offloaded into the Cloud Object Storage destination that you specified in the intitial request. |
-| Erase data | When the offload process is complete, your data is available in Cloud Object Storage. {{site.data.keyword.mdms_short}} permanently erases data from the device by using NIST data wipe standards. |
-
-
-<!--After you submit the request, you receive an e-mail to confirm your order. Orders that are submitted during normal business hours are approved `the following business day`, and then shipped overnight to the specified location.-->
-
-<!--When {{site.data.keyword.cloud_notm}} receives your {{site.data.keyword.mdms_short}} device, the order status in the {{site.data.keyword.mdms_short}} dashboard is updated to **Data offload**. The device is connected to the network in the {{site.data.keyword.cloud_notm}} data center, and the data copy starts automatically. 
-
-Depending on the data size, the copy process can take from a few hours to days to complete. You can monitor the migration progress by navigating to the _Request details_ tab in the {{site.data.keyword.mdms_short}} dashboard. 
-
-After the data copy is completed, the order status changes to **Erase data**.-->
+| Data offload | When IBM receives the {{site.data.keyword.mdms_short}} device, the request status changes to _Data offload_. The device is connected to the network in the {{site.data.keyword.cloud_notm}} data center, and the data offload starts automatically.  |
+| Erase data | When the offload process is complete, the request status changes to _Erase data_. Your data is now available in the Cloud Object Storage destination that you specified in the initial request. {{site.data.keyword.mdms_short}} permanently erases data from the device by using NIST data wipe standards. |

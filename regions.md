@@ -29,9 +29,9 @@ With {{site.data.keyword.mdms_full}} and {{site.data.keyword.cos_full_notm}}, yo
 ## Supported regions
 {: #available-regions}
 
-You can order a {{site.data.keyword.mdms_short}} device in the United States and the European Union. Your data is migrated into Cloud Object Storage, where you can choose from different storage classes, locations, and resiliency for your stored data. 
+{{site.data.keyword.mdms_short}} is currently available in the United States (US), European Union (EU), Japan, Australia, Brazil, Singapore, Hong Kong, Norway, South Korea, Canada, and Mexico. Your data is migrated into Cloud Object Storage, where you can choose from different storage classes, locations, and resiliency for your stored data. 
 
-{{site.data.keyword.mdms_short}} devices are confined to the region where they are sent to. Devices can't be sent from one region and returned to another region.
+{{site.data.keyword.mdms_short}} devices cannot be shipped across international borders (excluding the European Union and its 28-member countries). For example, a device cannot be ordered in one region and shipped to another region.
 {: note}
 
 ## Storage destinations
