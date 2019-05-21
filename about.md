@@ -41,7 +41,7 @@ subcollection: mass-data-migration
 | Limited bandwidth | {{site.data.keyword.mdms_short}} is a great alternative if you are in a remote location or find over-the-network options to be cost-prohibitive, too slow, or unavailable for your data transfer. |
 {: caption="Table 1. Describes {{site.data.keyword.mdms_short}} use cases " caption-side="top"}
 
-To learn more about {{site.data.keyword.mdms_short}} features and benefits, check out the [{{site.data.keyword.mdms_short}} product page ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/mass-data-migration){: new_window}.
+You compare your data migration options on {{site.data.keyword.cloud_notm}} by [exploring our data migration solutions ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/data-migration){: new_window}. To learn more about {{site.data.keyword.mdms_short}} features and benefits, check out the [{{site.data.keyword.mdms_short}} product page ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/mass-data-migration){: new_window}.
 {: tip}
 
 ## How it works
