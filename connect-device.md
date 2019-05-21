@@ -24,7 +24,7 @@ subcollection: mass-data-migration
 # Connecting the device
 {: #connect-device}
 
-{{site.data.keyword.mdms_full}} provides a portable, pre-configured storage device that is shipped to your location for easy migration of your data.
+{{site.data.keyword.mdms_full}} devices arrive pre-configured and ready to connect to your network.
 {: shortdesc}
 
 Before you power on the {{site.data.keyword.mdms_short}} device, keep in mind the following considerations:
