@@ -33,12 +33,16 @@ The device arrives pre-configured with your IP address, user name, locked storag
 
 After you unlock and activate the storage pool, you can mount the SMB share on your source server.
 
+If you need to mount a SMB share on a Windows server, you can enable SMB packet signing for the device by [joining the device to Active Directory ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://blog.osnexus.com/2015/05/05/assigning-network-share-ownership-using-active-directory/){:new_window}. Keep in mind that SMB signing might impact network performance for your data transfer. If you do not use SMB signing in your environment, consider disabling it on the client.
+{: note}
+
 To mount the network share: 
 
 1. In the Common Tasks wizard, click **View Network Shares** to display the network shares view.
 2. Close the Common Tasks wizard, and then right-click the network share name to view a list of options. 
-3. Click **View Mount Command** to review mount information for the share.
-4. Mount the share on your source server by using the specified commands.
+3. Join the th
+4. Click **View Mount Command** to review mount information for the share.
+5. Mount the share on your source server by using the specified commands.
 
    ![Mounting the share](/images/MountCommand.png)
 
