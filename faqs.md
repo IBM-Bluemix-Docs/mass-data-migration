@@ -11,13 +11,15 @@ subcollection: mass-data-migration
 ---
 
 {:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
 {:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
+{:codeblock: .codeblock}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:download: .download}
 {:faq: data-hd-content-type='faq'}
 
 # FAQs
@@ -186,7 +188,7 @@ There are special shipping requirements for these regions. See above for more in
 ## Am I charged for {{site.data.keyword.cos_full_notm}} use?
 {: faq}
 
-Transferring data into {{site.data.keyword.cloud_notm}} occurs at no cost to you. However, standard rates apply for data stored in {{site.data.keyword.cos_full_notm}} or any other {{site.data.keyword.cloud_notm}} service. To learn more about pricing options in Cloud Object storage, see [{{site.data.keyword.cos_full_notm}} pricing ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage){:new_window}. 
+Transferring data into {{site.data.keyword.cloud_notm}} occurs at no cost to you. However, standard rates apply for data stored in {{site.data.keyword.cos_full_notm}} or any other {{site.data.keyword.cloud_notm}} service. To learn more about pricing options in Cloud Object storage, see [{{site.data.keyword.cos_full_notm}} pricing](https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage){: external}. 
 
 ## Can I buy an {{site.data.keyword.mdms_full_notm}} device?
 {: faq}

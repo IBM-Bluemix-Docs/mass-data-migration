@@ -10,17 +10,19 @@ subcollection: mass-data-migration
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
 {:tsSymptoms: .tsSymptoms} 
 {:tsCauses: .tsCauses} 
 {:tsResolve: .tsResolve}
-{:new_window: target="_blank"}
+{:shortdesc: .shortdesc}
+{:screen: .screen}
 {:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
+{:codeblock: .codeblock}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:download: .download}
 
 # Troubleshooting
 {: #troubleshooting}
@@ -53,6 +55,6 @@ You can use the Support Center search field to find answers to your questions fr
 
 If you have a basic, advanced, or premium [support plan](/docs/get-support?topic=get-support-support-plans#support-plans), you can find call-in numbers and a chat option to get help.
 
-The Support Center is the preferred method for getting support, but if you can't log in to {{site.data.keyword.cloud_notm}}, you can use the [{{site.data.keyword.cloud_notm}} Service Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.ibm.biz/bluemixsupport){: new_window} to submit a case.
+The Support Center is the preferred method for getting support, but if you can't log in to {{site.data.keyword.cloud_notm}}, you can use the [{{site.data.keyword.cloud_notm}} Service Portal](http://www.ibm.biz/bluemixsupport){: external} to submit a case.
 
-For more information about opening an {{site.data.keyword.IBM_notm}} support ticket, or about support levels and ticket severities, see [Contacting support ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/get-support?topic=get-support-getting-customer-support){: new_window}.
+For more information about opening an {{site.data.keyword.IBM_notm}} support ticket, or about support levels and ticket severities, see [Contacting support](/docs/get-support?topic=get-support-getting-customer-support){: external}.

@@ -10,11 +10,11 @@ subcollection: mass-data-migration
 
 ---
 
-{:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen: .screen}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
 {:codeblock: .codeblock}
 {:tip: .tip}
 {:note: .note}
@@ -33,7 +33,7 @@ The device arrives pre-configured with your IP address, user name, locked storag
 
 After you unlock and activate the storage pool, you can mount the SMB share on your source server.
 
-If you need to mount a SMB share on a Windows server, you can enable SMB packet signing for the device by [joining the device to Active Directory ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://blog.osnexus.com/2015/05/05/assigning-network-share-ownership-using-active-directory/){:new_window}. Keep in mind that SMB signing might impact network performance for your data transfer. If you do not use SMB signing in your environment, consider disabling it on the client.
+If you need to mount a SMB share on a Windows server, you can enable SMB packet signing for the device by [joining the device to Active Directory](https://blog.osnexus.com/2015/05/05/assigning-network-share-ownership-using-active-directory/){: external}. Keep in mind that SMB signing might impact network performance for your data transfer. If you do not use SMB signing in your environment, consider disabling it on the client.
 {: note}
 
 To mount the network share: 
@@ -45,7 +45,7 @@ To mount the network share:
 
    ![Mounting the share](/images/MountCommand.png)
 
-   Be sure to specify the IP address that corresponds to the 10GbE port on the device. To allow for greater efficiency in data transmission, [jumbo frames ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/Jumbo_frame){:new_window} are enabled by default on the 10GbE device ports. You can change this setting for your device by using the [Modify Network Port ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://wiki.osnexus.com/index.php?title=Network_Port_Modify) option in the user interface.
+   Be sure to specify the IP address that corresponds to the 10GbE port on the device. To allow for greater efficiency in data transmission, [jumbo frames](https://en.wikipedia.org/wiki/Jumbo_frame){: external} are enabled by default on the 10GbE device ports. You can change this setting for your device by using the [Modify Network Port](https://wiki.osnexus.com/index.php?title=Network_Port_Modify){: external} option in the user interface.
    {: note}
 
 ## Copying data onto the network share

@@ -27,20 +27,20 @@ Additional resources to help you learn about moving data into the cloud with {{s
 ## Samples and recipes
 {: #samples}
 
-- [Recipe: Moving data from COS to File or Block Storage ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/recipes/tutorials/moving-data-from-cos-to-file-or-block-storage/){: new_window}
+- [Recipe: Moving data from COS to File or Block Storage](https://developer.ibm.com/recipes/tutorials/moving-data-from-cos-to-file-or-block-storage/){: external}
 
 ## Blogs and videos
 {: #blogs}
 
-- [Video: {{site.data.keyword.mdms_short}} provides a fast, simple and secure way to transfer data to the {{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.youtube.com/watch?v=eNSlUoswvss){: new_window}
+- [Video: {{site.data.keyword.mdms_short}} provides a fast, simple and secure way to transfer data to the {{site.data.keyword.cloud_notm}}](https://www.youtube.com/watch?v=eNSlUoswvss){: external}
 
 ## Service terms
 {: #service-terms}
 
-- [{{site.data.keyword.mdms_full_notm}} Services Agreement ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/mdms/terms/USMassDataMigrationServicesAgreementMay2018.pdf){: new_window}
+- [{{site.data.keyword.mdms_full_notm}} Services Agreement](https://{DomainName}/mdms/terms/USMassDataMigrationServicesAgreementMay2018.pdf){: external}
 
 ## Related services
 {: #related-services}
 
-- [Data migration with {{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/data-migration){: new_window}
+- [Data migration with {{site.data.keyword.cloud_notm}}](https://www.ibm.com/cloud/data-migration){: external}
 
