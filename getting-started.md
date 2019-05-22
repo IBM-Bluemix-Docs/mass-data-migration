@@ -78,7 +78,7 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
       </tr>
       <tr>
         <td>Add a shipping address</td>
-        <td>Enter your shipping information, such as shipping address and name of the person who will accept the delivery.</td>
+        <td>Enter your shipping information, such as the shipping address and name of the person who will accept the delivery. From the list of countries, select the country that corresponds with the storage bucket destination that you selected in the previous step.</td>
       </tr>
       <tr>
         <td>Add your contact information</td>
