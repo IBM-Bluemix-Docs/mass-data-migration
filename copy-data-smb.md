@@ -26,7 +26,7 @@ subcollection: mass-data-migration
 
 You can copy data onto a {{site.data.keyword.mdms_full}} device by using the Server Message Block (SMB) protocol.
 
-The device arrives pre-configured with your IP address, user name, locked storage pool, and SMB share.
+The device arrives pre-configured with your IP address, user name, locked storage pool, and a SMB share.
 
 ## Mounting the SMB share on your source server
 {: #mount-smb-share}

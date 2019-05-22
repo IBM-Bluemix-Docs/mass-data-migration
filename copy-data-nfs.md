@@ -26,7 +26,7 @@ subcollection: mass-data-migration
 
 You can copy data onto a {{site.data.keyword.mdms_full}} device by using the Network File System (NFS) protocol.
 
-The device arrives pre-configured with your IP address, user name, locked storage pool, and NFS share.
+The device arrives pre-configured with your IP address, user name, locked storage pool, and a NFS share.
 
 ## Mounting the NFS share on your source server
 {: #mount-nfs-share}
