@@ -85,7 +85,7 @@ Both device models offer the same functionality, but the cabling instructions ar
 <dl>
 
 Configuring a gateway on both the device management port and the data transfer port is not supported. If you need routing on the data tranfer port by adding a gateway (not recommended), you must also be able to reach the IP address for the data transfer port from your browser to run the device user interface.
-{: note:}
+{: note}
 
 ## Network settings
 {: #network-settings}
