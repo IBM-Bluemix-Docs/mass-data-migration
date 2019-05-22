@@ -24,9 +24,9 @@ subcollection: mass-data-migration
 # Copying data by using NFS
 {: #copy-data-nfs}
 
-You can copy data from your Linux-based source server onto a pre-configured storage device by using {{site.data.keyword.mdms_full}}.
+You can copy data onto a {{site.data.keyword.mdms_full}} device by using the Network File System (NFS) protocol.
 
-The device arrives pre-configured with your IP address, user name, locked storage pool, and Network File System (NFS) share.
+The device arrives pre-configured with your IP address, user name, locked storage pool, and NFS share.
 
 ## Mounting the NFS share on your source server
 {: #mount-nfs-share}

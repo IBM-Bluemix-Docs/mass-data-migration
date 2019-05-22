@@ -24,9 +24,9 @@ subcollection: mass-data-migration
 # Copying data by using SMB
 {: #copy-data-smb}
 
-You can copy data from your Windows-based source server onto a pre-configured storage device by using {{site.data.keyword.mdms_full}}.
+You can copy data onto a {{site.data.keyword.mdms_full}} device by using the Server Message Block (SMB) protocol.
 
-The device arrives pre-configured with your IP address, user name, locked storage pool, and Server Message Block (SMB) share.
+The device arrives pre-configured with your IP address, user name, locked storage pool, and SMB share.
 
 ## Mounting the SMB share on your source server
 {: #mount-smb-share}
