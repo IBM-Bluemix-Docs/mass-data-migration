@@ -84,7 +84,7 @@ Both device models offer the same functionality, but the cabling instructions ar
         <dd>You can also allocate only the 10GbE port on the device for both data movement and device management connections. When you request a {{site.data.keyword.mdms_short}} device, you can specify this configuration in the order form by providing the same static IP address, netmask, and gateway address for both the management and data ports. The device arrives with the 10Gb port that is configured with your IP information, including a gateway.</dd>
 <dl>
 
-Configuring a gateway on both the device management port and the data transfer port is not supported. If you need routing on the data tranfer port by adding a gateway (not recommended), you must also be able to reach the IP address for the data transfer port from your browser to run the device user interface.
+Configuring a gateway on both the device management port and the data transfer port is not supported. If you need to configure routing on the data transfer port by adding a gateway (not recommended), you must also be able to reach the IP address for the data transfer port from your browser to run the device user interface.
 {: note}
 
 ## Network settings
