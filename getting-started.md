@@ -74,7 +74,7 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
       </tr>
       <tr>
         <td>Select your Cloud Object Storage instance</td>
-        <td>From the drop-down list, select your provisioned instance of Cloud Object Storage. Then, select the name that you assigned to storage bucket where you want to store your migrated data.</td>
+        <td>From the drop-down list, select your provisioned instance of Cloud Object Storage. Then, select the name that you assigned to the storage bucket where you want to store your migrated data.</td>
       </tr>
       <tr>
         <td>Add a shipping address</td>
