@@ -113,7 +113,7 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
 ## What's next
 {: #get-started-next-steps}
 
-Congratulations! You're all set with your {{site.data.keyword.mdms_short}} request.
+Success! You're all set with your {{site.data.keyword.mdms_short}} request.
 
 - To find out more about tracking your order, check out [Managing your request](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-manage-request).
 - To find out more about receiving and connecting your device, check out [Setting up the device](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview).
