@@ -33,11 +33,6 @@ subcollection: mass-data-migration
 
 Use the [{{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog/){:new_window} to submit your request. When your request is approved and processed, the next available device or devices are configured and sent to you based on your network and shipping information. 
 
-## Why use {{site.data.keyword.mdms_short}}?
-{: faq}
-
-{{site.data.keyword.mdms_short}} devices are equipped to perform in nearly any environment from data centers and offices to remote locations, warehouses, and ships. {{site.data.keyword.mdms_short}} is also an alternative if over-the-network data transfer options are cost-prohibitive, too slow, or unavailable.
-
 ## Who should use {{site.data.keyword.mdms_short}}?
 {: faq}
 
