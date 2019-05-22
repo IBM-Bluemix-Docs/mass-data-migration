@@ -21,10 +21,10 @@ subcollection: mass-data-migration
 {:important: .important}
 {:download: .download}
 
-# Accessing the file interface
+# Accessing the device user interface
 {: #access-ui}
 
-After you configure the {{site.data.keyword.mdms_full}} device for Ethernet connectivity, you're ready to access the file interface so you can interact with the device and begin the data migration process.
+After you configure the {{site.data.keyword.mdms_full}} device for Ethernet connectivity, you're ready to access the device user interface so you can interact with the device and begin the data migration process.
 {: shortdesc}
 
 ## Retrieving your service credentials
@@ -40,10 +40,10 @@ To retrieve your service credentials:
 4. In the _Request details_ tab, navigate to the Credentials section.
 5. Copy the **User name** and **Password** values.
 
-## Logging in to file interface
+## Logging in to device user interface
 {: #log-in-ui}
 
-Use the service credentials that you retrieved in the previous step to log in to the file interface and interact with the {{site.data.keyword.mdms_short}} device.
+Use the service credentials that you retrieved in the previous step to log in to the local web UI and interact with the {{site.data.keyword.mdms_short}} device.
 
 1. Open a web browser, and navigate to the static IP address that you provided in the order form.
 
@@ -54,7 +54,7 @@ Use the service credentials that you retrieved in the previous step to log in to
 
    Replace `<device_management_IP_address>` with the IP address that is configured for your Eth1 or Eth2 network ports. Accept the certificate exception.
 
-2. Log in to the file interface by using the username and password that was sent to your e-mail address.
+2. Log in to the device UI by using the username and password that you retrieved in the previous step.
 
    ![Login page](/images/login.png)
 
