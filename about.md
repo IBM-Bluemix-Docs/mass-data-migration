@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-04-16"
+lastupdated: "2019-05-28"
 
 keywords:
 
@@ -37,7 +37,7 @@ subcollection: mass-data-migration
 
 | Use cases| Description |
 | --- | --- |
-| Migrating data to the cloud | Whether you want to free-up on-premises storage space, archive inactive data, or backup data for redundancy and recovery, {{site.data.keyword.mdms_short}} can quickly and securely move your data to the cloud. |
+| Migrating data to the cloud | Whether you want to free-up on-premises storage space, archive inactive data, or back up data for redundancy and recovery, {{site.data.keyword.mdms_short}} can quickly and securely move your data to the cloud. |
 | Data center decommission | Jumpstart your data center transformation and use {{site.data.keyword.mdms_short}} to securely move your sensitive data to the cloud as you downsize, expand, or relocate your data center. |
 | Limited bandwidth | {{site.data.keyword.mdms_short}} is a great alternative if you are in a remote location or find over-the-network options to be cost-prohibitive, too slow, or unavailable for your data transfer. |
 {: caption="Table 1. Describes {{site.data.keyword.mdms_short}} use cases " caption-side="top"}

@@ -50,10 +50,10 @@ Prepare your shipping label and notify your carrier when you're ready to return 
 1. Verify that all cables and optics are returned to the transport case by using the inventory checklist for the device.
 2. Retrieve the return shipping label that is located under the lid of the transport case. 
 
-    If you need to ship multiple devices, keep in mind that the return shipping label that is provided in each case is specific to that storage device. Ensure that the correct return shipping label is affixed to the appropriate device. 
+    If you need to ship multiple devices, keep in mind that the return shipping label that is provided in each case is specific to the storage device. Before you schedule a pickup with the carrier, ensure that the correct return shipping label is affixed to the appropriate device. 
     {: note}
 
-3. Staple the inventory checklist to the return shipping label, and then place both documents on the inside of the transport case.
+3. Staple the return shipping label to the inventory list, and then place both documents in the transport case.
 4. Schedule a pickup with your carrier, and return the device to the data center.
 
     When the device is returned to {{site.data.keyword.cloud_notm}}, the order status changes to _Device received_ in the {{site.data.keyword.mdms_short}} request details page.

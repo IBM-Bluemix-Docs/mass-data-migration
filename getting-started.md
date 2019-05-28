@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-05-16"
+lastupdated: "2019-05-28"
 
 keywords:
 
@@ -36,6 +36,9 @@ Before you order a {{site.data.keyword.mdms_short}} device, keep in mind the fol
 - Understand your network connection types and speeds.
 - Gather your network settings, such as IP addresses and other routing details, for connecting the device to your source server.
 - Identify a person who can receive, connect, and use the device at your site.
+
+  {{site.data.keyword.mdms_short}} cannot be shipped across international borders (for example, a device cannot be ordered in one region and shipped to another region) with exception to the European Union and its 28-member countries.
+  {: note}
 
 ## Creating a storage bucket
 {: #get-started-create-bucket}
@@ -104,7 +107,7 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
       <caption style="caption-side:bottom;">Table 1. Describes the {{site.data.keyword.mdms_short}} request workflow</caption>
     </table>
 
-    When you select a delivery location for your device, consider the weight of the device and accessibility. The device weighs 66 pounds, and it comes equipped with wheels and pop-up handle for maneuvering.
+    When you select a delivery location for your device, [consider the weight of the device](/docs/services/mass-data-migration?topic=mass-data-migration-device-specs) and accessibility. The device, along with its hard case and a foam travel case, weighs about 60 pounds. To help with transporting the device, the travel case is equipped with wheels and a pop-up handle for easy maneuvering.
     {: tip}
 
 5. Read the {{site.data.keyword.mdms_short}} service agreement, and then select the **{{site.data.keyword.mdms_short}} Services Agreement** check box.
