@@ -46,12 +46,14 @@ When the data copy process is complete, you can gracefully power down the system
 
 Prepare your shipping label and notify your carrier when you're ready to return the device.
 
-1. [Log in to the {{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external}.
-2. Go to **Menu** &gt; **Resource List** to view a list of your resources.
-3. From your {{site.data.keyword.cloud_notm}} resource list, select your provisioned instance of {{site.data.keyword.mdms_short}}.
-4. In the _Request details_ tab, navigate to the Shipping Info section.
-5. Click **Print return label** to print the shipping label for the device, and then attach the label to the device.
-6. Schedule a pickup with your carrier, and return the device to the data center.
+1. Verify that all cables and optics are returned to the transport case by using the inventory checklist for the device.
+2. Retrieve the return shipping label that is located under the lid of the transport case. 
+
+    Shipping more than one device? The return shipping label that is provided in each case is specific to that storage device. Before you ship out the devices, ensure that the correct return shipping label is affixed to the appropriate device. 
+    {: note}
+
+3. Staple the inventory checklist to the return shipping label, and then place both documents on the inside of the transport case.
+4. Schedule a pickup with your carrier, and return the device to the data center.
 
     When the device is returned to {{site.data.keyword.cloud_notm}}, the order status changes to _Device received_ in the {{site.data.keyword.mdms_short}} request details page.
 
