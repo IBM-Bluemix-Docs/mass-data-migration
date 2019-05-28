@@ -14,6 +14,7 @@ subcollection: mass-data-migration
 {:shortdesc: .shortdesc}
 {:screen: .screen}
 {:pre: .pre}
+{:external: target="_blank" .external}
 {:table: .aria-labeledby="caption"}
 {:codeblock: .codeblock}
 {:tip: .tip}
