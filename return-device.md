@@ -49,7 +49,7 @@ Prepare your shipping label and notify your carrier when you're ready to return 
 1. Verify that all cables and optics are returned to the transport case by using the inventory checklist for the device.
 2. Retrieve the return shipping label that is located under the lid of the transport case. 
 
-    Shipping more than one device? The return shipping label that is provided in each case is specific to that storage device. Before you ship out the devices, ensure that the correct return shipping label is affixed to the appropriate device. 
+    If you need to ship multiple devices, keep in mind that the return shipping label that is provided in each case is specific to that storage device. Ensure that the correct return shipping label is affixed to the appropriate device. 
     {: note}
 
 3. Staple the inventory checklist to the return shipping label, and then place both documents on the inside of the transport case.
