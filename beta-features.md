@@ -22,7 +22,7 @@ subcollection: mass-data-migration
 {:download: .download}
 
 # Beta features
-{: #connect-device}
+{: #beta}
 
 Get access to new {{site.data.keyword.mdms_full}} features by participating in our beta trial.
 {: shortdesc}
