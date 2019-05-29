@@ -27,7 +27,7 @@ subcollection: mass-data-migration
 After you configure the {{site.data.keyword.mdms_full}} device for Ethernet connectivity, you're ready to access the device user interface so you can interact with the device and begin the data migration process.
 {: shortdesc}
 
-## Retrieving your service credentials
+## Retrieving your service credentials (beta)
 {: #retrieve-service-credentials}
 
 When you submit a {{site.data.keyword.mdms_short}} request, the service auto-generates credentials on your behalf that you can use to access the local web UI for the device. 
@@ -54,7 +54,7 @@ Use the service credentials that you retrieved in the previous step to log in to
 
    Replace `<device_management_IP_address>` with the IP address that is configured for your Eth1 or Eth2 network ports. Accept the certificate exception.
 
-2. Log in to the device UI by using the username and password that you retrieved in the previous step.
+2. Log in to the device UI by using the username and password that you retrieved in the previous step. If you are not a {{site.data.keyword.mdms_short}} beta user, you can log in to the device UI by using the username and password that was sent to your e-mail address.
 
    ![Login page](/images/login.png)
 

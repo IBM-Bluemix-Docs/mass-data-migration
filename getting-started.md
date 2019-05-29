@@ -30,8 +30,9 @@ subcollection: mass-data-migration
 ## Before you begin
 {: #get-started-prereqs}
 
-Before you order a {{site.data.keyword.mdms_short}} device, keep in mind the following prerequisites:
+Before you order a {{site.data.keyword.mdms_short}} device:
 
+- Plan your migration strategy by reviewing the [list of supported regions and cloud storage destinations](/docs/services/mass-data-migration?topic=mass-data-migration-regions).
 - Ensure that you have a provisioned instance of [{{site.data.keyword.cos_full}}](https://{DomainName}/catalog/services/cloud-object-storage){: external} for your {{site.data.keyword.cloud_notm}} account. 
 - Understand your network connection types and speeds.
 - Gather your network settings, such as IP addresses and other routing details, for connecting the device to your source server.
@@ -49,17 +50,23 @@ After you provision an instance of Cloud Object Storage, create a storage bucket
 2. From the _Getting started_ page, click **Create Bucket**.
 3. Enter a bucket name, and select a resiliency option for your data.
 
-   The resiliency option determines how your data is distributed by the Cloud Object Storage service across a geographic area after the data is imported into the service. {{site.data.keyword.mdms_short}} supports the _Cross Region_ or _Regional_ resiliency options.
+   The resiliency option determines how your data is distributed by the Cloud Object Storage service across a geographic area after the data is imported into the service. {{site.data.keyword.mdms_short}} supports the _Cross Region_, _Regional_, and _Single-site_ resiliency options.  
    {: note}
 
 4. From the list of locations, select the geographic area where you want your data to be physically stored after it's migrated into the storage bucket.
+
+   You can transfer data only within the same country where your source data resides. This means that your Cloud Object Storage bucket destination must also be in the same country. To learn more about supported regions, see [Region availability](/docs/services/mass-data-migration?topic=mass-data-migration-regions).
+   {: note}
+
 5. From the list of storage classes, select **Standard**.
 6. Click **Create bucket**.
 
-## Requesting a device
+## Requesting a device (beta)
 {: #get-started-request-device}
 
 You can request a {{site.data.keyword.mdms_short}} device by using the {{site.data.keyword.cloud_notm}} console.
+
+Requesting a {{site.data.keyword.mdms_short}} device by using the {{site.data.keyword.cloud_notm}} console is currently a beta feature. Interested in particpating in our beta program? Check out
 
 1. In the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog) search bar, type _{{site.data.keyword.mdms_short}}_.
 2. Click the **{{site.data.keyword.mdms_short}}** tile.
