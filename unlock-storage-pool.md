@@ -27,7 +27,7 @@ subcollection: mass-data-migration
 You can import data into the {{site.data.keyword.mdms_full}} device by first unlocking and activating the storage pool that is provisioned for the device.
 {: shortdesc}
 
-## Retrieving your storage pool passphrase
+## Retrieving your storage pool passphrase (beta)
 {: #retrieve-storage-pool-passcode}
 
 To access the storage pool on the {{site.data.keyword.mdms_short}} device, retrieve your device credentials by navigating to the {{site.data.keyword.mdms_short}} request details in the {{site.data.keyword.cloud_notm}} console.

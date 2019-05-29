@@ -38,9 +38,6 @@ Before you order a {{site.data.keyword.mdms_short}} device:
 - Gather your network settings, such as IP addresses and other routing details, for connecting the device to your source server.
 - Identify a person who can receive, connect, and use the device at your site.
 
-  {{site.data.keyword.mdms_short}} cannot be shipped across international borders (for example, a device cannot be ordered in one region and shipped to another region) with exception to the European Union and its 28-member countries.
-  {: note}
-
 ## Creating a storage bucket
 {: #get-started-create-bucket}
 
@@ -66,7 +63,8 @@ After you provision an instance of Cloud Object Storage, create a storage bucket
 
 You can request a {{site.data.keyword.mdms_short}} device by using the {{site.data.keyword.cloud_notm}} console.
 
-Requesting a {{site.data.keyword.mdms_short}} device by using the {{site.data.keyword.cloud_notm}} console is currently a beta feature. Interested in particpating in our beta program? Check out
+The new {{site.data.keyword.mdms_short}} service dashboard is currently a beta feature. Interested in particpating in our beta program? To request access, check out [Getting access to beta]().
+{: important}
 
 1. In the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog) search bar, type _{{site.data.keyword.mdms_short}}_.
 2. Click the **{{site.data.keyword.mdms_short}}** tile.

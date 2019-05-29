@@ -30,7 +30,7 @@ Stay up-to-date with the new features that are available for {{site.data.keyword
 ## May 2019
 {: #may-2019}
 
-### Beta feature: {{site.data.keyword.mdms_short}} dashboard now available in the {{site.data.keyword.cloud_notm}} console
+### Beta: Manage your {{site.data.keyword.mdms_short}} requests in the {{site.data.keyword.cloud_notm}} console
 {: #new-mdms-ui}
 New as of: 2019-05-XX
 

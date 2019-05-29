@@ -8,6 +8,7 @@ IBM Cloud Mass Data Migration
     getting-started.md
     about.md
     specs.md
+    beta-features.md
 
     {: .topicgroup}
     Tutorials

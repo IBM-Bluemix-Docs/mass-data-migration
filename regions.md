@@ -27,6 +27,9 @@ subcollection: mass-data-migration
 With {{site.data.keyword.mdms_full}} and {{site.data.keyword.cos_full_notm}}, you can choose from different storage options to meet your availability and resiliency needs.  
 {: shortdesc}
 
+{{site.data.keyword.mdms_short}} allows data transfers only within a single country. This means that your data source must be in the same country as the data center where the {{site.data.keyword.mdms_short}} device is staged.
+{: important}
+
 ## Supported regions
 {: #available-regions}
 
@@ -38,7 +41,7 @@ With {{site.data.keyword.mdms_full}} and {{site.data.keyword.cos_full_notm}}, yo
 ## Storage destinations
 {: #storage-destinations}
 
-When you set a Cloud Object Storage bucket destination for your migrated data, you can choose from cross region or regional resiliency for the following supported regions.
+When you set a Cloud Object Storage bucket destination for your migrated data, you can choose from cross region, regional, or single-site resiliency for the following supported regions.
 
 ### Cross region storage
 {: #cross-region}
@@ -54,6 +57,5 @@ When you set a Cloud Object Storage bucket destination for your migrated data, y
 
 - Dallas (`us-south`)
 - Washington DC (`us-east`)
-
 
 
