@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-04-17"
+lastupdated: "2019-05-29"
 
 keywords: release notes, changelog, what's new, service updates, service bulletin
 
@@ -30,10 +30,10 @@ Stay up-to-date with the new features that are available for {{site.data.keyword
 ## May 2019
 {: #may-2019}
 
-### Manage {{site.data.keyword.mdms_short}} requests from the {{site.data.keyword.cloud_notm}} console
+### {{site.data.keyword.mdms_full_notm}} (beta) now available in the {{site.data.keyword.cloud_notm}} catalog
 {: #new-mdms-ui}
 New as of: 2019-05-XX
 
-You can now use the {{site.data.keyword.cloud_notm}} console to create and manage {{site.data.keyword.mdms_short}} orders.
+To align with the {{site.data.keyword.cloud_notm}} experience, {{site.data.keyword.mdms_short}} beta users can now create and manage migration orders by using a new service dashboard in the {{site.data.keyword.cloud_notm}} console.
 
-Check out the [Getting started tutorial](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-getting-started-tutorial) to learn more about requesting a device by using the new {{site.data.keyword.mdms_short}} dashboard.
+You can try out the new experience by requesting to participate in the {{site.data.keyword.mdms_short}} beta program. If you're interested in being a {{site.data.keyword.mdms_short}} beta user, contact [Katie Morgan](mailto:katie.morgan@ibm.com){: external} (Offering Manager for {{site.data.keyword.mdms_short}}) directly to inquire and apply.

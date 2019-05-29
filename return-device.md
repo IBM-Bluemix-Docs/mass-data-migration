@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-05-14"
+lastupdated: "2019-05-29"
 
 keywords:
 
@@ -47,13 +47,13 @@ When the data copy process is complete, you can gracefully power down the system
 
 Prepare your shipping label and notify your carrier when you're ready to return the device.
 
-1. Verify that all cables and optics are returned to the transport case by using the inventory checklist for the device.
-2. Retrieve the return shipping label that is located under the lid of the transport case. 
+1. Retrieve the inventory list and the return shipping label for device. These documents are located under the lid of the transport case.
 
-    If you need to ship multiple devices, keep in mind that the return shipping label that is provided in each case is specific to the storage device. Before you schedule a pickup with the carrier, ensure that the correct return shipping label is affixed to the appropriate device. 
+    If you are shipping multiple devices, keep in mind that the return shipping label that is provided in each case is specific to the storage device. Before you schedule a pickup with the carrier, ensure that the corresponding return shipping label is affixed to the appropriate device. 
     {: note}
 
-3. Staple the return shipping label to the inventory list, and then place both documents in the transport case.
+2. Use the inventory list to verify that all cables and optics are returned and stored in the transport case.
+3. Return the inventory list to the transport case, and then use the instructions that are listed on the return shipping label to affix the label to the device.
 4. Schedule a pickup with your carrier, and return the device to the data center.
 
     When the device is returned to {{site.data.keyword.cloud_notm}}, the order status changes to _Device received_ in the {{site.data.keyword.mdms_short}} request details page.
