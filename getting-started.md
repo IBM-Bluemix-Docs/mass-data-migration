@@ -66,7 +66,7 @@ When the device is picked up by the carrier to be sent to your location, the Req
 
 ## Receiving and Connecting
 
-1. The device arrives pre-configured for you. A basic [powering and connectivity instruction](user-instructions.html) is included. <br/>
+1. The device arrives pre-configured for you. A basic [powering and connectivity instruction](/docs/services/mass-data-migration?topic=mass-data-migration-userguide) is included. <br/>
 
    User name and storage pool password are provided separately. Check the **Request Details** in your [Requests ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/storage/mdms){:new_window} for the credentials.
    {:note}
