@@ -30,14 +30,10 @@ Stay up-to-date with the new features that are available for {{site.data.keyword
 ## May 2019
 {: #may-2019}
 
-### Beta: Manage your {{site.data.keyword.mdms_short}} requests in the {{site.data.keyword.cloud_notm}} console
+### Beta: Manage {{site.data.keyword.mdms_short}} requests in the {{site.data.keyword.cloud_notm}} console
 {: #new-mdms-ui}
 New as of: 2019-05-XX
 
-To align with the {{site.data.keyword.cloud_notm}} experience, {{site.data.keyword.mdms_short}} beta users can now create and manage migration orders by using a new service dashboard in the {{site.data.keyword.cloud_notm}} console. The following features are available in the {{site.data.keyword.mdms_short}} beta:
+{{site.data.keyword.mdms_short}} beta participants can now create and manage migration orders by using a new user interface in the {{site.data.keyword.cloud_notm}} console. 
 
-- Request a {{site.data.keyword.mdms_short}} device from the {{site.data.keyword.cloud_notm}} console
-- Manage a {{site.data.keyword.mdms_short}} order by using a new service dashboard
-- Retrieve device credentials from a new service dashboard
-  
-You can try out the new experience by requesting to participate in the {{site.data.keyword.mdms_short}} beta program. If you're interested in being a {{site.data.keyword.mdms_short}} beta user, contact [Katie Morgan](mailto:katie.morgan@ibm.com){: external} (Offering Manager for {{site.data.keyword.mdms_short}}) directly to inquire and apply.
+Interested in participating in the {{site.data.keyword.mdms_short}} beta? To find out more about getting access to the beta, check out [Beta features]().
