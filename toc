@@ -8,7 +8,6 @@ IBM Cloud Mass Data Migration
     getting-started.md
     about.md
     specs.md
-    beta-features.md
 
     {: .topicgroup}
     Tutorials
@@ -42,11 +41,8 @@ IBM Cloud Mass Data Migration
     regions.md
     iam.md
     inventory-checklists.md
+    beta-features.md
     related-links.md
-
-    {: .topicgroup}
-    Archive
-         user-instructions.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
