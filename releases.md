@@ -43,5 +43,5 @@ With {{site.data.keyword.mdms_short}}, you can now participate in a beta program
 
 If you're interested in participating in our beta program, send an email from your company email account to Katie Morgan at katie.morgan@ibm.com. In the email, mention that you're interested in the {{site.data.keyword.mdms_short}} beta, and include your use case and your {{site.data.keyword.cloud_notm}} account ID.
 
-Keep in mind that beta features might be unstable, might change frequently, and might be discontinued with short notice. Beta features might not provide the same level of performance or compatibility that generally available features provide. Beta features are supported only on IBM Developer Answers.
+Keep in mind that beta features might become unstable or change at any time. Beta features might not provide the same level of performance or compatibility that generally available features provide. Beta features are supported only on IBM Developer Answers.
 {: important}
