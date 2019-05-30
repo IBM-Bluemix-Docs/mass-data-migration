@@ -35,7 +35,7 @@ Interested in trying upcoming {{site.data.keyword.mdms_short}} features? You can
 
 Before you order a {{site.data.keyword.mdms_short}} device:
 
-- [Review the regions](/docs/services/mass-data-migration?topic=mass-data-migration-regions) where you can .
+- Plan your migration strategy by [reviewing the regions and locations](/docs/services/mass-data-migration?topic=mass-data-migration-regions) where {{site.data.keyword.mdms_short}} is available.
 - Ensure that you have a provisioned instance of [{{site.data.keyword.cos_full}}](https://{DomainName}/catalog/services/cloud-object-storage){: external} for your {{site.data.keyword.cloud_notm}} account. 
 - Understand your network connection types and speeds.
 - Gather your network settings, such as IP addresses and other routing details, for connecting the device to your source server.
@@ -54,10 +54,6 @@ After you provision an instance of Cloud Object Storage, create a storage bucket
    {: note}
 
 4. From the list of locations, select the geographic area where you want your data to be physically stored after it's migrated into the storage bucket.
-
-   You can transfer data only within the same country where your source data resides. This means that your Cloud Object Storage bucket destination must also be in the same country. To learn more about supported regions, see [Region availability](/docs/services/mass-data-migration?topic=mass-data-migration-regions).
-   {: note}
-
 5. From the list of storage classes, select **Standard**.
 6. Click **Create bucket**.
 
