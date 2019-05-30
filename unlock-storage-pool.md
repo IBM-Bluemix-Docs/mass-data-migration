@@ -32,6 +32,9 @@ You can import data into the {{site.data.keyword.mdms_full}} device by first unl
 
 To access the storage pool on the {{site.data.keyword.mdms_short}} device, retrieve your device credentials by navigating to the {{site.data.keyword.mdms_short}} request details in the {{site.data.keyword.cloud_notm}} console.
 
+This feature is available as part of the {{site.data.keyword.mdms_short}} beta release. Device credentials are also communicated separately via email after you place a {{site.data.keyword.mdms_short}} order.
+{: note}
+
 1. [Log in to the {{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external}.
 2. Go to **Menu** &gt; **Resource List** to view a list of your resources.
 3. From your {{site.data.keyword.cloud_notm}} resource list, select your provisioned instance of {{site.data.keyword.mdms_short}}.

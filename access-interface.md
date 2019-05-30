@@ -40,6 +40,9 @@ To retrieve your service credentials:
 4. In the _Request details_ tab, navigate to the Credentials section.
 5. Copy the **User name** and **Password** values.
 
+    If you're unable to access service credentials by using {{site.data.keyword.cloud_notm}} console, contact the administrator for your {{site.data.keyword.mdms_short}} order. Device credentials are also communicated separately via email after you place a {{site.data.keyword.mdms_short}} order. Viewing the credentials in the {{site.data.keyword.cloud_notm}} console is the available as part of the {{site.data.keyword.mdms_short}} beta release. 
+    {: note}
+
 ## Logging in to device user interface
 {: #log-in-ui}
 

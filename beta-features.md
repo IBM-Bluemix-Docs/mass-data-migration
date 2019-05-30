@@ -32,7 +32,7 @@ Get access to new {{site.data.keyword.mdms_full}} features by participating in o
 
 If you're interested in participating in our beta program, send an email from your company email account to Katie Morgan, Offering Manager for {{site.data.keyword.mdms_short}}, at katie.morgan@ibm.com. In the email, mention that you're interested in the {{site.data.keyword.mdms_short}} beta, and include your use case and your {{site.data.keyword.cloud_notm}} account ID.
 
-## Supported beta features
+## Supported features
 {: #supported-beta-features}
 
 The following features are available in the {{site.data.keyword.mdms_short}} beta:
