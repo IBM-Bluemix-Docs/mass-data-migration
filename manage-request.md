@@ -34,7 +34,7 @@ After you request a device, you can track the progress of your order by using th
 
 To access tracking information about your order, select **{{site.data.keyword.mdms_short}}** from your {{site.data.keyword.cloud_notm}} resource list, and then click the _Request details_ tab from the application details page.
 
-This feature is available as part of the [{{site.data.keyword.mdms_short}} beta release](/docs/services/mass-data-migration?topic=mass-data-migration-beta). You can also track the status of your order by using the [{{site.data.keyword.mdms_short}} request details page](https://control.softlayer.com/storage/mdms) that is available from the [{{site.data.keyword.cloud_notm}} infrastructure portal](https://control.softlayer.com/){: external}.
+This feature is available as part of the [{{site.data.keyword.mdms_short}} beta release](/docs/services/mass-data-migration?topic=mass-data-migration-beta). You can also track the status of your order by using the [{{site.data.keyword.mdms_short}} request details page](https://control.softlayer.com/storage/mdms){: external} that is available from the {{site.data.keyword.cloud_notm}} infrastructure portal.
 {: note}
 
 The following table shows how the order status changes as {{site.data.keyword.mdms_short}} processes the request.

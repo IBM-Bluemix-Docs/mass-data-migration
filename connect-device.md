@@ -31,7 +31,7 @@ Before you power on the {{site.data.keyword.mdms_short}} device:
 
 - Ensure that the device is at room temperature.
 - Ensure that there is no condensation on the device.
-- Verify that you've received the cables that correspond to your [device model](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview) by reviewing the inventory list that is located under the transport case lid.
+- Verify that you received the cables that correspond with your [device model](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview) by reviewing the inventory list that is located under the transport case lid.
 - To avoid inadvertent damage to the device, keep the device in its portable case while the device is in use.
 
 ## Powering on the device

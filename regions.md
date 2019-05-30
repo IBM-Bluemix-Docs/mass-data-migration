@@ -27,16 +27,15 @@ subcollection: mass-data-migration
 With {{site.data.keyword.mdms_full}} and {{site.data.keyword.cos_full_notm}}, you can choose from different storage options to meet your availability and resiliency needs.  
 {: shortdesc}
 
-{{site.data.keyword.mdms_short}} allows data transfers only within a single country. This means that your data source must be in the same country as the data center where the {{site.data.keyword.mdms_short}} device is staged.
-{: important}
-
 ## Supported regions
 {: #available-regions}
 
-{{site.data.keyword.mdms_short}} is currently available in the United States (US), European Union (EU), Japan, Australia, Brazil, Singapore, Hong Kong, Norway, South Korea, Canada, and Mexico. Your data is migrated into Cloud Object Storage, where you can choose from different storage classes, locations, and resiliency for your stored data. 
+You can order a {{site.data.keyword.mdms_short}} device in the United States (US), European Union (EU), Japan, Australia, Brazil, Singapore, Hong Kong, Norway, South Korea, Canada, and Mexico. Your data is migrated into Cloud Object Storage, where you can choose from different storage classes, locations, and resiliency for your stored data. 
 
-{{site.data.keyword.mdms_short}} devices cannot be shipped across international borders (excluding the European Union and its 28-member countries). For example, a device cannot be ordered in one region and shipped to another region.
-{: note}
+As you plan to move data into the cloud, keep in mind the following shipping limitations:
+
+- {{site.data.keyword.mdms_short}} devices cannot be shipped across international borders (excluding the European Union and its 28-member countries). For example, you cannot import data onto the device in one region, and then ship the device to another region.
+- You can transfer data only within the country where your source data resides. This means that your Cloud Object Storage bucket destination must also be in the same country where the {{site.data.keyword.mdms_short}} device is staged for offloading data to the cloud. 
 
 ## Storage destinations
 {: #storage-destinations}
@@ -58,4 +57,5 @@ When you set a Cloud Object Storage bucket destination for your migrated data, y
 - Dallas (`us-south`)
 - Washington DC (`us-east`)
 
-
+### Single site storage
+{: #single-site}
