@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-05-15"
+lastupdated: "2019-05-29"
 
 keywords:
 
@@ -72,7 +72,7 @@ The following table shows how {{site.data.keyword.mdms_short}} actions map to [{
     <td>
       <p>
         <ul>
-          <li>Not applicable</li>
+          <li>Create a {{site.data.keyword.mdms_short}} request.</li>
         </ul>
       </p>
     </td>
