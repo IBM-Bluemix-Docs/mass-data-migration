@@ -42,7 +42,7 @@ As you plan to move data into the cloud, keep in mind the following shipping lim
 
 Your data is migrated into Cloud Object Storage, where you can choose from different storage classes, locations, and resiliency for your stored data. 
 
-The following tables show the storage bucket destinations that are available according to resiliency. 
+{{site.data.keyword.mdms_short}} supports the following cross region, regional, and single site storage destinations:
 
 | Storage destination | Data center | Availability |
 |-----|-----|-----|
