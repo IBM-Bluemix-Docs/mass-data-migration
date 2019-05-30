@@ -32,7 +32,7 @@ After you configure the {{site.data.keyword.mdms_full}} device for Ethernet conn
 
 When you submit a {{site.data.keyword.mdms_short}} request, the service auto-generates credentials on your behalf that you can use to access the local web UI for the device. 
 
-This feature is available as part of the {{site.data.keyword.mdms_short}} beta release. Device credentials are also communicated separately via email after you place a {{site.data.keyword.mdms_short}} order.
+This feature is available as part of the [{{site.data.keyword.mdms_short}} beta release](/docs/services/mass-data-migration?topic=mass-data-migration-beta). Device credentials are also communicated separately via email after you place a {{site.data.keyword.mdms_short}} order.
 {: note}
 
 To retrieve your service credentials:
@@ -42,7 +42,6 @@ To retrieve your service credentials:
 3. From your {{site.data.keyword.cloud_notm}} resource list, select your provisioned instance of {{site.data.keyword.mdms_short}}.
 4. In the _Request details_ tab, navigate to the Credentials section.
 5. Copy the **User name** and **Password** values.
-
 
 ## Logging in to device user interface
 {: #log-in-ui}

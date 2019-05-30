@@ -41,7 +41,6 @@ IBM Cloud Mass Data Migration
     regions.md
     iam.md
     inventory-checklists.md
-    beta-features.md
     related-links.md
     {: .navgroup-end}
 
