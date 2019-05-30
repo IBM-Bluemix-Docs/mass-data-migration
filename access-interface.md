@@ -60,10 +60,7 @@ Use the device credentials that you retrieved in the previous step to log in to 
 2. Log in to the device UI by using the username and password that you retrieved in the previous step. 
 
    ![Login page](/images/login.png)
-
-   If you are not a {{site.data.keyword.mdms_short}} beta user, you can log in to the device UI by using the username and password that was sent to your email address.
-   {: tip}
-
+   
    The Common Tasks wizard is displayed. Use the options from left to right to begin importing your data.
 
    ![Workflow icons](/images/workflow.png)

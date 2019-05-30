@@ -42,5 +42,5 @@ Before you order a device, keep in mind the following shipping limitations:
 
 Your data is migrated into Cloud Object Storage, where you can choose from different storage classes, locations, and resiliency for your stored data. 
 
-{{site.data.keyword.mdms_short}} supports all storage locations and resiliency options that are available for Cloud Object storage. For more information, see the [Cloud Object Storage documentation](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-endpoints).
+{{site.data.keyword.mdms_short}} supports all storage locations and resiliency options that are available for Cloud Object Storage. For more information, see the [Cloud Object Storage documentation](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-endpoints).
 
