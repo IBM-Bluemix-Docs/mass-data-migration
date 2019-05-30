@@ -35,7 +35,7 @@ You can order a {{site.data.keyword.mdms_short}} device in the United States (US
 Before you order a device, keep in mind the following shipping and data transfer limitations:
 
 - **{{site.data.keyword.mdms_short}} devices cannot be shipped across international borders** (excluding the European Union and its 28-member countries). For example, you cannot import data onto the device in one region, and then ship the device to another region.
-- **You can transfer data only within a single country** (excluding the European Union and its 28-member countries). This means that your data source must be in the same country as the data center where you intend to return the {{site.data.keyword.mdms_short}} device for offloading. Your Cloud Object Storage bucket destination must also be in the same country as the data center where the {{site.data.keyword.mdms_short}} device is staged. 
+- **You can transfer data only within the country where your source data resides** (excluding the European Union and its 28-member countries). This means that your Cloud Object Storage bucket destination must also be in the same country as the data center where the {{site.data.keyword.mdms_short}} device will be staged for data offloading. 
 
 ## Storage destinations
 {: #storage-destinations}
