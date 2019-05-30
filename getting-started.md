@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-05-28"
+lastupdated: "2019-05-29"
 
 keywords:
 
@@ -24,15 +24,18 @@ subcollection: mass-data-migration
 # Getting started tutorial
 {: #getting-started-tutorial}
 
-{{site.data.keyword.mdms_full}} helps you move terabytes to petabytes of data into {{site.data.keyword.cloud_notm}} in a fast, simple, and secure way. This tutorial shows you how to request your migration device by using the {{site.data.keyword.cloud_notm}} console.
+{{site.data.keyword.mdms_full}} helps you move terabytes to petabytes of data into {{site.data.keyword.cloud_notm}} in a fast, simple, and secure way. This tutorial shows you how to request your migration device by using the {{site.data.keyword.cloud_notm}} infrastructure portal.
 {: shortdesc}
+
+Interested in trying upcoming {{site.data.keyword.mdms_short}} features? You can preview service enhancements and help us improve by participating in the {{site.data.keyword.mdms_short}} beta program. To find out more, see [Getting access to beta]().
+{: tip}
 
 ## Before you begin
 {: #get-started-prereqs}
 
 Before you order a {{site.data.keyword.mdms_short}} device:
 
-- Plan your migration strategy by reviewing the [list of supported regions](/docs/services/mass-data-migration?topic=mass-data-migration-regions).
+- [Review the regions](/docs/services/mass-data-migration?topic=mass-data-migration-regions) where you can .
 - Ensure that you have a provisioned instance of [{{site.data.keyword.cos_full}}](https://{DomainName}/catalog/services/cloud-object-storage){: external} for your {{site.data.keyword.cloud_notm}} account. 
 - Understand your network connection types and speeds.
 - Gather your network settings, such as IP addresses and other routing details, for connecting the device to your source server.
@@ -58,13 +61,60 @@ After you provision an instance of Cloud Object Storage, create a storage bucket
 5. From the list of storage classes, select **Standard**.
 6. Click **Create bucket**.
 
-## Requesting a device (beta)
+## Requesting a device
 {: #get-started-request-device}
 
-You can request a {{site.data.keyword.mdms_short}} device by using the {{site.data.keyword.cloud_notm}} console.
+You can request a {{site.data.keyword.mdms_short}} device by using the {{site.data.keyword.cloud_notm}} infrastructure portal.
 
-The new {{site.data.keyword.mdms_short}} service dashboard is currently a beta feature. Interested in particpating in our beta program? To request access, check out [Getting access to beta]().
-{: important}
+1. Log in to the [{{site.data.keyword.cloud_notm}} infrastructure portal](https://control.softlayer.com/){: external}.
+2. From the navigation menu, click **Storage** > **Data Migration** > **{{site.data.keyword.mdms_short}}** to access the {{site.data.keyword.mdms_short}} landing page.
+3. Click **Request Device** to open the order form.
+4. Start your {{site.data.keyword.mdms_short}} request by specifying the following details.
+
+    <table>
+      <tr>
+        <th>Action</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>Add a shipping address</td>
+        <td>Enter your shipping information, such as the shipping address and name of the person who will accept the delivery.</td>
+      </tr>
+      <tr>
+        <td>Add migration contacts</td>
+        <td>Enter the name of the person who will manage data migration to your device.</td>
+      </tr>
+      <tr>
+        <td>Configure network settings</td>
+        <td>
+          <p>Configure settings for the data transfer connection by entering your network configuration details.</p>
+          <p>Provide the following <a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#network-settings">network settings</a>:</p>
+          <p>
+            <ul>
+              <li><i>Device management settings.</i> Enter the static IP address, the netmask, and the default gateway for your remote computer.</li>
+              <li><i>Data transfer settings.</i> Enter the static IP address and the netmask for the server where your source data resides.</li>
+            </ul>
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>Select your data offload destination</td>
+        <td>From the drop-down list, select your provisioned instance of Cloud Object Storage. Then, select the name that you assigned to the storage bucket where you want to store your migrated data.</td>
+      </tr>
+      <tr>
+        <td>Add a request name</td>
+        <td>Enter an alias to identify and track your {{site.data.keyword.mdms_short}} request.</td>
+      </tr>
+      <caption style="caption-side:bottom;">Table 1. Describes the {{site.data.keyword.mdms_short}} request workflow</caption>
+    </table>
+
+    When you select a delivery location for your device, [consider the weight of the device](/docs/services/mass-data-migration?topic=mass-data-migration-device-specs) and accessibility. The device, along with its hard case and a foam travel case, weighs about 60 pounds. To help with transporting the device, the travel case is equipped with wheels and a pop-up handle for easy maneuvering.
+    {: tip}
+
+5. Read the {{site.data.keyword.mdms_short}} service agreement, and then select the **{{site.data.keyword.mdms_short}} Services Agreement** check box.
+6. Click **Submit order** to complete your request. 
+
+<!-- Beta only
 
 1. In the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog) search bar, type _{{site.data.keyword.mdms_short}}_.
 2. Click the **{{site.data.keyword.mdms_short}}** tile.
@@ -117,6 +167,7 @@ The new {{site.data.keyword.mdms_short}} service dashboard is currently a beta f
 
 5. Read the {{site.data.keyword.mdms_short}} service agreement, and then select the **{{site.data.keyword.mdms_short}} Services Agreement** check box.
 6. Click **Submit order** to complete your request. 
+-->
 
 ## What's next
 {: #get-started-next-steps}
