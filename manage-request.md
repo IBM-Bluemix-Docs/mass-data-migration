@@ -49,3 +49,4 @@ The following table shows how the order status changes as {{site.data.keyword.md
 | Ship to IBM | The device is in transit to IBM. |
 | Data offload | When IBM receives the {{site.data.keyword.mdms_short}} device, the request status changes to _Data offload_. The device is connected to the network in the {{site.data.keyword.cloud_notm}} data center, and the data offload starts automatically.  |
 | Erase data | When the offload process is complete, the request status changes to _Erase data_. Your data is now available in the Cloud Object Storage destination that you specified in the initial request. {{site.data.keyword.mdms_short}} permanently erases data from the device by using NIST data wipe standards. |
+{: caption="Table 1. Describes the {{site.data.keyword.mdms_short}} order status workflow" caption-side="top"}
