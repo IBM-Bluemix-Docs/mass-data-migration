@@ -27,7 +27,7 @@ subcollection: mass-data-migration
 {{site.data.keyword.mdms_full}} helps you move terabytes to petabytes of data into {{site.data.keyword.cloud_notm}} in a fast, simple, and secure way. This tutorial shows you how to request your migration device by using the {{site.data.keyword.cloud_notm}} infrastructure portal.
 {: shortdesc}
 
-Interested in trying upcoming {{site.data.keyword.mdms_short}} features? You can preview service enhancements and help us improve by participating in the {{site.data.keyword.mdms_short}} beta program. To find out more, see [Getting access to beta]().
+Interested in trying new {{site.data.keyword.mdms_short}} features and usability improvements? You can preview upcoming service enhancements by participating in the {{site.data.keyword.mdms_short}} beta program. To find out more, see [Getting access to beta]().
 {: tip}
 
 ## Before you begin
