@@ -32,7 +32,7 @@ After you configure the {{site.data.keyword.mdms_full}} device for Ethernet conn
 
 When you submit a {{site.data.keyword.mdms_short}} request, the service auto-generates credentials on your behalf that you can use to access the local web UI for the device. 
 
-This feature is available as part of the [{{site.data.keyword.mdms_short}} beta release](/docs/services/mass-data-migration?topic=mass-data-migration-beta). Device credentials are also communicated separately via email after you place a {{site.data.keyword.mdms_short}} order.
+This feature is available as part of the [{{site.data.keyword.mdms_short}} beta release](/docs/services/mass-data-migration?topic=mass-data-migration-beta). You can also access credentials for your storage device from the _Request Details_ section in the [{{site.data.keyword.cloud_notm}} infrastructure portal](https://control.softlayer.com/storage/mdms){: external}.
 {: note}
 
 To retrieve your device credentials:
