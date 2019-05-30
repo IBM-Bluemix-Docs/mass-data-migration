@@ -32,7 +32,7 @@ With {{site.data.keyword.mdms_full}} and {{site.data.keyword.cos_full_notm}}, yo
 
 You can order a {{site.data.keyword.mdms_short}} device in the United States (US), European Union (EU), Japan, Australia, Brazil, Singapore, Hong Kong, Norway, South Korea, Canada, and Mexico.
 
-As you plan to move data into the cloud, keep in mind the following shipping limitations:
+Before you order a device, keep in mind the following shipping limitations:
 
 - **{{site.data.keyword.mdms_short}} devices cannot be shipped across international borders** (excluding the European Union and its 28-member countries). For example, you cannot import data onto the device in one region, and then ship the device to another region.
 - **You can transfer data only within the country where your source data resides.** This means that your Cloud Object Storage bucket destination must also be in the same country where the {{site.data.keyword.mdms_short}} device is staged for offloading data to the cloud. 
