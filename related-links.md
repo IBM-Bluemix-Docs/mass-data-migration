@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-04-17"
+lastupdated: "2019-05-31"
 
 keywords: related links, blogs, sample apps, SLA, service level agreement
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-05-29"
+lastupdated: "2019-05-31"
 
 keywords: release notes, changelog, what's new, service updates, service bulletin
 
@@ -30,7 +30,7 @@ Stay up-to-date with the new features that are available for {{site.data.keyword
 ## {{site.data.keyword.mdms_short}} beta
 {: #beta}
 
-With {{site.data.keyword.mdms_short}}, you can now participate in a beta program to try upcoming features, give feedback, and help us improve the service. The following features are available in the {{site.data.keyword.mdms_short}} beta release:
+With {{site.data.keyword.mdms_short}}, you can now participate in a beta program to try upcoming features, give feedback, and help to improve the service. The following features are available in the {{site.data.keyword.mdms_short}} beta release:
 
 - Request a {{site.data.keyword.mdms_short}} device from the {{site.data.keyword.cloud_notm}} catalog
 - Manage access permissions to {{site.data.keyword.mdms_short}} orders with Cloud Identity and Access Management
