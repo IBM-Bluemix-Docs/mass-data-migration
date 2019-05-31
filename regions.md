@@ -60,9 +60,9 @@ Your data is migrated into Cloud Object Storage, where you can choose from diffe
 | Country | Data centers | Storage destinations |
 |-----|-----|----|
 | Italy | Milan | Cross region: `eu-geo`<br>Single site: `mil01`  | 
-| Germany | Frankfurt | Cross region: `eu-geo`<br>Regional:`eu-de`  | 
+| Germany | Frankfurt | Cross region: `eu-geo`<br>Regional: `eu-de`  | 
 | Netherlands | Amsterdam | Cross region: `eu-geo`<br>Single site: `ams03`| 
-| Norway| Oslo | Cross region: `eu-geo`<br>Single site:`oslo1`  | 
+| Norway| Oslo | Cross region: `eu-geo`<br>Single site: `oslo1`  | 
 | United Kingdom | London | Cross region: `eu-geo`<br>Regional: `eu-gb`  |
 {: caption="Table 2. Lists the available data offload locations in Europe" caption-side="top"}
 {: summary="This table has row and column headers. The row headers identify the service. The column headers indentify where that service is located. To understand where a service is located in the table, navigate to the row, and find the for the location you are interested in."}
