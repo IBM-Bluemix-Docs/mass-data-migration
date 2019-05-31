@@ -73,12 +73,12 @@ Your data is migrated into Cloud Object Storage, where you can choose from diffe
 
 | Country | Data centers | Storage destinations |
 |-----|-----|----|
-|  India | Chennai | Cross region: `ap-geo`<br>Single site: `che01` | 
+| Australia | Melbourne<br>Sydney |  Cross region: `ap-geo`<br>Regional: `au-syd`<br>Single site: `mel01`  |
 | Hong Kong | Hong Kong | Cross region: `ap-geo`<br>Single site: `hkg02`  |
-| Australia | Melbourne<br>Sydney |  Cross region: `ap-geo`<br>Regional: `au-syd`<br>Single site: `mel01`  
-| South Korea| South Korea | Cross region: `ap-geo`<br>Single site: `seo01`  | ![Checkmark icon](../../icons/checkmark-icon.svg) |
-| Japan | Tokyo | Cross region: `ap-geo`<br>Regional: `jp-tok`  | ![Checkmark icon](../../icons/checkmark-icon.svg) |
-
+| India | Chennai | Cross region: `ap-geo`<br>Single site: `che01` | 
+| Japan | Tokyo | Cross region: `ap-geo`<br>Regional: `jp-tok`  |
+| South Korea| Seoul | Cross region: `ap-geo`<br>Single site: `seo01`  | 
+| Singapore | Singapore | Cross region: `ap-geo` | 
 {: caption="Table 3. Lists the available data offload locations in Asia Pacific" caption-side="top"}
 {: summary="This table has row and column headers. The row headers identify the service. The column headers indentify where that service is located. To understand where a service is located in the table, navigate to the row, and find the for the location you are interested in."}
 {: #table33}
