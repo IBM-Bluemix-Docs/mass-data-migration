@@ -107,7 +107,7 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
     When you select a delivery location for your device, consider the weight of the device and accessibility. The device, along with its hard case and a foam travel case, weighs about 60 pounds. To help with transporting the device, the travel case is equipped with wheels and a pop-up handle for easy maneuvering.
     {: tip}
 
-5. Read the {{site.data.keyword.mdms_short}} service agreement, and then select the check box.
+5. Read the {{site.data.keyword.mdms_short}} services agreement, and then select the check box.
 6. Click **Submit order** to complete your request. 
 
 <!-- Beta only
@@ -161,7 +161,7 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
     When you select a delivery location for your device, [consider the weight of the device](/docs/services/mass-data-migration?topic=mass-data-migration-device-specs) and accessibility. The device, along with its hard case and a foam travel case, weighs about 60 pounds. To help with transporting the device, the travel case is equipped with wheels and a pop-up handle for easy maneuvering.
     {: tip}
 
-5. Read the {{site.data.keyword.mdms_short}} service agreement, and then select the **{{site.data.keyword.mdms_short}} Services Agreement** check box.
+5. Read the {{site.data.keyword.mdms_short}} services agreement, and then select the **{{site.data.keyword.mdms_short}} Services Agreement** check box.
 6. Click **Submit order** to complete your request. 
 -->
 

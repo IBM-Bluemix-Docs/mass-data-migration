@@ -51,7 +51,7 @@ If you have problems or questions when you are using your {{site.data.keyword.md
 
 To access the Support Center, log in to the {{site.data.keyword.cloud_notm}} console, and click **Support** from the menu bar.
 
-You can use the Support Center search field to find answers to your questions from across the {{site.data.keyword.cloud_notm}} documentation and Stack Overflow forum. You can also manage support cases from the Support Center. You can find links to both the Stack Overflow forum for technical questions and the developerWorks (IBM Developer Answers) forum for all other questions under the Forums section of the Support Center.
+You can use the Support Center search field to find answers to your questions from across the {{site.data.keyword.cloud_notm}} documentation and Stack Overflow forum. You can also manage support cases from the Support Center. You can find links to both the Stack Overflow forum for technical questions and the IBM Developer Answers forum for all other questions under the Forums section of the Support Center.
 
 If you have a basic, advanced, or premium [support plan](/docs/get-support?topic=get-support-support-plans#support-plans), you can find call-in numbers and a chat option to get help.
 
