@@ -42,7 +42,7 @@ Before you order a device, keep in mind the following shipping and data transfer
 
 Your data is migrated into Cloud Object Storage, where you can choose from different storage classes, locations, and resiliency for your stored data. 
 
-{{site.data.keyword.mdms_short}} supports all storage locations and resiliency options that are available for Cloud Object Storage. For more information, see the [Cloud Object Storage documentation](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-endpoints).
+{{site.data.keyword.mdms_short}} supports all storage locations and resiliency options that are available for Cloud Object Storage. The following table maps each country with its available data centers and data offload options.
 
 | Country | Data centers | Storage locations |
 |-----|-----|----|
@@ -85,3 +85,5 @@ Your data is migrated into Cloud Object Storage, where you can choose from diffe
 {: tab-title="Asia Pacific"}
 {: class="comparison-tab-table"}
 {: row-headers}
+
+For more information about storage bucket destinations, see the [Cloud Object Storage documentation](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-endpoints).
