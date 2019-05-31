@@ -27,7 +27,7 @@ subcollection: mass-data-migration
 Manage and track the status of your {{site.data.keyword.mdms_full}} order by using the {{site.data.keyword.cloud_notm}} infrastructure portal.
 {: shortdesc}
 
-Interested in trying new {{site.data.keyword.mdms_short}} features? You can preview a upcoming {{site.data.keyword.mdms_short}} service dashboard by participating in the {{site.data.keyword.mdms_short}} beta program. To find out more, see [Getting access to beta](/docs/services/mass-data-migration?topic=mass-data-migration-beta).
+By participating in the {{site.data.keyword.mdms_short}} beta program, you can preview a new {{site.data.keyword.mdms_short}} service dashboard that you can access from the {{site.data.keyword.cloud_notm}} console. To find out more, see [Getting access to beta](/docs/services/mass-data-migration?topic=mass-data-migration-beta).
 {: tip}
 
 ## Tracking your order 

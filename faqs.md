@@ -33,7 +33,7 @@ subcollection: mass-data-migration
 ## How do I start using {{site.data.keyword.mdms_short}}?
 {: faq}
 
-Use the [{{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog/){:new_window} to submit your request. When your request is approved and processed, the next available device or devices are configured and sent to you based on your network and shipping information. 
+Use the [{{site.data.keyword.cloud_notm}} infrastructure portal](https://control.softlayer.com/){: external} to submit your request. When your request is approved and processed, the next available device or devices are configured and sent to you based on your network and shipping information. 
 
 ## Who should use {{site.data.keyword.mdms_short}}?
 {: faq}

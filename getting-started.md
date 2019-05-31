@@ -35,7 +35,7 @@ Interested in trying new {{site.data.keyword.mdms_short}} features? You can prev
 
 Before you order a {{site.data.keyword.mdms_short}} device:
 
-- Plan your migration strategy by [reviewing the regions and locations](/docs/services/mass-data-migration?topic=mass-data-migration-regions) where {{site.data.keyword.mdms_short}} is available.
+- Plan your migration by reviewing the [regions and locations](/docs/services/mass-data-migration?topic=mass-data-migration-regions) where {{site.data.keyword.mdms_short}} is available.
 - Ensure that you have a provisioned instance of [{{site.data.keyword.cos_full}}](https://{DomainName}/catalog/services/cloud-object-storage){: external} for your {{site.data.keyword.cloud_notm}} account. 
 - Understand your network connection types and speeds.
 - Gather your network settings, such as IP addresses and other routing details, for connecting the device to your source server.
