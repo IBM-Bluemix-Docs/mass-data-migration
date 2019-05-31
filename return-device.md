@@ -47,7 +47,7 @@ When the data copy process is complete, you can gracefully power down the system
 
 Prepare your shipping label and notify your carrier when you're ready to return the device.
 
-1. Retrieve the inventory list and the return shipping label for device. These documents are located under the lid of the transport case.
+1. Retrieve the inventory list and the return shipping label for the device. These documents are located under the lid of the transport case.
 
     If you are shipping multiple devices, keep in mind that the return shipping label that is provided in each case is specific to the storage device. Before you schedule a pickup with the carrier, ensure that the corresponding return shipping label is affixed to the appropriate device. 
     {: note}
