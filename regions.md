@@ -44,7 +44,7 @@ Your data is migrated into Cloud Object Storage, where you can choose from diffe
 
 {{site.data.keyword.mdms_short}} supports all storage locations and resiliency options that are available for Cloud Object Storage. The following table maps each country with its available data centers and data offload options.
 
-| Country | Data centers | Storage locations |
+| Country | Data centers | Storage destinations |
 |-----|-----|----|
 | Brazil | São Paulo | Single site: `sao01`  |
 | Canada | Montréal<br>Toronto | Single site: `mon01` <br>Single site: `tor01` |
@@ -62,7 +62,7 @@ Your data is migrated into Cloud Object Storage, where you can choose from diffe
 | Italy | Milan | Cross region: `eu-geo`<br>Single site: `mil01`  | 
 | Germany | Frankfurt | Cross region: `eu-geo`<br>Regional:`eu-de`  | 
 | Netherlands | Amsterdam | Cross region: `eu-geo`<br>Single site: `ams03`| 
-| Norway| Oslo | Cross region: `eu-geo`<br>Single site:`osl01`  | 
+| Norway| Oslo | Cross region: `eu-geo`<br>Single site:`oslo1`  | 
 | United Kingdom | London | Cross region: `eu-geo`<br>Regional: `eu-gb`  |
 {: caption="Table 2. Lists the available data offload locations in Europe" caption-side="top"}
 {: summary="This table has row and column headers. The row headers identify the service. The column headers indentify where that service is located. To understand where a service is located in the table, navigate to the row, and find the for the location you are interested in."}
@@ -81,7 +81,7 @@ Your data is migrated into Cloud Object Storage, where you can choose from diffe
 | Singapore | Singapore | Cross region: `ap-geo` | 
 {: caption="Table 3. Lists the available data offload locations in Asia Pacific" caption-side="top"}
 {: summary="This table has row and column headers. The row headers identify the service. The column headers indentify where that service is located. To understand where a service is located in the table, navigate to the row, and find the for the location you are interested in."}
-{: #table33}
+{: #table-3}
 {: tab-title="Asia Pacific"}
 {: class="comparison-tab-table"}
 {: row-headers}
