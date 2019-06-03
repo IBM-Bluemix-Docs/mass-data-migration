@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-05-31"
+lastupdated: "2019-06-03"
 
 keywords: release notes, changelog, what's new, service updates, service bulletin
 
@@ -42,5 +42,5 @@ With {{site.data.keyword.mdms_short}}, you can now participate in a beta program
 
 If you're interested in participating in the beta program, send an email from your company email account to the {{site.data.keyword.mdms_short}} Offering Manager at [katie.morgan@ibm.com](mailto:katie.morgan@ibm.com){: external}. In the email, mention that you're interested in the {{site.data.keyword.mdms_short}} beta, and include your use case and your {{site.data.keyword.cloud_notm}} account ID.
 
-Keep in mind that beta features might become unstable and can change at any time. Beta features might not provide the same level of performance or compatibility that generally available features provide. Beta features are supported only on [IBM Developer Answers](https://developer.ibm.com){: external}.
+Keep in mind that beta features can change at any time. Beta features might not provide the same level of performance or compatibility that generally available features provide. Beta features are supported only on [IBM Developer Answers](https://developer.ibm.com){: external}.
 {: important}
