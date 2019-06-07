@@ -37,7 +37,6 @@ When the data copy process is complete, you can gracefully power down the system
     ![Shutting Appliance Down](/images/ShutDown.png)
 
     Click **OK** to confirm.
-
 2. Power off the device by using the **System On / Off** button on the device. 
 3. Set the **Mains Switch** to **Off**.
 4. Spool and return all cables and optics to their storage locations inside the transport case.
@@ -51,7 +50,6 @@ Prepare your shipping label and notify your carrier when you're ready to return 
 
     If you are shipping multiple devices, keep in mind that the return shipping label that is provided in each case is specific to the storage device. Before you schedule a pickup with the carrier, ensure that the corresponding return shipping label is affixed to the appropriate device. 
     {: note}
-
 2. Use the inventory list to verify that all cables and optics are returned and stored in the transport case.
 3. Return the inventory list to the transport case, and then use the instructions that are listed on the return shipping label to affix the label to the device.
 4. Schedule a pickup with your carrier, and return the device to the data center.

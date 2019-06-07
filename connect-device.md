@@ -103,7 +103,6 @@ To connect the RJ45 device model to your network:
    {: codeblock}
 
    Replace `<your_Eth3_IP_address>` with the IP address that is configured for the Eth3 network port. To view the IP address, check the _System Control Display_ screen on the device.
-
 6. Optional: If you can't reach the IP address, connect the CAT6A cable to the Eth1 (`1GbE-B`) port on the device and try again by navigating to the following URL.
    
    ```
@@ -147,7 +146,6 @@ To connect the RJ45 / SFP+ device model to your network:
    {: codeblock}
 
    Replace `<your_Eth5_IP_address>` with the IP address that is configured for the Eth5 network port. To view the IP address, check the _System Control Display_ screen on the device.
-
 5. Optional: If you can't reach the IP address, connect the SFP+ cable to the Eth2 (`10GbE-B` or `1GbE-B`) port on the device and try again by navigating to the following URL.
    
    ```
