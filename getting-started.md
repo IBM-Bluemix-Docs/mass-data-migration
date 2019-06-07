@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-03"
+lastupdated: "2019-06-07"
 
 keywords:
 
@@ -72,6 +72,14 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
         <th>Description</th>
       </tr>
       <tr>
+        <td>Add a request name</td>
+        <td>Enter an alias to identify and track your {{site.data.keyword.mdms_short}} request.</td>
+      </tr>
+      <tr>
+        <td>Select your data offload destination</td>
+        <td>From the drop-down list, select your provisioned instance of Cloud Object Storage. Then, select the name that you assigned to the storage bucket where you want to store your migrated data.</td>
+      </tr>
+      <tr>
         <td>Add a shipping address</td>
         <td>Enter your shipping information, such as the shipping address and name of the person who will accept the delivery.</td>
       </tr>
@@ -92,21 +100,13 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
           </p>
         </td>
       </tr>
-      <tr>
-        <td>Select your data offload destination</td>
-        <td>From the drop-down list, select your provisioned instance of Cloud Object Storage. Then, select the name that you assigned to the storage bucket where you want to store your migrated data.</td>
-      </tr>
-      <tr>
-        <td>Add a request name</td>
-        <td>Enter an alias to identify and track your {{site.data.keyword.mdms_short}} request.</td>
-      </tr>
       <caption style="caption-side:bottom;">Table 1. Describes the {{site.data.keyword.mdms_short}} request workflow</caption>
     </table>
 
     When you select a delivery location for your device, consider the weight of the device and accessibility. The device, along with its hard case and a foam travel case, weighs about 60 pounds. To help with transporting the device, the travel case is equipped with wheels and a pop-up handle for easy maneuvering.
     {: tip}
 5. Read the {{site.data.keyword.mdms_short}} services agreement, and then select the check box.
-6. Click **Submit order** to complete your request. 
+6. Click **Place Request** to complete your order. 
 
 <!-- Beta only
 
