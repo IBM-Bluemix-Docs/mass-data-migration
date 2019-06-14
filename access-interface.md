@@ -71,4 +71,4 @@ Use the device credentials that you retrieved in the previous step to log in to 
 ## Next steps
 {: #access-ui-next-steps}
 
-- To begin the data ingestion process, start by [unlocking the storage pool on the device](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-unlock-storage-pool).
+- To prepare for the data ingestion copy, start by [unlocking the storage pool on the device](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-unlock-storage-pool).
