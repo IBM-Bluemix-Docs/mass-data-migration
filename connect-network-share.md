@@ -79,7 +79,7 @@ Before you mount the share, review the following environment configuration requi
 
 - If you're mounting the NFS share to a Unix-based server, ensure that you have NFS software, such as `nfs-common`, installed on the client server.
 - If you're mounting the SMB share to a Windows-based server that is joined to Active Directory, you must also [join the {{site.data.keyword.mdms_short}} device to the Active Directory domain](#join-device-active-directory) before you can connect to the share.
-- Joining the {{site.data.keyword.mdms_short}} device to the Active Directory enables SMB signing by default. If your environment does not need SMB signing, you can [disable SMB signing on the client](#disable-smb-signing) to avoid connection issues and increase the performance of your data transfer.
+- Joining the {{site.data.keyword.mdms_short}} device to the Active Directory enables SMB signing by default. If your environment does not need SMB signing, you can [disable SMB signing on the client](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-troubleshooting#unable-to-mount-smb-share) to avoid connection issues and increase the performance of your data transfer.
 
 ### Mounting the NFS share by using a Unix system
 {: #mount-nfs-share}
@@ -117,23 +117,8 @@ To mount the network share:
 5. From the list of network folders, select the {{site.data.keyword.mdms_short}} share. Click **OK** to confirm.
 6. Click **Finish** to mount the share on your source server.
 
-    If you're able to ping the IP address but you're unable to mount the share, it's likely that SMB signing is enabled for your Windows server. Consider [disabling SMB signing](#disable-smb-signing) on the client and try again.
+    If you're able to ping the IP address but you're unable to mount the share, it's likely that SMB signing is enabled for your Windows server. Consider [disabling SMB signing](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-troubleshooting#unable-to-mount-smb-share) on the client and try again.
     {: tip} 
-
-### Disabling SMB signing
-{: #disable-smb-signing}
-
-SMB signing adds extra security during a network communication by eliminating the possibility for man-in-the-middle attacks. To learn more about SMB signing, see [Overview of Server Message Block signing](https://support.microsoft.com/en-us/help/887429/overview-of-server-message-block-signing){: external}. 
-
-When you join a {{site.data.keyword.mdms_short}} device to Active Directory, the system enables SMB signing by default. However, SMB signing can impact network performance for your data transfer or cause issues when mounting the share to your server. If you do not use or require SMB signing for your environment, you can disable SMB signing on the client to avoid connection issues and increase the performance of your data transfer.
-
-To disable SMB signing on a Windows server, set the following registry keys to zero:
-
-```
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters\"requiresecuritysignature"=dword:00000000
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Lanmanworkstation\Parameters\"requiresecuritysignature"=dword:00000000 
-```
-{: screen}
 
 ## Next steps
 {: #connect-share-next-steps}

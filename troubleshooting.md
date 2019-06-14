@@ -44,6 +44,30 @@ You do not have the correct authorization to view or track {{site.data.keyword.m
 Verify with your administrator that you are assigned the correct role in the applicable resource group or service instance. For more information about roles, see [Roles and permissions](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-manage-access#roles).
 {: tsResolve}
 
+## Unable to connect to the SMB share
+{: #unable-to-mount-smb-share}
+
+When you try to mount the SMB share that is provisioned on the {{site.data.keyword.mdms_short}} device, you're unable to mount the share. 
+
+You're using SMB on a Windows-based system. You can ping the IP address that corresponds to the share on the {{site.data.keyword.mdms_short}} device, but you're unable to mount or connect to the share from your server.
+{: tsSymptoms}
+
+SMB signing adds extra security during a network communication by eliminating the possibility for man-in-the-middle attacks. To learn more about SMB signing, see [Overview of Server Message Block signing](https://support.microsoft.com/en-us/help/887429/overview-of-server-message-block-signing){: external}.
+{: tsCauses} 
+
+When you join a {{site.data.keyword.mdms_short}} device to Active Directory, the system enables SMB signing by default. However, SMB signing can impact network performance for your data transfer or cause issues when mounting the share to your server.
+
+If you do not use or require SMB signing for your environment, you can disable SMB signing on the client to avoid connection issues and increase the performance of your data transfer.
+{: tsResolve}
+
+To disable SMB signing on a Windows server, set the following registry keys to zero:
+
+```
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters\"requiresecuritysignature"=dword:00000000
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Lanmanworkstation\Parameters\"requiresecuritysignature"=dword:00000000 
+```
+{: screen}
+
 ## Getting help and support
 {: #getting-help}
 
