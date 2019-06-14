@@ -31,7 +31,7 @@ Use this page to learn how to manage access to the share, and then mount the sha
 ## Managing access to the share
 {: #manage-share-access}
 
-By default, the network share is set to have public access. Before you mount the share to your server, you can add NFS or SMB access rules on the share to match your environment or security needs. 
+By default, the network share is set to have public access. Before you mount the share to your server, you can add NFS or SMB access rules on the share to match your environment or security requirements. 
 
 For detailed information about controlling access to shares on the storage device, see the [OSNEXUS QuantaStor documentation](https://wiki.osnexus.com/index.php?title=Network_Shares){:external}.
 {: tip}
