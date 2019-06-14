@@ -95,12 +95,12 @@ To mount the network share:
 2. In the Common Tasks wizard, click **View Network Shares** to display the network shares view.
 3. Close the Common Tasks wizard, and then right-click the network share name to view a list of options. 
 4. Click **View Mount Command** to review mount information for the share.
+
+   ![Mounting the share](images/MountCommand.png)
 5. Ping the IP address that is listed in the dialog box to test network connectivity between your computer and the {{site.data.keyword.mdms_short}} device.
 
    Ensure that the IP address corresponds to the [10GbE data transfer port](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#network-settings) on the device. 
 6. Mount the share on your source server by using the specified commands.
-
-   ![Mounting the share](images/MountCommand.png)
 
 ### Mounting the SMB share by using a Windows system
 {: #mount-smb-share}
@@ -109,18 +109,23 @@ You can connect to the SMB share on a Windows-based system by using the **Map Ne
 
 To mount the network share:
 
-1. [Join the {{site.data.keyword.mdms_short}} device to Active Directory](#join-device-active-directory) if you're mounting the share to a Windows server that is joined to an AD domain.
-2. Test the network connectivity between your computer and the {{site.data.keyword.mdms_short}} device by pinging the IP address that corresponds to the [10GbE data transfer port](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#network-settings) on the device.
-3. From the File Explorer, right-click **Network** and then select **Map network drive** to open the Map Network Drive dialog.
+1. [Log in to the device user interface](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-access-ui#log-in-ui).
+2. In the Common Tasks wizard, click **View Network Shares** to display the network shares view.
+3. Close the Common Tasks wizard, and then right-click the network share name to view a list of options. 
+4. Click **View Mount Command** to review mount information for the share.
+5. Ping the IP address that is listed in the dialog box to test network connectivity between your computer and the {{site.data.keyword.mdms_short}} device.
+
+   Ensure that the IP address corresponds to the [10GbE data transfer port](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#network-settings) on the device. 
+6. From the File Explorer, right-click **Network** and then select **Map network drive** to open the Map Network Drive dialog.
 
    ![Open map network drive dialog](images/map-network-drive.png)
-4. Enter the IP address that you tested in step 1, and click **Browse**.
+7. Enter the IP address that you tested in step 1, and click **Browse**.
 
    ![Connect to the network share](images/map-network-drive-dialog.png)
-5. From the list of network folders, select the {{site.data.keyword.mdms_short}} share. Click **OK** to confirm.
-6. Click **Finish** to mount the share on your source server.
+8. From the list of network folders, select the {{site.data.keyword.mdms_short}} share. Click **OK** to confirm.
+9. Click **Finish** to mount the share on your source server.
 
-    If you're able to ping the IP address but you're unable to mount the share, it's likely that SMB signing is enabled for your Windows server. Consider [disabling SMB signing](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-troubleshooting#unable-to-mount-smb-share) on the client and try again.
+    If you're able to ping the IP address but you're unable to mount the share, it's likely that SMB signing is enabled for your Windows client. Consider [disabling SMB signing](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-troubleshooting#unable-to-mount-smb-share) on the client and try again.
     {: tip} 
 
 ## Next steps
