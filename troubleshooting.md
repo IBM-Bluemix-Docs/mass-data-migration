@@ -35,15 +35,13 @@ General problems with using {{site.data.keyword.mdms_full}} might include viewin
 
 When you try to mount the Server Message Block (SMB) share that is provisioned on the {{site.data.keyword.mdms_short}} device, you're unable to connect to the share. 
 
-You're using the SMB file transfer protocol on a Windows-based system. To move data into the {{site.data.keyword.mdms_short}} device, you need to connect to the network share that's provisioned on the device. You can ping the IP address that corresponds to the 10GbE data transport port on the device, but you're unable to mount or connect to the share from your server.
+You're using the SMB file transfer protocol on a Windows-based system. To move data into the {{site.data.keyword.mdms_short}} device, you need to connect to the network share that's provisioned on the device. You can ping the IP address that corresponds to the 10GbE data transfer port on the device, but you're unable to mount or connect to the share from your server.
 {: tsSymptoms}
 
-SMB signing adds extra security during a network communication by eliminating the possibility for man-in-the-middle attacks. 
+If you joined the {{site.data.keyword.mdms_short}} device to Active Directory, the system enables SMB signing by default. SMB signing can impact network performance for your data transfer or cause [issues when mounting the share to your server](https://support.osnexus.com/hc/en-us/articles/360028195772-Connection-issues-to-SMB-share-after-joining-an-AD-domain){: external}. 
 {: tsCauses} 
 
-When you join a {{site.data.keyword.mdms_short}} device to Active Directory, the system enables SMB signing by default. However, SMB signing can impact network performance for your data transfer or cause issues when mounting the share to your server.
-
-If you do not use or require SMB signing for your environment, you can disable SMB signing on the client to avoid connection issues and increase the performance of your data transfer.
+SMB signing adds extra security during a network communication by eliminating the possibility for man-in-the-middle attacks. If you do not use or require SMB signing for your environment, you can disable SMB signing on the client to avoid connection issues and increase the performance of your data transfer.
 {: tsResolve}
 
 To disable SMB signing on a Windows server, set the following registry keys to zero:
