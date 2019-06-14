@@ -26,6 +26,11 @@ subcollection: mass-data-migration
 
 You can copy data from your Windows-based system onto a {{site.data.keyword.mdms_full}} device by using the Server Message Block (SMB) protocol.
 
+Before you connect to the network share and begin your data copy:
+
+- **Understand if your Windows server is joined to Active Directory.** If you're mounting the network share to a Windows server that is joined to Active Directory, you must [join the {{site.data.keyword.mdms_short}} device to the Active Directory domain](#join-device-active-directory) before you can connect to the share.
+- **Understand if your environment requires SMB packet signing.** SMB packet signing adds extra security features to your network communications that can cause connection issues when mounting the device to your server. If your environment does not need SMB packet signing, you can [disable signing on the client](#disable-smb-signing) to avoid connection issues and increase the performance of your data transfer.
+
 ## Managing SMB share access
 {: #manage-smb-access}
 
@@ -49,8 +54,6 @@ To modify SMB share access:
 
 If you're using SMB on a Windows server, you can manage access permissions, file ownership, and file attributes for your data by joining the {{site.data.keyword.mdms_short}} device to Active Directory. Joining the device to an Active Directory domain enables SMB access for specific AD users and AD groups. 
 
-
-
 For detailed information about joining the device to Active Directory, see the [OSNEXUS QuantaStor documentation](https://wiki.osnexus.com/index.php?title=Network_Shares#Joining_an_AD_Domain){:external}.
 
 When you join the device to Active Directory, the system enables [SMB packet signing](#disable-smb-signing) by default. 
@@ -60,11 +63,6 @@ When you join the device to Active Directory, the system enables [SMB packet sig
 {: #mount-smb-share}
 
 After you unlock and activate the storage pool, you can mount the SMB share on your source server.
-
-Before you mount the SMB share to your Windows server:
-
-- **Understand if your Windows server is joined to Active Directory.** If you're mounting the share to a Windows server that is joined to Active Directory, you must [join the {{site.data.keyword.mdms_short}} device to the Active Directory domain](#join-device-active-directory) before you can proceed with the following steps.
-- **Understand if your environment requires SMB packet signing.** SMB packet signing adds extra security features to your network communications that can cause connection issues when mounting the device to your server. If your environment does not need SMB packet signing, you can [disable signing on the client](#disable-smb-signing) to avoid connection issues and increase the performance of your data transfer.
 
 To mount the network share:
 
