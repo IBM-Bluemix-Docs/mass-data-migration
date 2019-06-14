@@ -47,12 +47,12 @@ Verify with your administrator that you are assigned the correct role in the app
 ## Unable to connect to the SMB share
 {: #unable-to-mount-smb-share}
 
-When you try to mount the SMB share that is provisioned on the {{site.data.keyword.mdms_short}} device, you're unable to mount the share. 
+When you try to mount the Server Message Block (SMB) share that is provisioned on the {{site.data.keyword.mdms_short}} device, you're unable to connect to the share. 
 
 You're using SMB on a Windows-based system. You can ping the IP address that corresponds to the share on the {{site.data.keyword.mdms_short}} device, but you're unable to mount or connect to the share from your server.
 {: tsSymptoms}
 
-SMB signing adds extra security during a network communication by eliminating the possibility for man-in-the-middle attacks. To learn more about SMB signing, see [Overview of Server Message Block signing](https://support.microsoft.com/en-us/help/887429/overview-of-server-message-block-signing){: external}.
+SMB signing adds extra security during a network communication by eliminating the possibility for man-in-the-middle attacks. 
 {: tsCauses} 
 
 When you join a {{site.data.keyword.mdms_short}} device to Active Directory, the system enables SMB signing by default. However, SMB signing can impact network performance for your data transfer or cause issues when mounting the share to your server.
@@ -67,6 +67,9 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters\"re
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Lanmanworkstation\Parameters\"requiresecuritysignature"=dword:00000000 
 ```
 {: screen}
+
+To learn more about SMB signing, see [Overview of Server Message Block signing](https://support.microsoft.com/en-us/help/887429/overview-of-server-message-block-signing){: external}.
+{: tip}
 
 ## Getting help and support
 {: #getting-help}
