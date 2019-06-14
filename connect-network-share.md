@@ -82,7 +82,7 @@ Before you mount the share, review the following environment configuration requi
 
 - If you're mounting the NFS share to a Unix-based server, ensure that you have NFS software, such as `nfs-common`, installed on the client server.
 - If you're mounting the SMB share to a Windows-based server that is joined to Active Directory, you must also [join the {{site.data.keyword.mdms_short}} device to the Active Directory domain](#join-device-active-directory) before you can connect to the share.
-- Joining the {{site.data.keyword.mdms_short}} device to the Active Directory enables SMB signing by default. If your environment does not need SMB signing, you can [disable SMB signing on the client](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-troubleshooting#unable-to-mount-smb-share) to avoid connection issues and increase the performance of your data transfer.
+- Joining the {{site.data.keyword.mdms_short}} device to the Active Directory enables SMB signing by default. If your environment does not need SMB signing, you can [disable SMB signing on the client](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-troubleshooting#unable-to-mount-smb-share) to avoid connection issues and increase the performance of your data transfer.
 
 ### Mounting the NFS share by using a Unix system
 {: #mount-nfs-share}
@@ -127,7 +127,7 @@ To mount the network share:
 8. From the list of network folders, select the {{site.data.keyword.mdms_short}} share. Click **OK** to confirm.
 9. Click **Finish** to mount the share on your source server.
 
-    If you're able to ping the IP address but you're unable to mount the share, it's likely that SMB signing is enabled for your Windows client. Consider [disabling SMB signing](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-troubleshooting#unable-to-mount-smb-share) on the client and try again.
+    If you're able to ping the IP address but you're unable to mount the share, it's likely that SMB signing is enabled for your Windows client. Consider [disabling SMB signing](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-troubleshooting#unable-to-mount-smb-share) on the client and try again.
     {: tip} 
 
 ## Next steps
