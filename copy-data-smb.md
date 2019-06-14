@@ -66,10 +66,7 @@ Before you mount the SMB share to your Windows server:
 - **Understand if your Windows server is joined to Active Directory.** If you're mounting the share to a Windows server that is joined to Active Directory, you must [join the {{site.data.keyword.mdms_short}} device to the Active Directory domain](#join-device-active-directory) before you can proceed with the following steps.
 - **Understand if your environment requires SMB packet signing.** SMB packet signing adds extra security features to your network communications that can cause connection issues when mounting the device to your server. If your environment does not need SMB packet signing, you can [disable signing on the client](#disable-smb-signing) to avoid connection issues and increase the performance of your data transfer.
 
-### Mounting the share using a Windows client
-{: #mount-smb-share-windows-client}
-
-If you need to mount the network share onto a Windows client that isn't joined to Active Directory, use the following steps.
+To mount the network share:
 
 1. [Join the {{site.data.keyword.mdms_short}} device to Active Directory](#join-device-active-directory) if you're mounting the share to a Windows server that is joined to an AD domain.
 2. Test the network connectivity between your computer and the {{site.data.keyword.mdms_short}} device by pinging the IP address that corresponds to the 10GbE data transfer port on the device.
