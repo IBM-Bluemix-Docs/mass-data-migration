@@ -55,7 +55,6 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Lanmanworkstation\Parameter
 {: screen}
 
 To learn more about SMB signing, see [Overview of Server Message Block signing](https://support.microsoft.com/en-us/help/887429/overview-of-server-message-block-signing){: external}.
-{: tip}
 
 ## Unable to view order details
 {: #unable-to-view-order}
