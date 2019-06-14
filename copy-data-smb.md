@@ -50,7 +50,7 @@ If you're using SMB on a Windows server, you can manage access permissions, file
 
 For detailed information about joining the device to Active Directory, see the [OSNEXUS QuantaStor documentation](https://wiki.osnexus.com/index.php?title=Network_Shares#Joining_an_AD_Domain){:external}.
 
-When you join the device to Active Directory, the system enables SMB packet signing by default. 
+When you join the device to Active Directory, the system enables [SMB packet signing](#disable-smb-signing) by default. 
 {: note}
 
 ## Mounting the SMB share on a Windows system
@@ -65,7 +65,7 @@ Before you mount the SMB share to your Windows server:
   If you're mounting the share to a Windows server that is joined to Active Directory, you must [join the {{site.data.keyword.mdms_short}} device to the Active Directory domain](#join-device-active-directory) before you can proceed with the following steps.
 - Understand if your environment requires [SMB packet signing](https://support.microsoft.com/en-us/help/887429/overview-of-server-message-block-signing){: external}.
 
-  SMB packet signing adds extra security features to your network communications that might cause connection issues when mounting the device to your server. If your environment does not need SMB packet signing, you can disable signing on the client to avoid connection issues.
+  SMB packet signing adds extra security features to your network communications that can cause connection issues when mounting the device to your server. If your environment does not need SMB packet signing, you can [disable signing on the client](#disable-smb-signing) to avoid connection issues and increase the performance of your data transfer.
 
 ### Mounting the share using a Windows client
 {: #mount-smb-share-windows-client}
@@ -73,7 +73,7 @@ Before you mount the SMB share to your Windows server:
 If you need to mount the network share onto a Windows client that isn't joined to Active Directory, use the following steps.
 
 1. [Join the {{site.data.keyword.mdms_short}} device to Active Directory](#join-device-active-directory) if you're mounting the share to a Windows server that is joined to an AD domain.
-2. Optional. [Disable SMB packet signing for the client](#disable-smb-packet-signing) if it's not required for your environment.
+2. Optional. [Disable SMB packet signing for the client](#disable-smb-signing) if it's not required for your environment.
 3. Test the network connectivity between your computer and the {{site.data.keyword.mdms_short}} device by pinging the IP address that corresponds to the 10GbE data transfer port on the device.
 4. From the File Explorer, right-click **Network** and then select **Map network drive...** to open the Map Network Drive dialog.
 
@@ -93,7 +93,7 @@ If you need to mount the network share onto a Windows client that isn't joined t
 
 SMB packet signing adds extra security during a network communication by eliminating the possibility for man-in-the-middle attacks. 
 
-When you join a {{site.data.keyword.mdms_short}} device to Active Directory, the system enables SMB signing by default. However, SMB signing can impact network performance for your data transfer or cause issues when mounting the share to your server. If you do not use or require SMB signing for your environment, you can disable SMB signing on the client to avoid these issues.
+When you join a {{site.data.keyword.mdms_short}} device to Active Directory, the system enables SMB signing by default. However, SMB signing can impact network performance for your data transfer or cause issues when mounting the share to your server. If you do not use or require SMB signing for your environment, you can disable SMB signing on the client to avoid connection issues and increase the performance of your data transfer.
 
 To disable SMB signing on a Windows server, set the following registry keys to zero:
 
