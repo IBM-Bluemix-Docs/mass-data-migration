@@ -29,7 +29,7 @@ You can copy data from a Unix-based system onto a {{site.data.keyword.mdms_full}
 ## Managing NFS share access
 {: #manage-nfs-access}
 
-By default, the network share is set to have public access. Before you mount the share to your server, you might want to add NFS access rules on the share to match your environment or security needs. 
+By default, the network share is set to have public access. Before you mount the share to your server, you can add NFS access rules on the share to match your environment or security needs. 
 
 You can manage NFS share access for an IP address, a range of IP addresses, or specific networks by using the {{site.data.keyword.mdms_short}} device user interface.
 
@@ -42,6 +42,7 @@ To modify NFS share access:
     ![description](images/add-nfs-access.png)
    
      For detailed information about controlling access to NFS shares on the storage device, see the [OSNEXUS QuantaStor documentation](https://wiki.osnexus.com/index.php?title=Network_Shares){:external}.
+     {: tip}
 
 ## Mounting the NFS share on a Unix system
 {: #mount-nfs-share}
@@ -69,7 +70,6 @@ To mount the network share:
 Now that you're connected to the NFS share, you can start and monitor the data copy to the device.
 
 1. Copy data onto the network share by using a file copy tool that is compatible with your host computer.
-
 2. In the Common Tasks wizard, click **View Network Activity** to show inbound Ethernet load as data is transferred to the device on the 10Gb link.
    
     ![View activity](images/NetworkPerf.png)

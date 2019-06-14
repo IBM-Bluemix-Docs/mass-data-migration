@@ -29,7 +29,9 @@ You can copy data from your Windows-based system onto a {{site.data.keyword.mdms
 ## Managing SMB share access
 {: #manage-smb-access}
 
-By default, the network share is set to have public access. Before you mount the share to your server, you might want to add SMB access rules on the share to match your environment or security needs. 
+By default, the network share is set to have public access. Before you mount the share to your server, you can add SMB access rules on the share to match your environment or security needs. 
+
+You can manage SMB share access for an IP address, a range of IP addresses, or specific networks by using the {{site.data.keyword.mdms_short}} device user interface.
 
 To modify SMB share access:
 
@@ -40,6 +42,7 @@ To modify SMB share access:
     ![description](images/add-smb-access.png)
    
     For detailed information about controlling access to SMB shares on the storage device, see the [OSNEXUS QuantaStor documentation](https://wiki.osnexus.com/index.php?title=Network_Shares){:external}.
+    {:tip}
 
 ### Joining the device to Active Directory
 {: #join-device-active-directory}
@@ -60,12 +63,8 @@ After you unlock and activate the storage pool, you can mount the SMB share on y
 
 Before you mount the SMB share to your Windows server:
 
-- Understand if your Windows server is joined to Active Directory.
-
-  If you're mounting the share to a Windows server that is joined to Active Directory, you must [join the {{site.data.keyword.mdms_short}} device to the Active Directory domain](#join-device-active-directory) before you can proceed with the following steps.
-- Understand if your environment requires [SMB packet signing](https://support.microsoft.com/en-us/help/887429/overview-of-server-message-block-signing){: external}.
-
-  SMB packet signing adds extra security features to your network communications that can cause connection issues when mounting the device to your server. If your environment does not need SMB packet signing, you can [disable signing on the client](#disable-smb-signing) to avoid connection issues and increase the performance of your data transfer.
+- **Understand if your Windows server is joined to Active Directory.** If you're mounting the share to a Windows server that is joined to Active Directory, you must [join the {{site.data.keyword.mdms_short}} device to the Active Directory domain](#join-device-active-directory) before you can proceed with the following steps.
+- **Understand if your environment requires SMB packet signing.** [SMB packet signing](https://support.microsoft.com/en-us/help/887429/overview-of-server-message-block-signing){: external}. adds extra security features to your network communications that can cause connection issues when mounting the device to your server. If your environment does not need SMB packet signing, you can [disable signing on the client](#disable-smb-signing) to avoid connection issues and increase the performance of your data transfer.
 
 ### Mounting the share using a Windows client
 {: #mount-smb-share-windows-client}
@@ -73,19 +72,17 @@ Before you mount the SMB share to your Windows server:
 If you need to mount the network share onto a Windows client that isn't joined to Active Directory, use the following steps.
 
 1. [Join the {{site.data.keyword.mdms_short}} device to Active Directory](#join-device-active-directory) if you're mounting the share to a Windows server that is joined to an AD domain.
-2. Optional. [Disable SMB packet signing for the client](#disable-smb-signing) if it's not required for your environment.
-3. Test the network connectivity between your computer and the {{site.data.keyword.mdms_short}} device by pinging the IP address that corresponds to the 10GbE data transfer port on the device.
-4. From the File Explorer, right-click **Network** and then select **Map network drive...** to open the Map Network Drive dialog.
+2. Test the network connectivity between your computer and the {{site.data.keyword.mdms_short}} device by pinging the IP address that corresponds to the 10GbE data transfer port on the device.
+3. From the File Explorer, right-click **Network** and then select **Map network drive...** to open the Map Network Drive dialog.
 
    ![Open map network drive dialog](images/map-network-drive.png)
-5. Enter the IP address that you tested in step 1, and click **Browse**.
+4. Enter the IP address that you tested in step 1, and click **Browse**.
 
    ![Connect to the network share](images/map-network-drive-dialog.png)
+5. From the list of network folders, select the {{site.data.keyword.mdms_short}} share. Click **OK** to confirm.
+6. Click **Finish** to mount the share on your source server.
 
-6. From the list of network folders, select the {{site.data.keyword.mdms_short}} share. Click **OK** to confirm.
-7. Click **Finish** to mount the share on your source server.
-
-    If you're able to ping the IP address but you're unable to mount the share, it's likely that SMB packet signing is enabled for your Windows server. Consider disabling SMB signing on the client and try again.
+    If you're able to ping the IP address but you're unable to mount the share, it's likely that SMB packet signing is enabled for your Windows server. Consider [disabling SMB signing](#disable-smb-signing) on the client and try again.
     {: tip} 
 
 ### Disabling SMB packet signing
@@ -97,10 +94,9 @@ When you join a {{site.data.keyword.mdms_short}} device to Active Directory, the
 
 To disable SMB signing on a Windows server, set the following registry keys to zero:
 
-```[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters\"requiresecuritysignature"=dword:00000000]
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Lanmanworkstation\Parameters\"requiresecuritysignature"=dword:00000000] 
+```[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters\"requiresecuritysignature"=dword:00000000][HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Lanmanworkstation\Parameters\"requiresecuritysignature"=dword:00000000] 
 ```
-{: codeblock}
+{: pre}
 
 ## Copying data onto the SMB share
 {: #copy-data-smb}
