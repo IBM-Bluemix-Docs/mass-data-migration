@@ -30,20 +30,6 @@ subcollection: mass-data-migration
 General problems with using {{site.data.keyword.mdms_full}} might include viewing your order status or accessing the user interface. In many cases, you can recover from these problems by following a few easy steps.
 {: shortdesc}
 
-## Unable to view order details
-{: #unable-to-view-order}
-
-When you access the {{site.data.keyword.cloud_notm}} console, you cannot view or track a {{site.data.keyword.mdms_short}} order for your organization.
-
-You can see a list of services in your {{site.data.keyword.cloud_notm}} resource list, but you do not see a {{site.data.keyword.mdms_short}} entry.
-{: tsSymptoms}
-
-You do not have the correct authorization to view or track {{site.data.keyword.mdms_short}} orders.
-{: tsCauses} 
-
-Verify with your administrator that you are assigned the correct role in the applicable resource group or service instance. For more information about roles, see [Roles and permissions](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-manage-access#roles).
-{: tsResolve}
-
 ## Unable to connect to the SMB share
 {: #unable-to-mount-smb-share}
 
@@ -70,6 +56,20 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Lanmanworkstation\Parameter
 
 To learn more about SMB signing, see [Overview of Server Message Block signing](https://support.microsoft.com/en-us/help/887429/overview-of-server-message-block-signing){: external}.
 {: tip}
+
+## Unable to view order details
+{: #unable-to-view-order}
+
+When you access the {{site.data.keyword.cloud_notm}} console, you cannot view or track a {{site.data.keyword.mdms_short}} order for your organization.
+
+You can see a list of services in your {{site.data.keyword.cloud_notm}} resource list, but you do not see a {{site.data.keyword.mdms_short}} entry.
+{: tsSymptoms}
+
+You do not have the correct authorization to view or track {{site.data.keyword.mdms_short}} orders.
+{: tsCauses} 
+
+Verify with your administrator that you are assigned the correct role in the applicable resource group or service instance. For more information about roles, see [Roles and permissions](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-manage-access#roles).
+{: tsResolve}
 
 ## Getting help and support
 {: #getting-help}
