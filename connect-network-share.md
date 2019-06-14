@@ -43,9 +43,10 @@ You can manage NFS share access for an IP address, a range of IP addresses, or s
 
 To modify NFS share access:
 
-1. In the Common Tasks wizard, click **View Network Shares** to display the network shares view.
-2. Close the Common Tasks wizard, and then right-click the network share name to view a list of options. 
-3. Click **Add NFS Access** to modify access for the NFS share.
+1. [Log in to the device user interface](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-access-ui#log-in-ui).
+2. In the Common Tasks wizard, click **View Network Shares** to display the network shares view.
+3. Close the Common Tasks wizard, and then right-click the network share name to view a list of options. 
+4. Click **Add NFS Access** to modify access for the NFS share.
 
     ![description](images/add-nfs-access.png)
    
@@ -87,13 +88,14 @@ You can connect to the NFS share on a Unix-based system by using the {{site.data
 
 To mount the network share: 
 
-1. In the Common Tasks wizard, click **View Network Shares** to display the network shares view.
-2. Close the Common Tasks wizard, and then right-click the network share name to view a list of options. 
-3. Click **View Mount Command** to review mount information for the share.
-4. Ping the IP address that is listed in the dialog box to test network connectivity between your computer and the {{site.data.keyword.mdms_short}} device.
+1. [Log in to the device user interface](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-access-ui#log-in-ui).
+2. In the Common Tasks wizard, click **View Network Shares** to display the network shares view.
+3. Close the Common Tasks wizard, and then right-click the network share name to view a list of options. 
+4. Click **View Mount Command** to review mount information for the share.
+5. Ping the IP address that is listed in the dialog box to test network connectivity between your computer and the {{site.data.keyword.mdms_short}} device.
 
    Ensure that the IP address corresponds to the [10GbE data transfer port](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#network-settings) on the device. 
-5. Mount the share on your source server by using the specified commands.
+6. Mount the share on your source server by using the specified commands.
 
    ![Mounting the share](images/MountCommand.png)
 

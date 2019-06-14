@@ -48,8 +48,9 @@ To retrieve your storage pool passphrase:
 
 Unlock the empty storage pool by using the credentials that you retrieved in the previous step.
 
-1. In the Common Tasks wizard, click **Unlock and Start Storage Pool**.
-2. Enter the storage pool passphrase that you retrieved in step 1, and then click **OK**.
+1. [Log in to the device user interface](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-access-ui#log-in-ui).
+2. In the Common Tasks wizard, click **Unlock and Start Storage Pool**.
+3. Enter the storage pool passphrase that you retrieved in step 1, and then click **OK**.
       
    ![Activate storage pool](/images/StartStoragePool.png)
 
