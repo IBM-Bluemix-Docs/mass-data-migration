@@ -45,6 +45,8 @@ To modify NFS share access:
 
 1. [Log in to the device user interface](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-access-ui#log-in-ui).
 2. In the Common Tasks wizard, click **View Network Shares** to display the network shares view.
+
+   ![Workflow icons](images/workflow.png)
 3. Close the Common Tasks wizard, and then right-click the network share name to view a list of options. 
 4. Click **Add NFS Access** to modify access for the NFS share.
 
@@ -57,9 +59,10 @@ You can manage SMB share access by using the {{site.data.keyword.mdms_short}} de
 
 To modify SMB share access:
 
-1. In the Common Tasks wizard, click **View Network Shares** to display the network shares view.
-2. Close the Common Tasks wizard, and then right-click the network share name to view a list of options. 
-3. Click **Modify Share & SMB Access...** to modify access for your SMB share.
+1. [Log in to the device user interface](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-access-ui#log-in-ui).
+2. In the Common Tasks wizard, click **View Network Shares** to display the network shares view.
+3. Close the Common Tasks wizard, and then right-click the network share name to view a list of options. 
+4. Click **Modify Share & SMB Access** to modify access for your SMB share.
 
     ![description](images/add-smb-access.png)
 
