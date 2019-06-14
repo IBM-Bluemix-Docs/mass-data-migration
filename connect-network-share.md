@@ -33,7 +33,7 @@ Use this page to learn how to manage access to the share, and then mount the sha
 
 By default, the network share is set to have public access. Before you mount the share to your server, you can add NFS or SMB access rules on the share to match your environment or security needs. 
 
-For detailed information about controlling access to NFS shares on the storage device, see the [OSNEXUS QuantaStor documentation](https://wiki.osnexus.com/index.php?title=Network_Shares){:external}.
+For detailed information about controlling access to shares on the storage device, see the [OSNEXUS QuantaStor documentation](https://wiki.osnexus.com/index.php?title=Network_Shares){:external}.
 {: tip}
 
 ### Managing NFS share access
@@ -45,7 +45,7 @@ To modify NFS share access:
 
 1. In the Common Tasks wizard, click **View Network Shares** to display the network shares view.
 2. Close the Common Tasks wizard, and then right-click the network share name to view a list of options. 
-3. Click **Add NFS Access...** to modify access for the NFS share.
+3. Click **Add NFS Access** to modify access for the NFS share.
 
     ![description](images/add-nfs-access.png)
    
@@ -67,14 +67,14 @@ To modify SMB share access:
 
 If you're using SMB on a Windows server, you can manage access permissions, file ownership, and file attributes for your data by joining the {{site.data.keyword.mdms_short}} device to Active Directory. Joining the device to an Active Directory domain enables SMB access for specific AD users and AD groups. 
 
-For detailed information about joining the device to Active Directory, see the [OSNEXUS QuantaStor documentation](https://wiki.osnexus.com/index.php?title=Network_Shares#Joining_an_AD_Domain){:external}.
+To learn more about joining the device to Active Directory, see the [OSNEXUS QuantaStor documentation](https://wiki.osnexus.com/index.php?title=Network_Shares#Joining_an_AD_Domain){:external}.
 
 ## Mounting the network share
 {: #mount-network-share}
 
 After you unlock and activate the storage pool on the device, you can mount the network share on your source server.
 
-Before you mount the share, keep in mind the following environment configuration requirements:
+Before you mount the share, review the following environment configuration requirements:
 
 - If you're mounting the NFS share to a Unix-based server, ensure that you have NFS software, such as `nfs-common`, installed on the client server.
 - If you're mounting the SMB share to a Windows-based server that is joined to Active Directory, you must also [join the {{site.data.keyword.mdms_short}} device to the Active Directory domain](#join-device-active-directory) before you can connect to the share.
@@ -83,7 +83,7 @@ Before you mount the share, keep in mind the following environment configuration
 ### Mounting the NFS share by using a Unix system
 {: #mount-nfs-share}
 
-You can connect to the NFS share by using the {{site.data.keyword.mdms_short}} device user interface.
+You can connect to the NFS share on a Unix-based system by using the {{site.data.keyword.mdms_short}} device user interface.
 
 To mount the network share: 
 
@@ -100,13 +100,13 @@ To mount the network share:
 ### Mounting the SMB share by using a Windows system
 {: #mount-smb-share}
 
-You can connect to the SMB share by using the **Map Network Drive** dialog on your Windows computer.
+You can connect to the SMB share on a Windows-based system by using the **Map Network Drive** dialog on your Windows computer.
 
 To mount the network share:
 
 1. [Join the {{site.data.keyword.mdms_short}} device to Active Directory](#join-device-active-directory) if you're mounting the share to a Windows server that is joined to an AD domain.
 2. Test the network connectivity between your computer and the {{site.data.keyword.mdms_short}} device by pinging the IP address that corresponds to the [10GbE data transfer port](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#network-settings) on the device.
-3. From the File Explorer, right-click **Network** and then select **Map network drive...** to open the Map Network Drive dialog.
+3. From the File Explorer, right-click **Network** and then select **Map network drive** to open the Map Network Drive dialog.
 
    ![Open map network drive dialog](images/map-network-drive.png)
 4. Enter the IP address that you tested in step 1, and click **Browse**.
