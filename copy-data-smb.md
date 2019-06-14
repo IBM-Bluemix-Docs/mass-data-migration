@@ -64,7 +64,7 @@ After you unlock and activate the storage pool, you can mount the SMB share on y
 Before you mount the SMB share to your Windows server:
 
 - **Understand if your Windows server is joined to Active Directory.** If you're mounting the share to a Windows server that is joined to Active Directory, you must [join the {{site.data.keyword.mdms_short}} device to the Active Directory domain](#join-device-active-directory) before you can proceed with the following steps.
-- **Understand if your environment requires SMB packet signing.** [SMB packet signing](https://support.microsoft.com/en-us/help/887429/overview-of-server-message-block-signing){: external}. adds extra security features to your network communications that can cause connection issues when mounting the device to your server. If your environment does not need SMB packet signing, you can [disable signing on the client](#disable-smb-signing) to avoid connection issues and increase the performance of your data transfer.
+- **Understand if your environment requires SMB packet signing.** SMB packet signing adds extra security features to your network communications that can cause connection issues when mounting the device to your server. If your environment does not need SMB packet signing, you can [disable signing on the client](#disable-smb-signing) to avoid connection issues and increase the performance of your data transfer.
 
 ### Mounting the share using a Windows client
 {: #mount-smb-share-windows-client}
@@ -96,7 +96,7 @@ To disable SMB signing on a Windows server, set the following registry keys to z
 
 ```[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters\"requiresecuritysignature"=dword:00000000][HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Lanmanworkstation\Parameters\"requiresecuritysignature"=dword:00000000] 
 ```
-{: pre}
+{: screen}
 
 ## Copying data onto the SMB share
 {: #copy-data-smb}
@@ -104,7 +104,6 @@ To disable SMB signing on a Windows server, set the following registry keys to z
 Now that you're connected to the SMB share, you can start and monitor the data copy to the device.
 
 1. Copy data onto the network share by using a file copy tool that is compatible with your host computer.
-
 2. In the Common Tasks wizard, click **View Network Activity** to show inbound Ethernet load as data is transferred to the device on the 10Gb link.
    
     ![View activity](images/NetworkPerf.png)
