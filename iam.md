@@ -27,7 +27,7 @@ subcollection: mass-data-migration
 {{site.data.keyword.mdms_full}} supports a centralized access control system, governed by {{site.data.keyword.iamlong}}, to help you manage users and access to your {{site.data.keyword.mdms_short}} request from the {{site.data.keyword.cloud_notm}} console.
 {: shortdesc}
 
-This capability is available as part of the {{site.data.keyword.mdms_short}} beta release. To find out more about participating in the beta program, check out [Getting access to beta](/docs/services/mass-data-migration?topic=mass-data-migration-releases#beta).
+This capability is available as part of the {{site.data.keyword.mdms_short}} beta release. To find out more about participating in the beta program, check out [Getting access to beta](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-releases#beta).
 {: note}
 
 ## Roles and permissions
@@ -48,7 +48,7 @@ The following table shows how {{site.data.keyword.mdms_short}} actions map to [{
   </tr>
   <tr>
     <td><p>Viewer</p></td>
-    <td><p>A viewer has view-only access to services instances within an {{site.data.keyword.cloud_notm}} account. Viewers cannot create or modify service instances.</p></td>
+    <td><p>A viewer has view-only access to service instances within an {{site.data.keyword.cloud_notm}} account. Viewers cannot create or modify service instances.</p></td>
     <td>
       <p>
         <ul>

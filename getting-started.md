@@ -27,7 +27,7 @@ subcollection: mass-data-migration
 {{site.data.keyword.mdms_full}} helps you move terabytes to petabytes of data into {{site.data.keyword.cloud_notm}} in a fast, simple, and secure way. This tutorial shows you how to request your migration device by using the {{site.data.keyword.cloud_notm}} infrastructure portal.
 {: shortdesc}
 
-Interested in trying new {{site.data.keyword.mdms_short}} features? You can preview upcoming service enhancements by participating in the {{site.data.keyword.mdms_short}} beta program. To find out more, see [Getting access to beta](/docs/services/mass-data-migration?topic=mass-data-migration-releases#beta).
+Interested in trying new {{site.data.keyword.mdms_short}} features? You can preview upcoming service enhancements by participating in the {{site.data.keyword.mdms_short}} beta program. To find out more, see [Getting access to beta](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-releases#beta).
 {: tip}
 
 ## Before you begin
@@ -35,7 +35,7 @@ Interested in trying new {{site.data.keyword.mdms_short}} features? You can prev
 
 Before you order a {{site.data.keyword.mdms_short}} device:
 
-- Plan your migration by reviewing the [regions and locations](/docs/services/mass-data-migration?topic=mass-data-migration-regions) where {{site.data.keyword.mdms_short}} is available.
+- Plan your migration by reviewing the [regions and locations](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-regions) where {{site.data.keyword.mdms_short}} is available.
 - Ensure that you have a provisioned instance of [{{site.data.keyword.cos_full}}](https://{DomainName}/catalog/services/cloud-object-storage){: external} for your {{site.data.keyword.cloud_notm}} account. 
 - Understand your network connection types and speeds.
 - Gather your network settings, such as IP addresses and other routing details, for connecting the device to your source server.
@@ -156,7 +156,7 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
       <caption style="caption-side:bottom;">Table 1. Describes the {{site.data.keyword.mdms_short}} request workflow</caption>
     </table>
 
-    When you select a delivery location for your device, [consider the weight of the device](/docs/services/mass-data-migration?topic=mass-data-migration-device-specs) and accessibility. The device, along with its hard case and a foam travel case, weighs about 60 pounds. To help with transporting the device, the travel case is equipped with wheels and a pop-up handle for easy maneuvering.
+    When you select a delivery location for your device, [consider the weight of the device](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-specs) and accessibility. The device, along with its hard case and a foam travel case, weighs about 60 pounds. To help with transporting the device, the travel case is equipped with wheels and a pop-up handle for easy maneuvering.
     {: tip}
 
 5. Read the {{site.data.keyword.mdms_short}} services agreement, and then select the **{{site.data.keyword.mdms_short}} Services Agreement** check box.
