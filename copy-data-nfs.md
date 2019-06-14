@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-05-31"
+lastupdated: "2019-06-14"
 
 keywords:
 
@@ -24,29 +24,47 @@ subcollection: mass-data-migration
 # Copying data by using NFS
 {: #copy-data-nfs}
 
-You can copy data onto a {{site.data.keyword.mdms_full}} device by using the Network File System (NFS) protocol.
+You can copy data from a Unix-based system onto a {{site.data.keyword.mdms_full}} device by using the Network File System (NFS) protocol.
 
-The device arrives pre-configured with your IP address, user name, locked storage pool, and a NFS share.
+## Managing NFS share access
+{: #manage-nfs-access}
 
-## Mounting the NFS share on your source server
+By default, the network share is set to have public access. Before you mount the share to your server, you might want to add NFS access rules on the share to match your environment or security needs. 
+
+You can manage NFS share access for an IP address, a range of IP addresses, or specific networks by using the {{site.data.keyword.mdms_short}} device user interface.
+
+To modify NFS share access:
+
+1. In the Common Tasks wizard, click **View Network Shares** to display the network shares view.
+2. Close the Common Tasks wizard, and then right-click the network share name to view a list of options. 
+3. Click **Add NFS Access...** to modify access for the NFS share.
+
+    ![description](images/add-nfs-access.png)
+   
+     For detailed information about controlling access to NFS shares on the storage device, see the [OSNEXUS QuantaStor documentation](https://wiki.osnexus.com/index.php?title=Network_Shares){:external}.
+
+## Mounting the NFS share on a Unix system
 {: #mount-nfs-share}
 
 After you unlock and activate the storage pool, you can mount the NFS share on your source server.
+
+If you're using a Unix-based system, ensure that you have NFS software, such as `nfs-common`, installed on the client server.
+{: note}
 
 To mount the network share: 
 
 1. In the Common Tasks wizard, click **View Network Shares** to display the network shares view.
 2. Close the Common Tasks wizard, and then right-click the network share name to view a list of options. 
 3. Click **View Mount Command** to review mount information for the share.
-4. Mount the share on your source server by using the specified commands.
+4. Ping the **Network Port** address that is listed in the dialog box to test network connectivity between your computer and the {{site.data.keyword.mdms_short}} device.
 
-   ![Mounting the share](/images/MountCommand.png)
+   Ensure that the **Network Port** IP address corresponds to the 10GbE data transfer port on the device. 
+5. Mount the share on your source server by using the specified commands.
 
-   Be sure to specify the IP address that corresponds to the 10GbE port on the device. To allow for greater efficiency in data transmission, [jumbo frames](https://en.wikipedia.org/wiki/Jumbo_frame){: external} are enabled by default on the 10GbE device ports. You can change this setting for your device by using the [Modify Network Port](https://wiki.osnexus.com/index.php?title=Network_Port_Modify){: external} option in the user interface.
-   {: note}
+   ![Mounting the share](images/MountCommand.png)
 
-## Copying data onto the network share
-{: #copy-data}
+## Copying data onto the NFS share
+{: #copy-data-nfs}
 
 Now that you're connected to the NFS share, you can start and monitor the data copy to the device.
 
@@ -54,10 +72,10 @@ Now that you're connected to the NFS share, you can start and monitor the data c
 
 2. In the Common Tasks wizard, click **View Network Activity** to show inbound Ethernet load as data is transferred to the device on the 10Gb link.
    
-    ![View activity](/images/NetworkPerf.png)
+    ![View activity](images/NetworkPerf.png)
 3. Click **View Storage pool** to monitor storage usage and IOPS on the device.
    
-    ![View Storage Pool](/images/PoolPerf.png)
+    ![View Storage Pool](images/PoolPerf.png)
 
 ## Next steps
 {: #import-data-next-steps}
