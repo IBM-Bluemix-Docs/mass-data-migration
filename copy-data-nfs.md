@@ -57,9 +57,9 @@ To mount the network share:
 1. In the Common Tasks wizard, click **View Network Shares** to display the network shares view.
 2. Close the Common Tasks wizard, and then right-click the network share name to view a list of options. 
 3. Click **View Mount Command** to review mount information for the share.
-4. Ping the **Network Port** address that is listed in the dialog box to test network connectivity between your computer and the {{site.data.keyword.mdms_short}} device.
+4. Ping the IP address that is listed in the dialog box to test network connectivity between your computer and the {{site.data.keyword.mdms_short}} device.
 
-   Ensure that the **Network Port** IP address corresponds to the 10GbE data transfer port on the device. 
+   Ensure that the IP address corresponds to the [10GbE data transfer port](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#network-settings) on the device. 
 5. Mount the share on your source server by using the specified commands.
 
    ![Mounting the share](images/MountCommand.png)
