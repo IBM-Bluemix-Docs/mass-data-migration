@@ -1,4 +1,25 @@
-# Mass Data Migration Service
+# IBM Cloud Mass Data Migration docs
+This repository stores documentation source files for the IBM Cloud Mass Data Migration service.
 
-The IBM Bluemix Mass Data Migration (MDMS) offering and related documentation belongs to the Storage tribe.
-If you have questions, contact the Offering Manager, Ryan Hawkins (mrhawkins@us.ibm.com).
+- [Jenkins build](https://wcp-ace-docs-jenkins.swg-devops.com/job/Docs-build/job/Docs-build-mass-data-migration/)
+- Slack channel: `#docs-mass-data-migrat`
+
+## Publishing
+
+Start in the `staging` branch of this repository. Commits to `staging` run a build, lint your content, and publish changes to the [IBM Cloud stage docs](https://test.cloud.ibm.com/docs/infrastructure/mass-data-migration). After you're happy with the changes, copy the modified files to the [IBM-Bluemix-Docs/key-protect](https://github.com/IBM-Bluemix-Docs/mass-data-migration) repository, and then validate the changes in the [IBM Cloud production docs](https://cloud.ibm.com/docs/infrastructure/mass-data-migration).
+
+### Staging
+
+1. Commit to `staging`. Check that [the build](https://wcp-ace-docs-jenkins.swg-devops.com/job/Docs-build/job/ApiDocs-build-mass-data-migration/) passes linting. 
+2. Validate your changes in [staging](https://test.cloud.ibm.com/docs/infrastructure/mass-data-migration).
+
+### Production
+
+1. Work in `staging` branch until you're happy with the changes. 
+2. Copy the changes to the [IBM-Bluemix-Docs/key-protect](https://github.com/IBM-Bluemix-Docs/mass-data-migration) repository.
+
+    **Note:** To publish changes externally, you need to use a public GitHub account. After you create an account, fork the repository, and then open a pull request to propose changes.
+
+2. After the pull request is merged, validate your changes in [production](https://cloud.ibm.com/docs/infrastructure/mass-data-migration).
+    
+
