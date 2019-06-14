@@ -198,7 +198,7 @@ Transferring data into {{site.data.keyword.cloud_notm}} occurs at no cost to you
 ## How does the {{site.data.keyword.mdms_short}} process keep the uniqueness of object names?
 {: faq}
 
-To ensure that object names are unique when they are copied into a Cloud Object SToragebucket, the file path is included a prefix in the object name. For example, `/root/user/config.ini` becomes `root/user/config.ini` when it is copied into the bucket.
+To ensure that object names are unique when they are copied into a Cloud Object Storage bucket, the file path is included a prefix in the object name. For example, `/root/user/config.ini` becomes `root/user/config.ini` when it is copied into the bucket.
 
 ## What happens if the target bucket does not exist in the {{site.data.keyword.cos_full_notm}} account?
 {: faq}
