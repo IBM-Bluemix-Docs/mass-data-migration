@@ -82,7 +82,7 @@ If you need to mount the network share onto a Windows client that isn't joined t
 
    ![Connect to the network share](images/map-network-drive-dialog.png)
 
-6. From the list of network folders, select the {{site.data.keyword.mdms_short}} share. Click **OK** to continue.
+6. From the list of network folders, select the {{site.data.keyword.mdms_short}} share. Click **OK** to confirm.
 7. Click **Finish** to mount the share on your source server.
 
     If you're able to ping the IP address but you're unable to mount the share, it's likely that SMB packet signing is enabled for your Windows server. Consider disabling SMB signing on the client and try again.
@@ -112,8 +112,6 @@ Now that you're connected to the SMB share, you can start and monitor the data c
 2. In the Common Tasks wizard, click **View Network Activity** to show inbound Ethernet load as data is transferred to the device on the 10Gb link.
    
     ![View activity](images/NetworkPerf.png)
-
-    Click **OK** to continue.
 3. Click **View Storage pool** to monitor storage usage and IOPS on the device.
    
     ![View Storage Pool](images/PoolPerf.png)
