@@ -24,7 +24,7 @@ subcollection: mass-data-migration
 # Copying data by using NFS
 {: #copy-data-nfs}
 
-You can copy data from a Unix-based system onto a {{site.data.keyword.mdms_full}} device by using the Network File System (NFS) protocol.
+You can copy data from your Unix-based system onto a network share on the {{site.data.keyword.mdms_full}} device by using the Network File System (NFS) protocol.
 
 ## Managing NFS share access
 {: #manage-nfs-access}
