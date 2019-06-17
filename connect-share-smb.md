@@ -26,11 +26,6 @@ subcollection: mass-data-migration
 
 To prepare for data copy, you can access the network share on the {{site.data.keyword.mdms_full}} device by using the Server Message Block (SMB) file transfer protocol on your Microsoft Windows machine.
 
-With SMB, you can share files to the {{site.data.keyword.mdms_short}} device over a network. 
-
-## Before you begin
-{: #connect-smb-share-prereqs}
-
 Before you connect to the share:
 
 - **Determine if you need to join the {{site.data.keyword.mdms_short}} device to Active Directory.** If you're mounting the share to a Windows server that is joined to Active Directory, you must also [join the device to the Active Directory domain](#use-active-directory) before you can connect to the share.

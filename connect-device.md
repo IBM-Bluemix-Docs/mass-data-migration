@@ -27,9 +27,6 @@ subcollection: mass-data-migration
 {{site.data.keyword.mdms_full}} devices arrive pre-configured and ready to connect to your network.
 {: shortdesc}
 
-## Before you begin
-{: #connect-device-prereqs}
-
 Before you power on the {{site.data.keyword.mdms_short}} device:
 
 - Ensure that the device is at room temperature.
