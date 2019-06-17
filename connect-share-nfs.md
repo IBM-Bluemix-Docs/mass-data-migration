@@ -69,7 +69,8 @@ To mount the network share:
     The _Network Port_ value corresponds to the data transfer port on the {{site.data.keyword.mdms_short}} device. The _Mount command_ value specifies the command that is used to mount and connect to the share.
 5. Ping the IP address that is listed in the dialog box to test network connectivity between your computer and the {{site.data.keyword.mdms_short}} device.
 
-   Ensure that the IP address corresponds to the [10GbE data transfer port](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#network-settings) on the device. 
+   Ensure that the IP address corresponds to the [10GbE data transfer port](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#network-settings) on the device.
+   {: note}  
 6. Copy the mount command that is listed in the dialog box and paste the command into a terminal session on your computer.
 7. Run the command to mount the share to your server.
 
