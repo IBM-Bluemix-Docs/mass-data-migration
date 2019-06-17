@@ -29,10 +29,11 @@ To prepare for data copy, you can access the network share on the {{site.data.ke
 With NFS, you can share files to the {{site.data.keyword.mdms_short}} device over a network. 
 
 ## Before you begin
+{: #connect-nfs-share-prereqs}
 
 Before you connect to the share:
 
-- Ensure that you have NFS software, such as `nfs-common`, installed on your client. To install the `nfs-common` package, run by running the `sudo apt install nfs-common` in your terminal.
+- Ensure that you have NFS software, such as `nfs-common`, installed on your client. You can install the `nfs-common` package by running the `sudo apt install nfs-common` from your terminal session.
 
 ## Managing access to the NFS share
 {: #manage-nfs-share-access}

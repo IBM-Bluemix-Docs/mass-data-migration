@@ -31,7 +31,7 @@ With SMB, you can share files to the {{site.data.keyword.mdms_short}} device ove
 ## Before you begin
 {: #connect-smb-share-prereqs}
 
-Before you mount the share:
+Before you connect to the share:
 
 - **Determine if you need to join the {{site.data.keyword.mdms_short}} device to Active Directory.** If you're mounting the share to a Windows server that is joined to Active Directory, you must also [join the device to the Active Directory domain](#use-active-directory) before you can connect to the share.
 - **Determine if your environment requires SMB signing.** Joining the {{site.data.keyword.mdms_short}} device to the Active Directory enables SMB signing by default. If your environment does not need SMB signing, you can [disable SMB signing on the client](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-troubleshooting#unable-to-mount-smb-share) to avoid connection issues and increase the performance of your data transfer.
