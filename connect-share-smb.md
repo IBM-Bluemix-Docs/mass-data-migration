@@ -21,10 +21,11 @@ subcollection: mass-data-migration
 {:important: .important}
 {:download: .download}
 
-# Connecting to the SMB share
+# Connecting to the network share by using SMB
 {: #connect-smb-share}
 
 To prepare for data copy, you can access the network share on the {{site.data.keyword.mdms_full}} device by using the Server Message Block (SMB) protocol.
+{: shortdesc}
 
 Before you connect to the share:
 
