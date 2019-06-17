@@ -26,7 +26,11 @@ subcollection: mass-data-migration
 
 To prepare for data copy, you can access the network share on the {{site.data.keyword.mdms_full}} device by using the Network File System (NFS) file transfer protocol on your Unix system.
 
-With NFS, you can share files to the {{site.data.keyword.mdms_short}} device over a network. Before you connect to the share:
+With NFS, you can share files to the {{site.data.keyword.mdms_short}} device over a network. 
+
+## Before you begin
+
+Before you connect to the share:
 
 - Ensure that you have NFS software, such as `nfs-common`, installed on your client. To install the `nfs-common` package, run by running the `sudo apt install nfs-common` in your terminal.
 
@@ -48,7 +52,6 @@ To modify NFS share access:
 4. Click **Add NFS Access** to modify access for the NFS share.
 
     ![description](images/add-nfs-access.png){: caption="Figure 2. Displays the list of options that are associated with the network share." caption-side="bottom"}
-
 
 ## Mounting the NFS share on a Unix system
 {: #mount-nfs-share}
