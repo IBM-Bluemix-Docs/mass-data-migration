@@ -30,7 +30,8 @@ IBM Cloud Mass Data Migration
     {: .topicgroup}
     Importing your data
         unlock-storage-pool.md
-        connect-network-share.md
+        connect-share-nfs.md
+        connect-share-smb.md
         copy-data.md
         
     return-device.md
