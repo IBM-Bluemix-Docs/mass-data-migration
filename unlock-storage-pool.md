@@ -24,7 +24,7 @@ subcollection: mass-data-migration
 # Unlocking the storage pool
 {: #unlock-storage-pool}
 
-You can import data into the {{site.data.keyword.mdms_full}} device by first unlocking and activating the storage pool that is provisioned for the device.
+You can copy data onto the {{site.data.keyword.mdms_full}} device by first unlocking and activating the storage pool that is provisioned for the device.
 {: shortdesc}
 
 ## Retrieving your storage pool passphrase (beta)
