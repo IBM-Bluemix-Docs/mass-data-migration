@@ -24,7 +24,7 @@ subcollection: mass-data-migration
 # Connecting to the SMB share
 {: #connect-smb-share}
 
-To prepare for data copy, you can access the network share on the {{site.data.keyword.mdms_full}} device by using the Server Message Block (SMB) file transfer protocol on your Microsoft Windows machine.
+To prepare for data copy, you can access the network share on the {{site.data.keyword.mdms_full}} device by using the Server Message Block (SMB) protocol.
 
 Before you connect to the share:
 
