@@ -33,8 +33,8 @@ With SMB, you can share files to the {{site.data.keyword.mdms_short}} device ove
 
 Before you mount the share:
 
-- Determine if you need to [join the {{site.data.keyword.mdms_short}} device to Active Directory](#use-active-directory). If you're mounting the share to a Windows server that is joined to Active Directory, you must also join the device to the Active Directory domain before you can connect to the share.
-- Determine if your environment requires SMB signing. Joining the {{site.data.keyword.mdms_short}} device to the Active Directory enables SMB signing by default. If your environment does not need SMB signing, you can [disable SMB signing on the client](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-troubleshooting#unable-to-mount-smb-share) to avoid connection issues and increase the performance of your data transfer.
+- **Determine if you need to join the {{site.data.keyword.mdms_short}} device to Active Directory.** If you're mounting the share to a Windows server that is joined to Active Directory, you must also [join the device to the Active Directory domain](#use-active-directory) before you can connect to the share.
+- **Determine if your environment requires SMB signing.** Joining the {{site.data.keyword.mdms_short}} device to the Active Directory enables SMB signing by default. If your environment does not need SMB signing, you can [disable SMB signing on the client](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-troubleshooting#unable-to-mount-smb-share) to avoid connection issues and increase the performance of your data transfer.
 
 ## Managing SMB share access
 {: #manage-smb-share-access}
@@ -55,7 +55,7 @@ To modify SMB share access:
 
     ![description](images/add-smb-access.png){: caption="Figure 2. Displays the list of options that are associated with the network share." caption-side="bottom"}
 
-### Using Active Directory
+## Joining the device to Active Directory
 {: #use-active-directory}
 
 If you're using SMB on a Windows server, you can manage access permissions, file ownership, and file attributes for your data by joining the {{site.data.keyword.mdms_short}} device to Active Directory. Joining the device to an Active Directory domain enables SMB access for specific AD users and AD groups. 
