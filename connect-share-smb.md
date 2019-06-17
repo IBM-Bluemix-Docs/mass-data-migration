@@ -26,9 +26,9 @@ subcollection: mass-data-migration
 
 To prepare for data copy, you can access the network share on the {{site.data.keyword.mdms_full}} device by using the Server Message Block (SMB) file transfer protocol on your Microsoft Windows machine.
 
-Before you mount the share:
+With SMB, you can share files to the {{site.data.keyword.mdms_short}} device over a network. Before you mount the share:
 
-- Determine if you need to [join the {{site.data.keyword.mdms_short}} device to Active Directory](#use-active-directory). If you're mounting the SMB share to a Windows server that is joined to Active Directory, you must also join the device to the Active Directory domain before you can connect to the share.
+- Determine if you need to [join the {{site.data.keyword.mdms_short}} device to Active Directory](#use-active-directory). If you're mounting the share to a Windows server that is joined to Active Directory, you must also join the device to the Active Directory domain before you can connect to the share.
 - Determine if your environment requires SMB signing. Joining the {{site.data.keyword.mdms_short}} device to the Active Directory enables SMB signing by default. If your environment does not need SMB signing, you can [disable SMB signing on the client](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-troubleshooting#unable-to-mount-smb-share) to avoid connection issues and increase the performance of your data transfer.
 
 ## Managing SMB share access
@@ -73,10 +73,10 @@ To mount the network share:
    Ensure that the IP address corresponds to the [10GbE data transfer port](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#network-settings) on the device. 
 6. From the File Explorer, right-click **Network** and then select **Map network drive** to open the Map Network Drive dialog.
 
-   ![Open map network drive dialog](images/map-network-drive.png){: caption="Figure 3. Displays the Network options from Windows File Explorer."}
+   ![Open map network drive dialog](images/map-network-drive.png){: caption="Figure 3. Displays the Network options from Windows File Explorer." caption-side="bottom"}
 7. Enter the IP address that you tested in step 1, and click **Browse**.
 
-   ![Connect to the network share](images/map-network-drive-dialog.png){: caption="Figure 4. Displays the Map Network Drive dialog."}
+   ![Connect to the network share](images/map-network-drive-dialog.png){: caption="Figure 4. Displays the Map Network Drive dialog." caption-side="bottom"}
 8. From the list of network folders, select the {{site.data.keyword.mdms_short}} share. Click **OK** to confirm.
 9. Click **Finish** to mount the share on your source server.
 

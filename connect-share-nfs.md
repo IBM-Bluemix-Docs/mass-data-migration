@@ -64,7 +64,7 @@ To mount the network share:
 
     The following image shows the View Mount Command dialog box with example values.
 
-    ![Mounting the share](images/mount-command.png){: caption="Figure 3. Displays the mount information that is required for accessing the network share."}
+    ![Mounting the share](images/mount-command.png){: caption="Figure 3. Displays the mount information that is required for accessing the network share." caption-side="bottom"}
 
     The _Network Port_ value corresponds to the data transfer port on the {{site.data.keyword.mdms_short}} device. The _Mount command_ value specifies the command that is used to mount and connect to the share.
 5. Ping the IP address that is listed in the dialog box to test network connectivity between your computer and the {{site.data.keyword.mdms_short}} device.
