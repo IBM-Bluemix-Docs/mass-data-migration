@@ -58,8 +58,6 @@ If you're using SMB on a Windows server, you can manage access permissions, file
 
 To learn more about joining the device to Active Directory, see the [OSNEXUS QuantaStor documentation](https://wiki.osnexus.com/index.php?title=Network_Shares#Joining_an_AD_Domain){:external}.
 
-## Disabling SMB signing
-
 ## Mounting the SMB share on a Windows system
 {: #mount-smb-share}
 
