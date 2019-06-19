@@ -82,7 +82,7 @@ Both device models offer the same functionality, but the cabling instructions ar
     <dt>Device management port</dt>
         <dd>You can manage the {{site.data.keyword.mdms_short}} device by using a local, web-based device interface that you serve on your remote computer. The device management port on the {{site.data.keyword.mdms_short}} device provides administrative access to the UI. To run the user interface, you connect your computer to the device management port on the device, and then reference the corresponding IP address in your browser.</dd>
     <dt>Data transfer port</dt>
-        <dd>You can also allocate only the 10GbE port on the device for both data movement and device management connections. When you request a {{site.data.keyword.mdms_short}} device, you can specify this configuration in the order form by providing the same static IP address, netmask, and gateway address for both the management and data ports. The device arrives with the 10Gb port that is configured with your IP information, including a gateway.</dd>
+        <dd>The data transfer port handles data movement from your storage system onto the {{site.data.keyword.mdms_short}} device. The port runs at 10GbE speed.</dd>
 <dl>
 
 Configuring a gateway on both the device management port and the data transfer port is not supported. If you need to configure routing on the data transfer port by adding a gateway (not recommended), you must also be able to reach the IP address for the data transfer port from your browser to run the device user interface.
@@ -95,7 +95,7 @@ Configuring a gateway on both the device management port and the data transfer p
 
 <dl>
     <dt>Common configuration</dt>
-        <dd>In most cases, {{site.data.keyword.mdms_short}} devices are configured by designating the 1GbE port on the device for device management and allocating the 10GbE port for data transfer. For the device management port, you specify the static IP address, the netmask, and the default gateway for your remote computer. For the data transfer port, you provide the static IP address and netmask for the server with a gateway and a 10GbE data port on the same subnet as the data source. This is represented on the order form.</dd>
+        <dd>In most cases, {{site.data.keyword.mdms_short}} devices are configured by designating the 1GbE port on the device for device management and using the 10GbE port for data transfer. For the device management port, you specify the static IP address, the netmask, and the default gateway for your remote computer. For the data transfer port, you provide the static IP address and netmask for the server with a gateway and a 10GbE data port on the same subnet as the data source. This is represented on the order form.</dd>
     <dt>Optional configuration</dt>
-        <dd>You can also allocate only the 10GbE port on the device for both data movement and device management connections. When you request a {{site.data.keyword.mdms_short}} device, you can specify this configuration in the order form by providing the same static IP address, netmask, and gateway address for both the management and data ports. The device arrives with the 10GbE port that is configured with your IP information, including a gateway.</dd>
+        <dd>You can also use only the 10GbE port on the device for both data movement and device management connections. When you request a {{site.data.keyword.mdms_short}} device, you can specify this configuration in the order form by providing the same static IP address, netmask, and gateway address for both the management and data ports. The device arrives with the 10GbE port that is configured with your IP information, including a gateway.</dd>
 <dl>
