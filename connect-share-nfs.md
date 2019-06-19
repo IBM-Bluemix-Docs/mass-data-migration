@@ -77,3 +77,4 @@ To mount the network share:
 ## Next steps
 {: #connect-nfs-share-next-steps}
 
+- Start the [data copy process](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-copy-data).
