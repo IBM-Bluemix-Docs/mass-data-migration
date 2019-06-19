@@ -1,4 +1,8 @@
-# Mass Data Migration Service
+# IBM Cloud Mass Data Migration docs
+This repository stores documentation source files for the IBM Cloud Mass Data Migration service.
 
-The IBM Bluemix Mass Data Migration (MDMS) offering and related documentation belongs to the Storage tribe.
-If you have questions, contact the Offering Manager, Ryan Hawkins (mrhawkins@us.ibm.com).
+To view the live documentation, check out the <a href="https://cloud.ibm.com/docs/infrastructure/mass-data-migration" target="_blank"> IBM Cloud Docs</a> website. 
+
+## Contributing
+
+If you see a bug, you can contribute to this repository by [raising an issue](https://github.com/IBM-Bluemix-Docs/mass-data-migration/issues/new), or creating a pull request. 

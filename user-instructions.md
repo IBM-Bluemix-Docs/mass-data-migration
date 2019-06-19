@@ -2,23 +2,30 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-04-19"
 
 keywords:
 
 subcollection: mass-data-migration
 
 ---
-{:new_window: target="_blank"}
+
+{:shortdesc: .shortdesc}
+{:screen: .screen}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
+{:codeblock: .codeblock}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:download: .download}
 
-# Importing Data to the IBM Cloud Mass Migration Device
+# Importing Data to the {{site.data.keyword.mdms_full_notm}} Device
 {: #userguide}
 
-The {{site.data.keyword.cloud}} Mass Migration device is a portable storage device able to present mountable Network file system (NFS) or FileNet Content Federations Services (CFS) shares. The device is managed through a web browser interface. The device is shipped to your data center, loaded with data onsite, then returned to an {{site.data.keyword.BluSoftlayer_full}} data center and loaded into your {{site.data.keyword.cos_full}} account.
-
+The {{site.data.keyword.mdms_full}} device is a portable storage device able to present mountable Network file system (NFS) or FileNet Content Federations Services (CFS) shares. The device is managed through a web browser interface. The device is shipped to your data center, loaded with data onsite, then returned to an {{site.data.keyword.BluSoftlayer_full}} data center and loaded into your {{site.data.keyword.cos_full}} account.
+{: shortdesc}
 
 ## Powering up the Device
 
@@ -54,7 +61,7 @@ Ports originate from the device as RJ45, and CAT6A cables are supplied. Copper S
 
 - Eth1 (`1GbE-B`) is typically used for device management, and as such, must have a gateway that is specified in the IP address configuration. This information can be viewed on the LCD screen after the device is powered on (see the IP address configuration section). This port is used to make the web-based UI available outside the data subnet.
 
-- Eth3 (`10GbE-B`) is used for the data transfer and can also be used for device management. This connection must either be on the same subnet as the source data, or can be directly connected to the server if needed.
+- Eth3 (`10GbE-B`) is used for the data transfer and can also be used for device management. This connection should either be on the same subnet as the source data, or can be directly connected to the server if needed.
 
 
 ### Configuring Copper SFP+ and RJ45
@@ -68,7 +75,7 @@ Ports originate from the device as Copper SFP+ and RJ45. Both CAT6A and Copper S
 - Eth2 (`10-GbE (2)`) is typically used for device management but can also be used for data transfer. This port can run at speeds of either 1 GbE or 10 GbE.
 
 
-The data transfer connection must either be on the same subnet as the source data, or be directly connected to the server.
+The data transfer connection should either be on the same subnet as the source data, or be directly connected to the server.
 
 IP settings can be viewed and managed from the LCD screen after the device is powered on (see the IP address configuration section).
 
@@ -107,21 +114,21 @@ It is NOT required to configure and use both ports if the 10-GbE port's IP can b
          If you need to alter any IP settings for Eth5 or Eth2, see the [Configuring IP addresses](#configuring-ip-addresses) section.
          {:tip}
 
-5. Open your browser, and enter `HTTPS://Your-Eth1-IPAddress`. Replace `Your-Eth1-IPAddress` with the Eth1 for your network configuration. Accept the certificate exception.
+5. Open your browser, and enter `HTTPS://Your-Management-IPAddress`. Replace `Your-Management-IPAddress` with the Eth1 or Eth2 for your network configuration. Accept the certificate exception.
 
 6. Use the provided user name and password to log in.<br/>
     ![Login page](/images/login.png)
 
-7. The workflow wizard presents access to the specific items that are generally used in order from left to right.<br/>
-    ![Workflow icons](/images/workflow.png)
+7. The common tasks wizard presents access to the specific items that are generally used in order from left to right.<br/>
+    ![Workflow icons](/images/CommonTasks.png)
 
-    The workflow can be reopened by using the **Workflow Manager** in the upper-left area of the interface.
+    The workflow can be reopened by clicking the **Common Tasks** in the upper-left area of the interface.
     {:tip}
 
 8.	Activate the pre-configured storage pool.
     - Click **Unlock and Start Storage Pool**.
     - Enter your Storage Pool Passphrase, and click **OK**.
-      ![Activate Storage Pool](/images/Unlock.png)
+      ![Activate Storage Pool](/images/StartStoragePool.png)
 
 9. By default, the share has both NFS and SMB protocols that are enabled with no access restrictions. To restrict access to this share (for NFS or SMB), right-click the share name, and select the appropriate menu item.<br/>
    ![Restrict Share Access](/images/ShareAccessControl.png)
@@ -130,13 +137,13 @@ It is NOT required to configure and use both ports if the 10-GbE port's IP can b
     ![Mounting the share](/images/MountCommand.png)
 
 11. Copy your data to the NFS share. In the workflow, click **View Network Activity** to show inbound Ethernet load as data is transferred to the device on the 10-GB link.
-    ![View activity](/images/SystemNetworkPerf.png)
+    ![View activity](/images/NetworkPerf.png)
 
 12. In the workflow, click **View Storage pool** to monitor storage usage and IOPS on the device.
-    ![View Storage Pool](/images/SystemStoragePoolPerf.png)
+    ![View Storage Pool](/images/PoolPerf.png)
 
 13.	When the load is complete, you can gracefully power down the system. In the workflow, click **Shutdown Appliance...**.
-    ![Shutting Appliance Down](/images/SystemShutdown.png)
+    ![Shutting Appliance Down](/images/ShutDown.png)
 
 14.	Disconnect the device, return the power cable, Ethernet cable, and SFP+ adapter into their storage locations under the lid.
 

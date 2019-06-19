@@ -2,25 +2,34 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-19"
 
 keywords:
 
 subcollection: mass-data-migration
 
 ---
+
+{:shortdesc: .shortdesc}
+{:screen: .screen}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
 {:codeblock: .codeblock}
-{:new_window: target="_blank"}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:download: .download}
 
-# Migrating Netezza databases to {{site.data.keyword.dashdbshort_notm}}
-{: #migratingNetezzaDashDB}
+# Migrating PureData System for Analytics databases to {{site.data.keyword.dashdbshort_notm}}
+{: #migrate-netezza-databases}
 
-The Mass Data Migration Service (MDMS) can be used to migrate large Netezza databases to {{site.data.keyword.dashdbshort}}. You can use this document as a reference for the tools that determine the amount of data to be transferred, and exporting methods.
+The {{site.data.keyword.mdms_full}} can be used to migrate large IBM PureData™ System for Analytics (powered by Netezza® technology) databases to {{site.data.keyword.dashdbshort}}. You can use this document as a reference for the tools that determine the amount of data to be transferred, and exporting methods.
+{: shortdesc}
 
 ## Determining the database object size
+{: #determine-db-object-size}
+
 1. From [IBM Support > Fix Central > Netezza Tools ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window}, download the appropriate Netezza Tools version that corresponds to your Netezza instance.
 
    By default, support tools are installed on Netezza server at directory `/nz/support-IBM_Netezza<version>/bin`
@@ -81,6 +90,7 @@ The Mass Data Migration Service (MDMS) can be used to migrate large Netezza data
       {: codeblock}
 
 ## Extracting data and onboarding
+{: #extract-data}
 
 You can use two options to extract the data from Netezza.
 - Use the `nz_backup` utility.
@@ -93,12 +103,14 @@ You can use two options to extract the data from Netezza.
 
 - Use the `CREATE EXTERNAL TABLE` statement.
    - Select `FORMAT` = ”Text”
-   - Provide the DashDB team the `USING` clause that was used for export for reuse during the `LOAD` process.
+   - Provide the {{site.data.keyword.dashdbshort_notm}} team the `USING` clause that was used for export for reuse during the `LOAD` process.
 
 
 ## Validating data
+{: #validate-data}
+
 The data can be reread back on the Netezza by using the `SELECT FROM` statement with the external table `myfile` and a `USING(....)` clause to ensure that the data is correct.
 
 **Additional information**
 
-More information about Netezza, see [IBM Netezza database user documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.
+More information about PureData System for Analytics, see [IBM Netezza database user documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.

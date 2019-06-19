@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-04-18"
+lastupdated: "2019-06-19"
 
 keywords:
 
@@ -11,16 +11,18 @@ subcollection: mass-data-migration
 ---
 
 {:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
 {:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
+{:codeblock: .codeblock}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:download: .download}
 
-# Device Specs
-{: #devicespecs}
+# Device specifications
+{: #device-specs}
 
 <table role="presentation">
         <colgroup>
