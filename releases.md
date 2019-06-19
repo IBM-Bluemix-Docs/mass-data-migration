@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-03"
+lastupdated: "2019-06-19"
 
 keywords: release notes, changelog, what's new, service updates, service bulletin
 

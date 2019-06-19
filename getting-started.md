@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-07"
+lastupdated: "2019-06-19"
 
 keywords:
 
@@ -107,61 +107,6 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
     {: tip}
 5. Read the {{site.data.keyword.mdms_short}} services agreement, and then select the check box.
 6. Click **Place Request** to complete your order. 
-
-<!-- Beta only
-
-1. In the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog) search bar, type _{{site.data.keyword.mdms_short}}_.
-2. Click the **{{site.data.keyword.mdms_short}}** tile.
-3. In the application details page, select the **Place an order** tab.
-4. Start your {{site.data.keyword.mdms_short}} request by specifying the following details.
-
-    <table>
-      <tr>
-        <th>Action</th>
-        <th>Description</th>
-      </tr>
-      <tr>
-        <td>Add a request name</td>
-        <td>Enter an alias to identify and track your {{site.data.keyword.mdms_short}} request. Then, select the resource group that contains your provisioned instance of Cloud Object Storage.</td>
-      </tr>
-      <tr>
-        <td>Select your Cloud Object Storage instance</td>
-        <td>From the drop-down list, select your provisioned instance of Cloud Object Storage. Then, select the name that you assigned to the storage bucket where you want to store your migrated data.</td>
-      </tr>
-      <tr>
-        <td>Add a shipping address</td>
-        <td>Enter your shipping information, such as the shipping address and name of the person who will accept the delivery. From the list of countries, select the country that corresponds with the storage bucket destination that you selected in the previous step.</td>
-      </tr>
-      <tr>
-        <td>Add your contact information</td>
-        <td>Enter the name of the person who will manage data migration to your device.</td>
-      </tr>
-      <tr>
-        <td>Configure network settings</td>
-        <td>
-          <p>Configure settings for the data transfer connection by entering your network configuration details.</p>
-          <p>Provide the following <a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#network-settings">network settings</a>:</p>
-          <p>
-            <ul>
-              <li><i>Device management settings.</i> Enter the static IP address, the netmask, and the default gateway for your remote computer.</li>
-              <li><i>Data transfer settings.</i> Enter the static IP address and the netmask for the server where your source data resides.</li>
-            </ul>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td>Review the order</td>
-        <td>Review and confirm details about your order.</td>
-      </tr>
-      <caption style="caption-side:bottom;">Table 1. Describes the {{site.data.keyword.mdms_short}} request workflow</caption>
-    </table>
-
-    When you select a delivery location for your device, [consider the weight of the device](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-specs) and accessibility. The device, along with its hard case and a foam travel case, weighs about 60 pounds. To help with transporting the device, the travel case is equipped with wheels and a pop-up handle for easy maneuvering.
-    {: tip}
-
-5. Read the {{site.data.keyword.mdms_short}} services agreement, and then select the **{{site.data.keyword.mdms_short}} Services Agreement** check box.
-6. Click **Submit order** to complete your request. 
--->
 
 ## What's next
 {: #get-started-next-steps}

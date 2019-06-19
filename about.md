@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-03"
+lastupdated: "2019-06-19"
 
 keywords:
 
@@ -52,7 +52,7 @@ You can compare your data migration options on {{site.data.keyword.cloud_notm}} 
 
 The following image describes the {{site.data.keyword.mdms_short}} process.
 
-![Describes the Mass Data Migration process.](images/mdms-workflow.png)
+![Describes the Mass Data Migration process.](images/mdms-workflow.png){: caption="Figure 1. Displays the Mass Data Migration workflow." caption-side="bottom"}
 
 ## Service components
 {: #service-componenets}

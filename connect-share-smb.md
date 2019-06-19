@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-06-17"
+lastupdated: "2019-06-19"
 
 keywords:
 
@@ -47,9 +47,9 @@ To modify SMB share access:
 
    ![Workflow icons](images/workflow.png){: caption="Figure 1. Displays workflow icons for using the storage device." caption-side="bottom"}
 3. Close the Common Tasks wizard, and then right-click the network share name to view a list of options. 
-4. Click **Modify Share & SMB Access** to modify access for your SMB share.
+4. Click **Modify Share & SMB Access** to modify access for the SMB share.
 
-    ![description](images/add-smb-access.png){: caption="Figure 2. Displays the list of options that are associated with the network share." caption-side="bottom"}
+    ![Modify access for the SMB share](images/add-smb-access.png){: caption="Figure 2. Displays the list of options that are associated with the network share." caption-side="bottom"}
 
 ## Using Active Directory
 {: #use-active-directory}

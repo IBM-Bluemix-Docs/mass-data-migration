@@ -48,7 +48,7 @@ To modify NFS share access:
 3. Close the Common Tasks wizard, and then right-click the network share name to view a list of options. 
 4. Click **Add NFS Access** to modify access for the NFS share.
 
-    ![description](images/add-nfs-access.png){: caption="Figure 2. Displays the list of options that are associated with the network share." caption-side="bottom"}
+    ![Modify access for the NFS share](images/add-nfs-access.png){: caption="Figure 2. Displays the list of options that are associated with the network share." caption-side="bottom"}
 
 ## Mounting the NFS share on a Unix system
 {: #mount-nfs-share}
