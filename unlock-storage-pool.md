@@ -60,6 +60,6 @@ Unlock the empty storage pool by using the credentials that you retrieved in the
 ## Next steps
 {: #unlock-storage-pool-next-steps}
 
-- If you're using a Unix machine, [connect the network share by using NFS](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-connect-share-nfs).
-- If you're using a Windows machine, [connect to the network share by using SMB](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-connect-share-smb).
+- If you're using a Unix machine, [connect the network share by using NFS](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-connect-nfs-share).
+- If you're using a Windows machine, [connect to the network share by using SMB](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-connect-smb-share).
 - Start the [data copy process](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-data-copy).
