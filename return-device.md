@@ -34,7 +34,7 @@ When the data copy process is complete, you can gracefully power down the system
 
 1. In the Common Tasks wizard, click **Shutdown Appliance**.
 
-    ![Shutting Appliance Down](/images/ShutDown.png)
+    ![Shutting Appliance Down](images/ShutDown.png)
 
     Click **OK** to confirm.
 2. Power off the device by using the **System On / Off** button on the device. 
