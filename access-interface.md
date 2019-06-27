@@ -59,11 +59,11 @@ Use the device credentials that you retrieved in the previous step to log in to 
 
 2. Log in to the device UI by using the username and password that you retrieved in the previous step. 
 
-   ![Login page](/images/login.png)
+   ![Login page](images/login.png)
    
    The Common Tasks wizard is displayed. Use the options from left to right to begin importing your data.
 
-   ![Workflow icons](/images/workflow.png)
+   ![Workflow icons](images/workflow.png)
 
    You can reopen the Common Tasks wizard by using the **Workflow Manager** in the upper-left area of the interface.
    {:tip}
