@@ -2,9 +2,9 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-06-17"
+lastupdated: "2019-07-10"
 
-keywords:
+keywords: mount NFS share, NFS, access network share, connect to network share
 
 subcollection: mass-data-migration
 
@@ -44,11 +44,11 @@ To modify NFS share access:
 1. [Log in to the device user interface](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-access-ui#log-in-ui).
 2. In the Common Tasks wizard, click **View Network Shares** to display the network shares view.
 
-   ![Workflow icons](images/workflow.png){: caption="Figure 1. Displays workflow icons for using the storage device." caption-side="bottom"}
+   ![Workflow icons](images/workflow.png)
 3. Close the Common Tasks wizard, and then right-click the network share name to view a list of options. 
 4. Click **Add NFS Access** to modify access for the NFS share.
 
-    ![Modify access for the NFS share](images/add-nfs-access.png){: caption="Figure 2. Displays the list of options that are associated with the network share." caption-side="bottom"}
+    ![Modify access for the NFS share](images/add-nfs-access.png)
 
 ## Mounting the NFS share on a Unix system
 {: #mount-nfs-share}
@@ -64,7 +64,7 @@ To mount the network share:
 
     The following image shows the View Mount Command dialog box with example values.
 
-    ![Mounting the share](images/mount-command.png){: caption="Figure 3. Displays the mount information that is required for accessing the network share." caption-side="bottom"}
+    ![Mounting the share](images/mount-command.png)
 
     The _Network Port_ value corresponds to the data transfer port on the {{site.data.keyword.mdms_short}} device. The _Mount command_ value specifies the command that is used to mount and connect to the share.
 5. Ping the IP address that is listed in the dialog box to test network connectivity between your computer and the {{site.data.keyword.mdms_short}} device.

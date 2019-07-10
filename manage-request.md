@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-06-19"
+lastupdated: "2019-07-10"
 
 keywords:
 
@@ -24,7 +24,7 @@ subcollection: mass-data-migration
 # Managing your request
 {: #manage-request}
 
-Manage and track the status of your {{site.data.keyword.mdms_full}} order by using the {{site.data.keyword.cloud_notm}} infrastructure portal.
+Manage and track the status of your {{site.data.keyword.mdms_full}} order by using the {{site.data.keyword.slportal}}.
 {: shortdesc}
 
 By participating in the {{site.data.keyword.mdms_short}} beta program, you can preview a new {{site.data.keyword.mdms_short}} service dashboard that you can access from the {{site.data.keyword.cloud_notm}} console. To find out more, see [Getting access to beta](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-beta).
@@ -33,7 +33,7 @@ By participating in the {{site.data.keyword.mdms_short}} beta program, you can p
 ## Tracking your order 
 {: #track-order}
 
-After you request a storage device, you can track the progress of your order by using the [{{site.data.keyword.mdms_short}} request details page](https://control.softlayer.com/storage/mdms){: external} that is available from the {{site.data.keyword.cloud_notm}} infrastructure portal.
+After you request a storage device, you can track the progress of your order by using the [{{site.data.keyword.mdms_short}} request details page](https://control.softlayer.com/storage/mdms){: external} that is available from the {{site.data.keyword.slportal}}.
 
 The following table shows how the order status changes as {{site.data.keyword.mdms_short}} processes the request.
 

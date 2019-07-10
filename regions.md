@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-19"
+lastupdated: "2019-07-10"
 
-keywords: available storage locations
+keywords: region availability, storage locations, storage destinations
 
 subcollection: mass-data-migration
 

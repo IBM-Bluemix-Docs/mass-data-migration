@@ -2,9 +2,9 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-06-19"
+lastupdated: "2019-07-10"
 
-keywords:
+keywords: unlock storage pool, set up device
 
 subcollection: mass-data-migration
 
@@ -32,7 +32,7 @@ You can copy data onto the {{site.data.keyword.mdms_full}} device by first unloc
 
 To access the storage pool on the {{site.data.keyword.mdms_short}} device, retrieve your device credentials by navigating to the {{site.data.keyword.mdms_short}} request details in the {{site.data.keyword.cloud_notm}} console.
 
-This feature is available as part of the [{{site.data.keyword.mdms_short}} beta release](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-beta). You can also access credentials for your storage device from the _Request Details_ section in the [{{site.data.keyword.cloud_notm}} infrastructure portal](https://control.softlayer.com/storage/mdms){: external}.
+This feature is available as part of the [{{site.data.keyword.mdms_short}} beta release](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-beta). You can also access credentials for your storage device from the _Request Details_ section in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/storage/mdms){: external}.
 {: note}
 
 To retrieve your storage pool passphrase:

@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-19"
+lastupdated: "2019-07-10"
 
-keywords:
+keywords: get started tutorial, data transfer, data migration, transfer data to cloud, migrate data, migrate data to cloud, Mass Data Migration
 
 subcollection: mass-data-migration
 
@@ -24,7 +24,7 @@ subcollection: mass-data-migration
 # Getting started tutorial
 {: #getting-started-tutorial}
 
-{{site.data.keyword.mdms_full}} helps you move terabytes to petabytes of data into {{site.data.keyword.cloud_notm}} in a fast, simple, and secure way. This tutorial shows you how to request your migration device by using the {{site.data.keyword.cloud_notm}} infrastructure portal.
+{{site.data.keyword.mdms_full}} helps you move terabytes to petabytes of data into {{site.data.keyword.cloud_notm}} in a fast, simple, and secure way. This tutorial shows you how to request your migration device by using the {{site.data.keyword.slportal}}.
 {: shortdesc}
 
 Interested in trying new {{site.data.keyword.mdms_short}} features? You can preview upcoming service enhancements by participating in the {{site.data.keyword.mdms_short}} beta program. To find out more, see [Getting access to beta](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-releases#beta).
@@ -50,7 +50,7 @@ After you provision an instance of Cloud Object Storage, create a storage bucket
 2. From the _Getting started_ page, click **Create Bucket**.
 3. Enter a bucket name, and select a resiliency option for your data.
    
-   The resiliency option determines how your data is distributed by the Cloud Object Storage service across a geographic area after the data is imported into the service. {{site.data.keyword.mdms_short}} supports the _Cross Region_, _Regional_, and _Single-site_ resiliency options.  
+   The resiliency option determines how your data is distributed by the Cloud Object Storage service across a geographic area after the data is imported into the service. {{site.data.keyword.mdms_short}} supports all resiliency options that are available for Cloud Object Storage.  
    {: note}
 4. From the list of locations, select the geographic area where you want your data to be physically stored after it's migrated into the storage bucket.
 5. From the list of storage classes, select **Standard**.
@@ -59,9 +59,9 @@ After you provision an instance of Cloud Object Storage, create a storage bucket
 ## Requesting a device
 {: #get-started-request-device}
 
-You can request a {{site.data.keyword.mdms_short}} device by using the {{site.data.keyword.cloud_notm}} infrastructure portal.
+You can request a {{site.data.keyword.mdms_short}} device by using the {{site.data.keyword.slportal}}.
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} infrastructure portal](https://control.softlayer.com/){: external}.
+1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. From the navigation menu, click **Storage** > **Data Migration** > **{{site.data.keyword.mdms_short}}** to access the {{site.data.keyword.mdms_short}} landing page.
 3. Click **Request Device** to open the order form.
 4. Start your {{site.data.keyword.mdms_short}} request by specifying the following details.

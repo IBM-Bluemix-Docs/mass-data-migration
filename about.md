@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-19"
+lastupdated: "2019-07-10"
 
-keywords:
+keywords: data transfer, data migration, transfer data to cloud, migrate data, migrate data to cloud, Mass Data Migration
 
 subcollection: mass-data-migration
 
@@ -52,7 +52,7 @@ You can compare your data migration options on {{site.data.keyword.cloud_notm}} 
 
 The following image describes the {{site.data.keyword.mdms_short}} process.
 
-![Describes the Mass Data Migration process.](images/mdms-workflow.png){: caption="Figure 1. Displays the Mass Data Migration workflow." caption-side="bottom"}
+![Describes the Mass Data Migration process.](images/mdms-workflow.png){: caption="Figure 1. Describes the Mass Data Migration workflow." caption-side="bottom"}
 
 ## Service components
 {: #service-componenets}
@@ -61,7 +61,7 @@ The following image describes the {{site.data.keyword.mdms_short}} process.
 
 <dl>
    <dt>{{site.data.keyword.mdms_short}} dashboard</dt>
-      <dd>You can create and track {{site.data.keyword.mdms_short}} orders from the service dashboard in the <a href="https://control.softlayer.com/" target="_blank" class="external">{{site.data.keyword.cloud_notm}} infrastructure portal</a>. In the {{site.data.keyword.mdms_short}} request page, you specify your network configuration settings for the device, retrieve credentials to log in to the device, and track the status of your order. </dd>
+      <dd>You can create and track {{site.data.keyword.mdms_short}} orders from the service dashboard in the <a href="https://control.softlayer.com/" target="_blank" class="external">{{site.data.keyword.slportal}}</a>. In the {{site.data.keyword.mdms_short}} request page, you specify your network configuration settings for the device, retrieve credentials to log in to the device, and track the status of your order. </dd>
    <dt>{{site.data.keyword.mdms_short}} device</dt>
       <dd>{{site.data.keyword.mdms_short}} provides a <a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview">portable storage device</a> that is shipped to your location. The {{site.data.keyword.mdms_short}} device arrives pre-configured and ready to connect to your network.</dd>
    <dt>Device user interface</dt>

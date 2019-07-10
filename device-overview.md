@@ -2,9 +2,9 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-06-19"
+lastupdated: "2019-07-10"
 
-keywords:
+keywords: device models, device ports, network settings, configure network  
 
 subcollection: mass-data-migration
 
@@ -58,7 +58,7 @@ The following image shows the main areas of the device.
     </td>
   </tr>
   <tr>
-    <td><a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-connect-device#set-up-SFP+-model">RJ45 / SFP+</a></td>
+    <td><p><a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-connect-device#set-up-SFP+-model">RJ45 / SFP+</a></p></td>
     <td>
       <ul>
         <li>Natively supports both RJ45 and SFP+ copper connections.</li>
@@ -83,10 +83,8 @@ Both device models offer the same functionality, but the cabling instructions ar
         <dd>You can manage the {{site.data.keyword.mdms_short}} device by using a local, web-based device interface that you serve on your remote computer. The device management port on the {{site.data.keyword.mdms_short}} device provides administrative access to the UI. To run the user interface, you connect your computer to the device management port on the device, and then reference the corresponding IP address in your browser.</dd>
     <dt>Data transfer port</dt>
         <dd>The data transfer port handles data movement from your storage system onto the {{site.data.keyword.mdms_short}} device. The port runs at 10GbE speed.</dd>
+        <dd><p class="note">Configuring a gateway on both the device management port and the data transfer port is not supported. If you need to configure routing on the data transfer port by adding a gateway (not recommended), you must also be able to reach the IP address for the data transfer port from your browser to run the device user interface.</p></dd>
 <dl>
-
-Configuring a gateway on both the device management port and the data transfer port is not supported. If you need to configure routing on the data transfer port by adding a gateway (not recommended), you must also be able to reach the IP address for the data transfer port from your browser to run the device user interface.
-{: note}
 
 ## Network settings
 {: #network-settings}
