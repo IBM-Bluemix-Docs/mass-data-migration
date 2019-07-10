@@ -2,9 +2,9 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-06-19"
+lastupdated: "2019-07-10"
 
-keywords:
+keywords: mount SMB share, SMB, Active Directory, AD, access network share, connect to network share
 
 subcollection: mass-data-migration
 
@@ -45,11 +45,11 @@ To modify SMB share access:
 1. [Log in to the device user interface](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-access-ui#log-in-ui).
 2. In the Common Tasks wizard, click **View Network Shares** to display the network shares view.
 
-   ![Workflow icons](images/workflow.png){: caption="Figure 1. Displays workflow icons for using the storage device." caption-side="bottom"}
+   ![Workflow icons](images/workflow.png)
 3. Close the Common Tasks wizard, and then right-click the network share name to view a list of options. 
 4. Click **Modify Share & SMB Access** to modify access for the SMB share.
 
-    ![Modify access for the SMB share](images/add-smb-access.png){: caption="Figure 2. Displays the list of options that are associated with the network share." caption-side="bottom"}
+    ![Modify access for the SMB share](images/add-smb-access.png)
 
 ## Using Active Directory
 {: #use-active-directory}
@@ -75,10 +75,10 @@ To mount the network share:
    {: note} 
 6. From the File Explorer, right-click **Network** and then select **Map network drive** to open the Map Network Drive dialog.
 
-   ![Open map network drive dialog](images/map-network-drive.png){: caption="Figure 3. Displays the Network options from Windows File Explorer." caption-side="bottom"}
+   ![Open map network drive dialog](images/map-network-drive.png)
 7. Enter the IP address that you tested in step 1, and click **Browse**.
 
-   ![Connect to the network share](images/map-network-drive-dialog.png){: caption="Figure 4. Displays the Map Network Drive dialog." caption-side="bottom"}
+   ![Connect to the network share](images/map-network-drive-dialog.png)
 8. From the list of network folders, select the {{site.data.keyword.mdms_short}} share. Click **OK** to confirm.
 9. Click **Finish** to mount the share on your source server.
 

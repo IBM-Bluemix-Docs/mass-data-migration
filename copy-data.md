@@ -2,9 +2,9 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-06-19"
+lastupdated: "2019-07-10"
 
-keywords:
+keywords: copy data to device, move data to device, 
 
 subcollection: mass-data-migration
 
@@ -35,11 +35,9 @@ After you connect your server to the network share, you can start and monitor th
 2. In the Common Tasks wizard, click **View Network Activity** to show inbound Ethernet load as data is transferred to the device on the 10Gb link.
    
     ![View activity](images/NetworkPerf.png)
-    {: caption="Figure 1. Displays the View Network Activity view on the device user interface." caption-side="bottom"}
 3. Click **View Storage pool** to monitor storage usage and IOPS on the device.
    
     ![View Storage Pool](images/PoolPerf.png)
-    {: caption="Figure 2. Displays the View Storage Pool dashboard on the device user interface." caption-side="bottom"}
 
 ## Next steps
 {: #import-data-next-steps}

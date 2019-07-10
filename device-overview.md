@@ -2,9 +2,9 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-06-19"
+lastupdated: "2019-07-10"
 
-keywords:
+keywords: device models, device ports, network settings, configure network  
 
 subcollection: mass-data-migration
 

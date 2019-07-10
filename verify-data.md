@@ -2,9 +2,9 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-06-19"
+lastupdated: "2019-07-10"
 
-keywords:
+keywords: verify data, access data, Cloud Object Storage, move data to Block Storage, move data to File Storage
 
 subcollection: mass-data-migration
 
