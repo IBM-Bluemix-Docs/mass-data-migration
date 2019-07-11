@@ -84,7 +84,7 @@ Both device models offer the same functionality, but the cabling instructions ar
     <dt>Data transfer port</dt>
         <dd>The data transfer port handles data movement from your storage system onto the {{site.data.keyword.mdms_short}} device. The port runs at 10GbE speed.</dd>
         <dd><p class="note">Configuring a gateway on both the device management port and the data transfer port is not supported. If you need to configure routing on the data transfer port by adding a gateway (not recommended), you must also be able to reach the IP address for the data transfer port from your browser to run the device user interface.</p></dd>
-<dl>
+</dl>
 
 ## Network settings
 {: #network-settings}
