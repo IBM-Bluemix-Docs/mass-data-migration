@@ -575,7 +575,7 @@
 	<rect x="65.8" y="185.3" class="st10" width="21.7" height="6.7"/>
 	<text transform="matrix(1 0 0 1 65.8335 189.7734)" class="st21 st22">1GbE-A</text>
 	<rect x="116" y="185.3" class="st10" width="24.7" height="6.7"/>
-	<text transform="matrix(1 0 0 1 115.9863 189.7734)" class="st21 st22">1GbE-B</text>
+	<text transform="matrix(1 0 0 1 115.9863 189.7734)" class="st21 st22">10GbE-B</text>
 	<rect x="167.3" y="185.3" class="st10" width="25.4" height="6.7"/>
 	<text transform="matrix(1 0 0 1 167.2844 189.7734)" class="st21 st22">10GbE-A</text>
 	<rect x="219.3" y="185.3" class="st10" width="24.7" height="6.7"/>
@@ -601,13 +601,13 @@
 	<rect x="585" y="127" class="st10" width="19" height="4.7"/>
 	<text transform="matrix(1 0 0 1 584.9999 130.7009)" class="st21 st13">OvTemp</text>
 	<rect x="584" y="135.4" class="st10" width="20" height="4.7"/>
-	<text transform="matrix(1 0 0 1 583.9999 139.1175)" class="st21 st13">1GbE-A</text>
+	<text transform="matrix(1 0 0 1 583.9999 139.1175)" class="st21 st13">1GbE (0)</text>
 	<rect x="571" y="144" class="st10" width="33" height="4.7"/>
-	<text transform="matrix(1 0 0 1 570.9999 147.6592)" class="st21 st13">1GbE-B</text>
+	<text transform="matrix(1 0 0 1 570.9999 147.6592)" class="st21 st13">10Gb SFP+ (4)</text>
 	<rect x="571" y="152.2" class="st10" width="33" height="4.7"/>
-	<text transform="matrix(1 0 0 1 570.9999 155.9499)" class="st21 st13">10GbE-A</text>
+	<text transform="matrix(1 0 0 1 570.9999 155.9499)" class="st21 st13">10Gb SFP+ (5)</text>
 	<rect x="581" y="160.7" class="st10" width="23" height="4.7"/>
-	<text transform="matrix(1 0 0 1 580.9999 164.3675)" class="st21 st13">10GbE-B</text>
+	<text transform="matrix(1 0 0 1 580.9999 164.3675)" class="st21 st13">10GbE (2)</text>
 	<rect x="646.7" y="261.3" class="st10" width="18.7" height="6.7"/>
 	<text transform="matrix(1 0 0 1 646.6663 265.7734)" class="st21 st22">USB-3</text>
 	<rect x="704.7" y="261.3" class="st10" width="12.7" height="6.7"/>
