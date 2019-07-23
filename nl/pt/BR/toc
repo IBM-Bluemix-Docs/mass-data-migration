@@ -1,25 +1,51 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="mass-data-migration" audience="services" href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-GettingStarted" path="infrastructure/mass-data-migration"}
-IBM Cloud Storage - Migração de dados em massa
+{: .toc subcollection="mass-data-migration" audience="services" href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-getting-started-tutorial" path="infrastructure/mass-data-migration"}
+IBM Cloud Mass Data Migration
 
     {: .navgroup id="learn"}
     getting-started.md
+    about.md
+    specs.md
 
     {: .topicgroup}
-    Sobre
-        overview.md
-        specs.md
+    Tutoriais
+        migrate-netezza-databases.md
+        [Migrando cargas de trabalho do Veeam](https://www.ibm.com/downloads/cas/1MXNAXM9)
+        [Migrando cargas de trabalho de VM](https://developer.ibm.com/recipes/tutorials/cold-migration-of-vmware-guests-via-mdms/)
+
+    releases.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    user-instructions.md
-    [Migrando cargas de trabalho de MV](https://developer.ibm.com/recipes/tutorials/cold-migration-of-vmware-guests-via-mdms/) [Movendo dados do COS para File ou Block Storage](https://developer.ibm.com/recipes/tutorials/moving-data-from-cos-to-file-or-block-storage/)
-    how-to-migrate-netezza-to-dashdb-using-mdms.md
-    checklistRJ45andSFP.md
+    manage-request.md
+
+    {: .topicgroup}
+    Configurando o dispositivo
+        device-overview.md
+        connect-device.md
+        access-interface.md
+
+    {: .topicgroup}
+    Importando seus dados
+        unlock-storage-pool.md
+        connect-share-nfs.md
+        connect-share-smb.md
+        copy-data.md
+        
+    return-device.md
+    verify-data.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    regions.md
+    iam.md
+    inventory-checklists.md
+    related-links.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
+    troubleshooting.md
     faqs.md
     {: .navgroup-end}

@@ -2,15 +2,27 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-07-10"
+
+keywords: device specs, device capacity, device weight
+
+subcollection: mass-data-migration
 
 ---
- {:tip: .tip}
- {:note: .note}
- {:important: .important}
+
+{:shortdesc: .shortdesc}
+{:screen: .screen}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
+{:codeblock: .codeblock}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
+{:download: .download}
 
 # Especificaciones del dispositivo
-{: #devicespecs}
+{: #device-specs}
 
 <table role="presentation">
         <colgroup>
@@ -34,38 +46,37 @@ lastupdated: "2019-02-05"
           <tr>
             <td><p>Cables</p></td>
             <td>
-              <p>2 x CAT6a (183 cm)</p>
-              <p>Cable de alimentación (183 cm)</p>
+              <p>2 x CAT6a (6 pies)</p>
+              <p>1 x Cable de alimentación IEC C13-US (6 pies) <br/>No se proporcionan conversores de alimentación.</p>
             </td>
           </tr>
           <tr>
             <td><p>Requisitos térmicos</p></td>
             <td>
-              <p>Temperatura - de 5 a 35°C (en vertical, con la tapa completamente abierta)</p>
-              <p>Humedad - 90 % con la tapa abierta</p>
-              <p>Altitud - 4000 metros como máximo</p>
+              <p>Temperatura: 41° - 95°F (en vertical con la tapa completamente abierta)</p>
+              <p>Humedad: 90% con la tapa abierta</p>
+              <p>Altitud: 13 000 pies como máximo</p>
             </td>
           </tr>
           <tr>
             <td><p>Impermeable</p></td>
             <td>
-              <p>Con la tapa abierta, hasta un minuto</p>
-              <p>Con la tapa cerrada, hasta 30 minutos</p>
+              <p>Con la tapa abierta: hasta 1 minuto</p>
+              <p>Con la tapa cerrada: hasta 30 minutos</p>
             </td>
           </tr>
           <tr>
             <td><p>Peso</p></td>
             <td>
-              <p>El dispositivo pesa 24,7 kilos (54,5 libras)<br/>Con el maletín de transporte, pesa 27 kilos (59,5 libras)</p>
-              El dispositivo está equipado con ruedas y un asa para poder moverlo fácilmente. Se puede acceder al dispositivo cuando está en el maletín de transporte.
-              {:note}
+              <p>Dispositivo: 41,4 libras</br>Dispositivo + Maletín: 55,9 libras<br/>Dispositivo + Maletín + Caja de transporte acolchada: 60,9 libras</p>
+              Nota: el dispositivo está equipado con ruedas y un asa plegable para facilitar el manejo (el asa y las ruedas son también accesibles cuando está dentro de la caja de transporte acolchada). No es necesario sacar el dispositivo del maletín para conectarlo e ingerir datos.
             </td>
           </tr>
           <tr>
             <td><p>Dimensiones</p></td>
             <td>
-              <p>Dispositivo - 55 cm x 34,8 cm x 23,6 cm</p>
-              <p>Con maletín de transporte - 65 cm x 44 cm x 58 cm</p>
+              <p>Dispositivo: 21,7" x 13,7" x 19,3"</p>
+              <p>Dispositivo + Caja de viaje acolchada: 25,6" x 17,3" x 22,8"</p>
             </td>
           </tr>
           <tr>

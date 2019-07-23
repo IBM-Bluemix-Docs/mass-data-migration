@@ -147,6 +147,6 @@ Los botones **Arriba** y **Abajo** permiten desplazarse por los números de la u
 
 Utilice **Salir** para volver al menú anterior.
 
-Vaya a **Actualizar...** y pulse **Intro** para guardar la configuración.
+Vaya a **Actualizar...** y pulse **Intro** para guardar el valor.
 
   ![Pantalla LCD](/images/MDMSLCD.png)

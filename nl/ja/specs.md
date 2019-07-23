@@ -2,15 +2,27 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-07-10"
+
+keywords: device specs, device capacity, device weight
+
+subcollection: mass-data-migration
 
 ---
- {:tip: .tip}
- {:note: .note}
- {:important: .important}
 
-# デバイスのスペック
-{: #devicespecs}
+{:shortdesc: .shortdesc}
+{:screen: .screen}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
+{:codeblock: .codeblock}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
+{:download: .download}
+
+# デバイス仕様
+{: #device-specs}
 
 <table role="presentation">
         <colgroup>
@@ -35,37 +47,36 @@ lastupdated: "2019-02-05"
             <td><p>ケーブル</p></td>
             <td>
               <p>2 x CAT6a (6 フィート)</p>
-              <p>電源コード (6 フィート)</p>
+              <p>1 x IEC C13-US 電源コード (6 フィート) <br/>電圧変換装置は提供されません。</p>
             </td>
           </tr>
           <tr>
             <td><p>温度条件</p></td>
             <td>
-              <p>温度 -  41°– 95°F (ふたを完全に開けた直立状態)</p>
-              <p>湿度 - 90% (ふたを開けた状態)</p>
-              <p>高度 - 最大 13,000 フィート</p>
+              <p>温度: 41° - 95°F (蓋が完全に開いた直立状態)</p>
+              <p>湿度: 90% (蓋が開いた状態)</p>
+              <p>高度： 最大 13,000 フィート</p>
             </td>
           </tr>
           <tr>
             <td><p>耐水性</p></td>
             <td>
-              <p>ふたを開けた状態 - 最大 1 分</p>
-              <p>ふたを閉じた状態 - 最大 30 分</p>
+              <p>蓋が開いた状態: 最大 1 分</p>
+              <p>蓋が閉じた状態: 最大 30 分</p>
             </td>
           </tr>
           <tr>
             <td><p>重量</p></td>
             <td>
-              <p>デバイスは 24.7 kg<br/>配送用ソフトケース込みで 27 kg</p>
-              デバイスには、簡単に移動できるようホイールとハンドルが付いています。 デバイスは、配送用ソフトケースに入っている間もアクセス可能です。
-              {:note}
+              <p>デバイス: 41.4 ポンド</br>デバイス + 運搬用ハード・ケース: 55.9 ポンド<br/>デバイス + ハード・ケース + フォーム材輸送用ケース: 60.9 ポンド</p>
+              注: デバイスには、簡単に運搬できるようにホイールとポップアップ・ハンドルが付いています (ハンドルとホイールはフォーム材輸送用ケースに収めた状態でも使用可能です)。データに接続して取り込むためにデバイスからハード・ケースを取り外す必要はありません。
             </td>
           </tr>
           <tr>
             <td><p>寸法</p></td>
             <td>
-              <p>デバイス - 21.7” x 13.7” x 19.3”</p>
-              <p>配送用ソフトケース付き - 25.6” x 17.3” x 22.8”</p>
+              <p>デバイス: 21.7 インチ x 13.7 インチ x 19.3 インチ</p>
+              <p>デバイス + フォーム材輸送用ケース: 25.6 インチ x 17.3 インチ x 22.8 インチ</p>
             </td>
           </tr>
           <tr>

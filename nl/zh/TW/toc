@@ -1,26 +1,51 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="mass-data-migration" audience="services" href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-GettingStarted" path="infrastructure/mass-data-migration"}
-IBM Cloud Storage - Mass Data Migration
+{: .toc subcollection="mass-data-migration" audience="services" href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-getting-started-tutorial" path="infrastructure/mass-data-migration"}
+IBM Cloud Mass Data Migration
 
     {: .navgroup id="learn"}
     getting-started.md
+    about.md
+    specs.md
 
     {: .topicgroup}
-    關於
-        overview.md
-        specs.md
+    指導教學
+        migrate-netezza-databases.md
+        [移轉 Veeam 工作負載](https://www.ibm.com/downloads/cas/1MXNAXM9)
+        [移轉 VM 工作負載](https://developer.ibm.com/recipes/tutorials/cold-migration-of-vmware-guests-via-mdms/)
+
+    releases.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    user-instructions.md
-    [移轉 VM 工作負載](https://developer.ibm.com/recipes/tutorials/cold-migration-of-vmware-guests-via-mdms/)
-    [將資料從 COS 移至 File 或 Block Storage](https://developer.ibm.com/recipes/tutorials/moving-data-from-cos-to-file-or-block-storage/)
-    how-to-migrate-netezza-to-dashdb-using-mdms.md
-    checklistRJ45andSFP.md
+    manage-request.md
+
+    {: .topicgroup}
+    設定裝置
+        device-overview.md
+        connect-device.md
+        access-interface.md
+
+    {: .topicgroup}
+    匯入資料
+        unlock-storage-pool.md
+        connect-share-nfs.md
+        connect-share-smb.md
+        copy-data.md
+        
+    return-device.md
+    verify-data.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    regions.md
+    iam.md
+    inventory-checklists.md
+    related-links.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
+    troubleshooting.md
     faqs.md
     {: .navgroup-end}

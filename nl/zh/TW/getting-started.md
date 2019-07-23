@@ -2,90 +2,117 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-07-10"
+
+keywords: get started tutorial, data transfer, data migration, transfer data to cloud, migrate data, migrate data to cloud, Mass Data Migration
+
+subcollection: mass-data-migration
 
 ---
-{:new_window: target="_blank"}
+
+{:shortdesc: .shortdesc}
+{:screen: .screen}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
+{:codeblock: .codeblock}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
-{:DomainName: data-hd-keyref="DomainName"}
+{:download: .download}
 
-# 開始使用 {{site.data.keyword.cloud_notm}} Mass Data Migration
-{: # GettingStarted}
+# 入門指導教學
+{: #getting-started-tutorial}
 
-**必要條件**
+{{site.data.keyword.mdms_full}} 可協助您以快速、簡單且安全的方式，將數 TB 到數 PB 的資料移至 {{site.data.keyword.cloud_notm}}。本指導教學示範如何使用 {{site.data.keyword.slportal}} 來要求移轉裝置。
+{: shortdesc}
 
-請先收集此資訊，再提交 Mass Data Migration 要求及完成移轉。
+有興趣嘗試新的 {{site.data.keyword.mdms_short}} 特性嗎？您可以參與 {{site.data.keyword.mdms_short}} 測試版計畫，來預覽即將提供的服務加強功能。若要瞭解更多相關資訊，請參閱[取得測試版的存取權](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-releases#beta)。
+{: tip}
 
-1. 儲存裝置的網路設定
-   - 靜態 IP 位址
-   - 啟用資料傳送的網路遮罩
-2. 遠端電腦的網路設定
-   - 靜態 IP 位址
-   - 網路遮罩
-   - 用來存取使用者介面的預設閘道
-3. Cloud Object Storage 下載目的地 <br/>
+## 開始之前
+{: #get-started-prereqs}
 
-   您在「美國標準跨地區」或「歐盟跨地區」必須至少具有一個 {{site.data.keyword.cos_full}} 帳戶及一個儲存區，才能完成要求表單。如果您還沒有 {{site.data.keyword.cos_full_notm}}} 帳戶，請在要求 Mass Data Migration 裝置之前先建立一個帳戶。請參閱[關於 {{site.data.keyword.cos_full}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage){:new_window}。
-{:important}
+訂購 {{site.data.keyword.mdms_short}} 裝置之前，請執行下列動作：
 
-## 建立要求
+- 檢閱有提供 {{site.data.keyword.mdms_short}} 的[地區和位置](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-regions)，以規劃移轉。
+- 確定您具有已為 {{site.data.keyword.cloud_notm}} 帳戶佈建的 [{{site.data.keyword.cos_full}}](https://{DomainName}/catalog/services/cloud-object-storage){: external} 實例。 
+- 瞭解網路連線類型和速度。
+- 收集 IP 位址及其他遞送詳細資料這類網路設定，以將裝置連接至來源伺服器。
+- 識別可在您的網站接收、連接及使用裝置的人員。
 
-1. 登入 [IBM Cloud 主控台](https://{DomainName}/){:new_window}，然後按一下左上角的功能表圖示。選取**基礎架構**。
+## 建立儲存空間儲存區
+{: #get-started-create-bucket}
 
-   或者，您可以登入 [{{site.data.keyword.cloud_notm}} 主控台 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/catalog/){:new_window}。
-2. 從「導覽列」中，選取**儲存空間** > **資料移轉** > **Mass Data Migration**，以存取 Mass Data Migration 登入頁面。
-3. 按一下**要求裝置**，以開啟訂單表單。
-4. 完成 **Mass Data Migration** 訂單表單中的每一個欄位。
-   - **出貨地址** - 此表單並未預先填入，而且每個欄位都可編輯。請在「注意」欄位中提供將接受裝置交付之人員的名稱。挑選交付地點時，請考量裝置的重量（加上外殼有 66 磅）及可存取性。
+佈建 Cloud Object Storage 的實例之後，請建立儲存空間儲存區來設定已移轉資料的目的地。 
 
-   此裝置配備輪子及用於操作的彈出式把手。
-   {:note}
+1. 從 {{site.data.keyword.cloud_notm}} 資源清單中，選取您已佈建的 Cloud Object Storage 實例。
+2. 從_開始使用_ 頁面中，按一下**建立儲存區**。
+3. 輸入儲存區名稱，然後為您的資料選取一個備援選項。
+   
+   備援選項決定將資料匯入至 Cloud Object Storage 服務之後，該服務如何在一個地理區域中分散您的資料。{{site.data.keyword.mdms_short}} 支援可用於 Cloud Object Storage 的所有備援選項。  
+   {: note}
+4. 從位置清單中，選取將資料移轉至儲存空間儲存區之後要實際儲存資料的地理區域。
+5. 從儲存空間類別清單中，選取**標準**。
+6. 按一下**建立儲存區**。
 
-   - **主要移轉聯絡人** - 此表單並未預先填入。每一個欄位都可編輯。可以新增多個人。
-   - **資料中心網路配置** - 提供網路配置詳細資料，以在出貨前於 Mass Data Migration 裝置上預先佈建 Eth3 埠。
-   - **資料卸載目的地** - 從清單中選取現有的目標帳戶。
-   - **要求名稱** - 輸入名稱，以協助您追蹤訂單。
-5. 在閱讀每份服務合約之後，請選取**我已閱讀並同意 Mass Data Migration 合約的完整條款**勾選框。
-6. 按一下**工作區要求**，以提交「要求」。按一下**取消**，完全放棄表單並回到 Mass Data Migration 登入頁面。
+## 要求裝置
+{: #get-started-request-device}
 
+您可以使用 {{site.data.keyword.slportal}} 來要求 {{site.data.keyword.mdms_short}} 裝置。
 
-## 準備及出貨
+1. 登入 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
+2. 從導覽功能表中，按一下**儲存空間** > **資料移轉** > **{{site.data.keyword.mdms_short}}**，以存取 {{site.data.keyword.mdms_short}} 登入頁面。
+3. 按一下**要求裝置**，以開啟訂單表格。
+4. 指定下列詳細資料，以啟動 {{site.data.keyword.mdms_short}} 要求。
 
-在您提交要求之後，要求問題單的狀態會呈現為`正在處理要求`。接受要求時，{{site.data.keyword.IBM}} 會開始預先配置下一台可用的裝置。
+    <table>
+      <tr>
+        <th>動作</th>
+        <th>說明</th>
+      </tr>
+      <tr>
+        <td>新增要求名稱</td>
+        <td>輸入別名，以識別並追蹤 {{site.data.keyword.mdms_short}} 要求。</td>
+      </tr>
+      <tr>
+        <td>選取資料卸載目的地</td>
+        <td>從下拉清單中，選取您已佈建的 Cloud Object Storage 實例。然後，選取您指派給儲存空間儲存區的名稱，您要在該儲存空間儲存區中儲存已移轉資料。</td>
+      </tr>
+      <tr>
+        <td>新增運送地址</td>
+        <td>輸入運送資訊，例如運送地址以及將接受交付的人員名稱。</td>
+      </tr>
+      <tr>
+        <td>新增移轉聯絡人</td>
+        <td>輸入將管理裝置資料移轉的人員名稱。</td>
+      </tr>
+      <tr>
+        <td>配置網路設定</td>
+        <td>
+          <p>輸入網路配置詳細資料，來配置資料傳送連線的設定。</p>
+          <p>提供下列<a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#network-settings">網路設定</a>：</p>
+          <p>
+            <ul>
+              <li><i>裝置管理設定。</i>輸入遠端電腦的靜態 IP 位址、網路遮罩及預設閘道。</li>
+              <li><i>資料傳送設定。</i>輸入來源資料所在伺服器的靜態 IP 位址及網路遮罩。</li>
+            </ul>
+          </p>
+        </td>
+      </tr>
+      <caption style="caption-side:bottom;">表 1. 說明 {{site.data.keyword.mdms_short}} 要求工作流程</caption>
+    </table>
 
-正在準備裝置時，[要求 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/storage/mdms){:new_window} 頁面上的狀態會顯示`正在準備裝置`，後面接著顯示`正在等待出貨`。「要求」進入`正在等待出貨` 狀態之後，就無法被取消。
+    當您選取裝置的交付位置時，請考量裝置的重量及可存取性。裝置、其硬殼和泡棉運輸箱的重量約 60 磅。為了協助運輸裝置，運輸箱配備可輕鬆操作的輪子和彈出式把手。
+    {: tip}
+5. 閱讀 {{site.data.keyword.mdms_short}} 服務合約，然後選取勾選框。
+6. 按一下**工作區要求**，以完成訂單。 
 
-當裝置由快遞接收並運送到您的地點時，「要求」狀態就會更新為`裝置已出貨`。會在[要求 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/storage/mdms){:new_window} 頁面的**訂單詳細資料**區段中與您分享追蹤號碼。
+## 下一步為何？
+{: #get-started-next-steps}
 
+成功！您已設定好 {{site.data.keyword.mdms_short}} 要求。
 
-## 接收及連接
+- 若要進一步瞭解如何追蹤訂單，請查看[管理要求](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-manage-request)。
+- 若要進一步瞭解如何接收及連接裝置，請查看[設定裝置](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview)。
 
-1. 會為您預先配置裝置。包括基本的[電源及連線指示](user-instructions.html)。<br/>
-
-   使用者名稱及儲存區密碼會分開提供。請檢查[要求 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/storage/mdms){:new_window} 中的**要求詳細資料**，以取得認證資訊。
-   {:note}
-2. 將瀏覽器指向您在訂單表單中提供的靜態 IP 位址。
-3. 登入，並輸入密碼以解除鎖定空的儲存區。<br/>
-
-   請參閱[要求 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/storage/mdms){:new_window} 頁面中的「要求詳細資料」，以取得密碼資訊。
-   {:tip}
-4. 在伺服器上裝載 NFS 共用。
-5. 重新執行 DataShuttle 庫存，以確定擷取所有的新檔案。
-
-## 移動資料
-1. 執行 DataShuttle 複製，以移動資料。
-2. 鎖定儲存區。
-3. 溫和地關閉 Mass Data Migration 裝置。
-4. 使用提供的出貨標籤，將盒子送回「{{site.data.keyword.BluSoftlayer_full}} 資料中心」。
-
-當裝置回到 {{site.data.keyword.BluSoftlayer}} 時，要求狀態會變更為`已收到裝置`。
-
-## 卸載並存取
-
-在傳送過程期間，要求狀態顯示會顯示為`正在卸載資料`。移轉至 {{site.data.keyword.objectstorageshort}}「儲存區」完成時（`卸載完成`），狀態會再次變更。完成高速卸載至 Cloud Object Storage 儲存區時，您的資料便立即可供存取。
-
-## 消除裝置
-
-{{site.data.keyword.IBM}} 會實作 DOD 層級資料抹除需求，以永久清除裝置中的資料。完成時，「要求」狀態會顯示`清除完成`。

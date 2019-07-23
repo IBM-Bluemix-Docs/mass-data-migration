@@ -2,92 +2,117 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-07-10"
+
+keywords: get started tutorial, data transfer, data migration, transfer data to cloud, migrate data, migrate data to cloud, Mass Data Migration
+
+subcollection: mass-data-migration
 
 ---
-{:new_window: target="_blank"}
+
+{:shortdesc: .shortdesc}
+{:screen: .screen}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
+{:codeblock: .codeblock}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
-{:DomainName: data-hd-keyref="DomainName"}
+{:download: .download}
 
-# Introdução ao {{site.data.keyword.cloud_notm}} Mass Data Migration
-{: # GettingStarted}
+# Tutorial Introdução
+{: #getting-started-tutorial}
 
-** Pré-requisitos **
+O {{site.data.keyword.mdms_full}} ajuda você a mover terabytes ou petabytes de dados para o {{site.data.keyword.cloud_notm}} de maneira rápida, simples e segura. Este tutorial mostra como solicitar seu dispositivo de migração usando o {{site.data.keyword.slportal}}.
+{: shortdesc}
 
-Reúna essas informações antes de enviar uma solicitação ao Mass Data Migration e concluir a migração.
+Interessado em experimentar novos recursos do {{site.data.keyword.mdms_short}}? É possível visualizar aprimoramentos de serviços futuros participando do programa beta do {{site.data.keyword.mdms_short}}. Para obter mais informações, consulte [Obtendo acesso ao beta](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-releases#beta).
+{: tip}
 
-1. Configurações de rede para o dispositivo de armazenamento
-   - Endereço IP estático
-   - Máscara de rede para ativação da transferência de dados
-2. Configurações de rede para computador remoto
-   - Endereço IP estático
-   - Máscara de rede
-   - Gateway padrão para acessar a interface com o usuário
-3. Destino de download do Cloud Object Storage <br/>
+## Antes de iniciar
+{: #get-started-prereqs}
 
-   Deve-se ter pelo menos uma conta do {{site.data.keyword.cos_full}} e um depósito na Região Cruzada Padrão dos EUA ou na Região Cruzada da UE para completar o formulário de solicitação. Se você ainda não tiver uma conta do {{site.data.keyword.cos_full_notm}}}, crie uma antes de solicitar o dispositivo Mass Data Migration. Consulte [Sobre o {{site.data.keyword.cos_full}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage){:new_window}.
-   {:important}
+Antes de solicitar um dispositivo {{site.data.keyword.mdms_short}}:
 
-## Criando uma Solicitação
+- Planeje sua migração revisando as [regiões e locais](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-regions) nos quais o {{site.data.keyword.mdms_short}} está disponível.
+- Certifique-se de ter uma instância provisionada do [{{site.data.keyword.cos_full}}](https://{DomainName}/catalog/services/cloud-object-storage){: external} para sua conta do {{site.data.keyword.cloud_notm}}. 
+- Compreenda os tipos e velocidades de sua conexão de rede.
+- Reúna suas configurações de rede, como endereços IP e outros detalhes de roteamento, para conectar o dispositivo ao seu servidor de origem.
+- Identifique uma pessoa que possa receber, conectar e usar o dispositivo em seu local.
 
-1. Efetue login no [console do IBM Cloud](https://{DomainName}/){:new_window} e clique no ícone de menu na parte superior esquerda. Selecione **Infrastructure**.
+## Criando um depósito de armazenamento
+{: #get-started-create-bucket}
 
-   Como alternativa, é possível efetuar login no console do [{{site.data.keyword.cloud_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/catalog/){:new_window}.
-2. Selecione **Armazenamento** > **Migração de dados** > **Mass Data Migration** na Barra de navegação para acessar a página de entrada do Mass Data Migration.
+Depois de provisionar uma instância do Cloud Object Storage, crie um depósito de armazenamento para configurar um destino para seus dados migrados. 
+
+1. Na lista de recursos do {{site.data.keyword.cloud_notm}}, selecione sua instância provisionada do Cloud Object Storage.
+2. Na página _Introdução_, clique em **Criar depósito**.
+3. Insira um nome de depósito e selecione uma opção de resiliência para seus dados.
+   
+   A opção de resiliência determina como seus dados são distribuídos pelo serviço Cloud Object Storage em uma área geográfica depois de serem importados para o serviço. O {{site.data.keyword.mdms_short}} suporta todas as opções de resiliência disponíveis para o Cloud Object Storage.  
+   {: note}
+4. Na lista de locais, selecione a área geográfica na qual deseja que seus dados sejam fisicamente armazenados após sua migração para o depósito de armazenamento.
+5. Na lista de classes de armazenamento, selecione **Padrão**.
+6. Clique em **Criar depósito**.
+
+## Solicitando um dispositivo
+{: #get-started-request-device}
+
+É possível solicitar um dispositivo {{site.data.keyword.mdms_short}} usando o {{site.data.keyword.slportal}}.
+
+1. Efetue login no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+2. No menu de navegação, clique em **Armazenamento** > **Migração de dados** > **{{site.data.keyword.mdms_short}}** para acessar a página inicial do {{site.data.keyword.mdms_short}}.
 3. Clique em **Solicitar dispositivo** para abrir o formulário do pedido.
-4. Preencha cada campo no formulário do pedido **Mass Data Migration**.
-   - **Endereço de entrega**: esse formulário não é pré-preenchido previamente e cada campo é editável. Forneça o nome da pessoa que vai aceitar a entrega do dispositivo no campo Atenção. Ao escolher o local de entrega, considere o peso do dispositivo (66 lb. com sua caixa) e a acessibilidade.
+4. Comece sua solicitação do {{site.data.keyword.mdms_short}} especificando os detalhes a seguir.
 
-   O dispositivo está equipado com rodas e alça retrátil para manuseio.
-   {:note}
+    <table>
+      <tr>
+        <th>Ações</th>
+        <th>Descrição</th>
+      </tr>
+      <tr>
+        <td>Incluir um nome para a solicitação</td>
+        <td>Insira um alias para identificar e rastrear sua solicitação do {{site.data.keyword.mdms_short}}.</td>
+      </tr>
+      <tr>
+        <td>Selecionar o destino da transferência de seus dados</td>
+        <td>Na lista suspensa, selecione sua instância provisionada do Cloud Object Storage. Em seguida, selecione o nome designado ao depósito de armazenamento no qual deseja armazenar seus dados migrados.</td>
+      </tr>
+      <tr>
+        <td>Incluir um endereço de entrega</td>
+        <td>Insira suas informações de envio, como o endereço de entrega e o nome da pessoa que aceitará a entrega.</td>
+      </tr>
+      <tr>
+        <td>Incluir contatos de migração</td>
+        <td>Insira o nome da pessoa que gerenciará a migração de dados para seu dispositivo.</td>
+      </tr>
+      <tr>
+        <td>Definir configurações de rede</td>
+        <td>
+          <p>Defina configurações para a conexão de transferência de dados inserindo seus detalhes de configuração de rede.</p>
+          <p>Forneça as seguintes <a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#network-settings">configurações de rede</a>:</p>
+          <p>
+            <ul>
+              <li><i>Configurações de gerenciamento de dispositivo.</i> Insira o endereço IP estático, a máscara de rede e o gateway padrão do seu computador remoto.</li>
+              <li><i>Configurações de transferência de dados.</i> Insira o endereço IP estático e a máscara de rede do servidor no qual seus dados de origem estão.</li>
+            </ul>
+          </p>
+        </td>
+      </tr>
+      <caption style="caption-side:bottom;">Tabela 1. Descreve o fluxo de trabalho de solicitação do {{site.data.keyword.mdms_short}}</caption>
+    </table>
 
-   - **Contatos de migração de chave**: esse formulário não é pré-preenchido. Cada campo é editável. Mais de uma pessoa pode ser incluída.
-   - **Configuração de rede do data center**: forneça os detalhes de configuração de rede para o pré-fornecimento da porta Eth3 no dispositivo Mass Data Migration antes da remessa.
-   - **Destino de transferência de dados**: selecione sua conta de destino existente na lista.
-   - **Nome da solicitação**: insira um nome para ajudar a rastrear seu pedido.
-5. Selecione a caixa de seleção **Eu li e concordo com os termos integrais do Contrato do Mass Data Migration** após a leitura de cada contrato de prestação de serviços.
-6. Clique em **Fazer solicitação** para enviar a solicitação. Clique em **Cancelar** para abandonar completamente o formulário e retornar para a página de entrada do Mass Data Migration.
+    Ao selecionar um local de entrega para seu dispositivo, considere o peso do dispositivo e a acessibilidade. O dispositivo, com seu estojo rígido e um estojo de viagem de espuma, pesa cerca de 60 libras. Para ajudar no transporte do dispositivo, o estojo de viagem é equipado com rodas e uma alça pop-up para facilitar manobras.
+    {: tip}
+5. Leia o contrato de prestação de serviços do {{site.data.keyword.mdms_short}} e, em seguida, selecione a caixa de seleção.
+6. Clique em **Realizar solicitação** para concluir seu pedido. 
 
+## O que vem a seguir
+{: #get-started-next-steps}
 
-## Preparação e remessa
+Sucesso! Está tudo pronto com sua solicitação do {{site.data.keyword.mdms_short}}.
 
-Depois de enviar a solicitação, o status para o chamado de solicitação aparece como `Processing Request`. Quando sua Solicitação é aceita, a {{site.data.keyword.IBM}} começa a pré-configurar o próximo dispositivo disponível.
+- Para saber mais sobre como rastrear seu pedido, consulte [Gerenciando sua solicitação](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-manage-request).
+- Para saber mais sobre como receber e conectar seu dispositivo, consulte [Configurando o dispositivo](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview).
 
-Quando o dispositivo está sendo preparado, o status na página [Solicitações ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/storage/mdms){:new_window} mostra `Preparando dispositivo` seguido por `Aguardando remessa`. Após sua
-solicitação entrar no status `Aguardando remessa`, ela não poderá mais ser cancelada.
-
-Quando o dispositivo é retirado em loja pela transportadora para ser enviado para o seu local, o status da Solicitação é atualizado para `Dispositivo enviado`. O número de rastreamento é compartilhado com você na seção **Detalhes da ordem** da página [Solicitações ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/storage/mdms){:new_window}.
-
-
-## Recebendo e Conectando
-
-1. O dispositivo chega pré-configurado para você. Uma configuração básica de [instrução de energização e conectividade](user-instructions.html) está incluída. <br/>
-
-   O nome do usuário e a senha do conjunto de armazenamentos são fornecidos separadamente. Verifique os **Detalhes da solicitação** em suas [Solicitações ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/storage/mdms){:new_window} para as credenciais.
-   {:note}
-2. Aponte seu navegador para o endereço IP estático fornecido no formulário do pedido.
-3. Efetue login, insira a senha para desbloquear o conjunto de armazenamentos vazio. <br/>
-
-   Consulte os Detalhes da solicitação da sua página [Solicitações ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/storage/mdms){:new_window} para a senha.
-   {:tip}
-4. Monte o compartilhamento NFS em seu servidor.
-5. Execute novamente seu inventário do DataShuttle para assegurar que quaisquer novos arquivos sejam capturados.
-
-## Movendo os Dados
-1. Execute a cópia DataShuttle para mover os dados.
-2. Bloquear o conjunto de armazenamento.
-3. Encerre normalmente o dispositivo Mass Data Migration.
-4. Envie a caixa de volta para o Data Center do {{site.data.keyword.BluSoftlayer_full}} usando a etiqueta de remessa que foi fornecida.
-
-Quando o dispositivo é devolvido para o {{site.data.keyword.BluSoftlayer}}, o status da solicitação muda para `Dispositivo recebido`.
-
-## Transação e acesso
-
-Durante o processo de transferência, o status da solicitação será exibido como `Transferindo dados`. O status muda novamente quando a migração para o depósito do {{site.data.keyword.objectstorageshort}} é concluída (`Transferência concluída`). Seus dados ficarão imediatamente acessíveis quando o
-descarregamento de alta velocidade no seu depósito do Cloud Object Storage for concluído.
-
-## Apagando o Dispositivo
-
-A {{site.data.keyword.IBM}} implementa os requisitos de limpeza de dados do Nível de DOD para apagar permanentemente seus dados do dispositivo. Quando concluído, o status da Solicitação exibe `Erase Complete`.

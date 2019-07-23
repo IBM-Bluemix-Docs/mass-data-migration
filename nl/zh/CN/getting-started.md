@@ -2,90 +2,117 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-07-10"
+
+keywords: get started tutorial, data transfer, data migration, transfer data to cloud, migrate data, migrate data to cloud, Mass Data Migration
+
+subcollection: mass-data-migration
 
 ---
-{:new_window: target="_blank"}
+
+{:shortdesc: .shortdesc}
+{:screen: .screen}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
+{:codeblock: .codeblock}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
-{:DomainName: data-hd-keyref="DomainName"}
+{:download: .download}
 
-# {{site.data.keyword.cloud_notm}} Mass Data Migration 入门
-{: # GettingStarted}
+# 入门教程
+{: #getting-started-tutorial}
 
-**先决条件**
+{{site.data.keyword.mdms_full}} 可帮助您以快速、简单、安全的方式将太字节到拍字节数量级的数据移动到 {{site.data.keyword.cloud_notm}}。本教程说明如何使用 {{site.data.keyword.slportal}} 来请求迁移设备。
+{: shortdesc}
 
-在提交 Mass Data Migration 请求之前收集此信息，并完成迁移。
+对尝试新的 {{site.data.keyword.mdms_short}} 功能感兴趣？您可以通过参与 {{site.data.keyword.mdms_short}} Beta 程序来预览即将推出的服务增强功能。要了解更多信息，请参阅[获取 Beta 访问权](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-releases#beta)。
+{: tip}
 
-1. 存储设备的网络设置
-   - 静态 IP 地址
-   - 用于启用数据传输的网络掩码
-2. 远程计算机的网络设置
-   - 静态 IP 地址
-   - 网络掩码
-   - 用于访问用户接口的缺省网关
-3. Cloud Object Storage 下载目标<br/>
+## 开始之前
+{: #get-started-prereqs}
 
-   您必须在美国标准交叉区域或欧洲交叉区域中至少有一个 {{site.data.keyword.cos_full}} 帐户和一个存储区才能填写请求表单。如果您还没有 {{site.data.keyword.cos_full_notm}} 帐户，在请求 Mass Data Migration 设备之前，先创建一个帐户。请参阅[关于 {{site.data.keyword.cos_full}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage){:new_window}。
-   {:important}
+订购 {{site.data.keyword.mdms_short}} 设备之前，请注意以下事项：
 
-## 创建请求
+- 通过查看 {{site.data.keyword.mdms_short}} 在其中可用的[区域和位置](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-regions)来规划迁移。
+- 确保您已为 {{site.data.keyword.cloud_notm}} 帐户供应 [{{site.data.keyword.cos_full}}](https://{DomainName}/catalog/services/cloud-object-storage){: external} 实例。 
+- 了解网络连接类型和速度。
+- 收集网络设置（例如，IP 地址和其他路由详细信息），以将设备连接到源服务器。
+- 确定可以在现场接收、连接和使用该设备的人员。
 
-1. 登录到 [IBM Cloud 控制台](https://{DomainName}/){:new_window}，并单击左上角的菜单图标。选择**基础架构**。
+## 创建存储区
+{: #get-started-create-bucket}
 
-   或者，可以登录到 [{{site.data.keyword.cloud_notm}} 控制台 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/catalog/){:new_window}。
-2. 从导航栏中选择**存储器** > **数据迁移** > **Mass Data Migration**，以访问 Mass Data Migration 登录页面。
+供应 Cloud Object Storage 的实例后，请创建存储区以设置所迁移数据的目标。 
+
+1. 从 {{site.data.keyword.cloud_notm}} 资源列表中，选择您供应的 Cloud Object Storage 实例。
+2. 在_开始使用_页面中，单击**创建存储区**。
+3. 输入存储区名称，然后为数据选择弹性选项。
+   
+   弹性选项用于确定数据导入到服务后，如何由 Cloud Object Storage 服务在地理区域中进行分发。{{site.data.keyword.mdms_short}} 支持可用于 Cloud Object Storage 的所有弹性选项。  
+   {: note}
+4. 从位置列表中，选择在数据迁移到存储区后，要实际存储数据的地理区域。
+5. 从存储类列表中，选择**标准**。
+6. 单击**创建存储区**。
+
+## 请求设备
+{: #get-started-request-device}
+
+可以使用 {{site.data.keyword.slportal}} 来请求 {{site.data.keyword.mdms_short}} 设备。
+
+1. 登录到 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
+2. 在导航菜单中，单击**存储** > **数据迁移** > **{{site.data.keyword.mdms_short}}** 以访问 {{site.data.keyword.mdms_short}} 登录页面。
 3. 单击**请求设备**以打开订购表单。
-4. 填写 **Mass Data Migration** 订购表单中的每个字段。
-   - **送货地址** - 此表单未预填充，并且每个字段均可编辑。在“收件人”字段中提供将接受设备交付的人员的姓名。选择交付地点时，请考虑设备的重量（66 磅，含运输箱）和无障碍搬运情况。
+4. 通过指定以下详细信息来启动 {{site.data.keyword.mdms_short}} 请求。
 
-   设备配备有脚轮和弹出手柄以方便搬运。
-   {:note}
+    <table>
+      <tr>
+        <th>操作</th>
+        <th>描述</th>
+      </tr>
+      <tr>
+        <td>添加请求名称</td>
+        <td>输入别名以标识和跟踪 {{site.data.keyword.mdms_short}} 请求。</td>
+      </tr>
+      <tr>
+        <td>选择数据卸载目标</td>
+        <td>从下拉列表中，选择您供应的 Cloud Object Storage 实例。然后，选择为您希望存储所迁移数据的存储区分配的名称。</td>
+      </tr>
+      <tr>
+        <td>添加装运地址</td>
+        <td>输入装运信息，例如装运地址以及收货人员的姓名。</td>
+      </tr>
+      <tr>
+        <td>添加迁移联系人</td>
+        <td>输入将管理设备数据迁移过程的人员的姓名。</td>
+      </tr>
+      <tr>
+        <td>配置网络设置</td>
+        <td>
+          <p>通过输入网络配置详细信息来配置数据传输连接的设置。</p>
+          <p>提供以下<a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#network-settings">网络设置</a>：</p>
+          <p>
+            <ul>
+              <li><i>设备管理设置。</i>输入远程计算机的静态 IP 地址、网络掩码和缺省网关。</li>
+              <li><i>数据传输设置。</i>输入源数据所在的服务器的静态 IP 地址和网络掩码。</li>
+            </ul>
+          </p>
+        </td>
+      </tr>
+      <caption style="caption-side:bottom;">表 1. 描述 {{site.data.keyword.mdms_short}} 请求工作流程</caption>
+    </table>
 
-   - **主要迁移联系人** - 此表单未预填充。每个字段均可编辑。可以添加多人。
-   - **数据中心网络配置** - 提供网络配置详细信息，以在发货之前在 Mass Data Migration 设备上预供应 Eth3 端口。
-   - **数据卸载目标** - 从列表中选择现有目标帐户。
-   - **请求名称** - 输入名称以帮助您跟踪订单。
-5. 阅读每个服务协议后，选中**我已阅读并同意 Mass Data Migration 协议的完整条款**复选框。
-6. 单击**发起请求**以提交请求。单击**取消**以完全放弃表单并返回到 Mass Data Migration 登录页面。
+    选择设备的交付地点时，请考虑设备的重量和无障碍搬运情况。设备及其硬壳机箱和泡沫运输箱的总重量大约为 60 磅。为了帮助运输设备，运输箱配备有脚轮和弹出手柄，以方便搬运。
+    {: tip}
+5. 阅读 {{site.data.keyword.mdms_short}} 服务协议，然后选中相应复选框。
+6. 单击**发出请求**以完成订单。 
 
+## 后续步骤
+{: #get-started-next-steps}
 
-## 准备和装运
+成功！您已完成 {{site.data.keyword.mdms_short}} 请求。
 
-提交请求后，请求凭单的状态将显示为`正在处理请求`。请求被接受后，{{site.data.keyword.IBM}} 即开始预配置下一个可用设备。
+- 要了解有关跟踪订单的更多信息，请查看[管理请求](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-manage-request)。
+- 要了解有关接收和连接设备的更多信息，请查看[设置设备](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview)。
 
-在设备准备期间，[请求 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/storage/mdms){:new_window} 页面上的状态会显示`正在准备设备`，准备好后，会显示`等待装运`。当请求进入`等待装运`状态后，就无法取消该请求。
-
-承运方取走设备以发送到您的所在地时，请求状态将更新为`设备已发货`。在[请求 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/storage/mdms){:new_window} 页面的**订单详细信息**部分中，您会看到共享给您的跟踪号。
-
-
-## 接收和连接
-
-1. 设备运达时已经为您进行预配置。包含基本[开机/连接指示信息](user-instructions.html)。<br/>
-
-   用户名和存储池密码会分开提供。请检查[请求 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/storage/mdms){:new_window} 中的**请求详细信息**来获取凭证。
-   {:note}
-2. 使浏览器指向您在订购表单中提供的静态 IP 地址。
-3. 登录并输入密码以解锁空的存储池。<br/>
-
-   请查看[请求 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/storage/mdms){:new_window} 页面中的“请求详细信息”来获取密码。
-   {:tip}
-4. 在服务器上安装 NFS 共享。
-5. 重新运行 DataShuttle 清单，以确保捕获任何新文件。
-
-## 移动数据
-1. 运行 DataShuttle 副本以移动数据。
-2. 锁定存储池。
-3. 正常关闭 Mass Data Migration 设备。
-4. 使用提供的装运标签，将设备箱发回 {{site.data.keyword.BluSoftlayer_full}} 数据中心。
-
-设备返还到 {{site.data.keyword.BluSoftlayer}} 后，请求状态会变为`设备已接收`。
-
-## 卸载和访问
-
-在传输过程中，请求状态显示为`正在卸载数据`。迁移到 {{site.data.keyword.objectstorageshort}} 存储区完成后，状态将再次更改（`卸载完成`）。数据高速卸载到 Cloud Object Storage 存储区之后，即可立即访问数据。
-
-## 擦除设备
-
-{{site.data.keyword.IBM}} 实施 DOD 级别的数据擦除需求，以永久擦除设备中的数据。完成后，请求状态会显示`擦除完成`。

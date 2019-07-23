@@ -1,26 +1,51 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="mass-data-migration" audience="services" href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-GettingStarted" path="infrastructure/mass-data-migration"}
-IBM Cloud Storage - 대량 데이터 마이그레이션
+{: .toc subcollection="mass-data-migration" audience="services" href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-getting-started-tutorial" path="infrastructure/mass-data-migration"}
+IBM Cloud Mass Data Migration
 
     {: .navgroup id="learn"}
     getting-started.md
+    about.md
+    specs.md
 
     {: .topicgroup}
-    정보
-        overview.md
-        specs.md
+    튜토리얼
+        migrate-netezza-databases.md
+        [Veeam 워크로드 마이그레이션](https://www.ibm.com/downloads/cas/1MXNAXM9)
+        [VM 워크로드 마이그레이션](https://developer.ibm.com/recipes/tutorials/cold-migration-of-vmware-guests-via-mdms/)
+
+    releases.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    user-instructions.md
-    [VM 워크로드 마이그레이션](https://developer.ibm.com/recipes/tutorials/cold-migration-of-vmware-guests-via-mdms/)
-    [COS에서 File 또는 Block Storage로 데이터 이동](https://developer.ibm.com/recipes/tutorials/moving-data-from-cos-to-file-or-block-storage/)
-    how-to-migrate-netezza-to-dashdb-using-mdms.md
-    checklistRJ45andSFP.md
+    manage-request.md
+
+    {: .topicgroup}
+    디바이스 설정
+        device-overview.md
+        connect-device.md
+        access-interface.md
+
+    {: .topicgroup}
+    데이터 가져오기
+        unlock-storage-pool.md
+        connect-share-nfs.md
+        connect-share-smb.md
+        copy-data.md
+        
+    return-device.md
+    verify-data.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    regions.md
+    iam.md
+    inventory-checklists.md
+    related-links.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
+    troubleshooting.md
     faqs.md
     {: .navgroup-end}

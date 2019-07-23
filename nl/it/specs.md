@@ -2,15 +2,27 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-07-10"
+
+keywords: device specs, device capacity, device weight
+
+subcollection: mass-data-migration
 
 ---
- {:tip: .tip}
- {:note: .note}
- {:important: .important}
 
-# Specifiche dispositivo
-{: #devicespecs}
+{:shortdesc: .shortdesc}
+{:screen: .screen}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
+{:codeblock: .codeblock}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
+{:download: .download}
+
+# Specifiche del dispositivo
+{: #device-specs}
 
 <table role="presentation">
         <colgroup>
@@ -34,44 +46,43 @@ lastupdated: "2019-02-05"
           <tr>
             <td><p>Cavi</p></td>
             <td>
-              <p>2x CAT6a (6 ft.)</p>
-              <p>Power cord (6 ft.)</p>
+              <p>2 x CAT6a (1,8 m (6 piedi))</p>
+              <p>1 x cavo di alimentazione IEC C13-US (1,8 m (6 piedi)) <br/>I convertitori di potenza non sono forniti.</p>
             </td>
           </tr>
           <tr>
             <td><p>Requisiti termici</p></td>
             <td>
-              <p>Temperatura -  41°–95°F (in posizione verticale con coperchio completamente aperto)</p>
-              <p>Umidità - 90% con coperchio aperto</p>
-              <p>Altitudine - 13.000 ft. massimo</p>
+              <p>Temperatura: 5° - 35° C (41° - 95°F) (in posizione verticale con coperchio completamente aperto)</p>
+              <p>Umidità: 90% con coperchio aperto</p>
+              <p>Altitudine: massimo 3962 m (13.000 piedi)</p>
             </td>
           </tr>
           <tr>
             <td><p>Impermeabilità</p></td>
             <td>
-              <p>Con coperchio aperto, fino a 1 minuto</p>
-              <p>Con coperchio chiuso, fino a 30 minuti</p>
+              <p>Con coperchio aperto: fino a 1 minuto</p>
+              <p>Con coperchio chiuso: fino a 30 minuti</p>
             </td>
           </tr>
           <tr>
             <td><p>Peso</p></td>
             <td>
-              <p>Il dispositivo è 54,5 lb.<br/>Con la custodia morbida da viaggio, pesa 59,5 lb.</p>
-              Il dispositivo è dotato di ruote e dotato di una facile manovrabilità. Il dispositivo è accessibile mentre si trova nella custodia morbida.
-              {:note}
+              <p>Dispositivo: 18,8 kg (41,4 libbre)</br>Dispositivo + custodia rigida con ruote: 25,4 kg (55,9 libbre).<br/>Dispositivo + custodia rigida + custodia da viaggio in foam: 27,6 kg (60,9 libbre)</p>
+              Nota: il dispositivo è dotato di ruote e maniglia a comparsa per una facile manovrabilità (maniglia e ruote sono accessibili anche se è contenuto nella custodia da viaggio in foam). Non è necessario rimuovere il dispositivo dalla custodia rigida per la connessione e l'inserimento di dati.
             </td>
           </tr>
           <tr>
             <td><p>Dimensioni</p></td>
             <td>
-              <p>Dispositivo - 21.7” x 13.7” x 19.3”</p>
-              <p>Con custodia morbida da viaggio - 25.6” x 17.3” x 22.8”</p>
+              <p>Dispositivo: 55,1 cm (21,7 pollici) x 34,8 cm (13,7 pollici) x 49 cm (19,3 pollici)</p>
+              <p>Dispositivo + custodia da viaggio in foam: 65 cm (25,6 pollici) x 43,9 cm (17,3 pollici) x 57,9 cm (22,8 pollici)</p>
             </td>
           </tr>
           <tr>
             <td><p>Alimentazione</p></td>
             <td>
-              <p>300 W; 88 V- 265 V AC; 50 - 60 Hz</p>
+              <p>300 W; 88 V- 265 V CA; 50 - 60 Hz</p>
             </td>
           </tr>
           <tr>

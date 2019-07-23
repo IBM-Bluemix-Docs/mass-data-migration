@@ -2,90 +2,117 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-07-10"
+
+keywords: get started tutorial, data transfer, data migration, transfer data to cloud, migrate data, migrate data to cloud, Mass Data Migration
+
+subcollection: mass-data-migration
 
 ---
-{:new_window: target="_blank"}
+
+{:shortdesc: .shortdesc}
+{:screen: .screen}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
+{:codeblock: .codeblock}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
-{:DomainName: data-hd-keyref="DomainName"}
+{:download: .download}
 
-# {{site.data.keyword.cloud_notm}} 大量データ・マイグレーションの概説
-{: # GettingStarted}
+# 入門チュートリアル
+{: #getting-started-tutorial}
 
-**前提条件**
+{{site.data.keyword.mdms_full}} は、テラバイト単位からペタバイト単位までのデータを {{site.data.keyword.cloud_notm}} に高速かつシンプルでセキュアな方法で移動するのに役立ちます。このチュートリアルでは、{{site.data.keyword.slportal}} を使用してマイグレーション・デバイスを要求する方法を示します。
+{: shortdesc}
 
-大量データ・マイグレーション要求を送信してマイグレーションを実行する前に、以下の情報を収集してください。
+{{site.data.keyword.mdms_short}} の新しいフィーチャーに関心がありますか。{{site.data.keyword.mdms_short}} ベータ・プログラムに参加すると、今後のサービス拡張をプレビューできます。詳しくは、[ベータ版へのアクセス](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-releases#beta)を参照してください。
+{: tip}
 
-1. ストレージ・デバイスのネットワーク設定
-   - 静的 IP アドレス
-   - データ転送を有効にするためのネットマスク
-2. リモート・コンピューターのネットワーク設定
-   - 静的 IP アドレス
-   - ネットマスク
-   - ユーザー・インターフェースにアクセスするためのデフォルト・ゲートウェイ
-3. クラウド・オブジェクト・ストレージのダウンロード宛先 <br/>
+## 始める前に
+{: #get-started-prereqs}
 
-   要求フォームを完成させるには、US Standard Cross Region または EU Cross Region のロケーションで少なくとも 1 つの {{site.data.keyword.cos_full}} アカウントと 1 つのバケットを持っていることが必要です。 {{site.data.keyword.cos_full_notm}} アカウントがまだない場合は、アカウントを作成してから大量データ・マイグレーション・デバイスを要求してください。 [About {{site.data.keyword.cos_full}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage){:new_window} を参照してください。
-   {:important}
+{{site.data.keyword.mdms_short}} デバイスを注文する前に、以下のことを行います。
 
-## 要求の作成
+- {{site.data.keyword.mdms_short}} が使用可能な[地域および場所](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-regions)を確認して、マイグレーションを計画します。
+- {{site.data.keyword.cloud_notm}} アカウント用の [{{site.data.keyword.cos_full}}](https://{DomainName}/catalog/services/cloud-object-storage){: external} のインスタンスがプロビジョンされていることを確認します。 
+- ご使用のネットワーク接続のタイプと速度を把握します。
+- デバイスをソース・サーバーに接続するためのネットワーク設定 (IP アドレスやその他のルーティングの詳細など) を収集します。
+- サイトでデバイスを受信、接続、および使用できるユーザーを特定します。
 
-1. [IBM Cloud コンソール](https://{DomainName}/){:new_window}にログインして、左上にあるメニュー・アイコンをクリックします。 **「インフラストラクチャー」**を選択します。
+## ストレージ・バケットの作成
+{: #get-started-create-bucket}
 
-   あるいは、[{{site.data.keyword.cloud_notm}} コンソール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/catalog/){:new_window} にログインします。
-2. ナビゲーション・バーから**「ストレージ」**>**「データ・マイグレーション」**>**「大量データ・マイグレーション」**を選択して、大量データ・マイグレーションのランディング・ページにアクセスします。
+クラウド・オブジェクト・ストレージのインスタンスをプロビジョンした後、ストレージ・バケットを作成して、マイグレーションされたデータの宛先を設定します。 
+
+1. {{site.data.keyword.cloud_notm}} リソース・リストでクラウド・オブジェクト・ストレージのプロビジョン済みインスタンスを選択します。
+2. _「開始」_ページで**「バケットの作成」**をクリックします。
+3. バケット名を入力し、データの回復力オプションを選択します。
+   
+   回復力オプションは、データがサービスにインポートされた後に、クラウド・オブジェクト・ストレージ・サービスによって地理的領域に分散される方法を決定します。 {{site.data.keyword.mdms_short}} は、クラウド・オブジェクト・ストレージで使用可能なすべての回復力オプションをサポートします。  
+   {: note}
+4. 場所のリストから、データをストレージ・バケットにマイグレーションした後に物理的に保管する地理的領域を選択します。
+5. ストレージ・クラスのリストから**「標準」**を選択します。
+6. **「バケットの作成」**をクリックします。
+
+## デバイスの要求
+{: #get-started-request-device}
+
+{{site.data.keyword.mdms_short}} デバイスを要求するには、{{site.data.keyword.slportal}} を使用します。
+
+1. [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} にログインします。
+2. ナビゲーション・メニューから**「ストレージ」**>**「データ・マイグレーション」**>**「{{site.data.keyword.mdms_short}}」**をクリックして、{{site.data.keyword.mdms_short}} ランディング・ページにアクセスします。
 3. **「デバイスの要求」**をクリックして、注文フォームを開きます。
-4. **「大量データ・マイグレーション」**注文フォームの各フィールドに入力します。
-   - **出荷先住所** - このフォームにはあらかじめデータが設定されません。どのフィールドも編集可能です。 デバイスの配送の受け取り人の名前を「注意」フィールドに入力します。 配送場所を選択する時に、デバイスの重量 (ケース込みで 30 kg) やアクセスのしやすさを考慮に入れてください。
+4. 以下の詳細を指定して、{{site.data.keyword.mdms_short}} 要求を開始します。
 
-   デバイスには、移動のためのホイールとポップアップ・ハンドルが付いています。
-   {:note}
+    <table>
+      <tr>
+        <th>アクション</th>
+        <th>説明</th>
+      </tr>
+      <tr>
+        <td>要求名の追加</td>
+        <td>{{site.data.keyword.mdms_short}} 要求を識別して追跡するための別名を入力します。</td>
+      </tr>
+      <tr>
+        <td>データ・オフロードの宛先の選択</td>
+        <td>ドロップダウン・リストからクラウド・オブジェクト・ストレージのプロビジョン済みインスタンスを選択します。 次に、マイグレーションしたデータを保管するストレージ・バケットに割り当てた名前を選択します。</td>
+      </tr>
+      <tr>
+        <td>配送先住所の追加</td>
+        <td>配送先住所やデリバリーを受け取る担当者の名前などの配送先情報を入力します。</td>
+      </tr>
+      <tr>
+        <td>マイグレーション連絡先の追加</td>
+        <td>デバイスへのデータ・マイグレーションを管理するユーザーの名前を入力します。</td>
+      </tr>
+      <tr>
+        <td>ネットワーク設定の構成</td>
+        <td>
+          <p>ネットワーク構成の詳細を入力して、データ転送接続の設定を構成します。</p>
+          <p>以下の<a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#network-settings">ネットワーク設定</a>を入力します。</p>
+          <p>
+            <ul>
+              <li><i>デバイス管理の設定。</i> リモート・コンピューターの静的 IP アドレス、ネットマスク、およびデフォルト・ゲートウェイを入力します。</li>
+              <li><i>データ転送の設定。</i> ソース・データがあるサーバーの静的 IP アドレスとネットマスクを入力します。</li>
+            </ul>
+          </p>
+        </td>
+      </tr>
+      <caption style="caption-side:bottom;">表 1. {{site.data.keyword.mdms_short}} 要求ワークフローの説明</caption>
+    </table>
 
-   - **マイグレーションの主要な連絡先 (Key migration contacts)** - このフォームは事前に入力されていません。 どのフィールドも編集可能です。 複数の人を追加できます。
-   - **データ・センター・ネットワーク構成 (Data center network configuration)** - 大量データ・マイグレーション・デバイスの Eth3 ポートを配送前にあらかじめプロビジョニングするために、ネットワーク構成の詳細情報を入力します。
-   - **データ・オフロードの宛先 (Data offload destination)** - リストから既存のターゲット・アカウントを選択します。
-   - **要求名** - 注文を追跡するための名前を入力します。
-5. 各サービスのご使用条件を読んでから、**「契約書を読み、そのすべての条件に同意します: 大量データ・マイグレーションのサービス契約書」**チェック・ボックスを選択します。
-6. **「要求の提出」**をクリックして要求を送信します。 **「キャンセル」**をクリックすると、フォームが完全に破棄され、大量データ・マイグレーションのランディング・ページに戻ります。
+    デバイスの配送場所を選択するとき、デバイスの重量やアクセスのしやすさを考慮に入れてください。デバイスの重量は、そのハード・ケースおよびフォーム材輸送用ケース込みで約 27 kg (60 ポンド) になります。デバイスの配送に役立つように、輸送用ケースにはホイールとポップアップ・ハンドルが付いていて、簡単に移動できるようになっています。
+    {: tip}
+5. {{site.data.keyword.mdms_short}} サービス契約を読み、チェック・ボックスを選択します。
+6. **「要求の送信 (Place Request)」**をクリックして、注文を完了します。 
 
+## 次に行うこと
+{: #get-started-next-steps}
 
-## 準備と配送
+完了しました。 {{site.data.keyword.mdms_short}} 要求がすべて設定されています。
 
-要求を送信した後、要求チケットの状況は`「要求の処理中」`と表示されます。 要求を受け取った後、{{site.data.keyword.IBM}} は、次に使用可能なデバイスの事前構成を開始します。
+- 注文の追跡について詳しくは、[要求の管理](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-manage-request)を参照してください。
+- デバイスの受け取りと接続について詳しくは、[デバイスのセットアップ](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview)を参照してください。
 
-デバイスが準備中になると、[「要求」![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/storage/mdms){:new_window}ページの状況が`「デバイスの準備中」`になり、その後、`「出荷待機中」`になります。 要求が`「出荷待機中」`の状況になった後でキャンセルすることはできません。
-
-配送業者がデバイスを受け取って配送場所への輸送を始めると、要求の状況が`「デバイスが発送されました」`に更新されます。 [「要求」![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/storage/mdms){:new_window}ページの**「注文の詳細 (Order Details)」**セクションで追跡番号を確認できます。
-
-
-## 受け取りと接続
-
-1. 事前構成されたデバイスが到着します。 簡単な[電源投入/接続の説明書](user-instructions.html)が同梱されています。 <br/>
-
-   ユーザー名とストレージ・プールのパスワードは別の方法で通知されます。 [「要求」![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/storage/mdms){:new_window}の**「要求の詳細」**で資格情報を確認してください。
-   {:note}
-2. 注文フォームで指定した静的 IP アドレスをブラウザーに入力します。
-3. ログインし、パスワードを入力して、空のストレージ・プールのロックを解除します。 <br/>
-
-   [「要求」![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/storage/mdms){:new_window}ページの「要求の詳細」でパスワードを確認してください。
-   {:tip}
-4. サーバーに NFS 共有をマウントします。
-5. DataShuttle インベントリーを再実行して、新しいファイルがすべて取り込まれていることを確認します。
-
-## データの移動
-1. DataShuttle コピーを実行してデータを移動します。
-2. ストレージ・プールをロックします。
-3. 大量データ・マイグレーション・デバイスを正常にシャットダウンします。
-4. 提供された配送ラベルを使用して、{{site.data.keyword.BluSoftlayer_full}} データ・センターにボックスを送り返します。
-
-デバイスが {{site.data.keyword.BluSoftlayer}} に戻ると、要求の状況が`「デバイス受領済み」`に変わります。
-
-## オフロードとアクセス
-
-転送プロセス中は、要求の状況に`「データのオフロード中」`と表示されます。 {{site.data.keyword.objectstorageshort}} バケットへのマイグレーションが完了すると、状況が再度変わります (`「オフロード完了」`)。 クラウド・オブジェクト・ストレージ・バケットへの高速オフロードが完了すると、すぐにデータにアクセスできるようになります。
-
-## デバイスの消去
-
-{{site.data.keyword.IBM}} は、デバイスからデータを永久的に消去するために、DOD レベルのデータ・ワイプ要件を実装しています。 消去が完了すると、要求の状況が`「消去完了」`になります。

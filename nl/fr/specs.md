@@ -2,15 +2,27 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-07-10"
+
+keywords: device specs, device capacity, device weight
+
+subcollection: mass-data-migration
 
 ---
- {:tip: .tip}
- {:note: .note}
- {:important: .important}
 
-# Spécifications de périphérique
-{: #devicespecs}
+{:shortdesc: .shortdesc}
+{:screen: .screen}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
+{:codeblock: .codeblock}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
+{:download: .download}
+
+# Spécifications relatives au périphérique
+{: #device-specs}
 
 <table role="presentation">
         <colgroup>
@@ -34,38 +46,37 @@ lastupdated: "2019-02-05"
           <tr>
             <td><p>Câbles</p></td>
             <td>
-              <p>2x CAT6a (182 m)</p>
-              <p>Cordon d'alimentation (182 m)</p>
+              <p>2 x CAT6a (182,88 cm)</p>
+              <p>Cordon d'alimentation 1 x IEC C13-US (182,88 cm) <br/>Les convertisseurs de puissance ne sont pas fournis.</p>
             </td>
           </tr>
           <tr>
             <td><p>Exigences thermiques</p></td>
             <td>
-              <p>Température -  41° à 95°F (droit avec couvercle entièrement ouvert)</p>
-              <p>Humidité - 90 % avec couvercle ouvert</p>
-              <p>Altitude - 4000 mètres max</p>
+              <p>Température : 41° - 95°F (à la verticale, couvercle grand ouvert)</p>
+              <p>Humidité : 90 % , couvercle grand ouvert</p>
+              <p>Altitude : 4000 mètres max</p>
             </td>
           </tr>
           <tr>
-            <td><p>Waterproof</p></td>
+            <td><p>Etanchéité</p></td>
             <td>
-              <p>Couvercle ouvert, jusqu'à 1 minute</p>
-              <p>Couvercle fermé, jusqu'à 30 minutes</p>
+              <p>Couvercle ouvert: jusqu'à 1 minute</p>
+              <p>Couvercle fermé : jusqu'à 30 minutes</p>
             </td>
           </tr>
           <tr>
             <td><p>Poids</p></td>
             <td>
-              <p>Périphérique : 24,5 kg<br/>Avec mallette de transport : 26,7 kg</p>
-              Le périphérique est équipé de roues et de poignées pour une meilleure maniabilité. Il est accessible depuis l'extérieur de la mallette de transport.
-              {:note}
+              <p>Périphérique : 19 kg.</br>Périphérique + étui rigide : 25 kg.<br/>Périphérique+ étui rigide+ mallette de transport renforcée de mousse : 28 kg.</p>
+              Remarque : le périphérique est équipé de roues et de poignées rétractables pour une meilleure maniabilité (équipements aussi accessibles avec la mallette de transport renforcée de mousse). Il n'est pas nécessaire de sortir le périphérique de son étui rigide pour une connexion et une ingestion de données.
             </td>
           </tr>
           <tr>
             <td><p>Dimensions</p></td>
             <td>
-              <p>Périphérique - 21,7” x 13,7” x 19,3”</p>
-              <p>Avec mallette de transport - 25,6” x 17,3” x 22,8”</p>
+              <p>Périphérique : 55,12 cm x 34,80 cm x 49,02 cm</p>
+              <p>Périphérique + mallette transport renforcée de mousse : 65,02 cm x 43,94 cm x 57,91 cm</p>
             </td>
           </tr>
           <tr>
