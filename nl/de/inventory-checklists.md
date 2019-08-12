@@ -2,13 +2,27 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-07-10"
+
+keywords: inventory checklist
+
+subcollection: mass-data-migration
 
 ---
-{:new_window: target="_blank"}
 
-# Checkliste für Ausstattung
-{: #inventorychecklists}
+{:shortdesc: .shortdesc}
+{:screen: .screen}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
+{:codeblock: .codeblock}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
+{:download: .download}
+
+# Checklisten für Ausstattung
+{: #inventory-checklists}
 
 ## RJ45 - Checkliste für Ausstattung
 

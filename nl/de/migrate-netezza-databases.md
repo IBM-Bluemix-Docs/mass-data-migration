@@ -2,22 +2,35 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-19"
+
+keywords: migrate Netezza databases, PureData System for Analytics databases, 
+
+subcollection: mass-data-migration
 
 ---
+
+{:shortdesc: .shortdesc}
+{:screen: .screen}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
 {:codeblock: .codeblock}
-{:new_window: target="_blank"}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:download: .download}
 
-# Netezza-Datenbanken auf DashDB migrieren
-{: #migratingNetezzaDashDB}
+# PureData System for Analytics-Datenbanken auf {{site.data.keyword.dashdbshort_notm}} migrieren
+{: #migrate-netezza-databases}
 
-Mit dem Mass Data Migration Service (MDMS) können umfangreiche Netezza-Datenbanken auf DashDB migriert werden. Sie können dieses Dokument als Referenz für die Tools verwenden, mit denen die Menge der zu übertragenden Daten und die Exportmethoden festgelegt werden.
+Mit {{site.data.keyword.mdms_full}} können große IBM PureData™ System for Analytics-Datenbanken (auf Basis von Netezza®-Technologie) auf {{site.data.keyword.dashdbshort}} migriert werden. Sie können dieses Dokument als Referenz für die Tools verwenden, mit denen die Menge der zu übertragenden Daten und die Exportmethoden festgelegt werden.
+{: shortdesc}
 
 ## Größe des Datenbankobjekts ermitteln
-1. Laden Sie von [IBM Support > Fix Central > Netezza-Tools ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window} die geeignete Version der Netezza-Tools für Ihre Netezza-Instanz herunter. 
+{: #determine-db-object-size}
+
+1. Laden Sie von [IBM Support > Fix Central > Netezza-Tools ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window} die geeignete Version der Netezza-Tools für Ihre Netezza-Instanz herunter.
 
    Unterstützungstools werden auf dem Netezza-Server standardmäßig im Verzeichnis `/nz/support-IBM_Netezza<version>/bin` installiert.
    {:note}
@@ -78,6 +91,7 @@ Summe für diese Datenbank 1,50 183.537.500.160 275.251.242.240 91.713.742.080
       {: codeblock}
 
 ## Daten extrahieren und Onboarding
+{: #extract-data}
 
 Sie können zwei Optionen verwenden, um die Daten aus Netezza zu extrahieren.
 - Verwenden Sie das Dienstprogramm `nz_backup`.
@@ -90,12 +104,14 @@ Sie können zwei Optionen verwenden, um die Daten aus Netezza zu extrahieren.
 
 - Verwenden Sie die Anweisung `CREATE EXTERNAL TABLE`.
    - Wählen Sie `FORMAT` = ”Text” aus.
-   - Stellen Sie dem DashDB-Team die `USING`-Klausel zur Verfügung, die beim `LOAD`-Prozess für den Export für die Wiederverwendung verwendet wurde.
+   - Stellen Sie dem {{site.data.keyword.dashdbshort_notm}}-Team die für den Export verwendete `USING`-Klausel zur Verfügung, damit sie für den `LOAD`-Prozess wiederverwendet werden kann. 
 
 
 ## Daten validieren
+{: #validate-data}
+
 Die Daten können wieder in Netezza eingelesen werden, um sicherzustellen, dass sie korrekt sind. Verwenden Sie dazu die Anweisung `SELECT FROM` mit der externen Tabelle `myfile` und einer `USING(....)`-Klausel.
 
 **Weitere Informationen**
 
-Weitere Informationen zu Netezza finden Sie in der [Benutzerdokumentation zur IBM Netezza-Datenbank ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}. 
+Weitere Informationen zu PureData System for Analytics finden Sie in der [Benutzerdokumentation zur IBM Netezza-Datenbank ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}. 

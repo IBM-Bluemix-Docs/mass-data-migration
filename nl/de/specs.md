@@ -2,15 +2,27 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-07-10"
+
+keywords: device specs, device capacity, device weight
+
+subcollection: mass-data-migration
 
 ---
- {:tip: .tip}
- {:note: .note}
- {:important: .important}
+
+{:shortdesc: .shortdesc}
+{:screen: .screen}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
+{:codeblock: .codeblock}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
+{:download: .download}
 
 # Einheitenspezifikationen
-{: #devicespecs}
+{: #device-specs}
 
 <table role="presentation">
         <colgroup>
@@ -34,38 +46,37 @@ lastupdated: "2019-02-05"
           <tr>
             <td><p>Kabel</p></td>
             <td>
-              <p>2x CAT6a (1,8 m)</p>
-              <p>Netzkabel (1,8 m)</p>
+              <p>2 x CAT6a (1,8 m)</p>
+              <p>1 x IEC C13-US Netzkabel (1,8 m) <br/>Stromrichter werden nicht bereitgestellt. </p>
             </td>
           </tr>
           <tr>
             <td><p>Thermische Anforderungen</p></td>
             <td>
-              <p>Temperatur - 5-35 °C (aufrecht stehend mit vollständig geöffneter Abdeckung)</p>
-              <p>Luftfeuchtigkeit - 90 % mit geöffneter Abdeckung</p>
-              <p>Höhe - 4.000 m (maximal)</p>
+              <p>Temperatur: 5-35 °C (aufrecht stehend mit vollständig geöffneter Abdeckung)</p>
+              <p>Luftfeuchtigkeit: 90 % bei geöffneter Abdeckung</p>
+              <p>Höhe: 4.000 m (maximal)</p>
             </td>
           </tr>
           <tr>
             <td><p>Wasserdicht</p></td>
             <td>
-              <p>Mit geöffneter Abdeckung bis zu 1 Minute</p>
-              <p>Mit geschlossener Abdeckung bis zu 30 Minuten</p>
+              <p>Bei geöffneter Abdeckung: bis zu 1 Minute</p>
+              <p>Bei geschlossener Abdeckung: bis zu 30 Minuten</p>
             </td>
           </tr>
           <tr>
             <td><p>Gewicht</p></td>
             <td>
-              <p>Die Einheit wiegt 24,7 kg.<br/>Mit Travel Soft Case wiegt sie 27 kg.</p>
-              Die Einheit ist mit Rollen und einem Griff ausgestattet, um die Handhabung zu vereinfachen. Auf die Einheit kann zugegriffen werden, während sie sich im Travel Soft Case befindet.
-              {:note}
+              <p>Einheit: 18,8 kg. </br>Einheit + Hartbehälter mit Rollen: 25,4 kg. <br/>Einheit + Hartbehälter + gepolsterter Transportbehälter: 27,6 kg. </p>
+Hinweis: Die Einheit ist mit Rollen und einem ausziehbaren Griff ausgestattet, um das Rangieren zu vereinfachen. (Der Griff und die Rollen sind auch verwendbar, wenn die Einheit sich im Transportbehälter befindet.) Die Einheit muss nicht aus dem Hartbehälter entfernt werden, um sie anzuschließen und Daten zu übertragen.
             </td>
           </tr>
           <tr>
             <td><p>Abmessungen</p></td>
             <td>
-              <p>Einheit - 55,1 x 34,8 x 49,0 cm</p>
-              <p>Mit Travel Soft Case - 65,0 x 43,9 x 57,9 cm</p>
+              <p>Einheit: 55,1 cm x 34,8 cm x 49 cm</p>
+              <p>Einheit + gepolsterter Transportbehälter: 65 cm x 43,9 cm x 57,9 cm</p>
             </td>
           </tr>
           <tr>

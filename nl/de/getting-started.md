@@ -2,90 +2,117 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-07-10"
+
+keywords: get started tutorial, data transfer, data migration, transfer data to cloud, migrate data, migrate data to cloud, Mass Data Migration
+
+subcollection: mass-data-migration
 
 ---
-{:new_window: target="_blank"}
+
+{:shortdesc: .shortdesc}
+{:screen: .screen}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
+{:codeblock: .codeblock}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
-{:DomainName: data-hd-keyref="DomainName"}
+{:download: .download}
 
-# Einführung in {{site.data.keyword.cloud_notm}} Mass Data Migration
-{: # GettingStarted}
+# Einführung - Lernprogramm
+{: #getting-started-tutorial}
 
-**Voraussetzungen**
+{{site.data.keyword.mdms_full}} hilft Ihnen, Datenvolumen im Terabyte- bis Petabytebereich schnell, einfach und sicher in {{site.data.keyword.cloud_notm}} zu übertragen. In diesem Lernprogramm erfahren Sie, wie Sie Ihre Migrationseinheit über das {{site.data.keyword.slportal}} anfordern.
+{: shortdesc}
 
-Sammeln Sie diese Informationen, bevor Sie eine Mass Data Migration-Anforderung übergeben und die Migration ausführen.
+Würden Sie gerne neue {{site.data.keyword.mdms_short}}-Features ausprobieren? Wenn Sie am {{site.data.keyword.mdms_short}}-Betaprogramm teilnehmen, können Sie Serviceerweiterungen schon vor der allgemeinen Freigabe testen. Weitere Informationen finden Sie in [Am Betaprogramm teilnehmen](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-releases#beta).
+{: tip}
 
-1. Netzeinstellungen für die Speichereinheit
-   - Statische IP-Adresse
-   - Netzmaske zum Aktivieren der Datenübertragung
-2. Netzeinstellungen für fernen Computer
-   - Statische IP-Adresse
-   - Netzmaske
-   - Standardgateway für den Zugriff auf die Benutzerschnittstelle
-3. Downloadziel für Cloud Object Storage <br/>
+## Vorbereitende Schritte
+{: #get-started-prereqs}
 
-   Sie müssen über mindestens ein {{site.data.keyword.cos_full}}-Konto und ein Bucket in einer 'US Standard Cross Region' oder der 'EU Cross Region' verfügen, um das Anforderungsformular auszufüllen. Wenn Sie noch nicht über ein {{site.data.keyword.cos_full_notm}}}-Konto verfügen, erstellen Sie ein Konto, bevor Sie die Einheit für Mass Data Migration anfordern. Weitere Informationen finden Sie im Abschnitt [über {{site.data.keyword.cos_full}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage){:new_window}.
-   {:important}
+Bevor Sie eine {{site.data.keyword.mdms_short}}-Einheit bestellen: 
 
-## Anforderung erstellen
+- Planen Sie die Migration, indem Sie die [Regionen und Standorte](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-regions) überprüfen, in denen {{site.data.keyword.mdms_short}} verfügbar ist. 
+- Stellen Sie sicher, dass Sie über eine bereitgestellte Instanz von [{{site.data.keyword.cos_full}}](https://{DomainName}/catalog/services/cloud-object-storage){: external} für Ihr {{site.data.keyword.cloud_notm}}-Konto verfügen.  
+- Informieren Sie sich über die Netzverbindungstypen und -geschwindigkeiten. 
+- Stellen Sie die Netzeinstellungen wie IP-Adressen und andere Routing-Details zusammen, die benötigt werden, um die Einheit mit Ihrem Quellenserver zu verbinden. 
+- Legen Sie eine Person fest, die die Einheit an Ihrem Standort empfängt, anschließt und verwendet. 
 
-1. Melden Sie sich bei der [IBM Cloud-Konsole](https://{DomainName}/){:new_window} an und klicken Sie auf das Menüsymbol in der linken oberen Ecke. Wählen Sie **Infrastruktur** aus.
+## Speicherbucket erstellen
+{: #get-started-create-bucket}
 
-   Alternativ dazu können Sie sich bei der [{{site.data.keyword.cloud_notm}}-Konsole ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/catalog/){:new_window} anmelden. 
-2. Wählen Sie in der Navigationsleiste **Storage** > **Datenmigration** > **Mass Data Migration** aus, um die Landing-Page für Mass Data Migration zu öffnen.
+Nachdem Sie eine Instanz von Cloud Object Storage bereitgestellt haben, erstellen Sie ein Speicherbucket, das als Ziel für Ihre migrierten Daten dient.  
+
+1. In der {{site.data.keyword.cloud_notm}}-Ressourcenliste wählen Sie die bereitgestellte Instanz von Cloud Object Storage aus. 
+2. Auf der Seite _Einführung_ klicken Sie auf **Bucket erstellen**. 
+3. Geben Sie einen Bucketnamen ein und wählen Sie eine Ausfallsicherheitsoption für Ihre Daten aus. 
+   
+   Die Ausfallsicherheitsoption legt fest, wie Ihre Daten vom Cloud Object Storage-Service über einen geografischen Bereich verteilt werden, nachdem die Daten in den Service importiert wurden. {{site.data.keyword.mdms_short}} unterstützt alle Ausfallsicherheitsoptionen, die für Cloud Object Storage verfügbar sind.   
+   {: note}
+4. In der Liste der Standorte wählen Sie den geografischen Bereich aus, in dem Ihre Daten physisch gespeichert werden sollen, nachdem sie in das Speicherbucket migriert wurden. 
+5. In der Liste der Speicherklassen wählen Sie **Standard** aus. 
+6. Klicken Sie auf **Bucket erstellen**. 
+
+## Einheit anfordern
+{: #get-started-request-device}
+
+Sie können eine {{site.data.keyword.mdms_short}}-Einheit über das {{site.data.keyword.slportal}} anfordern. 
+
+1. Melden Sie sich bei dem [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} an. 
+2. Im Navigationsmenü klicken Sie auf **Speicher** > **Datenmigration** > **{{site.data.keyword.mdms_short}}**, um auf die Landing-Page für {{site.data.keyword.mdms_short}} zuzugreifen. 
 3. Klicken Sie auf **Einheit anfordern**, um das Bestellformular zu öffnen.
-4. Füllen Sie alle Felder im Bestellformular **Mass Data Migration** aus.
-   - **Versandadresse** - Dieses Formular wird nicht vorab ausgefüllt und jedes Feld kann bearbeitet werden. Geben Sie den Namen der Person, die die gelieferte Einheit im Empfang nimmt, im Feld für den Empfänger an. Berücksichtigen Sie bei der Auswahl des Anlieferungsorts das Gewicht der Einheit (30 kg mit Behälter) und die Zugangsmöglichkeiten.
+4. Starten Sie Ihre {{site.data.keyword.mdms_short}}-Anforderung, indem Sie die folgenden Details angeben. 
 
-   Die Einheit ist mit Rollen und einem ausklappbaren Griff ausgestattet, um das Rangieren zu vereinfachen.
-   {:note}
+    <table>
+      <tr>
+        <th>Aktion</th>
+        <th>Beschreibung</th>
+      </tr>
+      <tr>
+        <td>Anforderungsname hinzufügen</td>
+        <td>Geben Sie einen Aliasnamen ein, um Ihre {{site.data.keyword.mdms_short}}-Anforderung zu identifizieren und zu verfolgen. </td>
+      </tr>
+      <tr>
+        <td>Ziel für die Datenauslagerung auswählen</td>
+        <td>Wählen Sie in der Dropdown-Liste Ihre bereitgestellte Instanz von Cloud Object Storage aus. Wählen Sie anschließend den Namen aus, den Sie dem Speicherbucket zugeordnet haben, in dem Ihre migrierten Daten gespeichert werden sollen. </td>
+      </tr>
+      <tr>
+        <td>Versandadresse hinzufügen</td>
+        <td>Geben Sie Ihre Versandinformationen ein, z. B. die Versandadresse und den Namen der Person, die die Lieferung entgegennimmt. </td>
+      </tr>
+      <tr>
+        <td>Ansprechpartner für die Migration hinzufügen</td>
+        <td>Geben Sie den Namen der Person an, die für die Datenmigration auf Ihre Einheit verantwortlich ist. </td>
+      </tr>
+      <tr>
+        <td>Netzeinstellungen konfigurieren</td>
+        <td>
+          <p>Konfigurieren Sie die Einstellungen für die Datenübertragungsverbindung, indem Sie die Details zur Netzkonfiguration eingeben. </p>
+          <p>Geben Sie die folgenden <a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#network-settings">Netzeinstellungen</a> ein: </p>
+          <p>
+            <ul>
+              <li><i>Einstellungen für das Einheitenmanagement.</i> Geben Sie die statische IP-Adresse, die Netzmaske und das Standardgateway für den fernen Computer ein. </li>
+              <li><i>Einstellungen für die Datenübertragung.</i> Geben Sie die statische IP-Adresse und die Netzmaske für den Server ein, auf dem sich die Quellendaten befinden. </li>
+            </ul>
+          </p>
+        </td>
+      </tr>
+      <caption style="caption-side:bottom;">Tabelle 1. Beschreibung des Workflows für die {{site.data.keyword.mdms_short}}-Anforderung</caption>
+    </table>
 
-   - **Ansprechpartner für Migration** - Dieses Formular wird nicht vorab ausgefüllt. Jedes Feld kann bearbeitet werden. Es können mehrere Personen hinzugefügt werden.
-   - **Netzkonfiguration im Rechenzentrum** - Geben Sie Details der Netzkonfiguration für die Vorabbereitstellung des Eth3-Ports in der Einheit für Mass Data Migration vor dem Versand an.
-   - **Ziel für Datenauslagerung** -  Wählen Sie Ihr vorhandenes Zielkonto in der Liste aus.
-   - **Name der Anforderung** - Geben Sie einen Namen ein, um die Verfolgung Ihrer Bestellung zu vereinfachen.
-5. Wählen Sie das Kontrollkästchen **Ich habe die Vereinbarung für Mass Data Migration gelesen und stimme ihr zu** aus, nachdem Sie jede der Servicevereinbarungen gelesen haben.
-6. Klicken Sie auf **Anforderung senden**, um die Anforderung zu übergeben. Klicken Sie auf **Abbrechen**, um das Formular zu verlassen und zur Landing-Page für Mass Data Migration zurückzukehren.
+Beachten Sie das Gewicht der Einheit und die Zugangsmöglichkeiten, wenn Sie einen Anlieferungsort für Ihre Einheit auswählen. Die Einheit wiegt zusammen mit dem Hartbehälter und dem gepolsterten Transportbehälter etwa 27 kg. Um den Transport der Einheit zu erleichtern, ist der Transportbehälter mit Rollen und einem ausziehbaren Griff ausgestattet.
+    {: tip}
+5. Lesen Sie die {{site.data.keyword.mdms_short}}-Servicevereinbarung und wählen Sie dann das Kontrollkästchen aus. 
+6. Klicken Sie auf **Anforderung senden**, um die Bestellung abzuschließen.  
 
+## Weitere Schritte
+{: #get-started-next-steps}
 
-## Vorbereitung und Versand
+Glückwunsch! Sie haben Ihre {{site.data.keyword.mdms_short}}-Anforderung erfolgreich erstellt. 
 
-Nachdem Sie die Anforderung abgeschickt haben, wird für das Anforderungsticket der Status `Anforderung wird verarbeitet` angezeigt. Wenn Ihre Anforderung akzeptiert wurde, beginnt {{site.data.keyword.IBM}} mit der Vorkonfiguration der nächsten verfügbaren Einheit.
+- Weitere Informationen zur Verfolgung Ihrer Bestellung finden Sie in [Anforderung verwalten](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-manage-request). 
+- Weitere Informationen zum Empfangen und Anschließen der Einheit finden Sie in [Einheit einrichten](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview). 
 
-Während der Vorbereitung der Einheit wird auf der Seite [Anforderungen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/storage/mdms){:new_window} der Status `Einheit wird vorbereitet` gefolgt von `Lieferung vorgesehen` angezeigt. Nachdem Ihre Anforderung in den Status `Lieferung vorgesehen` gewechselt ist, kann sie nicht mehr abgebrochen werden.
-
-Wenn die Einheit vom Versandunternehmen für den Versand an Sie abgeholt wird, wird der Status der Anforderung in `Einheit wurde versandt` aktualisiert. Die Tracking-Nummer wird Ihnen im Abschnitt **Details der Bestellung** auf der Seite [Anforderungen![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/storage/mdms){:new_window} mitgeteilt.
-
-
-## Empfangen und anschließen
-
-1. Die vorkonfigurierte Einheit trifft bei Ihnen ein. Eine grundlegende [Anweisung für den Stromanschluss und die Konnektivität](user-instructions.html) wird mitgeliefert. <br/>
-
-   Der Benutzername und das Kennwort für den Speicherpool werden separat bereitgestellt. Die Berechtigungsnachweise finden Sie in den **Anforderungsdetails** in Ihren [Anforderungen![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/storage/mdms){:new_window}.
-   {:note}
-2. Geben die statische IP-Adresse, die Sie im Bestellformular angegeben haben, in Ihren Browser ein.
-3. Melden Sie sich an und geben Sie das Kennwort ein, um den leeren Speicherpool zu entsperren. <br/>
-
-   Das Kennwort finden Sie in den Anforderungsdetails auf Ihrer Seite [Anforderungen![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/storage/mdms){:new_window}.
-   {:tip}
-4. Hängen Sie die gemeinsam genutzte NFS-Ressource auf Ihrem Server an.
-5. Führen Sie die DataShuttle-Bestandsaufnahme erneut aus, um sicherzustellen, dass alle neuen Dateien erfasst werden.
-
-## Daten verschieben
-1. Führen Sie die DataShuttle-Kopie aus, um die Daten zu verschieben.
-2. Sperren Sie den Speicherpool.
-3. Beenden Sie die Einheit für Mass Data Migration ordnungsgemäß.
-4. Senden Sie die Einheit an das {{site.data.keyword.BluSoftlayer_full}}-Rechenzentrum zurück. Verwenden Sie dazu den bereitgestellten Versandaufkleber.
-
-Bei Rückgabe der Einheit an {{site.data.keyword.BluSoftlayer}} wird der Status in `Einheit erhalten` geändert.
-
-## Auslagerung und Zugriff
-
-Während des Übertragungsprozesses wird der Anforderungsstatus `Daten auslagern` angezeigt. Wenn die Migration in das {{site.data.keyword.objectstorageshort}}-Bucket abgeschlossen ist, wird der Status in `Auslagern abgeschlossen` geändert. Ihre Daten sind zugänglich, sobald die Hochgeschwindigkeitsauslagerung in Ihr Cloud Object Storage-Bucket abgeschlossen ist.
-
-## Einheit löschen
-
-{{site.data.keyword.IBM}} implementiert Datenbereinigungsverfahren nach DOD-Standard, um Ihre Daten in der Einheit dauerhaft zu löschen. Nach diesem Vorgang wird für Ihre Anforderung der Status `Löschen abgeschlossen` angezeigt.
