@@ -74,7 +74,7 @@ Both device models offer the same functionality, but the cabling instructions ar
 {: note}
 
 ## Device ports 
-{: #network-settings}
+{: #device-ports}
 
 {{site.data.keyword.mdms_short}} devices are configured for two Ethernet connections. The first connection handles device management by running a web-based user interface, and the second connection handles data movement between the device and your source server.
 
