@@ -50,7 +50,7 @@ From data centers and offices to remote locations like oil rigs and ships, {{sit
 {: #how-much-data}
 {: faq}
 
-There is virtually no limit to the amount of data you can transfer, whether it’s a few terabytes or many petabytes. Each device holds up to 120 TB of usable capacity at RAID-6, but you can use multiple devices to accommodate larger workloads. {{site.data.keyword.mdms_short}} also offers inline compression, which may further increase usable capacity depending on how compressible your dataset is. The largest single object is limited to 10 TB in size.
+There is virtually no limit to the amount of data you can transfer, whether it’s a few terabytes or many petabytes. Each device holds up to 120 TB of usable capacity at RAID-6, but you can use multiple devices to accommodate larger workloads. {{site.data.keyword.mdms_short}} also offers inline compression, which may further increase usable capacity depending on how compressible your data set is. The largest single object is limited to 10 TB in size.
 
 
 ## How do I use multiple devices to move larger workloads that exceed 120 TB?
@@ -116,7 +116,7 @@ For all supported regions outside of the US and EU, shipping vendors and shippin
 In these regions, IBM is unable to book roundtrip shipping at the time of your order placement. Instead, one-way shipments are booked at the time a shipment is needed. For outbound shipments, please allow at least three business days for IBM to coordinate the shipment of your {{site.data.keyword.mdms_short}} device after you place your request.
 {: note}
 
-For non-US and non-EU orders, request a return shipment for the device at least three business days prior to the date that you want to ship the device. For example, if you want to ship the device on Friday, coordinate a return shipment on Monday of the same week. You can request a return shipment from the _Request details_ tab in the {{site.data.keyword.mdms_short}} dashboard.
+For non-US and non-EU orders, request a return shipment for the device at least three business days before the date that you want to ship the device. For example, if you want to ship the device on Friday, coordinate a return shipment on Monday of the same week. You can request a return shipment from the _Request details_ tab in the {{site.data.keyword.mdms_short}} dashboard.
 {: important}
 
 ## I am located in Japan, Australia, Brazil, Canada, Mexico, Hong Kong, Singapore, Norway, or South Korea. How do I request return shipping for my {{site.data.keyword.mdms_short}} device?
@@ -155,7 +155,7 @@ All {{site.data.keyword.mdms_short}} devices are housed in rugged and durable en
 {: #how-to-track-request}
 {: faq}
 
-To track the status of your request, navigate to the _Request details_ tab on the the {{site.data.keyword.mdms_short}} dashboard in the {{site.data.keyword.cloud_notm}} console.
+To track the status of your request, navigate to the _Request details_ tab on the {{site.data.keyword.mdms_short}} dashboard in the {{site.data.keyword.cloud_notm}} console.
 
 ## How do you erase my data from the {{site.data.keyword.mdms_short}} device after it is offloaded to {{site.data.keyword.cos_full_notm}}?
 {: #data-erasure}
@@ -191,9 +191,9 @@ The file interface is based on mature file and network software that enables lar
 {: #pricing-us}
 {: faq}
 
-In the US, a flat rate of USD 395 is charged per device, including the USD 295 device fee, USD 100 roundtrip UPS Overnight Shipping and 10 business days of use at your site.
+In the US, a flat rate of USD 395 is charged per device, including the USD 295 device fee, USD 100 roundtrip UPS Overnight shipping and 10 business days of use at your site.
 
-Your 10 days of use onsite does not include the day your device is shipped to you nor the day your device is returned to IBM (maximum of two days). If more time is needed to complete your migration beyond the allotted 10 business days, you will be charged a USD 30 per-day extension fee for each additional day of use.
+Your 10 days of use onsite do not include the day your device is shipped to you nor the day your device is returned to IBM (maximum of two days). If more time is needed to complete your migration beyond the allotted 10 business days, you will be charged a USD 30 per-day extension fee for each additional day of use.
 
 ## How much does it cost to use {{site.data.keyword.mdms_short}} in the EU?
 {: #pricing-eu}
@@ -201,7 +201,7 @@ Your 10 days of use onsite does not include the day your device is shipped to yo
 
 In the EU, a flat rate of USD 445 is charged per device including the USD 295 device fee, USD 150 roundtrip FedEx Overnight shipping and 10 business days of use at your site.
 
-Your 10 days of use onsite does not include the day your device is shipped to you nor the day your device is returned to IBM (maximum of 2 days). If more time is needed to complete your migration beyond the allotted 10 days, you will be charged a USD 30 per-day extension fee for each additional day of use.
+Your 10 days of use onsite do not include the day your device is shipped to you nor the day your device is returned to IBM (maximum of 2 days). If more time is needed to complete your migration beyond the allotted 10 days, you will be charged a USD 30 per-day extension fee for each additional day of use.
 
 ## How much does it cost to use {{site.data.keyword.mdms_short}} in all other supported regions?
 {: #pricing-other}
@@ -209,7 +209,7 @@ Your 10 days of use onsite does not include the day your device is shipped to yo
 
 In all other regions (Japan, Australia, Brazil, Canada, Mexico, Hong Kong, Singapore, Norway, and South Korea), a flat rate of USD 1,145 is charged per device including the USD 295 device fee, USD 850 roundtrip shipping, and 10 business days of use at your site.
 
-Your 10 days of use onsite does not include the day your device is shipped to you, nor the day your device is returned to IBM (a maximum of 2 days). If more time is needed to complete your migration beyond the allotted 10 days, you will be charged a USD 30 per-day extension fee for each additional day of use.
+Your 10 days of use onsite do not include the day your device is shipped to you, nor the day your device is returned to IBM (a maximum of 2 days). If more time is needed to complete your migration beyond the allotted 10 days, you will be charged a USD 30 per-day extension fee for each additional day of use.
 
 There are special shipping requirements for these regions. See above for more information.
 {: note}
@@ -218,7 +218,7 @@ There are special shipping requirements for these regions. See above for more in
 {: #pricing-cos}
 {: faq}
 
-Transferring data into {{site.data.keyword.cloud_notm}} occurs at no cost to you. However, standard rates apply for data stored in {{site.data.keyword.cos_full_notm}} or any other {{site.data.keyword.cloud_notm}} service. To learn more about pricing options in Cloud Object storage, see [{{site.data.keyword.cos_full_notm}} pricing](https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage){: external}. 
+Transferring data into {{site.data.keyword.cloud_notm}} occurs at no cost to you. However, standard rates apply for data stored in {{site.data.keyword.cos_full_notm}} or any other {{site.data.keyword.cloud_notm}} service. To learn more about pricing options in Cloud Object Storage, see [{{site.data.keyword.cos_full_notm}} pricing](https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage){: external}. 
 
 ## Can I buy an {{site.data.keyword.mdms_full_notm}} device?
 {: #purchasing-devices}

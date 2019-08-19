@@ -23,7 +23,7 @@ subcollection: mass-data-migration
 # Related links
 {: #related-links}
 
-Additional resources to help you learn about moving data into the cloud with {{site.data.keyword.mdms_full}}.
+More resources to help you learn about moving data into the cloud with {{site.data.keyword.mdms_full}}.
 
 ## Samples and recipes
 {: #samples}
@@ -33,7 +33,7 @@ Additional resources to help you learn about moving data into the cloud with {{s
 ## Blogs and videos
 {: #blogs}
 
-- [Video: {{site.data.keyword.mdms_short}} provides a fast, simple and secure way to transfer data to the {{site.data.keyword.cloud_notm}}](https://www.youtube.com/watch?v=eNSlUoswvss){: external}
+- [Video: {{site.data.keyword.mdms_short}} provides a fast, simple, and secure way to transfer data to the {{site.data.keyword.cloud_notm}}](https://www.youtube.com/watch?v=eNSlUoswvss){: external}
 
 ## Service terms
 {: #service-terms}

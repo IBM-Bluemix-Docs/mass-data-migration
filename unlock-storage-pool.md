@@ -54,12 +54,12 @@ Unlock the empty storage pool by using the credentials that you retrieved in the
       
    ![Activate storage pool](/images/StartStoragePool.png)
 
-   By default, the share has both Network File System (NFS) and Server Message Block (SMB) protocols that are enabled with no access restrictions. You can modify access to this share for NFS or SMB by right-clicking the share name in the user inferface, and then selecting the appropriate menu option.
+   By default, the share has both Network File System (NFS) and Server Message Block (SMB) protocols that are enabled with no access restrictions. You can modify access to this share for NFS or SMB by right-clicking the share name in the user interface, and then selecting the appropriate menu option.
    {: note}
 
 ## Next steps
 {: #unlock-storage-pool-next-steps}
 
-- If you're using a Unix machine, [connect the network share by using NFS](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-connect-nfs-share).
+- If you're using a UNIX machine, [connect the network share by using NFS](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-connect-nfs-share).
 - If you're using a Windows machine, [connect to the network share by using SMB](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-connect-smb-share).
 - Start the [data copy process](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-data-copy).

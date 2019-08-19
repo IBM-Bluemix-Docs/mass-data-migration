@@ -4,7 +4,7 @@ copyright:
   years:  2019
 lastupdated: "2019-07-10"
 
-keywords: copy data to device, move data to device, 
+keywords: copy data to device, move data to device 
 
 subcollection: mass-data-migration
 
