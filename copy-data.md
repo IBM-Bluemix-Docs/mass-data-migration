@@ -27,7 +27,7 @@ subcollection: mass-data-migration
 You can copy data to an {{site.data.keyword.mdms_full}} device by using the device user interface.
 
 ## Copying data to the device
-{: #copy-data}
+{: #copy-data-to-device}
 
 After you connect your server to the network share, you can start and monitor the data copy to the device.
 

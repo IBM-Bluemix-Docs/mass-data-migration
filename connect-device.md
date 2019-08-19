@@ -64,7 +64,7 @@ To edit an IP address or subnet mask:
 4. Go to **Update...** and press **enter** to save the setting.
 
 ## Connecting the device to your network
-{: #connect-device}
+{: #connect-device-to-network}
 
 To connect the device to your network, you need to configure two Ethernet connections. The first connection is for managing the device through a browser, and the second connection is for moving data across the same subnet where the source data is located.
 
