@@ -7,6 +7,8 @@ IBM Cloud Mass Data Migration
     {: .navgroup id="learn"}
     getting-started.md
     [Why IBM Cloud Mass Data Migration?](https://www.ibm.com/cloud/mass-data-migration)
+
+    {: .topicgroup}
     How does Mass Data Migration work?
         service-overview.md
         device-overview.md
