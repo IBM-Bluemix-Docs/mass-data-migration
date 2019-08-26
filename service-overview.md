@@ -53,10 +53,10 @@ You can compare your data migration options on {{site.data.keyword.cloud_notm}} 
       <dd>The <a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-access-ui">device user interface</a> is a local, web-based UI that you use to access the network share on the {{site.data.keyword.mdms_short}} device. The UI is based on a mature file and network software that enables large numbers of large files to be copied and transported to {{site.data.keyword.cloud_notm}}.</dd>
 </dl>
 
-## Your workflow
-{: #workflow}
+## {{site.data.keyword.mdms_short}} workflow
+{: #mdms-workflow}
 
-Ready to set up your device? Use the following checklist to 
+Ready to set up your device? Use the following checklist to complete your data transfer.
 
 1. [Connect the device](/docs/services/mass-data-migration?topic=mass-data-migration-connect-device)
 2. [Log in to the device user interface](/docs/services/mass-data-migration?topic=mass-data-migration-access-ui)
