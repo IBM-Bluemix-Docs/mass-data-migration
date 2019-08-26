@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-08-26"
 
 keywords: device user interface, access device, log in to device
 
@@ -59,7 +59,7 @@ Use the device credentials that you retrieved in the previous step to log in to 
 
 2. Log in to the device UI by using the username and password that you retrieved in the previous step. 
 
-   ![Login page](images/login.png)
+   ![Login page](images/log-in-device-ui.png)
    
    The Common Tasks wizard is displayed. Use the options from left to right to begin importing your data.
 

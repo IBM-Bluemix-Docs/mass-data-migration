@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-08-26"
 
 keywords: copy data to device, move data to device 
 
@@ -34,10 +34,10 @@ After you connect your server to the network share, you can start and monitor th
 1. Copy data onto the network share by using a file copy tool that is compatible with your host computer.
 2. In the Common Tasks wizard, click **View Network Activity** to show inbound Ethernet load as data is transferred to the device on the 10Gb link.
    
-    ![View activity](images/NetworkPerf.png)
+    ![View activity](images/network-perf.png)
 3. Click **View Storage pool** to monitor storage usage and IOPS on the device.
    
-    ![View Storage Pool](images/PoolPerf.png)
+    ![View Storage Pool](images/pool-perf.png)
 
 ## Next steps
 {: #import-data-next-steps}

@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-08-26"
 
 keywords: device models, device ports, network settings, configure network  
 
@@ -25,15 +25,8 @@ subcollection: mass-data-migration
 # Device overview
 {: #device-overview}
 
-{{site.data.keyword.mdms_full}} provides a portable, pre-configured storage device that is shipped to your location for easy migration of your data.
+Learn about {{site.data.keyword.mdms_full}} device models and network configuration options. 
 {: shortdesc}
-
-Use this page to learn about network configuration options for your {{site.data.keyword.mdms_short}} device.
-
-## Device models
-{: #device-models}
-
-Your {{site.data.keyword.mdms_short}} device arrives pre-configured and ready to connect to your network. 
 
 The following image shows the main areas of the device.
 
@@ -41,7 +34,11 @@ The following image shows the main areas of the device.
   <img src="images/mdms-device-rj45.svg" alt="Top-down view of the Mass Data Migration device">
 </a>
 
+## Device models
+{: #device-models}
+
 {{site.data.keyword.cloud_notm}} provides two {{site.data.keyword.mdms_short}} device models. Each model comes packaged with [optics and adapters](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-inventory-checklists) that support both RJ45 and SFP+ copper connections. 
+
 
 <table>
   <tr>

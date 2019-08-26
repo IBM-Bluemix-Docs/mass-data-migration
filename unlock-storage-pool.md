@@ -52,7 +52,7 @@ Unlock the empty storage pool by using the credentials that you retrieved in the
 2. In the Common Tasks wizard, click **Unlock and Start Storage Pool**.
 3. Enter the storage pool passphrase that you retrieved in step 1, and then click **OK**.
       
-   ![Activate storage pool](/images/StartStoragePool.png)
+   ![Activate storage pool](/images/start-storage-pool.png)
 
    By default, the share has both Network File System (NFS) and Server Message Block (SMB) protocols that are enabled with no access restrictions. You can modify access to this share for NFS or SMB by right-clicking the share name in the user interface, and then selecting the appropriate menu option.
    {: note}
