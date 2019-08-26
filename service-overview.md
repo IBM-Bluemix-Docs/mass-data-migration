@@ -21,7 +21,7 @@ subcollection: mass-data-migration
 {:important: .important}
 {:download: .download}
 
-# {{site.data.keyword.mdms_short_notm}} overview
+# {{site.data.keyword.mdms_short}} overview
 {: #overview}
 
 {{site.data.keyword.mdms_full}} provides a portable, pre-configured storage device that is shipped to your location for easy migration of your data.
@@ -39,7 +39,7 @@ The following image describes the {{site.data.keyword.mdms_short}} process.
 You can compare your data migration options on {{site.data.keyword.cloud_notm}} by [exploring our data migration solutions](https://www.ibm.com/cloud/data-migration). To learn more about {{site.data.keyword.mdms_short}} use cases, check out the [{{site.data.keyword.mdms_short}} product page](https://www.ibm.com/cloud/mass-data-migration){: external}.
 {: tip}
 
-## {{site.data.keyword.mdms_short_notm}} components
+## {{site.data.keyword.mdms_short}} components
 {: #components}
 
 {{site.data.keyword.mdms_short}} comprises the following service components.
@@ -56,7 +56,7 @@ You can compare your data migration options on {{site.data.keyword.cloud_notm}} 
 ## Your workflow
 {: #workflow}
 
-Ready to set up your device? Use the following checklist to complete 
+Ready to set up your device? Use the following checklist to 
 
 1. [Connect the device](/docs/services/mass-data-migration?topic=mass-data-migration-connect-device)
 2. [Log in to the device user interface](/docs/services/mass-data-migration?topic=mass-data-migration-access-ui)
