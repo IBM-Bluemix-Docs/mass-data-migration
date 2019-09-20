@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-09-20"
 
 keywords:
 
@@ -243,3 +243,16 @@ If the target bucket doesn't exist, it is created. If it does exist, it must be 
 {: faq}
 
 Yes. Symlinks and hard links are skipped during the scan process.
+
+## Can I connect macOS servers to {{site.data.keyword.mdms_short}} devices using SMB?
+{: #connect-macOS-smb}
+{: faq}
+
+It is possible to connect {{site.data.keyword.mdms_short}} devices to macOS servers using SMB. However, keep in mind that optimal throughput isn't attainable without significant tuning to the macOS client.
+
+The list of tuning consideration includes and is not limited to: 
+
+- [Disabling SMB signing on the client](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-troubleshooting#unable-to-mount-smb-share)
+- Determining a network sizing strategy
+- Using TCP delayed acknowledgement (ACK)
+- Enabling SMB configuration options that are specific to your implementation, data set, and network capacity
