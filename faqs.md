@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-09-20"
+lastupdated: "2019-09-24"
 
 keywords:
 
@@ -250,7 +250,7 @@ Yes. Symlinks and hard links are skipped during the scan process.
 
 It is possible to connect {{site.data.keyword.mdms_short}} devices to macOS servers using SMB. However, keep in mind that optimal throughput isn't attainable without significant tuning to the macOS client.
 
-The list of tuning consideration includes and is not limited to: 
+The list of tuning considerations includes and is not limited to: 
 
 - [Disabling SMB signing on the client](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-troubleshooting#unable-to-mount-smb-share)
 - Determining a network sizing strategy
