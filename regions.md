@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-10-15"
 
 keywords: region availability, storage locations, storage destinations
 
@@ -59,6 +59,7 @@ Your data is migrated into Cloud Object Storage, where you can choose from diffe
 
 | Country | Data centers | Storage destinations |
 |-----|-----|----|
+| France | Paris | Single site: `par01` |
 | Germany | Frankfurt | Cross region: `eu-geo`<br>Regional: `eu-de`  | 
 | Italy | Milan | Cross region: `eu-geo`<br>Single site: `mil01`  | 
 | Netherlands | Amsterdam | Cross region: `eu-geo`<br>Single site: `ams03`| 
