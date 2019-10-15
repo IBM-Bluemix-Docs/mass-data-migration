@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-09-24"
+lastupdated: "2019-10-15"
 
 keywords: unable to view order, unable to mount SMB share
 
@@ -29,30 +29,6 @@ subcollection: mass-data-migration
 
 General problems with using {{site.data.keyword.mdms_full}} might include viewing your order status or accessing the user interface. In many cases, you can recover from these problems by following a few easy steps.
 {: shortdesc}
-
-## Unable to connect to the SMB share
-{: #unable-to-mount-smb-share}
-
-When you try to mount the Server Message Block (SMB) share that is provisioned on the {{site.data.keyword.mdms_short}} device, you're unable to connect to the share. 
-
-You're using the SMB file transfer protocol on a Windows server that is joined to an Active Directory domain. To move data into the {{site.data.keyword.mdms_short}} device, you need to connect to the network share that's provisioned on the device. You can ping the IP address that corresponds to the 10GbE data transfer port on the device, but you're unable to mount or connect to the share from your server.
-{: tsSymptoms}
-
-After you join the {{site.data.keyword.mdms_short}} device to Active Directory, the system enables SMB signing by default. SMB signing adds extra security during a network communication by eliminating the possibility for man-in-the-middle attacks.  However, SMB signing can impact network performance for your data transfer or cause [issues when mounting the share to your server](https://support.osnexus.com/hc/en-us/articles/360028195772-Connection-issues-to-SMB-share-after-joining-an-AD-domain){: external}. 
-{: tsCauses} 
-
-If you do not use or require SMB signing for your environment, you can disable SMB signing on the client to avoid connection issues and increase the performance of your data transfer.
-{: tsResolve}
-
-To disable SMB signing on a Windows server, set the following registry keys to zero:
-
-```
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters\"requiresecuritysignature"=dword:00000000
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Lanmanworkstation\Parameters\"requiresecuritysignature"=dword:00000000 
-```
-{: screen}
-
-To learn more about SMB signing, see [Overview of Server Message Block signing](https://support.microsoft.com/en-us/help/887429/overview-of-server-message-block-signing){: external}.
 
 ## Unable to view order details
 {: #unable-to-view-order}
@@ -89,6 +65,30 @@ When you insert the SFP adapter into the Cisco switch, the switch recognizes the
 
 Configure the Cisco switch so that it accepts the SFP adapters that are packaged with your {{site.data.keyword.mdms_short}} device. Refer to the [Cisco troubleshooting article](https://www.cisco.com/c/en/us/support/docs/interfaces-modules/gbics/200296-Unsupported-GBIC-SFP-in-sub-module-of.html){: external} for more information.
 {: tsResolve}
+
+## Unable to connect to the SMB share
+{: #unable-to-mount-smb-share}
+
+When you try to mount the Server Message Block (SMB) share that is provisioned on the {{site.data.keyword.mdms_short}} device, you're unable to connect to the share. 
+
+You're using the SMB file transfer protocol on a Windows server that is joined to an Active Directory domain. To move data into the {{site.data.keyword.mdms_short}} device, you need to connect to the network share that's provisioned on the device. You can ping the IP address that corresponds to the 10GbE data transfer port on the device, but you're unable to mount or connect to the share from your server.
+{: tsSymptoms}
+
+After you join the {{site.data.keyword.mdms_short}} device to Active Directory, the system enables SMB signing by default. SMB signing adds extra security during a network communication by eliminating the possibility for man-in-the-middle attacks.  However, SMB signing can impact network performance for your data transfer or cause [issues when mounting the share to your server](https://support.osnexus.com/hc/en-us/articles/360028195772-Connection-issues-to-SMB-share-after-joining-an-AD-domain){: external}. 
+{: tsCauses} 
+
+If you do not use or require SMB signing for your environment, you can disable SMB signing on the client to avoid connection issues and increase the performance of your data transfer.
+{: tsResolve}
+
+To disable SMB signing on a Windows server, set the following registry keys to zero:
+
+```
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters\"requiresecuritysignature"=dword:00000000
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Lanmanworkstation\Parameters\"requiresecuritysignature"=dword:00000000 
+```
+{: screen}
+
+To learn more about SMB signing, see [Overview of Server Message Block signing](https://support.microsoft.com/en-us/help/887429/overview-of-server-message-block-signing){: external}.
 
 ## Getting help and support
 {: #getting-help}
