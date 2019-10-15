@@ -59,7 +59,7 @@ Your data is migrated into Cloud Object Storage, where you can choose from diffe
 
 | Country | Data centers | Storage destinations |
 |-----|-----|----|
-| France | Paris | Single site: `par01` | `
+| France | Paris | Single site: `par01` |
 | Germany | Frankfurt | Cross region: `eu-geo`<br>Regional: `eu-de`  | 
 | Italy | Milan | Cross region: `eu-geo`<br>Single site: `mil01`  | 
 | Netherlands | Amsterdam | Cross region: `eu-geo`<br>Single site: `ams03`| 
