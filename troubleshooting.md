@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-10-15"
 
 keywords: unable to view order, unable to mount SMB share
 
@@ -30,6 +30,42 @@ subcollection: mass-data-migration
 General problems with using {{site.data.keyword.mdms_full}} might include viewing your order status or accessing the user interface. In many cases, you can recover from these problems by following a few easy steps.
 {: shortdesc}
 
+## Unable to view order details
+{: #unable-to-view-order}
+
+When you access the {{site.data.keyword.cloud_notm}} console, you cannot view or track a {{site.data.keyword.mdms_short}} order for your organization.
+
+You can see a list of services in your {{site.data.keyword.cloud_notm}} resource list, but you do not see a {{site.data.keyword.mdms_short}} entry.
+{: tsSymptoms}
+
+You do not have the correct authorization to view or track {{site.data.keyword.mdms_short}} orders.
+{: tsCauses} 
+
+Verify with your administrator that you are assigned the correct role in the applicable resource group or service instance. For more information about roles, see [Roles and permissions](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-manage-access#roles).
+{: tsResolve}
+
+## Unable to use a Cisco switch to connect device
+{: #unable-to-connect-with-cisco-switch}
+
+When you use a supplied SFP adapter to connect to a Cisco switch, the port on the switch enters a disabled state, and you're unable to connect the {{site.data.keyword.mdms_short}} device.
+
+You retrieve the SFP adapter that's packaged with the device, and you insert the SFP into a port on a Cisco switch.
+{: tsSymptoms}
+
+You see the following error log:
+
+```
+%PLATFORM_PM-6-MODULE_ERRDISABLE: The inserted SFP module with interface name Gix/y/z is not supported
+%PM-4-ERR_DISABLE: gbic-invalid error detected on Gix/y/z, putting Gix/y/z in err-disable state
+```
+{: screen}
+
+When you insert the SFP adapter into the Cisco switch, the switch recognizes the adapter as a third-party SFP. By default, Cisco switches do not support third-party SFP adapters.
+{: tsCauses} 
+
+Configure the Cisco switch so that it accepts the SFP adapters that are packaged with your {{site.data.keyword.mdms_short}} device. Refer to the [Cisco troubleshooting article](https://www.cisco.com/c/en/us/support/docs/interfaces-modules/gbics/200296-Unsupported-GBIC-SFP-in-sub-module-of.html){: external} for more information.
+{: tsResolve}
+
 ## Unable to connect to the SMB share
 {: #unable-to-mount-smb-share}
 
@@ -53,20 +89,6 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Lanmanworkstation\Parameter
 {: screen}
 
 To learn more about SMB signing, see [Overview of Server Message Block signing](https://support.microsoft.com/en-us/help/887429/overview-of-server-message-block-signing){: external}.
-
-## Unable to view order details
-{: #unable-to-view-order}
-
-When you access the {{site.data.keyword.cloud_notm}} console, you cannot view or track a {{site.data.keyword.mdms_short}} order for your organization.
-
-You can see a list of services in your {{site.data.keyword.cloud_notm}} resource list, but you do not see a {{site.data.keyword.mdms_short}} entry.
-{: tsSymptoms}
-
-You do not have the correct authorization to view or track {{site.data.keyword.mdms_short}} orders.
-{: tsCauses} 
-
-Verify with your administrator that you are assigned the correct role in the applicable resource group or service instance. For more information about roles, see [Roles and permissions](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-manage-access#roles).
-{: tsResolve}
 
 ## Getting help and support
 {: #getting-help}
