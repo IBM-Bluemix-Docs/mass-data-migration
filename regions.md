@@ -34,15 +34,19 @@ You can order a {{site.data.keyword.mdms_short}} device in the United States (US
 
 Before you order a device, keep in mind the following shipping and data transfer restrictions:
 
-- **{{site.data.keyword.mdms_short}} devices cannot be shipped across international borders** (excluding the European Union and its 28-member countries). For example, you cannot import data onto the device in one region, and then ship the device to another region.
+- **{{site.data.keyword.mdms_short}} devices cannot be shipped across international borders** (excluding the European Union). For example, you cannot import data onto the device in one region, and then ship the device to another region.
 - **You can transfer data only within the country where your source data resides** (excluding the EU Cross Region and AP Cross Region). This means that your Cloud Object Storage bucket destination must also be in the same country as the data center where the {{site.data.keyword.mdms_short}} device will be staged for data offloading. 
+
+  Effective 31 October 2019, {{site.data.keyword.mdms_short}} cannot ship devices between European Union member countries and the United Kingdom. If your company is located in the UK, request a device 
 
 ## Storage destinations
 {: #storage-destinations}
 
 Your data is migrated into Cloud Object Storage, where you can choose from different storage classes, locations, and resiliency for your stored data. 
 
-{{site.data.keyword.mdms_short}} supports all storage locations and resiliency options that are available for Cloud Object Storage. The following table maps each country with its available data centers and data offload options.
+{{site.data.keyword.mdms_short}} supports all storage locations and resiliency options that are available for Cloud Object Storage. The following table maps each country with its available data centers and data offload options. 
+
+The first column represents the country where your company or source data is located. The second column represents the cities and associated data centers where {{site.data.keyword.mdms_short}} can send. The third column lists the Cloud Object Storage bucket options .
 
 | Country | Data centers | Storage destinations |
 |-----|-----|----|
