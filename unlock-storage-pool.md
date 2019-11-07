@@ -19,7 +19,7 @@ subcollection: mass-data-migration
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
-{:download: .download}
+v
 
 # Unlocking the storage pool
 {: #unlock-storage-pool}

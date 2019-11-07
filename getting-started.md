@@ -20,11 +20,12 @@ subcollection: mass-data-migration
 {:note: .note}
 {:important: .important}
 {:download: .download}
+{:term: .term}
 
 # Getting started tutorial
 {: #getting-started-tutorial}
 
-{{site.data.keyword.mdms_full}} helps you move terabytes to petabytes of data into {{site.data.keyword.cloud_notm}} in a fast, simple, and secure way. This tutorial shows you how to request your migration device by using the {{site.data.keyword.slportal}}.
+{{site.data.keyword.mdms_full}} helps you move terabytes to petabytes of data into {{site.data.keyword.cloud_notm}} in a fast, simple, and secure way. This tutorial shows you how to request your data transfer device by using the {{site.data.keyword.cloud_notm}} console.
 {: shortdesc}
 
 Interested in trying new {{site.data.keyword.mdms_short}} features? You can preview upcoming service enhancements by participating in the {{site.data.keyword.mdms_short}} beta program. To find out more, see [Getting access to beta](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-releases#beta).
@@ -46,25 +47,26 @@ Before you order a {{site.data.keyword.mdms_short}} device:
 
 After you provision an instance of Cloud Object Storage, create a storage bucket to set a destination for your migrated data. 
 
-1. From the {{site.data.keyword.cloud_notm}} resource list, select your provisioned instance of Cloud Object Storage.
-2. From the _Getting started_ page, click **Create Bucket**.
-3. Enter a bucket name, and select a resiliency option for your data.
+1. [Log in to the {{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external}.
+2. From the {{site.data.keyword.cloud_notm}} resource list, select your provisioned instance of Cloud Object Storage.
+3. From the _Getting started_ page, click **Create Bucket**.
+4. Enter a bucket name, and select a resiliency option for your data.
    
    The resiliency option determines how your data is distributed by the Cloud Object Storage service across a geographic area after the data is imported into the service. {{site.data.keyword.mdms_short}} supports all resiliency options that are available for Cloud Object Storage.  
    {: note}
-4. From the list of locations, select the geographic area where you want your data to be physically stored after it's migrated into the storage bucket.
-5. From the list of storage classes, select **Standard**.
-6. Click **Create bucket**.
+5. From the list of locations, select the geographic area where you want your data to be physically stored after it's migrated into the storage bucket.
+6. From the list of storage classes, select **Standard**.
+7. Click **Create bucket**.
 
 ## Requesting a device
 {: #get-started-request-device}
 
-You can request a {{site.data.keyword.mdms_short}} device by using the {{site.data.keyword.slportal}}.
+You can request a {{site.data.keyword.mdms_short}} device by using the {{site.data.keyword.cloud_notm}} console.
 
-1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
-2. From the navigation menu, click **Storage** > **Data Migration** > **{{site.data.keyword.mdms_short}}** to access the {{site.data.keyword.mdms_short}} landing page.
-3. Click **Request Device** to open the order form.
-4. Start your {{site.data.keyword.mdms_short}} request by specifying the following details.
+
+1. In the {{site.data.keyword.cloud_notm}} catalog, search for _Mass Data Migration_.
+2. Click the **Mass Data Migration** tile to access the {{site.data.keyword.mdms_short}} order form.
+3. Start your {{site.data.keyword.mdms_short}} request by specifying the following details.
 
     <table>
       <tr>
@@ -72,8 +74,8 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
         <th>Description</th>
       </tr>
       <tr>
-        <td>Add a request name</td>
-        <td>Enter an alias to identify and track your {{site.data.keyword.mdms_short}} request.</td>
+        <td>Add order details</td>
+        <td>Enter an order alias to identify and track your {{site.data.keyword.mdms_short}} request. Select a resource group</td>
       </tr>
       <tr>
         <td>Select your data offload destination</td>
@@ -105,13 +107,13 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
 
     When you select a delivery location for your device, consider the weight of the device and accessibility. The device, along with its hard case and a foam travel case, weighs about 60 pounds. To help with transporting the device, the travel case is equipped with wheels and a pop-up handle for easy maneuvering.
     {: tip}
-5. Read the {{site.data.keyword.mdms_short}} services agreement, and then select the check box.
-6. Click **Place Request** to complete your order. 
+4. Read the {{site.data.keyword.mdms_short}} services agreement, and then select the check box.
+5. Click **Place Request** to complete your order. 
 
 ## What's next
 {: #get-started-next-steps}
 
-Success! You're all set with your {{site.data.keyword.mdms_short}} request.
+Success! You're all set with your {{site.data.keyword.mdms_short}} order.
 
 - To find out more about tracking your order, check out [Managing your request](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-manage-request).
 - To find out more about receiving and connecting your device, check out [Setting up the device](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview).

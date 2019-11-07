@@ -19,7 +19,8 @@ subcollection: mass-data-migration
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
-{:download: .download}
+{:preview: .preview}
+{:term: .term}
 
 # Migrating PureData System for Analytics databases to {{site.data.keyword.dashdbshort_notm}}
 {: #migrate-netezza-databases}

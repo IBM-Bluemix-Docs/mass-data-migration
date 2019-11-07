@@ -18,7 +18,8 @@ subcollection: mass-data-migration
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
-{:important: .important}
+{:preview: .preview}
+{:term: .term}
 
 # Related links
 {: #related-links}

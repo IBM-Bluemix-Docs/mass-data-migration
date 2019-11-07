@@ -19,7 +19,8 @@ subcollection: mass-data-migration
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
-{:download: .download}
+{:preview: .preview}
+{:term: .term}
 {:faq: data-hd-content-type='faq'}
 
 # FAQs

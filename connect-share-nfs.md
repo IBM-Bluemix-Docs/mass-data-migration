@@ -19,7 +19,8 @@ subcollection: mass-data-migration
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
-{:download: .download}
+{:preview: .preview}
+{:term: .term}
 
 # Connecting to the network share by using NFS
 {: #connect-nfs-share}

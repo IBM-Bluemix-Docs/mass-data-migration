@@ -19,7 +19,8 @@ subcollection: mass-data-migration
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
-{:download: .download}
+{:preview: .preview}
+{:term: .term}
 
 # {{site.data.keyword.mdms_short}} overview
 {: #overview}
@@ -39,7 +40,7 @@ The following image describes the {{site.data.keyword.mdms_short}} process.
 You can compare your data migration options on {{site.data.keyword.cloud_notm}} by [exploring our data migration solutions](https://www.ibm.com/cloud/data-migration). To learn more about {{site.data.keyword.mdms_short}} use cases, check out the [{{site.data.keyword.mdms_short}} product page](https://www.ibm.com/cloud/mass-data-migration){: external}.
 {: tip}
 
-## {{site.data.keyword.mdms_short}} components
+## Service components
 {: #components}
 
 {{site.data.keyword.mdms_short}} comprises the following service components.
@@ -53,8 +54,8 @@ You can compare your data migration options on {{site.data.keyword.cloud_notm}} 
       <dd>The <a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-access-ui">device user interface</a> is a local, web-based UI that you use to access the network share on the {{site.data.keyword.mdms_short}} device. The UI is based on a mature file and network software that enables large numbers of large files to be copied and transported to {{site.data.keyword.cloud_notm}}.</dd>
 </dl>
 
-## {{site.data.keyword.mdms_short}} workflow
-{: #mdms-workflow}
+## Your workflow
+{: #your-workflow}
 
 Ready to set up your device? Use the following checklist to complete your data transfer.
 
