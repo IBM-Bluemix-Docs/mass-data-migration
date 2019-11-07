@@ -47,6 +47,9 @@ Your data is migrated into Cloud Object Storage, where you can choose from diffe
 
 {{site.data.keyword.mdms_short}} supports all storage locations and resiliency options that are available for Cloud Object Storage. The following table maps each country with its available data centers and data offload options. 
 
+The first column in the table represents the country where your company or source data is located. The second column represents the cities and associated data centers where {{site.data.keyword.mdms_short}} can send a device in that country. The third column lists the Cloud Object Storage bucket options that are available for offloading data.
+{: tip}
+
 | Country | Data centers | Storage destinations |
 |-----|-----|----|
 | Brazil | São Paulo | Single site: `sao01`  |
@@ -89,8 +92,5 @@ Your data is migrated into Cloud Object Storage, where you can choose from diffe
 {: tab-title="Asia Pacific"}
 {: class="comparison-tab-table"}
 {: row-headers}
-
-The first column in the table represents the country where your company or source data is located. The second column represents the cities and associated data centers where {{site.data.keyword.mdms_short}} can send a device in that country. The third column lists the Cloud Object Storage bucket options that are available for offloading data.
-{: tip}
 
 For more information about storage bucket destinations, see the [Cloud Object Storage documentation](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-endpoints).
