@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-11-08"
 
 keywords: get started tutorial, data transfer, data migration, transfer data to cloud, migrate data, migrate data to cloud, Mass Data Migration
 
@@ -78,28 +78,29 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
         <td>Enter an order alias to identify and track your {{site.data.keyword.mdms_short}} request. Select a resource group</td>
       </tr>
       <tr>
-        <td>Select your data offload destination</td>
-        <td>From the drop-down list, select your provisioned instance of Cloud Object Storage. Then, select the name that you assigned to the storage bucket where you want to store your migrated data.</td>
+        <td>Add contact information</td>
+        <td>Enter the name of the person who can receive and manage the device onsite</td>
       </tr>
       <tr>
         <td>Add a shipping address</td>
-        <td>Enter your shipping information, such as the shipping address and name of the person who will accept the delivery.</td>
+        <td>Enter your shipping information, such as the country of destination for the device and the shipping address.</td>
       </tr>
       <tr>
-        <td>Add migration contacts</td>
-        <td>Enter the name of the person who will manage data migration to your device.</td>
+        <td>Select your cloud destination</td>
+        <td>From the drop-down list, select your provisioned instance of Cloud Object Storage. Then, select the name that you assigned to the storage bucket where you want to store your migrated data.</td>
       </tr>
       <tr>
-        <td>Configure network settings</td>
+        <td>Choose a configuration option</td>
         <td>
-          <p>Configure settings for the data transfer connection by entering your network configuration details.</p>
-          <p>Provide the following <a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#network-settings">network settings</a>:</p>
+          <p>Choose from two options for configuring the device. You can pre-configure the device by entering your network configuration details.</p>
+          <p>For <b>Option A</b>, provide the following <a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#network-settings">network settings</a>:</p>
           <p>
             <ul>
-              <li><i>Device management settings.</i> Enter the static IP address, the netmask, and the default gateway for your remote computer.</li>
-              <li><i>Data transfer settings.</i> Enter the static IP address and the netmask for the server where your source data resides.</li>
+              <li><i>1GbE Device management settings.</i> Enter the static IP address, the netmask, and the default gateway for your remote computer.</li>
+              <li><i>10GbE Data transfer settings.</i> Enter the static IP address and the netmask for the server where your source data resides.</li>
             </ul>
           </p>
+          <p>Important: Choose <b>Option B</b> only if you're unable to provide network settings at order placement. Keep in mind that this option requires that you configure the device manually when it arrives at your location.</p>
         </td>
       </tr>
       <caption style="caption-side:bottom;">Table 1. Describes the {{site.data.keyword.mdms_short}} request workflow</caption>
@@ -107,8 +108,8 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
 
     When you select a delivery location for your device, consider the weight of the device and accessibility. The device, along with its hard case and a foam travel case, weighs about 60 pounds. To help with transporting the device, the travel case is equipped with wheels and a pop-up handle for easy maneuvering.
     {: tip}
-4. Read the {{site.data.keyword.mdms_short}} services agreement, and then select the check box.
-5. Click **Place Request** to complete your order. 
+4. Review your order summary, and view the {{site.data.keyword.mdms_short}} terms.
+5. Click **Create** to complete your order. 
 
 ## What's next
 {: #get-started-next-steps}
