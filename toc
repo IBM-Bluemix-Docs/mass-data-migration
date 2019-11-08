@@ -27,6 +27,7 @@ IBM Cloud Mass Data Migration
 
     {: .topicgroup}
     Setting up the device
+        power-on-device.md
         connect-device.md
         verify-ip-settings.md
         access-interface.md
