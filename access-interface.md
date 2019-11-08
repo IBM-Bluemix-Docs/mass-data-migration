@@ -22,19 +22,16 @@ subcollection: mass-data-migration
 {:preview: .preview}
 {:term: .term}
 
-# Accessing the device user interface
+# Logging in to the device user interface
 {: #access-ui}
 
 After you configure the {{site.data.keyword.mdms_full}} device for Ethernet connectivity, you're ready to access the device user interface so you can interact with the device and begin the data migration process.
 {: shortdesc}
 
-## Retrieving your device credentials (beta)
+## Retrieving your device credentials
 {: #retrieve-device-credentials}
 
 When you submit a {{site.data.keyword.mdms_short}} request, the service auto-generates credentials on your behalf that you can use to access the local web UI for the device. 
-
-This feature is available as part of the [{{site.data.keyword.mdms_short}} beta release](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-beta). You can also access credentials for your storage device from the _Request Details_ section in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/storage/mdms){: external}.
-{: note}
 
 To retrieve your device credentials:
 
