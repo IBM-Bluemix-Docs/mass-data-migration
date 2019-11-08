@@ -22,7 +22,7 @@ subcollection: mass-data-migration
 {:preview: .preview}
 {:term: .term}
 
-# Logging in to the device user interface
+# Logging in to the device
 {: #access-ui}
 
 After you configure the {{site.data.keyword.mdms_full}} device for Ethernet connectivity, you're ready to access the device user interface so you can interact with the device and begin the data migration process.
