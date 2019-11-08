@@ -83,7 +83,10 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
       </tr>
       <tr>
         <td>Add a shipping address</td>
-        <td>Enter your shipping information, such as the country of destination for the device and the shipping address.</td>
+        <td>
+          <p>Enter your shipping information, such as the country of destination for the device and the shipping address.</p>
+          <p class="tip" data-content="Tip: ">When you select a delivery location for your device, consider the weight of the device and accessibility. The device, along with its hard case and a foam travel case, weighs about 60 pounds. To help with transporting the device, the travel case is equipped with wheels and a pop-up handle for easy maneuvering.</p>
+        </td>
       </tr>
       <tr>
         <td>Select your cloud destination</td>
@@ -96,8 +99,8 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
           <p>For <strong>Option A</strong>, provide the following <a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#network-settings">network settings</a>:</p>
           <p>
             <ul>
-              <li><i>1GbE Device management settings.</i> Enter the static IP address, the netmask, and the default gateway for your remote computer.</li>
-              <li><i>10GbE Data transfer settings.</i> Enter the static IP address and the netmask for the server where your source data resides.</li>
+              <li>1GbE Device management settings. Enter the static IP address, the netmask, and the default gateway for your remote computer.</li>
+              <li>10GbE Data transfer settings. Enter the static IP address and the netmask for the server where your source data resides.</li>
             </ul>
           </p>
           <p class="important" data-content: "Important: ">Choose <strong>Option B</strong> only if you're unable to provide network settings when you place the order. Keep in mind that this option requires that you configure the device manually when it arrives at your location.</p>
@@ -106,8 +109,6 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
       <caption style="caption-side:bottom;">Table 1. Describes the {{site.data.keyword.mdms_short}} request workflow</caption>
     </table>
 
-    When you select a delivery location for your device, consider the weight of the device and accessibility. The device, along with its hard case and a foam travel case, weighs about 60 pounds. To help with transporting the device, the travel case is equipped with wheels and a pop-up handle for easy maneuvering.
-    {: tip}
 4. Review your order summary, and view the {{site.data.keyword.mdms_short}} terms.
 5. Click **Create** to complete your order. 
 
