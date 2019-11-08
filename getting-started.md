@@ -75,7 +75,7 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
       </tr>
       <tr>
         <td>Add order details</td>
-        <td>Enter an order alias to identify and track your {{site.data.keyword.mdms_short}} request. Select a resource group</td>
+        <td>Enter an order alias to identify and track your {{site.data.keyword.mdms_short}} request. Select the resource group where you want </td>
       </tr>
       <tr>
         <td>Add contact information</td>
@@ -93,14 +93,14 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
         <td>Choose a configuration option</td>
         <td>
           <p>Choose from two options for configuring the device. You can pre-configure the device by entering your network configuration details.</p>
-          <p>For <b>Option A</b>, provide the following <a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#network-settings">network settings</a>:</p>
+          <p>For <strong>Option A</strong>, provide the following <a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#network-settings">network settings</a>:</p>
           <p>
             <ul>
               <li><i>1GbE Device management settings.</i> Enter the static IP address, the netmask, and the default gateway for your remote computer.</li>
               <li><i>10GbE Data transfer settings.</i> Enter the static IP address and the netmask for the server where your source data resides.</li>
             </ul>
           </p>
-          <p>Important: Choose <b>Option B</b> only if you're unable to provide network settings at order placement. Keep in mind that this option requires that you configure the device manually when it arrives at your location.</p>
+          <p class="important" data-content: "Important: ">Choose <strong>Option B</strong> only if you're unable to provide network settings when you place the order. Keep in mind that this option requires that you configure the device manually when it arrives at your location.</p>
         </td>
       </tr>
       <caption style="caption-side:bottom;">Table 1. Describes the {{site.data.keyword.mdms_short}} request workflow</caption>
@@ -115,6 +115,8 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
 {: #get-started-next-steps}
 
 Success! You're all set with your {{site.data.keyword.mdms_short}} order.
+
+A member of the {{site.data.keyword.mdms_short}} team will reach out to you or your IBM Client Representative to verify the request.
 
 - To find out more about tracking your order, check out [Managing your request](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-manage-request).
 - To find out more about receiving and connecting your device, check out [Setting up the device](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview).
