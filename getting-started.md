@@ -28,7 +28,7 @@ subcollection: mass-data-migration
 {{site.data.keyword.mdms_full}} helps you move terabytes to petabytes of data into {{site.data.keyword.cloud_notm}} in a fast, simple, and secure way. This tutorial shows you how to request your data transfer device by using the {{site.data.keyword.cloud_notm}} console.
 {: shortdesc}
 
-Interested in trying new {{site.data.keyword.mdms_short}} features? You can preview upcoming service enhancements by participating in the {{site.data.keyword.mdms_short}} beta program. To find out more, see [Getting access to beta](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-releases#beta).
+For a limited time, you can order a {{site.data.keyword.mdms_short}} device free of charge, without incurring any cost to your {{site.data.keyword.cloud_notm}} account. To learn more, check out [What's new](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-releases).
 {: tip}
 
 ## Before you begin
