@@ -28,7 +28,7 @@ subcollection: mass-data-migration
 You can review or change IP settings for the device before you connect it to your local network.
 {: shortdesc} 
 
-# Changing IP settings
+## Changing IP settings
 {: #change-IP-settings}
 
 Manage the IP settings for the network ports on the device by using the _System Control Display_ screen.
