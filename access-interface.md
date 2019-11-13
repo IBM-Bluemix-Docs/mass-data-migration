@@ -28,7 +28,7 @@ subcollection: mass-data-migration
 After you configure the {{site.data.keyword.mdms_full}} device for Ethernet connectivity, you're ready to access the device user interface so you can interact with the device and begin the data migration process.
 {: shortdesc}
 
-## Retrieving your device credentials
+## Step 1. Retrieve your device credentials
 {: #retrieve-device-credentials}
 
 When you submit a {{site.data.keyword.mdms_short}} request, the service auto-generates credentials on your behalf that you can use to access the local web UI for the device. 
@@ -41,7 +41,7 @@ To retrieve your device credentials:
 4. In the _Request details_ tab, navigate to the Credentials section.
 5. Copy the **User name** and **Password** values.
 
-## Logging in to device user interface
+## Step 2. Log in to the device UI
 {: #log-in-ui}
 
 Use the device credentials that you retrieved in the previous step to log in to the local web UI and interact with the {{site.data.keyword.mdms_short}} device.

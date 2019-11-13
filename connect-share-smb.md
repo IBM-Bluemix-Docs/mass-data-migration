@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-11-11"
 
 keywords: mount SMB share, SMB, Active Directory, AD, access network share, connect to network share
 
@@ -22,7 +22,7 @@ subcollection: mass-data-migration
 {:preview: .preview}
 {:term: .term}
 
-# Connecting to the network share by using SMB
+# Mounting SMB shares on Windows
 {: #connect-smb-share}
 
 To prepare for data copy, you can access the network share on the {{site.data.keyword.mdms_full}} device by using the Server Message Block (SMB) protocol.

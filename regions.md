@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-11-07"
+lastupdated: "2019-11-13"
 
 keywords: region availability, storage locations, storage destinations
 
@@ -38,7 +38,7 @@ Before you order a device, keep in mind the following shipping and data transfer
 - **{{site.data.keyword.mdms_short}} devices cannot be shipped across international borders** (excluding the European Union). For example, you cannot import data onto the device in one region, and then ship the device to another region.
 - **You can transfer data only within the country where your source data resides** (excluding the EU Cross Region and AP Cross Region). This means that your Cloud Object Storage bucket destination must also be in the same country as the data center where the {{site.data.keyword.mdms_short}} device will be staged for data offloading. 
 
-  Effective 31 October 2019, {{site.data.keyword.mdms_short}} cannot ship devices between European Union member countries and the United Kingdom. If your company is located in the UK, you can request a {{site.data.keyword.mdms_short}} device only for use within the `eu-gb` region.
+  Effective 31 October 2019, {{site.data.keyword.mdms_short}} cannot ship devices between European Union member countries and the United Kingdom. If your company is located in the European Union, you can request a {{site.data.keyword.mdms_short}} device for use only within other European Union member countries.
   {: important}
 
 ## Storage destinations

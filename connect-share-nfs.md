@@ -22,7 +22,7 @@ subcollection: mass-data-migration
 {:preview: .preview}
 {:term: .term}
 
-# Connecting to the network share by using NFS
+# Mounting NFS shares on UNIX
 {: #connect-nfs-share}
 
 To prepare for data copy, you can access the network share on the {{site.data.keyword.mdms_full}} device by using the Network File System (NFS) protocol.
@@ -51,10 +51,10 @@ To modify NFS share access:
 
     ![Modify access for the NFS share](images/add-nfs-access.png)
 
-## Mounting the NFS share on a Unix system
+## Mounting the NFS share on a UNIX system
 {: #mount-nfs-share}
 
-After you unlock and activate the storage pool on the device, you can connect to the NFS share on a Unix-based system by using the {{site.data.keyword.mdms_short}} device user interface.
+After you unlock and activate the storage pool on the device, you can connect to the NFS share on a UNIX-based system by using the {{site.data.keyword.mdms_short}} device user interface.
 
 To mount the network share: 
 

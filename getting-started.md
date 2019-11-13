@@ -42,7 +42,7 @@ Before you order a {{site.data.keyword.mdms_short}} device:
 - Gather your network settings, such as IP addresses and other routing details, for connecting the device to your source server.
 - Identify a person who can receive, connect, and use the device at your site.
 
-## Creating a storage bucket
+## Step 1. Create a storage bucket
 {: #get-started-create-bucket}
 
 After you provision an instance of Cloud Object Storage, create a storage bucket to set a destination for your migrated data. 
@@ -58,7 +58,7 @@ After you provision an instance of Cloud Object Storage, create a storage bucket
 6. From the list of storage classes, select **Standard**.
 7. Click **Create bucket**.
 
-## Requesting a device
+## Step 2. Request a device
 {: #get-started-request-device}
 
 You can request a {{site.data.keyword.mdms_short}} device by using the {{site.data.keyword.cloud_notm}} console.
@@ -85,7 +85,6 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
         <td>Add a shipping address</td>
         <td>
           <p>Enter your shipping information, such as the country of destination for the device and the shipping address.</p>
-          <p class="tip" data-content="Tip: ">When you select a delivery location for your device, consider the weight of the device and accessibility. The device, along with its hard case and a foam travel case, weighs about 60 pounds. To help with transporting the device, the travel case is equipped with wheels and a pop-up handle for easy maneuvering.</p>
         </td>
       </tr>
       <tr>
@@ -108,6 +107,9 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
       </tr>
       <caption style="caption-side:bottom;">Table 1. Describes the {{site.data.keyword.mdms_short}} request workflow</caption>
     </table>
+
+    When you select a delivery location for your device, consider the weight of the device and accessibility. The device, along with its hard case and a foam travel case, weighs about 60 pounds. To help with transporting the device, the travel case is equipped with wheels and a pop-up handle for easy maneuvering.
+    {: tip}
 
 4. Review your order summary, and view the {{site.data.keyword.mdms_short}} terms.
 5. Click **Create** to complete your order. 

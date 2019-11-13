@@ -35,7 +35,7 @@ Before you power on the {{site.data.keyword.mdms_short}} device:
 - Verify that you received the cables that correspond with your [device model](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview) by reviewing the inventory list that is located under the transport case lid.
 - To avoid inadvertent damage to the device, keep the device in its portable case while the device is in use.
 
-## Powering on the device
+## Step 1. Power on the device
 {: #power-on-device}
 
 After you position the device, use the supplied power cord to power on the device.
@@ -47,24 +47,7 @@ After you position the device, use the supplied power cord to power on the devic
 
    When a System ID value displays on the _System Control Display_ screen, the device is powered on and ready for the next step.
 
-## Reviewing your network settings
-{: #review-network-settings}
-
-You can review the network configuration on the device before you connect it to your network. View and manage the IP settings for your network ports by using the _System Control Display_ screen on the device. 
-
-To interact with the _System Control Display_ screen, move the cursor by using the **△**, **▽**, **esc**, and **enter** buttons. **Enter** takes you into a menu and **esc** takes you out.
-{: tip}
-
-To edit an IP address or subnet mask:
-
-1. From the Network Config menu, use the **△** and **▽** buttons to select the port that you want to modify. Press **enter**.
-2. Select **IP Address**, and then use the **△** and **▽** buttons to set the new IP address.
-
-   Press **enter** to move forward one character at a time. Press **esc** to move backwards one character at a time.
-3. Press **esc** to return to the previous menu.
-4. Go to **Update...** and press **enter** to save the setting.
-
-## Connecting the device to your network
+## Step 2. Connect the device
 {: #connect-device-to-network}
 
 To connect the device to your network, you need to configure two Ethernet connections. The first connection is for managing the device through a browser, and the second connection is for moving data across the same subnet where the source data is located.
