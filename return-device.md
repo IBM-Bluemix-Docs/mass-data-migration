@@ -42,7 +42,7 @@ When the data copy process is complete, you can gracefully power down the system
 3. Set the **Mains Switch** to **Off**.
 4. Spool and return all cables and optics to their storage locations inside the transport case.
 
-## Shipping the device to {{site.data.keyword.cloud_notm}}
+## Shipping the device to IBM
 {: #ship-device}
 
 Prepare your shipping label and notify your carrier when you're ready to return the device.
