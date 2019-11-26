@@ -32,7 +32,7 @@ Before you power on the {{site.data.keyword.mdms_short}} device:
 
 - Ensure that the device is at room temperature.
 - Ensure that there is no condensation on the device.
-- Verify that you received the cables that correspond with your [device model](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview) by reviewing the inventory list that is located under the transport case lid.
+- Verify that you received the cables that correspond with your [device model](/docs/mass-data-migration?topic=mass-data-migration-device-overview) by reviewing the inventory list that is located under the transport case lid.
 - To avoid inadvertent damage to the device, keep the device in its portable case while the device is in use.
 
 ## Step 1. Power on the device
@@ -52,7 +52,7 @@ After you position the device, use the supplied power cord to power on the devic
 
 To connect the device to your network, you need to configure two Ethernet connections. The first connection is for managing the device through a browser, and the second connection is for moving data across the same subnet where the source data is located.
 
-Configure Ethernet connectivity for your device depending on the [{{site.data.keyword.mdms_short}} device model](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#mass-data-migration-device-models) that you receive. 
+Configure Ethernet connectivity for your device depending on the [{{site.data.keyword.mdms_short}} device model](/docs/mass-data-migration?topic=mass-data-migration-device-overview#mass-data-migration-device-models) that you receive. 
 
 ### Setting up the RJ45 model
 {: #set-up-RJ45-model}

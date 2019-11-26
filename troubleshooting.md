@@ -42,7 +42,7 @@ You can see a list of services in your {{site.data.keyword.cloud_notm}} resource
 You do not have the correct authorization to view or track {{site.data.keyword.mdms_short}} orders.
 {: tsCauses} 
 
-Verify with your administrator that you are assigned the correct role in the applicable resource group or service instance. For more information about roles, see [Roles and permissions](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-manage-access#roles).
+Verify with your administrator that you are assigned the correct role in the applicable resource group or service instance. For more information about roles, see [Roles and permissions](/docs/mass-data-migration?topic=mass-data-migration-manage-access#roles).
 {: tsResolve}
 
 ## Unable to use a Cisco switch to connect device
@@ -102,6 +102,6 @@ You can use the Support Center search field to find answers to your questions fr
 
 If you have a basic, advanced, or premium [support plan](/docs/get-support?topic=get-support-support-plans#support-plans), you can find call-in numbers and a chat option to get help.
 
-The Support Center is the preferred method for getting support, but if you can't log in to {{site.data.keyword.cloud_notm}}, you can use the [{{site.data.keyword.cloud_notm}} Service Portal](http://www.ibm.biz/bluemixsupport){: external} to submit a case.
+The Support Center is the preferred method for getting support, but if you can't log in to {{site.data.keyword.cloud_notm}}, you can use the [{{site.data.keyword.cloud_notm}} Service Portal](https://watson.service-now.com/wcp){: external} to submit a case.
 
 For more information about opening an {{site.data.keyword.IBM_notm}} support ticket, or about support levels and ticket severities, see [Contacting support](/docs/get-support?topic=get-support-getting-customer-support){: external}.

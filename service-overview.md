@@ -59,13 +59,13 @@ You can compare your data migration options on {{site.data.keyword.cloud_notm}} 
 
 Ready to set up your device? Use the following checklist to complete your data transfer.
 
-1. [Connect the device](/docs/services/mass-data-migration?topic=mass-data-migration-connect-device)
-2. [Log in to the device user interface](/docs/services/mass-data-migration?topic=mass-data-migration-access-ui)
-3. [Unlock the storage pool for the device](/docs/services/mass-data-migration?topic=mass-data-migration-unlock-storage-pool)
-4. [Mount the network share](/docs/services/mass-data-migration?topic=mass-data-migration-connect-nfs-share)
-5. [Copy data to the device](/docs/services/mass-data-migration?topic=mass-data-migration-copy-data)
-6. [Return the device](/docs/services/mass-data-migration?topic=mass-data-migration-return-device)  
-7. [Access your data](/docs/services/mass-data-migration?topic=mass-data-migration-verify-data)
+1. [Connect the device](/docs/mass-data-migration?topic=mass-data-migration-connect-device)
+2. [Log in to the device user interface](/docs/mass-data-migration?topic=mass-data-migration-access-ui)
+3. [Unlock the storage pool for the device](/docs/mass-data-migration?topic=mass-data-migration-unlock-storage-pool)
+4. [Mount the network share](/docs/mass-data-migration?topic=mass-data-migration-connect-nfs-share)
+5. [Copy data to the device](/docs/mass-data-migration?topic=mass-data-migration-copy-data)
+6. [Return the device](/docs/mass-data-migration?topic=mass-data-migration-return-device)  
+7. [Access your data](/docs/mass-data-migration?topic=mass-data-migration-verify-data)
 
 
 

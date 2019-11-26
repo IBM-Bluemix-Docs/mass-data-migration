@@ -94,4 +94,4 @@ The first column in the table represents the country where your company or sourc
 {: class="comparison-tab-table"}
 {: row-headers}
 
-For more information about storage bucket destinations, see the [Cloud Object Storage documentation](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-endpoints).
+For more information about storage bucket destinations, see the [Cloud Object Storage documentation](/docs/cloud-object-storage/basics?topic=cloud-object-storage-endpoints).

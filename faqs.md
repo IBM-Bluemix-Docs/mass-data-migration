@@ -253,7 +253,7 @@ It is possible to connect {{site.data.keyword.mdms_short}} devices to macOS serv
 
 The list of tuning considerations includes and is not limited to: 
 
-- [Disabling SMB signing on the client](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-troubleshooting#unable-to-mount-smb-share)
+- [Disabling SMB signing on the client](/docs/mass-data-migration?topic=mass-data-migration-troubleshooting#unable-to-mount-smb-share)
 - Determining a network sizing strategy
 - Using TCP delayed acknowledgement (ACK)
 - Enabling SMB configuration options that are specific to your implementation, data set, and network capacity

@@ -28,7 +28,7 @@ subcollection: mass-data-migration
 Review the inventory that arrives with your {{site.data.keyword.mdms_full}} device.
 {: shortdesc}
 
-{{site.data.keyword.cloud_notm}} provides two {{site.data.keyword.mdms_short}} device models. Each model comes packaged with optics and adapters that support both RJ45 and SFP+ copper connections. [Learn more](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#device-models)
+{{site.data.keyword.cloud_notm}} provides two {{site.data.keyword.mdms_short}} device models. Each model comes packaged with optics and adapters that support both RJ45 and SFP+ copper connections. [Learn more](/docs/mass-data-migration?topic=mass-data-migration-device-overview#device-models)
 {: note}
 
 ## RJ45 device model

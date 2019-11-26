@@ -44,7 +44,7 @@ To retrieve your storage pool passphrase:
 
 Unlock the empty storage pool by using the credentials that you retrieved in the previous step.
 
-1. [Log in to the device user interface](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-access-ui#log-in-ui).
+1. [Log in to the device user interface](/docs/mass-data-migration?topic=mass-data-migration-access-ui#log-in-ui).
 2. In the Common Tasks wizard, click **Unlock and Start Storage Pool**.
 3. Enter the storage pool passphrase that you retrieved in step 1, and then click **OK**.
       
@@ -56,6 +56,6 @@ Unlock the empty storage pool by using the credentials that you retrieved in the
 ## Next steps
 {: #unlock-storage-pool-next-steps}
 
-- If you're using a UNIX machine, [connect the network share by using NFS](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-connect-nfs-share).
-- If you're using a Windows machine, [connect to the network share by using SMB](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-connect-smb-share).
-- Start the [data copy process](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-data-copy).
+- If you're using a UNIX machine, [connect the network share by using NFS](/docs/mass-data-migration?topic=mass-data-migration-connect-nfs-share).
+- If you're using a Windows machine, [connect to the network share by using SMB](/docs/mass-data-migration?topic=mass-data-migration-connect-smb-share).
+- Start the [data copy process](/docs/mass-data-migration?topic=mass-data-migration-data-copy).

@@ -48,5 +48,5 @@ To access and verify your data:
 
 Depending on your workload requirements, you might need to move your migrated data from Cloud Object Storage to a different cloud storage solution, such as [File Storage](https://{DomainName}/catalog/infrastructure/file-storage) or [Block Storage](https://{DomainName}/catalog/infrastructure/block-storage). 
 
-To learn more about storage migration options, check out [Recipe: Moving data from COS to File or Block Storage](https://developer.ibm.com/recipes/tutorials/moving-data-from-cos-to-file-or-block-storage/){: external}.
+To learn more about storage migration options, check out [Migration guide: Moving data from Cloud Object Storage](/docs/mass-data-migration?topic=mass-data-migration-move-data-from-cos).
 

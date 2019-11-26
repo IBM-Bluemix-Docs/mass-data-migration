@@ -28,7 +28,7 @@ subcollection: mass-data-migration
 {{site.data.keyword.mdms_full}} helps you move terabytes to petabytes of data into {{site.data.keyword.cloud_notm}} in a fast, simple, and secure way. This tutorial shows you how to request your data transfer device by using the {{site.data.keyword.cloud_notm}} console.
 {: shortdesc}
 
-Your {{site.data.keyword.mdms_short}} order's on us. For a limited time, you can order a {{site.data.keyword.mdms_short}} device free of charge, without incurring costs to your {{site.data.keyword.cloud_notm}} account. To learn more, check out [What's new](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-releases).
+For a limited time, you can order a {{site.data.keyword.mdms_short}} device free of charge, without incurring costs to your {{site.data.keyword.cloud_notm}} account. To learn more, check out [What's new](/docs/mass-data-migration?topic=mass-data-migration-releases).
 {: tip}
 
 ## Before you begin
@@ -36,7 +36,7 @@ Your {{site.data.keyword.mdms_short}} order's on us. For a limited time, you can
 
 Before you order a {{site.data.keyword.mdms_short}} device:
 
-- Plan your migration by reviewing the [regions and locations](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-regions) where {{site.data.keyword.mdms_short}} is available.
+- Plan your migration by reviewing the [regions and locations](/docs/mass-data-migration?topic=mass-data-migration-regions) where {{site.data.keyword.mdms_short}} is available.
 - Ensure that you have a provisioned instance of [{{site.data.keyword.cos_full}}](https://{DomainName}/catalog/services/cloud-object-storage){: external} for your {{site.data.keyword.cloud_notm}} account. 
 - Understand your network connection types and speeds.
 - Gather your network settings, such as IP addresses and other routing details, for connecting the device to your source server.
@@ -95,14 +95,14 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
         <td>Choose a configuration option</td>
         <td>
           <p>Choose from two options for configuring the device. You can pre-configure the device by entering your network configuration details.</p>
-          <p>For <strong>Option A</strong>, provide the following <a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#network-settings">network settings</a>:</p>
+          <p>For the first option, provide the following <a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#network-settings">network settings</a>:</p>
           <p>
             <ul>
               <li>1GbE Device management settings. Enter the static IP address, the subnet mask, and the default gateway for your remote computer.</li>
               <li>10GbE Data transfer settings. Enter the static IP address and the subnet mask for the server where your source data resides.</li>
             </ul>
           </p>
-          <p class="important" data-content: "Important: ">Choose <strong>Option B</strong> only if you're unable to provide network settings when you place the order. Keep in mind that this option requires that you configure the device manually when it arrives at your location.</p>
+          <p class="important" data-content: "Important: ">Choose the second option only if you're unable to provide network settings when you place the order. Keep in mind that this option requires that you configure the device manually when it arrives at your location.</p>
         </td>
       </tr>
       <caption style="caption-side:bottom;">Table 1. Describes the {{site.data.keyword.mdms_short}} request workflow</caption>
@@ -121,6 +121,6 @@ Success! You're all set with your {{site.data.keyword.mdms_short}} order.
 
 A member of the {{site.data.keyword.mdms_short}} team will reach out to you or your IBM Client Representative to verify the request.
 
-- To find out more about tracking your order, check out [Managing your request](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-manage-request).
-- To find out more about receiving and connecting your device, check out [Setting up the device](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview).
+- To find out more about tracking your order, check out [Managing your request](/docs/mass-data-migration?topic=mass-data-migration-manage-request).
+- To find out more about receiving and connecting your device, check out [Setting up the device](/docs/mass-data-migration?topic=mass-data-migration-device-overview).
 

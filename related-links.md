@@ -26,11 +26,6 @@ subcollection: mass-data-migration
 
 More resources to help you learn about moving data into the cloud with {{site.data.keyword.mdms_full}}.
 
-## Samples and recipes
-{: #samples}
-
-- [Recipe: Moving data from COS to File or Block Storage](https://developer.ibm.com/recipes/tutorials/moving-data-from-cos-to-file-or-block-storage/){: external}
-
 ## Blogs and videos
 {: #blogs}
 
