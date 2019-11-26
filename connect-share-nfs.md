@@ -22,7 +22,7 @@ subcollection: mass-data-migration
 {:preview: .preview}
 {:term: .term}
 
-# Mounting NFS shares on UNIX
+# Mounting NFS shares
 {: #connect-nfs-share}
 
 To prepare for data copy, you can access the network share on the {{site.data.keyword.mdms_full}} device by using the Network File System (NFS) protocol.
