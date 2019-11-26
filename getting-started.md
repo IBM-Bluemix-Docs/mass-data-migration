@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-11-08"
+lastupdated: "2019-11-25"
 
 keywords: get started tutorial, data transfer, data migration, transfer data to cloud, migrate data, migrate data to cloud, Mass Data Migration
 
@@ -28,7 +28,7 @@ subcollection: mass-data-migration
 {{site.data.keyword.mdms_full}} helps you move terabytes to petabytes of data into {{site.data.keyword.cloud_notm}} in a fast, simple, and secure way. This tutorial shows you how to request your data transfer device by using the {{site.data.keyword.cloud_notm}} console.
 {: shortdesc}
 
-For a limited time, you can order a {{site.data.keyword.mdms_short}} device free of charge, without incurring any cost to your {{site.data.keyword.cloud_notm}} account. To learn more, check out [What's new](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-releases).
+Your {{site.data.keyword.mdms_short}} order's on us. For a limited time, you can order a {{site.data.keyword.mdms_short}} device free of charge, without incurring costs to your {{site.data.keyword.cloud_notm}} account. To learn more, check out [What's new](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-releases).
 {: tip}
 
 ## Before you begin
