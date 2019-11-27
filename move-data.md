@@ -22,7 +22,7 @@ subcollection: mass-data-migration
 {:preview: .preview}
 {:term: .term}
 
-# Moving migrated data to other storage solutionss
+# Moving migrated data to other storage solutions
 {: #move-data-from-cos}
 
 Depending on your workload requirements, you might need to move your migrated data from Cloud Object Storage to a different cloud storage solution, such as [File Storage](https://{DomainName}/catalog/infrastructure/file-storage) or [Block Storage](https://{DomainName}/catalog/infrastructure/block-storage). 
@@ -43,7 +43,7 @@ rclone copy <config_name>:mdms-migration-bucket /mnt/data/
 ```
 {: codeblock}
 
-where `mdms-migration-bucket` is the name of your bucket in Cloud Object storage, and `/mnt/data` is the directory on the server that is backed by File Storage, Block Storage, or a local file system. The `rclone` tool runs a compare against the objects in the bucket and objects on the file system, and then copies objects that are different from one system to the other. 
+In this example, `mdms-migration-bucket` is the name of your bucket in Cloud Object storage, and `/mnt/data` is the directory on the server that is backed by File Storage, Block Storage, or a local file system. The `rclone` tool runs a compare against the objects in the bucket and objects on the file system, and then copies objects that are different from one system to the other. 
 
 Depending on the amount of data and the speed of the connection, copying data can take from a few minutes to a few days. To increase performance, you can use network switches to manage the number of parallel transfers. If your system has enough CPU, memory, and network bandwidth, you can incease the number of parallel threads using `--transfers int` where `int` is the number of threads to run.
 {: note}
