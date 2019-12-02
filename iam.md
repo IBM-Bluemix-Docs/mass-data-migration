@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-12-02"
 
 keywords: user permissions, manage access, IAM roles
 
@@ -27,9 +27,6 @@ subcollection: mass-data-migration
 
 {{site.data.keyword.mdms_full}} supports a centralized access control system, governed by {{site.data.keyword.iamlong}}, to help you manage users and access to your {{site.data.keyword.mdms_short}} request from the {{site.data.keyword.cloud_notm}} console.
 {: shortdesc}
-
-This capability is available as part of the {{site.data.keyword.mdms_short}} beta release. To find out more about participating in the beta program, check out [Getting access to beta](/docs/mass-data-migration?topic=mass-data-migration-releases#beta).
-{: note}
 
 ## Roles and permissions
 {: #roles}
@@ -76,7 +73,7 @@ The following table shows how {{site.data.keyword.mdms_short}} actions map to [{
     <td>
       <p>
         <ul>
-          <li>Create a {{site.data.keyword.mdms_short}} request.</li>
+          <li>Request a {{site.data.keyword.mdms_short}} device</li>
         </ul>
       </p>
     </td>
