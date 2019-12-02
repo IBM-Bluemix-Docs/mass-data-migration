@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-12-03"
 
 keywords: submit order, create order, create request, submit request, track order, track request
 
@@ -33,6 +33,9 @@ Manage and track the status of your {{site.data.keyword.mdms_full}} order by usi
 {: #track-order}
 
 After you request a storage device, you can find you can track the progress of your order by using the {{site.data.keyword.mdms_short}} dashboard that is available from the IBM Cloud console.
+
+If you order multiple {{site.data.keyword.mdms_short}} devices, each order appears in the **Services** section of your IBM Cloud resource list.
+{: tip}
 
 The following table shows how the order status changes as {{site.data.keyword.mdms_short}} processes the request.
 
