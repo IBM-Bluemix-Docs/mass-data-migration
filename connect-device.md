@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-12-02"
 
 keywords: set up device, connect device, cable device
 
@@ -69,8 +69,8 @@ The following table shows how the physical ports on the device map to the ports 
 
 | Device port | Ethernet type  |  Description |
 | --- | --- | --- | --- |
-| Eth1 | 1GbE | The Eth1 port is used to manage the device and make the web-based UI available outside the data subnet. You can view the gateway information by using the _System Control Display_ screen after the device is powered on. |
-| Eth3 | 10GbE | The Eth3 port is used to transfer data from your storage system onto the {{site.data.keyword.mdms_short}} device. The connection must either be on the same subnet as the source data or directly connected to the server. |
+| Eth1 | 1Gb | The Eth1 port is used to manage the device and make the web-based UI available outside the data subnet. You can view the gateway information by using the _System Control Display_ screen after the device is powered on. |
+| Eth3 | 10Gb | The Eth3 port is used to transfer data from your storage system onto the {{site.data.keyword.mdms_short}} device. The connection must either be on the same subnet as the source data or directly connected to the server. |
 {: caption="Table 2. Describes how {{site.data.keyword.mdms_short}} device ports map to the UI display" caption-side="top"}
 
 To connect the RJ45 device model to your network:
@@ -113,8 +113,8 @@ The following table shows how the physical ports on the device map to the ports 
 
 | Device port | Ethernet type  |  Description |
 | --- | --- | --- | --- |
-| Eth5 | 10GbE (SFP+) | The Eth5 port is used to transfer data from your storage system onto the {{site.data.keyword.mdms_short}}. This port can also be used to manage the device. The port runs only at 10GbE speed. |
-| Eth2 | 10GbE | The Eth2 port is used to manage the device and make the web-based UI available outside the data subnet. This port can also be used for data transfer. The connection must either be on the same subnet as the source data or directly connected to the server. The port can run at speeds of either 1GbE or 10GbE. |
+| Eth5 | 10Gb (SFP+) | The Eth5 port is used to transfer data from your storage system onto the {{site.data.keyword.mdms_short}}. This port can also be used to manage the device. The port runs only at 10GbE speed. |
+| Eth2 | 10Gb | The Eth2 port is used to manage the device and make the web-based UI available outside the data subnet. This port can also be used for data transfer. The connection must either be on the same subnet as the source data or directly connected to the server. The port can run at speeds of either 1Gb or 10Gb. |
 {: caption="Table 3. Describes how {{site.data.keyword.mdms_short}} device ports map to the UI display" caption-side="top"}
 
 To connect the RJ45 / SFP+ device model to your network:
@@ -139,11 +139,11 @@ To connect the RJ45 / SFP+ device model to your network:
 
    Replace `<your_Eth2_IP_address>` with the IP address that is configured for the Eth2 network port. To view the IP address, check the _System Control Display_ screen on the device.
 
-   If you need to alter any IP settings for Eth3 or Eth1, see the [Reviewing your network settings](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-connect-device#review-network-settings).
+   If you need to alter any IP settings for Eth3 or Eth1, see the [Reviewing your network settings](/docs/mass-data-migration?topic=mass-data-migration-connect-device#review-network-settings).
    {: tip}
 
 ## Next steps
 {: #set-up-device-next-steps}
 
-- Interact with the device by [running the web-based UI](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-access-ui).
-- To prepare for the data copy process, start by [unlocking the storage pool on the device](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-unlock-storage-pool).
+- Interact with the device by [running the web-based UI](/docs/mass-data-migration?topic=mass-data-migration-access-ui).
+- To prepare for the data copy process, start by [unlocking the storage pool on the device](/docs/mass-data-migration?topic=mass-data-migration-unlock-storage-pool).
