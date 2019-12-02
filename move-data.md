@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-11-26"
+lastupdated: "2019-12-02"
 
 keywords: 
 
@@ -22,7 +22,7 @@ subcollection: mass-data-migration
 {:preview: .preview}
 {:term: .term}
 
-# Moving migrated data to other storage solutions
+# Moving data from Cloud Object Storage to File or Block Storage
 {: #move-data-from-cos}
 
 Depending on your workload requirements, you might need to move your migrated data from Cloud Object Storage to a different cloud storage solution, such as [File Storage](https://{DomainName}/catalog/infrastructure/file-storage) or [Block Storage](https://{DomainName}/catalog/infrastructure/block-storage). 
