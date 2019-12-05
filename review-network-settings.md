@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-11-08"
+lastupdated: "2019-12-05"
 
 keywords: change IP address, update IP address, configure IP address, verify IP address
 
@@ -22,16 +22,19 @@ subcollection: mass-data-migration
 {:preview: .preview}
 {:term: .term}
 
-# Verifying IP settings
-{: #verify-ip-settings}
+# Reviewing network settings
+{: #ip-settings}
 
 You can review or change IP settings for the device before you connect it to your local network.
 {: shortdesc} 
 
+Opted to configure the device manually? Use the [_System Control Display_ (LCD screen)](#use-lcd-screen) to manually configure the device after it's delivered to your location.
+{: tip}
+
 ## Using the LCD screen
 {: #use-lcd-screen}
 
-You can use the _System Control Display_ screen to manage the IP settings for the network ports on the device.
+Use the _System Control Display_ screen to manage the IP settings for the network ports on the device.
 
 ![The image shows a top-down view of the LCD screen on the Mass Data Migration device.](images/mdms-verify-config.svg){: caption="Figure 1. Shows a top-down view of the LCD screen on the Mass Data Migration device" caption-side="bottom"}
 
@@ -41,7 +44,10 @@ To interact with the _System Control Display_ screen, move the cursor by using t
 ## Updating IP settings
 {: #update-IP-settings}
 
-After you receive the {{site.data.keyword.mdms_short}} device, you can review or modify its IP settings.
+After you receive the {{site.data.keyword.mdms_short}} device, review or modify its IP settings.
+
+To find out more about device ports and configuration options, see [Device configuration](/docs/mass-data-migration?topic=mass-data-migration-device-overview#network-settings).
+{: tip}
 
 To edit an IP address or subnet mask:
 

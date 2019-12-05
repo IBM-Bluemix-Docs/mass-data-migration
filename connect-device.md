@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-12-02"
+lastupdated: "2019-12-05"
 
 keywords: set up device, connect device, cable device
 
@@ -54,7 +54,7 @@ To connect the device to your network, you need to configure two Ethernet connec
 
 Configure Ethernet connectivity for your device depending on the [{{site.data.keyword.mdms_short}} device model](/docs/mass-data-migration?topic=mass-data-migration-device-overview#mass-data-migration-device-models) that you receive. 
 
-### Setting up the RJ45 model
+### Connecting the RJ45 model
 {: #set-up-RJ45-model}
 
 The RJ45 device model natively supports Ethernet connectivity by using RJ45 connectors.
@@ -99,7 +99,7 @@ To connect the RJ45 device model to your network:
    If you need to modify the IP settings for Eth3 or Eth1, see [Reviewing your network settings](#review-network-settings).
    {: tip}
 
-### Setting up the RJ45 / SFP+ model
+### Connecting the RJ45 / SFP+ model
 {: #set-up-SFP+-model}
 
 The RJ45 / SFP+ device model natively supports both RJ45 and SFP+ copper connections. 
