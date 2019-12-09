@@ -28,7 +28,7 @@ subcollection: mass-data-migration
 You can review or change IP settings for the device before you connect it to your local network.
 {: shortdesc} 
 
-Opted to configure the device manually? Use the [_System Control Display_ (LCD screen)](#use-lcd-screen) to manually configure the device after it's delivered to your location.
+Opted to configure the device manually? Use the [LCD screen)](#use-lcd-screen) to manually configure the device after it's delivered to your location.
 {: tip}
 
 ## Using the LCD screen
