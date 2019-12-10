@@ -44,4 +44,4 @@ After you connect your server to the network share, you can start and monitor th
 {: #import-data-next-steps}
 
 - Gracefully [power down the device](/docs/mass-data-migration?topic=mass-data-migration-disconnect-device).
-- Prepare the shipping label and [return the device to {{site.data.keyword.cloud_notm}}](/docs/mass-data-migration?topic=mass-data-migration-ship-device).
+- Prepare the shipping label and [return the device to IBM](/docs/mass-data-migration?topic=mass-data-migration-ship-device).
