@@ -41,18 +41,6 @@ The following table shows how the order status changes as {{site.data.keyword.md
 
 | Status | Description |
 | --- | --- |
-| Processing order | After {{site.data.keyword.mdms_short}} receives the request, the status changes to _Processing order_. The Mass Data Migration team reviews and confirms your request. |
-| Preparing device | After your order is approved, the request status changes to _Prepping device_. {{site.data.keyword.mdms_short}} prepares and configures the next available storage device.  |
-| Device shipped | The pre-configured storage device is picked up by the carrier and shipped to your location. |
-| Client site | After the device arrives at its shipping destination, the status changes to _Client site_. |
-| Device received | After the device is returned to IBM, the status changes to _Device received_. |
-| Offloading data | During the data transfer process, the request status changes to _Offloading Data_. The device is connected to the network in the {{site.data.keyword.cloud_notm}} data center, and the data offload starts automatically.  |
-| Order complete | Your data is now available in the Cloud Object Storage destination that you specified in the initial request. {{site.data.keyword.mdms_short}} permanently erases data from the device by using NIST data wipe standards. After the data erasure process is complete, the order status changes to _Order Complete_.
-{: caption="Table 1. Describes the {{site.data.keyword.mdms_short}} order status workflow" caption-side="top"}
-
-<!-- Post beta
-| Status | Description |
-| --- | --- |
 | Processing order | After {{site.data.keyword.mdms_short}} receives the request, the status changes to _Processing order_. |
 | Prepare shipment | After your order is approved, the request status changes to _Prepare shipment_. {{site.data.keyword.mdms_short}} prepares and configures the next available storage device.  |
 | Ship to customer | A pre-configured storage device is shipped to your location. {{site.data.keyword.mdms_short}} uses roundtrip UPS overnight shipping for US devices and roundtrip FedEx overnight shipping for EU devices.|
@@ -62,4 +50,4 @@ The following table shows how the order status changes as {{site.data.keyword.md
 | Data offload | When IBM receives the {{site.data.keyword.mdms_short}} device, the request status changes to _Data offload_. The device is connected to the network in the {{site.data.keyword.cloud_notm}} data center, and the data offload starts automatically.  |
 | Erase data | When the offload process is complete, the request status changes to _Erase data_. Your data is now available in the Cloud Object Storage destination that you specified in the initial request. {{site.data.keyword.mdms_short}} permanently erases data from the device by using NIST data wipe standards. |
 {: caption="Table 1. Describes the {{site.data.keyword.mdms_short}} order status workflow" caption-side="top"}
--->
+

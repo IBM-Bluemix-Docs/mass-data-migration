@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-12-10"
 
 keywords: release notes, changelog, what's new, service updates, service bulletin
 
@@ -33,7 +33,7 @@ Stay up-to-date with the new features that are available for {{site.data.keyword
 
 We've revamped the {{site.data.keyword.mdms_short}} ordering experience so you can start your data transfer journey from the {{site.data.keyword.cloud_notm}} console. 
 
-### Changed: Requesting a device
+### Requesting a {{site.data.keyword.mdms_short}} device
 {: #changed-order-form}
 New as of: 2019-12-15
 
@@ -43,7 +43,7 @@ You can now request {{site.data.keyword.mdms_short}} devices from the {{site.dat
 
 This experience replaces the previous order flow that is available in the {{site.data.keyword.slportal}}. 
 
-### Added: Cloud IAM access policies
+### Using Cloud IAM access policies
 {: #added-access-policies}
 New as of: 2019-12-15
 
