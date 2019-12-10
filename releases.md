@@ -37,7 +37,7 @@ We've revamped the {{site.data.keyword.mdms_short}} ordering experience so you c
 {: #changed-order-form}
 New as of: 2019-12-15
 
-You can now request {{site.data.keyword.mdms_short}} devices from the {{site.data.keyword.cloud_notm}} catalog using a simplified order form. 
+You can now request {{site.data.keyword.mdms_short}} devices from the {{site.data.keyword.cloud_notm}} catalog using a simplified order form.
 
 **TBU gif/image**
 

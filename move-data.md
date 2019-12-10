@@ -25,11 +25,10 @@ subcollection: mass-data-migration
 # Moving data from Cloud Object Storage to File or Block Storage
 {: #move-data-from-cos}
 
-Depending on your workload requirements, you might need to move your migrated data from Cloud Object Storage to a different cloud storage solution, such as [File Storage](https://{DomainName}/catalog/infrastructure/file-storage) or [Block Storage](https://{DomainName}/catalog/infrastructure/block-storage). 
+Explore options for moving data between Cloud Object Storage and other storage systems, such as [File Storage](https://{DomainName}/catalog/infrastructure/file-storage) or [Block Storage](https://{DomainName}/catalog/infrastructure/block-storage).
+{:shortdesc} 
 
-This guide helps you explore options for moving data between Cloud Object Storage and other storage systems. For complete Cloud Object Storage documentation, see [Getting started tutorial](/docs/services/cloud-object-storage). 
-
-**This content is currently being developed and reviewed.**
+For complete Cloud Object Storage documentation, see the [Getting started tutorial](/docs/services/cloud-object-storage). 
 
 ## Using `rclone`
 {: #using-rclone}
