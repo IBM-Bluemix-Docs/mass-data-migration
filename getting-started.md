@@ -75,7 +75,7 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
       </tr>
       <tr>
         <td>Add order details</td>
-        <td>Enter an order alias to identify and track your {{site.data.keyword.mdms_short}} request. Select the resource group where you want </td>
+        <td>Enter an order alias to identify and track your {{site.data.keyword.mdms_short}} request.</td>
       </tr>
       <tr>
         <td>Add contact information</td>
@@ -102,7 +102,7 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
               <li>10Gb Data transfer settings. Enter the static IP address and the subnet mask for the server where your source data resides.</li>
             </ul>
           </p>
-          <p class="important" data-content: "Important: ">Choose the second option only if you're unable to provide network settings when you place the order. Keep in mind that this option requires that you configure the device manually when it arrives at your location.</p>
+          <p class="important" data-content: "Important: ">Choose the second option only if you're unable to provide network settings when you place the order. Keep in mind that this option requires that you <a href="/docs/mass-data-migration?topic=mass-data-migration-ip-settings#update-IP-settings">configure the device manually</a> when it arrives at your location.</p>
         </td>
       </tr>
       <caption style="caption-side:bottom;">Table 1. Describes the {{site.data.keyword.mdms_short}} request workflow</caption>
