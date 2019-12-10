@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-09-24"
+lastupdated: "2019-12-10"
 
 keywords:
 
@@ -39,7 +39,7 @@ Frequently asked questions about {{site.data.keyword.mdms_full}}.
 {: #how-to-use-mdms}
 {: faq}
 
-Use the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} to submit your request. When your request is approved and processed, the next available device or devices are configured and sent to you based on your network and shipping information. 
+Use the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog/mass-data-migration ) to submit your request. After you submit your request, a member of the Mass Data Migration team will reach out to you or your IBM Client Representative to confirm the order. When your request is confirmed and processed, the next available device or devices are configured and sent to you based on your network and shipping information.
 
 ## Who should use {{site.data.keyword.mdms_short}}?
 {: #who-uses-mdms}
@@ -70,7 +70,15 @@ From the time a customer submits a {{site.data.keyword.mdms_short}} request to w
 {: #device-onsite-time}
 {: faq}
 
-A device may be kept onsite at no additional cost for the first 10 business days. This does not include the day your device is shipped, nor the day your device is returned to IBM (maximum of 2 days). If additional time is needed to complete your ingestion, you can extend your use for USD 30 per calendar day thereafter. Applies to all regions.
+You can keep a device onsite for up to 90 days before a member of the {{site.data.keyword.mdms_short}} team will reach out to you or your IBM Client Representative. At that time, you may be asked to provide an estimated completion timeframe and/or return the device to IBM. Applies to all regions. 
+
+## Is IBM Cloud Object Storage the only supported offload destination?
+{: #supported-cloud-destination}
+{: faq}
+
+Cloud Object Storage is currently the only supported offload destination at this time. If you need to move to move your data to a different storage solution, see [Migration guide: Moving data from Cloud Object Storage to File or Block Storage](/docs/mass-data-migration?topic=mass-data-migration-move-data-from-cos).
+
+
 
 ## What network interfaces does {{site.data.keyword.mdms_short}} support?
 {: #supported-network-interfaces}
@@ -91,40 +99,39 @@ RJ45 to SFP+ converters are only included with device models that lack SFP+ nati
 {: #regions-available}
 {: faq}
 
-{{site.data.keyword.mdms_short}} is currently available in the United States (US), European Union (EU), Japan, Australia, Brazil, Singapore, Hong Kong, Norway, South Korea, Canada, and Mexico. Additional geographic expansion is underway. Online ordering is available in most regions. For any region without online ordering, please contact your IBM Sales Representative to inquire about using the service.
+{{site.data.keyword.mdms_short}} is currently available in the United States (US), European Union (EU), United Kingdom (UK), Australia, Brazil, Canada, Hong Kong, India, Japan, Mexico, Norway, Singapore, and South Korea. Online ordering is available in most regions with exception to Brazil and India. For any region without online ordering, contact your IBM Client Representative to inquire about using the service. 
 
-Devices cannot be shipped across international borders (for example, a device cannot be ordered in one region and shipped to another region) with exception of the European Union and its 28-member countries.
+Devices cannot be shipped across international borders (for example, a device cannot be ordered in one region and shipped to another region) with exception of the European Union.
 {: note}
 
 ## What is the {{site.data.keyword.mdms_short}} default shipping option in the US?
 {: #default-shipping-us}
 {: faq}
 
-{{site.data.keyword.mdms_short}} uses roundtrip UPS overnight shipping for US devices. The shipping cost is included in the price. Customers are currently unable to select alternative shipping methods. 
+{{site.data.keyword.mdms_short}} uses roundtrip UPS overnight shipping for US devices. The shipping cost is included in your order. Alternative shipping methods are not available at this time. 
 
-## What is the {{site.data.keyword.mdms_short}} default shipping option in the EU?
+## What is the {{site.data.keyword.mdms_short}} default shipping option in the EU, United Kingdom, and Canada?
 {: #default-shipping-eu}
 {: faq}
 
-{{site.data.keyword.mdms_short}} uses roundtrip FedEx overnight shipping for EU devices. The shipping cost is included in the price. Customers are currently unable to select alternative shipping methods. 
+{{site.data.keyword.mdms_short}} uses roundtrip FedEx overnight shipping for EU, UK, and Canada devices. The shipping cost is included in your order. Alternative shipping methods are not available at this time. 
 
 ## What is the {{site.data.keyword.mdms_short}} default shipping option in all other supported regions?
 {: #default-shipping-other}
 {: faq}
 
-For all supported regions outside of the US and EU, shipping vendors and shipping turnaround times will vary. The shipping cost is included in the price. Customers are currently unable to select alternative shipping methods.
+For all supported regions outside of the US, EU, UK, and Canada, shipping vendors and shipping turnaround times will vary. The shipping cost is included in the order. Alternative shipping methods are not available at this time. 
 
-In these regions, IBM is unable to book roundtrip shipping at the time of your order placement. Instead, one-way shipments are booked at the time a shipment is needed. For outbound shipments, please allow at least three business days for IBM to coordinate the shipment of your {{site.data.keyword.mdms_short}} device after you place your request.
+In these regions, IBM is unable to book roundtrip shipping at the time of your order placement. Instead, one-way shipments are booked at the time a shipment is needed. For outbound shipments, please allow at least three business days for IBM to coordinate the shipment of your {{site.data.keyword.mdms_short}} device after your request is confirmed and processed.
 {: note}
 
-For non-US and non-EU orders, request a return shipment for the device at least three business days before the date that you want to ship the device. For example, if you want to ship the device on Friday, coordinate a return shipment on Monday of the same week. You can request a return shipment from the _Request details_ tab in the {{site.data.keyword.mdms_short}} dashboard.
-{: important}
+When you are finished using the device, [create a support case](https://{DomainName}/unifiedsupport/cases/manage) to request a pickup and return shipment for the device. Please allow at least three business days for IBM to coordinate the device pickup. 
 
-## I am located in Japan, Australia, Brazil, Canada, Mexico, Hong Kong, Singapore, Norway, or South Korea. How do I request return shipping for my {{site.data.keyword.mdms_short}} device?
+## I am located in Australia, Brazil, Hong Kong, India, Japan, Mexico, Norway, Singapore, or South Korea. How do I request return shipping for my {{site.data.keyword.mdms_short}} device?
 {: #shipping-timetable-other}
 {: faq}
 
-If you are using {{site.data.keyword.mdms_short}} outside the US and EU regions, you need to request a return shipment for the device at least three business days prior to the date that you want to ship the device. For example, if you want to ship the device on Friday, coordinate a return shipment on Monday of the same week.
+If you are using {{site.data.keyword.mdms_short}} outside the US, EU, UK, and Canada regions, you need to request a return shipment for the device by [creating a support case](https://{DomainName}/unifiedsupport/cases/manage). Please allow at least three business days for IBM to coordinate the device pickup.
 
 ## How much does it cost to import data into {{site.data.keyword.cloud_notm}}?
 {: #data-transfer-cost}
@@ -156,7 +163,7 @@ All {{site.data.keyword.mdms_short}} devices are housed in rugged and durable en
 {: #how-to-track-request}
 {: faq}
 
-To track the status of your request, navigate to the _Request details_ tab on the {{site.data.keyword.mdms_short}} dashboard in the {{site.data.keyword.cloud_notm}} console.
+To track the status of your request, search for your order name in the **Services** section of your {{site.data.keyword.cloud_notm}} resource list. Click an order name to view order status from the {{site.data.keyword.mdms_short}} dashboard.
 
 ## How do you erase my data from the {{site.data.keyword.mdms_short}} device after it is offloaded to {{site.data.keyword.cos_full_notm}}?
 {: #data-erasure}
@@ -192,28 +199,7 @@ The file interface is based on mature file and network software that enables lar
 {: #pricing-us}
 {: faq}
 
-In the US, a flat rate of USD 395 is charged per device, including the USD 295 device fee, USD 100 roundtrip UPS Overnight shipping and 10 business days of use at your site.
-
-Your 10 days of use onsite do not include the day your device is shipped to you nor the day your device is returned to IBM (maximum of two days). If more time is needed to complete your migration beyond the allotted 10 business days, you will be charged a USD 30 per-day extension fee for each additional day of use.
-
-## How much does it cost to use {{site.data.keyword.mdms_short}} in the EU?
-{: #pricing-eu}
-{: faq}
-
-In the EU, a flat rate of USD 445 is charged per device including the USD 295 device fee, USD 150 roundtrip FedEx Overnight shipping and 10 business days of use at your site.
-
-Your 10 days of use onsite do not include the day your device is shipped to you nor the day your device is returned to IBM (maximum of 2 days). If more time is needed to complete your migration beyond the allotted 10 days, you will be charged a USD 30 per-day extension fee for each additional day of use.
-
-## How much does it cost to use {{site.data.keyword.mdms_short}} in all other supported regions?
-{: #pricing-other}
-{: faq}
-
-In all other regions (Japan, Australia, Brazil, Canada, Mexico, Hong Kong, Singapore, Norway, and South Korea), a flat rate of USD 1,145 is charged per device including the USD 295 device fee, USD 850 roundtrip shipping, and 10 business days of use at your site.
-
-Your 10 days of use onsite do not include the day your device is shipped to you, nor the day your device is returned to IBM (a maximum of 2 days). If more time is needed to complete your migration beyond the allotted 10 days, you will be charged a USD 30 per-day extension fee for each additional day of use.
-
-There are special shipping requirements for these regions. See above for more information.
-{: note}
+For a limited time, enjoy Mass Data Migration free of charge. 
 
 ## Am I charged for {{site.data.keyword.cos_full_notm}} use?
 {: #pricing-cos}
@@ -232,12 +218,6 @@ Transferring data into {{site.data.keyword.cloud_notm}} occurs at no cost to you
 {: faq}
 
 To ensure that object names are unique when they are copied into a Cloud Object Storage bucket, the file path is included a prefix in the object name. For example, `/root/user/config.ini` becomes `root/user/config.ini` when it is copied into the bucket.
-
-## What happens if the target bucket does not exist in the {{site.data.keyword.cos_full_notm}} account?
-{: #target-buckets}
-{: faq}
-
-If the target bucket doesn't exist, it is created. If it does exist, it must be empty, otherwise the copy can't proceed.  
 
 ## Are links skipped during the scan process?
 {: #links-scan-process}
