@@ -50,7 +50,7 @@ The following table shows how {{site.data.keyword.mdms_short}} actions map to [{
     <td>
       <p>
         <ul>
-          <li>Access the {{site.data.keyword.mdms_short}} request details page</li>
+          <li>Access the {{site.data.keyword.mdms_short}} catalog page</li>
           <li>View the status of a {{site.data.keyword.mdms_short}} order</li>
         </ul>
       </p>
@@ -73,7 +73,7 @@ The following table shows how {{site.data.keyword.mdms_short}} actions map to [{
     <td>
       <p>
         <ul>
-          <li>Request a {{site.data.keyword.mdms_short}} device</li>
+          <li>Request a device</li>
         </ul>
       </p>
     </td>
