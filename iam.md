@@ -41,7 +41,7 @@ This section discusses {{site.data.keyword.cloud_notm}} IAM in the context of {{
 
 Use platform access roles to grant permissions at the account level, such as the ability to create or delete instances in your {{site.data.keyword.cloud_notm}} account.
 
-The following table shows how {{site.data.keyword.mdms_short}} actions map to [{{site.data.keyword.cloud_notm}} IAM platform access roles](/docs/iam?topic=iam-userroles#iamusermanrol). 
+The following table shows how platform access roles map to {{site.data.keyword.mdms_short}} permissions. 
 
 | Action | Role |
 | --- | --- |
