@@ -47,7 +47,7 @@ To interact with the _System Control Display_ screen, move the cursor by using t
 
 After you receive the {{site.data.keyword.mdms_short}} device, you can review or modify network preferences for the device.
 
-To find out more about device ports and configuration options, see [Device configuration](/docs/mass-data-migration?topic=mass-data-migration-device-overview#network-settings).
+To find out more about device ports and configuration options, see [Network configuration](/docs/mass-data-migration?topic=mass-data-migration-device-overview#network-settings).
 {: tip}
 
 To edit an IP address or subnet mask:
