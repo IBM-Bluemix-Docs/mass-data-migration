@@ -15,6 +15,7 @@ subcollection: mass-data-migration
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 {:external: target="_blank" .external}
+{:gif: data-image-type='gif'}
 {:codeblock: .codeblock}
 {:tip: .tip}
 {:note: .note}
@@ -39,7 +40,8 @@ New as of: 2019-12-15
 
 You can now request {{site.data.keyword.mdms_short}} devices from the {{site.data.keyword.cloud_notm}} catalog using a simplified order form.
 
-**TBU gif/image**
+![New Mass Data Migration experience GIF](images/mdms-order.gif){: gif}
+
 
 This experience replaces the previous order flow that is available in the {{site.data.keyword.slportal}}. 
 
