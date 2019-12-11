@@ -18,6 +18,7 @@ subcollection: mass-data-migration
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 {:external: target="_blank" .external}
+{:support: data-reuse='support'}
 {:codeblock: .codeblock}
 {:tip: .tip}
 {:note: .note}
@@ -47,6 +48,7 @@ Verify with your administrator that you are assigned the correct role in the app
 
 ## Unable to use a Cisco switch to connect device
 {: #unable-to-connect-with-cisco-switch}
+{: support}
 
 When you use a supplied SFP adapter to connect to a Cisco switch, the port on the switch enters a disabled state, and you're unable to connect the {{site.data.keyword.mdms_short}} device.
 
@@ -69,6 +71,7 @@ Configure the Cisco switch so that it accepts the SFP adapters that are packaged
 
 ## Unable to connect to the SMB share
 {: #unable-to-mount-smb-share}
+{: support}
 
 When you try to mount the Server Message Block (SMB) share that is provisioned on the {{site.data.keyword.mdms_short}} device, you're unable to connect to the share. 
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-12-10"
+lastupdated: "2019-12-11"
 
 keywords:
 
@@ -22,6 +22,7 @@ subcollection: mass-data-migration
 {:preview: .preview}
 {:term: .term}
 {:faq: data-hd-content-type='faq'}
+{:support: data-reuse='support'}
 
 # FAQs
 {: #faqs}
@@ -68,12 +69,14 @@ From the time a customer submits a {{site.data.keyword.mdms_short}} request to w
 
 ## How long can I have a {{site.data.keyword.mdms_short}} device?
 {: #device-onsite-time}
+{: support}
 {: faq}
 
 You can keep a device onsite for up to 90 days before a member of the {{site.data.keyword.mdms_short}} team will reach out to you or your IBM Client Representative. At that time, you may be asked to provide an estimated completion timeframe and/or return the device to IBM. Applies to all regions. 
 
 ## Is IBM Cloud Object Storage the only supported offload destination?
 {: #supported-cloud-destination}
+{: support}
 {: faq}
 
 Cloud Object Storage is currently the only supported offload destination at this time. If you need to move to move your data to a different storage solution, see [Migration guide: Moving data from Cloud Object Storage to File or Block Storage](/docs/mass-data-migration?topic=mass-data-migration-move-data-from-cos).
@@ -93,7 +96,6 @@ RJ45 to SFP+ converters are only included with device models that lack SFP+ nati
 {: faq}
 
 {{site.data.keyword.mdms_short}} uses UPS Next Day Air round-trip delivery to ship all devices. The cost is included in the low, flat rate of USD 395 per device. Customers are unable to select alternative shipping methods currently.
-
 
 ## In what regions is {{site.data.keyword.mdms_short}} available?
 {: #regions-available}
@@ -139,13 +141,11 @@ If you are using {{site.data.keyword.mdms_short}} outside the US, EU, UK, and Ca
 
 No fees are incurred for data that is transferred into {{site.data.keyword.cloud_notm}}.
 
-
 ## Can I use {{site.data.keyword.mdms_short}} to export data out of {{site.data.keyword.cloud_notm}}?
 {: #exporting-data}
 {: faq}
 
 {{site.data.keyword.mdms_short}} does not support exporting data out of {{site.data.keyword.cloud_notm}} at this time.
-
 
 ## Does {{site.data.keyword.mdms_short}} encrypt my data?
 {: #encryption}
@@ -227,6 +227,7 @@ Yes. Symlinks and hard links are skipped during the scan process.
 
 ## Can I connect macOS servers to {{site.data.keyword.mdms_short}} devices using SMB?
 {: #connect-macOS-smb}
+{: support}
 {: faq}
 
 It is possible to connect {{site.data.keyword.mdms_short}} devices to macOS servers using SMB. However, keep in mind that optimal throughput isn't attainable without significant tuning to the macOS client.
