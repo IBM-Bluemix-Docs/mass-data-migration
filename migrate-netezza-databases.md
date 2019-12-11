@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-19"
+lastupdated: "2019-12-11"
 
 keywords: migrate Netezza databases, PureData System for Analytics databases, 
 

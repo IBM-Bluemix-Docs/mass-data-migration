@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-11-13"
+lastupdated: "2019-12-11"
 
 keywords: region availability, storage locations, storage destinations
 

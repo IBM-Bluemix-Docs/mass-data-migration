@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-12-05"
+lastupdated: "2019-12-11"
 
 keywords: change IP address, update IP address, configure IP address, verify IP address
 
@@ -22,13 +22,13 @@ subcollection: mass-data-migration
 {:preview: .preview}
 {:term: .term}
 
-# Reviewing network settings
+# Updating network settings
 {: #ip-settings}
 
-You can review or change IP settings for the device before you connect it to your local network.
+You can review or change network settings for the device before you connect it to your local network.
 {: shortdesc} 
 
-Opted to configure the device manually? Use the [LCD screen)](#use-lcd-screen) to manually configure the device after it's delivered to your location.
+Opted to configure the device manually? Use the [LCD screen](#use-lcd-screen) to manually configure the device after it's delivered to your location.
 {: tip}
 
 ## Using the LCD screen
@@ -41,10 +41,10 @@ Use the _System Control Display_ screen to manage the IP settings for the networ
 To interact with the _System Control Display_ screen, move the cursor by using the **△**, **▽**, **esc**, and **enter** buttons. **Enter** takes you into a menu and **esc** takes you out.
 {: tip}
 
-## Updating IP settings
-{: #update-IP-settings}
+## Updating IP addresses
+{: #update-IP-addresses}
 
-After you receive the {{site.data.keyword.mdms_short}} device, review or modify its IP settings.
+After you receive the {{site.data.keyword.mdms_short}} device, you can review or modify network preferences for the device.
 
 To find out more about device ports and configuration options, see [Device configuration](/docs/mass-data-migration?topic=mass-data-migration-device-overview#network-settings).
 {: tip}

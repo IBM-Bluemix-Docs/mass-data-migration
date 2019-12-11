@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-08-26"
+lastupdated: "2019-12-11"
 
 keywords: copy data to device, move data to device 
 

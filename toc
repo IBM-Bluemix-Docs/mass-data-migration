@@ -40,7 +40,7 @@ IBM Cloud Mass Data Migration
         copy-data.md
         
     return-device.md
-    verify-data.md
+    access-data.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}

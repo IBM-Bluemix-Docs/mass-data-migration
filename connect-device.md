@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-12-05"
+lastupdated: "2019-12-11"
 
 keywords: set up device, connect device, cable device
 

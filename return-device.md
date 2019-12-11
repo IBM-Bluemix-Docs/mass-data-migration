@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-12-11"
 
 keywords: return device, ship device, disconnect device, shipping label
 
@@ -63,7 +63,7 @@ Prepare your shipping label and notify your carrier when you're ready to return 
 ### Shipping from all other supported regions
 {: #return-device-from-other-regions}
 
-After you're finished using the device, create support case to request a pickup and return shipment. Please allow at least three business days for IBM to coordinate the device pickup.  
+After you're finished using the device, create support case to request a pickup and return shipment. 
 
 1. [Log in to the {{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}.
 2. From the  **Support** &gt; **Manage** to access the Support Center.
@@ -82,5 +82,5 @@ After you're finished using the device, create support case to request a pickup 
 {: #return-device-next-steps}
 
 - Check the status of your order by [managing your {{site.data.keyword.mdms_short}} request](/docs/mass-data-migration?topic=mass-data-migration-manage-request).
-- Before you delete data from your source server, [verify that the data was uploaded successfully to {{site.data.keyword.cloud_notm}}](/docs/mass-data-migration?topic=mass-data-migration-verify-data).
+- [Verify that the data was uploaded successfully to {{site.data.keyword.cloud_notm}}](/docs/mass-data-migration?topic=mass-data-migration-access-data).
 

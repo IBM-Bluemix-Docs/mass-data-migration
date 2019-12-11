@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-08-26"
+lastupdated: "2019-12-11"
 
 keywords: device user interface, access device, log in to device
 
@@ -38,8 +38,7 @@ To retrieve your device credentials:
 1. [Log in to the {{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external}.
 2. Go to **Menu** &gt; **Resource List** to view a list of your resources.
 3. From your {{site.data.keyword.cloud_notm}} resource list, select your provisioned instance of {{site.data.keyword.mdms_short}}.
-4. In the _Request details_ tab, navigate to the Credentials section.
-5. Copy the **User name** and **Password** values.
+4. In the _Device credentials_ section, copy the **User name** and **Password** values.
 
 ## Step 2. Log in to the device UI
 {: #log-in-ui}

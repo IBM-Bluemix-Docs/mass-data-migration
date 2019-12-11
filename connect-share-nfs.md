@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-12-11"
 
 keywords: mount NFS share, NFS, access network share, connect to network share
 

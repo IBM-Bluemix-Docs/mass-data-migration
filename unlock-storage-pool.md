@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-11-08"
+lastupdated: "2019-12-11"
 
 keywords: unlock storage pool, set up device
 
