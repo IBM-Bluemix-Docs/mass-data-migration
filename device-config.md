@@ -25,8 +25,13 @@ subcollection: mass-data-migration
 # Device configuration
 {: #device-config}
 
-When you request a {{site.data.keyword.mdms_short}} device, you can choose from the following configuration options in the order form.
+Learn about configuration options that are available when you order a {{site.data.keyword.mdms_full}}.
 {: shortdesc}
+
+## Choosing a configuration option
+{: #choose-option}
+
+When you request a {{site.data.keyword.mdms_short}} device, you can choose from the following configuration options in the order form.
 
 | Option | Description |
 |---|---|
