@@ -63,7 +63,10 @@ Prepare your shipping label and notify your carrier when you're ready to return 
 ### Shipping from all other supported regions
 {: #return-device-from-other-regions}
 
-After you're finished using the device, create support case to request a pickup and return shipment. 
+After you're finished using the device, create a support case to request a pickup and return shipment. 
+
+After you create the support case, allow at least three business days for IBM to coordinate the device pickup.
+{: note}  
 
 1. [Log in to the {{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}.
 2. From the  **Support** &gt; **Manage** to access the Support Center.
@@ -75,8 +78,7 @@ After you're finished using the device, create support case to request a pickup 
 8. In the _Description_ text box, add any additional notes you might want to provide to the team.
 9. Click **Submit**.
 
-    Allow at least three business days for IBM to coordinate the device pickup.
-    {: note}  
+    After you submit the support case, a {{site.data.keyword.mdms_short}} team member will contact you with further shipping instructions.
 
 ## Next steps
 {: #return-device-next-steps}
