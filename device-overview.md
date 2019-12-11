@@ -86,52 +86,14 @@ By having two connections between the device and your server, you separate netwo
         <dd>The data transfer port handles data movement from your storage system onto the {{site.data.keyword.mdms_short}} device. The port runs at 10Gb speed.</dd>
 </dl>
 
-## Device configuration
+## Network configuration
 {: #network-settings}
 
 You can prepare the device for connectivity to your network in one of two ways:
 
-| Option | Description |
-| --- | --- |
-| Using the 1Gb and 10Gb ports | **Recommended.** You can connect the device using the [1Gb and 10Gb device ports](#device-ports) on different subnets, where only the device management port gets a gateway. For example, use the 1Gb port (on subnet `xx.xx.xx.xx`) with a gateway, and the 10Gb port on the same subnet as the data source (on subnet `yy.yy.yy.yy`). |
-| Using only the 10Gb port | You can also use only the 10Gb port on the device for both data movement and device management connections. When you request a {{site.data.keyword.mdms_short}} device, you can specify this configuration in the order form by leaving the 1Gb fields blank. The device arrives with the 10Gb port that is configured with your IP information, including a gateway. |
-
-Configuring a gateway on both the device management port and the data transfer port is not supported. If you need to configure routing on the data transfer port by adding a gateway (not recommended), you must also be able to reach the IP address for the data transfer port from your browser to run the device user interface.
-{: note}
-
-### Choosing a configuration option
-{: #choose-config-option}
-
-When you request a {{site.data.keyword.mdms_short}} device, you can choose from the following configuration options in the order form.
-
-| Option | Description |
-|---|---|
-| Pre-configure the device | **Recommended.** Provide network preferences, including IP addresses for the device, as part of the order form so that the device arrives ready to connect to your data center. |
-| Manually configure the device | Configure network preferences for the device manually by [using the LCD screen](/docs/mass-data-migration?topic=mass-data-migration-verify-ip-settings#use-lcd-screen) after the device is delivered to your location. |
-
-
-#### Pre-configuring the device
-{: #configure-before-shipping}
-
-As a network admin, provide IP settings for the {{site.data.keyword.mdms_short}} device based on your data center's security and performance requirements. 
-
-{{site.data.keyword.mdms_short}} uses the IP information that you provide to configure the [device ports](#device-ports) for connectivity to your data center.
-{: tip}
-
-To configure the 10Gb data transfer port, you'll need:
-
-- Static IP address
-- Subnet mask for the server where your source data resides
-
-
-To configure the 1GB device management port, you'll need:
-
-- Static IP address
-- Subnet mask
-- Default gateway for the computer that will access the device GUI
-
-
-#### Configuring the device after delivery
-{: #configure-after-delivery}
-
-You can also set network preferences for the device after it arrives at your location. To change IP settings for the device, use the LCD screen. To find out more about changing IP addresses on the device, see [Verifying IP settings](/docs/mass-data-migration?topic=mass-data-migration-verify-ip-settings).
+<dl>
+  <dt>Using the 1Gb and 10Gb ports</dt>
+    <dd><strong>Recommended.</strong> You can connect the device using the <a href="#device-ports">1Gb and 10Gb device ports</a> on different subnets, where only the device management port gets a gateway. For example, use the 1Gb port (on subnet <code>xx.xx.xx.xx</code>) with a gateway, and the 10Gb port on the same subnet as the data source (on subnet <code>yy.yy.yy.yy</code>).</dd>
+  <dt>Using only the 10Gb port</dt>
+    <dd>You can also use only the 10Gb port on the device for both data movement and device management connections. When you request a {{site.data.keyword.mdms_short}} device, you can specify this configuration in the order form by leaving the 1Gb fields blank. The device arrives with the 10Gb port that is configured with your IP information, including a gateway.</dd>
+    <dd><p class="note">Configuring a gateway on both the device management port and the data transfer port is not supported. If you need to configure routing on the data transfer port by adding a gateway (not recommended), you must also be able to reach the IP address for the data transfer port from your browser to run the device user interface.</p></dd>
