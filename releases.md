@@ -42,16 +42,7 @@ You can now request {{site.data.keyword.mdms_short}} devices from the {{site.dat
 
 ![New Mass Data Migration experience GIF](images/mdms-order.gif){: gif}
 
-
 This experience replaces the previous order flow that is available in the {{site.data.keyword.slportal}}. 
-
-### Using Cloud IAM access policies
-{: #added-access-policies}
-New as of: 2019-12-15
-
-As an account owner, you can assign access policies to users in your account to control who can request and track {{site.data.keyword.mdms_short}} devices.
-
-For more information, see [User access permissions](/docs/mass-data-migration?topic=mass-data-migration-manage-access).
 
 ## July 2019
 {: #jul-2019}
