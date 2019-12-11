@@ -25,7 +25,7 @@ subcollection: mass-data-migration
 # Device configuration
 {: #device-config}
 
-Learn about configuration options that are available when you order a {{site.data.keyword.mdms_full}}.
+Learn about device configuration options that are available when you order a {{site.data.keyword.mdms_full}}.
 {: shortdesc}
 
 ## Choosing a configuration option
