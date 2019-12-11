@@ -22,8 +22,8 @@ subcollection: mass-data-migration
 {:preview: .preview}
 {:term: .term}
 
-# Verifying your data
-{: #verify-data}
+# Accessing your data
+{: #access-data}
 
 You can access and verify your migrated data by using {{site.data.keyword.cos_full}}.
 {: shortdesc}
