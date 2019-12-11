@@ -12,7 +12,6 @@ IBM Cloud Mass Data Migration
     About the service
         service-overview.md
         device-overview.md
-        device-config.md
 
     {: .topicgroup}
     Migration guides
