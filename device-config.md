@@ -46,12 +46,12 @@ As a network admin, provide IP settings for the {{site.data.keyword.mdms_short}}
 {{site.data.keyword.mdms_short}} uses the IP information that you provide to configure the [device ports](#device-ports) for connectivity to your data center.
 {: tip}
 
-To configure the 10Gb data transfer port, you'll need:
+To configure the 10Gb data transfer port, you need:
 
 - Static IP address
 - Subnet mask for the server where your source data resides
 
-To configure the 1GB device management port, you'll need:
+To configure the 1GB device management port, you need:
 
 - Static IP address
 - Subnet mask
