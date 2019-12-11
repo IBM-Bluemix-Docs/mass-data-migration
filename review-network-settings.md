@@ -36,11 +36,10 @@ Configuring the device manually? Use the [LCD screen](#use-lcd-screen) to manual
 
 Use the _System Control Display_ screen to manage the IP settings for the network ports on the device.
 
-<a href="https://{DomainName}/docs/api/content/mass-data-migration/images/mdms-verify-config.svg">
-  <img src="images/mdms-verify-config.svg" alt="Top-down view of the LCD screen on the Mass Data Migration device">
-</a>
+![The image shows a top-down view of the LCD screen on the Mass Data Migration device.](images/mdms-verify-config.svg){: caption="Figure 1. Shows a top-down view of the LCD screen on the Mass Data Migration device" caption-side="bottom"}
 
 To interact with the _System Control Display_ screen, move the cursor by using the **△**, **▽**, **esc**, and **enter** buttons. **Enter** takes you into a menu and **esc** takes you out.
+{: tip}
 
 ## Updating IP addresses
 {: #update-IP-addresses}
