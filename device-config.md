@@ -29,7 +29,7 @@ Learn about configuration options that are available when you order a {{site.dat
 {: shortdesc}
 
 ## Choosing a configuration option
-{: #choose-option}
+{: #choose-config-option}
 
 When you request a {{site.data.keyword.mdms_short}} device, you can choose from the following configuration options in the order form.
 
