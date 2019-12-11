@@ -41,6 +41,8 @@ This section discusses {{site.data.keyword.cloud_notm}} IAM in the context of {{
 
 Use platform access roles to grant permissions at the account level, such as the ability to create or delete instances in your {{site.data.keyword.cloud_notm}} account.
 
+The following table shows how {{site.data.keyword.mdms_short}} actions map to [{{site.data.keyword.cloud_notm}} IAM platform access roles](/docs/iam?topic=iam-userroles#iamusermanrol). 
+
 | Action | Role |
 | --- | --- |
 | View a {{site.data.keyword.mdms_short}} order | Administrator, Operator, Editor |
@@ -52,8 +54,6 @@ Use platform access roles to grant permissions at the account level, such as the
 Use service access roles to grant permissions at the service level, such as the ability to request a {{site.data.keyword.mdms_short}} device. 
 
 The following table shows how service access roles map to {{site.data.keyword.mdms_short}} permissions.
-
-The following table shows how {{site.data.keyword.mdms_short}} actions map to [{{site.data.keyword.cloud_notm}} IAM platform management roles](/docs/iam?topic=iam-userroles#iamusermanrol). 
 
 | Action | Role |
 | --- | --- |
