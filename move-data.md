@@ -54,7 +54,7 @@ With [s3fs](https://github.com/s3fs-fuse/s3fs-fuse){: external}, you can mount a
 
 To copy data from the bucket to File, Block, or local storage, you can use normal command line tools. For example, if your bucket is mounted to `/mnt/mdms-migration-bucket`, you can copy the objects by using `cp -r /mnt/mdms-migration-bucket/* /mnt/data/`
 
-For more information about using `s3fs` with Cloud Object Storage, check out [Mount a bucket using s3fs](docs/cloud-object-storage?topic=cloud-object-storage-s3fs).
+For more information about using `s3fs` with Cloud Object Storage, check out [Mount a bucket using s3fs](/docs/cloud-object-storage?topic=cloud-object-storage-s3fs).
 
 ## Using the AWS CLI
 {: #using-aws-cli}
