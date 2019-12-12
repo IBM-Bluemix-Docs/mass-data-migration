@@ -25,7 +25,7 @@ subcollection: mass-data-migration
 # Moving data from Cloud Object Storage to File or Block Storage
 {: #move-data-from-cos}
 
-Explore options for moving data between Cloud Object Storage and other storage systems, such as [File Storage](https://{DomainName}/catalog/infrastructure/file-storage) or [Block Storage](https://{DomainName}/catalog/infrastructure/block-storage).
+Explore options for moving your migrated data from Cloud Object Storage to other storage systems, such as [File Storage](https://{DomainName}/catalog/infrastructure/file-storage) or [Block Storage](https://{DomainName}/catalog/infrastructure/block-storage).
 {:shortdesc} 
 
 For complete Cloud Object Storage documentation, see the [Getting started tutorial](/docs/services/cloud-object-storage). 
