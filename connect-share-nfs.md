@@ -37,7 +37,7 @@ Before you connect to the share:
 
 By default, the network share is set to have public access. Before you mount the share to your server, you can add NFS access rules on the share to match your environment or security requirements. 
 
-For detailed information about controlling access to shares on the storage device, see the [OSNEXUS QuantaStor documentation](https://wiki.osnexus.com/index.php?title=Network_Shares){:external}.
+For more information about controlling access to shares on the storage device, see the [OSNEXUS QuantaStor documentation](https://wiki.osnexus.com/index.php?title=Network_Shares){:external}.
 {: tip}
 
 To modify NFS share access:
@@ -49,7 +49,7 @@ To modify NFS share access:
 3. Close the Common Tasks wizard, and then right-click the network share name to view a list of options. 
 4. Click **Add NFS Access** to modify access for the NFS share.
 
-    ![Modify access for the NFS share](images/add-nfs-access.png)
+    ![Modify access for the NFS share.](images/add-nfs-access.png)
 
 ## Mounting the NFS share on a UNIX system
 {: #mount-nfs-share}
@@ -70,7 +70,7 @@ To mount the network share:
     The _Network Port_ value corresponds to the data transfer port on the {{site.data.keyword.mdms_short}} device. The _Mount command_ value specifies the command that is used to mount and connect to the share.
 5. Ping the IP address that is listed in the dialog box to test network connectivity between your computer and the {{site.data.keyword.mdms_short}} device.
 
-   Ensure that the IP address corresponds to the [10GbE data transfer port](/docs/mass-data-migration?topic=mass-data-migration-device-overview#network-settings) on the device.
+   Ensure that the IP address corresponds to the [10Gb data transfer port](/docs/mass-data-migration?topic=mass-data-migration-device-overview#network-settings) on the device.
    {: note}  
 6. Copy the mount command that is listed in the dialog box and paste the command into a terminal session on your computer.
 7. Run the command to mount the share to your server.

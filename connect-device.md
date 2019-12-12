@@ -71,7 +71,7 @@ The following table shows how the physical ports on the device map to the ports 
 | --- | --- | --- | --- |
 | Eth1 | 1Gb | The Eth1 port is used to manage the device and make the web-based UI available outside the data subnet. You can view the gateway information by using the _System Control Display_ screen after the device is powered on. |
 | Eth3 | 10Gb | The Eth3 port is used to transfer data from your storage system onto the {{site.data.keyword.mdms_short}} device. The connection must either be on the same subnet as the source data or directly connected to the server. |
-{: caption="Table 2. Describes how {{site.data.keyword.mdms_short}} device ports map to the UI display" caption-side="top"}
+{: caption="Table 2. Describes how {{site.data.keyword.mdms_short}} device ports map to the UI display." caption-side="top"}
 
 To connect the RJ45 device model to your network:
 
@@ -115,7 +115,7 @@ The following table shows how the physical ports on the device map to the ports 
 | --- | --- | --- | --- |
 | Eth5 | 10Gb (SFP+) | The Eth5 port is used to transfer data from your storage system onto the {{site.data.keyword.mdms_short}}. This port can also be used to manage the device. The port runs only at 10GbE speed. |
 | Eth2 | 10Gb | The Eth2 port is used to manage the device and make the web-based UI available outside the data subnet. This port can also be used for data transfer. The connection must either be on the same subnet as the source data or directly connected to the server. The port can run at speeds of either 1Gb or 10Gb. |
-{: caption="Table 3. Describes how {{site.data.keyword.mdms_short}} device ports map to the UI display" caption-side="top"}
+{: caption="Table 3. Describes how {{site.data.keyword.mdms_short}} device ports map to the UI display." caption-side="top"}
 
 To connect the RJ45 / SFP+ device model to your network:
 
