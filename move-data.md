@@ -78,7 +78,7 @@ s3cmd get --recursive s3://mdms-migration-bucket /data/ /mnt/data/
 ```
 {: codeblock}
 
-For information about configuring `s3cmd` to access Cloud Object Storage, see [Using s3cmd (CLI)](/docs/cloud-object-storage?topic=cloud-object-storage-large-objects#large-objects-s3cmd).
+For information about configuring `s3cmd` to access Cloud Object Storage, see [Using s3cmd (CLI)](/docs/cloud-object-storage?topic=cloud-object-storage-large-objects&programming_language=S3cmd#large-objects-s3cmd).
 
 ## Using Cyberduck
 {: #using-cyberduck}
