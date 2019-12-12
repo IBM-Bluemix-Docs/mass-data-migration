@@ -28,13 +28,13 @@ subcollection: mass-data-migration
 You can review or change network settings for the device before you connect it to your local network.
 {: shortdesc} 
 
-Configuring the device manually? Use the [LCD screen](#use-lcd-screen) to manually set IP addrsses for the device after it's delivered to your location.
+Configuring the device manually? Use the [LCD screen](#use-lcd-screen) to manually set IP addresses for the device after it's delivered to your location.
 {: tip}
 
 ## Using the LCD screen
 {: #use-lcd-screen}
 
-Use the _System Control Display_ screen to manage the IP settings for the network ports on the device.
+Use the _System Control Display_ screen to manage the IP settings for the network ports on the device. 
 
 ![The image shows a top-down view of the LCD screen on the Mass Data Migration device.](images/mdms-verify-config.svg){: caption="Figure 1. Shows a top-down view of the LCD screen on the Mass Data Migration device" caption-side="bottom"}
 

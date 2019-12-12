@@ -29,7 +29,7 @@ subcollection: mass-data-migration
 Learn about {{site.data.keyword.mdms_full}} device models and network configuration options. 
 {: shortdesc}
 
-The following image shows the main areas of the device.
+The following image shows the main areas of the device. 
 
 <a href="https://{DomainName}/docs/api/content/mass-data-migration/images/mdms-device-rj45.svg">
   <img src="images/mdms-device-rj45.svg" alt="Top-down view of the Mass Data Migration device">
@@ -93,7 +93,7 @@ You can prepare the device for connectivity to your network in one of two ways:
 
 <dl>
   <dt>Using the 1Gb and 10Gb ports (Recommended)</dt>
-    <dd>You can connect the device using the <a href="#device-ports">1Gb and 10Gb device ports</a> on different subnets, where only the device management port gets a gateway. For example, use the 1Gb port (on subnet <code>xx.xx.xx.xx</code>) with a gateway, and the 10Gb port on the same subnet as the data source (on subnet <code>yy.yy.yy.yy</code>).</dd>
+    <dd>You can connect the device by using the <a href="#device-ports">1Gb and 10Gb device ports</a> on different subnets, where only the device management port gets a gateway. For example, use the 1Gb port (on subnet <code>xx.xx.xx.xx</code>) with a gateway, and the 10Gb port on the same subnet as the data source (on subnet <code>yy.yy.yy.yy</code>).</dd>
   <dt>Using only the 10Gb port</dt>
     <dd>You can also use only the 10Gb port on the device for both data movement and device management connections. When you request a {{site.data.keyword.mdms_short}} device, you can specify this configuration in the order form by leaving the 1Gb fields blank. The device arrives with the 10Gb port that is configured with your IP information, including a gateway.</dd>
     <dd><p class="note">Configuring a gateway on both the device management port and the data transfer port is not supported. If you need to configure routing on the data transfer port by adding a gateway (not recommended), you must also be able to reach the IP address for the data transfer port from your browser to run the device user interface.</p></dd>

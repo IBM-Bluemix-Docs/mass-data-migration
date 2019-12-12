@@ -33,11 +33,11 @@ The {{site.data.keyword.mdms_full}} can be used to migrate large IBM PureData™
 
 1. From [IBM Support > Fix Central > Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:external}, download the appropriate Netezza Tools version that corresponds to your Netezza instance.
 
-   By default, support tools are installed on Netezza server at directory `/nz/support-IBM_Netezza<version>/bin`
+   By default, support tools are installed on Netezza server at directory `/nz/support-IBM_Netezza<version>/bin`.
    {:note}
 
 2. Run the following two commands.
-   - `nz_db_size` to determine the size of the database
+   - `nz_db_size` to determine the size of the database.
 
      ```
      nz_db_size
@@ -112,7 +112,7 @@ You can use two options to extract the data from Netezza.
 
 The data can be reread back on the Netezza by using the `SELECT FROM` statement with the external table `myfile` and a `USING(....)` clause to ensure that the data is correct.
 
-## Additional resources
-{: #additional-resources}
+## More resources
+{: #more-resources}
 
 More information about PureData System for Analytics, see [IBM Netezza database user documentation](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:external}.

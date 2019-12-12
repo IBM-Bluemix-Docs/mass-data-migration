@@ -40,7 +40,7 @@ Frequently asked questions about {{site.data.keyword.mdms_full}}.
 {: #how-to-use-mdms}
 {: faq}
 
-Use the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog/mass-data-migration) to submit your request. After you submit your request, a member of the Mass Data Migration team will reach out to you or your IBM Client Representative to confirm the order. When your request is confirmed and processed, the next available device or devices are configured and sent to you based on your network and shipping information.
+Use the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog/mass-data-migration) to submit your request. After you submit your request, a member of the Mass Data Migration team will contact you or your IBM Client Representative to confirm the order. When your request is confirmed and processed, the next available device or devices are configured and sent to you based on your network and shipping information.
 
 ## Who should use {{site.data.keyword.mdms_short}}?
 {: #who-uses-mdms}
@@ -101,7 +101,7 @@ RJ45 to SFP+ converters are only included with device models that lack SFP+ nati
 {: #regions-available}
 {: faq}
 
-{{site.data.keyword.mdms_short}} is currently available in the United States (US), European Union (EU), United Kingdom (UK), Australia, Brazil, Canada, Hong Kong, India, Japan, Mexico, Norway, Singapore, and South Korea. Online ordering is available in most regions with exception to Brazil and India. For any region without online ordering, contact your IBM Client Representative to inquire about using the service. 
+{{site.data.keyword.mdms_short}} is currently available in the United States (US), European Union (EU), United Kingdom (UK), Australia, Brazil, Canada, Hong Kong SAR of the PRC, India, Japan, Mexico, Norway, Singapore, and South Korea. Online ordering is available in most regions with exception to Brazil and India. For any region without online ordering, contact your IBM Client Representative to inquire about using the service. 
 
 Devices cannot be shipped across international borders (for example, a device cannot be ordered in one region and shipped to another region) with exception of the European Union.
 {: note}
@@ -127,13 +127,13 @@ For all supported regions outside of the US, EU, UK, and Canada, shipping vendor
 In these regions, IBM is unable to book roundtrip shipping at the time of your order placement. Instead, one-way shipments are booked at the time a shipment is needed. For outbound shipments, please allow at least three business days for IBM to coordinate the shipment of your {{site.data.keyword.mdms_short}} device after your request is confirmed and processed.
 {: note}
 
-When you are finished using the device, [create a support case](https://{DomainName}/unifiedsupport/cases/manage) to request a pickup and return shipment for the device. Please allow at least three business days for IBM to coordinate the device pickup. 
+When you are finished using the device, [create a support case](https://{DomainName}/unifiedsupport/cases/manage) to request a pickup and return shipment for the device. Allow at least three business days for IBM to coordinate the device pickup. 
 
-## I am located in Australia, Brazil, Hong Kong, India, Japan, Mexico, Norway, Singapore, or South Korea. How do I request return shipping for my {{site.data.keyword.mdms_short}} device?
+## I am located in Australia, Brazil, Hong Kong SAR of the PRC, India, Japan, Mexico, Norway, Singapore, or South Korea. How do I request return shipping for my {{site.data.keyword.mdms_short}} device?
 {: #shipping-timetable-other}
 {: faq}
 
-If you are using {{site.data.keyword.mdms_short}} outside the US, EU, UK, and Canada regions, you need to request a return shipment for the device by [creating a support case](https://{DomainName}/unifiedsupport/cases/manage). Please allow at least three business days for IBM to coordinate the device pickup.
+If you are using {{site.data.keyword.mdms_short}} outside the US, EU, UK, and Canada regions, you need to request a return shipment for the device by [creating a support case](https://{DomainName}/unifiedsupport/cases/manage). Allow at least three business days for IBM to coordinate the device pickup.
 
 ## How much does it cost to import data into {{site.data.keyword.cloud_notm}}?
 {: #data-transfer-cost}

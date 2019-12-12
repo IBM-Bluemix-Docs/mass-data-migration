@@ -45,8 +45,8 @@ The following table shows how platform access roles map to {{site.data.keyword.m
 
 | Action | Role |
 | --- | --- |
-| View a {{site.data.keyword.mdms_short}} order | Administrator, Operator, Editor |
-{: caption="Table 1. Lists platform access roles as they apply to {{site.data.keyword.mdms_short}}" caption-side="top"}
+| View a {{site.data.keyword.mdms_short}} order. | Administrator, Operator, Editor |
+{: caption="Table 1. Lists platform access roles as they apply to {{site.data.keyword.mdms_short}}." caption-side="top"}
 
 ### Service access roles
 {: #service-access-roles}
@@ -57,8 +57,8 @@ The following table shows how service access roles map to {{site.data.keyword.md
 
 | Action | Role |
 | --- | --- |
-| Submit a {{site.data.keyword.mdms_short}} order | Manager, Writer |
-{: caption="Table 2. Lists service access roles as they apply to {{site.data.keyword.mdms_short}}" caption-side="top"}
+| Submit a {{site.data.keyword.mdms_short}} order. | Manager, Writer |
+{: caption="Table 2. Lists service access roles as they apply to {{site.data.keyword.mdms_short}}." caption-side="top"}
 
 For information about assigning user roles in the UI, see [Managing access to resources](/docs/iam?topic=iam-iammanidaccser#iammanidaccser).
 {: tip}

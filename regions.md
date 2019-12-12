@@ -51,7 +51,7 @@ Your data is migrated into Cloud Object Storage, where you can choose from diffe
 The first column in the table represents the country where your company or source data is located. The second column represents the cities and associated data centers where you can receive and drop off the device. The third column lists the Cloud Object Storage bucket options that are available for offloading data.
 {: tip}
 
-| Country | Data centers | Storage destinations |
+| Location | Data centers | Storage destinations |
 |-----|-----|----|
 | Brazil | São Paulo | Single site: `sao01`  |
 | Canada | Montréal<br>Toronto | Single site: `mon01` <br>Single site: `tor01` |
@@ -64,7 +64,7 @@ The first column in the table represents the country where your company or sourc
 {: class="comparison-tab-table"}
 {: row-headers}
 
-| Country | Data centers | Storage destinations |
+| Location | Data centers | Storage destinations |
 |-----|-----|----|
 | France | Paris | Single site: `par01` |
 | Germany | Frankfurt | Cross region: `eu-geo`<br>Regional: `eu-de`  | 
@@ -73,22 +73,20 @@ The first column in the table represents the country where your company or sourc
 | Norway| Oslo | Single site: `oslo1`  | 
 | United Kingdom | London | Cross region: `eu-geo`<br>Regional: `eu-gb`  |
 {: caption="Table 2. Lists the available data offload locations in Europe" caption-side="top"}
-{: summary="This table has row and column headers. The row headers identify the service. The column headers indentify where that service is located. To understand where a service is located in the table, navigate to the row, and find the for the location you are interested in."}
 {: #table-2}
 {: tab-title="Europe"}
 {: class="comparison-tab-table"}
 {: row-headers}
 
-| Country | Data centers | Storage destinations |
+| Location | Data centers | Storage destinations |
 |-----|-----|----|
 | Australia | Melbourne<br>Sydney |  Cross region: `ap-geo`<br>Regional: `au-syd`<br>Single site: `mel01`  |
-| Hong Kong | Hong Kong | Cross region: `ap-geo`<br>Single site: `hkg02`  |
+| Hong Kong SAR of the PRC | Hong Kong | Cross region: `ap-geo`<br>Single site: `hkg02`  |
 | India | Chennai | Cross region: `ap-geo`<br>Single site: `che01` | 
 | Japan | Tokyo | Cross region: `ap-geo`<br>Regional: `jp-tok`  |
 | South Korea| Seoul | Cross region: `ap-geo`<br>Single site: `seo01`  | 
 | Singapore | Singapore | Cross region: `ap-geo` | 
 {: caption="Table 3. Lists the available data offload locations in Asia Pacific" caption-side="top"}
-{: summary="This table has row and column headers. The row headers identify the service. The column headers indentify where that service is located. To understand where a service is located in the table, navigate to the row, and find the for the location you are interested in."}
 {: #table-3}
 {: tab-title="Asia Pacific"}
 {: class="comparison-tab-table"}

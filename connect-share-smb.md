@@ -30,8 +30,8 @@ To prepare for data copy, you can access the network share on the {{site.data.ke
 
 Before you connect to the share:
 
-- Determine if you need to join the {{site.data.keyword.mdms_short}} device to Active Directory. If you're mounting the network share to a Windows server that is joined to Active Directory, you must also [join the device to the Active Directory domain](#use-active-directory) before you can connect to the share.
-- Determine if your environment requires SMB signing. Joining the {{site.data.keyword.mdms_short}} device to Active Directory enables SMB signing by default. If your environment does not need SMB signing, you can [disable SMB signing on the client](/docs/mass-data-migration?topic=mass-data-migration-troubleshooting#unable-to-mount-smb-share) to avoid connection issues and increase the performance of your data transfer.
+- Determine whether you need to join the {{site.data.keyword.mdms_short}} device to Active Directory. If you're mounting the network share to a Windows server that is joined to Active Directory, you must also [join the device to the Active Directory domain](#use-active-directory) before you can connect to the share.
+- Determine whether your environment requires SMB signing. Joining the {{site.data.keyword.mdms_short}} device to Active Directory enables SMB signing by default. If your environment does not need SMB signing, you can [disable SMB signing on the client](/docs/mass-data-migration?topic=mass-data-migration-troubleshooting#unable-to-mount-smb-share) to avoid connection issues and increase the performance of your data transfer.
 
 ## Managing SMB share access
 {: #manage-smb-share-access}
@@ -50,7 +50,7 @@ To modify SMB share access:
 3. Close the Common Tasks wizard, and then right-click the network share name to view a list of options. 
 4. Click **Modify Share & SMB Access** to modify access for the SMB share.
 
-    ![Modify access for the SMB share](images/add-smb-access.png)
+    ![Modify access for the SMB share.](images/add-smb-access.png)
 
 ## Using Active Directory
 {: #use-active-directory}
@@ -72,14 +72,14 @@ To mount the network share:
 4. Click **View Mount Command** to review mount information for the share.
 5. Ping the IP address that is listed in the dialog box to test network connectivity between your computer and the {{site.data.keyword.mdms_short}} device.
 
-   Ensure that the IP address corresponds to the [10GbE data transfer port](/docs/mass-data-migration?topic=mass-data-migration-device-overview#network-settings) on the device.
+   Ensure that the IP address corresponds to the [10Gb data transfer port](/docs/mass-data-migration?topic=mass-data-migration-device-overview#network-settings) on the device.
    {: note} 
 6. From the File Explorer, right-click **Network** and then select **Map network drive** to open the Map Network Drive dialog.
 
-   ![Open map network drive dialog](images/map-network-drive.png)
+   ![Open map network drive dialog.](images/map-network-drive.png)
 7. Enter the IP address that you tested in step 1, and click **Browse**.
 
-   ![Connect to the network share](images/map-network-drive-dialog.png)
+   ![Connect to the network share.](images/map-network-drive-dialog.png)
 8. From the list of network folders, select the {{site.data.keyword.mdms_short}} share. Click **OK** to confirm.
 9. Click **Finish** to mount the share on your source server.
 

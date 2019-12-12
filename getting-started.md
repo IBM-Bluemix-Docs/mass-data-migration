@@ -79,7 +79,7 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
       </tr>
       <tr>
         <td>Add contact information</td>
-        <td>Enter the name of the person who can receive and manage the device onsite</td>
+        <td>Enter the name of the person who can receive and manage the device onsite.</td>
       </tr>
       <tr>
         <td>Add a shipping address</td>
@@ -119,7 +119,7 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
 
 Success! You're all set with your {{site.data.keyword.mdms_short}} order.
 
-A member of the {{site.data.keyword.mdms_short}} team will reach out to you or your IBM Client Representative to verify the request.
+A member of the {{site.data.keyword.mdms_short}} team will contact you or your IBM Client Representative to verify the request.
 
 - To find out more about tracking your order, check out [Managing your request](/docs/mass-data-migration?topic=mass-data-migration-manage-request).
 - To find out more about receiving and connecting your device, check out [Setting up the device](/docs/mass-data-migration?topic=mass-data-migration-device-overview).
