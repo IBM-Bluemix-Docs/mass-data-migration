@@ -205,7 +205,7 @@ For a limited time, enjoy Mass Data Migration free of charge.
 {: #pricing-cos}
 {: faq}
 
-Transferring data into {{site.data.keyword.cloud_notm}} occurs at no cost to you. However, standard rates apply for data stored in {{site.data.keyword.cos_full_notm}} or any other {{site.data.keyword.cloud_notm}} service. To learn more about pricing options in Cloud Object Storage, see [{{site.data.keyword.cos_full_notm}} pricing](https://www.ibm.com/cloud-computing/bluemix/pricing-object-storage){: external}. 
+Transferring data into {{site.data.keyword.cloud_notm}} occurs at no cost to you. However, standard rates apply for data stored in {{site.data.keyword.cos_full_notm}} or any other {{site.data.keyword.cloud_notm}} service. To learn more about pricing options in Cloud Object Storage, see [{{site.data.keyword.cos_full_notm}} pricing](https://www.ibm.com/cloud/object-storage/pricing){: external}. 
 
 ## Can I buy an {{site.data.keyword.mdms_full_notm}} device?
 {: #purchasing-devices}
