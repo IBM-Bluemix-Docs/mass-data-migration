@@ -42,14 +42,14 @@ You can now request {{site.data.keyword.mdms_short}} devices from the {{site.dat
 
 ![New Mass Data Migration experience GIF](images/mdms-order.gif){: gif}
 
-This experience replaces the previous order flow that is available in the {{site.data.keyword.slportal}}. 
+This experience replaces the previous order flow that is available in the {{site.data.keyword.slportal}}. To learn more about ordering a {{site.data.keyword.mdms_short}}, check out the [Getting started tutorial](/docs/services/mass-data-migration?topic=mass-data-migration-getting-started-tutorial).
 
 ## July 2019
 {: #jul-2019}
 
 With {{site.data.keyword.mdms_short}}, you can now participate in a beta program to try upcoming features, give feedback, and help to improve the service. 
 
-The beta period closes on 15 December 2019.
+The beta period closes on 18 December 2019.
 {: note}
 
 ### {{site.data.keyword.mdms_short}} beta
