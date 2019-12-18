@@ -63,7 +63,6 @@ After you provision an instance of Cloud Object Storage, create a storage bucket
 
 You can request a {{site.data.keyword.mdms_short}} device by using the {{site.data.keyword.cloud_notm}} console.
 
-
 1. In the {{site.data.keyword.cloud_notm}} catalog, search for _Mass Data Migration_.
 2. Click the **Mass Data Migration** tile to access the {{site.data.keyword.mdms_short}} order form.
 3. Start your {{site.data.keyword.mdms_short}} request by specifying the following details.

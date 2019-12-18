@@ -40,7 +40,7 @@ Frequently asked questions about {{site.data.keyword.mdms_full}}.
 {: #how-to-use-mdms}
 {: faq}
 
-Use the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog/mass-data-migration) to submit your request. After you submit your request, a member of the Mass Data Migration team will contact you or your IBM Client Representative to confirm the order. When your request is confirmed and processed, the next available device or devices are configured and sent to you based on your network and shipping information.
+Use the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/mdms) to submit your request. After you submit your request, a member of the Mass Data Migration team will contact you or your IBM Client Representative to confirm the order. When your request is confirmed and processed, the next available device or devices are configured and sent to you based on your network and shipping information.
 
 ## Who should use {{site.data.keyword.mdms_short}}?
 {: #who-uses-mdms}

@@ -47,7 +47,7 @@ You can compare your data migration options on {{site.data.keyword.cloud_notm}} 
 
 <dl>
    <dt>{{site.data.keyword.mdms_short}} dashboard</dt>
-      <dd>You can create and track {{site.data.keyword.mdms_short}} orders from the service dashboard in the {{site.data.keyword.cloud_notm}} console. In the <a href="http://{DomainName}/catalog/services/mass-data-migration" target="_blank">{{site.data.keyword.mdms_short}} catalog page</a>, you specify your network configuration settings for the device, retrieve credentials to log in to the device, and track the status of your order. </dd>
+      <dd>You can create and track {{site.data.keyword.mdms_short}} orders from the service dashboard in the {{site.data.keyword.cloud_notm}} console. In the <a href="http://{DomainName}/mdms" target="_blank">{{site.data.keyword.mdms_short}} catalog page</a>, you specify your network configuration settings for the device, retrieve credentials to log in to the device, and track the status of your order. </dd>
    <dt>{{site.data.keyword.mdms_short}} device</dt>
       <dd>{{site.data.keyword.mdms_short}} provides a <a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview">portable storage device</a> that is shipped to your location. The {{site.data.keyword.mdms_short}} device arrives pre-configured and ready to connect to your network.</dd>
    <dt>Device user interface</dt>
