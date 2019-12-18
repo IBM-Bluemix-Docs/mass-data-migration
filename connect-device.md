@@ -59,6 +59,9 @@ Configure Ethernet connectivity for your device depending on the [{{site.data.ke
 
 The RJ45 device model natively supports Ethernet connectivity by using RJ45 connectors.
 
+To learn about setting up a RJ45 / SFP+ device model, see [Connecting the RJ45 / SFP+ model](#set-up-SFP+-model).
+{: note}
+
 <a href="https://{DomainName}/docs/api/content/mass-data-migration/images/mdms-device-rj45.svg">
   <img src="images/mdms-device-rj45.svg" alt="Top-down view of the Mass Data Migration device">
 </a>
@@ -103,6 +106,9 @@ To connect the RJ45 device model to your network:
 {: #set-up-SFP+-model}
 
 The RJ45 / SFP+ device model natively supports both RJ45 and SFP+ copper connections. 
+
+To learn about setting up a RJ45 device model that doesn't include SFP+ connections, see [Connecting the RJ45 model](#set-up-RJ45-model).
+{: note}
 
 <a href="https://{DomainName}/docs/api/content/mass-data-migration/images/mdms-device-sfp.svg">
   <img src="images/mdms-device-sfp.svg" alt="Top-down view of the Mass Data Migration device">
