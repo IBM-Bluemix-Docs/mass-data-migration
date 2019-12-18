@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-12-18"
 
 keywords: set up device, connect device, cable device
 
@@ -19,7 +19,8 @@ subcollection: mass-data-migration
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
-{:download: .download}
+{:preview: .preview}
+{:term: .term}
 
 # Connecting the device
 {: #connect-device}
@@ -31,10 +32,10 @@ Before you power on the {{site.data.keyword.mdms_short}} device:
 
 - Ensure that the device is at room temperature.
 - Ensure that there is no condensation on the device.
-- Verify that you received the cables that correspond with your [device model](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview) by reviewing the inventory list that is located under the transport case lid.
+- Verify that you received the cables that correspond with your [device model](/docs/mass-data-migration?topic=mass-data-migration-device-overview) by reviewing the inventory list that is located under the transport case lid.
 - To avoid inadvertent damage to the device, keep the device in its portable case while the device is in use.
 
-## Powering on the device
+## Step 1. Power on the device
 {: #power-on-device}
 
 After you position the device, use the supplied power cord to power on the device.
@@ -46,34 +47,20 @@ After you position the device, use the supplied power cord to power on the devic
 
    When a System ID value displays on the _System Control Display_ screen, the device is powered on and ready for the next step.
 
-## Reviewing your network settings
-{: #review-network-settings}
-
-You can review the network configuration on the device before you connect it to your network. View and manage the IP settings for your network ports by using the _System Control Display_ screen on the device. 
-
-To interact with the _System Control Display_ screen, move the cursor by using the **△**, **▽**, **esc**, and **enter** buttons. **Enter** takes you into a menu and **esc** takes you out.
-{: tip}
-
-To edit an IP address or subnet mask:
-
-1. From the Network Config menu, use the **△** and **▽** buttons to select the port that you want to modify. Press **enter**.
-2. Select **IP Address**, and then use the **△** and **▽** buttons to set the new IP address.
-
-   Press **enter** to move forward one character at a time. Press **esc** to move backwards one character at a time.
-3. Press **esc** to return to the previous menu.
-4. Go to **Update...** and press **enter** to save the setting.
-
-## Connecting the device to your network
-{: #connect-device}
+## Step 2. Connect the device
+{: #connect-device-to-network}
 
 To connect the device to your network, you need to configure two Ethernet connections. The first connection is for managing the device through a browser, and the second connection is for moving data across the same subnet where the source data is located.
 
-Configure Ethernet connectivity for your device depending on the [{{site.data.keyword.mdms_short}} device model](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#mass-data-migration-device-models) that you receive. 
+Configure Ethernet connectivity for your device depending on the [{{site.data.keyword.mdms_short}} device model](/docs/mass-data-migration?topic=mass-data-migration-device-overview#mass-data-migration-device-models) that you receive. 
 
-### Setting up the RJ45 model
+### Connecting the RJ45 model
 {: #set-up-RJ45-model}
 
 The RJ45 device model natively supports Ethernet connectivity by using RJ45 connectors.
+
+To learn about setting up a RJ45 / SFP+ device model, see [Connecting the RJ45 / SFP+ model](#set-up-SFP+-model).
+{: note}
 
 <a href="https://{DomainName}/docs/api/content/mass-data-migration/images/mdms-device-rj45.svg">
   <img src="images/mdms-device-rj45.svg" alt="Top-down view of the Mass Data Migration device">
@@ -85,9 +72,9 @@ The following table shows how the physical ports on the device map to the ports 
 
 | Device port | Ethernet type  |  Description |
 | --- | --- | --- | --- |
-| Eth1 | 1GbE | The Eth1 port is used to manage the device and make the web-based UI available outside the data subnet. You can view the gateway information by using the _System Control Display_ screen after the device is powered on. |
-| Eth3 | 10GbE | The Eth3 port is used to transfer data from your storage system onto the {{site.data.keyword.mdms_short}} device. The connection must either be on the same subnet as the source data or directly connected to the server. |
-{: caption="Table 2. Describes how {{site.data.keyword.mdms_short}} device ports map to the UI display" caption-side="top"}
+| Eth1 | 1Gb | The Eth1 port is used to manage the device and make the web-based UI available outside the data subnet. You can view the gateway information by using the _System Control Display_ screen after the device is powered on. |
+| Eth3 | 10Gb | The Eth3 port is used to transfer data from your storage system onto the {{site.data.keyword.mdms_short}} device. The connection must either be on the same subnet as the source data or directly connected to the server. |
+{: caption="Table 2. Describes how {{site.data.keyword.mdms_short}} device ports map to the UI display." caption-side="top"}
 
 To connect the RJ45 device model to your network:
 
@@ -115,10 +102,13 @@ To connect the RJ45 device model to your network:
    If you need to modify the IP settings for Eth3 or Eth1, see [Reviewing your network settings](#review-network-settings).
    {: tip}
 
-### Setting up the RJ45 / SFP+ model
+### Connecting the RJ45 / SFP+ model
 {: #set-up-SFP+-model}
 
 The RJ45 / SFP+ device model natively supports both RJ45 and SFP+ copper connections. 
+
+To learn about setting up a RJ45 device model that doesn't include SFP+ connections, see [Connecting the RJ45 model](#set-up-RJ45-model).
+{: note}
 
 <a href="https://{DomainName}/docs/api/content/mass-data-migration/images/mdms-device-sfp.svg">
   <img src="images/mdms-device-sfp.svg" alt="Top-down view of the Mass Data Migration device">
@@ -129,9 +119,9 @@ The following table shows how the physical ports on the device map to the ports 
 
 | Device port | Ethernet type  |  Description |
 | --- | --- | --- | --- |
-| Eth5 | 10GbE (SFP+) | The Eth5 port is used to transfer data from your storage system onto the {{site.data.keyword.mdms_short}}. This port can also be used to manage the device. The port runs only at 10GbE speed. |
-| Eth2 | 10GbE | The Eth2 port is used to manage the device and make the web-based UI available outside the data subnet. This port can also be used for data transfer. The connection must either be on the same subnet as the source data or directly connected to the server. The port can run at speeds of either 1GbE or 10GbE. |
-{: caption="Table 3. Describes how {{site.data.keyword.mdms_short}} device ports map to the UI display" caption-side="top"}
+| Eth5 | 10Gb (SFP+) | The Eth5 port is used to transfer data from your storage system onto the {{site.data.keyword.mdms_short}}. This port can also be used to manage the device. The port runs only at 10GbE speed. |
+| Eth2 | 10Gb | The Eth2 port is used to manage the device and make the web-based UI available outside the data subnet. This port can also be used for data transfer. The connection must either be on the same subnet as the source data or directly connected to the server. The port can run at speeds of either 1Gb or 10Gb. |
+{: caption="Table 3. Describes how {{site.data.keyword.mdms_short}} device ports map to the UI display." caption-side="top"}
 
 To connect the RJ45 / SFP+ device model to your network:
 
@@ -155,11 +145,11 @@ To connect the RJ45 / SFP+ device model to your network:
 
    Replace `<your_Eth2_IP_address>` with the IP address that is configured for the Eth2 network port. To view the IP address, check the _System Control Display_ screen on the device.
 
-   If you need to alter any IP settings for Eth3 or Eth1, see the [Reviewing your network settings](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-connect-device#review-network-settings).
+   If you need to alter any IP settings for Eth3 or Eth1, see the [Reviewing your network settings](/docs/mass-data-migration?topic=mass-data-migration-connect-device#review-network-settings).
    {: tip}
 
 ## Next steps
 {: #set-up-device-next-steps}
 
-- Interact with the device by [running the web-based UI](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-access-ui).
-- To prepare for the data copy process, start by [unlocking the storage pool on the device](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-unlock-storage-pool).
+- Interact with the device by [running the web-based UI](/docs/mass-data-migration?topic=mass-data-migration-access-ui).
+- To prepare for the data copy process, start by [unlocking the storage pool on the device](/docs/mass-data-migration?topic=mass-data-migration-unlock-storage-pool).

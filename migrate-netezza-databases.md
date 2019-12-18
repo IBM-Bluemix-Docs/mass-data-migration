@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-19"
+lastupdated: "2019-12-18"
 
 keywords: migrate Netezza databases, PureData System for Analytics databases, 
 
@@ -19,7 +19,8 @@ subcollection: mass-data-migration
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
-{:download: .download}
+{:preview: .preview}
+{:term: .term}
 
 # Migrating PureData System for Analytics databases to {{site.data.keyword.dashdbshort_notm}}
 {: #migrate-netezza-databases}
@@ -30,13 +31,13 @@ The {{site.data.keyword.mdms_full}} can be used to migrate large IBM PureData™
 ## Determining the database object size
 {: #determine-db-object-size}
 
-1. From [IBM Support > Fix Central > Netezza Tools ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:new_window}, download the appropriate Netezza Tools version that corresponds to your Netezza instance.
+1. From [IBM Support > Fix Central > Netezza Tools](https://www-945.ibm.com/support/fixcentral/options?selectionBean.selectedTab=find&selection=ibm%2fInformation+Management%3bPureData+System+for+Analytics%3bibm%2fInformation+Management%2fNetezza+Tools){:external}, download the appropriate Netezza Tools version that corresponds to your Netezza instance.
 
-   By default, support tools are installed on Netezza server at directory `/nz/support-IBM_Netezza<version>/bin`
+   By default, support tools are installed on Netezza server at directory `/nz/support-IBM_Netezza<version>/bin`.
    {:note}
 
 2. Run the following two commands.
-   - `nz_db_size` to determine the size of the database
+   - `nz_db_size` to determine the size of the database.
 
      ```
      nz_db_size
@@ -111,6 +112,7 @@ You can use two options to extract the data from Netezza.
 
 The data can be reread back on the Netezza by using the `SELECT FROM` statement with the external table `myfile` and a `USING(....)` clause to ensure that the data is correct.
 
-**Additional information**
+## More resources
+{: #more-resources}
 
-More information about PureData System for Analytics, see [IBM Netezza database user documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:new_window}.
+More information about PureData System for Analytics, see [IBM Netezza database user documentation](https://www.ibm.com/support/knowledgecenter/en/SSULQD_7.2.1/com.ibm.nz.dbu.doc/c_dbuser_plg_overview.html){:external}.

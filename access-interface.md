@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-12-18"
 
 keywords: device user interface, access device, log in to device
 
@@ -19,31 +19,28 @@ subcollection: mass-data-migration
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
-{:download: .download}
+{:preview: .preview}
+{:term: .term}
 
-# Accessing the device user interface
+# Logging in to the device
 {: #access-ui}
 
-After you configure the {{site.data.keyword.mdms_full}} device for Ethernet connectivity, you're ready to access the device user interface so you can interact with the device and begin the data migration process.
+After you configure the {{site.data.keyword.mdms_full}} device for Ethernet connectivity, you can access the device user interface.
 {: shortdesc}
 
-## Retrieving your device credentials (beta)
+## Step 1. Retrieve your device credentials
 {: #retrieve-device-credentials}
 
 When you submit a {{site.data.keyword.mdms_short}} request, the service auto-generates credentials on your behalf that you can use to access the local web UI for the device. 
-
-This feature is available as part of the [{{site.data.keyword.mdms_short}} beta release](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-beta). You can also access credentials for your storage device from the _Request Details_ section in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/storage/mdms){: external}.
-{: note}
 
 To retrieve your device credentials:
 
 1. [Log in to the {{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external}.
 2. Go to **Menu** &gt; **Resource List** to view a list of your resources.
 3. From your {{site.data.keyword.cloud_notm}} resource list, select your provisioned instance of {{site.data.keyword.mdms_short}}.
-4. In the _Request details_ tab, navigate to the Credentials section.
-5. Copy the **User name** and **Password** values.
+4. In the _Device credentials_ section, copy the **Username** and **Password** values.
 
-## Logging in to device user interface
+## Step 2. Log in to the device UI
 {: #log-in-ui}
 
 Use the device credentials that you retrieved in the previous step to log in to the local web UI and interact with the {{site.data.keyword.mdms_short}} device.
@@ -59,7 +56,7 @@ Use the device credentials that you retrieved in the previous step to log in to 
 
 2. Log in to the device UI by using the username and password that you retrieved in the previous step. 
 
-   ![Login page](images/login.png)
+   ![Login page](images/log-in-device-ui.png)
    
    The Common Tasks wizard is displayed. Use the options from left to right to begin importing your data.
 
@@ -71,4 +68,4 @@ Use the device credentials that you retrieved in the previous step to log in to 
 ## Next steps
 {: #access-ui-next-steps}
 
-- To prepare for the data ingestion copy, start by [unlocking the storage pool on the device](/docs/infrastructure/mass-data-migration?topic=mass-data-migration-unlock-storage-pool).
+- To prepare for the data copy, start by [unlocking the storage pool on the device](/docs/mass-data-migration?topic=mass-data-migration-unlock-storage-pool).

@@ -6,11 +6,16 @@ IBM Cloud Mass Data Migration
 
     {: .navgroup id="learn"}
     getting-started.md
-    about.md
-    specs.md
+    [Why IBM Cloud Mass Data Migration?](https://www.ibm.com/cloud/mass-data-migration)
 
     {: .topicgroup}
-    Tutorials
+    About the service
+        service-overview.md
+        device-overview.md
+
+    {: .topicgroup}
+    Migration guides
+        move-data.md
         migrate-netezza-databases.md
         [Migrating Veeam workloads](https://www.ibm.com/downloads/cas/1MXNAXM9)
         [Migrating VM workloads](https://developer.ibm.com/recipes/tutorials/cold-migration-of-vmware-guests-via-mdms/)
@@ -23,8 +28,8 @@ IBM Cloud Mass Data Migration
 
     {: .topicgroup}
     Setting up the device
-        device-overview.md
         connect-device.md
+        review-network-settings.md
         access-interface.md
 
     {: .topicgroup}
@@ -35,13 +40,14 @@ IBM Cloud Mass Data Migration
         copy-data.md
         
     return-device.md
-    verify-data.md
+    access-data.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     regions.md
     iam.md
     inventory-checklists.md
+    specs.md
     related-links.md
     {: .navgroup-end}
 

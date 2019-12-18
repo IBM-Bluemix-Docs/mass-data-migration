@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-12-18"
 
 keywords: inventory checklist
 
@@ -19,95 +19,31 @@ subcollection: mass-data-migration
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
-{:download: .download}
+{:preview: .preview}
+{:term: .term}
 
 # Inventory checklists
 {: #inventory-checklists}
 
-## RJ45 Inventory Checklist
+Review the inventory that arrives with your {{site.data.keyword.mdms_full}} device.
+{: shortdesc}
 
-![RJ45 Ports](/images/RJ45Ports.png)
-![Mass Data Migration Device Inventory](/images/MDMDeviceInventory.png)
+{{site.data.keyword.cloud_notm}} provides two [{{site.data.keyword.mdms_short}} device models](/docs/mass-data-migration?topic=mass-data-migration-device-overview#device-models). Each model comes packaged with optics and adapters that support both RJ45 and SFP+ copper connections.
+{: note}
 
+## RJ45 device model
+{: #RJ45-device-intentory}
 
+-	(1) C13 power cord
+-	(2) CAT6A network cables
+-	(2) 10Gb 10BASE-T to SFP+ adapters
+-	Device fuses
 
--	Power Cable in lower-right pouch
+## SFP+ device model
+{: #SFP+-device-intentory}
 
--	2 CAT6A cables in lower-left pouch
-
--	2 10-GB 10BASET to SFP+ adapters in upper-left pouch
-
--	Device fuses in upper-right pouch
-
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</hr>
-</br>
-</hr>    
-</br>
-________________________________________________________________
-
-Signature and Date of Shipper
-
-
-</br>
-</hr>
-</br>
-________________________________________________________________
-
-Signature and Date of Customer
-
-
-
-
-<hr>
-
-## SFP+ Inventory Checklist
-
-![SFP Ports](/images/SFP+Ports.png)
-![Mass Data Migration Device Inventory](/images/MDMDeviceInventory.png)
-
-
--	Power Cable in lower-right pouch
-
--	2 CAT6A cables in lower-left pouch
-
--	1 SFP CBL-NTWK-0456 in lower-left pouch
-
-- 1 x Arista Optic SFP-1G-T in upper-left pouch
-
--	Device fuses in upper-right pouch
-
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</hr>
-</br>
-</hr>    
-</br>
-________________________________________________________________
-
-Signature and Date of Shipper
-
-
-</br>
-</hr>
-</br>
-________________________________________________________________
-
-Signature and Date of Customer
+-	(1) C13 power cord
+-	(2) CAT6A network cables
+-	(1) SFP+ network cable (CBL-NTWK-0456)
+- (1) Arista SFP-1G-T transceiver  
+-	Device fuses 

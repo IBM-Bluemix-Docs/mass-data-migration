@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-12-18"
 
 keywords: release notes, changelog, what's new, service updates, service bulletin
 
@@ -15,29 +15,54 @@ subcollection: mass-data-migration
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 {:external: target="_blank" .external}
+{:gif: data-image-type='gif'}
 {:codeblock: .codeblock}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
-{:download: .download}
+{:preview: .preview}
+{:term: .term}
 
 # What's new
 {: #releases}
 
-Stay up-to-date with the new features that are available for {{site.data.keyword.mdms_full}}. 
+Stay up to date with the new features that are available for {{site.data.keyword.mdms_full}}. 
 {: shortdesc}
 
-## {{site.data.keyword.mdms_short}} beta
+## December 2019
+{: #dec-2019}
+
+We revamped the {{site.data.keyword.mdms_short}} ordering experience so you can start your data transfer journey from the {{site.data.keyword.cloud_notm}} console. 
+
+### Requesting a {{site.data.keyword.mdms_short}} device
+{: #changed-order-form}
+New as of: 2019-12-18
+
+You can now request {{site.data.keyword.mdms_short}} devices from the {{site.data.keyword.cloud_notm}} catalog using a simplified order form.
+
+![New Mass Data Migration experience GIF](images/order-mdms.gif){: gif}
+
+This experience replaces the previous order flow that is available in the {{site.data.keyword.slportal}}. To learn more about ordering a {{site.data.keyword.mdms_short}}, check out the [Getting started tutorial](/docs/services/mass-data-migration?topic=mass-data-migration-getting-started-tutorial).
+
+## July 2019
+{: #jul-2019}
+
+With {{site.data.keyword.mdms_short}}, you can now participate in a beta program to try upcoming features, give feedback, and help to improve the service. 
+
+The beta period closes on 18 December 2019.
+{: note}
+
+### {{site.data.keyword.mdms_short}} beta
 {: #beta}
 
-With {{site.data.keyword.mdms_short}}, you can now participate in a beta program to try upcoming features, give feedback, and help to improve the service. The following features are available in the {{site.data.keyword.mdms_short}} beta release:
+The following features are available in the {{site.data.keyword.mdms_short}} beta release:
 
-- Request a {{site.data.keyword.mdms_short}} device from the {{site.data.keyword.cloud_notm}} catalog
-- Manage access permissions to {{site.data.keyword.mdms_short}} orders with Cloud Identity and Access Management
-- Track the progress of a {{site.data.keyword.mdms_short}} order by using an improved user interface 
-- Access device credentials by using an improved user interface
+- Request a {{site.data.keyword.mdms_short}} device from the {{site.data.keyword.cloud_notm}} catalog.
+- Manage access permissions to {{site.data.keyword.mdms_short}} orders with Cloud Identity and Access Management.
+- Track the progress of a {{site.data.keyword.mdms_short}} order by using an improved user interface.
+- Access device credentials by using an improved user interface.
 
-## Getting access to beta
+### Getting access to beta
 {: #get-beta-access}
 
 If you're interested in participating in the beta program, send an email from your company email account to the {{site.data.keyword.mdms_short}} Offering Manager at [katie.morgan@ibm.com](mailto:katie.morgan@ibm.com){: external}. In the email, mention that you're interested in the {{site.data.keyword.mdms_short}} beta, and include your use case and your {{site.data.keyword.cloud_notm}} account ID.

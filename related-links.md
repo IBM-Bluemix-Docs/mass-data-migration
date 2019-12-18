@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-12-18"
 
 keywords: related links, blogs, sample apps, SLA, service level agreement
 
@@ -18,22 +18,18 @@ subcollection: mass-data-migration
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
-{:important: .important}
+{:preview: .preview}
+{:term: .term}
 
 # Related links
 {: #related-links}
 
-Additional resources to help you learn about moving data into the cloud with {{site.data.keyword.mdms_full}}.
-
-## Samples and recipes
-{: #samples}
-
-- [Recipe: Moving data from COS to File or Block Storage](https://developer.ibm.com/recipes/tutorials/moving-data-from-cos-to-file-or-block-storage/){: external}
+More resources to help you learn about moving data into the cloud with {{site.data.keyword.mdms_full}}.
 
 ## Blogs and videos
 {: #blogs}
 
-- [Video: {{site.data.keyword.mdms_short}} provides a fast, simple and secure way to transfer data to the {{site.data.keyword.cloud_notm}}](https://www.youtube.com/watch?v=eNSlUoswvss){: external}
+- [Video: {{site.data.keyword.mdms_short}} provides a fast, simple, and secure way to transfer data to the {{site.data.keyword.cloud_notm}}](https://www.youtube.com/watch?v=eNSlUoswvss){: external}
 
 ## Service terms
 {: #service-terms}
