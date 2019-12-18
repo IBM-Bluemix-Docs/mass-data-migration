@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-12-11"
+lastupdated: "2019-12-18"
 
 keywords: device models, device ports, network settings, configure network  
 

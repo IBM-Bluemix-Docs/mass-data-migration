@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-12-11"
+lastupdated: "2019-12-18"
 
 keywords: verify data, access data, Cloud Object Storage, move data to Block Storage, move data to File Storage
 

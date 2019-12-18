@@ -2,7 +2,7 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-12-11"
+lastupdated: "2019-12-18"
 
 keywords: device user interface, access device, log in to device
 

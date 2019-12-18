@@ -2,9 +2,9 @@
 
 copyright:
   years:  2019
-lastupdated: "2019-12-11"
+lastupdated: "2019-12-18"
 
-keywords: 
+keywords: move data from COS, move data to File Storage, move data to Block Storage
 
 subcollection: mass-data-migration
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-12-11"
+lastupdated: "2019-12-18"
 
 keywords: release notes, changelog, what's new, service updates, service bulletin
 
@@ -26,17 +26,17 @@ subcollection: mass-data-migration
 # What's new
 {: #releases}
 
-Stay up-to-date with the new features that are available for {{site.data.keyword.mdms_full}}. 
+Stay up to date with the new features that are available for {{site.data.keyword.mdms_full}}. 
 {: shortdesc}
 
 ## December 2019
 {: #dec-2019}
 
-We've revamped the {{site.data.keyword.mdms_short}} ordering experience so you can start your data transfer journey from the {{site.data.keyword.cloud_notm}} console. 
+We revamped the {{site.data.keyword.mdms_short}} ordering experience so you can start your data transfer journey from the {{site.data.keyword.cloud_notm}} console. 
 
 ### Requesting a {{site.data.keyword.mdms_short}} device
 {: #changed-order-form}
-New as of: 2019-12-15
+New as of: 2019-12-18
 
 You can now request {{site.data.keyword.mdms_short}} devices from the {{site.data.keyword.cloud_notm}} catalog using a simplified order form.
 
@@ -57,10 +57,10 @@ The beta period closes on 15 December 2019.
 
 The following features are available in the {{site.data.keyword.mdms_short}} beta release:
 
-- Request a {{site.data.keyword.mdms_short}} device from the {{site.data.keyword.cloud_notm}} catalog
-- Manage access permissions to {{site.data.keyword.mdms_short}} orders with Cloud Identity and Access Management
-- Track the progress of a {{site.data.keyword.mdms_short}} order by using an improved user interface 
-- Access device credentials by using an improved user interface
+- Request a {{site.data.keyword.mdms_short}} device from the {{site.data.keyword.cloud_notm}} catalog.
+- Manage access permissions to {{site.data.keyword.mdms_short}} orders with Cloud Identity and Access Management.
+- Track the progress of a {{site.data.keyword.mdms_short}} order by using an improved user interface.
+- Access device credentials by using an improved user interface.
 
 ### Getting access to beta
 {: #get-beta-access}

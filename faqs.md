@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-12-11"
+lastupdated: "2019-12-18"
 
-keywords:
+keywords: how much data can I transfer, how long does it take, supported offload destinations, shipping, pricing
 
 subcollection: mass-data-migration
 
