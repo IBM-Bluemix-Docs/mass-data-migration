@@ -42,7 +42,7 @@ You can now request {{site.data.keyword.mdms_short}} devices from the {{site.dat
 
 ![New Mass Data Migration experience GIF](images/order-mdms.gif){: gif}
 
-This experience replaces the previous order flow that is available in the {{site.data.keyword.slportal}}. To learn more about ordering a {{site.data.keyword.mdms_short}}, check out the [Getting started tutorial](/docs/services/mass-data-migration?topic=mass-data-migration-getting-started-tutorial).
+This experience replaces the previous order flow that is available in the {{site.data.keyword.slportal}}. To learn more about ordering a {{site.data.keyword.mdms_short}} device, check out the [Getting started tutorial](/docs/services/mass-data-migration?topic=mass-data-migration-getting-started-tutorial).
 
 ## July 2019
 {: #jul-2019}
