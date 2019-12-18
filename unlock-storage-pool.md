@@ -29,7 +29,7 @@ You can copy data onto the {{site.data.keyword.mdms_full}} device by first unloc
 ## Retrieving your storage pool passphrase
 {: #retrieve-storage-pool-passcode}
 
-To access the storage pool on the {{site.data.keyword.mdms_short}} device, retrieve your device credentials by navigating to the {{site.data.keyword.mdms_short}} request details in the {{site.data.keyword.cloud_notm}} console.
+To access the storage pool on the {{site.data.keyword.mdms_short}} device, retrieve your device credentials by navigating to the {{site.data.keyword.mdms_short}} dashboard in the {{site.data.keyword.cloud_notm}} console.
 
 To retrieve your storage pool passphrase:
 
