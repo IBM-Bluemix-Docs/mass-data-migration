@@ -75,7 +75,7 @@ After you create the support case, allow at least three business days for IBM to
 5. From the list of offerings, filter for **Mass Data Migration**.
 6. From the list of resources, select the name of your order.
 7. In the _Subject_ field, type _Request return shipment_.
-8. In the _Description_ text box, add any additional notes you might want to provide to the team.
+8. In the _Description_ text box, add additional notes that you want to provide to the team.
 9. Click **Submit**.
 
     After you submit the support case, a {{site.data.keyword.mdms_short}} team member will contact you with further shipping instructions.
