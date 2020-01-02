@@ -239,7 +239,7 @@ The list of tuning considerations includes and is not limited to:
 - Using TCP delayed acknowledgement (ACK)
 - Enabling SMB configuration options that are specific to your implementation, data set, and network capacity
 
-## Can I use the `no_root_squash` configuration option?
+## Can I mount a NFS share with `no_root_squash` enabled?
 {: #no-root-squash-option}
 {: faq}
 
