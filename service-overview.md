@@ -68,7 +68,7 @@ Ready to set up your device? Use the following checklist to complete your data t
 4. [Mount the network share](/docs/mass-data-migration?topic=mass-data-migration-connect-nfs-share)
 5. [Copy data to the device](/docs/mass-data-migration?topic=mass-data-migration-copy-data)
 6. [Return the device](/docs/mass-data-migration?topic=mass-data-migration-return-device)  
-7. [Access your data](/docs/mass-data-migration?topic=mass-data-migration-verify-data)
+7. [Access your data](/docs/mass-data-migration?topic=mass-data-migration-access-data)
 
 
 
