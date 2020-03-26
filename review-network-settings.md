@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2019
-lastupdated: "2019-12-18"
+  years: 2017, 2020
+lastupdated: "2020-03-26"
 
 keywords: change IP address, update IP address, configure IP address, verify IP address
 

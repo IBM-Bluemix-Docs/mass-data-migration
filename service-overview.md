@@ -52,9 +52,9 @@ You can compare your data migration options on {{site.data.keyword.cloud_notm}} 
    <dt>{{site.data.keyword.mdms_short}} dashboard</dt>
       <dd>You can create and track {{site.data.keyword.mdms_short}} orders from the service dashboard in the {{site.data.keyword.cloud_notm}} console. In the <a href="http://{DomainName}/mdms" target="_blank">{{site.data.keyword.mdms_short}} catalog page</a>, you specify your network configuration settings for the device, retrieve credentials to log in to the device, and track the status of your order. </dd>
    <dt>{{site.data.keyword.mdms_short}} device</dt>
-      <dd>{{site.data.keyword.mdms_short}} provides a <a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview">portable storage device</a> that is shipped to your location. The {{site.data.keyword.mdms_short}} device arrives pre-configured and ready to connect to your network.</dd>
+      <dd>{{site.data.keyword.mdms_short}} provides a <a href="/docs/mass-data-migration?topic=mass-data-migration-device-overview">portable storage device</a> that is shipped to your location. The {{site.data.keyword.mdms_short}} device arrives pre-configured and ready to connect to your network.</dd>
    <dt>Device user interface</dt>
-      <dd>The <a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-access-ui">device user interface</a> is a local, web-based UI that you use to access the network share on the {{site.data.keyword.mdms_short}} device. The UI is based on a mature file and network software that enables large numbers of large files to be copied and transported to {{site.data.keyword.cloud_notm}}.</dd>
+      <dd>The <a href="/docs/mass-data-migration?topic=mass-data-migration-access-ui">device user interface</a> is a local, web-based UI that you use to access the network share on the {{site.data.keyword.mdms_short}} device. The UI is based on a mature file and network software that enables large numbers of large files to be copied and transported to {{site.data.keyword.cloud_notm}}.</dd>
 </dl>
 
 ## Your workflow

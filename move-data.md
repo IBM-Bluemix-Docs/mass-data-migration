@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2019
-lastupdated: "2019-12-18"
+  years: 2019, 2020
+lastupdated: "2020-03-26"
 
 keywords: move data from COS, move data to File Storage, move data to Block Storage
 
@@ -83,7 +83,7 @@ For information about configuring `s3cmd` to access Cloud Object Storage, see [U
 ## Using Cyberduck
 {: #using-cyberduck}
 
-With [Cyberduck](https://cyberduck.io/){: external}, you can connect to a Cloud Object Storage bucket and browse it by using a graphical user interface. You can download and sync between the bucket and local file systems using the GUI.
+With [Cyberduck](https://github.com/iterate-ch/cyberduck){: external}, you can connect to a Cloud Object Storage bucket and browse it by using a graphical user interface. You can download and sync between the bucket and local file systems using the GUI.
 
 For more information about using Cyberduck with Cloud Object Storage, see [Transfer files with Cyberduck](/docs/cloud-object-storage?topic=cloud-object-storage-cyberduck#cyberduck).
 
