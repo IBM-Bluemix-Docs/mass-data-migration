@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-12-18"
+  years: 2017, 2020
+lastupdated: "2020-03-26"
 
 keywords: release notes, changelog, what's new, service updates, service bulletin
 
@@ -65,7 +65,7 @@ The following features are available in the {{site.data.keyword.mdms_short}} bet
 ### Getting access to beta
 {: #get-beta-access}
 
-If you're interested in participating in the beta program, send an email from your company email account to the {{site.data.keyword.mdms_short}} Offering Manager at [katie.morgan@ibm.com](mailto:katie.morgan@ibm.com){: external}. In the email, mention that you're interested in the {{site.data.keyword.mdms_short}} beta, and include your use case and your {{site.data.keyword.cloud_notm}} account ID.
+If you're interested in participating in the beta program, contact your IBM Client Representative. Mention that you're interested in the {{site.data.keyword.mdms_short}} beta, and include your use case and your {{site.data.keyword.cloud_notm}} account ID.
 
 Beta features can change at any time and might not provide the same level of performance or compatibility that generally available features provide. Beta features are supported only on [IBM Developer Answers](https://developer.ibm.com){: external}.
 {: important}

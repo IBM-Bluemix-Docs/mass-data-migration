@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-12-18"
+  years: 2017, 2020
+lastupdated: "2020-03-26"
 
 keywords: how much data can I transfer, how long does it take, supported offload destinations, shipping, pricing
 

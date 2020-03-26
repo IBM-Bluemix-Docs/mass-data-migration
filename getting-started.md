@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-12-18"
+  years: 2017, 2020
+lastupdated: "2020-03-26"
 
 keywords: get started tutorial, data transfer, data migration, transfer data to cloud, migrate data, migrate data to cloud, Mass Data Migration
 
@@ -94,7 +94,7 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
         <td>Choose a configuration option</td>
         <td>
           <p>Choose from two options for configuring the device. You can pre-configure the device by entering your network configuration details.</p>
-          <p>For the first option, provide the following <a href="/docs/infrastructure/mass-data-migration?topic=mass-data-migration-device-overview#network-settings">network settings</a>:</p>
+          <p>For the first option, provide the following <a href="/docs/mass-data-migration?topic=mass-data-migration-device-overview#network-settings">network settings</a>:</p>
           <p>
             <ul>
               <li>1Gb Device management settings. Enter the static IP address, the subnet mask, and the default gateway for your remote computer.</li>
