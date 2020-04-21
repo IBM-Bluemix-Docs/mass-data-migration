@@ -1,30 +1,47 @@
-{: #ha-dr}
+
 
 Mass Data Migration Service helps customer move their data into IBM Cloud. It is customer's responsibility to verify data in IBM Cloud before erasing it from their location. Mass Data Migration team has documented steps for Diaster Recover and Business Continuity.
-2.1 Data Center Based Disasters
-2.1.1 IBM SoftLayer Data Center Outage – Device containing no customer data at data center
+
+# Data Center Based Disasters
+## IBM SoftLayer Data Center Outage – Device containing no customer data at data center
+
 If the device is at the IBM SoftLayer Data Center and it contains no customer data at the time of the outage no action is needed. However, if the outage is long term and there is an alternate, MDMS-enabled IBM SoftLayer Data Center available in country, the MDMS team may work with the data center staff to relocate the device to backup data center.
 
-Note: The MDMS Team is working on expanding the list of available data centers.
 
-2.1.2 IBM SoftLayer Data Center Outage – Device containing customer data at data center
+## IBM SoftLayer Data Center Outage – Device containing customer data at data center
 If the device is at the IBM SoftLayer Data Center and it contains customer data at the time of the outage the following procedures are invoked:
 
 Determine if customer notification is needed based on estimated outage duration.
-If the outage is expected to be short term and the device is in the middle of an offload, restart the offload when the outage is resolved and notify the customer that the offload has resumed.
-If the outage is expected to be long term, work with the customer to determine the best option: a. Hold the device and offload when the outage is resolved b. If another MDMS-enabled IBM SoftLayer Data Center is available in country, ship a new device to the customer from the alternate data center and wipe the customer data from the original device as soon as possible. c. Ship the device to an alternative, MDMS-enabled IBM SoftLayer Data Center for offload. d. Wipe the customer data from the device.
-2.1.3 IBM SoftLayer Data Center Outage – Device in transit from the IBM SoftLayer Data Center to the customer
+* If the outage is expected to be short term and the device is in the middle of an offload, restart the offload when the outage is resolved and notify the customer that the offload has resumed.
+* If the outage is expected to be long term, work with the customer to determine the best option: 
+** a. Hold the device and offload when the outage is resolved 
+** b. If another MDMS-enabled IBM SoftLayer Data Center is available in country, ship a new device to the customer from the alternate data center and wipe the customer data from the original device as soon as possible. 
+** c. Ship the device to an alternative, MDMS-enabled IBM SoftLayer Data Center for offload. d. Wipe the customer data from the device.
+
+## IBM SoftLayer Data Center Outage – Device in transit from the IBM SoftLayer Data Center to the customer
 If the device is in transit and has not yet been received at the customer data center at the time of the outage, the following procedures are invoked:
 
 If the IBM SoftLayer Data Center outage is resolved prior to the device arriving at the customer data center, no action is needed.
-If the device arrives at the customer data center before the IBM SoftLayer Data Center outage is resolved, the following procedures are invoked: a. Immediately notify the customer of the outage and request them to hold the device until further instructions are provided. b. If the outage is short term and is resolved before the customer is ready to return the device, notify the customer that the outage is resolved and that they may return the device using the original shipping label. c. If the outage is long term and the device is expected to be ready for return prior to resolution of the outage, if there is an alternate IBM SoftLayer Data Center that the device can be shipped to for offload, the following procedures are invoked: i. Generate a new ship label and send it to the customer. ii. Notify the customer that a new ship label is in transit and request them to destroy the old ship label and use the new one to return the device. d. If the outage is long term, the device is expected to be ready for return prior to resolution of the outage, and there is NOT an alternate IBM SoftLayer Data Center that the device can be shipped to for offload, the following procedures are invoked: i. Notify the customer that the outage is long term and that timely offload of the device is not possible. ii. Work with the customer to determine the best solution that will meet the customer requirements.
-2.1.4 IBM SoftLayer Data Center Outage – Device in transit from the customer to the IBM SoftLayer Data Center
+
+If the device arrives at the customer data center before the IBM SoftLayer Data Center outage is resolved, the following procedures are invoked: 
+* a. Immediately notify the customer of the outage and request them to hold the device until further instructions are provided.
+* b. If the outage is short term and is resolved before the customer is ready to return the device, notify the customer that the outage is resolved and that they may return the device using the original shipping label. 
+* c. If the outage is long term and the device is expected to be ready for return prior to resolution of the outage, if there is an alternate IBM SoftLayer Data Center that the device can be shipped to for offload, the following procedures are invoked: ** i. Generate a new ship label and send it to the customer. 
+** ii. Notify the customer that a new ship label is in transit and request them to destroy the old ship label and use the new one to return the device. 
+* d. If the outage is long term, the device is expected to be ready for return prior to resolution of the outage, and there is NOT an alternate IBM SoftLayer Data Center that the device can be shipped to for offload, the following procedures are invoked: i. Notify the customer that the outage is long term and that timely offload of the device is not possible. ii. Work with the customer to determine the best solution that will meet the customer requirements.
+
+## IBM SoftLayer Data Center Outage – Device in transit from the customer to the IBM SoftLayer Data Center
 If the device is in transit from the customer data center to the IBM SoftLayer data Center and it contains customer data at the time of the outage the following procedures are invoked:
 
 If the outage is expected to be short term and the outage is resolved before the device arrives at the data center no action is needed.
+
 If the outage is expected to be short term and the outage is not resolved before the device arrives at the data center, notify the customer of the outage if it will affect the timing of the offload and update the customer when the outage is resolved.
-If the outage is expected to be long term the following procedures are invoked: a. Immediately notify the customer of the outage b. Work with the customer and the shipper to determine the best course of action: i. Return the device to customer to hold until the outage is resolved. ii. Ship to a new IBM SoftLayer Data Center for offload.
-2.1.5 IBM SoftLayer Data Center Outage – Device at Customer Data Center
+If the outage is expected to be long term the following procedures are invoked: 
+* a. Immediately notify the customer of the outage b. Work with the customer and the shipper to determine the best course of action: 
+** i. Return the device to customer to hold until the outage is resolved. 
+** ii. Ship to a new IBM SoftLayer Data Center for offload.
+
+## IBM SoftLayer Data Center Outage – Device at Customer Data Center
 If the device is at the customer data center at the time of the outage the following procedures are invoked:
 
 Immediately notify the customer of the outage and request them to hold the device until further instructions are provided.
