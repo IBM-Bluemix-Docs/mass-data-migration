@@ -28,6 +28,12 @@ subcollection: mass-data-migration
 Learn about availability and disaster recovery scenarios when using {{site.data.keyword.mdms_full}}.
 {: shortdesc}
 
+## Disaster prevention procedures
+In the event of a potential disaster at one of our data centers, where we are given advanced warning, the following procedures are invoked in an effort to protect the devices from harm:
+
+If the device contains customer data for offload, notify the customer that the offload will be delayed.
+Shutdown the devices and lock them in their cases. The devices are designed to withstand shock and water when locked in the case.
+
 ## Data center-based disasters
 {: #data-center-disasters}
 ### {{site.data.keyword.cloud_notm}} data center outage: Device on-site does not contain customer data
@@ -84,12 +90,6 @@ Immediately notify the customer of the outage and request them to hold the devic
 * If the outage is short term and is resolved before the customer is ready to return the device notify the customer that the outage is resolved and that they may return the device using the original shipping label.
 * If the outage is long term, the device is expected to be ready for return prior to resolution of the outage, and there is an alternate IBM SoftLayer Data Center that the device can be shipped to for offload, the following procedures are invoked: a. Generate a new ship label and send it to the customer. b. Notify the customer that a new ship label is in transit and request them to destroy the old ship label and use the new one to return the device.
 * If the outage is long term, the device is expected to be ready for return prior to resolution of the outage, and there is not an alternate {{site.data.keyword.cloud_notm}} data center that the device can be shipped to for offload, the following procedures are invoked: a. Notify the customer that the outage is long term and that timely offload of the device is not possible. b. Work with the customer to determine the best solution that will meet the customer requirements.
-
-## Disaster Prevention Procedures
-In the event of a potential disaster at one of our data centers, where we are given advanced warning, the following procedures are invoked in an effort to protect the devices from harm:
-
-If the device contains customer data for offload, notify the customer that the offload will be delayed.
-Shutdown the devices and lock them in their cases. The devices are designed to withstand shock and water when locked in the case.
 
 ## {{site.data.keyword.mdms_short}} device disasters
 {: #device-disasters}
