@@ -28,7 +28,8 @@ subcollection: mass-data-migration
 Mass Data Migration Service helps customer move their data into IBM Cloud. It is the customer's responsibility to verify data in IBM Cloud before erasing it from their location. The Mass Data Migration team has documented steps for Disaster Recovery and Business Continuity.
 {: shortdesc}
 
-# Data Center Based Disasters
+## Data center-based disasters
+{: #data-center-disasters}
 ## IBM SoftLayer Data Center Outage – Device containing no customer data at data center
 
 If the device is at the IBM SoftLayer Data Center and it contains no customer data at the time of the outage no action is needed. However, if the outage is long term and there is an alternate, MDMS-enabled IBM SoftLayer Data Center available in country, the MDMS team may work with the data center staff to relocate the device to backup data center.
