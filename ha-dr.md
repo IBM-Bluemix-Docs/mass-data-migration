@@ -1,6 +1,32 @@
+---
 
+copyright:
+  years: 2017, 2020
+lastupdated: "2020-04-21"
+
+keywords: diaster recovery, business continuity, bcdr, HA for Mass Data Migration, DR for Mass Data Migration, high availability for Mass Data Migration, disaster recovery for Mass Data Migration, failover for Mass Data Migration
+
+subcollection: mass-data-migration
+
+---
+
+{:shortdesc: .shortdesc}
+{:screen: .screen}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
+{:codeblock: .codeblock}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
+{:preview: .preview}
+{:term: .term}
+
+# Understanding high availability and disaster recovery for Mass Data Migration
+{: #ha-dr}
 
 Mass Data Migration Service helps customer move their data into IBM Cloud. It is customer's responsibility to verify data in IBM Cloud before erasing it from their location. Mass Data Migration team has documented steps for Diaster Recover and Business Continuity.
+{: shortdesc}
 
 # Data Center Based Disasters
 ## IBM SoftLayer Data Center Outage – Device containing no customer data at data center
