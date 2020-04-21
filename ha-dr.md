@@ -29,6 +29,7 @@ Learn about availability and disaster recovery scenarios when using {{site.data.
 {: shortdesc}
 
 ## Disaster prevention procedures
+{: #disaster-prevention-procedures}
 In the event of a potential disaster at one of our data centers, where we are given advanced warning, the following procedures are invoked in an effort to protect the devices from harm:
 
 If the device contains customer data for offload, notify the customer that the offload will be delayed.
