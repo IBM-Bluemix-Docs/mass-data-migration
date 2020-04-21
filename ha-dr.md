@@ -25,7 +25,7 @@ subcollection: mass-data-migration
 # Understanding high availability and disaster recovery for {{site.data.keyword.mdms_short}}
 {: #ha-dr}
 
-Mass Data Migration Service helps customer move their data into IBM Cloud. It is the customer's responsibility to verify data in IBM Cloud before erasing it from their location. The Mass Data Migration team has documented steps for Disaster Recovery and Business Continuity.
+Learn about availability and disaster recovery scenarios when using {{site.data.keyword.mdms_full}}.
 {: shortdesc}
 
 ## Data center-based disasters
