@@ -108,9 +108,9 @@ The {{site.data.keyword.mdms_short}} team will work with the {{site.data.keyword
 
 ### Device is damaged in transit to customer
  {: #device-damaged-in-transit-to-customer}
-If a customer receives a damaged device prior to accepting the shipment, the customer may refuse to sign for it and request the shipping vendor return the device to IBM. The {{site.data.keyword.mdms_short}} team will ship a new device to the customer free of charge as soon as another device is available.
+If you receive a damaged device prior to accepting the shipment, you may refuse to sign for it and request the shipping vendor return the device to IBM. The {{site.data.keyword.mdms_short}} team will ship a new device to the customer free of charge as soon as another device is available.
 
-If the customer notices that the device is damaged after accepting the shipment, the {{site.data.keyword.mdms_short}} team will instruct the customer to ship the damaged device back to IBM using the provided return shipping label. The {{site.data.keyword.mdms_short}} team will ship a new device to the customer free of charge as soon as another device is available.
+If the you notice that the device is damaged after accepting the shipment, the {{site.data.keyword.mdms_short}} team will instruct you to ship the damaged device back to IBM using the provided return shipping label. The {{site.data.keyword.mdms_short}} team will ship a new device to you free of charge as soon as another device is available.
 
 ### Device is damaged in transit to IBM
  {: #device-damaged-in-transit-to-IBM}
