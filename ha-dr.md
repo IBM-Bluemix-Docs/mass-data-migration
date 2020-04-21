@@ -33,7 +33,7 @@ Learn about availability and disaster recovery scenarios when using {{site.data.
 ### {{site.data.keyword.cloud_notm}} data center outage: Device on-site does not contain customer data
 {: #data-center-outage-device-onsite-no-data}
 
-If the device is at the IBM SoftLayer Data Center and it contains no customer data at the time of the outage no action is needed. However, if the outage is long term and there is an alternate, MDMS-enabled IBM SoftLayer Data Center available in country, the MDMS team may work with the data center staff to relocate the device to backup data center.
+If the device is at an {{site.data.keyword.cloud_notm}} data center and it does not contain customer data at the time of the outage, no action is needed. However, if the outage is long term and there is an alternate, {{site.data.keyword.mdms_short}}-enabled data center that is available in country, the {{site.data.keyword.mdms_short}} team may work with the data center staff to relocate the device to the backup data center.
 
 
 ## IBM SoftLayer Data Center Outage – Device containing customer data at data center
