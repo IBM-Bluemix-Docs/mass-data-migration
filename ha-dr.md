@@ -101,7 +101,7 @@ The MDMS team will work with the IBM SoftLayer Logistics team to recover the mis
 
 ### Device is damaged in transit to customer
  {: #device-damaged-in-transit-to-customer}
-If a customer receives a damaged device prior to accepting the shipment, the customer may refuse to sign for it and request the shipping vendor return the device to IBM. The MDMS team will ship a new device to the customer free of charge as soon as another device is available.
+If a customer receives a damaged device prior to accepting the shipment, the customer may refuse to sign for it and request the shipping vendor return the device to IBM. The {{site.data.keyword.mdms_short}} team will ship a new device to the customer free of charge as soon as another device is available.
 
 If the customer notices that the device is damaged after accepting the shipment, the MDMS team will instruct the customer to ship the damaged device back to IBM using the provided return shipping label. The MDMS team will ship a new device to the customer free of charge as soon as another device is available.
 
