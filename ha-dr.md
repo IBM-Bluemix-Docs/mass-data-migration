@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2020
 lastupdated: "2020-04-21"
 
-keywords: diaster recovery, business continuity, bcdr, HA for Mass Data Migration, DR for Mass Data Migration, high availability for Mass Data Migration, disaster recovery for Mass Data Migration, failover for Mass Data Migration
+keywords: disaster recovery, business continuity, bcdr, HA for Mass Data Migration, DR for Mass Data Migration, high availability for Mass Data Migration, disaster recovery for Mass Data Migration, failover for Mass Data Migration
 
 subcollection: mass-data-migration
 
@@ -25,7 +25,7 @@ subcollection: mass-data-migration
 # Understanding high availability and disaster recovery for Mass Data Migration
 {: #ha-dr}
 
-Mass Data Migration Service helps customer move their data into IBM Cloud. It is customer's responsibility to verify data in IBM Cloud before erasing it from their location. Mass Data Migration team has documented steps for Diaster Recover and Business Continuity.
+Mass Data Migration Service helps customer move their data into IBM Cloud. It is the customer's responsibility to verify data in IBM Cloud before erasing it from their location. The Mass Data Migration team has documented steps for Disaster Recovery and Business Continuity.
 {: shortdesc}
 
 # Data Center Based Disasters
@@ -42,7 +42,8 @@ Determine if customer notification is needed based on estimated outage duration.
 * If the outage is expected to be long term, work with the customer to determine the best option: 
 * * Hold the device and offload when the outage is resolved 
 * * If another MDMS-enabled IBM SoftLayer Data Center is available in country, ship a new device to the customer from the alternate data center and wipe the customer data from the original device as soon as possible. 
-* * Ship the device to an alternative, MDMS-enabled IBM SoftLayer Data Center for offload. d. Wipe the customer data from the device.
+* * Ship the device to an alternative, MDMS-enabled IBM SoftLayer Data Center for offload. 
+* * Wipe the customer data from the device.
 
 ## IBM SoftLayer Data Center Outage – Device in transit from the IBM SoftLayer Data Center to the customer
 If the device is in transit and has not yet been received at the customer data center at the time of the outage, the following procedures are invoked:
