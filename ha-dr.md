@@ -14,9 +14,9 @@ If the device is at the IBM SoftLayer Data Center and it contains customer data 
 Determine if customer notification is needed based on estimated outage duration.
 * If the outage is expected to be short term and the device is in the middle of an offload, restart the offload when the outage is resolved and notify the customer that the offload has resumed.
 * If the outage is expected to be long term, work with the customer to determine the best option: 
-** a. Hold the device and offload when the outage is resolved 
-** b. If another MDMS-enabled IBM SoftLayer Data Center is available in country, ship a new device to the customer from the alternate data center and wipe the customer data from the original device as soon as possible. 
-** c. Ship the device to an alternative, MDMS-enabled IBM SoftLayer Data Center for offload. d. Wipe the customer data from the device.
+* * a. Hold the device and offload when the outage is resolved 
+* * b. If another MDMS-enabled IBM SoftLayer Data Center is available in country, ship a new device to the customer from the alternate data center and wipe the customer data from the original device as soon as possible. 
+* * c. Ship the device to an alternative, MDMS-enabled IBM SoftLayer Data Center for offload. d. Wipe the customer data from the device.
 
 ## IBM SoftLayer Data Center Outage – Device in transit from the IBM SoftLayer Data Center to the customer
 If the device is in transit and has not yet been received at the customer data center at the time of the outage, the following procedures are invoked:
