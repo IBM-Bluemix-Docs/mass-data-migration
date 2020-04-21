@@ -105,5 +105,6 @@ If a customer receives a damaged device prior to accepting the shipment, the cus
 
 If the customer notices that the device is damaged after accepting the shipment, the {{site.data.keyword.mdms_short}} team will instruct the customer to ship the damaged device back to IBM using the provided return shipping label. The {{site.data.keyword.mdms_short}} team will ship a new device to the customer free of charge as soon as another device is available.
 
-## MDMS Device is Damaged during Transit from the Customer to the IBM SoftLayer Data Center
+### Device is damaged in transit to IBM
+ {: #device-damaged-in-transit-to-IBM}
 If an IBM SoftLayer Data Center receives a damaged device, data center staff will notify the MDMS team. Basic troubleshooting procedures will be performed to determine the extent of the damage. If it appears the data is unrecoverable from device, the MDMS team will notify customer and work with them to determine best course of action. IBM will try to salvage hard drives by formatting them. If hard drives are beyond salvageable, then they will be destroyed.
