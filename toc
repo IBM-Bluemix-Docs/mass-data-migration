@@ -41,6 +41,7 @@ Mass Data Migration
         
     return-device.md
     access-data.md
+    ha-dr.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
