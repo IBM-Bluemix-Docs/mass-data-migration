@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-12-18"
+  years: 2017, 2020
+lastupdated: "2020-02-28"
 
 keywords: data transfer, data migration, transfer data to cloud, migrate data, migrate data to cloud, Mass Data Migration
 
