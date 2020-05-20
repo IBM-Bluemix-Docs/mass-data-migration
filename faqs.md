@@ -238,3 +238,11 @@ The list of tuning considerations includes and is not limited to:
 - Determining a network sizing strategy
 - Using TCP delayed acknowledgement (ACK)
 - Enabling SMB configuration options that are specific to your implementation, data set, and network capacity
+
+## Can I mount a NFS share with `no_root_squash` enabled?
+{: #no-root-squash-option}
+{: faq}
+
+For security reasons, the `no_root_squash` option is disabled for NFS server configuration. The root user on any client host automatically gets a user identifer (UID) or group identifer (GID) that is equal to the `nfsnobody` user written to the file system. Files cannot be created on the NFS server as being owned by root.
+
+All files written to an NFS share by a root user on a client host will have their files written to the NFS server as user `nfsnobody`.
