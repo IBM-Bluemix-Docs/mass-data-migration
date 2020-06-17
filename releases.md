@@ -26,13 +26,13 @@ subcollection: mass-data-migration
 # What's new
 {: #releases}
 
-Stay up to date with the new features that are available for {{site.data.keyword.mdms_full}}. 
+Stay up to date with the new features that are available for {{site.data.keyword.mdms_full}}.
 {: shortdesc}
 
 ## December 2019
 {: #dec-2019}
 
-We revamped the {{site.data.keyword.mdms_short}} ordering experience so you can start your data transfer journey from the {{site.data.keyword.cloud_notm}} console. 
+We revamped the {{site.data.keyword.mdms_short}} ordering experience so you can start your data transfer journey from the {{site.data.keyword.cloud_notm}} console.
 
 ### Requesting a {{site.data.keyword.mdms_short}} device
 {: #changed-order-form}
@@ -42,12 +42,14 @@ You can now request {{site.data.keyword.mdms_short}} devices from the {{site.dat
 
 ![New Mass Data Migration experience GIF](images/order-mdms.gif){: gif}
 
+As shown in the above animation, you can get to the simplified order form by selecting the Storage category under the catalog, and then selecting the {{site.data.keyword.mdms_short}} tile.  
+
 This experience replaces the previous order flow that is available in the {{site.data.keyword.slportal}}. To learn more about ordering a {{site.data.keyword.mdms_short}} device, check out the [Getting started tutorial](/docs/services/mass-data-migration?topic=mass-data-migration-getting-started-tutorial).
 
 ## July 2019
 {: #jul-2019}
 
-With {{site.data.keyword.mdms_short}}, you can now participate in a beta program to try upcoming features, give feedback, and help to improve the service. 
+With {{site.data.keyword.mdms_short}}, you can now participate in a beta program to try upcoming features, give feedback, and help to improve the service.
 
 The beta period closes on 18 December 2019.
 {: note}
