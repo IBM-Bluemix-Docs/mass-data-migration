@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2020
-lastupdated: "2020-06-0817"
+lastupdated: "2020-06-18"
 
 keywords: activity tracker, LogDNA, monitor MDMS events
 
