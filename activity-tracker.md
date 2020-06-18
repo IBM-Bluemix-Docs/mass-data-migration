@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2020, 2020
+  years: 2017, 2020
 lastupdated: "2020-06-18"
 
 keywords: activity tracker, LogDNA, monitor MDMS events
@@ -24,7 +24,7 @@ subcollection: mass-data-migration
 {:faq: data-hd-content-type='faq'}
 {:support: data-reuse='support'}
 
-# Auditing events for {{site.data.keyword.mdms_short}}
+# Auditing events for Mass Data Migration
 {: #at-events}
 
 Use the {{site.data.keyword.at_full}} service to track activity that occurs with {{site.data.keyword.mdms_short}}.
