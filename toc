@@ -46,7 +46,6 @@ Mass Data Migration
     {: .topicgroup}
     Enhancing security
         activity-tracker.md
-
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
