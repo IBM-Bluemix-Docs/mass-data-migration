@@ -38,6 +38,6 @@ Data is encrypted automatically as you copy it to the device. The encryption key
 ## Data deletion
 {: #security-deletion}
 
-Once the data migration from the {{site.data.keyword.mdms_short}} device to IBM Cloud is finished, all traces of your data is erased from the device using NIST data wipe standards. This involves zeroing out every byte of data on the disk over multiple passes. This ensures other customers who use the device after you cannot reconstruct your data.
+Once your data is migrated from the Mass Data Migration device to IBM Cloud, all traces of your data are erased from the device using NIST data wipe standards. This consists of a multiple pass operation where every byte on the disk is zeroed to ensure your data is completely erased from the device and can’t be reconstructed.
 
 In addition, if you want to delete the information you had entered on the {{site.data.keyword.mdms_short}} order form, you can delete the {{site.data.keyword.mdms_short}} resource from your resource list after your order is completed. We will then erase that data from our records.
