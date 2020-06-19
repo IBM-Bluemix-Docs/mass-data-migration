@@ -30,10 +30,10 @@ subcollection: mass-data-migration
 # Data security
 {: #data-security}
 
-Data on {{site.data.keyword.mdms_short}} storage devices are secured at rest using AES-256 encryption for maximum security.
+Your data on {{site.data.keyword.mdms_short}} storage devices is secured at rest using AES-256 encryption.
 {: shortdesc}
 
-Data is encrypted automatically as you copy your data to the device. The encryption key is protected by a strong storage password that is generated randomly by IBM on each order. Only you and IBM will have this password. For added security, you are encouraged to encrypt the data yourself before copying it to the device. This results in your data being doubly encrypted.
+Data is encrypted automatically as you copy it to the device. The encryption key is protected by a strong storage password that is generated randomly by IBM on each order. Only you and IBM will have this password. For added security, you are encouraged to encrypt the data yourself before copying it to the device. This results in your data being doubly encrypted.
 
 ## Data deletion
 {: #security-deletion}
