@@ -28,7 +28,7 @@ subcollection: mass-data-migration
 {:support: data-reuse='support'}
 
 # Data security
-{: #security}
+{: #data-security}
 
 Data on {{site.data.keyword.mdms_short}} storage devices are secured at rest using AES-256 encryption for maximum security.
 {: shortdesc}
