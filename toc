@@ -54,6 +54,7 @@ Mass Data Migration
     inventory-checklists.md
     specs.md
     related-links.md
+    data-security.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
