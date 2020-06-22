@@ -38,9 +38,16 @@ You can use this service to investigate abnormal activity and critical actions, 
 ## Global events
 {: #at-actions-global}
 
-{{site.data.keyword.mdms_short}} generates a single, global event that occurs on the state transitions of {{site.data.keyword.mdms_short}} orders. This event is global. You can monitor these events through the Activity Tracker instance that is available in the Frankfurt location.
+{{site.data.keyword.mdms_short}} generates a single, global event that occurs on the status transitions of {{site.data.keyword.mdms_short}} orders. This event is global. You can monitor these events through the Activity Tracker instance that is available in the Frankfurt location.
 
-The event `mass-data-migration.status.update` is generated on order changes. To see the state the order was transitioned to, look under `requestData`. `updateType` will be set to "status changed". The status the order is changing from will be in `initialValue`, the status it is changed to is in `finalValue`.
+The event `mass-data-migration.status.update` is generated when the order status changes. To see the specifics of the status change, look under `requestData`. `updateType` will be set to "status changed". The status the order is changing from will be in `initialValue`, and the status it is changed to is in `finalValue`.
+
+Example indicating that the order status was switched from 'processing' to 'prepareShipment':
+`"requestData": {
+      "updateType": "status changed",
+      "initialValue": "processing",
+      "finalValue": "prepareShipment"
+ }`
 
 The table below shows the order status values you can see, and a description of each. 
 
