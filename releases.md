@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2020
-lastupdated: "2020-03-26"
+lastupdated: "2020-07-06"
 
 keywords: release notes, changelog, what's new, service updates, service bulletin
 
@@ -39,8 +39,6 @@ We revamped the {{site.data.keyword.mdms_short}} ordering experience so you can 
 New as of: 2019-12-18
 
 You can now request {{site.data.keyword.mdms_short}} devices from the {{site.data.keyword.cloud_notm}} catalog using a simplified order form.
-
-![New Mass Data Migration experience GIF](images/order-mdms.gif){: gif}
 
 This experience replaces the previous order flow that is available in the {{site.data.keyword.slportal}}. To learn more about ordering a {{site.data.keyword.mdms_short}} device, check out the [Getting started tutorial](/docs/services/mass-data-migration?topic=mass-data-migration-getting-started-tutorial).
 
