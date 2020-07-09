@@ -38,10 +38,14 @@ Mass Data Migration
         connect-share-nfs.md
         connect-share-smb.md
         copy-data.md
-        
+
     return-device.md
     access-data.md
     ha-dr.md
+
+    {: .topicgroup}
+    Enhancing security
+        activity-tracker.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
@@ -50,6 +54,7 @@ Mass Data Migration
     inventory-checklists.md
     specs.md
     related-links.md
+    data-security.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
