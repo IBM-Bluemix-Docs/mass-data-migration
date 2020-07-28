@@ -55,6 +55,7 @@ Mass Data Migration
     specs.md
     related-links.md
     data-security.md
+    shared-responsibilities.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
