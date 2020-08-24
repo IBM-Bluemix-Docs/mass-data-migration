@@ -232,6 +232,39 @@ data.
     </caption>
   </table>
 
+## Identity and access management
+{: #iam-responsibilities}
+
+You and IBM share responsibilities for controlling access to your
+{{site.data.keyword.mdms_full_notm}} instances and resources.
+
+You are responsible for identity and access management to your device data.
+
+<table>
+    <tr>
+      <th>Task</th>
+      <th>{{site.data.keyword.IBM_notm}} Responsibilities</th>
+      <th> Your Responsibilities </th>
+    </tr>
+    <tr>
+      <td>Identity and Access</td>
+      <td>
+        <p>Only access client's specified IBM Cloud service instance for data offload.
+        </p>
+      </td>
+      <td>
+        <p>When {{site.data.keyword.mdms_short}} data migration is complete and you have accessed your data & validated the migration to 
+            be successful, de-authorize/remove IBM access to the specified IBM Cloud service instance (Note that 
+            this cannot be done on IBM's side; de-authorization of service instance access must be done by the 
+            client).
+        </p>
+      </td>
+    </tr>
+    <caption style="caption-side:bottom;">
+        Table 3. Responsibilities for identity and access management.
+    </caption>
+  </table>
+
 ## Security and regulation compliance
 {: #security-compliance}
 
@@ -285,40 +318,7 @@ You are responsible for the security and compliance of your device data.
         Table 2. Responsibilities for security and regulation compliance.
     </caption>
   </table>
-
-## Identity and access management
-{: #iam-responsibilities}
-
-You and IBM share responsibilities for controlling access to your
-{{site.data.keyword.mdms_full_notm}} instances and resources.
-
-You are responsible for identity and access management to your device data.
-
-<table>
-    <tr>
-      <th>Task</th>
-      <th>{{site.data.keyword.IBM_notm}} Responsibilities</th>
-      <th> Your Responsibilities </th>
-    </tr>
-    <tr>
-      <td>Identity and Access</td>
-      <td>
-        <p>Only access client's specified IBM Cloud service instance for data offload.
-        </p>
-      </td>
-      <td>
-        <p>When {{site.data.keyword.mdms_short}} data migration is complete and you have accessed your data & validated the migration to 
-            be successful, de-authorize/remove IBM access to the specified IBM Cloud service instance (Note that 
-            this cannot be done on IBM's side; de-authorization of service instance access must be done by the 
-            client).
-        </p>
-      </td>
-    </tr>
-    <caption style="caption-side:bottom;">
-        Table 3. Responsibilities for identity and access management.
-    </caption>
-  </table>
-
+  
 ## Disaster recovery
 {: #disaster-recovery}
 
