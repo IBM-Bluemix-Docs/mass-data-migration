@@ -318,7 +318,7 @@ You are responsible for the security and compliance of your device data.
         Table 2. Responsibilities for security and regulation compliance.
     </caption>
   </table>
-  
+
 ## Disaster recovery
 {: #disaster-recovery}
 
