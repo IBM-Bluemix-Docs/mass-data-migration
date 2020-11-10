@@ -25,11 +25,9 @@ subcollection: mass-data-migration
 # Getting started tutorial
 {: #getting-started-tutorial}
 
-{{site.data.keyword.mdms_full}} helps you move terabytes to petabytes of data into {{site.data.keyword.cloud_notm}} in a fast, simple, and secure way. This tutorial shows you how to request your data transfer device by using the {{site.data.keyword.cloud_notm}} console.
+{{site.data.keyword.mdms_full}} helps you move terabytes to petabytes of data into {{site.data.keyword.cloud_notm}} in a fast, simple, and secure way. This 
+tutorial shows you how to request your data transfer device by using the {{site.data.keyword.cloud_notm}} console.
 {: shortdesc}
-
-For a limited time, you can order a {{site.data.keyword.mdms_short}} device free of charge, without incurring costs to your {{site.data.keyword.cloud_notm}} account. To learn more, check out [What's new](/docs/mass-data-migration?topic=mass-data-migration-releases).
-{: tip}
 
 ## Before you begin
 {: #get-started-prereqs}
@@ -37,7 +35,8 @@ For a limited time, you can order a {{site.data.keyword.mdms_short}} device free
 Before you order a {{site.data.keyword.mdms_short}} device:
 
 - Plan your migration by reviewing the [regions and locations](/docs/mass-data-migration?topic=mass-data-migration-regions) where {{site.data.keyword.mdms_short}} is available.
-- Ensure that you have a provisioned instance of [{{site.data.keyword.cos_full}}](https://{DomainName}/catalog/services/cloud-object-storage){: external} for your {{site.data.keyword.cloud_notm}} account. 
+- Ensure that you have a provisioned instance of [{{site.data.keyword.cos_full}}](https://{DomainName}/catalog/services/cloud-object-storage){: external} for 
+  your {{site.data.keyword.cloud_notm}} account. 
 - Understand your network connection types and speeds.
 - Gather your network settings, such as IP addresses and other routing details, for connecting the device to your source server.
 - Identify a person who can receive, connect, and use the device at your site.
@@ -52,7 +51,8 @@ After you provision an instance of Cloud Object Storage, create a storage bucket
 3. From the _Getting started_ page, click **Create Bucket**.
 4. Enter a bucket name, and select a resiliency option for your data.
    
-   The resiliency option determines how your data is distributed by the Cloud Object Storage service across a geographic area after the data is imported into the service. {{site.data.keyword.mdms_short}} supports all resiliency options that are available for Cloud Object Storage.  
+   The resiliency option determines how your data is distributed by the Cloud Object Storage service across a geographic area after the data is imported into the 
+   service. {{site.data.keyword.mdms_short}} supports all resiliency options that are available for Cloud Object Storage.  
    {: note}
 5. From the list of locations, select the geographic area where you want your data to be physically stored after it's migrated into the storage bucket.
 6. From the list of storage classes, select **Standard**.
@@ -88,20 +88,24 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
       </tr>
       <tr>
         <td>Select your cloud destination</td>
-        <td>From the drop-down list, select your provisioned instance of Cloud Object Storage. Then, select the name that you assigned to the storage bucket where you want to store your migrated data.</td>
+        <td>From the drop-down list, select your provisioned instance of Cloud Object Storage. Then, select the name that you assigned to the storage bucket 
+        where you want to store your migrated data.</td>
       </tr>
       <tr>
         <td>Choose a configuration option</td>
         <td>
           <p>Choose from two options for configuring the device. You can pre-configure the device by entering your network configuration details.</p>
-          <p>For the first option, provide the following <a href="/docs/mass-data-migration?topic=mass-data-migration-device-overview#network-settings">network settings</a>:</p>
+          <p>For the first option, provide the following <a href="/docs/mass-data-migration?topic=mass-data-migration-device-overview#network-settings">network 
+          settings</a>:</p>
           <p>
             <ul>
               <li>1Gb Device management settings. Enter the static IP address, the subnet mask, and the default gateway for your remote computer.</li>
               <li>10Gb Data transfer settings. Enter the static IP address and the subnet mask for the server where your source data resides.</li>
             </ul>
           </p>
-          <p class="important" data-content: "Important: ">Choose the second option only if you're unable to provide network settings when you place the order. Keep in mind that this option requires that you <a href="/docs/mass-data-migration?topic=mass-data-migration-ip-settings#update-IP-settings">configure the device manually</a> when it arrives at your location.</p>
+          <p class="important" data-content: "Important: ">Choose the second option only if you're unable to provide network settings when you place the order. 
+          Keep in mind that this option requires that you <a href="/docs/mass-data-migration?topic=mass-data-migration-ip-settings#update-IP-settings">configure 
+          the device manually</a> when it arrives at your location.</p>
         </td>
       </tr>
       <caption style="caption-side:bottom;">Table 1. Describes the {{site.data.keyword.mdms_short}} request workflow</caption>
