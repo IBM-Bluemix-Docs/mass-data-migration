@@ -32,8 +32,7 @@ Stay up to date with the new features that are available for {{site.data.keyword
 ## November 2020
 {: #nov-2020}
 
-We revamped the {{site.data.keyword.mdms_short}} pricing model, basing pricing solely off of device
-shipment time.
+We revamped the {{site.data.keyword.mdms_short}} pricing model.
 
 
 ### Price Model Update
