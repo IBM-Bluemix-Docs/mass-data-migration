@@ -40,7 +40,7 @@ Frequently asked questions about {{site.data.keyword.mdms_full}}.
 {: #how-to-use-mdms}
 {: faq}
 
-Use the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/mdms) to submit your request. After you submit your request, a member of the Mass Data Migration team will contact you or your IBM Client Representative to confirm the order. When your request is confirmed and processed, the next available device or devices are configured and sent to you based on your network and shipping information.
+Use the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/mdms) to submit your request. When your request is processed, the next available device or devices are configured and sent to you based on your network and shipping information.
 
 ## Who should use {{site.data.keyword.mdms_short}}?
 {: #who-uses-mdms}
@@ -81,8 +81,6 @@ You can keep a device onsite for up to 90 days before a member of the {{site.dat
 
 Cloud Object Storage is currently the only supported offload destination at this time. If you need to move to move your data to a different storage solution, see [Migration guide: Moving data from Cloud Object Storage to File or Block Storage](/docs/mass-data-migration?topic=mass-data-migration-move-data-from-cos).
 
-
-
 ## What network interfaces does {{site.data.keyword.mdms_short}} support?
 {: #supported-network-interfaces}
 {: faq}
@@ -90,12 +88,6 @@ Cloud Object Storage is currently the only supported offload destination at this
 {{site.data.keyword.mdms_short}} devices have 10-Gbps network interfaces with RJ45 (CAT6a) & SFP+ copper network ports.
 
 RJ45 to SFP+ converters are only included with device models that lack SFP+ native connections. Fiber is not supported at this time.
-
-## What is the {{site.data.keyword.mdms_short}} default shipping option?
-{: #shipping-options}
-{: faq}
-
-{{site.data.keyword.mdms_short}} uses UPS Next Day Air round-trip delivery to ship all devices. The cost is included in the low, flat rate of USD 395 per device. Customers are unable to select alternative shipping methods currently.
 
 ## In what regions is {{site.data.keyword.mdms_short}} available?
 {: #regions-available}
@@ -157,13 +149,15 @@ No fees are incurred for data that is transferred into {{site.data.keyword.cloud
 {: #security}
 {: faq}
 
-All {{site.data.keyword.mdms_short}} devices are housed in rugged and durable enclosures. These cases are waterproof, shockproof, and tamper-evident to ensure roundtrip device and data security.
+All {{site.data.keyword.mdms_short}} devices are housed in rugged and durable enclosures. These cases are waterproof, shockproof, and tamper-resistant to ensure 
+roundtrip device and data security.
 
 ## How can I track my request throughout the migration process?
 {: #how-to-track-request}
 {: faq}
 
-To track the status of your request, search for your order name in the **Services** section of your {{site.data.keyword.cloud_notm}} resource list. Click an order name to view order status from the {{site.data.keyword.mdms_short}} dashboard.
+To track the status of your request, search for your order name in the **Services** section of your {{site.data.keyword.cloud_notm}} resource list. Click an 
+order name to view order status from the {{site.data.keyword.mdms_short}} dashboard.
 
 ## How do you erase my data from the {{site.data.keyword.mdms_short}} device after it is offloaded to {{site.data.keyword.cos_full_notm}}?
 {: #data-erasure}
@@ -195,11 +189,13 @@ The file interface is based on mature file and network software that enables lar
 
 {{site.data.keyword.mdms_short}} devices use a ZFS file system with LZ4 compression and AES 256-bit encryption.
 
-## How much does it cost to use {{site.data.keyword.mdms_short}} in the US?
+## How much does it cost to use {{site.data.keyword.mdms_short}}?
 {: #pricing-us}
 {: faq}
 
-For a limited time, enjoy Mass Data Migration free of charge. 
+{{site.data.keyword.mdms_short}} costs 50 USD per day to use. The 50 USD daily charges begin accruing the day your Mass Data Migration device arrives at your 
+location and stop accruing the day your device arrives at IBM for offload to IBM Cloud. The 50 USD pricing covers roundtrip shipping. This pricing model applies 
+to all regions.
 
 ## Am I charged for {{site.data.keyword.cos_full_notm}} use?
 {: #pricing-cos}
