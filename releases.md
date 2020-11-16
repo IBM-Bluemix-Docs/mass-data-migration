@@ -40,7 +40,7 @@ We revamped the {{site.data.keyword.mdms_short}} pricing model.
 New as of: 2020-11-16
 
 {{site.data.keyword.mdms_short}} has implemented a new, simplified, streamlined price model applicable to 
-all customers in all regions. Going forward, {{site.data.keyword.mdms_short}} is priced at 50USD per day; 
+all customers in all regions. Going forward, {{site.data.keyword.mdms_short}} is priced at 50 USD per day; 
 50 USD daily charges begin the day the {{site.data.keyword.mdms_short}} device arrives at your location, 
 and stop the day the device returns to IBM for offload into IBM Cloud. Roundtrip shipping is included in 
 the price. There are no other charges affiliated with {{site.data.keyword.mdms_short}} – please note that 
