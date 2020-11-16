@@ -80,7 +80,7 @@ The first column in the table represents the country where your company or sourc
 
 | Location | Data centers | Storage destinations |
 |-----|-----|----|
-| Australia | Melbourne<br>Sydney |  Cross region: `ap-geo`<br>Regional: `au-syd`<br>Single site: `mel01`  |
+| Australia | Melbourne<br>Sydney |  Cross region: `ap-geo`<br>Regional: `au-syd`  |
 | Hong Kong SAR of the PRC | Hong Kong | Cross region: `ap-geo`<br>Single site: `hkg02`  |
 | India | Chennai | Cross region: `ap-geo`<br>Single site: `che01` | 
 | Japan | Tokyo | Cross region: `ap-geo`<br>Regional: `jp-tok`  |
