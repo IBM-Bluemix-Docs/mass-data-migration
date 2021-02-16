@@ -85,7 +85,7 @@ The first column in the table represents the country where your company or sourc
 | India | Chennai | Cross region: `ap-geo`<br>Single site: `che01` | 
 | Japan | Tokyo | Cross region: `ap-geo`<br>Regional: `jp-tok`  |
 | South Korea| Seoul | Cross region: `ap-geo`<br>Single site: `seo01`  | 
-| Singapore | Singapore | Cross region: `ap-geo` | 
+| Singapore | Singapore | Cross region: `ap-geo` <br>Single site: `sng01` | 
 {: caption="Table 3. Lists the available data offload locations in Asia Pacific" caption-side="top"}
 {: #table-3}
 {: tab-title="Asia Pacific"}
