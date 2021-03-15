@@ -31,7 +31,7 @@ Review the inventory that arrives with your {{site.data.keyword.mdms_full}} devi
 {{site.data.keyword.cloud_notm}} provides two [{{site.data.keyword.mdms_short}} device models](/docs/mass-data-migration?topic=mass-data-migration-device-overview#device-models). Each model comes packaged with optics and adapters that support both RJ45 and SFP+ copper connections.
 {: note}
 
-## RJ45 device model
+## RJ45 device model.
 {: #RJ45-device-intentory}
 
 -	(1) C13 power cord
