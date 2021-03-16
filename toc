@@ -38,6 +38,7 @@ Mass Data Migration
         connect-share-nfs.md
         connect-share-smb.md
         copy-data.md
+        export-data.md
 
     return-device.md
     access-data.md
