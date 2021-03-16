@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="mass-data-migration" audience="services" category="storage_datamovement" href="/docs/mass-data-migration?topic=mass-data-migration-getting-started-tutorial" path="mass-data-migration"}
+{: .toc subcollection="mass-data-migration" audience="service" category="storage_datamovement" href="/docs/mass-data-migration?topic=mass-data-migration-getting-started-tutorial" path="mass-data-migration"}
 Mass Data Migration
 
     {: .navgroup id="learn"}
