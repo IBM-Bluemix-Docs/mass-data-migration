@@ -28,7 +28,7 @@ subcollection: mass-data-migration
 {{site.data.keyword.mdms_full}} provides a portable, pre-configured storage device that is shipped to your location for easy migration of your data.
 {: shortdesc}
 
-## How it works
+## How it works 
 {: #how-it-works}
 
 When you request a {{site.data.keyword.mdms_short}} device, IBM ships a pre-configured storage appliance to your data center. You connect the device to your network, and copy data to the device. After the copy process is complete, you return the device to IBM. IBM uploads a copy of your data to the Cloud Object Storage bucket that you specify, and then erases data from the device. 
@@ -63,12 +63,13 @@ You can compare your data migration options on {{site.data.keyword.cloud_notm}} 
 Ready to set up your device? Use the following checklist to complete your data transfer.
 
 1. [Connect the device](/docs/mass-data-migration?topic=mass-data-migration-connect-device)
-2. [Log in to the device user interface](/docs/mass-data-migration?topic=mass-data-migration-access-ui)
-3. [Unlock the storage pool for the device](/docs/mass-data-migration?topic=mass-data-migration-unlock-storage-pool)
-4. [Mount the network share](/docs/mass-data-migration?topic=mass-data-migration-connect-nfs-share)
-5. [Copy data to the device](/docs/mass-data-migration?topic=mass-data-migration-copy-data)
-6. [Return the device](/docs/mass-data-migration?topic=mass-data-migration-return-device)  
-7. [Access your data](/docs/mass-data-migration?topic=mass-data-migration-access-data)
+2. [Update the network settings](/docs/mass-data-migration?topic=mass-data-migration-creview-network-settings)
+3. [Log in to the device user interface](/docs/mass-data-migration?topic=mass-data-migration-access-ui)
+4. [Unlock the storage pool for the device](/docs/mass-data-migration?topic=mass-data-migration-unlock-storage-pool)
+5. [Mount the network share](/docs/mass-data-migration?topic=mass-data-migration-connect-nfs-share)
+6. [Copy data to the device](/docs/mass-data-migration?topic=mass-data-migration-copy-data)
+7. [Return the device](/docs/mass-data-migration?topic=mass-data-migration-return-device)  
+8. [Access your data](/docs/mass-data-migration?topic=mass-data-migration-access-data)
 
 
 
