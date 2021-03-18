@@ -25,23 +25,55 @@ subcollection: mass-data-migration
 # {{site.data.keyword.mdms_short}} overview
 {: #overview}
 
-{{site.data.keyword.mdms_full}} provides a portable, pre-configured storage device that is shipped to your location for easy migration of your data.
+You can import your data from your on-prem storage to the cloud or export your data from the cloud to your on-prem storage. {{site.data.keyword.mdms_full}} provides a portable, pre-configured storage device that is shipped to your location for easy migration of your data.
 {: shortdesc}
 
 ## How it works 
 {: #how-it-works}
 
-When you request a {{site.data.keyword.mdms_short}} device, IBM ships a pre-configured storage appliance to your data center. You connect the device to your network, and copy data to the device. After the copy process is complete, you return the device to IBM. IBM uploads a copy of your data to the Cloud Object Storage bucket that you specify, and then erases data from the device. 
+When you request a {{site.data.keyword.mdms_short}} device, IBM ships a pre-configured storage appliance to your data center. You connect the device to your network, and use the device to transfer your data. After the transfer process is complete, you return the device to IBM. IBM uploads a copy of your data to the Cloud Object Storage bucket that you specify, and then erases data from the device. 
 
-The following image describes the {{site.data.keyword.mdms_short}} process.
+The following image describes the {{site.data.keyword.mdms_short}} import process.
 
-![Describes the Mass Data Migration process.](images/mdms-workflow.png){: caption="Figure 1. Describes the Mass Data Migration workflow." caption-side="bottom"}
+![Describes the {{site.data.keyword.mdms_short}} import process.](images/mdms-workflow.png){: caption="Figure 1. Describes the Mass Data Migration import workflow." caption-side="bottom"}
+
+The following image describes the {{site.data.keyword.mdms_short}} export process.
+
+![Describes the {{site.data.keyword.mdms_short}} export process.](images/mdms-workflow.png){: caption="Figure 2. Describes the Mass Data Migration export workflow." caption-side="bottom"}
 
 {{site.data.keyword.mdms_short}} encrypts all data with AES 256-bit encryption and provides a strong password to unlock the storage pool for each device. You can access the data only by using an assigned storage pool password, which is uniquely generated for each order. {{site.data.keyword.mdms_short}} devices are wiped securely between orders.
 {: note}
 
 You can compare your data migration options on {{site.data.keyword.cloud_notm}} by [exploring our data migration solutions](https://www.ibm.com/cloud/data-migration). To learn more about {{site.data.keyword.mdms_short}} use cases, check out the [{{site.data.keyword.mdms_short}} product page](https://www.ibm.com/cloud/mass-data-migration){: external}.
 {: tip}
+
+## Your workflow to import data
+{: #your-workflow}
+
+Ready to import your data from your on-prem storage to the cloud? Use the following checklist to transfer your data from your on-prem storage to the device.
+
+1. [Connect the device](/docs/mass-data-migration?topic=mass-data-migration-connect-device)
+2. [Update the network settings](/docs/mass-data-migration?topic=mass-data-migration-creview-network-settings)
+3. [Log in to the device user interface](/docs/mass-data-migration?topic=mass-data-migration-access-ui)
+4. [Unlock the storage pool for the device](/docs/mass-data-migration?topic=mass-data-migration-unlock-storage-pool)
+5. [Mount the network share](/docs/mass-data-migration?topic=mass-data-migration-connect-nfs-share)
+6. [Copy data to the device](/docs/mass-data-migration?topic=mass-data-migration-copy-data)
+7. [Return the device](/docs/mass-data-migration?topic=mass-data-migration-return-device)  
+8. [Access your data](/docs/mass-data-migration?topic=mass-data-migration-access-data)
+
+## Your workflow to export data
+{: #your-export-workflow}
+
+Ready to export your data from the cloud to your on-prem storage? Use the following checklist to transfer your data from the device to your on-prem storage.
+
+1. [Connect the device](/docs/mass-data-migration?topic=mass-data-migration-connect-device)
+2. [Update the network settings](/docs/mass-data-migration?topic=mass-data-migration-creview-network-settings)
+3. [Log in to the device user interface](/docs/mass-data-migration?topic=mass-data-migration-access-ui)
+4. Copy your data onto the network share. 
+5. View network activity and storage usage to monitor your progress.
+6. Gracefully [power down the device](/docs/mass-data-migration?topic=mass-data-migration-disconnect-device).
+7. Prepare the shipping label and [return the device to IBM](/docs/mass-data-migration?topic=mass-data-migration-ship-device).
+8. Access the data on your on-prem storage using IBM Cloud Object Storage System.
 
 ## Service components
 {: #components}
@@ -56,20 +88,6 @@ You can compare your data migration options on {{site.data.keyword.cloud_notm}} 
    <dt>Device user interface</dt>
       <dd>The <a href="/docs/mass-data-migration?topic=mass-data-migration-access-ui">device user interface</a> is a local, web-based UI that you use to access the network share on the {{site.data.keyword.mdms_short}} device. The UI is based on a mature file and network software that enables large numbers of large files to be copied and transported to {{site.data.keyword.cloud_notm}}.</dd>
 </dl>
-
-## Your workflow
-{: #your-workflow}
-
-Ready to set up your device? Use the following checklist to complete your data transfer.
-
-1. [Connect the device](/docs/mass-data-migration?topic=mass-data-migration-connect-device)
-2. [Update the network settings](/docs/mass-data-migration?topic=mass-data-migration-creview-network-settings)
-3. [Log in to the device user interface](/docs/mass-data-migration?topic=mass-data-migration-access-ui)
-4. [Unlock the storage pool for the device](/docs/mass-data-migration?topic=mass-data-migration-unlock-storage-pool)
-5. [Mount the network share](/docs/mass-data-migration?topic=mass-data-migration-connect-nfs-share)
-6. [Copy data to the device](/docs/mass-data-migration?topic=mass-data-migration-copy-data)
-7. [Return the device](/docs/mass-data-migration?topic=mass-data-migration-return-device)  
-8. [Access your data](/docs/mass-data-migration?topic=mass-data-migration-access-data)
 
 
 
