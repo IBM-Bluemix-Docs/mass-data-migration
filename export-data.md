@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2020
-lastupdated: "2020-03-26"
+  years: 2017, 2020, 2021
+lastupdated: "2021-03-16"
 
 keywords: copy data from device, move data from device 
 
