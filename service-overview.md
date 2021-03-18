@@ -50,7 +50,7 @@ You can compare your data migration options on {{site.data.keyword.cloud_notm}} 
 ## Your workflow to import data
 {: #your-workflow}
 
-Ready to import your data from your on-prem storage to the cloud? Use the following checklist to transfer your data from your on-prem storage to the device.
+Ready to import your data from your on-prem storage to the cloud? Use the following checklist to transfer your data from your on-prem storage to the device..
 
 1. [Connect the device](/docs/mass-data-migration?topic=mass-data-migration-connect-device)
 2. [Update the network settings](/docs/mass-data-migration?topic=mass-data-migration-creview-network-settings)
