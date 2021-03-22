@@ -65,9 +65,9 @@ The following table shows how the order status changes as {{site.data.keyword.md
 | Prepare shipment | After your order is approved, the request status changes to _Prepare shipment_. {{site.data.keyword.mdms_short}} prepares and configures the next available storage device.  |
 | Ship to customer | A pre-configured storage device is shipped to your location. {{site.data.keyword.mdms_short}} uses roundtrip UPS overnight shipping for US devices and roundtrip FedEx overnight shipping for EU devices.|
 | Client site | After the device is delivered to your location, the request status changes to _Client site_. |
-| --- | --- |
 | Coordinate shipment to IBM | **For regions outside of the US, EU, United Kingdom, and Canada.** If the device is delivered to a supported region outside of the US, EU, United Kingdom, or Canada, the request status changes to _Coordinate shipment with IBM_. [Create a support case](/docs/mass-data-migration?topic=mass-data-migration-return-device#return-device-from-other-regions) to request a pickup and return shipment. |
 | Ship to IBM | The device is in transit to IBM. |
-| --- | --- |
-| --- | --- |
+| Offload | --- |
+| Erase Data | --- |
+| Complete | --- |
 {: caption="Table 2. Describes the {{site.data.keyword.mdms_short}} export order status workflow" caption-side="top"}
