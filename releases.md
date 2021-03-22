@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2020
-lastupdated: "2020-07-06"
+  years: 2017, 2021
+lastupdated: "2021-03-19"
 
 keywords: release notes, changelog, what's new, service updates, service bulletin
 
@@ -28,6 +28,11 @@ subcollection: mass-data-migration
 
 Stay up to date with the new features that are available for {{site.data.keyword.mdms_full}}.
 {: shortdesc}
+
+## April 2021
+{: #apr-2021}
+
+Previously you could only import your data from your on-prem storage to the cloud. Now you can use the {{site.data.keyword.mdms_short}} Service to export your data from the cloud to your on-prem storage.
 
 ## November 2020
 {: #nov-2020}
