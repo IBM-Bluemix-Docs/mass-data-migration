@@ -33,7 +33,7 @@ Mass Data Migration
         access-interface.md
 
     {: .topicgroup}
-    Importing your data
+    Transferring your data
         unlock-storage-pool.md
         connect-share-nfs.md
         connect-share-smb.md
