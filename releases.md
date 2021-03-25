@@ -39,7 +39,6 @@ Previously you could only import your data from your on-prem storage to the clou
 
 We revamped the {{site.data.keyword.mdms_short}} pricing model.
 
-
 ### Price Model Update
 {: #price-model-update}
 New as of: 2020-11-16
