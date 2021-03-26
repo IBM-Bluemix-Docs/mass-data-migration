@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2020, 2021
-lastupdated: "2021-03-16"
+  years: 2021
+lastupdated: "2021-03-25"
 
 keywords: copy data from device, move data from device 
 
@@ -43,5 +43,5 @@ After you connect your server to the network share, you can start and monitor th
 ## Next steps
 {: #import-data-next-steps}
 
-- Gracefully [power down the device](/docs/mass-data-migration?topic=mass-data-migration-disconnect-device).
-- Prepare the shipping label and [return the device to IBM](/docs/mass-data-migration?topic=mass-data-migration-ship-device).
+- Gracefully [power down the device](/docs/mass-data-migration?topic=mass-data-migration-return-device#disconnect-device).
+- Prepare the shipping label and [return the device to IBM](/docs/mass-data-migration?topic=mass-data-migration-return-device).
