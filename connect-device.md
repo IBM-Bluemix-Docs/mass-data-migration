@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2020
-lastupdated: "2020-03-26"
+  years: 2017, 2020, 2021
+lastupdated: "2021-03-25"
 
 keywords: set up device, connect device, cable device
 
@@ -145,7 +145,7 @@ To connect the RJ45 / SFP+ device model to your network:
 
    Replace `<your_Eth2_IP_address>` with the IP address that is configured for the Eth2 network port. To view the IP address, check the _System Control Display_ screen on the device.
 
-   If you need to alter any IP settings for Eth3 or Eth1, see the [Reviewing your network settings](/docs/mass-data-migration?topic=mass-data-migration-connect-device#review-network-settings).
+   If you need to alter any IP settings for Eth3 or Eth1, see the [Reviewing your network settings](/docs/mass-data-migration?topic=mass-data-migration-ip-settings).
    {: tip}
 
 ## Next steps
