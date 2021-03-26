@@ -72,7 +72,7 @@ Ready to export your data from the cloud to your on-prem storage? Use the follow
 1. [Connect the device](/docs/mass-data-migration?topic=mass-data-migration-connect-device)
 2. [Update the network settings](/docs/mass-data-migration?topic=mass-data-migration-ip-settings)
 3. [Log in to the device user interface](/docs/mass-data-migration?topic=mass-data-migration-access-ui)
-4. Copy your data onto the network share. 
+4. [Copy data from the device](/docs/mass-data-migration?topic=mass-data-migration-copy-data) to your network share. 
 5. View network activity and storage usage to monitor your progress.
 6. Gracefully [power down the device](/docs/mass-data-migration?topic=mass-data-migration-disconnect-device).
 7. Erase your data from the device. <!--- Need Erase process from Jorge -->
