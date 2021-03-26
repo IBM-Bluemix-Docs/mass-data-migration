@@ -41,8 +41,7 @@ If you request {{site.data.keyword.mdms_short}} device to export your data from 
 
 The following image describes the {{site.data.keyword.mdms_short}} export process.
 
-![Describes the {{site.data.keyword.mdms_short}} export process.](images/mdms-workflow.png){: caption="Figure 2. Describes the Mass Data Migration export workflow." caption-side="bottom"}
-<!--- Need Export process image from UX-Visual Designer -->
+![Describes the {{site.data.keyword.mdms_short}} export process.](images/mdms-export-workflow.png){: caption="Figure 2. Describes the Mass Data Migration export workflow." caption-side="bottom"}
 
 {{site.data.keyword.mdms_short}} encrypts all data with AES 256-bit encryption and provides a strong password to unlock the storage pool for each device. You can access the data only by using an assigned storage pool password, which is uniquely generated for each order. {{site.data.keyword.mdms_short}} devices are wiped securely between orders.
 {: note}
