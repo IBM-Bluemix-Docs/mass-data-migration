@@ -25,7 +25,7 @@ subcollection: mass-data-migration
 # Copying data to the device
 {: #copy-data}
 
-You can copy data to an {{site.data.keyword.mdms_full}} device by using the device user interface.
+You can copy data to or from an {{site.data.keyword.mdms_full}} device by using the device user interface.
 
 ## Copying data to the device
 {: #copy-data-to-device}
