@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2020
-lastupdated: "2020-03-26"
+  years: 2017, 2020, 2021
+lastupdated: "2021-03-26"
 
 keywords: return device, ship device, disconnect device, shipping label
 
@@ -45,7 +45,7 @@ When the data copy process is complete, you can gracefully power down the system
 ## Shipping the device to IBM
 {: #ship-device}
 
-### Shipping from the US, EU, United Kingdom, and Canada
+### Shipping from the US, EU, United Kingdom, Canada and Australia
 {: #return-device-from-us}
 
 Prepare your shipping label and notify your carrier when you're ready to return the device.
