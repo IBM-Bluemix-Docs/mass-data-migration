@@ -28,7 +28,7 @@ subcollection: mass-data-migration
 You can copy data from an {{site.data.keyword.mdms_full}} device by using the device user interface.
 
 ## Copying data from the device
-{: #copy-data-to-device}
+{: #copy-data-from-device}
 
 After you connect your server to the network share, you can start and monitor the data copy from the device.
 
@@ -41,7 +41,8 @@ After you connect your server to the network share, you can start and monitor th
     ![View Storage Pool](images/pool-perf.png)
 
 ## Next steps
-{: #import-data-next-steps}
+{: #export-data-next-steps}
 
-- Gracefully [power down the device](/docs/mass-data-migration?topic=mass-data-migration-return-device#disconnect-device).
-- Prepare the shipping label and [return the device to IBM](/docs/mass-data-migration?topic=mass-data-migration-return-device).
+1. [Erase your data](/docs/mass-data-migration/mass-data-migration-erase-data) on the device.
+2.  Gracefully [power down the device](/docs/mass-data-migration?topic=mass-data-migration-return-device#disconnect-device).
+3.  Prepare the shipping label and [return the device to IBM](/docs/mass-data-migration?topic=mass-data-migration-return-device).
