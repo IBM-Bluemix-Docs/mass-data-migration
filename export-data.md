@@ -2,9 +2,9 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-25"
+lastupdated: "2021-03-28"
 
-keywords: copy data from device, move data from device 
+keywords: copy data from device, move data from device, export data 
 
 subcollection: mass-data-migration
 
@@ -43,6 +43,6 @@ After you connect your server to the network share, you can start and monitor th
 ## Next steps
 {: #export-data-next-steps}
 
-1. [Erase your data](/docs/mass-data-migration/mass-data-migration-erase-data) on the device.
+1. [Erase your data](/docs/mass-data-migration?topic=mass-data-migration-erase-data) on the device.
 2.  Gracefully [power down the device](/docs/mass-data-migration?topic=mass-data-migration-return-device#disconnect-device).
 3.  Prepare the shipping label and [return the device to IBM](/docs/mass-data-migration?topic=mass-data-migration-return-device).
