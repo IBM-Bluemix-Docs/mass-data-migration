@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017, 2020, 2021
+  years: 2021
 lastupdated: "2021-03-26"
 
 keywords: get started tutorial, data transfer, data migration, transfer data to cloud, migrate data, migrate data to cloud, Mass Data Migration
@@ -22,7 +22,7 @@ subcollection: mass-data-migration
 {:download: .download}
 {:term: .term}
 
-# Getting started tutorial for import
+# Getting started tutorial for exporting
 {: #getting-started-tutorial}
 
 {{site.data.keyword.mdms_full}} helps you move terabytes to petabytes of data into {{site.data.keyword.cloud_notm}} in a fast, simple, and secure way. This 
@@ -40,10 +40,9 @@ Before you order a {{site.data.keyword.mdms_short}} device:
 - Understand your network connection types and speeds.
 - Gather your network settings, such as IP addresses and other routing details, for connecting the device to your source server.
 - Identify a person who can receive, connect, and use the device at your site.
-- Determine if you are planning to import or export.
+- Determine if you are selecting an import or export order and follow the appropriate steps.
 
-class="important" data-content: "Important: ">The following steps are documented here for importing (see steps for exporting). 
-
+class="important" data-content: "Important: ">The following steps are documented here for exporting (see steps for importing). 
 ## Step 1. Create a storage bucket
 {: #get-started-create-bucket}
 
