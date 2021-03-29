@@ -41,8 +41,7 @@ If you request {{site.data.keyword.mdms_short}} device to export your data from 
 
 The following image describes the {{site.data.keyword.mdms_short}} export process.
 
-![Describes the {{site.data.keyword.mdms_short}} export process.](images/mdms-workflow.png){: caption="Figure 2. Describes the Mass Data Migration export workflow." caption-side="bottom"}
-<!--- Need Export process image from UX-Visual Designer -->
+![Describes the {{site.data.keyword.mdms_short}} export process.](images/mdms-export-workflow.png){: caption="Figure 2. Describes the Mass Data Migration export workflow." caption-side="bottom"}
 
 {{site.data.keyword.mdms_short}} encrypts all data with AES 256-bit encryption and provides a strong password to unlock the storage pool for each device. You can access the data only by using an assigned storage pool password, which is uniquely generated for each order. {{site.data.keyword.mdms_short}} devices are wiped securely between orders.
 {: note}
@@ -72,7 +71,7 @@ Ready to export your data from the cloud to your on-prem storage? Use the follow
 1. [Connect the device](/docs/mass-data-migration?topic=mass-data-migration-connect-device)
 2. [Update the network settings if needed](/docs/mass-data-migration?topic=mass-data-migration-ip-settings)
 3. [Log in to the device user interface](/docs/mass-data-migration?topic=mass-data-migration-access-ui)
-4. Copy your data onto the network share. 
+4. [Copy data from the device](/docs/mass-data-migration?topic=mass-data-migration-copy-data) to your network share. 
 5. View network activity and storage usage to monitor your progress.
 6. Gracefully [power down the device](/docs/mass-data-migration?topic=mass-data-migration-disconnect-device).
 7. Erase your data from the device. <!--- Need Erase process from Jorge -->

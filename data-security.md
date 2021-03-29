@@ -40,6 +40,6 @@ Mass Data Migration storage devices will also have an industry-standard Trusted 
 ## Data deletion
 {: #security-deletion}
 
-Once your data is migrated from the Mass Data Migration device to IBM Cloud, all traces of your data are erased from the device using NIST data wipe standards. This consists of a multiple pass operation where every byte on the disk is zeroed to ensure your data is completely erased from the device and can’t be reconstructed.
+Once your data is migrated from the Mass Data Migration device to IBM Cloud, all traces of your data are erased from the device using NIST 800-88 data wipe standards. This consists of a multiple-pass operation where every byte on the disk is zeroed to ensure your data is completely erased from the device and cannot be reconstructed.
 
 In addition, if you want to delete the information you had entered on the {{site.data.keyword.mdms_short}} order form, you can delete the {{site.data.keyword.mdms_short}} resource from your resource list after your order is completed. We will then erase that data from our records.
