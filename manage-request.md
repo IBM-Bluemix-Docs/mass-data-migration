@@ -73,3 +73,4 @@ The following table shows how the order status changes as {{site.data.keyword.md
 | Erase Data | All traces of your data are permanently [erased](/docs/mass-data-migration?topic=mass-data-migration-data-security#security-deletion) from the device. |
 | Complete | Your order was successfully completed. |
 {: caption="Table 2. Describes the {{site.data.keyword.mdms_short}} export order status workflow" caption-side="top"}
+<!--- Cannot see a difference between the format of Table 1 & Table 2 captions.-->
