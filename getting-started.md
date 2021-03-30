@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2020, 2021
-lastupdated: "2021-03-29"
+lastupdated: "2021-03-30"
 
 keywords: get started tutorial, data transfer, data migration, transfer data to cloud, migrate data, migrate data to cloud, Mass Data Migration
 
@@ -33,15 +33,13 @@ subcollection: mass-data-migration
 
 Before you order a {{site.data.keyword.mdms_short}} device for importing:
 
+- The default migration type for Mass Data Migration  is  “Import” as displayed on the configuration page.
 - Plan your migration by reviewing the [regions and locations](/docs/mass-data-migration?topic=mass-data-migration-regions) where {{site.data.keyword.mdms_short}} is available.
 - Ensure that you have a provisioned instance of [{{site.data.keyword.cos_full}}](https://{DomainName}/catalog/services/cloud-object-storage){: external} for 
   your {{site.data.keyword.cloud_notm}} account. 
 - Understand your network connection types and speeds.
 - Gather your network settings, such as IP addresses and other routing details, for connecting the device to your source server.
 - Identify a person who can receive, connect, and use the device at your site.
-- Determine if you are selecting an import or export order and follow the appropriate steps.
-
-class="important" data-content: "Important: ">The following steps are documented here for importing (see steps for exporting). 
 
 ## Step 1. Create a storage bucket
 {: #get-started-create-bucket}

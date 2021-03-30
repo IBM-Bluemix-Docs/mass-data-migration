@@ -19,7 +19,7 @@ Mass Data Migration
         move-data.md
         migrate-netezza-databases.md
         [Migrating Veeam workloads](https://www.ibm.com/downloads/cas/1MXNAXM9)
-        [Migrating VM workloads](https://developer.ibm.com/recipes/tutorials/cold-migration-of-vmware-guests-via-mdms/)
+       
 
     releases.md
     {: .navgroup-end}
