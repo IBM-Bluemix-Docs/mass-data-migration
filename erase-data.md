@@ -42,4 +42,4 @@ Choosing the **Shred Data** option can significantly impact time requirements.
 
 <note type="Warning">All volumes and shares contained in the selected pool will be deleted.</note>
 
-As a precaution, upon receiving the device back from you, IBM will erase all traces of your data using NIST 800-88 data wipe standards. This consists of a multiple-pass operation where every byte on the disk is zeroed to ensure your data is completely erased from the device and cannot be reconstructed.
+As a precaution, upon receiving the device back from you, IBM will erase all traces of your data using NIST 800-88 data wipe standards. This consists of a multiple-pass operation where every byte on the disk is zeroed to ensure your data is completely erased from the device and cannot be reconstructed. 
