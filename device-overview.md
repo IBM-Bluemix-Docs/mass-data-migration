@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2020, 2021
-lastupdated: "2021-03-25"
+  years: 2017, 2020
+lastupdated: "2020-03-26"
 
 keywords: device models, device ports, network settings, configure network  
 
