@@ -73,8 +73,8 @@ Ready to export your data from the cloud to your on-prem storage? Use the follow
 3. [Log in to the device user interface](/docs/mass-data-migration?topic=mass-data-migration-access-ui)
 4. [Copy data from the device](/docs/mass-data-migration?topic=mass-data-migration-copy-data) to your network share. 
 5. View network activity and storage usage to monitor your progress.
-6. Gracefully [power down the device](/docs/mass-data-migration?topic=mass-data-migration-disconnect-device).
-7. Erase your data from the device. <!--- Need Erase process from Jorge -->
+6. [Erase your data](/docs/mass-data-migration?topic=mass-data-migration-erase-data) from the device.
+7. Gracefully [power down the device](/docs/mass-data-migration?topic=mass-data-migration-disconnect-device).
 8. Prepare the shipping label and [return the device to IBM](/docs/mass-data-migration?topic=mass-data-migration-return-device).
 9. Access the data on your on-prem storage.
 
