@@ -39,6 +39,7 @@ Mass Data Migration
         connect-share-smb.md
         copy-data.md
         export-data.md
+        erase-data.md
 
     return-device.md
     access-data.md
