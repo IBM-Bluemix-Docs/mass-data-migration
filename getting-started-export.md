@@ -35,7 +35,7 @@ tutorial shows you how to request your data transfer device for exporting data f
 Before you order a {{site.data.keyword.mdms_short}} device for exporting:
 
 - You must select the “Export” tile as the migration type from the Mass Data Migration configuration page. 
-class="important" data-content: "Important: ">The default is “Import” for the configuration page.
+NOTE: The default is “Import” for the configuration page.
 - You need to have a provisioned instance of [{{site.data.keyword.cos_full}}](https://{DomainName}/catalog/services/cloud-object-storage){: external} for 
   your {{site.data.keyword.cloud_notm}} account, and have a COS bucket created that contains the data you want exported.
 - Understand your network connection types and speeds.
