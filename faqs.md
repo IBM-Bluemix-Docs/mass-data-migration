@@ -200,7 +200,7 @@ The file interface is based on mature file and network software that enables lar
 {: faq}
 
 {{site.data.keyword.mdms_short}} costs 50 USD per day to use. When importing your data to the cloud, the 50 USD daily charges begin accruing the day your Mass Data Migration device arrives at your 
-location and stop accruing the day your device arrives at IBM for offload to IBM Cloud. The 50 USD pricing covers roundtrip shipping. When exporting your data to your on-prem storage, the daily charges begin accruing when IBM starts copying your data from the cloud to the device and stop accruing when  you ship the device back to IBM.  This pricing model applies to all regions.
+location and stop accruing the day your device arrives at IBM for offload to IBM Cloud. The 50 USD pricing covers round-trip shipping. When exporting your data to your on-prem storage, the daily charges begin accruing when IBM starts copying your data from the cloud to the device and stop accruing when  you ship the device back to IBM.  This pricing model applies to all regions.
 
 ## Am I charged for {{site.data.keyword.cos_full_notm}} use?
 {: #pricing-cos}
