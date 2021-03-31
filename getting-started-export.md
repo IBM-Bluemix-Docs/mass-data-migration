@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-30"
+lastupdated: "2021-03-31"
 
 keywords: get started tutorial, data transfer, data migration, transfer data to cloud, migrate data, migrate data to cloud, Mass Data Migration
 
@@ -22,8 +22,8 @@ subcollection: mass-data-migration
 {:download: .download}
 {:term: .term}
 
-# Getting started tutorial for exporting
-{: #getting-started-tutorial}
+# Getting started tutorial for export
+{: #getting-started-tutorial-export}
 
 {{site.data.keyword.mdms_full}} helps you move terabytes to petabytes of data from {{site.data.keyword.cloud_notm}} in a fast, simple, and secure way. This 
 tutorial shows you how to request your data transfer device for exporting data from your cloud storage to your on-prem infrastructure by using the {{site.data.keyword.cloud_notm}} console.
@@ -35,7 +35,8 @@ tutorial shows you how to request your data transfer device for exporting data f
 Before you order a {{site.data.keyword.mdms_short}} device for exporting:
 
 - You must select the “Export” tile as the migration type from the Mass Data Migration configuration page. 
-NOTE: The default is “Import” for the configuration page.
+The default is “Import” for the configuration page.
+{: note} 
 - You need to have a provisioned instance of [{{site.data.keyword.cos_full}}](https://{DomainName}/catalog/services/cloud-object-storage){: external} for 
   your {{site.data.keyword.cloud_notm}} account, and have a COS bucket created that contains the data you want exported.
 - Understand your network connection types and speeds.
