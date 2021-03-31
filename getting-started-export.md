@@ -23,7 +23,7 @@ subcollection: mass-data-migration
 {:term: .term}
 
 # Getting started tutorial for exporting
-{: #getting-started-tutorial}
+{: #getting-started-tutorial-export}
 
 {{site.data.keyword.mdms_full}} helps you move terabytes to petabytes of data from {{site.data.keyword.cloud_notm}} in a fast, simple, and secure way. This 
 tutorial shows you how to request your data transfer device for exporting data from your cloud storage to your on-prem infrastructure by using the {{site.data.keyword.cloud_notm}} console.
