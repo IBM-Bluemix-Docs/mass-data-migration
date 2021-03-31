@@ -25,7 +25,7 @@ subcollection: mass-data-migration
 ## Erase data from device
 {: #erase-data}
 
-Do the following to erase your datra from the device.
+Do the following to erase your data from the device.
 
 1. [Log in to the device UI](/docs/mass-data-migration?topic=mass-data-migration-access-interface#access-ui) 
 
@@ -33,13 +33,13 @@ Do the following to erase your datra from the device.
 
    ![Storage Pool Delete](images/delete-storage-pool.png)
 
-<note type="Caution">When you delete a storage pool all of the storage volumes and network shares which reside in the storage pool <b>will be deleted</b>. Deletion of a storage pool includes a quick format of the devices which zeros the first 10MB of each disk. However, for secure deletion of data you must select one of the data shredding options, such as the <i>4-pass Dod 5220 22-M section 8-306 procedure</i>. The shredding is done at a block level on each disk device and is done concurrently across all disks in the storage pool.</note> 
+<p class="important" data-content: "Caution: ">When you delete a storage pool all of the storage volumes and network shares which reside in the storage pool <b>will be deleted</b>. Deletion of a storage pool includes a quick format of the devices which zeros the first 10MB of each disk. However, for secure deletion of data you must select one of the data shredding options, such as the <i>4-pass Dod 5220 22-M section 8-306 procedure</i>. The shredding is done at a block level on each disk device and is done concurrently across all disks in the storage pool.</p> 
 
 Choosing the **Shred Data** option can significantly impact time requirements.
 {: note}
 
 3. After selecting your options, click **OK**.
 
-<note type="Warning">All volumes and shares contained in the selected pool will be deleted.</note>
+<p class="important" data-content: "WARNING: ">All volumes and shares contained in the selected pool will be deleted.</p>
 
 As a precaution, upon receiving the device back from you, IBM will erase all traces of your data using NIST 800-88 data wipe standards. This consists of a multiple-pass operation where every byte on the disk is zeroed to ensure your data is completely erased from the device and cannot be reconstructed. 
