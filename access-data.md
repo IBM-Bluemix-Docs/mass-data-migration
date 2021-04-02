@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2020
-lastupdated: "2020-03-26"
+  years: 2017, 2020, 2021
+lastupdated: "2021-04-02"
 
 keywords: verify data, access data, Cloud Object Storage, move data to Block Storage, move data to File Storage
 
@@ -22,7 +22,7 @@ subcollection: mass-data-migration
 {:preview: .preview}
 {:term: .term}
 
-# Accessing your data
+# Accessing your data your imported data
 {: #access-data}
 
 You can access and verify your migrated data by using {{site.data.keyword.cos_full}}.

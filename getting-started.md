@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2020, 2021
 lastupdated: "2021-03-30"
 
-keywords: get started tutorial, data transfer, data migration, transfer data to cloud, migrate data, migrate data to cloud, Mass Data Migration
+keywords: get started tutorial import,get started tutorial export, data transfer, data migration, transfer data to cloud, migrate data, migrate data to cloud, Mass Data Migration
 
 subcollection: mass-data-migration
 
