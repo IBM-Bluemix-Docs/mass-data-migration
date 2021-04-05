@@ -126,20 +126,7 @@ When you are finished using the device, [create a support case](https://{DomainN
 {: faq}
 
 If you are using {{site.data.keyword.mdms_short}} outside the US, EU, UK, and Canada regions, you need to request a return shipment for the device by [creating a support case](https://{DomainName}/unifiedsupport/cases/manage). Allow at least three business days for IBM to coordinate the device pickup.
-<!--- removed FAQ 04/05/2021 PW
-## How much does it cost to import data into {{site.data.keyword.cloud_notm}}?
-{: #data-transfer-cost}
-{: faq}
 
-No fees are incurred for data that is transferred into {{site.data.keyword.cloud_notm}}.
--->
-<!--- Removed this FAQ with the introduction of the Export feature. 3/30/2021 PW
-## Can I use {{site.data.keyword.mdms_short}} to export data out of {{site.data.keyword.cloud_notm}}?
-{: #exporting-data}
-{: faq}
-
-{{site.data.keyword.mdms_short}} does not support exporting data out of {{site.data.keyword.cloud_notm}} at this time.
--->
 ## Does {{site.data.keyword.mdms_short}} encrypt my data?
 {: #encryption}
 {: faq}
@@ -150,7 +137,7 @@ No fees are incurred for data that is transferred into {{site.data.keyword.cloud
 {: #security}
 {: faq}
 
-All {{site.data.keyword.mdms_short}} devices are housed in rugged and durable enclosures. These cases are waterproof, and shockproof to ensure roundtrip device and data protection. Data is secured by using TPM. <!--- See (link) for more details -->
+All {{site.data.keyword.mdms_short}} devices are housed in rugged and durable enclosures. These cases are waterproof, and shockproof to ensure roundtrip device and data protection. Data is secured by using TPM. See [Data Security](/docs/mass-data-migration?topic=mass-data-migration-data-security) for details.
 
 ## How can I track my request throughout the migration process?
 {: #how-to-track-request}
