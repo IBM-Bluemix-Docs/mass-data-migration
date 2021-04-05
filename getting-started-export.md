@@ -2,9 +2,9 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-31"
+lastupdated: "2021-04-1"
 
-keywords: get started tutorial, data transfer, data migration, transfer data to cloud, migrate data, migrate data to cloud, Mass Data Migration
+keywords: get started tutorial import,get started tutorial export, data transfer, data migration, transfer data to cloud, migrate data, migrate data to cloud, Mass Data Migration
 
 subcollection: mass-data-migration
 
@@ -34,27 +34,21 @@ tutorial shows you how to request your data transfer device for exporting data f
 
 Before you order a {{site.data.keyword.mdms_short}} device for exporting:
 
-- You must select the “Export” tile as the migration type from the Mass Data Migration configuration page. 
-The default is “Import” for the configuration page.
-{: note} 
+- You must select the “Export” tile as the migration type from the Mass Data Migration configuration page. The default is “Import” for the configuration page.
 - You need to have a provisioned instance of [{{site.data.keyword.cos_full}}](https://{DomainName}/catalog/services/cloud-object-storage){: external} for 
   your {{site.data.keyword.cloud_notm}} account, and have a COS bucket created that contains the data you want exported.
+- Your data must not exceed 100 terabytes per order to ensure that it fits on a Mass Data Migration device.
 - Understand your network connection types and speeds.
 - Plan your migration by reviewing the [regions and locations](/docs/mass-data-migration?topic=mass-data-migration-regions) where {{site.data.keyword.mdms_short}} is available.
-- Your data must not exceed 100 terabytes to ensure that it fits on an Mass Data Migration device
 - Gather your network settings, such as IP addresses and other routing details, for connecting the device to your source server.
 - Identify a person who can receive, connect, and use the device at your site.
 
-
-class="important" data-content: "Important: ">The following steps are documented here for exporting (see steps for importing). 
 ## Step 1. Place your data to be exported in the Cloud Object Storage bucket
 {: #get-started-create-bucket}
 
-After you provision an instance of Cloud Object Storage, create a storage bucket to set a destination for your migrated data. 
-
 1. If you do not have a Cloud Object Storage bucket created with data you need to follow the same steps listed in importing data for creating a storage bucket. 
 2. If your data is not already in a bucket, you must copy the data into the bucket.
-3. The data must not exceed 100 terabytes to ensure that it fits on a Mass Data Migration device.
+3. The data must not exceed 100 terabytes per order to ensure that it fits on a Mass Data Migration device.
 4. [Log in to the {{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external}.
 
 ## Step 2. Request a device
@@ -89,7 +83,7 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
      <tr>
         <td>Data Export in EU Region</td>
         <td>
-          <p>When you are exporting data across country borders within the EU region, you are required to provide the Export Control Classification Number (ECCN) or a Wassenaar Equivalent number. You are also required to specify if you require a license to export data across the border. If you do not know this information, please connect with an export regulation professional within your organization to help you figure out your Export Classification information.</p>
+          <p>If you are located in the EU you need to include your Export Control Classification Number (ECCN) or a Wassenaar Equivalent number and select if you have an export license.  See [regions and locations](/docs/mass-data-migration?topic=mass-data-migration-regions) for more information.</p>
         </td>
       </tr>
        <tr>

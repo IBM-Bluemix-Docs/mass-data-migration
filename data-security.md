@@ -35,6 +35,7 @@ Your data on {{site.data.keyword.mdms_short}} storage devices is secured at rest
 
 Data is encrypted automatically as you copy it to the device. The encryption key is protected by a strong storage password that is generated randomly by IBM on each order. Only you and IBM will have this password. For added security, you are encouraged to encrypt the data yourself before copying it to the device. This results in your data being doubly encrypted.
 
+
 Mass Data Migration storage devices are protected from tampering by following the industry-standard Trusted Platform Module (TPM) specification. A tamper resistant TPM micro-controller is used for this purpose to provide maximum hardware-based security for your data.
 
 ## Data deletion
