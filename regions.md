@@ -40,9 +40,7 @@ Before you order a device, keep in mind the following shipping and data transfer
 
   Effective 31 October 2019, {{site.data.keyword.mdms_short}} cannot ship devices between European Union member countries and the United Kingdom. If your company is located in the European Union, you can request a {{site.data.keyword.mdms_short}} device for use only within other European Union member countries.
   {: important}
-
- - **Data Export in EU Region** when you are exporting data across country borders within the EU region, you are required to provide the Export Control Classification Number (ECCN) or a Wassenaar Equivalent number. You are also required to specify if you require a license to export data across the border. If you do not know this information, please connect with an export regulation professional within your organization to help you figure out your Export Classification information.
-  {: important}
+- **Data Export in EU Region** when you are exporting data across country borders within the EU region, you are required to provide the Export Control Classification Number (ECCN) or a Wassenaar Equivalent number. You are also required to specify if you require a license to export data across the border. If you do not know this information, please connect with an export regulation professional within your organization to help you figure out your Export Classification information.
 
 ## Storage destinations
 {: #storage-destinations}

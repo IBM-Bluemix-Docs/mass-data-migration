@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021 
-lastupdated: "2021-04-02"
+lastupdated: "2021-04-05"
 
 keywords: shared responsibilities, disaster recovery, incident management
 
@@ -145,7 +145,7 @@ data.
           <ul>
             <li>For an import type order upon receiving {{site.data.keyword.mdms_short}} device from client, initiates an immediate offload of client data from {{site.data.keyword.mdms_short}} device into client-specified IBM 
             Cloud instance.</li>
-            <li>For an export ype order IBM will offload the data from the COS bucket to the device before sending it to the client.</li>
+            <li>For an export type order IBM will offload the data from the COS bucket to the device before sending it to the client.</li>
             <li>Update progress bar in Administrative User Interface to reflect offload initiation & completion when beginning & completing data offload from device into 
             IBM Cloud instance.</li>
           </ul>
