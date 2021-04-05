@@ -83,7 +83,7 @@ You can request a {{site.data.keyword.mdms_short}} device by using the {{site.da
      <tr>
         <td>Data Export in EU Region</td>
         <td>
-          <p>If you are located in the EU you need to include your Export Control Classification Number (ECCN) or a Wassenaar Equivalent number and select if you have an export license.  See [regions and locations](/docs/mass-data-migration?topic=mass-data-migration-regions) where</p>
+          <p>If you are located in the EU you need to include your Export Control Classification Number (ECCN) or a Wassenaar Equivalent number and select if you have an export license.  See [regions and locations](/docs/mass-data-migration?topic=mass-data-migration-regions) for more information.</p>
         </td>
       </tr>
        <tr>
