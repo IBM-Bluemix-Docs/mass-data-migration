@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 
-lastupdated: "2020-07-28"
+  years: 2020, 2021 
+lastupdated: "2021-04-02"
 
 keywords: shared responsibilities, disaster recovery, incident management
 
@@ -143,8 +143,9 @@ data.
       <td>
         <p>
           <ul>
-            <li>Upon receiving {{site.data.keyword.mdms_short}} device from client, initiates an immediate offload of client data from {{site.data.keyword.mdms_short}} device into client-specified IBM 
+            <li>For an import type order upon receiving {{site.data.keyword.mdms_short}} device from client, initiates an immediate offload of client data from {{site.data.keyword.mdms_short}} device into client-specified IBM 
             Cloud instance.</li>
+            <li>For an export ype order IBM will offload the data from the COS bucket to the device before sending it to the client.</li>
             <li>Update progress bar in Administrative User Interface to reflect offload initiation & completion when beginning & completing data offload from device into 
             IBM Cloud instance.</li>
           </ul>
@@ -153,11 +154,14 @@ data.
       <td>
         <p>
           <ul>
-            <li>Assumes end-to-end liability and responsibility for the data being transferred, including potential damage to or loss of said data at any point in the 
+            <li>For an import assumes end-to-end liability and responsibility for the data being transferred, including potential damage to or loss of said data at any point in the 
+            process (including while devices are in-transit via shipping carriers and at IBM locations).</li>
+            <li>For an export assumes end-to-end liability and responsibility for the data being transferred, including potential damage to or loss of said data at any point in the 
             process (including while devices are in-transit via shipping carriers and at IBM locations).</li>
             <li>Upon receiving {{site.data.keyword.mdms_short}} device from IBM, coordinate, initiate, monitor, and complete transfer of data onto {{site.data.keyword.mdms_short}} device.</li>
-            <li>Ensure data is encrypted prior to transferring onto device.</li>
-            <li>Back up all data prior to copying onto device and retain backup until verified (at the conclusion of the migration) that the data transfer was successful.
+            <li>Ensure data is encrypted prior to transferring onto device for import.</li>
+            <li>Ensure your data is encrypted in your COS bucket that will be exported.</li>
+            <li>For import orders back up all data prior to copying onto device and retain backup until verified (at the conclusion of the migration) that the data transfer was successful.
             <li>Represents and warrants the data being transferred onto the device is not classified as military or dual-use article/data requiring an export license.</li>
           </ul>
         </p>
@@ -168,8 +172,10 @@ data.
       <td>
         <p>
           <ul>
-            <li>Upon completing an offload of data into a client's IBM Cloud instance, initiate an immediate, NIST-Level data-wipe erasing any & all client data from {{site.data.keyword.mdms_short}} 
+            <li>For import orders, upon completing an offload of data into a client's IBM Cloud instance, initiate an immediate, NIST-Level data-wipe erasing any & all client data from {{site.data.keyword.mdms_short}} 
             device. 
+            </li>
+            <li>For export orders, IBM will complete the data wipe upon receivng the device. 
             </li>
             <li>When device erasure is complete, update progress bar in Administrative User Interface to reflect migration completion status in the client's Order Status User Interface.</li>
           </ul>
@@ -286,12 +292,14 @@ You are responsible for the security and compliance of your device data.
         <p>
           <ul>
             <li>Provide devices enabled with industry-standard AES 256-bit encryption.</li>
-            <li>Offload data from {{site.data.keyword.mdms_short}} devices and into IBM Cloud instances over SSL encryption.</li>
+            <li>Transfer data from {{site.data.keyword.mdms_short}} devices from IBM Cloud instances over SSL encryption.</li>
           </ul>
         </p>
       </td>
       <td>
-        <p>Encrypt data prior to copying onto device for added layer of security.
+        <p>For import encrypt data prior to copying onto device for added layer of security.
+        </p>
+        <p>For export encrypt data prior to it being placed into a COS bucket.
         </p>
       </td>
     </tr>
