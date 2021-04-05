@@ -32,7 +32,7 @@ You can copy data from an {{site.data.keyword.mdms_full}} device by using the de
 
 After you connect your server to the network share, you can start and monitor the data copy from the device.
 
-1. Copy data onto the network share by using a file copy tool that is compatible with your host computer.
+1. Copy data from the network share by using a file copy tool that is compatible with your host computer.
 2. In the Common Tasks wizard, click **View Network Activity** to show inbound Ethernet load as data is transferred to the device on the 10Gb link.
    
     ![View activity](images/network-perf.png)
