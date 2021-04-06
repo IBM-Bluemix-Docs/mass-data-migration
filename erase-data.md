@@ -33,13 +33,11 @@ Do the following to erase your data from the device.
 
    ![Storage Pool Delete](images/delete-storage-pool.png)
 
-<p class="important" data-content: "Caution: ">When you delete a storage pool all of the storage volumes and network shares which reside in the storage pool <b>will be deleted</b>. Deletion of a storage pool includes a quick format of the devices which zeros the first 10MB of each disk. However, for secure deletion of data you must select one of the data shredding options, such as the <i>4-pass Dod 5220 22-M section 8-306 procedure</i>. The shredding is done at a block level on each disk device and is done concurrently across all disks in the storage pool.</p> 
-
-Choosing the **Shred Data** option can significantly impact time requirements.
+The **Shred Data** option is not recommended because {{site.data.keyword.mdms_short}} performs a cryptographic erase. Further, using the **Shred Data** option may increase the duration of the erase process by several days.
 {: note}
 
-3. After selecting your options, click **OK**.
+<p class="important" data-content: "Caution: ">When you delete a storage pool all of the storage volumes and network shares which reside in the storage pool <b>will be deleted</b>. </p> 
 
-<p class="important" data-content: "WARNING: ">All volumes and shares contained in the selected pool will be deleted.</p>
+3. After selecting your options, click **OK**.
 
 As a precaution, upon receiving the device back from you, IBM will erase all traces of your data using NIST 800-88 data wipe standards. This consists of a multiple-pass operation where every byte on the disk is zeroed to ensure your data is completely erased from the device and cannot be reconstructed. 
