@@ -36,7 +36,8 @@ Do the following to erase your data from the device.
 The **Shred Data** option is not recommended because {{site.data.keyword.mdms_short}} performs a cryptographic erase. Further, using the **Shred Data** option may increase the duration of the erase process by several days.
 {: note}
 
-<p class="important" data-content: "Caution: ">When you delete a storage pool all of the storage volumes and network shares which reside in the storage pool <b>will be deleted</b>. </p> 
+When you delete a storage pool, all of the storage volumes and network shares which reside in the storage pool **will be deleted**.
+{: important} 
 
 3. After selecting your options, click **OK**.
 
