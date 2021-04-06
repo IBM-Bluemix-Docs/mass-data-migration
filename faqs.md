@@ -34,7 +34,7 @@ Frequently asked questions about {{site.data.keyword.mdms_full}}.
 {: #what-is-mdms}
 {: faq}
 
-{{site.data.keyword.mdms_full_notm}} is a physical data transfer service that accelerates the secure movement of terabytes to petabytes of data into the {{site.data.keyword.cloud_notm}} by using rugged, 120 TB-usable capacity, portable storage devices.
+{{site.data.keyword.mdms_full_notm}} is a physical data transfer service that accelerates the secure movement of terabytes to petabytes of data into the {{site.data.keyword.cloud_notm}} by using rugged, 120 TB-usable capacity, portable storage devices. You can also use the {{site.data.keyword.mdms_short}} service to export your data from the cloud.
 
 ## How do I start using {{site.data.keyword.mdms_short}}?
 {: #how-to-use-mdms}
@@ -127,19 +127,6 @@ When you are finished using the device, [create a support case](https://{DomainN
 
 If you are using {{site.data.keyword.mdms_short}} outside the US, EU, UK, and Canada regions, you need to request a return shipment for the device by [creating a support case](https://{DomainName}/unifiedsupport/cases/manage). Allow at least three business days for IBM to coordinate the device pickup.
 
-## How much does it cost to import data into {{site.data.keyword.cloud_notm}}?
-{: #data-transfer-cost}
-{: faq}
-
-No fees are incurred for data that is transferred into {{site.data.keyword.cloud_notm}}.
-
-<!--- Removed this FAQ with the introduction of the Export feature. 3/30/2021 PW
-## Can I use {{site.data.keyword.mdms_short}} to export data out of {{site.data.keyword.cloud_notm}}?
-{: #exporting-data}
-{: faq}
-
-{{site.data.keyword.mdms_short}} does not support exporting data out of {{site.data.keyword.cloud_notm}} at this time.
--->
 ## Does {{site.data.keyword.mdms_short}} encrypt my data?
 {: #encryption}
 {: faq}
@@ -150,7 +137,7 @@ No fees are incurred for data that is transferred into {{site.data.keyword.cloud
 {: #security}
 {: faq}
 
-All {{site.data.keyword.mdms_short}} devices are housed in rugged and durable enclosures. These cases are waterproof, shockproof, and tamper-resistant to ensure roundtrip device and data security.
+All {{site.data.keyword.mdms_short}} devices are housed in rugged and durable enclosures. These cases are waterproof, and shockproof to ensure roundtrip device and data protection. Data is secured by using TPM. See [Data Security](/docs/mass-data-migration?topic=mass-data-migration-data-security) for details.
 
 ## How can I track my request throughout the migration process?
 {: #how-to-track-request}
@@ -159,17 +146,18 @@ All {{site.data.keyword.mdms_short}} devices are housed in rugged and durable en
 To track the status of your request, search for your order name in the **Services** section of your {{site.data.keyword.cloud_notm}} resource list. Click an 
 order name to view order status from the {{site.data.keyword.mdms_short}} dashboard.
 
-## How do you erase my data from the {{site.data.keyword.mdms_short}} device after it is offloaded to {{site.data.keyword.cos_full_notm}}?
-{: #data-erasure}
-{: faq}
-
-As soon as your data offload to IBM Cloud Object Storage is complete, IBM immediately erases the device using the NIST 800-88 data wipe standard to ensure complete erasure of all of your data from devices.
-
 ## How is my data erased from the {{site.data.keyword.mdms_short}} device after I have exported my data from the cloud to my on-prem storage?
 {: #export-data-erasure}
 {: faq}
 
 After you copy your data from the {{site.data.keyword.mdms_short}} device to your on-prem storage, you can erase your data using the **Delete Storage Pool** feature in the device's user interface. The data is erased using the NIST 800-88 data wipe standard. As a precaution, the same procedure is repeated after a device is returned to IBM.
+
+## How do you erase my data from the {{site.data.keyword.mdms_short}} device after it is imported to {{site.data.keyword.cos_full_notm}}?
+{: #data-erasure}
+{: faq}
+
+order name to view order status from the {{site.data.keyword.mdms_short}} dashboard.
+As soon as your {{site.data.keyword.mdms_short}} order is complete, IBM immediately erases the device using the NIST 800-88 data wipe standard to ensure complete erasure of all of your data from devices.
 
 ## What are the file interfaces on {{site.data.keyword.mdms_short}}?
 {: #file-interfaces}
@@ -200,7 +188,9 @@ The file interface is based on mature file and network software that enables lar
 {: faq}
 
 {{site.data.keyword.mdms_short}} costs 50 USD per day to use. When importing your data to the cloud, the 50 USD daily charges begin accruing the day your Mass Data Migration device arrives at your 
-location and stop accruing the day your device arrives at IBM for offload to IBM Cloud. The 50 USD pricing covers round-trip shipping. When exporting your data to your on-prem storage, the daily charges begin accruing when IBM starts copying your data from the cloud to the device and stop accruing when  you ship the device back to IBM.  This pricing model applies to all regions.
+location and stop accruing the day your device arrives at IBM for offload to IBM Cloud. The 50 USD pricing covers round-trip shipping. 
+
+When exporting your data to your on-prem storage, the daily charges begin accruing when IBM starts copying your data from the cloud to the device and stop accruing when  you ship the device back to IBM.  This pricing model applies to all regions.
 
 ## Am I charged for {{site.data.keyword.cos_full_notm}} use?
 {: #pricing-cos}
