@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-03-30"
+lastupdated: "2021-04-07"
 
 keywords: submit order, create order, create request, submit request, track order, track request
 
@@ -48,7 +48,7 @@ The following table shows how the order status changes as {{site.data.keyword.md
 | Prepare shipment | After your order is approved, the request status changes to _Prepare shipment_. {{site.data.keyword.mdms_short}} prepares and configures the next available storage device.  |
 | Ship to customer | A pre-configured storage device is shipped to your location. {{site.data.keyword.mdms_short}} uses roundtrip UPS overnight shipping for US devices and roundtrip FedEx overnight shipping for EU devices.|
 | Client site | After the device is delivered to your location, the request status changes to _Client site_. |
-| Coordinate shipment to IBM | **For regions outside of the US, EU, United Kingdom, and Canada.** If the device is delivered to a supported region outside of the US, EU, United Kingdom, or Canada, the request status changes to _Coordinate shipment with IBM_. [Create a support case](/docs/mass-data-migration?topic=mass-data-migration-return-device#return-device-from-other-regions) to request a pickup and return shipment. |
+| Coordinate shipment to IBM | **For regions outside of the US, EU, United Kingdom, Canada and Australia.** If the device is delivered to a supported region outside of the US, EU, United Kingdom, Canada or Australia, the request status changes to _Coordinate shipment with IBM_. [Create a support case](/docs/mass-data-migration?topic=mass-data-migration-return-device#return-device-from-other-regions) to request a pickup and return shipment. |
 | Ship to IBM | The device is in transit to IBM. |
 | Data offload | When IBM receives the {{site.data.keyword.mdms_short}} device, the request status changes to _Data offload_. The device is connected to the network in the {{site.data.keyword.cloud_notm}} data center, and the data offload starts automatically.  |
 | Erase data | When the offload process is complete, the request status changes to _Erase data_. Your data is now available in the Cloud Object Storage destination that you specified in the initial request. {{site.data.keyword.mdms_short}} permanently [erases](/docs/mass-data-migration?topic=mass-data-migration-data-security#security-deletion) data from the device. |
@@ -67,7 +67,7 @@ The following table shows how the order status changes as {{site.data.keyword.md
 | Prepare shipment | {{site.data.keyword.mdms_short}} prepares and configures storage device. |
 | Ship to customer | A pre-configured storage device is shipped to your location. {{site.data.keyword.mdms_short}} uses roundtrip UPS overnight shipping for US devices and roundtrip FedEx overnight shipping for EU devices.|
 | Client site | After the device is delivered to your location, the request status changes to _Client site_. |
-| Coordinate shipment to IBM | **For regions outside of the US, EU, United Kingdom, and Canada.** If the device is in a supported region outside of the US, EU, United Kingdom, or Canada, the request status changes to _Coordinate shipment with IBM_. [Create a support case](/docs/mass-data-migration?topic=mass-data-migration-return-device#return-device-from-other-regions) to request a pickup and return shipment. |
+| Coordinate shipment to IBM | **For regions outside of the US, EU, United Kingdom, Canada and Australia.** If the device is in a supported region outside of the US, EU, United Kingdom, Canada or Australia, the request status changes to _Coordinate shipment with IBM_. [Create a support case](/docs/mass-data-migration?topic=mass-data-migration-return-device#return-device-from-other-regions) to request a pickup and return shipment. |
 | Ship to IBM | The device is in transit to IBM. |
 | Erase Data | All traces of your data are permanently [erased](/docs/mass-data-migration?topic=mass-data-migration-data-security#security-deletion) from the device. |
 | Complete | Your order was successfully completed. |
