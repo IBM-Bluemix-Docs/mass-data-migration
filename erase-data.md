@@ -22,7 +22,7 @@ subcollection: mass-data-migration
 {:preview: .preview}
 {:term: .term}
 
-# Erase data from device 
+# Erase data from device
 {: #erase-data}
 
 Do the following to erase your data from the device.
