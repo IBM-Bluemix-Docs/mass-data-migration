@@ -22,7 +22,7 @@ subcollection: mass-data-migration
 {:preview: .preview}
 {:term: .term}
 
-# Erase data from device 
+# Erase data from device
 {: #erase-data}
 
 Do the following to erase your data from the device.
@@ -31,7 +31,7 @@ Do the following to erase your data from the device.
 
 2. In the **Storage Management** tab, navigate to **Storage Pools --> Storage Pool --> Delete**.
 
-   ![Storage Pool Delete](images/delete-storage-pool.png)
+![Storage Pool Delete](images/delete-storage-pool.png)
 
 The **Shred Data** option is not recommended because {{site.data.keyword.mdms_short}} performs a cryptographic erase. Further, using the **Shred Data** option may increase the duration of the erase process by several days.
 {: note}
