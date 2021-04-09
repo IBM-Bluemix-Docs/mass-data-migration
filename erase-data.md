@@ -27,7 +27,7 @@ subcollection: mass-data-migration
 
 Do the following to erase your data from the device.
 
-1. [Log in to the device UI](/docs/mass-data-migration?topic=mass-data-migration-access-interface#access-ui) 
+1. [Log in to the device's user interface.](/docs/mass-data-migration?topic=mass-data-migration-access-ui)
 
 2. In the **Storage Management** tab, navigate to **Storage Pools --> Storage Pool --> Delete**.
 

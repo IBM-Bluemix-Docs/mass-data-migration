@@ -156,7 +156,6 @@ After you copy your data from the {{site.data.keyword.mdms_short}} device to you
 {: #data-erasure}
 {: faq}
 
-order name to view order status from the {{site.data.keyword.mdms_short}} dashboard.
 As soon as your {{site.data.keyword.mdms_short}} order is complete, IBM immediately erases the device using the NIST 800-88 data wipe standard to ensure complete erasure of all of your data from devices.
 
 ## What are the file interfaces on {{site.data.keyword.mdms_short}}?
