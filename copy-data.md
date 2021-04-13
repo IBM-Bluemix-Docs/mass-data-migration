@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2020
-lastupdated: "2020-03-26"
+  years: 2017, 2020, 2021
+lastupdated: "2021-03-25"
 
 keywords: copy data to device, move data to device 
 
@@ -25,7 +25,7 @@ subcollection: mass-data-migration
 # Copying data to the device
 {: #copy-data}
 
-You can copy data to an {{site.data.keyword.mdms_full}} device by using the device user interface.
+You can copy data to or from an {{site.data.keyword.mdms_full}} device by using the device user interface.
 
 ## Copying data to the device
 {: #copy-data-to-device}
@@ -43,5 +43,5 @@ After you connect your server to the network share, you can start and monitor th
 ## Next steps
 {: #import-data-next-steps}
 
-- Gracefully [power down the device](/docs/mass-data-migration?topic=mass-data-migration-disconnect-device).
-- Prepare the shipping label and [return the device to IBM](/docs/mass-data-migration?topic=mass-data-migration-ship-device).
+- Gracefully [power down the device](/docs/mass-data-migration?topic=mass-data-migration-return-device#disconnect-device).
+- Prepare the shipping label and [return the device to IBM](/docs/mass-data-migration?topic=mass-data-migration-return-device).

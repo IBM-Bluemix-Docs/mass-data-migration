@@ -55,7 +55,7 @@ Additionally, the data is encrypted with AES 256-bit encryption as it is ingeste
 To add an extra layer of security during shipping, you should encrypt your data prior to ingesting onto a {{site.data.keyword.mdms_short}} device.
 You are responsible for keeping backups of all data that is copied onto devices, and for retaining that data until you have accessed your {{site.data.keyword.cloud_notm}}™ accounts and verified that your data transfers were successful and ultimately complete. 
 
-Click [here](https://www-03.ibm.com/software/sla/sladb.nsf/sla/bm-8697-02) to view the {{site.data.keyword.mdms_short}} Terms & Conditions that you agree to upon order placement. 
+Click [here](https://www.ibm.com/support/customer/csol/terms/?id=i126-8697) to view the {{site.data.keyword.mdms_short}} Terms & Conditions that you agree to upon order placement. 
 Note that you assume all responsibility for the potential loss of or damage to {{site.data.keyword.mdms_short}} devices & the data on them, end-to-end.
 {: important}
  

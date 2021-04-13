@@ -1,15 +1,16 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="mass-data-migration" audience="services" category="storage_datamovement" href="/docs/mass-data-migration?topic=mass-data-migration-getting-started-tutorial" path="mass-data-migration"}
+{: .toc subcollection="mass-data-migration" audience="service" category="storage_datamovement" href="/docs/mass-data-migration?topic=mass-data-migration-getting-started-tutorial" path="mass-data-migration"}
 Mass Data Migration
 
     {: .navgroup id="learn"}
     getting-started.md
+    getting-started-export.md
     [Why IBM Cloud Mass Data Migration?](https://www.ibm.com/cloud/mass-data-migration)
 
     {: .topicgroup}
-    About the service
+    About the service 
         service-overview.md
         device-overview.md
 
@@ -18,7 +19,7 @@ Mass Data Migration
         move-data.md
         migrate-netezza-databases.md
         [Migrating Veeam workloads](https://www.ibm.com/downloads/cas/1MXNAXM9)
-        [Migrating VM workloads](https://developer.ibm.com/recipes/tutorials/cold-migration-of-vmware-guests-via-mdms/)
+       
 
     releases.md
     {: .navgroup-end}
@@ -33,11 +34,13 @@ Mass Data Migration
         access-interface.md
 
     {: .topicgroup}
-    Importing your data
+    Transferring your data
         unlock-storage-pool.md
         connect-share-nfs.md
         connect-share-smb.md
         copy-data.md
+        export-data.md
+        erase-data.md
 
     return-device.md
     access-data.md
@@ -55,6 +58,7 @@ Mass Data Migration
     specs.md
     related-links.md
     data-security.md
+    shared-responsibilities.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}

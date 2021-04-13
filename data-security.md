@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2020
-lastupdated: "2020-06-18"
+  years: 2017, 2020, 2021
+lastupdated: "2021-03-29"
 
 keywords: encryption, security
 
@@ -35,9 +35,14 @@ Your data on {{site.data.keyword.mdms_short}} storage devices is secured at rest
 
 Data is encrypted automatically as you copy it to the device. The encryption key is protected by a strong storage password that is generated randomly by IBM on each order. Only you and IBM will have this password. For added security, you are encouraged to encrypt the data yourself before copying it to the device. This results in your data being doubly encrypted.
 
+
+Mass Data Migration storage devices are protected from tampering by following the industry-standard Trusted Platform Module (TPM) specification. A tamper resistant TPM micro-controller is used for this purpose to provide maximum hardware-based security for your data.
+
 ## Data deletion
 {: #security-deletion}
 
-Once your data is migrated from the Mass Data Migration device to IBM Cloud, all traces of your data are erased from the device using NIST data wipe standards. This consists of a multiple pass operation where every byte on the disk is zeroed to ensure your data is completely erased from the device and can’t be reconstructed.
+
+Once your data is migrated from the Mass Data Migration device to IBM Cloud, all traces of your data are erased from the device using NIST 800-88 data wipe standards. This consists of a multiple-pass operation where every byte on the disk is zeroed to ensure your data is completely erased from the device and cannot be reconstructed.
+
 
 In addition, if you want to delete the information you had entered on the {{site.data.keyword.mdms_short}} order form, you can delete the {{site.data.keyword.mdms_short}} resource from your resource list after your order is completed. We will then erase that data from our records.
