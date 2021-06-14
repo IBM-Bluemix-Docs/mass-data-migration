@@ -55,7 +55,7 @@ The first column in the table represents the country where your company or sourc
 | Location | Data centers | Storage destinations |
 |-----|-----|----|
 | Brazil | São Paulo | Single site: `sao01`  |
-| Canada | Montréal<br>Toronto | Single site: `mon01` <br>Single site: `tor01` |
+| Canada | Montréal<br>Toronto | Single site: `mon01` <br>Single site: `ca-tor` |
 | Mexico| Mexico City | Single site: `mex01` |
 | United States|  Dallas<br>San Jose<br>Washington DC | Cross region: `us-geo`<br>Regional: `us-south`<br>Regional: `us-east`<br>Single site: `sjc04` |
 {: caption="Table 1. Lists the available data offload locations in the Americas" caption-side="top"}
